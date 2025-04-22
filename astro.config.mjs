@@ -11,6 +11,7 @@ import { site } from './src/config';
 export default defineConfig({
   adapter: netlify({
     cacheOnDemandPages: true,
+    imageCDN: false,
   }),
   env: {
     schema: {
