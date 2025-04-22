@@ -23,7 +23,7 @@ const { for_2 } = prep_times;
 >
   {image &&
     <div class="relative">
-      <Image alt={title} class="w-full" height={400} src={image} width={400} />
+      <img alt={title} class="w-full" height={400} src={image} width={400} />
       {rating?.average &&
         <div class="absolute  bg-white  end-0  flex  items-center  p-2  rounded-bl-lg  space-x-2  text-sm  top-0">
           <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
