@@ -1,0 +1,49 @@
+---
+export interface RecipeCardProps {
+  cuisine: string;
+  id: string;
+  image: string;
+  prep_times: {
+    for_2: number;
+  };
+  rating: {
+    average: number;
+    total: number;
+  };
+  title: string;
+}
+
+const { cuisine, id, image, prep_times, rating, title } = Astro.props as RecipeCardProps;
+const { for_2 } = prep_times;
+---
+
+<a
+  class="bg-white  border  border-secondary-100  flex  flex-col  group  h-full  overflow-hidden  rounded-lg  transition  hover:border-secondary-200  hover:shadow-sm"
+  href={`/recipes/${id}/`}
+>
+  {image &&
+    <div class="relative">
+      <Image alt={title} class="w-full" height={400} src={image} width={400} />
+      {rating?.average &&
+        <div class="absolute  bg-white  end-0  flex  items-center  p-2  rounded-bl-lg  space-x-2  text-sm  top-0">
+          <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
+        </div>
+      }
+    </div>
+  }
+  <div class="flex  flex-col  h-full  justify-between  p-4">
+    <h2 class="font-medium  font-serif  mb-4  text-md  transition  group-hover:text-primary-600">{title}</h2>
+    <div class="flex  items-center  justify-between  overflow-hidden  space-x-8  text-sm  text-center  text-secondary-700  group-hover:text-secondary-950">
+      {for_2 &&
+        <div class="flex  items-center  space-x-2">
+          <Icon name="stopwatch" /> <span>{for_2} mins</span>
+        </div>
+      }
+      {cuisine &&
+        <div class="flex  items-center  space-x-2">
+          <Icon name="globe" /> <span>{cuisine}</span>
+        </div>
+      }
+    </div>
+  </div>
+</a>

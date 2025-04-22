@@ -1,1 +1,1 @@
-# gousto
+# gousto.wiki

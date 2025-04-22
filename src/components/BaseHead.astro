@@ -1,0 +1,51 @@
+---
+import { GOOGLE_TAG_MANAGER_ID } from 'astro:env/client';
+import faviconSrc from '@/images/favicon.png';
+import faviconSvgSrc from '@/images/favicon.svg';
+
+export interface BaseHeadProps {
+  description?: string;
+  title?: string;
+}
+
+const { description, title } = Astro.props as BaseHeadProps;
+const appleTouchIcon = await getImage({ format: 'png', height: 180, src: faviconSrc, width: 180 });
+const faviconSvg = await getImage({ src: faviconSvgSrc, format: 'svg' });
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+---
+
+<meta charset="utf-8">
+<title>{title ? `${stripHtml(title).result} | ` : ``}{site.name}</title>
+<link rel="apple-touch-icon" href={appleTouchIcon.src} />
+<link rel="canonical" href={canonicalUrl}>
+<link rel="icon" href="/favicon.ico" sizes="32x32" />
+<link rel="icon" href={faviconSvg.src} type="image/svg+xml" />
+<link rel="manifest" href="/manifest.json" />
+{description && (
+  <meta name="description" content={stripHtml(description).result}>
+)}
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  @font-face {
+    font-display: swap;
+    font-family: 'Geist Sans';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('/fonts/GeistSans.woff2') format('woff2 supports variations'),
+         url('/fonts/GeistSans.woff2') format('woff2-variations');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('/fonts/NotoSerif.woff2') format('woff2 supports variations'),
+         url('/fonts/NotoSerif.woff2') format('woff2-variations');
+  }
+</style>
+<link rel="preload" href="/fonts/GeistSans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/NotoSerif.woff2" as="font" type="font/woff2" crossorigin>
+<!-- Google Tag Manager -->
+<script is:inline set:html={`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GOOGLE_TAG_MANAGER_ID}');`}></script>
+<ViewTransitions />

@@ -1,0 +1,35 @@
+---
+export interface IngredientsProps {
+  ingredients: {
+    allergens: string[];
+    label: string;
+    image: string;
+  }[];
+  basics: string[];
+}
+
+const { basics, ingredients } = Astro.props as IngredientsProps;
+---
+
+<div class="border  border-secondary-100  p-4  rounded-lg  text-sm">
+  <h2 class="font-medium  font-serif  mb-2  text-xl">Ingredients for 2 people</h2>
+  <p class="mb-4">
+    <span class="text-purple">Cooking for 3?</span> 1 and a half for each ingredient<br>
+    <span class="text-danger">Cooking for 4?</span> Double each ingredient
+  </p>
+  <div class="mb-4">
+    {ingredients.map(({ allergens, label, image }) => (
+      <div class="flex  items-center  space-x-4">
+        <div class="flex  flex-col  items-center">
+          <Image alt={label} class="w-10" height={40} src={useRemoteImageUrl(image)} width={40} />
+        </div>
+        <div class="space-x-0.5">
+          <span>{label}</span>
+          {allergens.length > 0 && <strong class="font-normal">†</strong>}
+        </div>
+      </div>
+    ))}
+  </div>
+  <h2 class="font-medium  font-serif  mb-2  text-xl">You'll also need</h2>
+  <p>{basics.join(", ")} <span class="font-normal">(or dietary alternatives)</span></p>
+</div>

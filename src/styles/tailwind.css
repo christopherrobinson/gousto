@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+/* Plugins */
+@plugin '@tailwindcss/typography';
+
+/* Additional configuration */
+@config '../../tailwind.config.mjs';
+
+@layer base {
+  .text-danger {
+    color: #ff0032;
+  }
+
+  .text-purple {
+    color: #615cff;
+  }
+}
+
+@theme {
+  --animate-pulse: pulse 2s ease-in-out infinite;
+
+  @keyframes pulse {
+    50% {
+      opacity: 0.8;
+    }
+  }
+}

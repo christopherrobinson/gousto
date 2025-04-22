@@ -1,0 +1,83 @@
+---
+import Container from '@/components/Container.astro';
+import NavItem from '@/components/Layout/Header/NavItem.astro';
+import NavItemMobile from '@/components/Layout/Header/NavItemMobile.astro';
+import PercentageScrolled from '@/components/Layout/Header/PercentageScrolled.astro';
+---
+
+<header class="backdrop-blur  bg-white/80  border-b  border-t-2  border-zinc-200  sticky  top-0  z-20">
+  <PercentageScrolled />
+  <Container>
+    <div class="flex  items-center  justify-between  py-2  sm:py-4">
+      <a class="flex  items-center  -mx-2  p-2" href="/" transition:persist>
+        <Icon class="mr-1  size-4  text-primary-700" name="olive-branch" />
+        gousto<span class="font-medium">wiki</span>
+      </a>
+      <div class="sm:hidden">
+        <button
+          aria-label="Open navigation"
+          class="flex  items-center  justify-center  -mx-2  p-2"
+          id="openNavigation"
+          type="button"
+        >
+          <Icon class="shrink-0  size-4" name="bars" />
+        </button>
+      </div>
+      <div class="hidden  -mr-4  sm:block">
+        <ul class="flex  items-center  lowercase  text-sm">
+          <NavItem href="/about/">About</NavItem>
+          <NavItem href="/recipes/">Recipes</NavItem>
+        </ul>
+      </div>
+    </div>
+  </Container>
+</header>
+
+<div
+  class="bg-black/80  fixed  hidden  inset-0  opacity-0  transition-opacity  z-20  sm:hidden"
+  id="navigationOverlay"
+>
+</div>
+<div
+  class="bottom-0   border-l  border-zinc-200  bg-white  fixed  flex  h-screen  position  pt-[58px]  -right-80  transition-all  w-80  z-20  sm:hidden"
+  id="navigation"
+>
+    <button
+      aria-label="Close navigation"
+      class="absolute  flex  items-center  justify-center  mr-2  mt-3  p-2  right-0  size-8  top-[2px]"
+      id="closeNavigation"
+      type="button"
+    >
+      <Icon class="shrink-0  size-4" name="x" />
+    </button>
+    <ul class="border-t  border-zinc-200  text-base  w-full">
+      <NavItemMobile href="/">Home</NavItemMobile>
+      <NavItemMobile href="/about/">About</NavItemMobile>
+      <NavItemMobile href="/recipes/">Recipes</NavItemMobile>
+    </ul>
+</div>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+
+    const navigation            = document.getElementById('navigation');
+    const navigationOverlay     = document.getElementById('navigationOverlay');
+    const openNavigationButton  = document.getElementById('openNavigation');
+    const closeNavigationButton = document.getElementById('closeNavigation');
+
+    openNavigationButton?.addEventListener('click', () => {
+      navigation?.classList.remove('-right-80');
+      navigation?.classList.add('right-0');
+      navigationOverlay?.classList.remove('hidden', 'opacity-0');
+      navigationOverlay?.classList.add('block', 'opacity-1000');
+    });
+
+    closeNavigationButton?.addEventListener('click', () => {
+      navigation?.classList.add('-right-80');
+      navigation?.classList.remove('right-0');
+      navigationOverlay?.classList.add('hidden', 'opacity-0');
+      navigationOverlay?.classList.remove('block', 'opacity-100');
+    });
+
+  });
+</script>
