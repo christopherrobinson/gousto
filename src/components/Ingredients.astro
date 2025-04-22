@@ -21,7 +21,11 @@ const { basics, ingredients } = Astro.props as IngredientsProps;
     {ingredients.map(({ allergens, label, image }) => (
       <div class="flex  items-center  space-x-4">
         <div class="flex  flex-col  items-center">
-          <Image alt={label} class="w-10" height={40} src={useRemoteImageUrl(image)} width={40} />
+          {image &&
+            <Image alt={label} class="w-10" height={40} src={useRemoteImageUrl(image)} width={40} />
+          ||
+            <span class="bg-secondary-50  flex  items-center  justify-center  rounded-full  size-10  text-secondary-800/50">x</span>
+          }
         </div>
         <div class="space-x-0.5">
           <span>{label}</span>
