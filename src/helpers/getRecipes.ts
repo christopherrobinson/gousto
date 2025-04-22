@@ -1,3 +1,7 @@
-export const getRecipes = async () =>
-    (await getCollection('recipes'))
-      .sort((a, b) => parseInt(b.data.gousto_id) - parseInt(a.data.gousto_id));
+export const getRecipes = async () => {
+  return (await getCollection('recipes'))
+    // filter out recipes without cooking instructions
+    .filter(recipe => recipe.data.cooking_instructions?.length)
+    // sort by gousto_id descending
+    .sort((a, b) => parseInt(b.data.gousto_id) - parseInt(a.data.gousto_id));
+};
