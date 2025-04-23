@@ -32,7 +32,13 @@ export default defineConfig({
   integrations: [
     icon({ iconDir: './src/images/icons' }),
     sitemap(),
-    (await import("astro-compress")).default(),
+    (await import("astro-compress")).default({
+      CSS: true,
+      HTML: false,
+      Image: true,
+      JavaScript: true,
+      SVG: true,
+    }),
   ],
   prefetch: {
     defaultStrategy: 'hover',
