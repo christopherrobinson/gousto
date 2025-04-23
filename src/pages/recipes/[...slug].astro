@@ -27,7 +27,12 @@ const ingredientsFor2 = data.ingredients.filter(ingredient => portion_sizes?.fin
 const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingredients;
 ---
 
-<Layout>
+<Layout
+  meta={{
+    title: `${title}${for_2 ? ` (${for_2} mins)` : ``}`,
+    description: description,
+  }}
+>
   <Breadcrumbs
     items={[
       { label: 'Recipes', href: '/recipes/' },
@@ -116,10 +121,10 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
   </Container>
   <div class="bg-secondary-100  py-16  text-sm  text-center">
     <Container>
-        <h2 class="font-semibold  font-serif  leading-16  mb-4  text-3xl">
+        <h2 class="font-semibold  font-serif  mb-4  text-xl  md:leading-16  md:text-3xl">
           The Recipe Box with More Delicious Choices Than Ever!
         </h2>
-        <ul class="mb-8  text-lg">
+        <ul class="mb-4  text-md  md:mb-8  md:text-lg">
           <li class="mb-4">
             <strong class="font-medium">500+ tasty recipes every month</strong> &mdash; there's always something new to try!
           </li>
@@ -131,7 +136,7 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
           </li>
         </ul>
         <a
-          class="animate-pulse  bg-tertiary-600  font-medium  hidden  items-center  px-6  py-3  rounded-xl  text-white  transition  md:inline-block  hover:animate-none  hover:bg-tertiary-800"
+          class="animate-pulse  bg-tertiary-600  font-medium  inline-block  items-center  px-6  py-3  rounded-xl  text-white  transition  hover:animate-none  hover:bg-tertiary-800"
           href={`https://www.gousto.co.uk/raf/?promo_code=${GOUSTO_REFERRAL_CODE}`}
         >
           <span class="text-lg">View the full menu now</span>

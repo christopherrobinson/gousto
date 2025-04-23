@@ -16,15 +16,13 @@ const { currentPage, data = [], lastPage, url } = page;
 const { current, next, prev } = url;
 ---
 
-<Layout
-  heading={`Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}
->
+<Layout heading={`Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
   <Container>
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
       {
         data.map(async (post: any) => {
           const { data, id } = post
-          const { cuisine, gousto_id, image, prep_times, rating, title } = data;
+          const { cuisine, image, prep_times, rating, title } = data;
 
           return (
             <RecipeCard
