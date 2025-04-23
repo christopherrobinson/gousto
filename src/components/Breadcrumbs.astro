@@ -1,0 +1,33 @@
+---
+import Container from '@/components/Container.astro';
+
+interface BreadcrumbItem {
+  label: string;
+  href: string;
+}
+
+interface BreadcrumbsProps {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props as BreadcrumbsProps;
+---
+
+<div class="bg-secondary-100  mb-8  py-6  text-sm">
+  <Container>
+    <nav aria-label="Breadcrumb">
+      <ol class="flex  space-x-2">
+        {items.map((item, index) => (
+          <li class="flex  items-center">
+            <a class="hover:underline" href={item.href}>
+              {item.label}
+            </a>
+            {index < items.length - 1 && (
+              <span class="ms-2">/</span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  </Container>
+</div>

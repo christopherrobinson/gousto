@@ -1,0 +1,48 @@
+---
+import Container from '@/components/Container.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
+import RecipeCard from '@/components/RecipeCard.astro';
+import Layout from '@/layouts/Default.astro';
+
+export const getStaticPaths = async ({ paginate }) => {
+  const recipes = await getRecipes();
+
+  return paginate(recipes.slice(0, recipesPerPage * 10), { pageSize: recipesPerPage });
+}
+
+const { pathname } = Astro.url;
+const { page } = Astro.props;
+const { currentPage, data = [], lastPage, url } = page;
+const { current, next, prev } = url;
+---
+
+<Layout heading={`Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
+  <Container>
+    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+      {
+        data.map(async (post: any) => {
+          const { data, id } = post
+          const { cuisine, image, prep_times, rating, title } = data;
+
+          return (
+            <RecipeCard
+              cuisine={cuisine}
+              id={id}
+              image={image}
+              prep_times={prep_times}
+              rating={rating}
+              title={title}
+            />
+          )
+        })
+      }
+    </div>
+  </Container>
+  <Pagination
+    baseUrl={`/${pathname.split("/")[1]}/`}
+    currentUrl={current}
+    length={lastPage}
+    nextUrl={next}
+    prevUrl={prev}
+  />
+</Layout>

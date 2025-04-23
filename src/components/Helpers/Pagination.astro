@@ -1,0 +1,47 @@
+---
+import Container from '@/components/Container.astro';
+
+export interface PaginationProps {
+  baseUrl: string;
+  currentUrl: string;
+  length: number;
+  nextUrl?: string;
+  prevUrl?: string;
+}
+
+const { baseUrl, currentUrl, length, nextUrl, prevUrl } = Astro.props as PaginationProps;
+---
+
+<div class="bg-secondary-100  mt-auto  py-8">
+  <Container>
+    <div class="grid  grid-cols-11">
+      <div class="col-span-5  flex  items-center  justify-start">
+        {(prevUrl && (baseUrl != currentUrl)) && (
+          <a
+            class="flex  items-center  justify-start  hover:text-primary  hover:underline"
+            href={prevUrl}
+          >
+            <Icon class="mr-1  size-3" name="chevron-left" />
+            Previous
+          </a>
+        )}
+      </div>
+      <div class="flex  items-center  justify-center">
+        <a class="hover:text-primary" href={baseUrl}>
+          <Icon class="size-5" name="grid-2" />
+        </a>
+      </div>
+      <div class="col-span-5  flex  items-center  justify-end">
+        {(nextUrl && (`${baseUrl}${length}/` != currentUrl)) && (
+          <a
+            class="flex  items-center  justify-end  hover:text-primary  hover:underline"
+            href={nextUrl}
+          >
+            Next
+            <Icon class="ml-1  size-3" name="chevron-right" />
+          </a>
+        )}
+      </div>
+    </div>
+  </Container>
+</div>

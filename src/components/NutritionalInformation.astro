@@ -1,0 +1,66 @@
+---
+export interface NutritionalInformationProps {
+  perPortion: {
+    carbs_mg?: number;
+    energy_kcal?: number;
+    fat_mg?: number;
+    fibre_mg?: number;
+    protein_mg?: number;
+    salt_mg?: number;
+  };
+}
+
+const { perPortion } = Astro.props as NutritionalInformationProps;
+const perPortionIsValid = Object.values(perPortion).every(value => !!value);
+---
+
+{perPortion && perPortionIsValid &&
+  <div class="border-b  border-secondary-100  mb-8  pb-8">
+    <h2 class="font-semibold  font-serif  mb-2  text-3xl">Nutritional information</h2>
+    <p class="mb-8  text-secondary-800">Nutritional information only applies to ingredients supplied by Gousto.</p>
+    <div class="flex  mb-8  overflow-hidden  rounded-md">
+      <div class="bg-primary-600  flex  items-center  p-8  text-white">
+        per<br>serving
+      </div>
+      <div class="bg-secondary-100  flex  flex-1  items-center  justify-around  p-8  text-sm  text-center">
+        {perPortion.energy_kcal && (
+          <div>
+            <div class="font-medium"><span class="text-2xl">{perPortion.energy_kcal}</span>kcal</div>
+            <div class="text-secondary-800">Energy</div>
+          </div>
+        )}
+        {perPortion.fat_mg && (
+          <div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.fat_mg)}</span>g</div>
+            <div class="text-secondary-800">Fat</div>
+          </div>
+        )}
+        {perPortion.carbs_mg && (
+          <div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.carbs_mg)}</span>g</div>
+            <div class="text-secondary-800">Carbohydrate</div>
+          </div>
+        )}
+        {perPortion.fibre_mg && (
+          <div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.fibre_mg)}</span>g</div>
+            <div class="text-secondary-800">Fibre</div>
+          </div>
+        )}
+        {perPortion.protein_mg && (
+          <div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.protein_mg)}</span>g</div>
+            <div class="text-secondary-800">Protein</div>
+          </div>
+        )}
+        {perPortion.salt_mg && (
+          <div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.salt_mg)}</span>g</div>
+            <div class="text-secondary-800">Salt</div>
+          </div>
+        )}
+      </div>
+    </div>
+    <p class="text-secondary-800">The cooking process and additional ingredients added at home (listed under &ldquo;You'll also need&rdquo;) will affect total values.</p>
+  </div>
+}

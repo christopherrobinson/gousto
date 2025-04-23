@@ -1,0 +1,52 @@
+---
+import Container from '@/components/Container.astro';
+import RecipeCard from '@/components/RecipeCard.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
+import Layout from '@/layouts/Default.astro';
+
+export const getStaticPaths = async () => {
+  const cuisines = await getUniqueCuisines();
+
+  const paths = cuisines.map(cuisine => ({
+    params: { slug: createSlug(cuisine) },
+    props: { cuisine },
+  }));
+
+  return paths;
+};
+
+const { slug } = Astro.params;
+const { cuisine } = Astro.props;
+const { pathname } = Astro.url;
+
+const taggedRecipes = await getRecipesByCuisine(cuisine);
+const data = taggedRecipes.slice(0, recipesPerPage);
+---
+
+<Layout heading={`${cuisine} Receipes`}>
+  <Container>
+    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+      {data.map((recipe) => {
+        const { data, id } = recipe
+        const { cuisine, image, prep_times, title } = data;
+
+        return (
+          <RecipeCard
+            cuisine={cuisine}
+            id={id}
+            image={image}
+            prep_times={prep_times}
+            title={title}
+          />
+        );
+      })}
+    </div>
+  </Container>
+  {(taggedRecipes.length > recipesPerPage) &&
+    <Pagination
+      baseUrl={pathname}
+      currentUrl={slug}
+      nextUrl={`/recipes/cuisine/${slug}/2/`}
+    />
+  }
+</Layout>

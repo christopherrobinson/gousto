@@ -1,0 +1,21 @@
+---
+export interface NavItemProps {
+  href: string;
+}
+
+const { href } = Astro.props;
+const { pathname } = Astro.url;
+const isActive = href === pathname || href === `/${pathname.split('/')[1]}/`;
+---
+
+<li class="px-2">
+  <a
+    class={`
+      block  p-2  text-zinc-800  transition
+      ${(isActive && 'underline') || 'hover:underline'}
+    `}
+    href={href}
+  >
+    <slot />
+  </a>
+</li>

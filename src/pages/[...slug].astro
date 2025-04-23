@@ -1,0 +1,26 @@
+---
+import Container from '@/components/Container.astro';
+import Layout from '@/layouts/Default.astro';
+
+export const getStaticPaths = async () => {
+  const pages = await getCollection('pages');
+
+  return pages.map((page) => ({
+    params: { slug: page.id },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { data } = page;
+const { meta, title } = data;
+const { Content } = await render(page);
+---
+
+<Layout heading={title} meta={meta}>
+  <Container>
+    <div class="max-w-none  prose  py-8  md:prose-md">
+      <Content />
+    </div>
+  </Container>
+</Layout>

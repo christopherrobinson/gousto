@@ -1,0 +1,40 @@
+{
+  "name": "gousto.wiki",
+  "version": "0.0.1",
+  "author": "Christopher Robinson <hello@christopherrobinson.uk>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christopherrobinson/gousto"
+  },
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "check": "astro check",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/netlify": "^6.3.1",
+    "@astrojs/sitemap": "^3.3.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/node": "^22.14.1",
+    "astro": "^5.7.5",
+    "astro-capo": "^0.0.1",
+    "astro-compress": "^2.3.8",
+    "astro-icon": "^1.1.5",
+    "fuse.js": "^7.1.0",
+    "sharp-ico": "^0.1.5",
+    "string-strip-html": "^13.4.12",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3",
+    "unimport": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.0.0"
+  },
+  "packageManager": "yarn@4.9.1"
+}
