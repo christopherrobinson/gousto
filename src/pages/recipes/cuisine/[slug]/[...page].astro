@@ -4,29 +4,41 @@ import RecipeCard from '@/components/RecipeCard.astro';
 import Pagination from '@/components/Helpers/Pagination.astro';
 import Layout from '@/layouts/Default.astro';
 
-const { slug } = Astro.params;
+const { slug, page } = Astro.params;
 const { cuisine } = Astro.props;
-const { pathname } = Astro.url;
 
+const currentPage = Number(page);
 const recipes = await getRecipes();
 const taggedRecipes = recipes.filter(recipe => isRecipeCuisineMatch(recipe, slug));
-const paginatedRecipes = paginate(taggedRecipes, { pageSize: recipesPerPage, currentPage: 1 });
+const paginatedRecipes = paginate(taggedRecipes, { pageSize: recipesPerPage, currentPage });
 
 const { data, totalPages } = paginatedRecipes;
 
 export const getStaticPaths = async () => {
+  const recipes = await getRecipes();
   const cuisines = await getUniqueCuisines();
+  const paths = [];
 
-  const paths = cuisines.map(cuisine => ({
-    params: { slug: createSlug(cuisine) },
-    props: { cuisine },
-  }));
+  for (const cuisine of cuisines) {
+    const taggedRecipes = recipes.filter(recipe => isRecipeCuisineMatch(recipe, cuisine));
+    const totalPages = Math.ceil(taggedRecipes.length / recipesPerPage);
+
+    for (let i = 2; i <= totalPages; i++) {
+      paths.push({
+        params: {
+          page: i.toString(),
+          slug: createSlug(cuisine),
+        },
+        props: { cuisine },
+      });
+    }
+  }
 
   return paths;
 };
 ---
 
-<Layout heading={`${cuisine} Receipes`}>
+<Layout heading={`${cuisine} Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
   <Container>
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
       {data.map((recipe) => {
@@ -45,11 +57,11 @@ export const getStaticPaths = async () => {
       })}
     </div>
   </Container>
-  {totalPages > 1 &&
-    <Pagination
-      baseUrl={pathname}
-      currentUrl={slug}
-      nextUrl={`/recipes/cuisine/${slug}/2/`}
-    />
-  }
+  <Pagination
+    baseUrl={`/recipes/cuisine/${slug}/`}
+    currentUrl={slug}
+    lastPage={totalPages}
+    nextUrl={page < totalPages ? `/recipes/cuisine/${slug}/${currentPage + 1}/` : ``}
+    prevUrl={`/recipes/cuisine/${slug}/${currentPage - 1 === 1 ? '' : `${currentPage - 1}/`}`}
+  />
 </Layout>
