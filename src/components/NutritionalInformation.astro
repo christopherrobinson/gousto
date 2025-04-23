@@ -1,14 +1,6 @@
 ---
-export interface NutritionalInformationProps {
-  perPortion: {
-    carbs_mg?: number;
-    energy_kcal?: number;
-    fat_mg?: number;
-    fibre_mg?: number;
-    protein_mg?: number;
-    salt_mg?: number;
-  };
-}
+import { type NutritionalInformationProps } from '@/types/NutritionalInformation';
+
 
 const { perPortion } = Astro.props as NutritionalInformationProps;
 const perPortionIsValid = Object.values(perPortion).every(value => !!value);

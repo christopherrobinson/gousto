@@ -1,14 +1,12 @@
 ---
-export interface AllergensProps {
-  allergens?: string[];
-}
+import { type AllergensProps } from '@/types/Allergens';
 
 const { allergens } = Astro.props as AllergensProps;
 ---
 
 {allergens &&
   <div class="border-b  border-secondary-100  mb-8  pb-8">
-    <h2 class="font-semibold  font-serif  mb-2  text-3xl">Allegens</h2>
+    <h2 class="font-semibold  font-serif  mb-2  text-3xl">Allergens</h2>
     {allergens.length > 0 &&
       <p class="mb-8">Allergens highlighted by <strong class="font-normal">†</strong> ({allergens.join(", ")}).</p>
     }

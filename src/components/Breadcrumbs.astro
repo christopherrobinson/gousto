@@ -1,14 +1,6 @@
 ---
+import { type BreadcrumbsProps } from '@/types/Breadcrumbs';
 import Container from '@/components/Container.astro';
-
-interface BreadcrumbItem {
-  label: string;
-  href: string;
-}
-
-interface BreadcrumbsProps {
-  items: BreadcrumbItem[];
-}
 
 const { items } = Astro.props as BreadcrumbsProps;
 ---
