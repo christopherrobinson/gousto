@@ -1,9 +1,13 @@
 export const getUniqueCuisines = async () => {
   const recipes = await getRecipes();
+  const cuisineSet = new Set<string>();
 
-  const cuisines = [...new Set(
-    recipes.map(recipe => recipe.data.cuisine).filter(Boolean)
-  )];
+  for (const recipe of recipes) {
+    const cuisine = recipe.data.cuisine;
 
-  return cuisines;
-}
+    if (cuisine)
+      cuisineSet.add(cuisine);
+  }
+
+  return Array.from(cuisineSet);
+};

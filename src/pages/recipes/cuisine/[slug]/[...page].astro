@@ -4,38 +4,35 @@ import RecipeCard from '@/components/RecipeCard.astro';
 import Pagination from '@/components/Helpers/Pagination.astro';
 import Layout from '@/layouts/Default.astro';
 
-const { slug, page } = Astro.params;
-const { cuisine } = Astro.props;
-
-const currentPage = Number(page);
-const recipes = await getRecipes();
-const taggedRecipes = recipes.filter(recipe => isRecipeCuisineMatch(recipe, slug));
-const paginatedRecipes = paginate(taggedRecipes, { pageSize: recipesPerPage, currentPage });
-
-const { data, totalPages } = paginatedRecipes;
-
-export const getStaticPaths = async () => {
-  const recipes = await getRecipes();
+export const getStaticPaths = async ({ paginate }) => {
   const cuisines = await getUniqueCuisines();
   const paths = [];
 
   for (const cuisine of cuisines) {
-    const taggedRecipes = recipes.filter(recipe => isRecipeCuisineMatch(recipe, cuisine));
-    const totalPages = Math.ceil(taggedRecipes.length / recipesPerPage);
+    const taggedRecipes = await getRecipesByCuisine(cuisine);
 
-    for (let i = 2; i <= totalPages; i++) {
-      paths.push({
-        params: {
-          page: i.toString(),
-          slug: createSlug(cuisine),
-        },
-        props: { cuisine },
-      });
-    }
+    // Skip if only one page is needed
+    if (taggedRecipes.length <= recipesPerPage)
+      continue;
+
+    // Use Astro's built-in paginate function, excluding the first page (which is handled by index.astro)
+    const paginatedPaths = paginate(taggedRecipes, {
+      pageSize: recipesPerPage,
+      params: { slug: createSlug(cuisine) },
+      props: { cuisine }
+    }).slice(1); // Skip first page
+
+    paths.push(...paginatedPaths);
   }
 
   return paths;
 };
+
+const { slug } = Astro.params;
+const { cuisine, page } = Astro.props;
+const { currentPage, data = [], lastPage, url } = page;
+const { current, next, prev } = url;
+
 ---
 
 <Layout heading={`${cuisine} Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
@@ -59,9 +56,9 @@ export const getStaticPaths = async () => {
   </Container>
   <Pagination
     baseUrl={`/recipes/cuisine/${slug}/`}
-    currentUrl={slug}
-    lastPage={totalPages}
-    nextUrl={page < totalPages ? `/recipes/cuisine/${slug}/${currentPage + 1}/` : ``}
-    prevUrl={`/recipes/cuisine/${slug}/${currentPage - 1 === 1 ? '' : `${currentPage - 1}/`}`}
+    currentUrl={current}
+    length={lastPage}
+    nextUrl={next}
+    prevUrl={prev}
   />
 </Layout>
