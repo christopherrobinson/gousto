@@ -1,12 +1,5 @@
 ---
-export interface IngredientsProps {
-  ingredients: {
-    allergens: string[];
-    label: string;
-    image: string;
-  }[];
-  basics: string[];
-}
+import { type IngredientsProps } from '@/types/Ingredients';
 
 const { basics, ingredients } = Astro.props as IngredientsProps;
 ---

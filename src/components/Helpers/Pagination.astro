@@ -1,13 +1,6 @@
 ---
+import { type PaginationProps } from '@/types/Pagination';
 import Container from '@/components/Container.astro';
-
-export interface PaginationProps {
-  baseUrl: string;
-  currentUrl: string;
-  length: number;
-  nextUrl?: string;
-  prevUrl?: string;
-}
 
 const { baseUrl, currentUrl, length, nextUrl, prevUrl } = Astro.props as PaginationProps;
 ---
