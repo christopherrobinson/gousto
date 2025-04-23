@@ -1,9 +1,14 @@
 export const isRecipeCuisineMatch = (recipe: Recipe, cuisine: string): boolean => {
-  if (!recipe?.data?.cuisine)
-    return false;
+  const recipeCuisine = recipe?.data?.cuisine;
 
-  return createSlug(recipe.data.cuisine) === createSlug(cuisine);
-}
+  // Early return if the recipe doesn't have a cuisine
+  if (!recipeCuisine) {
+    return false;
+  }
+
+  return createSlug(recipeCuisine) === createSlug(cuisine);
+};
+
 
 type Recipe = {
   data?: {
