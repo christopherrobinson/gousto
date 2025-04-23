@@ -1,13 +1,16 @@
 export const getUniqueCuisines = async () => {
   const recipes = await getRecipes();
-  const cuisineSet = new Set<string>();
 
-  for (const recipe of recipes) {
-    const cuisine = recipe.data.cuisine;
+  // Use reduce to collect unique cuisines
+  const cuisines = recipes.reduce((set, { data }) => {
+    const cuisine = data.cuisine;
 
-    if (cuisine)
-      cuisineSet.add(cuisine);
-  }
+    if (cuisine) {
+      set.add(cuisine);
+    }
 
-  return Array.from(cuisineSet);
+    return set;
+  }, new Set<string>());
+
+  return Array.from(cuisines);
 };

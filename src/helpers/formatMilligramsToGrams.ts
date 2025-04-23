@@ -1,12 +1,18 @@
 export const formatMilligramsToGrams = (
   milligrams: number,
-  options: FormatMilligramsToGramsOptions = {}
-): string => {
-  const {
+  {
     locale = 'en-GB',
     minimumFractionDigits = 0,
     maximumFractionDigits = 1
-  } = options;
+  }: {
+    locale?: string;
+    minimumFractionDigits?: number;
+    maximumFractionDigits?: number;
+  } = {}
+): string => {
+  if (typeof milligrams !== 'number' || isNaN(milligrams)) {
+    return '0';
+  }
 
   const grams = milligrams / 1000;
 
@@ -16,10 +22,4 @@ export const formatMilligramsToGrams = (
   });
 
   return formatter.format(grams);
-}
-
-interface FormatMilligramsToGramsOptions {
-  locale?: string;
-  minimumFractionDigits?: number;
-  maximumFractionDigits?: number;
 }
