@@ -32,7 +32,7 @@ export default defineConfig({
   integrations: [
     icon({ iconDir: './src/images/icons' }),
     sitemap(),
-    (await import('astro-compress')).default(),
+    (await import("astro-compress")).default(),
   ],
   prefetch: {
     defaultStrategy: 'hover',
@@ -53,8 +53,9 @@ export default defineConfig({
         presets: [
           { from: 'astro:assets',          imports: [ 'getImage', 'Image' ] },
           { from: 'astro:components',      imports: [ 'Debug' ] },
-          { from: 'astro:content',         imports: [ 'defineCollection', 'getCollection', 'z' ] },
+          { from: 'astro:content',         imports: [ 'defineCollection', 'getCollection', 'render', 'z' ] },
           { from: 'astro:transitions',     imports: [ 'ViewTransitions' ] },
+          { from: 'astro/loaders',         imports: [ 'glob' ] },
           { from: 'astro-capo',            imports: [ 'Head' ] },
           { from: 'astro-icon/components', imports: [ 'Icon' ] },
           { from: 'string-strip-html',     imports: [ 'stripHtml' ] },
