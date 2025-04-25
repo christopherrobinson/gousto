@@ -10,6 +10,12 @@ export interface DefaultLayoutProps {
   heading?: string;
   meta?: {
     description?: string;
+    og?: {
+      'image'?: string;
+      'image:alt'?: string;
+      'image:height'?: number;
+      'image:width'?: number;
+    };
     title?: string;
   };
 }
@@ -19,7 +25,8 @@ const { heading, meta } = Astro.props as DefaultLayoutProps;
 
 <html lang="en">
   <Head>
-    <BaseHead title={meta?.title || heading || ``} description={meta?.description} />
+    <BaseHead description={meta?.description} og={meta?.og} title={meta?.title || heading || ``} />
+    <slot name="structured-data" />
   </Head>
   <body class="font-light  min-w-[360px]  text-secondary-900">
     <!-- Google Tag Manager (noscript) -->

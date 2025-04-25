@@ -3,51 +3,56 @@ import { type NutritionalInformationProps } from '@/types/NutritionalInformation
 
 
 const { perPortion } = Astro.props as NutritionalInformationProps;
-const perPortionIsValid = Object.values(perPortion).every(value => !!value);
+const perPortionValues = Object.fromEntries(
+  Object.entries(perPortion).filter(
+    ([_, value]) => typeof value === 'number' && !isNaN(value)
+  )
+);
+const { energy_kcal, fat_mg, carbs_mg, fibre_mg, protein_mg, salt_mg } = perPortionValues;
 ---
 
-{perPortion && perPortionIsValid &&
+{perPortion && (Object.keys(perPortionValues).length > 0) &&
   <div class="border-b  border-secondary-100  mb-8  pb-8">
     <h2 class="font-semibold  font-serif  mb-2  text-3xl">Nutritional information</h2>
     <p class="mb-8  text-secondary-800">Nutritional information only applies to ingredients supplied by Gousto.</p>
-    <div class="flex  mb-8  overflow-hidden  rounded-md">
-      <div class="bg-primary-600  flex  items-center  p-8  text-white">
-        per<br>serving
+    <div class="mb-8  overflow-hidden  rounded-md  sm:flex">
+      <div class="bg-primary-600  items-center  p-4  text-center  text-white  w-full  sm:text-left  sm:w-auto  md:p-8">
+        per<br class="hidden  sm:block"> serving
       </div>
-      <div class="bg-secondary-100  flex  flex-1  items-center  justify-around  p-8  text-sm  text-center">
-        {perPortion.energy_kcal && (
+      <div class={`bg-secondary-100  gap-4  grid  grid-cols-3  items-center  justify-around  p-4  text-center  text-sm  w-full  sm:grid-cols-6  md:p-8`}>
+        {energy_kcal && (
           <div>
-            <div class="font-medium"><span class="text-2xl">{perPortion.energy_kcal}</span>kcal</div>
+            <div class="font-medium"><span class="text-2xl">{energy_kcal}</span>kcal</div>
             <div class="text-secondary-800">Energy</div>
           </div>
         )}
-        {perPortion.fat_mg && (
+        {fat_mg && (
           <div>
             <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.fat_mg)}</span>g</div>
             <div class="text-secondary-800">Fat</div>
           </div>
         )}
-        {perPortion.carbs_mg && (
+        {carbs_mg && (
           <div>
-            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.carbs_mg)}</span>g</div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(carbs_mg)}</span>g</div>
             <div class="text-secondary-800">Carbohydrate</div>
           </div>
         )}
-        {perPortion.fibre_mg && (
+        {fibre_mg && (
           <div>
-            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.fibre_mg)}</span>g</div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(fibre_mg)}</span>g</div>
             <div class="text-secondary-800">Fibre</div>
           </div>
         )}
-        {perPortion.protein_mg && (
+        {protein_mg && (
           <div>
-            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.protein_mg)}</span>g</div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(protein_mg)}</span>g</div>
             <div class="text-secondary-800">Protein</div>
           </div>
         )}
-        {perPortion.salt_mg && (
+        {salt_mg && (
           <div>
-            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(perPortion.salt_mg)}</span>g</div>
+            <div class="font-medium"><span class="text-2xl">{formatMilligramsToGrams(salt_mg)}</span>g</div>
             <div class="text-secondary-800">Salt</div>
           </div>
         )}
