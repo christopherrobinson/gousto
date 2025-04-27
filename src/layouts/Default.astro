@@ -17,15 +17,18 @@ export interface DefaultLayoutProps {
       'image:width'?: number;
     };
     title?: string;
+    twitter?: {
+      'card'?: string;
+    };
   };
 }
 
 const { heading, meta } = Astro.props as DefaultLayoutProps;
 ---
 
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <Head>
-    <BaseHead description={meta?.description} og={meta?.og} title={meta?.title || heading || ``} />
+    <BaseHead description={meta?.description} og={meta?.og} title={meta?.title || heading || ``} twitter={meta?.twitter} />
     <slot name="structured-data" />
   </Head>
   <body class="font-light  min-w-[360px]  text-secondary-900">

@@ -17,7 +17,6 @@ export const getStaticPaths = async () => {
 
 const { slug } = Astro.params;
 const { cuisine } = Astro.props;
-const { pathname } = Astro.url;
 
 const taggedRecipes = await getRecipesByCuisine(cuisine);
 const data = taggedRecipes.slice(0, recipesPerPage);
@@ -44,9 +43,9 @@ const data = taggedRecipes.slice(0, recipesPerPage);
   </Container>
   {(taggedRecipes.length > recipesPerPage) &&
     <Pagination
-      baseUrl={pathname}
-      currentUrl={slug}
-      nextUrl={`/recipes/cuisine/${slug}/2/`}
+      baseUrl={`/recipes/cuisine/${slug}/`}
+      currentPage={1}
+      totalPages={Math.ceil(taggedRecipes.length / recipesPerPage)}
     />
   }
 </Layout>
