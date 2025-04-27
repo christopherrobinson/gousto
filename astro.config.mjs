@@ -5,13 +5,15 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from "@tailwindcss/vite";
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import Unimport from 'unimport/unplugin';
+import { loadEnv } from 'vite';
 import { site } from './src/config';
+
+const { GOUSTO_REFERRAL_CODE } = loadEnv(process.env.NODE_ENV, process.cwd(), '');
 
 // https://astro.build/config
 export default defineConfig({
   adapter: netlify({
     cacheOnDemandPages: true,
-    imageCDN: false,
   }),
   env: {
     schema: {
@@ -40,8 +42,12 @@ export default defineConfig({
       SVG: true,
     }),
   ],
+  // output: 'server',
   prefetch: {
     defaultStrategy: 'hover',
+  },
+  redirects: {
+    '/signup': `https://www.gousto.co.uk/raf/?promo_code=${GOUSTO_REFERRAL_CODE}`,
   },
   site: site.url,
   trailingSlash: 'always',

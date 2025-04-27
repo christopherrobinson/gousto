@@ -10,10 +10,8 @@ export const getStaticPaths = async ({ paginate }) => {
   return paginate(recipes, { pageSize: recipesPerPage });
 }
 
-const { pathname } = Astro.url;
 const { page } = Astro.props;
-const { currentPage, data = [], lastPage, url } = page;
-const { current, next, prev } = url;
+const { currentPage, data = [], lastPage, } = page;
 ---
 
 <Layout heading={`Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
@@ -39,10 +37,8 @@ const { current, next, prev } = url;
     </div>
   </Container>
   <Pagination
-    baseUrl={`/${pathname.split("/")[1]}/`}
-    currentUrl={current}
-    length={lastPage}
-    nextUrl={next}
-    prevUrl={prev}
+    baseUrl={`/recipes/`}
+    currentPage={currentPage}
+    totalPages={lastPage}
   />
 </Layout>

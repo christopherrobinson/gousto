@@ -2,34 +2,41 @@
 const { basics, cooking_instructions, cuisine, description, image, nutritional_information, prep_times, rating, title } = Astro.props;
 const { per_portion } = nutritional_information;
 const { for_2 } = prep_times;
+const { href } = Astro.url;
 
-const structuredData = {
+const structuredData: any = {
   "@context": "https://schema.org/",
   "@type": "Recipe",
   "name": title,
+  ...(isValidRating(rating) && {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": rating.average,
+      "ratingCount": rating.count,
+    },
+  }),
+  "description": description,
   "image": [
     useRemoteImageUrl(image),
   ],
-  "description": description,
-  "recipeCuisine": cuisine,
-  "totalTime": toISODuration(`${for_2} minutes`),
-  "recipeYield": "2 people",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": rating?.average,
-    "ratingCount": rating?.count,
-  },
   "nutrition": {
     "@type": "NutritionInformation",
     "calories": `${per_portion.energy_kcal} calories`,
   },
+  "recipeCategory": cuisine,
+  "recipeCuisine": cuisine,
   "recipeIngredient": basics,
   "recipeInstructions": cooking_instructions.map(({ image, instruction, order }) => ({
     "@type": "HowToStep",
-    image: image && useRemoteImageUrl(image) || undefined,
-    name: `Step ${order}`,
-    text: instruction.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
+    ...(image && {
+      "image": useRemoteImageUrl(image),
+    }),
+    "name": `Step ${order}`,
+    "text": instruction.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
+    "url": `${href}#step-${order}`,
   })),
+  "recipeYield": "2 servings",
+  "totalTime": toISODuration(`${for_2} minutes`),
 }
 ---
 

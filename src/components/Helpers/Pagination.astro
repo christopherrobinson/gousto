@@ -2,39 +2,103 @@
 import { type PaginationProps } from '@/types/Pagination';
 import Container from '@/components/Container.astro';
 
-const { baseUrl, currentUrl, length, nextUrl, prevUrl } = Astro.props as PaginationProps;
+const { baseUrl, currentPage, totalPages } = Astro.props as PaginationProps;
+
+function getPageUrl(page: number) {
+  return page === 1 ? baseUrl : `${baseUrl}${page}/`;
+}
+
+function getPagination(current: number, total: number): (number | string)[] {
+  const delta: (number) = 2;
+  const range: (number | string)[] = [];
+  const rangeWithDots: (number | string)[] = [];
+  let l: number | null = null;
+
+  for (let i = 1; i <= total; i++) {
+    if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) {
+      range.push(i);
+    }
+  }
+
+  for (const i of range) {
+    if (l !== null) {
+      if (typeof i === 'number' && i - l === 2) {
+        rangeWithDots.push(l + 1);
+      }
+      else if (typeof i === 'number' && i - l > 2) {
+        rangeWithDots.push('...');
+      }
+    }
+
+    rangeWithDots.push(i);
+
+    l = typeof i === 'number' ? i : l;
+  }
+
+  return rangeWithDots;
+}
+
+const pages = getPagination(currentPage, totalPages);
 ---
 
 <div class="bg-secondary-100  mt-auto  py-8">
   <Container>
-    <div class="grid  grid-cols-11">
-      <div class="col-span-5  flex  items-center  justify-start">
-        {(prevUrl && (baseUrl != currentUrl)) && (
-          <a
-            class="flex  items-center  justify-start  hover:text-primary  hover:underline"
-            href={prevUrl}
-          >
-            <Icon class="mr-1  size-3" name="chevron-left" />
-            Previous
-          </a>
-        )}
-      </div>
-      <div class="flex  items-center  justify-center">
-        <a class="hover:text-primary" href={baseUrl}>
-          <Icon class="size-5" name="grid-2" />
+    <nav aria-label="Pagination" class="flex  items-center  justify-between  gap-2">
+      <div class="flex  justify-start  sm:w-[96px]">
+        <a
+          aria-disabled={currentPage <= 1}
+          class={`
+            border  border-secondary-400  flex  flex-initial  items-center  gap-1  px-3  py-1  rounded-md  transition
+            sm:border-0  sm:p-0  sm:hover:bg-transparent
+            ${currentPage <= 1 ? 'cursor-not-allowed  opacity-50' : 'hover:text-primary  hover:bg-secondary-50  hover:underline'}
+          `}
+          href={currentPage > 1 ? getPageUrl(currentPage - 1) : undefined}
+          tabindex={currentPage <= 1 ? -1 : 0}
+        >
+          <Icon class="size-3" name="chevron-left" />
+          Previous
         </a>
       </div>
-      <div class="col-span-5  flex  items-center  justify-end">
-        {(nextUrl && (`${baseUrl}${length}/` != currentUrl)) && (
-          <a
-            class="flex  items-center  justify-end  hover:text-primary  hover:underline"
-            href={nextUrl}
-          >
-            Next
-            <Icon class="ml-1  size-3" name="chevron-right" />
-          </a>
+      <div class="flex  flex-1  items-center  justify-center  opacity-90  sm:hidden">
+        Page {currentPage} of {totalPages}
+      </div>
+      <div class="hidden  items-center  justify-center  gap-2  sm:flex">
+        {pages.map((page) => (
+          (page === '...') && (
+            <span class="flex  items-center  justify-center  opacity-80">
+              <Icon class="size-4" name="ellipsis" />
+            </span>
+          )
+          || (
+              <a
+                aria-current={page === currentPage ? 'page' : undefined}
+                href={getPageUrl(Number(page))}
+                class={`
+                  px-3  py-1  rounded-md  transition
+                  ${page === currentPage ? 'bg-secondary-900  text-white' : 'hover:bg-secondary-50  hover:underline'}
+                `}
+              >
+                {page}
+              </a>
+            )
+          )
         )}
       </div>
-    </div>
+      <div class="flex  justify-end  sm:w-[96px]">
+        <a
+          aria-disabled={currentPage >= totalPages}
+          class={`
+            border  border-secondary-400  flex  flex-initial  items-center  gap-1  px-3  py-1  rounded-md  transition
+            sm:border-0  sm:p-0  sm:hover:bg-transparent
+            ${currentPage >= totalPages ? 'cursor-not-allowed  opacity-50' : 'hover:text-primary  hover:bg-secondary-50  hover:underline'}
+          `}
+          href={currentPage < totalPages ? getPageUrl(currentPage + 1) : undefined}
+          tabindex={currentPage >= totalPages ? -1 : 0}
+        >
+          Next
+          <Icon class="size-3" name="chevron-right" />
+        </a>
+      </div>
+    </nav>
   </Container>
 </div>

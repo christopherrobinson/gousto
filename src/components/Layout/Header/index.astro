@@ -5,8 +5,10 @@ import NavItemMobile from '@/components/Layout/Header/NavItemMobile.astro';
 import PercentageScrolled from '@/components/Layout/Header/PercentageScrolled.astro';
 ---
 
-<header class="backdrop-blur  bg-white/80  border-b  border-t-2  border-zinc-200  sticky  top-0  z-20">
+<div class="border-t-2  border-zinc-200  sticky  top-0  z-20">
   <PercentageScrolled />
+</div>
+<header class="backdrop-blur  bg-white/80  border-b  border-zinc-200">
   <Container>
     <div class="flex  items-center  justify-between  py-2  sm:py-4">
       <a class="flex  items-center  -mx-2  p-2" href="/" transition:persist>
