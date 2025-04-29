@@ -2,7 +2,8 @@
 import Container from '@/components/Container.astro';
 import Layout from '@/layouts/Default.astro';
 
-const cuisines = await getUniqueCuisines();
+const categories = await getCategories();
+const cuisines = await getCuisines();
 ---
 
 <Layout>
@@ -16,12 +17,25 @@ const cuisines = await getUniqueCuisines();
           </p>
         </div>
         <div class="flex-1  w-full">
-          <input
-            class="bg-white  border-2  border-primary-100  flex-1  p-4  rounded-lg  text-secondary-800  text-lg  w-full   focus:ring-2  focus:outline-none  focus:ring-secondary-950"
-            id="searchInput"
-            placeholder="Search recipes..."
-            type="text"
-          />
+          <label class="sr-only" for="searchInput">Search</label>
+          <div class="relative">
+            <div class="absolute  flex  inset-y-0  items-center  pointer-events-none  ps-4  start-0">
+              <Icon class="text-primary-600  size-4" name="magnifying-glass" />
+            </div>
+            <input
+              class="bg-white  border-2  border-primary-100  block  p-4  ps-12   rounded-lg  text-secondary-800  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
+              id="searchInput"
+              placeholder="Search recipes..."
+              required
+              type="search"
+            />
+            <button
+              class="absolute  bg-tertiary-600  bottom-2  cursor-pointer  end-2  px-4  py-3  rounded-lg  text-sm  text-white  hover:bg-tertiary-800"
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
           <p class="mt-2  text-center  text-sm  text-white" id="searchFeedback"></p>
         </div>
       </section>
@@ -37,13 +51,28 @@ const cuisines = await getUniqueCuisines();
     <div class="border  border-secondary-100  my-8  p-8  rounded-lg  text-center">
       <h2 class="font-medium  font-serif  mb-4  text-lg">Browse by cuisine&hellip;</h2>
       <ul class="flex  flex-wrap  justify-center  gap-4  text-sm">
-        {cuisines.sort((a, b) => a.localeCompare(b)).map((cuisine) => (
+        {cuisines.map(({ name, slug }) => (
           <li>
             <a
               class="bg-secondary-50  border  border-secondary-300  block  px-3  py-1  rounded-md  hover:underline"
-              href={`/recipes/cuisine/${createSlug(cuisine)}/`}
+              href={slug}
             >
-              {cuisine}
+              {name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div class="border  border-secondary-100  my-8  p-8  rounded-lg  text-center">
+      <h2 class="font-medium  font-serif  mb-4  text-lg">Browse by category&hellip;</h2>
+      <ul class="flex  flex-wrap  justify-center  gap-4  text-sm">
+        {categories.map(({ name, slug }) => (
+          <li>
+            <a
+              class="bg-secondary-50  border  border-secondary-300  block  px-3  py-1  rounded-md  hover:underline"
+              href={slug}
+            >
+              {name}
             </a>
           </li>
         ))}
