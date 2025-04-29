@@ -1,0 +1,55 @@
+---
+import Container from '@/components/Container.astro';
+import RecipeCard from '@/components/RecipeCard.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
+import Layout from '@/layouts/Default.astro';
+
+export const getStaticPaths = async () => {
+  const categories = await getCategories();
+
+  const paths = categories.map(category => ({
+    params: { slug: createSlug(category.name) },
+    props: { category },
+  }));
+
+  return paths;
+};
+
+const { slug } = Astro.params;
+const { category } = Astro.props;
+const { combinedCategories, name } = category;
+const recipes = await getRecipes({ categories: combinedCategories });
+const entry = await getEntry('categories', slug);
+---
+
+<Layout heading={`${name} Receipes`}>
+  <Container>
+    {entry && (
+      <div class="max-w-none  prose  pt-8  md:prose-md" set:html={entry.rendered.html}>
+      </div>
+    )}
+    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+      {recipes.slice(0, recipesPerPage).map((recipe) => {
+        const { data, id } = recipe
+        const { cuisine, image, prep_times, title } = data;
+
+        return (
+          <RecipeCard
+            cuisine={cuisine}
+            id={id}
+            image={image}
+            prep_times={prep_times}
+            title={title}
+          />
+        );
+      })}
+    </div>
+  </Container>
+  {(recipes.length > recipesPerPage) &&
+    <Pagination
+      baseUrl={`/recipes/category/${slug}/`}
+      currentPage={1}
+      totalPages={Math.ceil(recipes.length / recipesPerPage)}
+    />
+  }
+</Layout>
