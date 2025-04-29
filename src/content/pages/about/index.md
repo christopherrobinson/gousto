@@ -8,7 +8,7 @@ Welcome to the **Gousto Recipe Finder** &mdash; your new go-to destination for e
 
 This is a community-made tool designed to bring Gousto's incredible library of recipes into a clean, searchable, and user-friendly space. Gousto is known for its variety and creativity in the kitchen &mdash; but sometimes it can be a challenge to track down exactly what you're in the mood for. That's where this site comes in.
 
-We've gathered thousands of recipes and organized them into an easy-to-browse collection, letting you search by title, ingredients, tags, or just scroll through until something tasty catches your eye.
+We've gathered thousands of recipes and organised them into an easy-to-browse collection, letting you search by title, ingredients, tags, or just scroll through until something tasty catches your eye.
 
 ## Why We Built It  
 

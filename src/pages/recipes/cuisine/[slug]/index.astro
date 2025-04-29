@@ -5,10 +5,10 @@ import Pagination from '@/components/Helpers/Pagination.astro';
 import Layout from '@/layouts/Default.astro';
 
 export const getStaticPaths = async () => {
-  const cuisines = await getUniqueCuisines();
+  const cuisines = await getCuisines();
 
   const paths = cuisines.map(cuisine => ({
-    params: { slug: createSlug(cuisine) },
+    params: { slug: createSlug(cuisine.name) },
     props: { cuisine },
   }));
 
@@ -17,15 +17,14 @@ export const getStaticPaths = async () => {
 
 const { slug } = Astro.params;
 const { cuisine } = Astro.props;
-
-const taggedRecipes = await getRecipesByCuisine(cuisine);
-const data = taggedRecipes.slice(0, recipesPerPage);
+const { name } = cuisine;
+const recipes = await getRecipes({ cuisine: name });
 ---
 
-<Layout heading={`${cuisine} Receipes`}>
+<Layout heading={`${name} Receipes`}>
   <Container>
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
-      {data.map((recipe) => {
+      {recipes.slice(0, recipesPerPage).map((recipe) => {
         const { data, id } = recipe
         const { cuisine, image, prep_times, title } = data;
 
@@ -41,11 +40,11 @@ const data = taggedRecipes.slice(0, recipesPerPage);
       })}
     </div>
   </Container>
-  {(taggedRecipes.length > recipesPerPage) &&
+  {(recipes.length > recipesPerPage) &&
     <Pagination
       baseUrl={`/recipes/cuisine/${slug}/`}
       currentPage={1}
-      totalPages={Math.ceil(taggedRecipes.length / recipesPerPage)}
+      totalPages={Math.ceil(recipes.length / recipesPerPage)}
     />
   }
 </Layout>

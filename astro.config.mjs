@@ -65,7 +65,7 @@ export default defineConfig({
         presets: [
           { from: 'astro:assets',          imports: [ 'getImage', 'Image' ] },
           { from: 'astro:components',      imports: [ 'Debug' ] },
-          { from: 'astro:content',         imports: [ 'defineCollection', 'getCollection', 'render', 'z' ] },
+          { from: 'astro:content',         imports: [ 'defineCollection', 'getEntry', 'getCollection', 'render', 'z' ] },
           { from: 'astro:transitions',     imports: [ 'ViewTransitions' ] },
           { from: 'astro/loaders',         imports: [ 'glob' ] },
           { from: 'astro-capo',            imports: [ 'Head' ] },

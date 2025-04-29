@@ -1,0 +1,61 @@
+---
+import Container from '@/components/Container.astro';
+import RecipeCard from '@/components/RecipeCard.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
+import Layout from '@/layouts/Default.astro';
+
+export const getStaticPaths = async ({ paginate }) => {
+  const categories = await getCategories();
+  const paths = [];
+
+  for (const category of categories) {
+    const recipes = await getRecipes({ categories: category.combinedCategories });
+
+    // Skip if only one page is needed
+    if (recipes.length <= recipesPerPage)
+      continue;
+
+    // Use Astro's built-in paginate function, excluding the first page (which is handled by index.astro)
+    const paginatedPaths = paginate(recipes, {
+      pageSize: recipesPerPage,
+      params: { slug: createSlug(category.name) },
+      props: { category },
+    }).slice(1); // Skip first page
+
+    paths.push(...paginatedPaths);
+  }
+
+  return paths;
+};
+
+const { slug } = Astro.params;
+const { category, page } = Astro.props;
+const { name } = category;
+const { currentPage, data = [], lastPage } = page;
+---
+
+<Layout heading={`${name} Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
+  <Container>
+    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+      {data.map((recipe) => {
+        const { data, id } = recipe
+        const { cuisine, image, prep_times, title } = data;
+
+        return (
+          <RecipeCard
+            cuisine={cuisine}
+            id={id}
+            image={image}
+            prep_times={prep_times}
+            title={title}
+          />
+        );
+      })}
+    </div>
+  </Container>
+  <Pagination
+    baseUrl={`/recipes/category/${slug}/`}
+    currentPage={currentPage}
+    totalPages={lastPage}
+  />
+</Layout>

@@ -1,37 +1,67 @@
+type GetRecipesOptions = {
+  limit?: number;
+  prepTime?: number | { min?: number; max?: number };
+  categories?: string[];
+  cuisine?: string;
+};
+
 let recipeCache: any[] | null = null;
 
-export const getRecipes = async (limit?: number, prepTime?: number | { min?: number; max?: number }) => {
-  if (!recipeCache) {
-    recipeCache = ((await getCollection('recipes'))
-      // Filter out recipes without cooking instructions
-      .filter(({ data }) =>Array.isArray(data.cooking_instructions) && data.cooking_instructions.length > 0)
-      // Filter by prep_times.for_2 based on the input
-      .filter(({ data }) => {
-        const time = data.prep_times?.for_2;
+export const getRecipes = async (options: GetRecipesOptions = {}) => {
+  const { limit, prepTime, categories, cuisine } = options;
 
+  if (!recipeCache) {
+    const recipes = await getCollection('recipes');
+
+    recipeCache = recipes
+      .filter(({ data }) => {
+        // Must have cooking instructions
+        if (!Array.isArray(data.cooking_instructions) || data.cooking_instructions.length === 0) {
+          return false;
+        }
+
+        // Must have a valid prep time
+        const time = data.prep_times?.for_2;
         if (typeof time !== 'number') {
           return false;
         }
 
-        if (prepTime === undefined) {
-          return true;
-        }
-
-        if (typeof prepTime === 'number') {
-          return time === prepTime;
-        }
-
-        const { min, max } = prepTime;
-
-        if (min !== undefined && time < min) return false;
-        if (max !== undefined && time > max) return false;
-
         return true;
       })
-      // Sort by gousto_id descending
-      .sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10))
-    );
+      .sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10));
   }
 
-  return typeof limit === 'number' ? recipeCache.slice(0, limit) : recipeCache;
+  // Now dynamically filter based on the options passed in
+  let filteredRecipes = recipeCache.filter(({ data }) => {
+    // Filter by Prep Time
+    if (typeof prepTime === 'number') {
+      if (data.prep_times?.for_2 !== prepTime) return false;
+    }
+    else if (prepTime && typeof prepTime === 'object') {
+      const { min, max } = prepTime;
+      const time = data.prep_times?.for_2;
+
+      if (min !== undefined && time < min) return false;
+      if (max !== undefined && time > max) return false;
+    }
+
+    // Filter by Category
+    if (categories && categories.length > 0) {
+      if (!Array.isArray(data.categories) || !data.categories.some(category => categories.includes(category))) {
+        return false;
+      }
+    }
+
+    // Filter by Cuisine
+    if (cuisine) {
+      if (typeof data.cuisine !== 'string' || data.cuisine !== cuisine) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+
+  // Apply limit if provided
+  return typeof limit === 'number' ? filteredRecipes.slice(0, limit) : filteredRecipes;
 };
