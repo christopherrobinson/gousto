@@ -16,9 +16,7 @@ const structuredData: any = {
     },
   }),
   "description": description,
-  "image": [
-    useRemoteImageUrl(image),
-  ],
+  "image": useRemoteImageUrl(image),
   "nutrition": {
     "@type": "NutritionInformation",
     "calories": `${per_portion.energy_kcal} calories`,
@@ -37,7 +35,8 @@ const structuredData: any = {
   })),
   "recipeYield": "2 servings",
   "totalTime": toISODuration(`${for_2} minutes`),
-}
+};
+
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
