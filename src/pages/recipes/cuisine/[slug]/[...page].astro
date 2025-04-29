@@ -5,21 +5,21 @@ import Pagination from '@/components/Helpers/Pagination.astro';
 import Layout from '@/layouts/Default.astro';
 
 export const getStaticPaths = async ({ paginate }) => {
-  const cuisines = await getUniqueCuisines();
+  const cuisines = await getCuisines();
   const paths = [];
 
   for (const cuisine of cuisines) {
-    const taggedRecipes = await getRecipesByCuisine(cuisine);
+    const recipes = await getRecipes({ cuisine: cuisine.name });
 
     // Skip if only one page is needed
-    if (taggedRecipes.length <= recipesPerPage)
+    if (recipes.length <= recipesPerPage)
       continue;
 
     // Use Astro's built-in paginate function, excluding the first page (which is handled by index.astro)
-    const paginatedPaths = paginate(taggedRecipes, {
+    const paginatedPaths = paginate(recipes, {
       pageSize: recipesPerPage,
-      params: { slug: createSlug(cuisine) },
-      props: { cuisine }
+      params: { slug: createSlug(cuisine.name) },
+      props: { cuisine },
     }).slice(1); // Skip first page
 
     paths.push(...paginatedPaths);
@@ -30,10 +30,11 @@ export const getStaticPaths = async ({ paginate }) => {
 
 const { slug } = Astro.params;
 const { cuisine, page } = Astro.props;
+const { name } = cuisine;
 const { currentPage, data = [], lastPage } = page;
 ---
 
-<Layout heading={`${cuisine} Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
+<Layout heading={`${name} Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
   <Container>
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
       {data.map((recipe) => {
