@@ -16,16 +16,34 @@
   "cuisine": "Indian",
   "ingredients": [
     {
-      "label": "Garam masala (1tsp)",
-      "gousto_uuid": "3518d21a-ac56-46f1-915a-76c1a91f79df",
+      "label": "Ground cumin (2tsp) x0",
+      "gousto_uuid": "22d4ac66-3f50-469c-904c-9f293e361441",
       "allergens": [],
-      "image": "/images/ingredients/3518d21a-ac56-46f1-915a-76c1a91f79df.jpg"
+      "image": "/images/ingredients/22d4ac66-3f50-469c-904c-9f293e361441.jpg"
+    },
+    {
+      "label": "Ground cumin (1tsp)",
+      "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
+      "allergens": [],
+      "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
     },
     {
       "label": "Ground coriander (1tsp) x0",
       "gousto_uuid": "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
       "allergens": [],
       "image": "/images/ingredients/c4b4c017-5074-443f-8b2e-fc3c7cfe110f.jpg"
+    },
+    {
+      "label": "Shallot",
+      "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+      "allergens": [],
+      "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+    },
+    {
+      "label": "Garam masala (1tsp)",
+      "gousto_uuid": "3518d21a-ac56-46f1-915a-76c1a91f79df",
+      "allergens": [],
+      "image": "/images/ingredients/3518d21a-ac56-46f1-915a-76c1a91f79df.jpg"
     },
     {
       "label": "Spinach (80g)",
@@ -44,12 +62,6 @@
       "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
       "allergens": [],
       "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
-    },
-    {
-      "label": "Ground cumin (1tsp)",
-      "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
-      "allergens": [],
-      "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
     },
     {
       "label": "Mango chutney (20g)",
@@ -108,12 +120,6 @@
       "image": "/images/ingredients/fabcebd0-0595-4c07-9a82-e4093d86be85.jpg"
     },
     {
-      "label": "Ground cumin (2tsp) x0",
-      "gousto_uuid": "22d4ac66-3f50-469c-904c-9f293e361441",
-      "allergens": [],
-      "image": "/images/ingredients/22d4ac66-3f50-469c-904c-9f293e361441.jpg"
-    },
-    {
       "label": "Coriander (10g)",
       "gousto_uuid": "44417cd2-bdb0-48e2-b6a3-b75bdd8ba6b7",
       "allergens": [],
@@ -130,12 +136,6 @@
       "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
       "allergens": [],
       "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-    },
-    {
-      "label": "Shallot",
-      "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-      "allergens": [],
-      "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
     }
   ],
   "basics": [
@@ -156,7 +156,7 @@
       "image": "/images/instructions/sweetcorn-chana-curry-with-tomato-and-coriander-salad/step-2.jpg"
     },
     {
-      "instruction": "<p>Meanwhile, chop you<strong> creamed</strong> <strong>coconut</strong> roughly (if required!)</p><p>Dissolve your <strong>vegetable stock mix</strong> and<strong> chopped creamed coconut</strong> in 200ml <span class=\"text-purple\">[300ml] </span><span class=\"text-danger\">[400ml]</span> <strong>boiled water</strong> – this is your<strong> coconut stock</strong></p><p>Drain and rinse your <strong>chickpeas</strong></p>",
+      "instruction": "<p>Meanwhile, chop your<strong> creamed</strong> <strong>coconut</strong> roughly (if required!)</p><p>Dissolve your <strong>vegetable stock mix</strong> and<strong> chopped creamed coconut</strong> in 200ml <span class=\"text-purple\">[300ml] </span><span class=\"text-danger\">[400ml]</span> <strong>boiled water</strong> – this is your<strong> coconut stock</strong></p><p>Drain and rinse your <strong>chickpeas</strong></p>",
       "order": 3,
       "image": "/images/instructions/sweetcorn-chana-curry-with-tomato-and-coriander-salad/step-3.jpg"
     },
@@ -181,7 +181,7 @@
       "image": "/images/instructions/sweetcorn-chana-curry-with-tomato-and-coriander-salad/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>sweetcorn chana curry </strong>over the <strong>basmati</strong> <strong>rice </strong>with the <strong>tomato & coriander salad </strong>to the side</p><p>Top with a dollop of <strong>mango chutney </strong>and garnish with the <strong>reserved coriander leaves</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>sweetcorn chana curry </strong>over the <strong>basmati</strong> <strong>rice </strong>with the <strong>tomato & coriander salad </strong>to the side</p><p>Top with a dollop of <strong>mango chutney </strong>and garnish with the <strong>reserved coriander</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -191,24 +191,24 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 116,
-      "energy_kj": 491,
+      "energy_kj": 490,
       "fat_mg": 3318,
       "fat_saturates_mg": 1939,
-      "carbs_mg": 16966,
+      "carbs_mg": 17000,
       "carbs_sugars_mg": 2879,
-      "fibre_mg": 2740,
+      "fibre_mg": 2770,
       "protein_mg": 3892,
       "salt_mg": 406,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 554,
-      "energy_kj": 2338,
+      "energy_kcal": 553,
+      "energy_kj": 2335,
       "fat_mg": 15794,
-      "fat_saturates_mg": 9231,
-      "carbs_mg": 80762,
-      "carbs_sugars_mg": 13708,
-      "fibre_mg": 13046,
+      "fat_saturates_mg": 9230,
+      "carbs_mg": 80920,
+      "carbs_sugars_mg": 13707,
+      "fibre_mg": 13186,
       "protein_mg": 18526,
       "salt_mg": 1933,
       "net_weight_mg": 476000

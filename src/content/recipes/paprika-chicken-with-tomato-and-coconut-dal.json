@@ -8,7 +8,7 @@
   "gousto_id": "1180",
   "rating": {
     "average": 5,
-    "count": 22355
+    "count": 22455
   },
   "description": "This indulgent dal is a real showstopper, combining tomato and coconut to create a luxurious feast. Serve yours with succulent paprika-coated chicken and fragrant coriander naan.",
   "prep_times": {
@@ -18,7 +18,7 @@
   "cuisine": "Indian",
   "ingredients": [
     {
-      "label": "Ground paprika (1tsp)",
+      "label": "Ground paprika (2tsp)",
       "gousto_uuid": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
       "allergens": [],
       "image": "/images/ingredients/cb7a7f70-80cb-4648-840f-d350ad96d1ee.jpg"
@@ -34,12 +34,6 @@
       "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
       "allergens": [],
       "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
-      "label": "Intense vegetable stock mix (5.5g)",
-      "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
-      "allergens": [],
-      "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
     },
     {
       "label": "Chicken breast strips (125g) x0",
@@ -95,6 +89,12 @@
       "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
       "allergens": [],
       "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
+    },
+    {
+      "label": "Vegetable stock mix (11g)",
+      "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+      "allergens": [],
+      "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
     },
     {
       "label": "Ground turmeric (1tsp)",
@@ -208,27 +208,27 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 176,
-      "energy_kj": 743,
-      "fat_mg": 6452,
-      "fat_saturates_mg": 4404,
-      "carbs_mg": 16596,
-      "carbs_sugars_mg": 2587,
-      "fibre_mg": 4531,
-      "protein_mg": 13277,
-      "salt_mg": 628,
+      "energy_kj": 747,
+      "fat_mg": 6406,
+      "fat_saturates_mg": 4373,
+      "carbs_mg": 17002,
+      "carbs_sugars_mg": 2624,
+      "fibre_mg": 4501,
+      "protein_mg": 13291,
+      "salt_mg": 626,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 684,
-      "energy_kj": 2890,
+      "energy_kcal": 692,
+      "energy_kj": 2925,
       "fat_mg": 25067,
       "fat_saturates_mg": 17110,
-      "carbs_mg": 64477,
-      "carbs_sugars_mg": 10052,
-      "fibre_mg": 17603,
-      "protein_mg": 51583,
-      "salt_mg": 2441,
-      "net_weight_mg": 388500
+      "carbs_mg": 66523,
+      "carbs_sugars_mg": 10267,
+      "fibre_mg": 17614,
+      "protein_mg": 52003,
+      "salt_mg": 2452,
+      "net_weight_mg": 391250
     }
   },
   "portion_sizes": [
@@ -411,13 +411,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "bac68053-5d66-42d7-8860-506df48b41ca",
           "code": "I-11-BRD-BR-52",
           "quantities": {
@@ -434,6 +427,13 @@
         {
           "id": "82127448-599d-47c3-a700-5dbe007ecd94",
           "code": "I-06-SML-CO-12",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -466,15 +466,15 @@
           }
         },
         {
-          "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
-          "code": "I-10-MPF-PO-40",
+          "id": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
+          "code": "I-10-MPF-PO-55",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
-          "code": "I-10-MPF-PO-55",
+          "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
+          "code": "I-10-MPF-PO-40",
           "quantities": {
             "in_box": 1
           }
@@ -494,15 +494,15 @@
           }
         },
         {
-          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
-          "code": "I-06-SML-DL-70",
+          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+          "code": "I-06-SML-DL-69",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
-          "code": "I-06-SML-DL-69",
+          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
+          "code": "I-06-SML-DL-70",
           "quantities": {
             "in_box": 1
           }
@@ -515,15 +515,15 @@
           }
         },
         {
-          "id": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
-          "code": "I-06-SML-DL-32",
+          "id": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
+          "code": "I-06-SML-DL-33",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
-          "code": "I-06-SML-DL-33",
+          "id": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
+          "code": "I-06-SML-DL-32",
           "quantities": {
             "in_box": 1
           }
@@ -533,13 +533,6 @@
           "code": "I-06-SML-IN-20",
           "quantities": {
             "in_box": 2
-          }
-        },
-        {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 1
           }
         },
         {
@@ -573,6 +566,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -654,13 +654,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "bac68053-5d66-42d7-8860-506df48b41ca",
           "code": "I-11-BRD-BR-52",
           "quantities": {
@@ -677,6 +670,13 @@
         {
           "id": "82127448-599d-47c3-a700-5dbe007ecd94",
           "code": "I-06-SML-CO-12",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 2
           }
@@ -709,17 +709,17 @@
           }
         },
         {
-          "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
-          "code": "I-10-MPF-PO-40",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
           "code": "I-10-MPF-PO-55",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
+          "code": "I-10-MPF-PO-40",
+          "quantities": {
+            "in_box": 2
           }
         },
         {
@@ -737,17 +737,17 @@
           }
         },
         {
-          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
-          "code": "I-06-SML-DL-70",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
           "code": "I-06-SML-DL-69",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
+          "code": "I-06-SML-DL-70",
+          "quantities": {
+            "in_box": 2
           }
         },
         {
@@ -758,13 +758,6 @@
           }
         },
         {
-          "id": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
-          "code": "I-06-SML-DL-32",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
           "code": "I-06-SML-DL-33",
           "quantities": {
@@ -772,17 +765,17 @@
           }
         },
         {
+          "id": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
+          "code": "I-06-SML-DL-32",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
           "code": "I-06-SML-IN-20",
           "quantities": {
             "in_box": 3
-          }
-        },
-        {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 2
           }
         },
         {
@@ -818,6 +811,13 @@
           "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
+          "quantities": {
+            "in_box": 2
           }
         }
       ]
