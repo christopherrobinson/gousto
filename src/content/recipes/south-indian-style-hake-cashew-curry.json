@@ -22,12 +22,6 @@
       "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
     },
     {
-      "label": "Intense vegetable stock mix (5.5g)",
-      "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
-      "allergens": [],
-      "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
-    },
-    {
       "label": "Crispy onions (15g)",
       "gousto_uuid": "61499436-65ce-4e9a-8e7b-72882f1121a8",
       "allergens": [
@@ -76,6 +70,12 @@
       "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
       "allergens": [],
       "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+    },
+    {
+      "label": "Vegetable stock mix (11g)",
+      "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+      "allergens": [],
+      "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
     },
     {
       "label": "White basmati rice (65g) x0",
@@ -182,28 +182,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 142,
-      "energy_kj": 599,
-      "fat_mg": 3754,
-      "fat_saturates_mg": 908,
-      "carbs_mg": 18287,
-      "carbs_sugars_mg": 2897,
-      "fibre_mg": 1743,
-      "protein_mg": 8330,
+      "energy_kcal": 143,
+      "energy_kj": 604,
+      "fat_mg": 3726,
+      "fat_saturates_mg": 901,
+      "carbs_mg": 18713,
+      "carbs_sugars_mg": 2934,
+      "fibre_mg": 1733,
+      "protein_mg": 8383,
       "salt_mg": 501,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 512,
-      "energy_kj": 2155,
+      "energy_kcal": 520,
+      "energy_kj": 2190,
       "fat_mg": 13506,
       "fat_saturates_mg": 3269,
-      "carbs_mg": 65781,
-      "carbs_sugars_mg": 10421,
-      "fibre_mg": 6272,
-      "protein_mg": 29966,
-      "salt_mg": 1805,
-      "net_weight_mg": 359700
+      "carbs_mg": 67827,
+      "carbs_sugars_mg": 10636,
+      "fibre_mg": 6283,
+      "protein_mg": 30387,
+      "salt_mg": 1816,
+      "net_weight_mg": 362450
     }
   },
   "portion_sizes": [
@@ -358,13 +358,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -388,6 +381,13 @@
         {
           "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
           "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -455,13 +455,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -483,6 +476,13 @@
           }
         },
         {
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
           "code": "I-08-SAU-PS-36",
           "quantities": {
@@ -490,8 +490,8 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -573,13 +573,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -603,6 +596,13 @@
         {
           "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
           "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 2
           }
@@ -670,13 +670,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -698,6 +691,13 @@
           }
         },
         {
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
           "code": "I-08-SAU-PS-36",
           "quantities": {
@@ -705,8 +705,8 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 2
           }
