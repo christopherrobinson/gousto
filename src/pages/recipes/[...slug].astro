@@ -20,6 +20,7 @@ export const getStaticPaths = async () => {
 
 const { slug } = Astro.params;
 const { page } = Astro.props;
+const { href } = Astro.url;
 const { data } = page;
 const { allergens, basics, cooking_instructions, cuisine, description, image, nutritional_information, portion_sizes, prep_times, rating, title } = data;
 const { per_portion } = nutritional_information;
@@ -40,6 +41,7 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
       'image:width': 1200,
       'locale': 'en_GB',
       'title': title,
+      'url': href,
     },
     title: `${title}${for_2 ? ` (${for_2} mins)` : ``}`,
     twitter: {
