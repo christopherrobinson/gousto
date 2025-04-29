@@ -31,7 +31,7 @@ const entry = await getEntry('categories', slug);
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
       {recipes.slice(0, recipesPerPage).map((recipe) => {
         const { data, id } = recipe
-        const { cuisine, image, prep_times, title } = data;
+        const { cuisine, image, prep_times, rating, title } = data;
 
         return (
           <RecipeCard
@@ -39,6 +39,7 @@ const entry = await getEntry('categories', slug);
             id={id}
             image={image}
             prep_times={prep_times}
+            rating={rating}
             title={title}
           />
         );
