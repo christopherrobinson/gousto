@@ -7,7 +7,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Feature-Policy = "accelerometer 'none' -light-sensor 'none'; autoplay 'none'; battery 'none'; camera 'none'; display-capture 'none'; document-domain 'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; layout-animations 'none'; legacy-image-formats 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; oversized-images 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; screen-wake-lock 'none'; sync-xhr 'none'; unoptimized-images 'none'; unsized-media 'none'; usb 'none'; vibrate 'none'; vr 'none'; wake-lock 'none'; xr 'none'; xr-spatial-tracking 'none;"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' gousto.wiki www.googletagmanager.com; style-src 'self' 'unsafe-inline' gousto.wiki; img-src 'self' images.gousto.wiki; font-src 'self' gousto.wiki; frame-src 'self' www.googletagmanager.com; connect-src 'self' gousto.wiki *.google-analytics.com"
+    Permissions-Policy = "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
     Referrer-Policy = "same-origin"
     Strict-Transport-Security = "max-age=31536000"
     X-Content-Type-Options = "nosniff"
