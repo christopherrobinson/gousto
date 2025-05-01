@@ -21,22 +21,31 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "British diced chicken thigh (250g)",
+      "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+      "allergens": [],
+      "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+    },
+    {
       "label": "Intense chicken stock mix (5.5g)",
       "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
       "allergens": [],
       "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
     },
     {
+      "label": "Quick cook spaghetti (160g)",
+      "gousto_uuid": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "image": "/images/ingredients/20d7f9a4-2be1-4161-90a7-04f2b8af56a3.jpg"
+    },
+    {
       "label": "Spinach (80g)",
       "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
       "allergens": [],
       "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
-    },
-    {
-      "label": "British diced chicken thigh (250g)",
-      "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-      "allergens": [],
-      "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
     },
     {
       "label": "Grated Italian hard cheese (30g)",
@@ -73,15 +82,6 @@
         "milk"
       ],
       "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
-    },
-    {
-      "label": "Quick cook spaghetti (160g)",
-      "gousto_uuid": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
-      "allergens": [
-        "gluten",
-        "egg"
-      ],
-      "image": "/images/ingredients/20d7f9a4-2be1-4161-90a7-04f2b8af56a3.jpg"
     }
   ],
   "basics": [
@@ -139,26 +139,26 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 219,
-      "energy_kj": 920,
+      "energy_kcal": 216,
+      "energy_kj": 908,
       "fat_mg": 9165,
-      "fat_saturates_mg": 3214,
-      "carbs_mg": 19839,
-      "carbs_sugars_mg": 1379,
-      "fibre_mg": 925,
-      "protein_mg": 14036,
+      "fat_saturates_mg": 3265,
+      "carbs_mg": 18882,
+      "carbs_sugars_mg": 1354,
+      "fibre_mg": 296,
+      "protein_mg": 14262,
       "salt_mg": 829,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 697,
-      "energy_kj": 2924,
+      "energy_kcal": 688,
+      "energy_kj": 2888,
       "fat_mg": 29124,
-      "fat_saturates_mg": 10215,
-      "carbs_mg": 63040,
-      "carbs_sugars_mg": 4383,
-      "fibre_mg": 2942,
-      "protein_mg": 44600,
+      "fat_saturates_mg": 10375,
+      "carbs_mg": 60000,
+      "carbs_sugars_mg": 4303,
+      "fibre_mg": 942,
+      "protein_mg": 45320,
       "salt_mg": 2637,
       "net_weight_mg": 317750
     }
@@ -169,15 +169,15 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
+          "id": "dec1c16e-4785-40e7-b689-69721141bad6",
+          "code": "I-06-SML-SC-22",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "dec1c16e-4785-40e7-b689-69721141bad6",
-          "code": "I-06-SML-SC-22",
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
           "quantities": {
             "in_box": 1
           }
@@ -293,17 +293,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "dec1c16e-4785-40e7-b689-69721141bad6",
           "code": "I-06-SML-SC-22",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
+          "quantities": {
+            "in_box": 2
           }
         },
         {
@@ -424,17 +424,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
           "id": "dec1c16e-4785-40e7-b689-69721141bad6",
           "code": "I-06-SML-SC-22",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
+          "quantities": {
+            "in_box": 3
           }
         },
         {
