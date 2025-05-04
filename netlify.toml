@@ -7,7 +7,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' gousto.wiki www.googletagmanager.com; style-src 'self' 'unsafe-inline' gousto.wiki; img-src 'self' images.gousto.wiki; font-src 'self' gousto.wiki; frame-src 'self' www.googletagmanager.com; connect-src 'self' gousto.wiki *.google-analytics.com"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' gousto.wiki www.googletagmanager.com; style-src 'self' 'unsafe-inline' gousto.wiki; img-src 'self' images.gousto.wiki www.googletagmanager.com; font-src 'self' gousto.wiki; frame-src 'self' www.googletagmanager.com; connect-src 'self' gousto.wiki *.google-analytics.com"
     Permissions-Policy = "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
     Referrer-Policy = "same-origin"
     Strict-Transport-Security = "max-age=31536000"
