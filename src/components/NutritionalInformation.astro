@@ -22,7 +22,7 @@ const { energy_kcal, fat_mg, carbs_mg, fibre_mg, protein_mg, salt_mg } = perPort
       <div class={`bg-secondary-100  gap-4  grid  grid-cols-3  items-center  justify-around  p-4  text-center  text-sm  w-full  sm:grid-cols-6  md:p-8`}>
         {energy_kcal && (
           <div>
-            <div class="font-medium"><span class="text-2xl">{energy_kcal}</span>kcal</div>
+            <div class="font-medium"><span class="text-2xl">{energy_kcal.toLocaleString()}</span>kcal</div>
             <div class="text-secondary-800">Energy</div>
           </div>
         )}
