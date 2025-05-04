@@ -6,7 +6,7 @@
   "gousto_id": "4978",
   "rating": {
     "average": 4.5,
-    "count": 3408
+    "count": 3425
   },
   "description": "Here's a takeaway twist you won't be able to resist. You'll stuff strips of tender doner meat, tomato and lettuce in a brioche bun. Pair it with loaded halloumi fries for an extra crispy add-on.",
   "prep_times": {
@@ -15,6 +15,12 @@
   },
   "cuisine": "Turkish",
   "ingredients": [
+    {
+      "label": "Ground cumin (1tsp)",
+      "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
+      "allergens": [],
+      "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
+    },
     {
       "label": "Ground smoked paprika (2tsp)",
       "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
@@ -34,15 +40,6 @@
       "image": "/images/ingredients/918d5383-38a6-45c2-8c96-8f91a945e964.jpg"
     },
     {
-      "label": "Brioche style buns (2pcs)",
-      "gousto_uuid": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/1e22a6fb-f22f-4ae1-b46a-862aa5680e69.jpg"
-    },
-    {
       "label": "Beef mince (250g)",
       "gousto_uuid": "a7f888da-1e74-4180-9550-f7c69dcc5872",
       "allergens": [],
@@ -57,12 +54,6 @@
       "image": "/images/ingredients/14341c5e-3c23-4fb0-b591-8ea2baa90e12.jpg"
     },
     {
-      "label": "Ground cumin (1tsp)",
-      "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
-      "allergens": [],
-      "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
-    },
-    {
       "label": "Red onion",
       "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
       "allergens": [],
@@ -75,6 +66,15 @@
         "mustard"
       ],
       "image": "/images/ingredients/95d08b9d-d606-46dc-84c2-5b906d1f0bff.jpg"
+    },
+    {
+      "label": "Brioche style buns (2pcs)",
+      "gousto_uuid": "3843fd0b-c75c-457f-99fb-378721464a4d",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
     },
     {
       "label": "Natural yoghurt (80g)",
@@ -200,28 +200,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 160,
-      "energy_kj": 670,
-      "fat_mg": 8961,
-      "fat_saturates_mg": 4657,
-      "carbs_mg": 10118,
-      "carbs_sugars_mg": 3132,
-      "fibre_mg": 984,
-      "protein_mg": 10160,
-      "salt_mg": 645,
+      "energy_kcal": 157,
+      "energy_kj": 659,
+      "fat_mg": 9132,
+      "fat_saturates_mg": 4681,
+      "carbs_mg": 8583,
+      "carbs_sugars_mg": 3272,
+      "fibre_mg": 1239,
+      "protein_mg": 10301,
+      "salt_mg": 637,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 893,
-      "energy_kj": 3722,
-      "fat_mg": 49782,
-      "fat_saturates_mg": 25870,
-      "carbs_mg": 56211,
-      "carbs_sugars_mg": 17401,
-      "fibre_mg": 5470,
-      "protein_mg": 56441,
-      "salt_mg": 3587,
-      "net_weight_mg": 555500
+      "energy_kcal": 862,
+      "energy_kj": 3603,
+      "fat_mg": 49908,
+      "fat_saturates_mg": 25582,
+      "carbs_mg": 46910,
+      "carbs_sugars_mg": 17886,
+      "fibre_mg": 6775,
+      "protein_mg": 56297,
+      "salt_mg": 3483,
+      "net_weight_mg": 546500
     }
   },
   "portion_sizes": [
@@ -237,8 +237,8 @@
           }
         },
         {
-          "id": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-          "code": "I-11-BRD-BR-66",
+          "id": "3843fd0b-c75c-457f-99fb-378721464a4d",
+          "code": "I-11-BRD-BR-65",
           "quantities": {
             "in_box": 1
           }
@@ -341,8 +341,8 @@
           }
         },
         {
-          "id": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-          "code": "I-11-BRD-BR-66",
+          "id": "3843fd0b-c75c-457f-99fb-378721464a4d",
+          "code": "I-11-BRD-BR-65",
           "quantities": {
             "in_box": 1
           }
@@ -452,8 +452,8 @@
           }
         },
         {
-          "id": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-          "code": "I-11-BRD-BR-66",
+          "id": "3843fd0b-c75c-457f-99fb-378721464a4d",
+          "code": "I-11-BRD-BR-65",
           "quantities": {
             "in_box": 2
           }
@@ -556,8 +556,8 @@
           }
         },
         {
-          "id": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-          "code": "I-11-BRD-BR-66",
+          "id": "3843fd0b-c75c-457f-99fb-378721464a4d",
+          "code": "I-11-BRD-BR-65",
           "quantities": {
             "in_box": 2
           }
@@ -667,8 +667,8 @@
           }
         },
         {
-          "id": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-          "code": "I-11-BRD-BR-66",
+          "id": "3843fd0b-c75c-457f-99fb-378721464a4d",
+          "code": "I-11-BRD-BR-65",
           "quantities": {
             "in_box": 3
           }

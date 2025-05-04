@@ -9,9 +9,9 @@
   "gousto_id": "332",
   "rating": {
     "average": 4.5,
-    "count": 5961
+    "count": 5975
   },
-  "description": "Dig into dinner, Cajun style. You'll spice basa in a DIY seasoning mix of cumin, paprika and oregano before frying it until charred and crispy. Serve with a roasted pepper sauce, zingy salsa and rice. Under 600 calories.",
+  "description": "Dig into dinner, Cajun style. You'll spice basa in a DIY seasoning mix of cumin, paprika and oregano before frying it until charred and crispy. Serve with a roasted pepper sauce, zingy salsa and brown rice. Under 600 calories.",
   "prep_times": {
     "for_2": 40,
     "for_4": 45
@@ -52,12 +52,6 @@
       "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
     },
     {
-      "label": "Sweet pointed pepper",
-      "gousto_uuid": "708afc04-2b39-44c6-9ff0-04c089351013",
-      "allergens": [],
-      "image": "/images/ingredients/708afc04-2b39-44c6-9ff0-04c089351013.jpg"
-    },
-    {
       "label": "Shallot",
       "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
       "allergens": [],
@@ -84,10 +78,10 @@
       "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
     },
     {
-      "label": "White basmati rice (130g)",
-      "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
+      "label": "Yellow pepper",
+      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
       "allergens": [],
-      "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
+      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
     },
     {
       "label": "Dried oregano (1tsp)",
@@ -100,6 +94,12 @@
       "gousto_uuid": "40769a3c-952b-492d-85af-b568ada4dd95",
       "allergens": [],
       "image": "/images/ingredients/40769a3c-952b-492d-85af-b568ada4dd95.jpg"
+    },
+    {
+      "label": "Brown basmati rice (130g)",
+      "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+      "allergens": [],
+      "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
     },
     {
       "label": "Basa fillet x0",
@@ -137,12 +137,12 @@
   ],
   "cooking_instructions": [
     {
-      "instruction": "<p>Preheat the oven to 200°C/ 180°C (fan)/ gas 6</p><p>Add your <strong>basmati rice</strong> and 300ml <span class=\"text-purple\">[390ml] </span><span class=\"text-danger\">[600ml] </span><strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving</p>",
+      "instruction": "<p>Preheat the oven to 200°C/ 180°C (fan)/ gas 6</p><p>Rinse your <strong>brown rice</strong>, add it to a pot with plenty of <strong>cold water</strong> and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to medium and cook for 20-25 min or until it's tender with a slight bite</p><p>Once cooked, drain, return it to the pot and keep covered until serving</p>",
       "order": 1,
       "image": "/images/instructions/cajun-style-basa-with-roasted-pepper-salsa/step-1.jpg"
     },
     {
-      "instruction": "<p>Cut your<strong> sweet pointed pepper[s]</strong> in half (scrape the seeds and pith out with a teaspoon) and peel your <strong>garlic</strong></p><p>Add the <strong>chopped pepper </strong>and <strong>peeled garlic </strong>to a baking tray (or two!) with a pinch of <strong>salt </strong>and a drizzle of <strong>olive oil </strong>(use <strong>tin foil </strong>to avoid mess!) and cook for 15-20 min or until softened and starting to brown – this is your <strong>roasted pepper & garlic</strong></p><p>Once softened, remove from the oven and set aside to cool</p>",
+      "instruction": "<p>Cut your<strong> pepper[s]</strong> in half (scrape the seeds and pith out with a teaspoon) and peel your <strong>garlic</strong></p><p>Add the <strong>chopped pepper </strong>and <strong>peeled garlic </strong>to a baking tray (or two!) with a pinch of <strong>salt </strong>and a drizzle of <strong>olive oil </strong>(use <strong>tin foil </strong>to avoid mess!) and cook for 15-20 min or until softened and starting to brown – this is your <strong>roasted pepper & garlic</strong></p><p>Once softened, remove from the oven and set aside to cool</p>",
       "order": 2,
       "image": "/images/instructions/cajun-style-basa-with-roasted-pepper-salsa/step-2.jpg"
     },
@@ -172,7 +172,7 @@
       "image": "/images/instructions/cajun-style-basa-with-roasted-pepper-salsa/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>Cajun-style basa</strong> over the <strong>Cajun-style sauce </strong>with the <strong>cooked</strong> <strong>rice</strong> and <strong>roasted pepper salsa</strong> to the side</p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>Cajun-style basa</strong> over the <strong>Cajun-style sauce </strong>with the <strong>cooked brown</strong> <strong>rice</strong> and <strong>roasted pepper salsa</strong> to the side</p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -183,28 +183,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 147,
-      "energy_kj": 620,
-      "fat_mg": 4212,
-      "fat_saturates_mg": 439,
-      "carbs_mg": 17823,
-      "carbs_sugars_mg": 1776,
-      "fibre_mg": 1288,
-      "protein_mg": 8620,
-      "salt_mg": 83,
+      "energy_kcal": 140,
+      "energy_kj": 590,
+      "fat_mg": 4256,
+      "fat_saturates_mg": 513,
+      "carbs_mg": 17923,
+      "carbs_sugars_mg": 2026,
+      "fibre_mg": 1865,
+      "protein_mg": 8065,
+      "salt_mg": 80,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 457,
-      "energy_kj": 1922,
-      "fat_mg": 13060,
-      "fat_saturates_mg": 1362,
-      "carbs_mg": 55254,
-      "carbs_sugars_mg": 5506,
-      "fibre_mg": 3994,
-      "protein_mg": 26725,
-      "salt_mg": 260,
-      "net_weight_mg": 310000
+      "energy_kcal": 460,
+      "energy_kj": 1935,
+      "fat_mg": 13940,
+      "fat_saturates_mg": 1683,
+      "carbs_mg": 58699,
+      "carbs_sugars_mg": 6636,
+      "fibre_mg": 6109,
+      "protein_mg": 26416,
+      "salt_mg": 263,
+      "net_weight_mg": 327500
     }
   },
   "portion_sizes": [
@@ -215,6 +215,13 @@
         {
           "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
           "code": "IQ-10-MPF-SE-62",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
           "quantities": {
             "in_box": 1
           }
@@ -283,13 +290,6 @@
           }
         },
         {
-          "id": "708afc04-2b39-44c6-9ff0-04c089351013",
-          "code": "I-05-FVG-FV-18",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "5c14a222-aa12-4d98-a108-106ca1693363",
           "code": "I-05-FVG-FV-09",
           "quantities": {
@@ -304,8 +304,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 1
           }
@@ -324,6 +324,13 @@
           }
         },
         {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
@@ -387,13 +394,6 @@
           }
         },
         {
-          "id": "708afc04-2b39-44c6-9ff0-04c089351013",
-          "code": "I-05-FVG-FV-18",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "5c14a222-aa12-4d98-a108-106ca1693363",
           "code": "I-05-FVG-FV-09",
           "quantities": {
@@ -408,8 +408,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 1
           }
@@ -435,6 +435,13 @@
           }
         },
         {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
@@ -498,13 +505,6 @@
           }
         },
         {
-          "id": "708afc04-2b39-44c6-9ff0-04c089351013",
-          "code": "I-05-FVG-FV-18",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "5c14a222-aa12-4d98-a108-106ca1693363",
           "code": "I-05-FVG-FV-09",
           "quantities": {
@@ -519,8 +519,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 2
           }
@@ -534,6 +534,13 @@
         {
           "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
           "code": "IQ-10-MPF-SE-33",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
           "quantities": {
             "in_box": 2
           }
@@ -602,13 +609,6 @@
           }
         },
         {
-          "id": "708afc04-2b39-44c6-9ff0-04c089351013",
-          "code": "I-05-FVG-FV-18",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "5c14a222-aa12-4d98-a108-106ca1693363",
           "code": "I-05-FVG-FV-09",
           "quantities": {
@@ -623,8 +623,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 2
           }
@@ -650,6 +650,13 @@
           }
         },
         {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 3
+          }
+        },
+        {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
@@ -708,13 +715,6 @@
         {
           "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
           "code": "I-02-SVG-VG-10",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
-          "id": "708afc04-2b39-44c6-9ff0-04c089351013",
-          "code": "I-05-FVG-FV-18",
           "quantities": {
             "in_box": 3
           }
@@ -741,8 +741,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 3
           }

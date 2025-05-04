@@ -6,7 +6,7 @@
   "gousto_id": "6257",
   "rating": {
     "average": 4.5,
-    "count": 3211
+    "count": 3218
   },
   "description": "Quick and easy is the dish of the day with this Mexican-style crowd-pleaser. You'll simmer peppers in tomato and aromatic spices before loading them into warm tortillas. Top with cheddar and serve with sweetcorn cobbettes. For extra flavour the kids won't miss, add a sprinkling of coriander, cheese, and crispy onions.",
   "prep_times": {
@@ -15,6 +15,12 @@
   },
   "cuisine": "Mexican",
   "ingredients": [
+    {
+      "label": "Ground coriander (1tsp)",
+      "gousto_uuid": "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
+      "allergens": [],
+      "image": "/images/ingredients/c4b4c017-5074-443f-8b2e-fc3c7cfe110f.jpg"
+    },
     {
       "label": "Ground smoked paprika (1tsp)",
       "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
@@ -44,12 +50,6 @@
       "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
     },
     {
-      "label": "Ground coriander (1tsp)",
-      "gousto_uuid": "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
-      "allergens": [],
-      "image": "/images/ingredients/c4b4c017-5074-443f-8b2e-fc3c7cfe110f.jpg"
-    },
-    {
       "label": "Tomato paste (32g)",
       "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
       "allergens": [],
@@ -62,7 +62,13 @@
       "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
     },
     {
-      "label": "Red pepper x2",
+      "label": "Yellow pepper",
+      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+      "allergens": [],
+      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+    },
+    {
+      "label": "Red pepper",
       "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
       "allergens": [],
       "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
@@ -152,25 +158,25 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 126,
-      "energy_kj": 533,
-      "fat_mg": 4481,
-      "fat_saturates_mg": 2268,
-      "carbs_mg": 17484,
-      "carbs_sugars_mg": 3572,
-      "fibre_mg": 2055,
+      "energy_kcal": 127,
+      "energy_kj": 535,
+      "fat_mg": 4439,
+      "fat_saturates_mg": 2261,
+      "carbs_mg": 17531,
+      "carbs_sugars_mg": 3603,
+      "fibre_mg": 2052,
       "protein_mg": 4355,
       "salt_mg": 384,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 556,
-      "energy_kj": 2338,
-      "fat_mg": 19630,
-      "fat_saturates_mg": 9938,
-      "carbs_mg": 76584,
-      "carbs_sugars_mg": 15648,
-      "fibre_mg": 9001,
+      "energy_kcal": 558,
+      "energy_kj": 2344,
+      "fat_mg": 19447,
+      "fat_saturates_mg": 9904,
+      "carbs_mg": 76786,
+      "carbs_sugars_mg": 15783,
+      "fibre_mg": 8992,
       "protein_mg": 19077,
       "salt_mg": 1685,
       "net_weight_mg": 438000
@@ -241,7 +247,7 @@
           "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
           "code": "I-05-FVG-FV-07",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -261,6 +267,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 1
           }
@@ -331,7 +344,7 @@
           "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
           "code": "I-05-FVG-FV-07",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -351,6 +364,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 1
           }
@@ -421,7 +441,7 @@
           "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
           "code": "I-05-FVG-FV-07",
           "quantities": {
-            "in_box": 4
+            "in_box": 2
           }
         },
         {
@@ -448,6 +468,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 2
           }
@@ -518,7 +545,7 @@
           "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
           "code": "I-05-FVG-FV-07",
           "quantities": {
-            "in_box": 4
+            "in_box": 2
           }
         },
         {
@@ -538,6 +565,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 2
           }
@@ -608,7 +642,7 @@
           "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
           "code": "I-05-FVG-FV-07",
           "quantities": {
-            "in_box": 6
+            "in_box": 3
           }
         },
         {
@@ -635,6 +669,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 3
+          }
+        },
+        {
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 3
           }
