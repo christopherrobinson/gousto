@@ -18,7 +18,9 @@ export default defineConfig({
   env: {
     schema: {
       GOOGLE_TAG_MANAGER_ID: envField.string({ access: 'public', context: 'client', optional: true }),
-      GOUSTO_REFERRAL_CODE: envField.string({ access: 'public', context: 'client', optional: true }),
+      GOUSTO_REFERRAL_CODE: envField.string({ access: 'public', context: 'client', optional: false }),
+      SUPABASE_KEY: envField.string({ access: 'public', context: 'client', optional: false }),
+      SUPABASE_URL: envField.string({ access: 'public', context: 'client', optional: false }),
     },
   },
   experimental: {
