@@ -71,6 +71,16 @@
       "image": "/images/ingredients/5ca22ab3-1609-4ff0-9e46-52557f8a1de6.jpg"
     },
     {
+      "label": "Hazelnuts (25g)",
+      "gousto_uuid": "b42f0c06-1463-4db2-a016-914838751d27",
+      "allergens": [
+        "nut",
+        "peanut",
+        "sesame"
+      ],
+      "image": "/images/ingredients/b42f0c06-1463-4db2-a016-914838751d27.jpg"
+    },
+    {
       "label": "Grated Italian hard cheese (30g)",
       "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
       "allergens": [
@@ -105,16 +115,6 @@
       "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
     },
     {
-      "label": "Flaked almonds (15g)",
-      "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-      "allergens": [
-        "nut",
-        "peanut",
-        "sesame"
-      ],
-      "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
-    },
-    {
       "label": "Honey (25g)",
       "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
       "allergens": [],
@@ -140,7 +140,7 @@
       "image": "/images/instructions/classic-veggie-bbq-burger-hasselback-honey-halloumi-and-sides/step-2.jpg"
     },
     {
-      "instruction": "<p>Chop your<strong> basil </strong>roughly, including the stalks, then add it to a <strong>food processor</strong> with your<strong> flaked almonds</strong>, 2/3 of your <strong>grated Italian hard cheese</strong> (save some for garnish!), 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span><strong> olive oil</strong>, 2 tbsp <span class=\"text-purple\">[3 tbsp]</span><span class=\"text-danger\"> [4 tbsp] </span><strong>cold water</strong> and the juice of <strong>half</strong> your <strong>lemon[s]</strong></p><p>Season with a generous pinch of <strong>salt</strong> and blitz until smooth – this is your <strong>basil pesto</strong></p>",
+      "instruction": "<p>Chop your<strong> basil </strong>roughly, including the stalks, then add it to a <strong>food processor</strong> with your <strong>hazelnuts</strong>, 2/3 of your <strong>grated Italian hard cheese</strong> (save some for garnish!), 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span><strong> olive oil</strong>, 2 tbsp <span class=\"text-purple\">[3 tbsp]</span><span class=\"text-danger\"> [4 tbsp] </span><strong>cold water</strong> and the juice of <strong>half</strong> your <strong>lemon[s]</strong></p><p>Season with a generous pinch of <strong>salt</strong> and blitz until smooth – this is your <strong>basil pesto</strong></p>",
       "order": 3,
       "image": "/images/instructions/classic-veggie-bbq-burger-hasselback-honey-halloumi-and-sides/step-3.jpg"
     },
@@ -179,28 +179,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 178,
-      "energy_kj": 747,
-      "fat_mg": 8040,
-      "fat_saturates_mg": 3591,
-      "carbs_mg": 16476,
-      "carbs_sugars_mg": 3988,
-      "fibre_mg": 2302,
-      "protein_mg": 9796,
-      "salt_mg": 739,
+      "energy_kcal": 182,
+      "energy_kj": 765,
+      "fat_mg": 8586,
+      "fat_saturates_mg": 3601,
+      "carbs_mg": 16379,
+      "carbs_sugars_mg": 3986,
+      "fibre_mg": 2334,
+      "protein_mg": 9746,
+      "salt_mg": 733,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 1083,
-      "energy_kj": 4544,
-      "fat_mg": 48886,
-      "fat_saturates_mg": 21839,
-      "carbs_mg": 100176,
-      "carbs_sugars_mg": 24253,
-      "fibre_mg": 14002,
-      "protein_mg": 59564,
-      "salt_mg": 4498,
-      "net_weight_mg": 608000
+      "energy_kcal": 1118,
+      "energy_kj": 4692,
+      "fat_mg": 52638,
+      "fat_saturates_mg": 22075,
+      "carbs_mg": 100408,
+      "carbs_sugars_mg": 24438,
+      "fibre_mg": 14309,
+      "protein_mg": 59744,
+      "salt_mg": 4495,
+      "net_weight_mg": 613000
     }
   },
   "portion_sizes": [
@@ -237,13 +237,6 @@
           }
         },
         {
-          "id": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-          "code": "I-04-NUT-NT-01-15",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
           "code": "I-09-DAI-CH-42",
           "quantities": {
@@ -253,6 +246,13 @@
         {
           "id": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
           "code": "I-09-DAI-CH-30",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "b42f0c06-1463-4db2-a016-914838751d27",
+          "code": "I-04-NUT-NT-07-30",
           "quantities": {
             "in_box": 1
           }
@@ -334,13 +334,6 @@
           }
         },
         {
-          "id": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-          "code": "I-04-NUT-NT-01-15",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
           "code": "I-09-DAI-CH-42",
           "quantities": {
@@ -350,6 +343,13 @@
         {
           "id": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
           "code": "I-09-DAI-CH-30",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "b42f0c06-1463-4db2-a016-914838751d27",
+          "code": "I-04-NUT-NT-07-30",
           "quantities": {
             "in_box": 1
           }
@@ -438,13 +438,6 @@
           }
         },
         {
-          "id": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-          "code": "I-04-NUT-NT-01-15",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
           "code": "I-09-DAI-CH-42",
           "quantities": {
@@ -454,6 +447,13 @@
         {
           "id": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
           "code": "I-09-DAI-CH-30",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "b42f0c06-1463-4db2-a016-914838751d27",
+          "code": "I-04-NUT-NT-07-30",
           "quantities": {
             "in_box": 2
           }
@@ -542,13 +542,6 @@
           }
         },
         {
-          "id": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-          "code": "I-04-NUT-NT-01-15",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
           "code": "I-09-DAI-CH-42",
           "quantities": {
@@ -558,6 +551,13 @@
         {
           "id": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
           "code": "I-09-DAI-CH-30",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "b42f0c06-1463-4db2-a016-914838751d27",
+          "code": "I-04-NUT-NT-07-30",
           "quantities": {
             "in_box": 2
           }
@@ -646,13 +646,6 @@
           }
         },
         {
-          "id": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-          "code": "I-04-NUT-NT-01-15",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
           "id": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
           "code": "I-09-DAI-CH-42",
           "quantities": {
@@ -662,6 +655,13 @@
         {
           "id": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
           "code": "I-09-DAI-CH-30",
+          "quantities": {
+            "in_box": 3
+          }
+        },
+        {
+          "id": "b42f0c06-1463-4db2-a016-914838751d27",
+          "code": "I-04-NUT-NT-07-30",
           "quantities": {
             "in_box": 3
           }

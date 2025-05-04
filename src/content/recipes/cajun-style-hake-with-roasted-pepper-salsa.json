@@ -6,9 +6,9 @@
   "gousto_id": "6613",
   "rating": {
     "average": 4.5,
-    "count": 216
+    "count": 219
   },
-  "description": "Dig into dinner, Cajun style. You'll spice hake in a DIY seasoning mix of cumin, paprika and oregano before frying it until charred and crispy. Serve with a roasted pepper sauce, zingy salsa and rice. Under 600 calories.",
+  "description": "Dig into dinner, Cajun style. You'll spice hake in a DIY seasoning mix of cumin, paprika and oregano before frying it until charred and crispy. Serve with a roasted pepper sauce, zingy salsa and brown rice. Under 600 calories.",
   "prep_times": {
     "for_2": 40,
     "for_4": 45
@@ -67,16 +67,10 @@
       "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
     },
     {
-      "label": "Red pepper",
-      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+      "label": "Yellow pepper",
+      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
       "allergens": [],
-      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-    },
-    {
-      "label": "White basmati rice (130g)",
-      "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-      "allergens": [],
-      "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
+      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
     },
     {
       "label": "Dried oregano (1tsp)",
@@ -97,6 +91,12 @@
         "fish"
       ],
       "image": "/images/ingredients/4f171c2d-c380-4257-a4f9-ff7d9ec50caf.jpg"
+    },
+    {
+      "label": "Brown basmati rice (130g)",
+      "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+      "allergens": [],
+      "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
     },
     {
       "label": "Rice vinegar (15ml)",
@@ -120,7 +120,7 @@
   ],
   "cooking_instructions": [
     {
-      "instruction": "<p>Preheat the oven to 200°C/ 180°C (fan)/ gas 6</p><p>Add your <strong>basmati rice</strong> and 300ml <span class=\"text-purple\">[390ml] </span><span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving</p>",
+      "instruction": "<p>Preheat the oven to 200°C/ 180°C (fan)/ gas 6</p><p>Rinse your <strong>brown rice</strong>, add it to a pot with plenty of <strong>cold water</strong> and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to medium and cook for 20-25 min or until it's tender with a slight bite </p><p>Once cooked, drain, return it to the pot and keep covered until serving</p>",
       "order": 1,
       "image": "/images/instructions/cajun-style-hake-with-roasted-pepper-salsa/step-1.jpg"
     },
@@ -155,7 +155,7 @@
       "image": "/images/instructions/cajun-style-hake-with-roasted-pepper-salsa/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>Cajun-style hake </strong>with the <strong>basmati</strong> <strong>rice</strong> and <strong>roasted pepper salsa</strong> to the side</p><p>Drizzle the <strong>Cajun-style sauce </strong>over the hake</p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>Cajun-style hake </strong>with the <strong>brown</strong> <strong>rice</strong> and <strong>roasted pepper salsa</strong> to the side</p><p>Drizzle the <strong>Cajun-style sauce </strong>over the hake</p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -167,26 +167,26 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 141,
-      "energy_kj": 596,
-      "fat_mg": 4303,
-      "fat_saturates_mg": 356,
-      "carbs_mg": 17254,
-      "carbs_sugars_mg": 2058,
-      "fibre_mg": 1581,
-      "protein_mg": 7989,
-      "salt_mg": 161,
+      "energy_kj": 595,
+      "fat_mg": 4561,
+      "fat_saturates_mg": 458,
+      "carbs_mg": 18076,
+      "carbs_sugars_mg": 2178,
+      "fibre_mg": 2018,
+      "protein_mg": 7852,
+      "salt_mg": 162,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 464,
-      "energy_kj": 1953,
-      "fat_mg": 14095,
-      "fat_saturates_mg": 1166,
-      "carbs_mg": 56507,
-      "carbs_sugars_mg": 6741,
-      "fibre_mg": 5179,
-      "protein_mg": 26165,
-      "salt_mg": 530,
+      "energy_kj": 1951,
+      "fat_mg": 14940,
+      "fat_saturates_mg": 1503,
+      "carbs_mg": 59199,
+      "carbs_sugars_mg": 7136,
+      "fibre_mg": 6609,
+      "protein_mg": 25716,
+      "salt_mg": 533,
       "net_weight_mg": 327500
     }
   },
@@ -195,6 +195,13 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
@@ -252,13 +259,6 @@
           }
         },
         {
-          "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-          "code": "I-05-FVG-FV-07",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
           "code": "I-08-SAU-LS-28",
           "quantities": {
@@ -287,8 +287,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 1
           }
@@ -300,6 +300,13 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
@@ -356,13 +363,6 @@
           }
         },
         {
-          "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-          "code": "I-05-FVG-FV-07",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
           "code": "I-08-SAU-LS-28",
           "quantities": {
@@ -391,8 +391,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 1
           }
@@ -404,6 +404,13 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
@@ -460,13 +467,6 @@
           }
         },
         {
-          "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-          "code": "I-05-FVG-FV-07",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
           "code": "I-08-SAU-LS-28",
           "quantities": {
@@ -495,8 +495,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 2
           }
@@ -508,6 +508,13 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
@@ -559,13 +566,6 @@
         {
           "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
           "code": "I-06-SML-OT-36",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-          "code": "I-05-FVG-FV-07",
           "quantities": {
             "in_box": 2
           }
@@ -599,8 +599,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 2
           }
@@ -611,6 +611,13 @@
       "portions": 5,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+          "code": "IQ-03-GRN-RC-27-03",
+          "quantities": {
+            "in_box": 3
+          }
+        },
         {
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
@@ -663,13 +670,6 @@
         {
           "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
           "code": "I-06-SML-OT-36",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
-          "id": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-          "code": "I-05-FVG-FV-07",
           "quantities": {
             "in_box": 3
           }
@@ -710,8 +710,8 @@
           }
         },
         {
-          "id": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-          "code": "IQ-03-GRN-RC-28-02",
+          "id": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+          "code": "I-05-FVG-FV-10",
           "quantities": {
             "in_box": 3
           }
