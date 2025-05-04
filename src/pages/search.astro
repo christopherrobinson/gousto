@@ -1,0 +1,175 @@
+---
+export const prerender = false;
+
+import { supabase } from '../db/supabase';
+import Container from '@/components/Container.astro';
+import RecipeCard from '@/components/RecipeCard.astro';
+import Layout from '@/layouts/Default.astro';
+
+const { searchParams } = Astro.url;
+const searchQuery = searchParams.get('q') || '';
+const selectedCuisine = (searchParams.get('cuisine') || '');
+const selectedTime = searchParams.get('time') || '';
+const MIN_QUERY_LENGTH = 3;
+const shouldSearch = searchQuery.length >= MIN_QUERY_LENGTH;
+let data: any[] | null = [];
+let error: string = '';
+let cuisines: { label: string; value: string }[] | null = null;
+
+if (searchQuery) {
+  if (shouldSearch) {
+    const query = supabase.from('recipes').select('*').or(`title.ilike.%${searchQuery}%,description.ilike.%${searchQuery}%`);
+
+    if (selectedCuisine) {
+      query.ilike('cuisine', selectedCuisine);
+    }
+
+    if (selectedTime) {
+      const timeField = 'prep_times->>for_2';
+
+      if (selectedTime === '>60') {
+        query.gte(timeField, 60);
+      }
+      else {
+        query.lte(timeField, Number(selectedTime));
+      }
+    }
+
+    const res = await query;
+
+    data = res.data;
+    error = res.error?.message ? String(res.error.message) : (data?.length ? '' : 'No recipes found.');
+    cuisines = Array.from(
+      new Map(
+        data?.map(r => r.cuisine).filter(Boolean).map(c => [c.toLowerCase(), { label: c, value: c.toLowerCase() }])
+      ).values()
+    ).sort((a, b) => a.label.localeCompare(b.label));
+  }
+  else {
+    error = `Search query must be at least ${MIN_QUERY_LENGTH} characters long.`;
+  }
+}
+
+const hasResults = (data && (data.length > 0));
+---
+
+<Layout heading="Search">
+  <Container>
+    <div class="pt-8  w-full">
+      <form action="/search/" method="get">
+        <div class="flex-1  mb-4  w-full  md:mb-8">
+          <label class="sr-only" for="q">Search</label>
+          <div class="relative">
+            <div class="absolute  flex  inset-y-0  items-center  pointer-events-none  ps-4  start-0">
+              <Icon class="text-primary-600  size-4" name="magnifying-glass" />
+            </div>
+            <input
+              class="bg-white  border-2  border-secondary-200  block  p-4  ps-12   rounded-lg  text-secondary-800  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
+              id="q"
+              name="q"
+              placeholder="Search recipes..."
+              required
+              type="search"
+              value={searchQuery}
+            />
+            <button
+              class="absolute  bg-tertiary-600  bottom-2  cursor-pointer  end-2  px-4  py-3  rounded-lg  text-sm  text-white  hover:bg-tertiary-800"
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+        {hasResults && (
+          <div class="flex  flex-wrap  items-center  mb-4  space-x-4  text-sm  text-secondary-800  md:mb-8  md:space-x-8" id="filters">
+            {cuisines && (
+              <div class="flex  items-center  space-x-2">
+                <label class="font-normal  text-sm" for="cuisine">Cuisine</label>
+                <select
+                  class="bg-secondary-50  border  border-secondary-300  px-2  py-1  rounded-md"
+                  id="cuisine"
+                  name="cuisine"
+                >
+                  <option value="">All cuisines</option>
+                  {cuisines.map(({ label, value }) => (
+                    <option value={value} selected={selectedCuisine === value}>{label}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+            <div class="flex  items-center  space-x-2">
+              <label class="font-normal text-sm" for="time">Prep Time</label>
+              <select
+                class="bg-secondary-50  border  border-secondary-300  px-2  py-1 § rounded-md"
+                id="time"
+                name="time"
+              >
+                <option value="">All prep times</option>
+                <option value="15" selected={selectedTime === '15'}>15 minutes or less</option>
+                <option value="30" selected={selectedTime === '30'}>30 minutes or less</option>
+                <option value="45" selected={selectedTime === '45'}>45 minutes or less</option>
+                <option value="60" selected={selectedTime === '60'}>Up to 1 hour</option>
+                <option value=">60" selected={selectedTime === '>60'}>Over 1 hour</option>
+              </select>
+            </div>
+          </div>
+        )}
+      </form>
+    </div>
+    {hasResults ? (
+      <div class="gap-4  grid  pb-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+        {data?.map(({ cuisine, image, prep_times, rating, title, url }) => (
+          <RecipeCard
+            cuisine={cuisine}
+            id={url}
+            image={image}
+            prep_times={prep_times}
+            rating={rating}
+            title={title}
+            />
+        ))}
+      </div>
+    ) : (
+      <p class="py-8  text-center">{error}</p>
+    )}
+  </Container>
+</Layout>
+
+<script>
+  const attachFilterListeners = () => {
+    const form = document.querySelector('form');
+    const searchInput = form.querySelector('[name="q"]');
+    const filterElements = ['cuisine', 'time'].map(name => form.querySelector(`[name="${name}"]`)).filter(Boolean);
+
+    const buildQuery = () => {
+      const params = new URLSearchParams();
+      const query = searchInput.value.trim();
+
+      if (query)
+        params.set('q', query);
+
+      filterElements.forEach((el) => {
+        const value = el.value;
+
+        if (value)
+          params.set(el.name, value);
+      });
+
+      return params.toString();
+    };
+
+    const submitWithCleanParams = (e) => {
+      e.preventDefault();
+
+      const query = buildQuery();
+      const path = form.getAttribute('action') || location.pathname;
+
+      window.location.href = `${path}?${query}`;
+    };
+
+    filterElements.forEach((el) => el.addEventListener('change', submitWithCleanParams));
+    form.addEventListener('submit', submitWithCleanParams);
+  };
+
+  document.addEventListener('astro:page-load', attachFilterListeners);
+</script>
