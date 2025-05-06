@@ -12,6 +12,7 @@ export const recipesSchema = () => z.object({
   cuisine: z.string().nullish(),
   description: z.string(),
   gousto_id: z.string(),
+  image: z.string(),
   ingredients: z.array(
     z.object({
       allergens: z.array(z.string()),
@@ -20,39 +21,30 @@ export const recipesSchema = () => z.object({
       label: z.string().nullish(),
     })
   ),
-  prep_times: z.object({
-    for_2: z.number(),
-    for_4: z.number().nullable(),
-  }),
-  rating: z.object({
-    average: z.number().nullish(),
-    count: z.number().nullish(),
-  }).optional(),
-  title: z.string(),
   nutritional_information: z.object({
     per_hundred_grams: z.object({
+      carbs_mg: z.number().nullish(),
+      carbs_sugars_mg: z.number().nullish(),
       energy_kcal: z.number().nullish(),
       energy_kj: z.number().nullish(),
       fat_mg: z.number().nullish(),
       fat_saturates_mg: z.number().nullish(),
-      carbs_mg: z.number().nullish(),
-      carbs_sugars_mg: z.number().nullish(),
       fibre_mg: z.number().nullish(),
+      net_weight_mg: z.number().nullish(),
       protein_mg: z.number().nullish(),
       salt_mg: z.number().nullish(),
-      net_weight_mg: z.number().nullish(),
     }),
     per_portion: z.object({
+      carbs_mg: z.number().nullish(),
+      carbs_sugars_mg: z.number().nullish(),
       energy_kcal: z.number().nullish(),
       energy_kj: z.number().nullish(),
       fat_mg: z.number().nullish(),
       fat_saturates_mg: z.number().nullish(),
-      carbs_mg: z.number().nullish(),
-      carbs_sugars_mg: z.number().nullish(),
       fibre_mg: z.number().nullish(),
+      net_weight_mg: z.number().nullish(),
       protein_mg: z.number().nullish(),
       salt_mg: z.number().nullish(),
-      net_weight_mg: z.number().nullish(),
     })
   }),
   portion_sizes: z.array(
@@ -68,5 +60,14 @@ export const recipesSchema = () => z.object({
       portions: z.number(),
     })
   ).optional(),
-  image: z.string()
+  prep_times: z.object({
+    for_2: z.number(),
+    for_4: z.number().nullable(),
+  }),
+  rating: z.object({
+    average: z.number().nullish(),
+    count: z.number().nullish(),
+  }).optional(),
+  title: z.string(),
+  url: z.string(),
 })
