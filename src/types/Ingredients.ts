@@ -5,4 +5,8 @@ export interface IngredientsProps {
     label: string;
     image: string;
   }[];
+  portion_sizes?: {
+    is_offered: boolean;
+    portions: number;
+  }[],
 }

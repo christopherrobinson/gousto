@@ -1,15 +1,21 @@
 ---
 import { type IngredientsProps } from '@/types/Ingredients';
 
-const { basics, ingredients } = Astro.props as IngredientsProps;
+const { basics, ingredients, portion_sizes } = Astro.props as IngredientsProps;
 ---
 
 <div class="border  border-secondary-100  p-4  rounded-lg  text-sm">
   <h2 class="font-medium  font-serif  mb-2  text-xl">Ingredients for 2 people</h2>
-  <p class="mb-4">
-    <span class="text-purple">Cooking for 3?</span> 1 and a half for each ingredient<br>
-    <span class="text-danger">Cooking for 4?</span> Double each ingredient
-  </p>
+  {(isPortionOffered(portion_sizes, 3) || isPortionOffered(portion_sizes, 4)) && (
+    <p class="mb-4">
+      {isPortionOffered(portion_sizes, 3) && (
+        <span class="block"><span class="text-purple">Cooking for 3?</span> 1 and a half for each ingredient</span>
+      )}
+      {isPortionOffered(portion_sizes, 4) && (
+        <span class="block"><span class="text-danger">Cooking for 4?</span> Double each ingredient</span>
+      )}
+    </p>
+  ) || ``}
   <div class="mb-4">
     {ingredients.map(({ allergens, label, image }) => (
       <div class="flex  items-center  space-x-4">
