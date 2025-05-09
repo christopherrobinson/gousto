@@ -17,7 +17,7 @@
     "average": 4.5,
     "count": 23156
   },
-  "description": "Whip up a speedy curry in a flash with haddock bites and a rich, aromatic coconut sauce. Serve alongside brown rice with a sprinkle of nigella seeds. Chop, simmer, ding, done! All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
+  "description": "Whip up a speedy curry in a flash with haddock bites and a rich, aromatic coconut sauce. Serve alongside brown rice with a sprinkle of black sesame seeds. Chop, simmer, ding, done! All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
   "prep_times": {
     "for_2": 10,
     "for_4": 10
@@ -31,6 +31,19 @@
       "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
     },
     {
+      "label": "Black sesame seeds (5g)",
+      "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+      "allergens": [
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
+      ],
+      "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+    },
+    {
       "label": "Curry powder (0.5tbsp) x0",
       "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
       "allergens": [],
@@ -41,12 +54,6 @@
       "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
       "allergens": [],
       "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
-    },
-    {
-      "label": "Nigella seeds (1tsp)",
-      "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-      "allergens": [],
-      "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
     },
     {
       "label": "Ginger paste (15g)",
@@ -150,37 +157,42 @@
       "image": "/images/instructions/coconut-haddock-curry-with-green-beans/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>coconut haddock curry</strong> with the <strong>cooked rice</strong> to the side</p><p>Garnish with your <strong>nigella seeds</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>coconut haddock curry</strong> with the <strong>cooked rice</strong> to the side</p><p>Garnish with your <strong>black sesame seeds</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
   "allergens": [
-    "fish"
+    "celery",
+    "fish",
+    "mustard",
+    "nut",
+    "sesame",
+    "soya"
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 128,
-      "energy_kj": 539,
-      "fat_mg": 4200,
-      "fat_saturates_mg": 2690,
-      "carbs_mg": 14564,
-      "carbs_sugars_mg": 1240,
-      "fibre_mg": 3149,
-      "protein_mg": 7321,
-      "salt_mg": 248,
+      "energy_kcal": 130,
+      "energy_kj": 549,
+      "fat_mg": 4519,
+      "fat_saturates_mg": 2728,
+      "carbs_mg": 14441,
+      "carbs_sugars_mg": 1239,
+      "fibre_mg": 3082,
+      "protein_mg": 7329,
+      "salt_mg": 247,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 446,
-      "energy_kj": 1871,
-      "fat_mg": 14566,
-      "fat_saturates_mg": 9329,
-      "carbs_mg": 50504,
-      "carbs_sugars_mg": 4302,
-      "fibre_mg": 10920,
-      "protein_mg": 25388,
-      "salt_mg": 861,
-      "net_weight_mg": 346750
+      "energy_kcal": 455,
+      "energy_kj": 1911,
+      "fat_mg": 15717,
+      "fat_saturates_mg": 9488,
+      "carbs_mg": 50220,
+      "carbs_sugars_mg": 4310,
+      "fibre_mg": 10718,
+      "protein_mg": 25487,
+      "salt_mg": 859,
+      "net_weight_mg": 347750
     }
   },
   "portion_sizes": [
@@ -188,6 +200,13 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
           "code": "I-03-GRN-RC-40",
@@ -231,13 +250,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
           "code": "I-06-SML-CO-13",
           "quantities": {
@@ -250,6 +262,13 @@
       "portions": 2,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
           "code": "I-03-GRN-RC-40",
@@ -288,13 +307,6 @@
         {
           "id": "87633123-034b-415f-8107-af23c882cc90",
           "code": "IQ-10-MPF-SE-29",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
           "quantities": {
             "in_box": 1
           }
@@ -313,6 +325,13 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
           "code": "I-03-GRN-RC-40",
           "quantities": {
@@ -376,13 +395,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
           "code": "I-06-SML-CO-13",
           "quantities": {
@@ -395,6 +407,13 @@
       "portions": 4,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
           "code": "I-03-GRN-RC-40",
@@ -438,13 +457,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
           "code": "I-06-SML-CO-13",
           "quantities": {
@@ -457,6 +469,13 @@
       "portions": 5,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 2
+          }
+        },
         {
           "id": "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
           "code": "I-03-GRN-RC-40",
@@ -518,13 +537,6 @@
           "code": "IQ-10-MPF-SE-61",
           "quantities": {
             "in_box": 1
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 3
           }
         },
         {

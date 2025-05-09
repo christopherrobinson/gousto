@@ -17,6 +17,12 @@
   "cuisine": "Indian",
   "ingredients": [
     {
+      "label": "Ground turmeric (0.5tsp) x0",
+      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
+      "allergens": [],
+      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
+    },
+    {
       "label": "Garlic clove x3",
       "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
       "allergens": [],
@@ -47,6 +53,19 @@
       "image": "/images/ingredients/e329fbb2-795e-457b-838e-4734e2691d32.jpg"
     },
     {
+      "label": "Black sesame seeds (5g)",
+      "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+      "allergens": [
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
+      ],
+      "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+    },
+    {
       "label": "Spinach (80g) x0",
       "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
       "allergens": [],
@@ -57,12 +76,6 @@
       "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
       "allergens": [],
       "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
-    },
-    {
-      "label": "Nigella seeds (1tsp)",
-      "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-      "allergens": [],
-      "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
     },
     {
       "label": "Red onion x2",
@@ -81,12 +94,6 @@
       "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
       "allergens": [],
       "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
-    },
-    {
-      "label": "Ground turmeric (0.5tsp) x0",
-      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
-      "allergens": [],
-      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
     },
     {
       "label": "Yellow mustard seeds (1tsp)",
@@ -176,7 +183,7 @@
       "image": "/images/instructions/indian-style-spiced-chicken-breast-tray-bake/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>Indian-style spiced chicken breast</strong> with the <strong>potato, spinach & onion wedges </strong>to the side</p><p>Dollop with the <strong>remaining</strong> <strong>natural yoghurt</strong></p><p>Garnish with the<strong> sliced chilli</strong> (can't handle the heat? Go easy!), <strong>nigella seeds</strong> and <strong>lemon wedges</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>Indian-style spiced chicken breast</strong> with the <strong>potato, spinach & onion wedges </strong>to the side</p><p>Dollop with the <strong>remaining</strong> <strong>natural yoghurt</strong></p><p>Garnish with the<strong> sliced chilli</strong> (can't handle the heat? Go easy!), <strong>black sesame seeds</strong> and <strong>lemon wedges</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -191,28 +198,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 71,
-      "energy_kj": 302,
-      "fat_mg": 804,
-      "fat_saturates_mg": 257,
-      "carbs_mg": 9543,
-      "carbs_sugars_mg": 2098,
-      "fibre_mg": 1422,
-      "protein_mg": 6993,
+      "energy_kcal": 72,
+      "energy_kj": 308,
+      "fat_mg": 997,
+      "fat_saturates_mg": 283,
+      "carbs_mg": 9479,
+      "carbs_sugars_mg": 2096,
+      "fibre_mg": 1385,
+      "protein_mg": 6998,
       "salt_mg": 126,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 420,
-      "energy_kj": 1783,
-      "fat_mg": 4745,
-      "fat_saturates_mg": 1517,
-      "carbs_mg": 56321,
-      "carbs_sugars_mg": 12385,
-      "fibre_mg": 8393,
-      "protein_mg": 41271,
-      "salt_mg": 748,
-      "net_weight_mg": 590150
+      "energy_kcal": 430,
+      "energy_kj": 1823,
+      "fat_mg": 5897,
+      "fat_saturates_mg": 1676,
+      "carbs_mg": 56037,
+      "carbs_sugars_mg": 12393,
+      "fibre_mg": 8192,
+      "protein_mg": 41370,
+      "salt_mg": 747,
+      "net_weight_mg": 591150
     }
   },
   "portion_sizes": [
@@ -220,6 +227,13 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
           "code": "I-10-MPF-PO-57",
@@ -270,13 +284,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -317,6 +324,13 @@
       "portions": 2,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
           "code": "I-10-MPF-PO-45",
@@ -367,13 +381,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -414,6 +421,13 @@
       "portions": 3,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
           "code": "I-10-MPF-PO-57",
@@ -478,13 +492,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
           "code": "I-05-FVG-FV-06",
           "quantities": {
@@ -525,6 +532,13 @@
       "portions": 4,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
           "code": "I-10-MPF-PO-45",
@@ -570,13 +584,6 @@
         {
           "id": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
           "code": "I-09-DAI-CR-13",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
           "quantities": {
             "in_box": 2
           }
@@ -623,6 +630,13 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
           "code": "I-10-MPF-PO-57",
           "quantities": {
@@ -637,15 +651,15 @@
           }
         },
         {
-          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
-          "code": "I-06-SML-DL-69",
+          "id": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+          "code": "I-06-SML-DL-71",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
-          "code": "I-06-SML-DL-71",
+          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+          "code": "I-06-SML-DL-69",
           "quantities": {
             "in_box": 1
           }
@@ -681,13 +695,6 @@
         {
           "id": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
           "code": "I-09-DAI-CR-13",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
           "quantities": {
             "in_box": 3
           }

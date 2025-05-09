@@ -17,6 +17,37 @@
   "cuisine": "Indian",
   "ingredients": [
     {
+      "label": "Cumin seeds (1tsp)",
+      "gousto_uuid": "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
+      "allergens": [],
+      "image": "/images/ingredients/77f8b116-f219-4bf0-904e-2a97f4aa7ff7.jpg"
+    },
+    {
+      "label": "Ground turmeric (0.5tsp) x0",
+      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
+      "allergens": [],
+      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
+    },
+    {
+      "label": "Shallot",
+      "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+      "allergens": [],
+      "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+    },
+    {
+      "label": "4 vegetable samosas (140g)",
+      "gousto_uuid": "49ec7825-41d3-4ae5-a0bc-b45040b6612e",
+      "allergens": [
+        "celery",
+        "gluten",
+        "nut",
+        "peanut",
+        "sesame",
+        "soya"
+      ],
+      "image": "/images/ingredients/49ec7825-41d3-4ae5-a0bc-b45040b6612e.jpg"
+    },
+    {
       "label": "Intense vegetable stock mix (5.5g)",
       "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
       "allergens": [],
@@ -33,12 +64,6 @@
       "gousto_uuid": "3518d21a-ac56-46f1-915a-76c1a91f79df",
       "allergens": [],
       "image": "/images/ingredients/3518d21a-ac56-46f1-915a-76c1a91f79df.jpg"
-    },
-    {
-      "label": "Cumin seeds (1tsp)",
-      "gousto_uuid": "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
-      "allergens": [],
-      "image": "/images/ingredients/77f8b116-f219-4bf0-904e-2a97f4aa7ff7.jpg"
     },
     {
       "label": "Tomato paste (32g) x0",
@@ -81,25 +106,6 @@
       "gousto_uuid": "5093c3b8-3b86-4f9b-b06f-abc6dea3dbe1",
       "allergens": [],
       "image": "/images/ingredients/5093c3b8-3b86-4f9b-b06f-abc6dea3dbe1.jpg"
-    },
-    {
-      "label": "4 vegetable samosas (140g)",
-      "gousto_uuid": "49ec7825-41d3-4ae5-a0bc-b45040b6612e",
-      "allergens": [
-        "celery",
-        "gluten",
-        "nut",
-        "peanut",
-        "sesame",
-        "soya"
-      ],
-      "image": "/images/ingredients/49ec7825-41d3-4ae5-a0bc-b45040b6612e.jpg"
-    },
-    {
-      "label": "Ground turmeric (0.5tsp) x0",
-      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
-      "allergens": [],
-      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
     },
     {
       "label": "Red kidney beans (185g)",
@@ -152,12 +158,6 @@
       "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
       "allergens": [],
       "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-    },
-    {
-      "label": "Shallot",
-      "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-      "allergens": [],
-      "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
     }
   ],
   "basics": [
@@ -167,7 +167,7 @@
   ],
   "cooking_instructions": [
     {
-      "instruction": "<p>Peel and finely dice your <strong>shallot[s]</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a generous drizzle of <strong>vegetable oil</strong> over a medium heat</p><p>Once hot, add <strong>half</strong> your<strong> cumin seeds </strong>(you'll use the rest later!) and cook for 1 min or until fragrant, then add the <strong>diced shallot</strong>, your <strong>ground turmeric</strong> and a very generous pinch of <strong>salt</strong> and cook for 2-3 min or until starting to soften</p>",
+      "instruction": "<p>Peel and finely dice your <strong>shallot[s]</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a generous drizzle of <strong>vegetable oil</strong> over a medium heat</p><p>Once hot, add <strong>half</strong> your<strong> cumin seeds </strong>(you'll use the rest later!) and cook for 1 min or until fragrant, then add the <strong>diced shallot</strong>, your <strong>ground turmeric</strong> and a very generous pinch of <strong>salt</strong> and cook for 2-3 min or until starting to soften</p>",
       "order": 1,
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-1.jpg"
     },
@@ -177,32 +177,32 @@
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-2.jpg"
     },
     {
-      "instruction": "<p>Add your <strong>basmati rice</strong>, a pinch of<strong> salt</strong>, the<strong> remaining cumin seeds </strong>and 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving</p>",
+      "instruction": "<p>Add your <strong>basmati rice</strong>, a pinch of<strong> salt</strong>, the<strong> remaining cumin seeds </strong>and 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving</p>",
       "order": 3,
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-3.jpg"
     },
     {
-      "instruction": "<p>Boil a kettle</p><p>Once the shallot has softened, add the <strong>chopped tomato</strong> and your <strong>ginger & garlic paste</strong> and cook for 3-4 min further or until the tomato is beginning to soften</p><p>Meanwhile, drain and rinse your <strong>kidney beans</strong></p><p>Dissolve your<strong> stock mix</strong> in 400ml <span class=\"text-purple\">[600ml]</span> <span class=\"text-danger\">[800ml]</span> <strong>boiled water</strong></p>",
+      "instruction": "<p>Boil a kettle</p><p>Once the shallot has softened, add the <strong>chopped tomato</strong> and your <strong>ginger & garlic paste,</strong> and cook for 3-4 min further or until the tomato is beginning to soften</p><p>Meanwhile, drain and rinse your <strong>kidney beans</strong></p><p>Dissolve your<strong> vegetable stock mix</strong> in 400ml <span class=\"text-purple\">[600ml]</span> <span class=\"text-danger\">[800ml]</span> <strong>boiled water</strong></p>",
       "order": 4,
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-4.jpg"
     },
     {
-      "instruction": "<p>Add your <strong>tomato paste</strong> to the pan and cook for 1-2 min</p><p>Add the<strong> drained kidney beans</strong> and your <strong>green lentils </strong>and cook for 2-3 min or until starting to soften, then mash them roughly</p><p>Tip: Add a splash of water if it is looking a little dry – this will help to thicken the sauce!</p>",
+      "instruction": "<p>Add your <strong>tomato paste</strong> to the pan and cook for 1-2 min</p><p>Add the<strong> drained kidney beans</strong> and your <strong>green lentils </strong>and cook for 2-3 min or until starting to soften, then mash them roughly</p><p>Tip: Add a splash of water if it is looking a little dry – this will help to thicken the sauce!</p>",
       "order": 5,
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-5.jpg"
     },
     {
-      "instruction": "<p>Add the<strong> stock</strong> and your <strong>garam masala</strong> to the pan and bring to the boil</p><p>Cook for 6-8 min further or until the sauce has thickened</p><p>Once thickened, add your <strong>clotted cream</strong> and<strong> </strong>cook for 1 min or until melted – this is your <strong>Punjabi-style black dal makhani</strong></p>",
+      "instruction": "<p>Add the<strong> vegetable stock</strong> and your <strong>garam masala</strong> to the pan and bring to the boil</p><p>Cook for 6-8 min further or until the sauce has thickened</p><p>Once thickened, add your <strong>clotted cream</strong> and<strong> </strong>cook for 1 min or until melted – this is your <strong>Punjabi-style black dal makhani</strong></p>",
       "order": 6,
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-6.jpg"
     },
     {
-      "instruction": "<p>Wash your <strong>spinach</strong>, then add to a colander and pour <strong>boiled water</strong> all over it so that it starts to wilt</p><p>Rinse the<strong> wilted spinach</strong> under <strong>cold running water</strong> until it's cool</p><p>Once cool, squeeze as much water out of the spinach as you can, then chop it roughly</p><p>Once the rice is done, stir through the <strong>chopped spinach </strong>and season with a pinch of <strong>salt </strong>– this is your<strong> spinach rice</strong></p>",
+      "instruction": "<p>Wash your <strong>spinach</strong>, then add to a colander and pour <strong>boiled water</strong> all over it so that it starts to wilt</p><p>Rinse the<strong> wilted spinach</strong> under <strong>cold running water</strong> until it's cool</p><p>Once cool, squeeze as much water out of the spinach as you can, then chop it roughly</p><p>Once the rice is done, stir through the <strong>chopped spinach </strong>and season with a pinch of <strong>salt </strong>– this is your<strong> spinach rice</strong></p>",
       "order": 7,
       "image": "/images/instructions/punjabi-style-dal-makhani-and-spinach-rice-with-sides/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>Punjabi-style black dal makhani</strong> with the<strong> spinach rice</strong></p><p>Garnish with the <strong>chopped coriander</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>Punjabi-style black dal makhani</strong> with the<strong> spinach rice</strong></p><p>Garnish with the <strong>chopped coriander</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -223,7 +223,7 @@
       "fat_saturates_mg": 1518,
       "carbs_mg": 23944,
       "carbs_sugars_mg": 1686,
-      "fibre_mg": 2920,
+      "fibre_mg": 2944,
       "protein_mg": 5106,
       "salt_mg": 502,
       "net_weight_mg": 100000
@@ -234,8 +234,8 @@
       "fat_mg": 24271,
       "fat_saturates_mg": 9034,
       "carbs_mg": 142408,
-      "carbs_sugars_mg": 10032,
-      "fibre_mg": 17370,
+      "carbs_sugars_mg": 10033,
+      "fibre_mg": 17510,
       "protein_mg": 30372,
       "salt_mg": 2990,
       "net_weight_mg": 594750

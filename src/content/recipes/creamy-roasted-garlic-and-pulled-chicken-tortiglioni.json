@@ -17,6 +17,12 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "Garlic clove x3",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
       "label": "Skinless chicken thighs (160g) x0",
       "gousto_uuid": "3b3fb764-3581-4167-87c3-1a11ef3bf6d9",
       "allergens": [],
@@ -27,6 +33,12 @@
       "gousto_uuid": "0384baf3-5475-4f1e-aeab-323c9efb8421",
       "allergens": [],
       "image": "/images/ingredients/0384baf3-5475-4f1e-aeab-323c9efb8421.jpg"
+    },
+    {
+      "label": "Intense chicken stock mix (5.5g)",
+      "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+      "allergens": [],
+      "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
     },
     {
       "label": "White wine vinegar (15ml)",
@@ -43,12 +55,6 @@
       "image": "/images/ingredients/248e9920-213f-426d-90d4-611a29171065.jpg"
     },
     {
-      "label": "Chicken stock mix (11g)",
-      "gousto_uuid": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-      "allergens": [],
-      "image": "/images/ingredients/26a9d0f7-4abc-4337-afdd-7f17f2464084.jpg"
-    },
-    {
       "label": "Roasted garlic paste (15g)",
       "gousto_uuid": "485c12c9-8de2-436e-b1de-9d336ccbf713",
       "allergens": [],
@@ -59,12 +65,6 @@
       "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
       "allergens": [],
       "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-    },
-    {
-      "label": "Garlic clove x3",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
     },
     {
       "label": "Soft cheese (50g)",
@@ -141,28 +141,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 175,
-      "energy_kj": 737,
-      "fat_mg": 4796,
-      "fat_saturates_mg": 1803,
-      "carbs_mg": 21885,
-      "carbs_sugars_mg": 1490,
-      "fibre_mg": 1329,
-      "protein_mg": 12173,
-      "salt_mg": 448,
+      "energy_kcal": 173,
+      "energy_kj": 730,
+      "fat_mg": 4827,
+      "fat_saturates_mg": 1817,
+      "carbs_mg": 21391,
+      "carbs_sugars_mg": 1468,
+      "fibre_mg": 1427,
+      "protein_mg": 12212,
+      "salt_mg": 453,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 673,
-      "energy_kj": 2836,
-      "fat_mg": 18442,
-      "fat_saturates_mg": 6934,
-      "carbs_mg": 84148,
-      "carbs_sugars_mg": 5731,
-      "fibre_mg": 5112,
-      "protein_mg": 46808,
-      "salt_mg": 1724,
-      "net_weight_mg": 384500
+      "energy_kcal": 662,
+      "energy_kj": 2790,
+      "fat_mg": 18428,
+      "fat_saturates_mg": 6937,
+      "carbs_mg": 81662,
+      "carbs_sugars_mg": 5607,
+      "fibre_mg": 5451,
+      "protein_mg": 46621,
+      "salt_mg": 1732,
+      "net_weight_mg": 381750
     }
   },
   "portion_sizes": [
@@ -240,17 +240,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
           "quantities": {
             "in_box": 3
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
+          "quantities": {
+            "in_box": 1
           }
         },
         {
@@ -316,17 +316,17 @@
           }
         },
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
           "quantities": {
             "in_box": 5
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
+          "quantities": {
+            "in_box": 1
           }
         },
         {
@@ -392,17 +392,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
           "quantities": {
             "in_box": 6
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
+          "quantities": {
+            "in_box": 2
           }
         },
         {
@@ -468,17 +468,17 @@
           }
         },
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
           "quantities": {
             "in_box": 8
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
+          "quantities": {
+            "in_box": 2
           }
         },
         {

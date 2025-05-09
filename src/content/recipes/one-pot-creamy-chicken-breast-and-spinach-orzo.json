@@ -7,7 +7,7 @@
   "gousto_id": "5758",
   "rating": {
     "average": 4.5,
-    "count": 977
+    "count": 978
   },
   "description": "To whip up a tasty risotto in half the time, you'll swap rice for a rice-shaped pasta called orzo, and simmer it in a garlic-infused cream cheese sauce. Finish with more cheese and a sprinkle of basil, and it's ready. Buon appetito!",
   "prep_times": {
@@ -16,6 +16,12 @@
   },
   "cuisine": "Italian",
   "ingredients": [
+    {
+      "label": "Garlic clove",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
     {
       "label": "Diced chicken breast (125g) x0",
       "gousto_uuid": "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
@@ -49,6 +55,12 @@
       "image": "/images/ingredients/e329fbb2-795e-457b-838e-4734e2691d32.jpg"
     },
     {
+      "label": "Intense chicken stock mix (5.5g)",
+      "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+      "allergens": [],
+      "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+    },
+    {
       "label": "Spinach (80g) x0",
       "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
       "allergens": [],
@@ -71,12 +83,6 @@
       "image": "/images/ingredients/3ef06794-4313-4888-876e-9de6a56d6204.jpg"
     },
     {
-      "label": "Chicken stock mix (11g)",
-      "gousto_uuid": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-      "allergens": [],
-      "image": "/images/ingredients/26a9d0f7-4abc-4337-afdd-7f17f2464084.jpg"
-    },
-    {
       "label": "Chicken stock mix (5.5g) x0",
       "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
       "allergens": [],
@@ -87,12 +93,6 @@
       "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
       "allergens": [],
       "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
-    },
-    {
-      "label": "Garlic clove",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
     },
     {
       "label": "Soft cheese (50g)",
@@ -157,28 +157,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 164,
-      "energy_kj": 694,
-      "fat_mg": 4515,
-      "fat_saturates_mg": 2638,
-      "carbs_mg": 16933,
-      "carbs_sugars_mg": 1654,
-      "fibre_mg": 1072,
-      "protein_mg": 13967,
-      "salt_mg": 513,
+      "energy_kcal": 162,
+      "energy_kj": 686,
+      "fat_mg": 4546,
+      "fat_saturates_mg": 2659,
+      "carbs_mg": 16361,
+      "carbs_sugars_mg": 1632,
+      "fibre_mg": 1107,
+      "protein_mg": 14022,
+      "salt_mg": 519,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 586,
-      "energy_kj": 2471,
-      "fat_mg": 16074,
-      "fat_saturates_mg": 9394,
-      "carbs_mg": 60284,
-      "carbs_sugars_mg": 5891,
-      "fibre_mg": 3818,
-      "protein_mg": 49723,
-      "salt_mg": 1827,
-      "net_weight_mg": 356000
+      "energy_kcal": 575,
+      "energy_kj": 2426,
+      "fat_mg": 16060,
+      "fat_saturates_mg": 9396,
+      "carbs_mg": 57798,
+      "carbs_sugars_mg": 5767,
+      "fibre_mg": 3911,
+      "protein_mg": 49536,
+      "salt_mg": 1835,
+      "net_weight_mg": 353250
     }
   },
   "portion_sizes": [
@@ -277,13 +277,6 @@
           }
         },
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
           "code": "I-10-MPF-PO-05",
           "quantities": {
@@ -293,6 +286,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
           "quantities": {
             "in_box": 1
           }
@@ -353,13 +353,6 @@
           }
         },
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
           "code": "I-10-MPF-PO-05",
           "quantities": {
@@ -378,6 +371,13 @@
           "code": "I-06-SML-OT-02",
           "quantities": {
             "in_box": 2
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
+          "quantities": {
+            "in_box": 1
           }
         },
         {
@@ -443,13 +443,6 @@
           }
         },
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
           "code": "I-10-MPF-PO-05",
           "quantities": {
@@ -459,6 +452,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
           "quantities": {
             "in_box": 2
           }
@@ -519,13 +519,6 @@
           }
         },
         {
-          "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-          "code": "I-06-SML-SC-23",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
           "code": "I-10-MPF-PO-05",
           "quantities": {
@@ -544,6 +537,13 @@
           "code": "I-06-SML-OT-02",
           "quantities": {
             "in_box": 3
+          }
+        },
+        {
+          "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+          "code": "I-06-SML-SC-35",
+          "quantities": {
+            "in_box": 2
           }
         },
         {
