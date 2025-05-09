@@ -10,7 +10,7 @@
   "gousto_id": "2173",
   "rating": {
     "average": 4.5,
-    "count": 2768
+    "count": 2865
   },
   "description": "Experience the tastes of Singapore in this super quick and easy stir-fry! Singaporean cuisine is hugely influenced by Chinese and Indian cuisine, hence the (delicious) pairing of Indian spices with fine egg noodles. Garnish with a wedge of lime and some crunchy peanuts, and transport yourself to South East Asia!",
   "prep_times": {
@@ -19,6 +19,12 @@
   },
   "cuisine": "Asian",
   "ingredients": [
+    {
+      "label": "Dried chilli flakes (1tsp) x0",
+      "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
+      "allergens": [],
+      "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+    },
     {
       "label": "Dried chilli flakes (0.5tsp)",
       "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -41,6 +47,15 @@
         "soya"
       ],
       "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+    },
+    {
+      "label": "Soy sauce (30ml) x0",
+      "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
     },
     {
       "label": "Tomato paste (16g)",
@@ -75,10 +90,30 @@
       "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
     },
     {
+      "label": "Curry powder (2tbsp) x0",
+      "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+      "allergens": [],
+      "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+    },
+    {
       "label": "Curry powder (1tbsp)",
       "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
       "allergens": [],
       "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
+    },
+    {
+      "label": "Toasted sesame oil (20ml) x0",
+      "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
+      "allergens": [
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "peanut",
+        "sesame",
+        "soya"
+      ],
+      "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
     },
     {
       "label": "Fine egg noodle nests (2pcs)",
@@ -97,15 +132,6 @@
         "gluten"
       ],
       "image": "/images/ingredients/814b025e-917f-4a7f-9cff-6c5b97ba50cb.jpg"
-    },
-    {
-      "label": "Soy sauce (8ml) x0",
-      "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
     },
     {
       "label": "Lime",
@@ -275,8 +301,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -385,15 +411,15 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
-          "code": "I-06-SML-DL-69",
+          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
+          "code": "I-06-SML-DL-70",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
-          "code": "I-06-SML-DL-70",
+          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+          "code": "I-06-SML-DL-69",
           "quantities": {
             "in_box": 1
           }
@@ -455,17 +481,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
           "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 1
+            "in_box": 2
           }
         },
         {
@@ -489,17 +508,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
-          "code": "I-06-SML-DL-70",
+          "id": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+          "code": "I-06-SML-DL-71",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
-          "id": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-          "code": "I-06-SML-CL-03",
+          "id": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
+          "code": "I-06-SML-CL-04",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -545,17 +564,17 @@
           }
         },
         {
-          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-          "code": "I-06-SML-OT-14",
+          "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+          "code": "I-06-SML-OT-15",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
-          "id": "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
-          "code": "I-08-SAU-LS-40",
+          "id": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
+          "code": "I-08-SAU-LS-41",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -572,6 +591,13 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+          "code": "I-06-SML-DL-71",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
           "code": "I-06-SML-DL-69",
           "quantities": {
@@ -579,17 +605,10 @@
           }
         },
         {
-          "id": "72ff27f8-415a-40af-b537-92f32743fdfb",
-          "code": "I-06-SML-DL-70",
+          "id": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
+          "code": "I-06-SML-CL-04",
           "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-          "code": "I-06-SML-CL-03",
-          "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -642,8 +661,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+          "code": "I-06-SML-OT-15",
           "quantities": {
             "in_box": 1
           }
@@ -652,14 +671,14 @@
           "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
           "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
-          "id": "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
-          "code": "I-08-SAU-LS-40",
+          "id": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
+          "code": "I-08-SAU-LS-41",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {

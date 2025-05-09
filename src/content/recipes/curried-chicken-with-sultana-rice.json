@@ -26,6 +26,12 @@
   "cuisine": "Indian",
   "ingredients": [
     {
+      "label": "Ground turmeric (0.5tsp) x0",
+      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
+      "allergens": [],
+      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
+    },
+    {
       "label": "Spring onion",
       "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
       "allergens": [],
@@ -56,16 +62,23 @@
       "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
     },
     {
+      "label": "Black sesame seeds (5g)",
+      "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+      "allergens": [
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
+      ],
+      "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+    },
+    {
       "label": "Curry powder (0.5tbsp) x0",
       "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
       "allergens": [],
       "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
-    },
-    {
-      "label": "Nigella seeds (1tsp)",
-      "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-      "allergens": [],
-      "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
     },
     {
       "label": "White basmati rice (130g)",
@@ -90,12 +103,6 @@
       "gousto_uuid": "5a446609-a9e0-420e-af4e-da2fa9f91f81",
       "allergens": [],
       "image": "/images/ingredients/5a446609-a9e0-420e-af4e-da2fa9f91f81.jpg"
-    },
-    {
-      "label": "Ground turmeric (0.5tsp) x0",
-      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
-      "allergens": [],
-      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
     },
     {
       "label": "Ground turmeric (1tsp)",
@@ -153,12 +160,12 @@
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-1.jpg"
     },
     {
-      "instruction": "<p>Heat a pot with a matching lid, with a drizzle of <strong>olive oil</strong> over a medium heat</p><p>Once hot, add your <strong>ground turmeric</strong> and <strong>crushed</strong> <strong>cardamom pods</strong>, and cook for 20 secs until sizzling, then add your <strong>basmati rice</strong> and<strong> chicken stock</strong> and increase the heat to high</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-15 min or until all the water has absorbed and the rice is cooked – this is your <strong>sultana rice</strong></p>",
+      "instruction": "<p>Heat a pot with a matching lid, with a drizzle of <strong>olive oil</strong> over a medium heat</p><p>Once hot, add your <strong>ground turmeric</strong> and <strong>crushed</strong> <strong>cardamom pods</strong>, and cook for 20 secs until sizzling, then add your <strong>basmati rice</strong> and<strong> chicken stock</strong> and increase the heat to high</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-15 min or until all the water has absorbed and the rice is cooked – this is your <strong>sultana rice</strong></p>",
       "order": 2,
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-2.jpg"
     },
     {
-      "instruction": "<p>Meanwhile, peel and grate your <strong>carrot[s]</strong></p><p>Trim and slice your <strong>spring onion[s]</strong> finely</p><p>Add the <strong>grated carrot</strong>, <strong>sliced spring onion </strong>and your <strong>nigella seeds</strong> to a large mixing bowl and set aside – this is your <strong>Indian-style carrot slaw</strong></p>",
+      "instruction": "<p>Meanwhile, peel and grate your <strong>carrot[s]</strong></p><p>Trim and slice your <strong>spring onion[s]</strong> finely</p><p>Add the <strong>grated carrot</strong>, <strong>sliced spring onion </strong>and your <strong>black sesame seeds</strong> to a large mixing bowl and set aside – this is your <strong>Indian-style carrot slaw</strong></p>",
       "order": 3,
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-3.jpg"
     },
@@ -168,7 +175,7 @@
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-4.jpg"
     },
     {
-      "instruction": "<p>Heat a large, wide-based pan (preferably non-stick with a matching lid) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the <strong>coated</strong> <strong>chicken</strong> and cook for 3 min on each side or until golden</p><p>Add a couple of splashes of <strong>water</strong> to the pan and cover with a lid, then cook for a further 10-15 min or until the chicken is cooked through (no pink meat!) – this is your <strong>curried chicken</strong></p>",
+      "instruction": "<p>Heat a large, wide-based pan (preferably non-stick with a matching lid) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the <strong>coated</strong> <strong>chicken</strong> and cook for 3 min on each side or until golden</p><p>Add a couple of splashes of <strong>water</strong> to the pan and cover with a lid, then cook for a further 10-15 min or until the chicken is cooked through (no pink meat!) – this is your <strong>curried chicken</strong></p>",
       "order": 5,
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-5.jpg"
     },
@@ -178,7 +185,7 @@
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-6.jpg"
     },
     {
-      "instruction": "<p>Add the <strong>chopped mint</strong> and<strong> chopped coriander</strong> to your<strong> Indian-style carrot slaw</strong></p><p>Squeeze in 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span><strong> lemon juice</strong>, 2 tbsp <span class=\"text-purple\">[3 tbsp]</span><span class=\"text-danger\"> [4 tbsp]</span><strong> olive oil</strong> and a generous pinch of <strong>salt</strong> and mix to combine</p><p>Cut the <strong>remaining lemon</strong> into 1 wedge per person</p>",
+      "instruction": "<p>Add the <strong>chopped mint</strong> and<strong> chopped coriander</strong> to your<strong> Indian-style carrot slaw</strong></p><p>Squeeze in 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span><strong> lemon juice</strong>, 2 tbsp <span class=\"text-purple\">[3 tbsp]</span><span class=\"text-danger\"> [4 tbsp]</span><strong> olive oil</strong> and a generous pinch of <strong>salt</strong> and mix to combine</p><p>Cut the <strong>remaining lemon</strong> into 1 wedge per person</p>",
       "order": 7,
       "image": "/images/instructions/curried-chicken-with-sultana-rice/step-7.jpg"
     },
@@ -187,31 +194,38 @@
       "order": 8
     }
   ],
-  "allergens": [],
+  "allergens": [
+    "celery",
+    "fish",
+    "mustard",
+    "nut",
+    "sesame",
+    "soya"
+  ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 129,
-      "energy_kj": 548,
-      "fat_mg": 952,
-      "fat_saturates_mg": 186,
-      "carbs_mg": 18891,
-      "carbs_sugars_mg": 5351,
-      "fibre_mg": 1816,
-      "protein_mg": 10475,
-      "salt_mg": 489,
+      "energy_kcal": 131,
+      "energy_kj": 557,
+      "fat_mg": 1257,
+      "fat_saturates_mg": 228,
+      "carbs_mg": 18765,
+      "carbs_sugars_mg": 5339,
+      "fibre_mg": 1757,
+      "protein_mg": 10473,
+      "salt_mg": 487,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 483,
-      "energy_kj": 2046,
-      "fat_mg": 3552,
-      "fat_saturates_mg": 694,
-      "carbs_mg": 70485,
-      "carbs_sugars_mg": 19967,
-      "fibre_mg": 6777,
-      "protein_mg": 39083,
-      "salt_mg": 1825,
-      "net_weight_mg": 373100
+      "energy_kcal": 492,
+      "energy_kj": 2086,
+      "fat_mg": 4704,
+      "fat_saturates_mg": 853,
+      "carbs_mg": 70201,
+      "carbs_sugars_mg": 19975,
+      "fibre_mg": 6576,
+      "protein_mg": 39181,
+      "salt_mg": 1823,
+      "net_weight_mg": 374100
     }
   },
   "portion_sizes": [
@@ -219,6 +233,13 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "7ef1d749-e8ca-43f9-85bc-45296edcc089",
           "code": "I-06-SML-IN-11",
@@ -283,13 +304,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
           "code": "I-07-HBS-PL-10",
           "quantities": {
@@ -316,6 +330,13 @@
       "portions": 2,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "7ef1d749-e8ca-43f9-85bc-45296edcc089",
           "code": "I-06-SML-IN-11",
@@ -380,13 +401,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
           "code": "I-07-HBS-PL-10",
           "quantities": {
@@ -413,6 +427,13 @@
       "portions": 3,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "7ef1d749-e8ca-43f9-85bc-45296edcc089",
           "code": "I-06-SML-IN-11",
@@ -498,13 +519,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
           "code": "I-07-HBS-PL-10",
           "quantities": {
@@ -538,6 +552,13 @@
       "portions": 4,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
         {
           "id": "7ef1d749-e8ca-43f9-85bc-45296edcc089",
           "code": "I-06-SML-IN-11",
@@ -602,13 +623,6 @@
           }
         },
         {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
           "code": "I-07-HBS-PL-10",
           "quantities": {
@@ -635,6 +649,13 @@
       "portions": 5,
       "is_offered": true,
       "ingredients_skus": [
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 2
+          }
+        },
         {
           "id": "7ef1d749-e8ca-43f9-85bc-45296edcc089",
           "code": "I-06-SML-IN-11",
@@ -717,13 +738,6 @@
           "code": "I-07-HBS-PL-17",
           "quantities": {
             "in_box": 2
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 3
           }
         },
         {

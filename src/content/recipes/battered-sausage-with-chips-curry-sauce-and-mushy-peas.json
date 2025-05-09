@@ -10,7 +10,7 @@
   "gousto_id": "2401",
   "rating": {
     "average": 4,
-    "count": 4223
+    "count": 4228
   },
   "description": "Give the chippy a run for its money with our take on battered sausage. You'll fry your sausage in a crispy batter until golden, then serve up with chips and buttery mushy peas. Whip up a quick curry sauce to serve alongside and get dunking.",
   "prep_times": {
@@ -19,6 +19,12 @@
   },
   "cuisine": "British",
   "ingredients": [
+    {
+      "label": "Ground turmeric (0.5tsp)",
+      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
+      "allergens": [],
+      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
+    },
     {
       "label": "Pork sausage (200g)",
       "gousto_uuid": "2f1704d2-d8ce-4db3-be2f-c0ed814d7d62",
@@ -34,6 +40,15 @@
         "sulphites"
       ],
       "image": "/images/ingredients/6cabe146-b769-42a7-8058-c385530be526.jpg"
+    },
+    {
+      "label": "Soy sauce (15ml) x1",
+      "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
     },
     {
       "label": "Curry powder (0.5tbsp)",
@@ -52,12 +67,6 @@
       "gousto_uuid": "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
       "allergens": [],
       "image": "/images/ingredients/f585c6d0-f7a2-45b2-982b-da6abee7c2a5.jpg"
-    },
-    {
-      "label": "Ground turmeric (0.5tsp)",
-      "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
-      "allergens": [],
-      "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
     },
     {
       "label": "Red wine vinegar (15ml)",
@@ -87,15 +96,6 @@
         "gluten"
       ],
       "image": "/images/ingredients/23935a7d-bed7-4bb2-863d-9e826b549e47.jpg"
-    },
-    {
-      "label": "Soy sauce (8ml)",
-      "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
     },
     {
       "label": "White potato x3",
@@ -162,27 +162,27 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 149,
-      "energy_kj": 627,
-      "fat_mg": 6679,
+      "energy_kj": 628,
+      "fat_mg": 6683,
       "fat_saturates_mg": 2403,
-      "carbs_mg": 16959,
-      "carbs_sugars_mg": 2423,
-      "fibre_mg": 2149,
-      "protein_mg": 5865,
-      "salt_mg": 680,
+      "carbs_mg": 17007,
+      "carbs_sugars_mg": 2427,
+      "fibre_mg": 2150,
+      "protein_mg": 5888,
+      "salt_mg": 702,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 557,
-      "energy_kj": 2338,
+      "energy_kj": 2340,
       "fat_mg": 24890,
-      "fat_saturates_mg": 8958,
-      "carbs_mg": 63199,
-      "carbs_sugars_mg": 9031,
+      "fat_saturates_mg": 8949,
+      "carbs_mg": 63335,
+      "carbs_sugars_mg": 9040,
       "fibre_mg": 8010,
-      "protein_mg": 21859,
-      "salt_mg": 2536,
-      "net_weight_mg": 372650
+      "protein_mg": 21928,
+      "salt_mg": 2616,
+      "net_weight_mg": 372400
     }
   },
   "portion_sizes": [
@@ -254,8 +254,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -337,8 +337,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -427,10 +427,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -510,10 +510,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -600,10 +600,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 3
+            "in_box": 2
           }
         },
         {

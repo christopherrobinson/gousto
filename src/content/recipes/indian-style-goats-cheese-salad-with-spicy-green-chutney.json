@@ -13,7 +13,7 @@
     "average": 4.5,
     "count": 2064
   },
-  "description": "Make our Indian twist on a bistro classic. You'll toss salad in a zingy dressing with roasted sweet potato and red onion, before topping with goats' cheese rolled in nigella seeds. For a delicious kick, serve with fresh coriander chutney. All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
+  "description": "Make our Indian twist on a bistro classic. You'll toss salad in a zingy dressing with roasted sweet potato and red onion, before topping with goats' cheese rolled in black sesame seeds. For a delicious kick, serve with fresh coriander chutney. All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
   "prep_times": {
     "for_2": 35,
     "for_4": 45
@@ -21,16 +21,43 @@
   "cuisine": "Indian",
   "ingredients": [
     {
+      "label": "Garlic clove",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
+      "label": "Baby leaf salad (50g)",
+      "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
+      "allergens": [],
+      "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
+    },
+    {
+      "label": "Soft goats' cheese (75g)",
+      "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
+      "allergens": [
+        "milk"
+      ],
+      "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
+    },
+    {
+      "label": "Black sesame seeds (5g)",
+      "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+      "allergens": [
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
+      ],
+      "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+    },
+    {
       "label": "Red onion",
       "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
       "allergens": [],
       "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-    },
-    {
-      "label": "Nigella seeds (1tsp)",
-      "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-      "allergens": [],
-      "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
     },
     {
       "label": "Fresh root ginger (15g)",
@@ -43,20 +70,6 @@
       "gousto_uuid": "44417cd2-bdb0-48e2-b6a3-b75bdd8ba6b7",
       "allergens": [],
       "image": "/images/ingredients/44417cd2-bdb0-48e2-b6a3-b75bdd8ba6b7.jpg"
-    },
-    {
-      "label": "Garlic clove",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
-      "label": "Soft goats' cheese (75g)",
-      "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
-      "allergens": [
-        "milk"
-      ],
-      "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
     },
     {
       "label": "Coriander (20g)",
@@ -75,12 +88,6 @@
       "gousto_uuid": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
       "allergens": [],
       "image": "/images/ingredients/8cc1a219-f516-495d-9d3a-506bd62ae79f.jpg"
-    },
-    {
-      "label": "Baby leaf salad (50g)",
-      "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-      "allergens": [],
-      "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
     },
     {
       "label": "Sweet potato x2",
@@ -123,47 +130,53 @@
       "image": "/images/instructions/indian-style-goats-cheese-salad-with-spicy-green-chutney/step-5.jpg"
     },
     {
-      "instruction": "<p>Spread your <strong>nigella seeds</strong> over a chopping board</p><p>Roll your <strong>goats' cheese</strong> into the <strong>nigella seeds</strong> until evenly coated – this is your <strong>nigella goats' cheese</strong></p>",
+      "instruction": "<p>Spread your <strong>black sesame seeds</strong> over a chopping board</p><p>Roll your <strong>goats' cheese</strong> into the <strong>black sesame seeds</strong> until evenly coated – this is your <strong>black sesame goats' cheese</strong></p>",
       "order": 6,
       "image": "/images/instructions/indian-style-goats-cheese-salad-with-spicy-green-chutney/step-6.jpg"
     },
     {
-      "instruction": "<p>Once the vegetables are done, carefully cut off the roots of the <strong>roasted red onions</strong>,<strong> </strong>peel off their skins, discard the roots and skins and separate them into petals</p><p>Add the <strong>red</strong> <strong>onion petals</strong>, <strong>roasted</strong> <strong>sweet potato</strong> and <strong>salad</strong> to a bowl and toss everything together with the <strong>dressing </strong>– this is your <strong>salad</strong></p><p>Crumble the<strong> nigella goats' cheese</strong> into rough pieces</p>",
+      "instruction": "<p>Once the vegetables are done, carefully cut off the roots of the <strong>roasted red onions</strong>,<strong> </strong>peel off their skins, discard the roots and skins and separate them into petals</p><p>Add the <strong>red</strong> <strong>onion petals</strong>, <strong>roasted</strong> <strong>sweet potato</strong> and <strong>salad</strong> to a bowl and toss everything together with the <strong>dressing </strong>– this is your <strong>salad</strong></p><p>Crumble the<strong> black sesame goats' cheese</strong> into rough pieces</p>",
       "order": 7,
       "image": "/images/instructions/indian-style-goats-cheese-salad-with-spicy-green-chutney/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>salad</strong> topped with the <strong>crumbled</strong> <strong>nigella goats' cheese </strong>and garnish with the <strong>reserved</strong> <strong>coriander leaves </strong>– this is your<strong> Indian-style goats' cheese salad</strong></p><p>Dollop over the <strong>spicy green chutney</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>salad</strong> topped with the <strong>crumbled</strong> <strong>black sesame goats' cheese </strong>and garnish with the <strong>reserved</strong> <strong>coriander leaves </strong>– this is your<strong> Indian-style goats' cheese salad</strong></p><p>Dollop over the <strong>spicy green chutney</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
   "allergens": [
-    "milk"
+    "celery",
+    "fish",
+    "milk",
+    "mustard",
+    "nut",
+    "sesame",
+    "soya"
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 80,
-      "energy_kj": 340,
-      "fat_mg": 2435,
-      "fat_saturates_mg": 1627,
-      "carbs_mg": 12735,
-      "carbs_sugars_mg": 3914,
-      "fibre_mg": 1810,
-      "protein_mg": 2908,
-      "salt_mg": 170,
+      "energy_kcal": 82,
+      "energy_kj": 349,
+      "fat_mg": 2695,
+      "fat_saturates_mg": 1684,
+      "carbs_mg": 12583,
+      "carbs_sugars_mg": 3906,
+      "fibre_mg": 1772,
+      "protein_mg": 2893,
+      "salt_mg": 158,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 310,
-      "energy_kj": 1311,
-      "fat_mg": 9363,
-      "fat_saturates_mg": 6258,
-      "carbs_mg": 48969,
-      "carbs_sugars_mg": 15053,
-      "fibre_mg": 6960,
-      "protein_mg": 11182,
-      "salt_mg": 656,
-      "net_weight_mg": 384500
+      "energy_kcal": 319,
+      "energy_kj": 1349,
+      "fat_mg": 10390,
+      "fat_saturates_mg": 6492,
+      "carbs_mg": 48510,
+      "carbs_sugars_mg": 15061,
+      "fibre_mg": 6832,
+      "protein_mg": 11155,
+      "salt_mg": 612,
+      "net_weight_mg": 385500
     }
   },
   "portion_sizes": [
@@ -174,6 +187,13 @@
         {
           "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
           "code": "I-05-FVG-FG-03-01",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
           "quantities": {
             "in_box": 1
           }
@@ -202,13 +222,6 @@
         {
           "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
           "code": "I-05-FVG-FV-11",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
           "quantities": {
             "in_box": 1
           }
@@ -255,6 +268,13 @@
           }
         },
         {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "5caf8124-d067-4539-bbb1-fcfdf5facc21",
           "code": "I-07-HBS-PL-14",
           "quantities": {
@@ -278,13 +298,6 @@
         {
           "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
           "code": "I-05-FVG-FV-11",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
           "quantities": {
             "in_box": 1
           }
@@ -331,6 +344,13 @@
           }
         },
         {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "5caf8124-d067-4539-bbb1-fcfdf5facc21",
           "code": "I-07-HBS-PL-14",
           "quantities": {
@@ -356,13 +376,6 @@
           "code": "I-05-FVG-FV-11",
           "quantities": {
             "in_box": 1
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
           }
         },
         {
@@ -407,6 +420,13 @@
           }
         },
         {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "5caf8124-d067-4539-bbb1-fcfdf5facc21",
           "code": "I-07-HBS-PL-14",
           "quantities": {
@@ -432,13 +452,6 @@
           "code": "I-05-FVG-FV-11",
           "quantities": {
             "in_box": 1
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 2
           }
         },
         {
@@ -483,6 +496,13 @@
           }
         },
         {
+          "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+          "code": "I-06-SML-SD-13",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "5caf8124-d067-4539-bbb1-fcfdf5facc21",
           "code": "I-07-HBS-PL-14",
           "quantities": {
@@ -508,13 +528,6 @@
           "code": "I-05-FVG-FV-11",
           "quantities": {
             "in_box": 2
-          }
-        },
-        {
-          "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-          "code": "I-06-SML-DL-34",
-          "quantities": {
-            "in_box": 3
           }
         },
         {
