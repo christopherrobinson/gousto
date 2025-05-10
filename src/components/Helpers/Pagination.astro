@@ -5,7 +5,21 @@ import Container from '@/components/Container.astro';
 const { baseUrl, currentPage, totalPages } = Astro.props as PaginationProps;
 
 function getPageUrl(page: number) {
-  return page === 1 ? baseUrl : `${baseUrl}${page}/`;
+  const params = new URLSearchParams(Astro.url.searchParams);
+
+  const hasSearchParams = Array.from(params.keys()).length > 0;
+
+  if (!hasSearchParams) {
+    return page === 1 ? baseUrl : `${baseUrl}${page}/`;
+  }
+
+  if (page === 1) {
+    params.delete('page');
+  } else {
+    params.set('page', String(page));
+  }
+
+  return `${baseUrl}?${params.toString()}`;
 }
 
 function getPagination(current: number, total: number): (number | string)[] {
