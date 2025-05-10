@@ -1,43 +1,46 @@
 ---
 export const prerender = false;
 
-import { supabase } from '../db/supabase';
+Astro.response.headers.set('Cache-Control', 'public, max-age=604800, s-maxage=604800');
+Astro.response.headers.set('Netlify-Vary', 'query');
+
 import Container from '@/components/Container.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
 import RecipeCard from '@/components/RecipeCard.astro';
 import Layout from '@/layouts/Default.astro';
 
-const { searchParams } = Astro.url;
-const searchQuery = searchParams.get('q') || '';
-const selectedCuisine = (searchParams.get('cuisine') || '');
-const selectedTime = searchParams.get('time') || '';
 const MIN_QUERY_LENGTH = 3;
-const shouldSearch = searchQuery.length >= MIN_QUERY_LENGTH;
+const { searchParams } = Astro.url;
+
+const selectedCuisine = (searchParams.get('cuisine') || '');
+const page = Number(searchParams.get('page') || '1');
+const query = searchParams.get('q') || '';
+const selectedTime = searchParams.get('time') || '';
+const sort = searchParams.get('sort') || '';
+
 let data: any[] | null = [];
 let error: string = '';
 let cuisines: { label: string; value: string }[] | null = null;
+let totalResults = 0;
+let totalPages = 0;
 
-if (searchQuery) {
-  if (shouldSearch) {
-    const query = supabase.from('recipes').select('*').or(`title.ilike.%${searchQuery}%,description.ilike.%${searchQuery}%`);
+if (query) {
+  if (query.length >= MIN_QUERY_LENGTH) {
 
-    if (selectedCuisine) {
-      query.ilike('cuisine', selectedCuisine);
-    }
+    const res = await getRecipesFromSupabase({
+      query,
+      filters: {
+        cuisine: selectedCuisine,
+        time: selectedTime,
+      },
+      page,
+      sort,
+    });
 
-    if (selectedTime) {
-      const timeField = 'prep_times->>for_2';
+    totalResults = res.count ?? 0;
+    totalPages = Math.ceil(totalResults / recipesPerPage);
 
-      if (selectedTime === '>60') {
-        query.gte(timeField, 60);
-      }
-      else {
-        query.lte(timeField, Number(selectedTime));
-      }
-    }
-
-    const res = await query;
-
-    data = res.data;
+    data = res.data ?? [];
     error = res.error?.message ? String(res.error.message) : (data?.length ? '' : 'No recipes found.');
     cuisines = Array.from(
       new Map(
@@ -70,7 +73,7 @@ const hasResults = (data && (data.length > 0));
               placeholder="Search recipes..."
               required
               type="search"
-              value={searchQuery}
+              value={query}
             />
             <button
               class="absolute  bg-tertiary-600  bottom-2  cursor-pointer  end-2  px-4  py-3  rounded-lg  text-sm  text-white  hover:bg-tertiary-800"
@@ -80,8 +83,8 @@ const hasResults = (data && (data.length > 0));
             </button>
           </div>
         </div>
-        {hasResults && (
-          <div class="flex  flex-wrap  items-center  mb-4  space-x-4  text-sm  text-secondary-800  md:mb-8  md:space-x-8" id="filters">
+        {(hasResults || selectedCuisine || selectedTime) && (
+          <div class="flex  flex-wrap  items-center  mb-4  space-x-4  space-y-2  text-sm  text-secondary-800  md:mb-8  md:space-x-8" id="filters">
             {cuisines && (
               <div class="flex  items-center  space-x-2">
                 <label class="font-normal  text-sm" for="cuisine">Cuisine</label>
@@ -112,6 +115,19 @@ const hasResults = (data && (data.length > 0));
                 <option value=">60" selected={selectedTime === '>60'}>Over 1 hour</option>
               </select>
             </div>
+            <div class="flex  items-center  ml-auto  space-x-2">
+              <label class="font-normal text-sm" for="sort">Sort by</label>
+              <select
+                class="bg-secondary-50  border  border-secondary-300  px-2  py-1 § rounded-md"
+                id="sort"
+                name="sort"
+              >
+                <option value="">Default</option>
+                <option value="name_asc" selected={sort === 'name_asc'}>Name (A-Z)</option>
+                <option value="name_desc" selected={sort === 'name_desc'}>Name (Z-A)</option>
+                <option value="rating" selected={sort === 'rating'}>Rating</option>
+              </select>
+            </div>
           </div>
         )}
       </form>
@@ -133,13 +149,20 @@ const hasResults = (data && (data.length > 0));
       <p class="py-8  text-center">{error}</p>
     )}
   </Container>
+  {hasResults && (
+    <Pagination
+      baseUrl={`/search/`}
+      currentPage={page}
+      totalPages={totalPages}
+    />
+  )}
 </Layout>
 
 <script>
   const attachFilterListeners = () => {
     const form = document.querySelector('form');
     const searchInput = form.querySelector('[name="q"]');
-    const filterElements = ['cuisine', 'time'].map(name => form.querySelector(`[name="${name}"]`)).filter(Boolean);
+    const filterElements = ['cuisine', 'sort', 'time'].map(name => form.querySelector(`[name="${name}"]`)).filter(Boolean);
 
     const buildQuery = () => {
       const params = new URLSearchParams();
@@ -148,15 +171,25 @@ const hasResults = (data && (data.length > 0));
       if (query)
         params.set('q', query);
 
-      filterElements.forEach((el) => {
-        const value = el.value;
+      const cuisine = form.querySelector('[name="cuisine"]')?.value;
+      if (cuisine)
+        params.set('cuisine', cuisine);
 
-        if (value)
-          params.set(el.name, value);
-      });
+      const time = form.querySelector('[name="time"]')?.value;
+      if (time)
+        params.set('time', time);
+
+      const sort = form.querySelector('[name="sort"]')?.value;
+      if (sort)
+        params.set('sort', sort);
+
+      const page = new URLSearchParams(location.search).get('page');
+      if (page)
+        params.set('page', page);
 
       return params.toString();
     };
+
 
     const submitWithCleanParams = (e) => {
       e.preventDefault();
