@@ -1,4 +1,4 @@
-import { defineConfig, envField } from 'astro/config';
+import { defineConfig, envField, passthroughImageService } from 'astro/config';
 import icon from 'astro-icon';
 import netlify from '@astrojs/netlify';
 import sitemap from '@astrojs/sitemap';
@@ -32,6 +32,7 @@ export default defineConfig({
   },
   image: {
     domains: ['images.gousto.wiki'],
+    service: passthroughImageService(),
   },
   integrations: [
     icon({ iconDir: './src/images/icons' }),
@@ -59,8 +60,8 @@ export default defineConfig({
       tailwindcss(),
       Unimport.vite({
         dirs: [
-          './src/config/*',
-          './src/helpers/*',
+          './src/config/**/*',
+          './src/helpers/**/*',
         ],
         dts: true,
         include: [/\.astro$/, /\.[jt]sx?$/],
