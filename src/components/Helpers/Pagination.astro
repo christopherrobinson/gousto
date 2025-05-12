@@ -2,12 +2,12 @@
 import { type PaginationProps } from '@/types/Pagination';
 import Container from '@/components/Container.astro';
 
-const { baseUrl, currentPage, totalPages } = Astro.props as PaginationProps;
+const { baseUrl, currentPage, forceQueryString, totalPages } = Astro.props as PaginationProps;
 
-function getPageUrl(page: number) {
+const getPageUrl = (page: number) => {
   const params = new URLSearchParams(Astro.url.searchParams);
 
-  const hasSearchParams = Array.from(params.keys()).length > 0;
+  const hasSearchParams = forceQueryString || Array.from(params.keys()).length > 0;
 
   if (!hasSearchParams) {
     return page === 1 ? baseUrl : `${baseUrl}${page}/`;
@@ -22,7 +22,7 @@ function getPageUrl(page: number) {
   return `${baseUrl}?${params.toString()}`;
 }
 
-function getPagination(current: number, total: number): (number | string)[] {
+const getPagination = (current: number, total: number): (number | string)[] => {
   const delta: (number) = 2;
   const range: (number | string)[] = [];
   const rangeWithDots: (number | string)[] = [];
