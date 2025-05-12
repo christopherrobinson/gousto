@@ -15,6 +15,11 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
 
     recipeCache = recipes
       .filter(({ data }) => {
+        // Must have ingredients
+        if (!Array.isArray(data.ingredients) || data.ingredients.length === 0) {
+          return false;
+        }
+
         // Must have cooking instructions
         if (!Array.isArray(data.cooking_instructions) || data.cooking_instructions.length === 0) {
           return false;
