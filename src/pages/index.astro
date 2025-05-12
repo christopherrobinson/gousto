@@ -4,6 +4,7 @@ import Layout from '@/layouts/Default.astro';
 
 const categories = await getCategories();
 const cuisines = await getCuisines();
+const recipes = await getRecipes();
 ---
 
 <Layout>
@@ -11,7 +12,7 @@ const cuisines = await getCuisines();
     <Container>
       <section class="flex  flex-col  gap-8  items-center  justify-between  py-8  sm:flex-row  md:gap-24  md:py-16">
         <div class="flex-1  space-y-4  text-center  md:text-left">
-          <h1 class="font-semibold  font-serif  leading-10  mb-8  text-3xl  lg:leading-16  md:text-4xl  lg:text-5xl">Discover Delicious Gousto Recipes</h1>
+          <h1 class="font-semibold  font-serif  leading-10  mb-8  text-3xl  lg:leading-16  md:text-4xl  lg:text-5xl">Discover {recipes.length.toLocaleString()}<br>Gousto Recipes</h1>
           <p class="text-md  md:leading-8  md:text-lg  lg:text-xl">
             Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.
           </p>
@@ -25,16 +26,20 @@ const cuisines = await getCuisines();
             <input
               class="bg-white  border-2  border-primary-100  block  p-4  ps-12   rounded-lg  text-secondary-800  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
               id="q"
+              minlength="3"
               name="q"
               placeholder="Search recipes..."
               required
-              type="search"
+              type="text"
             />
             <button
               class="absolute  bg-tertiary-600  bottom-2  cursor-pointer  end-2  px-4  py-3  rounded-lg  text-sm  text-white  hover:bg-tertiary-800"
               type="submit"
             >
-              Search
+              <span data-submitted="false">Search</span>
+              <span class="hidden  items-center  space-x-2" data-submitted="true">
+                <Icon class="animate-spin" name="spinner-third" /> <span>Searching...</span>
+              </span>
             </button>
           </div>
         </form>
@@ -98,3 +103,25 @@ const cuisines = await getCuisines();
     </Container>
   </div>
 </Layout>
+
+<script>
+  const form = document.getElementById('searchForm');
+  const button = form?.querySelector('button[type="submit"]');
+  const buttonTextDefault = button?.querySelector('span[data-submitted="false"]');
+  const buttonText = button?.querySelector('span[data-submitted="true"]');
+
+  if (form && button) {
+    form.addEventListener('submit', (e) => {
+      // Optional: skip if no search query
+      const input = form.querySelector('input[name="q"]');
+      if (!input?.value.trim()) return;
+
+      button.disabled = true;
+      button.classList.remove('cursor-pointer', 'hover:bg-tertiary-800');
+      button.classList.add('cursor-not-allowed', 'opacity-80');
+      buttonTextDefault?.classList.add('hidden');
+      buttonText?.classList.remove('hidden');
+      buttonText?.classList.add('flex');
+    });
+  }
+</script>
