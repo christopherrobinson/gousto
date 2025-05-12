@@ -24,33 +24,30 @@ let cuisines: { label: string; value: string }[] | null = null;
 let totalResults = 0;
 let totalPages = 0;
 
-if (query) {
-  if (query.length >= MIN_QUERY_LENGTH) {
+if (query && (query.length < MIN_QUERY_LENGTH)) {
+  error = `Search query must be at least ${MIN_QUERY_LENGTH} characters long.`;
+}
 
-    const res = await getRecipesFromSupabase({
-      query,
-      filters: {
-        cuisine: selectedCuisine,
-        time: selectedTime,
-      },
-      page,
-      sort,
-    });
+if (!error) {
+  const res = await getRecipesFromSupabase({
+    query,
+    filters: {
+      cuisine: selectedCuisine,
+      time: selectedTime,
+    },
+    page,
+    sort,
+  });
 
-    totalResults = res.count ?? 0;
-    totalPages = Math.ceil(totalResults / recipesPerPage);
+  totalResults = res.total;
+  totalPages = Math.ceil(totalResults / recipesPerPage);
 
-    data = res.data ?? [];
-    error = res.error?.message ? String(res.error.message) : (data?.length ? '' : 'No recipes found.');
-    cuisines = Array.from(
-      new Map(
-        data?.map(r => r.cuisine).filter(Boolean).map(c => [c.toLowerCase(), { label: c, value: c.toLowerCase() }])
-      ).values()
-    ).sort((a, b) => a.label.localeCompare(b.label));
-  }
-  else {
-    error = `Search query must be at least ${MIN_QUERY_LENGTH} characters long.`;
-  }
+  data = res.recipes ?? [];
+  cuisines = res.cuisines ?? [];
+
+  error = res.error?.message
+    ? String(res.error.message)
+    : (data?.length === 0 ? 'No recipes found.' : '');
 }
 
 const hasResults = (data && (data.length > 0));
@@ -153,6 +150,7 @@ const hasResults = (data && (data.length > 0));
     <Pagination
       baseUrl={`/search/`}
       currentPage={page}
+      forceQueryString={true}
       totalPages={totalPages}
     />
   )}
@@ -182,10 +180,6 @@ const hasResults = (data && (data.length > 0));
       const sort = form.querySelector('[name="sort"]')?.value;
       if (sort)
         params.set('sort', sort);
-
-      const page = new URLSearchParams(location.search).get('page');
-      if (page)
-        params.set('page', page);
 
       return params.toString();
     };

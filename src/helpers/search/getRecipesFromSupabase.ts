@@ -17,40 +17,73 @@ export const getRecipesFromSupabase = async ({
   const from = (page - 1) * recipesPerPage;
   const to = from + recipesPerPage - 1;
 
-  const result = supabaseClient
-    .from('recipes')
-    .select('*', { count: 'exact' })
-    .or(`title.ilike.%${query}%,description.ilike.%${query}%`)
-    .range(from, to);
+  // Base query logic reused for both main + cuisine queries
+  const baseFilter = (q: ReturnType<typeof supabaseClient.from>) => {
+    q.or(`title.ilike.%${query}%,description.ilike.%${query}%`);
+
+    if (filters.cuisine) {
+      q.ilike('cuisine', filters.cuisine);
+    }
+
+    if (filters.time) {
+      const timeField = 'prep_times->>for_2';
+
+      if (filters.time === '>60') {
+        q.gte(timeField, 60);
+      } else {
+        q.lte(timeField, Number(filters.time));
+      }
+    }
+
+    return q;
+  };
+
+  // Main paginated recipe query
+  const recipeQuery = baseFilter(
+    supabaseClient.from('recipes').select('*', { count: 'exact' }).range(from, to)
+  );
 
   switch (sort) {
     case 'name_asc':
-      result.order('title', { ascending: true });
+      recipeQuery.order('title', { ascending: true });
       break;
     case 'name_desc':
-      result.order('title', { ascending: false });
+      recipeQuery.order('title', { ascending: false });
       break;
     case 'rating':
-      result.order('rating->>average', { ascending: false, nullsFirst: false, });
+      recipeQuery.order('rating->>average', { ascending: false, nullsFirst: false });
       break;
     default:
-      result.order('gousto_id', { ascending: false });
+      recipeQuery.order('gousto_id', { ascending: false });
   }
 
-  if (filters.cuisine) {
-    result.ilike('cuisine', filters.cuisine);
-  }
+  // Distinct cuisine query (across all returned recipes)
+  const cuisineQuery = baseFilter(
+    supabaseClient
+      .from('recipes')
+      .select('cuisine', { distinct: true })
+      .neq('cuisine', null)
+  );
 
-  if (filters.time) {
-    const timeField = 'prep_times->>for_2';
+  const [recipeResponse, cuisineResponse] = await Promise.all([
+    cuisineQuery,
+    recipeQuery,
+  ]);
 
-    if (filters.time === '>60') {
-      result.gte(timeField, 60);
-    }
-    else {
-      result.lte(timeField, Number(filters.time));
-    }
-  }
+  // Normalised unique cuisine list (for dropdown filter)
+  const cuisines =
+    Array.from(
+      new Map(
+        (cuisineResponse.data ?? [])
+          .filter(r => r.cuisine)
+          .map(c => [c.cuisine.toLowerCase(), { label: c.cuisine, value: c.cuisine.toLowerCase() }])
+      ).values()
+    ).sort((a, b) => a.label.localeCompare(b.label));
 
-  return await result;
+  return {
+    cuisines,
+    error: recipeResponse.error || cuisineResponse.error,
+    recipes: recipeResponse.data ?? [],
+    total: recipeResponse.count ?? 0,
+  };
 };
