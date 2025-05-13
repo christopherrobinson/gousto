@@ -3,6 +3,8 @@ type GetRecipesOptions = {
   prepTime?: number | { min?: number; max?: number };
   categories?: string[];
   cuisine?: string;
+  ingredients?: string[];
+  randomise?: boolean;
 };
 
 let recipeCache: any[] | null = null;
@@ -64,8 +66,26 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
       }
     }
 
+    // Filter by Ingredients
+    if (options.ingredients && options.ingredients.length > 0) {
+      if (
+        !Array.isArray(data.ingredients) ||
+        !options.ingredients.some(searchTerm => (
+          data.ingredients.some(ingredient => (
+            typeof ingredient.label === 'string' && ingredient.label.toLowerCase().includes(searchTerm.toLowerCase()))
+          )
+        ))
+      ) {
+        return false;
+      }
+    }
+
     return true;
   });
+
+  if (options.randomise) {
+    filteredRecipes = shuffleArray(filteredRecipes);
+  }
 
   // Apply limit if provided
   return typeof limit === 'number' ? filteredRecipes.slice(0, limit) : filteredRecipes;
