@@ -18,9 +18,9 @@ const query = searchParams.get('q') || '';
 const selectedTime = searchParams.get('time') || '';
 const sort = searchParams.get('sort') || '';
 
-let data: any[] | null = [];
-let error: string = '';
+let recipes: any[] | null = [];
 let cuisines: { label: string; value: string }[] | null = null;
+let error: string = '';
 let totalResults = 0;
 let totalPages = 0;
 
@@ -42,15 +42,15 @@ if (!error) {
   totalResults = res.total;
   totalPages = Math.ceil(totalResults / recipesPerPage);
 
-  data = res.recipes ?? [];
+  recipes = res.recipes ?? [];
   cuisines = res.cuisines ?? [];
 
   error = res.error?.message
     ? String(res.error.message)
-    : (data?.length === 0 ? 'No recipes found.' : '');
+    : (recipes?.length === 0 ? 'No recipes found.' : '');
 }
 
-const hasResults = (data && (data.length > 0));
+const hasResults = (recipes && (recipes.length > 0));
 ---
 
 <Layout heading="Search">
@@ -131,7 +131,7 @@ const hasResults = (data && (data.length > 0));
     </div>
     {hasResults ? (
       <div class="gap-4  grid  pb-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
-        {data?.map(({ cuisine, image, prep_times, rating, title, url }) => (
+        {recipes?.map(({ cuisine, image, prep_times, rating, title, url }) => (
           <RecipeCard
             cuisine={cuisine}
             id={url}
