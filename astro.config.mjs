@@ -2,7 +2,7 @@ import { defineConfig, envField, passthroughImageService } from 'astro/config';
 import icon from 'astro-icon';
 import netlify from '@astrojs/netlify';
 import sitemap from '@astrojs/sitemap';
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite';
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import Unimport from 'unimport/unplugin';
 import { loadEnv } from 'vite';
@@ -37,7 +37,7 @@ export default defineConfig({
   integrations: [
     icon({ iconDir: './src/images/icons' }),
     sitemap(),
-    (await import("astro-compress")).default({
+    (await import('astro-compress')).default({
       CSS: true,
       HTML: false,
       Image: true,
