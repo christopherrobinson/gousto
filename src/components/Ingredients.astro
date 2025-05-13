@@ -16,7 +16,7 @@ const { basics, ingredients, portion_sizes } = Astro.props as IngredientsProps;
       )}
     </p>
   ) || ``}
-  <div class="mb-4">
+  <div class="mb-4  print:grid  print:grid-cols-3  print:w-full">
     {ingredients.map(({ allergens, label, image }) => (
       <div class="flex  items-center  space-x-4">
         <div class="flex  flex-col  items-center">
