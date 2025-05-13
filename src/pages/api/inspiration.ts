@@ -4,7 +4,7 @@ export const prerender = false;
 
 export const GET: APIRoute = async () => {
   try {
-    const { data: recipes } = await supabaseClient.rpc('get_random_recipes', { limit_count: 4 });
+    const { data: recipes } = await supabaseClient.rpc('get_random_recipes', { limit_count: 8 });
     const recipesJSON = recipes.map(({ cuisine, image, prep_times, rating, url, title }) => ({
       cuisine: cuisine,
       id: url,
@@ -14,7 +14,7 @@ export const GET: APIRoute = async () => {
       title: title,
     }));
 
-    return new Response(JSON.stringify(recipesJSON.slice(0, 4)), {
+    return new Response(JSON.stringify(recipesJSON), {
       headers: {
         'Cache-Control': 'public, max-age=604800, s-maxage=604800',
         'Content-Type': 'application/json',

@@ -15,17 +15,14 @@ import Layout from '@/layouts/Default.astro';
       class="gap-4  grid  pb-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4"
       id="recipes"
     >
-      <RecipeCardSkeleton />
-      <RecipeCardSkeleton />
-      <RecipeCardSkeleton />
-      <RecipeCardSkeleton />
+      {Array.from({ length: inspirationRecipeCount }, () => <RecipeCardSkeleton />)}
     </div>
     <script>
       const getInspiration = async () => {
         const result = await fetch(`/api/inspiration/?cache=${crypto.randomUUID()}`);
 
         if (!result.ok)
-        return;
+          return;
 
         const recipes = await result.json();
         const container = document.getElementById('recipes');
