@@ -19,16 +19,30 @@
   "cuisine": "Turkish",
   "ingredients": [
     {
-      "label": "Dried chilli flakes (1tsp) x0",
-      "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
+      "label": "Wholemeal pittas (2pcs)",
+      "gousto_uuid": "d6015a7c-7ada-405e-834c-149024867b1a",
+      "allergens": [
+        "gluten"
+      ],
+      "image": "/images/ingredients/d6015a7c-7ada-405e-834c-149024867b1a.jpg"
+    },
+    {
+      "label": "Ground cumin (2tsp) x0",
+      "gousto_uuid": "22d4ac66-3f50-469c-904c-9f293e361441",
       "allergens": [],
-      "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+      "image": "/images/ingredients/22d4ac66-3f50-469c-904c-9f293e361441.jpg"
     },
     {
       "label": "Ground cumin (1tsp)",
       "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
       "allergens": [],
       "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
+    },
+    {
+      "label": "Dried chilli flakes (1tsp) x0",
+      "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
+      "allergens": [],
+      "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
     },
     {
       "label": "Dried chilli flakes (0.5tsp)",
@@ -105,20 +119,6 @@
       "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
     },
     {
-      "label": "Ground cumin (2tsp) x0",
-      "gousto_uuid": "22d4ac66-3f50-469c-904c-9f293e361441",
-      "allergens": [],
-      "image": "/images/ingredients/22d4ac66-3f50-469c-904c-9f293e361441.jpg"
-    },
-    {
-      "label": "Wholemeal pittas (2pcs)",
-      "gousto_uuid": "d6015a7c-7ada-405e-834c-149024867b1a",
-      "allergens": [
-        "gluten"
-      ],
-      "image": "/images/ingredients/d6015a7c-7ada-405e-834c-149024867b1a.jpg"
-    },
-    {
       "label": "Gem lettuce",
       "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
       "allergens": [],
@@ -157,12 +157,12 @@
       "image": "/images/instructions/lamb-doner-with-chilli-sauce-and-chips/step-1.jpg"
     },
     {
-      "instruction": "<p>While the chips are cooking, peel and finely chop (or grate) your <strong>garlic</strong></p><p>Peel and grate<strong> half</strong> your <strong>red</strong> <strong>onion[s]</strong></p><p>Peel and finely slice the <strong>remaining onion</strong> and set aside for later</p>",
+      "instruction": "<p>While the chips are cooking, peel and finely chop (or grate) your <strong>garlic</strong></p><p>Peel and grate<strong> half</strong> your <strong>red</strong> <strong>onion[s]</strong></p><p>Peel and finely slice the <strong>remaining onion</strong> and set aside for later</p>",
       "order": 2,
       "image": "/images/instructions/lamb-doner-with-chilli-sauce-and-chips/step-2.jpg"
     },
     {
-      "instruction": "<p>Add your <strong>lamb mince</strong> to a bowl with your <strong>panko breadcrumbs</strong>, <strong>ground</strong> <strong>cumin</strong>, <strong>dried oregano</strong> and <strong>grated onion</strong></p><p>Add 1/2 tsp <span class=\"text-purple\">[3/4 tsp]</span> <span class=\"text-danger\">[1 tsp]</span> <strong>salt</strong> and <strong>half</strong> the <strong>chopped garlic</strong> (save the rest for later!) and mix thoroughly until fully combined (clean hands is the best way!)</p>",
+      "instruction": "<p>Add your <strong>lamb mince</strong> to a bowl with your <strong>panko breadcrumbs</strong>, <strong>ground</strong> <strong>cumin</strong>, <strong>dried oregano</strong> and <strong>grated onion</strong></p><p>Add 1/2 tsp <span class=\"text-purple\">[3/4 tsp]</span> <span class=\"text-danger\">[1 tsp]</span> <strong>salt</strong> and <strong>half</strong> the <strong>chopped garlic</strong> (save the rest for later!) and mix thoroughly until fully combined (clean hands is the best way!)</p>",
       "order": 3,
       "image": "/images/instructions/lamb-doner-with-chilli-sauce-and-chips/step-3.jpg"
     },
@@ -187,7 +187,7 @@
       "image": "/images/instructions/lamb-doner-with-chilli-sauce-and-chips/step-7.jpg"
     },
     {
-      "instruction": "<p>Top the <strong>warmed pitta</strong> with the <strong>shredded lettuce</strong>, <strong>lamb doner</strong>, <strong>sliced onion</strong> and <strong>tomato wedges</strong></p><p>Drizzle over the <strong>garlic mayo</strong> and <strong>chilli sauce</strong> (not a fan of spice? Just add a little!) and serve the <strong>chips</strong> and <strong>remaining garlic mayo </strong>to the side</p><p>Enjoy!</p>",
+      "instruction": "<p>Top the <strong>warmed pitta</strong> with the <strong>shredded lettuce</strong>, <strong>lamb doner meat</strong>, <strong>sliced onion</strong> and <strong>tomato wedges</strong></p><p>Drizzle over the <strong>garlic mayo</strong> and <strong>chilli sauce</strong> (not a fan of spice? Just add a little!) and serve the <strong>chips</strong> and <strong>remaining garlic mayo </strong>to the side</p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -198,27 +198,27 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 138,
-      "energy_kj": 583,
-      "fat_mg": 5611,
-      "fat_saturates_mg": 1849,
-      "carbs_mg": 15983,
-      "carbs_sugars_mg": 2297,
-      "fibre_mg": 1463,
-      "protein_mg": 7042,
-      "salt_mg": 265,
+      "energy_kcal": 134,
+      "energy_kj": 565,
+      "fat_mg": 5576,
+      "fat_saturates_mg": 1723,
+      "carbs_mg": 14704,
+      "carbs_sugars_mg": 2108,
+      "fibre_mg": 1664,
+      "protein_mg": 6817,
+      "salt_mg": 180,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 705,
-      "energy_kj": 2967,
-      "fat_mg": 28537,
-      "fat_saturates_mg": 9404,
-      "carbs_mg": 81277,
-      "carbs_sugars_mg": 11683,
-      "fibre_mg": 7442,
-      "protein_mg": 35809,
-      "salt_mg": 1350,
+      "energy_kcal": 684,
+      "energy_kj": 2875,
+      "fat_mg": 28357,
+      "fat_saturates_mg": 8763,
+      "carbs_mg": 74774,
+      "carbs_sugars_mg": 10723,
+      "fibre_mg": 8462,
+      "protein_mg": 34669,
+      "salt_mg": 918,
       "net_weight_mg": 508500
     }
   },

@@ -21,6 +21,30 @@
   "cuisine": "Mexican",
   "ingredients": [
     {
+      "label": "Ground smoked paprika (2tsp)",
+      "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+      "allergens": [],
+      "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+    },
+    {
+      "label": "Ground smoked paprika (1tsp) x0",
+      "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
+      "allergens": [],
+      "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+    },
+    {
+      "label": "Cherry tomatoes (250g) x0",
+      "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+      "allergens": [],
+      "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+    },
+    {
+      "label": "Spring onion",
+      "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+      "allergens": [],
+      "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+    },
+    {
       "label": "Chipotle paste (40g)",
       "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
       "allergens": [],
@@ -75,28 +99,10 @@
       "image": "/images/ingredients/cf0df93e-2f50-4f36-9c1a-1101c84ea9e1.jpg"
     },
     {
-      "label": "Ground smoked paprika (2tsp)",
-      "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-      "allergens": [],
-      "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-    },
-    {
-      "label": "Ground smoked paprika (1tsp) x0",
-      "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
-      "allergens": [],
-      "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
-    },
-    {
       "label": "Black beans (185g) x0",
       "gousto_uuid": "ef3818a0-a021-4ae0-acff-b2ed91392a30",
       "allergens": [],
       "image": "/images/ingredients/ef3818a0-a021-4ae0-acff-b2ed91392a30.jpg"
-    },
-    {
-      "label": "Spring onion",
-      "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-      "allergens": [],
-      "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
     },
     {
       "label": "Brown long grain rice (100g)",
@@ -123,12 +129,6 @@
       "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
       "allergens": [],
       "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
-    },
-    {
-      "label": "Cherry tomatoes (250g) x0",
-      "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-      "allergens": [],
-      "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
     },
     {
       "label": "Lime",
@@ -170,12 +170,12 @@
       "image": "/images/instructions/paprika-veg-and-refried-bean-burrito-bowl/step-5.jpg"
     },
     {
-      "instruction": "<p>Dissolve your <strong>vegetable stock mix</strong> in 100ml <span class=\"text-purple\">[125ml] </span><span class=\"text-danger\">[150ml]</span> <strong>boiled water</strong>, then drain and rinse your<strong> black beans</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>olive oil</strong> over a medium heat</p><p>Once hot, add your<strong> tomato paste</strong>,<strong> drained black beans</strong> and your <strong>chipotle paste</strong> and stir for 1 min or until the beans are coated in the paste</p>",
+      "instruction": "<p>Dissolve your <strong>vegetable stock mix</strong> in 100ml <span class=\"text-purple\">[125ml] </span><span class=\"text-danger\">[150ml]</span> <strong>boiled water</strong>, then drain and rinse your<strong> black beans</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>olive oil</strong> over a medium heat</p><p>Once hot, add your<strong> tomato paste</strong>,<strong> drained black beans</strong> and your <strong>chipotle paste</strong> and stir for 1 min or until the beans are coated in the paste</p>",
       "order": 6,
       "image": "/images/instructions/paprika-veg-and-refried-bean-burrito-bowl/step-6.jpg"
     },
     {
-      "instruction": "<p>Add the<strong> vegetable stock</strong> and cook for 5-6 min or until the sauce has thickened</p><p>Once the sauce has thickened, remove the beans from the heat</p><p>Gently crush a few of the<strong> beans </strong>with a masher and season with a generous grind of <strong>pepper</strong> – these are your <strong>refried beans</strong></p>",
+      "instruction": "<p>Add the<strong> vegetable stock</strong> and cook for 5-6 min or until the sauce has thickened</p><p>Once the sauce has thickened, remove the beans from the heat</p><p>Gently crush a few of the<strong> beans </strong>with a masher and season with a generous grind of <strong>pepper</strong> – these are your <strong>refried beans</strong></p>",
       "order": 7,
       "image": "/images/instructions/paprika-veg-and-refried-bean-burrito-bowl/step-7.jpg"
     },
@@ -191,25 +191,25 @@
     "per_hundred_grams": {
       "energy_kcal": 74,
       "energy_kj": 315,
-      "fat_mg": 674,
-      "fat_saturates_mg": 231,
-      "carbs_mg": 13748,
-      "carbs_sugars_mg": 3558,
-      "fibre_mg": 2456,
-      "protein_mg": 2936,
+      "fat_mg": 670,
+      "fat_saturates_mg": 230,
+      "carbs_mg": 13801,
+      "carbs_sugars_mg": 3614,
+      "fibre_mg": 2442,
+      "protein_mg": 2926,
       "salt_mg": 221,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 396,
-      "energy_kj": 1675,
-      "fat_mg": 3578,
-      "fat_saturates_mg": 1228,
-      "carbs_mg": 72903,
-      "carbs_sugars_mg": 18871,
-      "fibre_mg": 13025,
-      "protein_mg": 15571,
-      "salt_mg": 1173,
+      "energy_kj": 1674,
+      "fat_mg": 3553,
+      "fat_saturates_mg": 1223,
+      "carbs_mg": 73183,
+      "carbs_sugars_mg": 19166,
+      "fibre_mg": 12950,
+      "protein_mg": 15516,
+      "salt_mg": 1175,
       "net_weight_mg": 530250
     }
   },

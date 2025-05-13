@@ -17,15 +17,6 @@
   "cuisine": "American",
   "ingredients": [
     {
-      "label": "Mayonnaise (50ml)",
-      "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
-      "allergens": [
-        "egg",
-        "mustard"
-      ],
-      "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
-    },
-    {
       "label": "Mayonnaise (25ml) x0",
       "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
       "allergens": [
@@ -33,6 +24,15 @@
         "mustard"
       ],
       "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+    },
+    {
+      "label": "Mayonnaise (50ml)",
+      "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+      "allergens": [
+        "egg",
+        "mustard"
+      ],
+      "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
     },
     {
       "label": "Tomato ketchup (15ml) x0",
@@ -45,6 +45,12 @@
       "gousto_uuid": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
       "allergens": [],
       "image": "/images/ingredients/b67ea736-aee3-4a42-8b2c-73fb7b4e8e30.jpg"
+    },
+    {
+      "label": "Spring onion",
+      "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+      "allergens": [],
+      "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
     },
     {
       "label": "Halloumi (200g)",
@@ -73,12 +79,6 @@
       "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
     },
     {
-      "label": "Spring onion",
-      "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-      "allergens": [],
-      "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-    },
-    {
       "label": "Cider vinegar (15ml)",
       "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
       "allergens": [],
@@ -103,17 +103,17 @@
   ],
   "cooking_instructions": [
     {
-      "instruction": "<p>Preheat the oven to 200°C/ 180°C (fan)/ gas 6</p><p>Cut your<strong> potatoes</strong> (skins on) into chips</p><p>Add the<strong> chips </strong>to a baking tray (or two!) and drizzle with <strong>vegetable oil</strong></p><p>Put the tray[s] in the oven for 20-25 min or until the chips are cooked through and crisp</p>",
+      "instruction": "<p>Preheat the oven to 200°C/ 180°C (fan)/ gas 6</p><p>Cut your<strong> potatoes</strong> (skins on) into chips</p><p>Add the<strong> chips </strong>to a baking tray (or two!) and drizzle with <strong>vegetable oil</strong></p><p>Put the tray[s] in the oven for 20-25 min or until the chips are cooked through and crisp</p>",
       "order": 1,
       "image": "/images/instructions/bbq-halloumi-with-apple-slaw-and-chips/step-1.jpg"
     },
     {
-      "instruction": "<p>Trim, then slice your<strong> spring onion[s]</strong></p><p>Top, tail (no need to peel) and grate your <strong>carrot[s]</strong></p><p>Cut your<strong> apple[s]</strong> (skin on) into matchsticks</p>",
+      "instruction": "<p>Trim, then slice your<strong> spring onion[s]</strong></p><p>Top, tail, peel and grate your <strong>carrot[s]</strong></p><p>Cut your<strong> apple[s]</strong> (skin on) into matchsticks</p>",
       "order": 2,
       "image": "/images/instructions/bbq-halloumi-with-apple-slaw-and-chips/step-2.jpg"
     },
     {
-      "instruction": "<p>Add the <strong>sliced spring onion</strong>, <strong>grated carrot </strong>and<strong> apple matchsticks </strong>to a large bowl</p><p>Add your <strong>mayo </strong>and <strong>white wine vinegar</strong></p><p>Give everything a good mix up – this is your <strong>apple</strong> <strong>slaw</strong></p>",
+      "instruction": "<p>Add the <strong>sliced spring onion</strong>, <strong>grated carrot </strong>and<strong> apple matchsticks </strong>to a large bowl</p><p>Add your <strong>mayo </strong>and <strong>white wine vinegar</strong></p><p>Give everything a good mix up – this is your <strong>apple</strong> <strong>slaw</strong></p>",
       "order": 3,
       "image": "/images/instructions/bbq-halloumi-with-apple-slaw-and-chips/step-3.jpg"
     },
@@ -128,7 +128,7 @@
       "image": "/images/instructions/bbq-halloumi-with-apple-slaw-and-chips/step-5.jpg"
     },
     {
-      "instruction": "<p>Meanwhile, combine your<strong> tomato ketchup</strong>, <strong>Henderson's Relish </strong>and<strong> cider vinegar</strong> with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>sugar</strong> in a small bowl – this is your <strong>BBQ sauce</strong></p>",
+      "instruction": "<p>Meanwhile, combine your<strong> tomato ketchup</strong>, <strong>Henderson's Relish </strong>and<strong> cider vinegar</strong> with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>sugar</strong> in a small bowl – this is your <strong>BBQ sauce</strong></p>",
       "order": 6,
       "image": "/images/instructions/bbq-halloumi-with-apple-slaw-and-chips/step-6.jpg"
     },
@@ -138,7 +138,7 @@
       "image": "/images/instructions/bbq-halloumi-with-apple-slaw-and-chips/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the<strong> BBQ halloumi</strong> with the<strong> apple slaw</strong> and <strong>chips</strong> to the side</p><p>Drizzle the <strong>remaining</strong> <strong>BBQ sauce </strong>from the pan over the halloumi</p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the<strong> BBQ halloumi</strong> with the<strong> apple slaw</strong> and <strong>chips</strong> to the side</p><p>Drizzle the <strong>remaining</strong> <strong>BBQ sauce </strong>from the pan over the halloumi</p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -150,26 +150,26 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 142,
-      "energy_kj": 592,
-      "fat_mg": 9081,
-      "fat_saturates_mg": 3591,
-      "carbs_mg": 10521,
-      "carbs_sugars_mg": 4204,
-      "fibre_mg": 1612,
-      "protein_mg": 5231,
-      "salt_mg": 605,
+      "energy_kj": 593,
+      "fat_mg": 9075,
+      "fat_saturates_mg": 3590,
+      "carbs_mg": 10579,
+      "carbs_sugars_mg": 4265,
+      "fibre_mg": 1597,
+      "protein_mg": 5220,
+      "salt_mg": 606,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 686,
-      "energy_kj": 2864,
-      "fat_mg": 43862,
-      "fat_saturates_mg": 17348,
-      "carbs_mg": 50818,
-      "carbs_sugars_mg": 20306,
-      "fibre_mg": 7790,
-      "protein_mg": 25268,
-      "salt_mg": 2926,
+      "energy_kj": 2866,
+      "fat_mg": 43837,
+      "fat_saturates_mg": 17343,
+      "carbs_mg": 51098,
+      "carbs_sugars_mg": 20601,
+      "fibre_mg": 7715,
+      "protein_mg": 25213,
+      "salt_mg": 2927,
       "net_weight_mg": 483000
     }
   },
