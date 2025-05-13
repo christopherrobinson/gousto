@@ -1,6 +1,6 @@
 interface GetRecipesFromSupabaseParams {
   query: string;
-  filters: {
+  filters?: {
     cuisine?: string;
     time?: string;
   };
@@ -9,9 +9,9 @@ interface GetRecipesFromSupabaseParams {
 }
 
 export const getRecipesFromSupabase = async ({
-  query,
+  query = '',
   filters,
-  page,
+  page = 1,
   sort,
 }: GetRecipesFromSupabaseParams) => {
   const from = (page - 1) * recipesPerPage;
@@ -21,11 +21,11 @@ export const getRecipesFromSupabase = async ({
   const baseFilter = (q: ReturnType<typeof supabaseClient.from>) => {
     q.or(`title.ilike.%${query}%,description.ilike.%${query}%`);
 
-    if (filters.cuisine) {
+    if (filters?.cuisine) {
       q.ilike('cuisine', filters.cuisine);
     }
 
-    if (filters.time) {
+    if (filters?.time) {
       const timeField = 'prep_times->>for_2';
 
       if (filters.time === '>60') {
@@ -65,7 +65,7 @@ export const getRecipesFromSupabase = async ({
       .neq('cuisine', null)
   );
 
-  const [recipeResponse, cuisineResponse] = await Promise.all([
+  const [cuisineResponse, recipeResponse] = await Promise.all([
     cuisineQuery,
     recipeQuery,
   ]);
