@@ -127,21 +127,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/netlify@npm:^6.3.2":
-  version: 6.3.2
-  resolution: "@astrojs/netlify@npm:6.3.2"
+"@astrojs/netlify@npm:^6.3.3":
+  version: 6.3.3
+  resolution: "@astrojs/netlify@npm:6.3.3"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.6.1"
     "@astrojs/underscore-redirects": "npm:0.6.1"
-    "@netlify/blobs": "npm:^8.1.1"
-    "@netlify/functions": "npm:^3.0.1"
+    "@netlify/blobs": "npm:^8.2.0"
+    "@netlify/functions": "npm:^3.1.5"
     "@vercel/nft": "npm:^0.29.2"
     esbuild: "npm:^0.25.0"
-    tinyglobby: "npm:^0.2.12"
-    vite: "npm:^6.3.4"
+    tinyglobby: "npm:^0.2.13"
+    vite: "npm:^6.3.5"
   peerDependencies:
     astro: ^5.3.0
-  checksum: 10c0/ebf9f2fd834b3bb73207dbdee20d60334423f3b1c05cb7d4ccf74074c85e43a88cd8522f9ea9d451d3592a96f97d202ac773185ddb7c94329ce306562a8fab7c
+  checksum: 10c0/096e618090e95faa6ccd703c9dc5d45f11b62d05c1557ccd582fa551b8e263b7e0abf3e89d323fa4ea0e60bb5932a578f6466a2e1489dab9f2ce1ea4892d9014
   languageName: node
   linkType: hard
 
@@ -154,14 +154,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "@astrojs/sitemap@npm:3.3.1"
+"@astrojs/sitemap@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@astrojs/sitemap@npm:3.4.0"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^3.24.2"
-  checksum: 10c0/7e6baf6378716ab4ecc7927130aeae9881d6f59d5db555ffed57411de5fd3e28186371a79f6f551aa265b6632c4b021dd4b72a8f12b69f7f46f51a74a7bcd022
+  checksum: 10c0/f7b3811cc2eb14161b73933864ad0d525d103390626b4c7c7e42ab290bfe4acc53042e42fdf00cc6a64b7cf34bc5ca3c29ca11a09de85334949d399776f75f67
   languageName: node
   linkType: hard
 
@@ -1084,7 +1084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/blobs@npm:^8.1.1":
+"@netlify/blobs@npm:^8.2.0":
   version: 8.2.0
   resolution: "@netlify/blobs@npm:8.2.0"
   checksum: 10c0/52dfd35685e1ee509fdad7217a5dc51553d75e728ffaf044ec3fb739fcfec8dc2fbaa9a421890dbee6bb013334db90304bfdfeac4a722773425bf110003bf373
@@ -1120,7 +1120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^3.0.1":
+"@netlify/functions@npm:^3.1.5":
   version: 3.1.8
   resolution: "@netlify/functions@npm:3.1.8"
   dependencies:
@@ -2056,8 +2056,8 @@ __metadata:
   linkType: hard
 
 "@vercel/nft@npm:^0.29.2":
-  version: 0.29.2
-  resolution: "@vercel/nft@npm:0.29.2"
+  version: 0.29.3
+  resolution: "@vercel/nft@npm:0.29.3"
   dependencies:
     "@mapbox/node-pre-gyp": "npm:^2.0.0"
     "@rollup/pluginutils": "npm:^5.1.3"
@@ -2073,7 +2073,7 @@ __metadata:
     resolve-from: "npm:^5.0.0"
   bin:
     nft: out/cli.js
-  checksum: 10c0/3f1e3d3d2565e6e4ac191fc4f9b9b9676959de82165d6ae789410c5c0df058802f2ff9221ac325857ddc1f11f30509c73e01c43f0a91b56371d595a2eab5205f
+  checksum: 10c0/05e5e5fcd3fcf9129406e4feda81debc0373cc1efe3e7d8f7aee1be7df523128d9e676024e2bc4ae189a0f880a3f13e510ae6547c2e8786889d5a15222b22a26
   languageName: node
   linkType: hard
 
@@ -2188,33 +2188,33 @@ __metadata:
   linkType: hard
 
 "@whatwg-node/fetch@npm:^0.10.5":
-  version: 0.10.6
-  resolution: "@whatwg-node/fetch@npm:0.10.6"
+  version: 0.10.7
+  resolution: "@whatwg-node/fetch@npm:0.10.7"
   dependencies:
-    "@whatwg-node/node-fetch": "npm:^0.7.18"
+    "@whatwg-node/node-fetch": "npm:^0.7.19"
     urlpattern-polyfill: "npm:^10.0.0"
-  checksum: 10c0/a341769cacd25c7b8d01f69c687592d4a790c1d8be1e197fa7d3c2229aa5416df2a05f90931a9986c9695694ef4b3edade9d8487d2d21b9315cba6eec3adbd27
+  checksum: 10c0/ac8caed1ca23339babb370c24d0c3566aaee6cad534cd94570476bf3348248caaeb9c753c8da7ff579b9b22f7c8444b67013f4c5b79c6741caf216c4f39c9ed1
   languageName: node
   linkType: hard
 
-"@whatwg-node/node-fetch@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@whatwg-node/node-fetch@npm:0.7.18"
+"@whatwg-node/node-fetch@npm:^0.7.19":
+  version: 0.7.19
+  resolution: "@whatwg-node/node-fetch@npm:0.7.19"
   dependencies:
     "@fastify/busboy": "npm:^3.1.1"
     "@whatwg-node/disposablestack": "npm:^0.0.6"
-    "@whatwg-node/promise-helpers": "npm:^1.3.1"
+    "@whatwg-node/promise-helpers": "npm:^1.3.2"
     tslib: "npm:^2.6.3"
-  checksum: 10c0/2f7daa1b1ac65bb9d90c576bb08fe4216f60ed138d3f4638e99ae2ec0fa1423db25420a3bc23ab84390fa14d7e3235f1d8be706ae9e76e505379c2ee9e251200
+  checksum: 10c0/6a9cdefa144add1b1519c9c6b9813032d48b076e621c08fbe3b2249c64cd8c6beb17a085891cb2f036a9b05179fe81e965b906556542e95f2e03fcde0203877e
   languageName: node
   linkType: hard
 
-"@whatwg-node/promise-helpers@npm:^1.0.0, @whatwg-node/promise-helpers@npm:^1.2.2, @whatwg-node/promise-helpers@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "@whatwg-node/promise-helpers@npm:1.3.1"
+"@whatwg-node/promise-helpers@npm:^1.0.0, @whatwg-node/promise-helpers@npm:^1.2.2, @whatwg-node/promise-helpers@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "@whatwg-node/promise-helpers@npm:1.3.2"
   dependencies:
     tslib: "npm:^2.6.3"
-  checksum: 10c0/bb47e71cb588c2bdc45cc78044f8e472b1600d3022f10d59bb70a68bd6a2d2f749f5bbe5858a9b0dccbc93c4c96092acc28e870ace1174d328e14fa8e8db14fa
+  checksum: 10c0/d20e8d740cfa1f0eac7dce11e8a7a84f1567513a8ff0bd1772724b581a8ca77df3f9600a95047c0d2628335626113fa98367517abd01c1ff49817fccf225a29a
   languageName: node
   linkType: hard
 
@@ -2502,9 +2502,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:*, astro@npm:^5.7.12":
-  version: 5.7.12
-  resolution: "astro@npm:5.7.12"
+"astro@npm:*, astro@npm:^5.7.13":
+  version: 5.7.13
+  resolution: "astro@npm:5.7.13"
   dependencies:
     "@astrojs/compiler": "npm:^2.11.0"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -2572,7 +2572,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/cb41b715ff3f79eae07a389d2270f5a04bc9908a911fbdaef70ad585809a2c03a6218d9e190e0e52203905e45dbab8f1530c6bfd90da868f373e6cb96469dbe6
+  checksum: 10c0/4a057967d5d30a6fb85710912386a0d3cdf0ffececaa966685a38f0d5f10de66ba4db796eb4dc585f290ed322ded09f50b6e237ac7110022ec562a98193a4265
   languageName: node
   linkType: hard
 
@@ -2644,8 +2644,8 @@ __metadata:
   linkType: hard
 
 "bare-fs@npm:^4.0.1":
-  version: 4.1.4
-  resolution: "bare-fs@npm:4.1.4"
+  version: 4.1.5
+  resolution: "bare-fs@npm:4.1.5"
   dependencies:
     bare-events: "npm:^2.5.4"
     bare-path: "npm:^3.0.0"
@@ -2655,7 +2655,7 @@ __metadata:
   peerDependenciesMeta:
     bare-buffer:
       optional: true
-  checksum: 10c0/1c6bb9334faa9e1c3144ca1d411cc07dbd42c4ef63a17a0e76c617a775ffb44e574235582739742ce41c84af6a89ab903549f9302db48dd2c2dce9e20f045c54
+  checksum: 10c0/af72ec30bb7844524faa14ae2b74d13b08920b1d839c638da4ad1abdda643958d0b86653d284878a2f9160072b603c9dce55c8cc29da8d84e14ffce1c5d42a01
   languageName: node
   linkType: hard
 
@@ -3437,14 +3437,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.1, debug@npm:^4.3.4, debug@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "debug@npm:4.4.0"
+  version: 4.4.1
+  resolution: "debug@npm:4.4.1"
   dependencies:
     ms: "npm:^2.1.3"
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 10c0/db94f1a182bf886f57b4755f85b3a74c39b5114b9377b7ab375dc2cfa3454f09490cc6c30f829df3fc8042bc8b8995f6567ce5cd96f3bc3688bd24027197d9de
+  checksum: 10c0/d2b44bc1afd912b49bb7ebb0d50a860dc93a4dd7d946e8de94abc957bb63726b7dd5aa48c18c2386c379ec024c46692e15ed3ed97d481729f929201e671fcd55
   languageName: node
   linkType: hard
 
@@ -4442,13 +4442,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fuse.js@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "fuse.js@npm:7.1.0"
-  checksum: 10c0/c0d1b1d192a4bdf3eade897453ddd28aff96b70bf3e49161a45880f9845ebaee97265595db633776700a5bcf8942223c752754a848d70c508c3c9fd997faad1e
-  languageName: node
-  linkType: hard
-
 "gauge@npm:^3.0.0":
   version: 3.0.2
   resolution: "gauge@npm:3.0.2"
@@ -4648,18 +4641,17 @@ __metadata:
   resolution: "gousto.wiki@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
-    "@astrojs/netlify": "npm:^6.3.2"
-    "@astrojs/sitemap": "npm:^3.3.1"
+    "@astrojs/netlify": "npm:^6.3.3"
+    "@astrojs/sitemap": "npm:^3.4.0"
     "@supabase/supabase-js": "npm:^2.49.4"
     "@tailwindcss/typography": "npm:^0.5.16"
     "@tailwindcss/vite": "npm:^4.1.6"
     "@types/node": "npm:^22.15.17"
     "@vitejs/plugin-basic-ssl": "npm:^2.0.0"
-    astro: "npm:^5.7.12"
+    astro: "npm:^5.7.13"
     astro-capo: "npm:^0.0.1"
     astro-compress: "npm:^2.3.8"
     astro-icon: "npm:^1.1.5"
-    fuse.js: "npm:^7.1.0"
     puppeteer: "npm:^24.8.2"
     sharp-ico: "npm:^0.1.5"
     string-strip-html: "npm:^13.4.12"
@@ -8037,11 +8029,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.3, semver@npm:^7.6.2, semver@npm:^7.6.3, semver@npm:^7.7.1":
-  version: 7.7.1
-  resolution: "semver@npm:7.7.1"
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
   bin:
     semver: bin/semver.js
-  checksum: 10c0/fd603a6fb9c399c6054015433051bdbe7b99a940a8fb44b85c2b524c4004b023d7928d47cb22154f8d054ea7ee8597f586605e05b52047f048278e4ac56ae958
+  checksum: 10c0/aca305edfbf2383c22571cb7714f48cadc7ac95371b4b52362fb8eeffdfbc0de0669368b82b2b15978f8848f01d7114da65697e56cd8c37b0dab8c58e543f9ea
   languageName: node
   linkType: hard
 
@@ -8720,7 +8712,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:5.39.0, terser@npm:^5.15.1":
+"terser@npm:5.39.0":
   version: 5.39.0
   resolution: "terser@npm:5.39.0"
   dependencies:
@@ -8731,6 +8723,20 @@ __metadata:
   bin:
     terser: bin/terser
   checksum: 10c0/83326545ea1aecd6261030568b6191ccfa4cb6aa61d9ea41746a52479f50017a78b77e4725fbbc207c5df841ffa66a773c5ac33636e95c7ab94fe7e0379ae5c7
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.15.1":
+  version: 5.39.1
+  resolution: "terser@npm:5.39.1"
+  dependencies:
+    "@jridgewell/source-map": "npm:^0.3.3"
+    acorn: "npm:^8.8.2"
+    commander: "npm:^2.20.0"
+    source-map-support: "npm:~0.5.20"
+  bin:
+    terser: bin/terser
+  checksum: 10c0/d49e06dd4dd03661dac41f45c9cf187b2aa3fe80775235e838398c29311705169387c007f398ab44cd1bd8f89b14a1eea383feaa95c1cae29e3f5b6b606b6b37
   languageName: node
   linkType: hard
 
@@ -8980,9 +8986,9 @@ __metadata:
   linkType: hard
 
 "undici@npm:^6.19.5":
-  version: 6.21.2
-  resolution: "undici@npm:6.21.2"
-  checksum: 10c0/799bbc02b77dda9b6b12d56d2620a3a4d4cf087908d6a548acc3ce32f21b5c27467f75c2c4b30fab281daf341210be3d685e8fe99854288de541715ae5735027
+  version: 6.21.3
+  resolution: "undici@npm:6.21.3"
+  checksum: 10c0/294da109853fad7a6ef5a172ad0ca3fb3f1f60cf34703d062a5ec967daf69ad8c03b52e6d536c5cba3bb65615769bf08e5b30798915cbccdddaca01045173dda
   languageName: node
   linkType: hard
 
@@ -9185,13 +9191,13 @@ __metadata:
   linkType: hard
 
 "unplugin@npm:^2.3.2":
-  version: 2.3.2
-  resolution: "unplugin@npm:2.3.2"
+  version: 2.3.4
+  resolution: "unplugin@npm:2.3.4"
   dependencies:
     acorn: "npm:^8.14.1"
     picomatch: "npm:^4.0.2"
     webpack-virtual-modules: "npm:^0.6.2"
-  checksum: 10c0/157a50072601b9bfbf3ab27a76a04685fb0af0c1a579d958787ffcb28a4d64e09acf42f0176e8767ccd940f27ee52d97a7f6aa6ce2e1e0dbe666ec26519750ef
+  checksum: 10c0/2d5fc0dccfce0e8061157ba24c9776af32c37caa4e145ddd191124e45388601c7790e0f6f95e03125b30bdd4a0e8d3e07edda5df080eaac9e7d56040c57b88f8
   languageName: node
   linkType: hard
 
