@@ -1,11 +1,12 @@
 interface GetRecipesFromSupabaseParams {
   query: string;
   filters?: {
+    calories?: string;
     cuisine?: string;
     time?: string;
   };
   page: number;
-  sort?: 'name_asc' | 'name_desc' | 'rating';
+  sort?: 'calories' | 'name_asc' | 'name_desc' | 'rating';
 }
 
 export const getRecipesFromSupabase = async ({
@@ -17,16 +18,25 @@ export const getRecipesFromSupabase = async ({
   const from = (page - 1) * recipesPerPage;
   const to = from + recipesPerPage - 1;
 
-  // Base query logic reused for both main + cuisine queries
   const baseFilter = (q: ReturnType<typeof supabaseClient.from>) => {
     q.or(`title.ilike.%${query}%,description.ilike.%${query}%`);
+
+    if (filters?.calories) {
+      const calorieField = 'nutritional_information->per_portion->energy_kcal';
+
+      if (filters.calories === '>1000') {
+        q.gte(calorieField, 1000);
+      } else {
+        q.lte(calorieField, Number(filters.calories));
+      }
+    }
 
     if (filters?.cuisine) {
       q.ilike('cuisine', filters.cuisine);
     }
 
     if (filters?.time) {
-      const timeField = 'prep_times->>for_2';
+      const timeField = 'prep_times->for_2';
 
       if (filters.time === '>60') {
         q.gte(timeField, 60);
@@ -44,6 +54,9 @@ export const getRecipesFromSupabase = async ({
   );
 
   switch (sort) {
+    case 'calories':
+      recipeQuery.order('nutritional_information->per_portion->energy_kcal', { ascending: true, nullsFirst: false });
+      break;
     case 'name_asc':
       recipeQuery.order('title', { ascending: true });
       break;
@@ -51,7 +64,7 @@ export const getRecipesFromSupabase = async ({
       recipeQuery.order('title', { ascending: false });
       break;
     case 'rating':
-      recipeQuery.order('rating->>average', { ascending: false, nullsFirst: false });
+      recipeQuery.order('rating->average', { ascending: false, nullsFirst: false });
       break;
     default:
       recipeQuery.order('gousto_id', { ascending: false });

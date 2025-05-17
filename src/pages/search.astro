@@ -6,15 +6,16 @@ Astro.response.headers.set('Netlify-Vary', 'query');
 
 import Container from '@/components/Container.astro';
 import Pagination from '@/components/Helpers/Pagination.astro';
-import RecipeCard from '@/components/RecipeCard.astro';
+import RecipeCard from '@/components/RecipeCardSearch.astro';
 import Layout from '@/layouts/Default.astro';
 
 const MIN_QUERY_LENGTH = 3;
 const { searchParams } = Astro.url;
 
-const selectedCuisine = (searchParams.get('cuisine') || '');
 const page = Number(searchParams.get('page') || '1');
 const query = searchParams.get('q') || '';
+const selectedCalories = (searchParams.get('calories') || '');
+const selectedCuisine = (searchParams.get('cuisine') || '');
 const selectedTime = searchParams.get('time') || '';
 const sort = searchParams.get('sort') || '';
 
@@ -32,6 +33,7 @@ if (!error) {
   const res = await getRecipesFromSupabase({
     query,
     filters: {
+      calories: selectedCalories,
       cuisine: selectedCuisine,
       time: selectedTime,
     },
@@ -112,6 +114,19 @@ const hasResults = (recipes && (recipes.length > 0));
                 <option value=">60" selected={selectedTime === '>60'}>Over 1 hour</option>
               </select>
             </div>
+            <div class="flex  items-center  space-x-2">
+              <label class="font-normal text-sm" for="time">Calories (per portion)</label>
+              <select
+                class="bg-secondary-50  border  border-secondary-300  px-2  py-1 § rounded-md"
+                id="calories"
+                name="calories"
+              >
+                <option value="">All calories</option>
+                <option value="600" selected={selectedCalories === '600'}>Under 600</option>
+                <option value="800" selected={selectedCalories === '800'}>Under 800</option>
+                <option value=">1000" selected={selectedCalories === '>1000'}>Over 1,000</option>
+              </select>
+            </div>
             <div class="flex  items-center  ml-auto  space-x-2">
               <label class="font-normal text-sm" for="sort">Sort by</label>
               <select
@@ -123,6 +138,7 @@ const hasResults = (recipes && (recipes.length > 0));
                 <option value="name_asc" selected={sort === 'name_asc'}>Name (A-Z)</option>
                 <option value="name_desc" selected={sort === 'name_desc'}>Name (Z-A)</option>
                 <option value="rating" selected={sort === 'rating'}>Rating</option>
+                <option value="calories" selected={sort === 'calories'}>Calories</option>
               </select>
             </div>
           </div>
@@ -131,36 +147,37 @@ const hasResults = (recipes && (recipes.length > 0));
     </div>
     {hasResults ? (
       <div class="gap-4  grid  pb-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
-        {recipes?.map(({ cuisine, image, prep_times, rating, title, url }) => (
+        {recipes?.map(({ cuisine, image, nutritional_information, prep_times, rating, title, url }) => (
           <RecipeCard
             cuisine={cuisine}
             id={url}
             image={image}
+            nutritional_information={nutritional_information}
             prep_times={prep_times}
             rating={rating}
             title={title}
-            />
+          />
         ))}
       </div>
     ) : (
       <p class="py-8  text-center">{error}</p>
     )}
+    {hasResults && (
+      <Pagination
+        baseUrl={`/search/`}
+        currentPage={page}
+        forceQueryString={true}
+        totalPages={totalPages}
+      />
+    )}
   </Container>
-  {hasResults && (
-    <Pagination
-      baseUrl={`/search/`}
-      currentPage={page}
-      forceQueryString={true}
-      totalPages={totalPages}
-    />
-  )}
 </Layout>
 
 <script>
   const attachFilterListeners = () => {
     const form = document.querySelector('form');
     const searchInput = form.querySelector('[name="q"]');
-    const filterElements = ['cuisine', 'sort', 'time'].map(name => form.querySelector(`[name="${name}"]`)).filter(Boolean);
+    const filterElements = ['calories', 'cuisine', 'sort', 'time'].map(name => form.querySelector(`[name="${name}"]`)).filter(Boolean);
 
     const buildQuery = () => {
       const params = new URLSearchParams();
@@ -168,6 +185,10 @@ const hasResults = (recipes && (recipes.length > 0));
 
       if (query)
         params.set('q', query);
+
+      const calories = form.querySelector('[name="calories"]')?.value;
+      if (calories)
+        params.set('calories', calories);
 
       const cuisine = form.querySelector('[name="cuisine"]')?.value;
       if (cuisine)
