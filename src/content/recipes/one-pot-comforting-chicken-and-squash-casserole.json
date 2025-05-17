@@ -21,16 +21,34 @@
   "cuisine": "British",
   "ingredients": [
     {
+      "label": "Garlic clove x2",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
+      "label": "Lemon",
+      "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
+      "allergens": [],
+      "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
+    },
+    {
+      "label": "Diced chicken thigh (250g)",
+      "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+      "allergens": [],
+      "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+    },
+    {
+      "label": "Brown onion",
+      "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+      "allergens": [],
+      "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+    },
+    {
       "label": "Intense chicken stock mix (5.5g)",
       "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
       "allergens": [],
       "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-    },
-    {
-      "label": "British diced chicken thigh (250g)",
-      "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-      "allergens": [],
-      "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
     },
     {
       "label": "Waxy potatoes (350g)",
@@ -59,12 +77,6 @@
       "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
     },
     {
-      "label": "Garlic clove x2",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
       "label": "Soft cheese (50g) x2",
       "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
       "allergens": [
@@ -77,18 +89,6 @@
       "gousto_uuid": "b69a875d-2105-4280-9890-7a3fba1afa14",
       "allergens": [],
       "image": "/images/ingredients/b69a875d-2105-4280-9890-7a3fba1afa14.jpg"
-    },
-    {
-      "label": "Brown onion",
-      "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-      "allergens": [],
-      "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-    },
-    {
-      "label": "Lemon",
-      "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
-      "allergens": [],
-      "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
     }
   ],
   "basics": [
@@ -146,26 +146,26 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 94,
-      "energy_kj": 396,
-      "fat_mg": 3003,
-      "fat_saturates_mg": 1616,
-      "carbs_mg": 10657,
-      "carbs_sugars_mg": 1894,
-      "fibre_mg": 1098,
-      "protein_mg": 6544,
+      "energy_kcal": 95,
+      "energy_kj": 400,
+      "fat_mg": 3030,
+      "fat_saturates_mg": 1625,
+      "carbs_mg": 10797,
+      "carbs_sugars_mg": 2035,
+      "fibre_mg": 1141,
+      "protein_mg": 6605,
       "salt_mg": 344,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 537,
-      "energy_kj": 2264,
-      "fat_mg": 17160,
-      "fat_saturates_mg": 9234,
-      "carbs_mg": 60882,
-      "carbs_sugars_mg": 10825,
-      "fibre_mg": 6275,
-      "protein_mg": 37385,
+      "energy_kcal": 543,
+      "energy_kj": 2288,
+      "fat_mg": 17310,
+      "fat_saturates_mg": 9284,
+      "carbs_mg": 61682,
+      "carbs_sugars_mg": 11625,
+      "fibre_mg": 6521,
+      "protein_mg": 37735,
       "salt_mg": 1967,
       "net_weight_mg": 571250
     }
@@ -175,13 +175,6 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
-        {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 1
-          }
-        },
         {
           "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
           "code": "I-02-SVG-VG-07",
@@ -206,6 +199,13 @@
         {
           "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
           "code": "I-11-BRD-BR-59",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
           "quantities": {
             "in_box": 1
           }
@@ -252,13 +252,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
           "code": "I-02-SVG-VG-07",
           "quantities": {
@@ -275,6 +268,13 @@
         {
           "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
           "code": "I-11-BRD-BR-59",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
           "quantities": {
             "in_box": 1
           }
@@ -328,13 +328,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
           "code": "I-02-SVG-VG-07",
           "quantities": {
@@ -358,6 +351,13 @@
         {
           "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
           "code": "I-11-BRD-BR-59",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
           "quantities": {
             "in_box": 2
           }
@@ -411,13 +411,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
           "code": "I-02-SVG-VG-07",
           "quantities": {
@@ -434,6 +427,13 @@
         {
           "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
           "code": "I-11-BRD-BR-59",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
           "quantities": {
             "in_box": 2
           }
@@ -487,13 +487,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-          "code": "I-10-MPF-PO-44",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
           "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
           "code": "I-02-SVG-VG-07",
           "quantities": {
@@ -517,6 +510,13 @@
         {
           "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
           "code": "I-11-BRD-BR-59",
+          "quantities": {
+            "in_box": 3
+          }
+        },
+        {
+          "id": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+          "code": "I-10-MPF-PO-44",
           "quantities": {
             "in_box": 3
           }

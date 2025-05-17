@@ -17,6 +17,42 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "Ground smoked paprika (2tsp) x0",
+      "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+      "allergens": [],
+      "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+    },
+    {
+      "label": "Ground smoked paprika (1tsp)",
+      "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
+      "allergens": [],
+      "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+    },
+    {
+      "label": "Mayonnaise (25ml) x0",
+      "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+      "allergens": [
+        "egg",
+        "mustard"
+      ],
+      "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+    },
+    {
+      "label": "Garlic clove x3",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
+      "label": "Mayonnaise (50ml)",
+      "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+      "allergens": [
+        "egg",
+        "mustard"
+      ],
+      "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
+    },
+    {
       "label": "White wine vinegar (15ml)",
       "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
       "allergens": [],
@@ -29,12 +65,6 @@
         "soya"
       ],
       "image": "/images/ingredients/b6232430-ec44-4bfd-b5a2-2924eab13959.jpg"
-    },
-    {
-      "label": "Ground smoked paprika (1tsp)",
-      "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
-      "allergens": [],
-      "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
     },
     {
       "label": "Grated Italian hard cheese (30g)",
@@ -51,28 +81,6 @@
         "gluten"
       ],
       "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
-    },
-    {
-      "label": "Mayonnaise (50ml)",
-      "gousto_uuid": "c4a8b75e-f277-402a-aa5d-a98149cdcda5",
-      "allergens": [
-        "egg"
-      ],
-      "image": "/images/ingredients/c4a8b75e-f277-402a-aa5d-a98149cdcda5.jpg"
-    },
-    {
-      "label": "Garlic clove x3",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
-      "label": "Mayonnaise (30ml) x0",
-      "gousto_uuid": "34869527-4715-40aa-93c3-2a616d203aa9",
-      "allergens": [
-        "egg"
-      ],
-      "image": "/images/ingredients/34869527-4715-40aa-93c3-2a616d203aa9.jpg"
     },
     {
       "label": "Parsley (10g)",
@@ -151,31 +159,32 @@
     "egg",
     "gluten",
     "milk",
+    "mustard",
     "soya"
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 162,
-      "energy_kj": 684,
-      "fat_mg": 6689,
-      "fat_saturates_mg": 1625,
-      "carbs_mg": 17405,
-      "carbs_sugars_mg": 828,
-      "fibre_mg": 2611,
-      "protein_mg": 7516,
-      "salt_mg": 545,
+      "energy_kcal": 164,
+      "energy_kj": 688,
+      "fat_mg": 6809,
+      "fat_saturates_mg": 1265,
+      "carbs_mg": 17548,
+      "carbs_sugars_mg": 851,
+      "fibre_mg": 2730,
+      "protein_mg": 7504,
+      "salt_mg": 527,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 678,
-      "energy_kj": 2856,
-      "fat_mg": 27928,
-      "fat_saturates_mg": 6785,
-      "carbs_mg": 72667,
-      "carbs_sugars_mg": 3457,
-      "fibre_mg": 10904,
-      "protein_mg": 31382,
-      "salt_mg": 2276,
+      "energy_kcal": 685,
+      "energy_kj": 2873,
+      "fat_mg": 28428,
+      "fat_saturates_mg": 5285,
+      "carbs_mg": 73267,
+      "carbs_sugars_mg": 3557,
+      "fibre_mg": 11398,
+      "protein_mg": 31332,
+      "salt_mg": 2204,
       "net_weight_mg": 417500
     }
   },
@@ -220,8 +229,8 @@
           }
         },
         {
-          "id": "34869527-4715-40aa-93c3-2a616d203aa9",
-          "code": "I-06-SML-OT-19",
+          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+          "code": "I-06-SML-OT-36",
           "quantities": {
             "in_box": 1
           }
@@ -296,8 +305,8 @@
           }
         },
         {
-          "id": "c4a8b75e-f277-402a-aa5d-a98149cdcda5",
-          "code": "I-06-SML-OT-20",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
             "in_box": 1
           }
@@ -372,15 +381,15 @@
           }
         },
         {
-          "id": "34869527-4715-40aa-93c3-2a616d203aa9",
-          "code": "I-06-SML-OT-19",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "c4a8b75e-f277-402a-aa5d-a98149cdcda5",
-          "code": "I-06-SML-OT-20",
+          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+          "code": "I-06-SML-OT-36",
           "quantities": {
             "in_box": 1
           }
@@ -448,15 +457,15 @@
           }
         },
         {
-          "id": "9bbbe335-1516-4488-957c-814e34eae5b1",
-          "code": "I-06-SML-DL-15",
+          "id": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+          "code": "I-06-SML-DL-16",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
-          "id": "c4a8b75e-f277-402a-aa5d-a98149cdcda5",
-          "code": "I-06-SML-OT-20",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
             "in_box": 2
           }
@@ -524,24 +533,24 @@
           }
         },
         {
-          "id": "9bbbe335-1516-4488-957c-814e34eae5b1",
-          "code": "I-06-SML-DL-15",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "34869527-4715-40aa-93c3-2a616d203aa9",
-          "code": "I-06-SML-OT-19",
+          "id": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+          "code": "I-06-SML-DL-16",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "c4a8b75e-f277-402a-aa5d-a98149cdcda5",
-          "code": "I-06-SML-OT-20",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
             "in_box": 2
+          }
+        },
+        {
+          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+          "code": "I-06-SML-OT-36",
+          "quantities": {
+            "in_box": 1
           }
         },
         {
