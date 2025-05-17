@@ -5,12 +5,14 @@ type GetRecipesOptions = {
   cuisine?: string;
   ingredients?: string[];
   randomise?: boolean;
+  rating?: { average?: number; total?: number; };
+  recipes?: string[];
 };
 
 let recipeCache: any[] | null = null;
 
 export const getRecipes = async (options: GetRecipesOptions = {}) => {
-  const { limit, prepTime, categories, cuisine } = options;
+  const { limit, prepTime, categories, cuisine, ingredients, rating, recipes } = options;
 
   if (!recipeCache) {
     const recipes = await getCollection('recipes');
@@ -67,10 +69,10 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
     }
 
     // Filter by Ingredients
-    if (options.ingredients && options.ingredients.length > 0) {
+    if (ingredients && ingredients.length > 0) {
       if (
         !Array.isArray(data.ingredients) ||
-        !options.ingredients.some(searchTerm => (
+        !ingredients.some(searchTerm => (
           data.ingredients.some(ingredient => (
             typeof ingredient.label === 'string' && ingredient.label.toLowerCase().includes(searchTerm.toLowerCase()))
           )
@@ -80,8 +82,32 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
       }
     }
 
+    // Filter by Rating if provided (supports both object { average: x } or direct number)
+    if (typeof rating === 'number') {
+      const averageRating = data.rating?.average;
+
+      if (typeof averageRating !== 'number' || averageRating < rating) {
+        return false;
+      }
+    }
+    else if (rating?.average !== undefined) {
+      const averageRating = data.rating?.average;
+
+      if (typeof averageRating !== 'number' || averageRating < rating.average) {
+        return false;
+      }
+    }
+
     return true;
   });
+
+  if (recipes) {
+    const recipeIds = Array.isArray(recipes) ? recipes : [recipes];
+    const idSet = new Set(recipeIds);
+
+    filteredRecipes = filteredRecipes.filter(recipe => idSet.has(recipe.id));
+    filteredRecipes.sort((a, b) => recipeIds.indexOf(a.id) - recipeIds.indexOf(b.id));
+  }
 
   if (options.randomise) {
     filteredRecipes = shuffleArray(filteredRecipes);

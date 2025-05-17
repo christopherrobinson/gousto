@@ -1,0 +1,129 @@
+---
+import { type HeroProps } from '@/types/Hero';
+import Container from '@/components/Container.astro';
+import HeroRecipe from '@/components/HeroRecipe.astro';
+
+const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
+---
+
+<div class="overflow-hidden  w-full">
+  <Container>
+    <div class="gap-8  grid  items-center  justify-between  py-8  relative  md:grid-cols-2  md:py-16">
+      <div class="flex-1  space-y-6  text-center  md:space-y-8  md:text-left">
+        <h1 class="font-semibold  font-serif  leading-11  text-4xl  lg:leading-16  md:text-4xl  lg:text-6xl">
+          Discover <span class="text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
+          delicious recipes
+        </h1>
+        <p class="text-md  md:leading-8  md:text-lg  lg:text-xl">
+          Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.
+        </p>
+        <div class="flex  flex-col  items-center  justify-center  space-y-6  text-center  sm:flex-row  sm:space-x-6  sm:space-y-0  md:justify-start">
+          <a class="bg-tertiary-600  block  px-4  py-3  rounded-lg  text-white  transition  hover:bg-tertiary-800  hover:underline" href="/recipes/">
+            View all recipes
+          </a>
+          <a class="group  text-secondary-800  text-sm  md:text-base" href="/inspiration/">
+            Not sure what to cook? <span class="font-medium  group-hover:text-primary-600  group-hover:underline">Try something new <span aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </div>
+      <div class="gap-4  grid  grid-cols-3  md:gap-8">
+        <div class="md:pt-32">
+          <HeroRecipe
+            id={featuredRecipes[0].id}
+            image={featuredRecipes[0].data.image}
+            rating={featuredRecipes[0].data.rating}
+            title={featuredRecipes[0].data.title}
+          />
+        </div>
+        <div class="flex  flex-col  md:pt-16  md:space-y-6">
+          <HeroRecipe
+            id={featuredRecipes[1].id}
+            image={featuredRecipes[1].data.image}
+            rating={featuredRecipes[1].data.rating}
+            title={featuredRecipes[1].data.title}
+          />
+          <HeroRecipe
+            class="hidden  md:block"
+            id={featuredRecipes[2].id}
+            image={featuredRecipes[2].data.image}
+            rating={featuredRecipes[2].data.rating}
+            title={featuredRecipes[2].data.title}
+          />
+        </div>
+        <div class="flex  flex-col  md:space-y-6">
+          <HeroRecipe
+            id={featuredRecipes[3].id}
+            image={featuredRecipes[3].data.image}
+            rating={featuredRecipes[3].data.rating}
+            title={featuredRecipes[3].data.title}
+          />
+          <HeroRecipe
+            class="hidden  md:block"
+            id={featuredRecipes[4].id}
+            image={featuredRecipes[4].data.image}
+            rating={featuredRecipes[4].data.rating}
+            title={featuredRecipes[4].data.title}
+          />
+        </div>
+      </div>
+      <div class="absolute  gap-8  grid-cols-3  hidden  inset-y-0  ps-4  py-8  -right-4  top-0  translate-x-full  w-1/2  md:py-16  md:grid">
+        <div class="pt-32">
+          <HeroRecipe
+            id={featuredRecipes[5].id}
+            image={featuredRecipes[5].data.image}
+            rating={featuredRecipes[5].data.rating}
+            title={featuredRecipes[5].data.title}
+          />
+        </div>
+        <div class="flex  flex-col  pt-16  space-y-6">
+          <HeroRecipe
+            id={featuredRecipes[6].id}
+            image={featuredRecipes[6].data.image}
+            rating={featuredRecipes[6].data.rating}
+            title={featuredRecipes[6].data.title}
+          />
+          <HeroRecipe
+            id={featuredRecipes[7].id}
+            image={featuredRecipes[7].data.image}
+            rating={featuredRecipes[7].data.rating}
+            title={featuredRecipes[7].data.title}
+          />
+        </div>
+      </div>
+    </div>
+  </Container>
+</div>
+
+<script>
+  const recipeCounter = () => {
+    const el = document.querySelector('[data-recipe-count]') as HTMLElement | null;
+    const recipeCount = el && parseInt(el.dataset.recipeCount ?? '', 10);
+
+    if (!recipeCount) {
+      return;
+    }
+
+    const start = Math.floor(recipeCount / 1000) * 1000;
+    const totalFrames = Math.round((1000 / 1000) * 60); // duration / 1000 * fps
+    let frame = 0;
+
+    const countTo = () => {
+      const progress = frame / totalFrames;
+      const current = Math.round(start + (recipeCount - start) * progress);
+
+      el.textContent = current.toLocaleString();
+
+      if (frame < totalFrames) {
+        requestAnimationFrame(countTo);
+        frame++;
+      }
+      else {
+        el.textContent = recipeCount.toLocaleString();
+      }
+    };
+
+    requestAnimationFrame(countTo);
+  }
+
+  document.addEventListener('astro:page-load', recipeCounter);
+</script>
