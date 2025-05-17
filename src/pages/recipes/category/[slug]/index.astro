@@ -22,7 +22,7 @@ const recipes = await getRecipes({ categories: combinedCategories });
 const entry = await getEntry('categories', slug);
 ---
 
-<Layout heading={`${name} Receipes`}>
+<Layout heading={`${name} Recipes`}>
   <Container>
     {entry && (
       <div class="max-w-none  prose  pt-8  md:prose-md" set:html={entry.rendered.html}>
@@ -45,12 +45,12 @@ const entry = await getEntry('categories', slug);
         );
       })}
     </div>
-  </Container>
-  {(recipes.length > recipesPerPage) &&
-    <Pagination
+    {(recipes.length > recipesPerPage) &&
+      <Pagination
       baseUrl={`/recipes/category/${slug}/`}
       currentPage={1}
       totalPages={Math.ceil(recipes.length / recipesPerPage)}
-    />
-  }
+      />
+    }
+  </Container>
 </Layout>
