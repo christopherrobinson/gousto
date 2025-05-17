@@ -21,7 +21,7 @@ const { name } = cuisine;
 const recipes = await getRecipes({ cuisine: name });
 ---
 
-<Layout heading={`${name} Receipes`}>
+<Layout heading={`${name} Recipes`}>
   <Container>
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
       {recipes.slice(0, recipesPerPage).map((recipe) => {
@@ -40,12 +40,12 @@ const recipes = await getRecipes({ cuisine: name });
         );
       })}
     </div>
+    {(recipes.length > recipesPerPage) &&
+      <Pagination
+        baseUrl={`/recipes/cuisine/${slug}/`}
+        currentPage={1}
+        totalPages={Math.ceil(recipes.length / recipesPerPage)}
+      />
+    }
   </Container>
-  {(recipes.length > recipesPerPage) &&
-    <Pagination
-      baseUrl={`/recipes/cuisine/${slug}/`}
-      currentPage={1}
-      totalPages={Math.ceil(recipes.length / recipesPerPage)}
-    />
-  }
 </Layout>

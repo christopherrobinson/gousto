@@ -14,7 +14,7 @@ const { page } = Astro.props;
 const { currentPage, data = [], lastPage, } = page;
 ---
 
-<Layout heading={`Receipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
+<Layout heading={`Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
   <Container>
     <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
       {
@@ -35,10 +35,10 @@ const { currentPage, data = [], lastPage, } = page;
         })
       }
     </div>
+    <Pagination
+      baseUrl={`/recipes/`}
+      currentPage={currentPage}
+      totalPages={lastPage}
+    />
   </Container>
-  <Pagination
-    baseUrl={`/recipes/`}
-    currentPage={currentPage}
-    totalPages={lastPage}
-  />
 </Layout>
