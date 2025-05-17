@@ -17,6 +17,12 @@
   "cuisine": "Fusion",
   "ingredients": [
     {
+      "label": "Fennel seeds (1tsp)",
+      "gousto_uuid": "1a127de8-5cb9-4663-b6df-459c43a62e8e",
+      "allergens": [],
+      "image": "/images/ingredients/1a127de8-5cb9-4663-b6df-459c43a62e8e.jpg"
+    },
+    {
       "label": "Mayonnaise (25ml)",
       "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
       "allergens": [
@@ -26,18 +32,21 @@
       "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
     },
     {
+      "label": "Mayonnaise (50ml) x0",
+      "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+      "allergens": [
+        "egg",
+        "mustard"
+      ],
+      "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
+    },
+    {
       "label": "Sausage meat (150g)",
       "gousto_uuid": "14b6619e-48e9-4256-9e96-650cf7de7ad3",
       "allergens": [
         "sulphites"
       ],
       "image": "/images/ingredients/14b6619e-48e9-4256-9e96-650cf7de7ad3.jpg"
-    },
-    {
-      "label": "Fennel seeds (1tsp)",
-      "gousto_uuid": "1a127de8-5cb9-4663-b6df-459c43a62e8e",
-      "allergens": [],
-      "image": "/images/ingredients/1a127de8-5cb9-4663-b6df-459c43a62e8e.jpg"
     },
     {
       "label": "Panko breadcrumbs (20g)",
@@ -137,7 +146,7 @@
       "image": "/images/instructions/sausage-and-mozzarella-pesto-burger-with-chips/step-5.jpg"
     },
     {
-      "instruction": "<p>Meanwhile, wash your <strong>lettuce </strong>then pat dry with kitchen paper, and roughly shred</p><p>Add the <strong>shredded</strong> <strong>lettuce </strong>to a bowl with your <strong>balsamic vinegar</strong> and a generous drizzle of <strong>olive oil </strong>and toss it all together – this is your <strong>balsamic salad</strong></p>",
+      "instruction": "<p>Meanwhile, wash your <strong>lettuce </strong>then pat dry with kitchen paper, and roughly shred</p><p>Add the <strong>shredded</strong> <strong>lettuce </strong>to a bowl with your <strong>balsamic vinegar</strong> and a drizzle of <strong>olive oil </strong>and toss it all together – this is your <strong>balsamic salad</strong></p>",
       "order": 6,
       "image": "/images/instructions/sausage-and-mozzarella-pesto-burger-with-chips/step-6.jpg"
     },
@@ -161,26 +170,26 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 173,
-      "energy_kj": 724,
-      "fat_mg": 8923,
+      "energy_kj": 725,
+      "fat_mg": 8924,
       "fat_saturates_mg": 3088,
       "carbs_mg": 16629,
       "carbs_sugars_mg": 1716,
-      "fibre_mg": 1591,
-      "protein_mg": 6765,
-      "salt_mg": 482,
+      "fibre_mg": 1436,
+      "protein_mg": 6766,
+      "salt_mg": 474,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 889,
-      "energy_kj": 3719,
-      "fat_mg": 45779,
+      "energy_kj": 3720,
+      "fat_mg": 45781,
       "fat_saturates_mg": 15846,
-      "carbs_mg": 85310,
+      "carbs_mg": 85308,
       "carbs_sugars_mg": 8806,
-      "fibre_mg": 8164,
-      "protein_mg": 34709,
-      "salt_mg": 2475,
+      "fibre_mg": 7368,
+      "protein_mg": 34713,
+      "salt_mg": 2435,
       "net_weight_mg": 513000
     }
   },
@@ -405,10 +414,10 @@
           }
         },
         {
-          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-          "code": "I-06-SML-OT-36",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -495,10 +504,10 @@
           }
         },
         {
-          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-          "code": "I-06-SML-OT-36",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -585,10 +594,17 @@
           }
         },
         {
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
           "code": "I-06-SML-OT-36",
           "quantities": {
-            "in_box": 3
+            "in_box": 1
           }
         },
         {
