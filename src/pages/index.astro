@@ -1,22 +1,54 @@
 ---
+import Benefits from '@/components/Benefits.astro';
 import Container from '@/components/Container.astro';
+import Hero from '@/components/Hero.astro';
 import Layout from '@/layouts/Default.astro';
 
 const categories = await getCategories();
 const cuisines = await getCuisines();
 const recipes = await getRecipes();
+// const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 1 });
+const featuredRecipes = await getRecipes({
+  recipes: [
+    'garlicky-king-prawns-with-tomato-and-green-butter-orzo',
+    'buffalo-chicken-shawarma-kebab',
+    'crispy-ras-el-hanout-chicken-with-giant-couscous-and-tahini-yoghurt',
+    'halloumi-and-courgette-tray-bake',
+    'korean-style-mushroom-bibimbap',
+    'simply-perfect-lean-beef-spag-bol',
+    'creole-style-haddock-and-sweet-potato-stew-with-garlic-rice',
+    'chilli-garlic-and-jumbo-prawn-spaghetti',
+  ]
+});
+const metaTitle = `Gousto Recipe Finder - ${recipes.length.toLocaleString()} Recipes`;
+const metaDescription = `Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.`;
 ---
 
-<Layout>
+<Layout
+  meta={{
+    description: metaDescription,
+    og: {
+      'description': metaDescription,
+      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-finder.jpg`,
+      'image:alt': metaTitle,
+      'image:height': 630,
+      'image:type': 'image/jpeg',
+      'image:width': 1200,
+      'locale': 'en_GB',
+      'title': metaTitle,
+      'url': site.url,
+    },
+    title: metaTitle,
+    twitter: {
+      'card': 'summary_large_image',
+    },
+  }}
+>
+  <Hero featuredRecipes={featuredRecipes} recipeCount={recipes.length} />
   <div class="bg-primary-600  text-white">
     <Container>
-      <section class="flex  flex-col  gap-8  items-center  justify-between  py-8  sm:flex-row  md:gap-24  md:py-16">
-        <div class="flex-1  space-y-4  text-center  md:text-left">
-          <h1 class="font-semibold  font-serif  leading-10  mb-8  text-3xl  lg:leading-16  md:text-4xl  lg:text-5xl">Discover {recipes.length.toLocaleString()}<br>Gousto Recipes</h1>
-          <p class="text-md  md:leading-8  md:text-lg  lg:text-xl">
-            Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.
-          </p>
-        </div>
+      <section class="justify-center  items-center  py-8  space-y-4  sm:gap-8  sm:grid  sm:grid-cols-2  sm:space-y-0  md:gap-16  md:py-16">
+        <h2 class="font-normal  font-serif  text-md  text-center  md:text-2xl  lg:leading-16">Already know what you want to cook?</h2>
         <form action="/search/" class="flex-1  w-full" id="searchForm" method="get">
           <label class="sr-only" for="q">Search</label>
           <div class="relative">
@@ -78,30 +110,7 @@ const recipes = await getRecipes();
       </ul>
     </div>
   </Container>
-  <div class="bg-secondary-100  py-16  text-sm  text-center">
-    <Container>
-        <h2 class="font-semibold  font-serif  mb-4  text-xl  md:leading-16  md:text-3xl">
-          The Recipe Box with More Delicious Choices Than Ever!
-        </h2>
-        <ul class="mb-4  text-md  md:mb-8  md:text-lg">
-          <li class="mb-4">
-            <strong class="font-medium">500+ tasty recipes every month</strong> &mdash; there's always something new to try!
-          </li>
-          <li class="mb-4">
-            <strong class="font-medium">185+ veggie & vegan options</strong> every month too &mdash; plenty for plant-based foodies!
-          </li>
-          <li class="mb-4">
-            <strong class="font-medium">No commitments!</strong> Skip, swap, or cancel anytime, hassle-free.
-          </li>
-        </ul>
-        <a
-          class="animate-pulse  bg-tertiary-600  font-medium  inline-block  items-center  px-6  py-3  rounded-xl  text-white  transition  hover:animate-none  hover:bg-tertiary-800"
-          href="/signup"
-        >
-          <span class="text-lg">View the full menu now</span>
-        </a>
-    </Container>
-  </div>
+  <Benefits />
 </Layout>
 
 <script>
@@ -112,9 +121,13 @@ const recipes = await getRecipes();
 
   if (form && button) {
     form.addEventListener('submit', (e) => {
-      // Optional: skip if no search query
       const input = form.querySelector('input[name="q"]');
-      if (!input?.value.trim()) return;
+
+      if (!input?.value.trim()) {
+        e.preventDefault();
+
+        return;
+      }
 
       button.disabled = true;
       button.classList.remove('cursor-pointer', 'hover:bg-tertiary-800');

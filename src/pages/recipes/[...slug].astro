@@ -1,5 +1,6 @@
 ---
 import Allergens from '@/components/Allergens.astro';
+import Benefits from '@/components/Benefits.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import Container from '@/components/Container.astro';
 import Ingredients from '@/components/Ingredients.astro';
@@ -63,7 +64,7 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
       </div>
       <div class="col-span-1  md:col-span-7  lg:col-span-6  print:col-span-8">
         <h2 class="font-semibold  font-serif  mb-4  text-3xl  lg:leading-16  md:mb-8  md:text-4xl  lg:text-5xl">{title}</h2>
-        <p class="mb-4  text-secondary-800  md:mb-8">{description}</p>
+        <p class="mb-4  text-secondary-800  md:mb-8">{stripHtml(description).result}</p>
         <div class="flex  flex-wrap  items-center  mb-4  space-x-4  text-sm  text-center  text-secondary-800  md:mb-8  md:space-x-4">
           {for_2 &&
             <div class="flex  items-center  space-x-2">
@@ -166,28 +167,5 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
     <NutritionalInformation perPortion={per_portion} />
     <Allergens allergens={allergens} />
   </Container>
-  <div class="bg-secondary-100  py-16  text-sm  text-center  print:hidden">
-    <Container>
-        <h2 class="font-semibold  font-serif  mb-4  text-xl  md:leading-16  md:text-3xl">
-          The Recipe Box with More Delicious Choices Than Ever!
-        </h2>
-        <ul class="mb-4  text-md  md:mb-8  md:text-lg">
-          <li class="mb-4">
-            <strong class="font-medium">500+ tasty recipes every month</strong> &mdash; there's always something new to try!
-          </li>
-          <li class="mb-4">
-            <strong class="font-medium">185+ veggie & vegan options</strong> every month too &mdash; plenty for plant-based foodies!
-          </li>
-          <li class="mb-4">
-            <strong class="font-medium">No commitments!</strong> Skip, swap, or cancel anytime, hassle-free.
-          </li>
-        </ul>
-        <a
-          class="animate-pulse  bg-tertiary-600  font-medium  inline-block  items-center  px-6  py-3  rounded-xl  text-white  transition  hover:animate-none  hover:bg-tertiary-800"
-          href="/signup"
-        >
-          <span class="text-lg">View the full menu now</span>
-        </a>
-    </Container>
-  </div>
+  <Benefits />
 </Layout>
