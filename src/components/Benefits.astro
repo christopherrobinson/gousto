@@ -1,0 +1,45 @@
+---
+import Container from '@/components/Container.astro';
+
+const benefits = [
+  '500+ recipes every month',
+  '185+ veggie & vegan options',
+  'No commitments!',
+  'Skip or cancel for free anytime'
+]
+---
+
+<div class="bg-secondary-50  border-t  border-zinc-200  py-8  relative  md:py-16">
+  <Container>
+    <div class="grid  md:grid-cols-2">
+      <div class="space-y-6  md:col-start-2  md:ps-16">
+        <h2 class="font-semibold  font-serif  text-xl  md:text-2xl">The recipe box with more choice than ever</h2>
+        <p class="">
+          Over <span class="font-normal  text-primary-600">143 million</span> delicious meals have been cooked and enjoyed by Gousto lovers since 2013.
+        </p>
+        <div class="gap-x-6  gap-y-3  grid  grid-cols-1  lg:grid-cols-2">
+          {benefits.map((benefit) => (
+            <div class="flex  gap-2  items-center">
+            <Icon class="text-primary-600" name="check" />
+              {benefit}
+            </div>
+          ))}
+        </div>
+        <a class="bg-tertiary-600  flex  items-center  justify-center  px-4  py-3  rounded-lg  space-x-2  text-white  transition  w-full  md:justify-start  md:w-fit  hover:bg-tertiary-800  hover:underline" href="/signup/">
+          <span>Try now with <strong>65% off</strong> your first box</span> <Icon class="size-3.5" name="arrow-up-right-from-square" />
+        </a>
+      </div>
+    </div>
+  </Container>
+  <div class="absolute  h-full  hidden  inset-0  overflow-hidden  w-1/2  md:block">
+    <Image
+      alt="Gousto Recipe Box"
+      class="absolute  inset-0  object-cover  size-full"
+      densities={[2]}
+      height={350}
+      src="/images/gousto-recipe-box.jpg"
+      width={600}
+    />
+    <div class="absolute  bg-secondary-50/10  inset-0"></div>
+  </div>
+</div>

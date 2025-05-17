@@ -1,7 +1,6 @@
 ---
 import { type NutritionalInformationProps } from '@/types/NutritionalInformation';
 
-
 const { perPortion } = Astro.props as NutritionalInformationProps;
 const perPortionValues = Object.fromEntries(
   Object.entries(perPortion).filter(
