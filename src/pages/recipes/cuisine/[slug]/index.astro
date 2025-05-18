@@ -44,6 +44,7 @@ const recipes = await getRecipes({ cuisine: name });
       <Pagination
         baseUrl={`/recipes/cuisine/${slug}/`}
         currentPage={1}
+        total={recipes.length}
         totalPages={Math.ceil(recipes.length / recipesPerPage)}
       />
     }

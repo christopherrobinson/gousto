@@ -1,5 +1,5 @@
 export const getPagination = (current: number, total: number): (number | string)[] => {
-  const delta: (number) = 2;
+  const delta: (number) = 1;
   const range: (number | string)[] = [];
   const rangeWithDots: (number | string)[] = [];
   let l: number | null = null;
