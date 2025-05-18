@@ -49,6 +49,7 @@ const entry = await getEntry('categories', slug);
       <Pagination
       baseUrl={`/recipes/category/${slug}/`}
       currentPage={1}
+      total={recipes.length}
       totalPages={Math.ceil(recipes.length / recipesPerPage)}
       />
     }

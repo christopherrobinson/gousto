@@ -1,20 +1,22 @@
 ---
 import { type PaginationProps } from '@/types/Pagination';
 
-const { baseUrl, currentPage, forceQueryString, totalPages } = Astro.props as PaginationProps;
+const { baseUrl, currentPage, forceQueryString, total, totalPages } = Astro.props as PaginationProps;
 const { searchParams } = Astro.url;
 const pages = getPagination(currentPage, totalPages);
+const start = (currentPage - 1) * recipesPerPage + 1;
+const end = Math.min(currentPage * recipesPerPage, total);
 ---
 
-<div class="border-secondary-100  border-t  mt-auto  py-8">
-  <nav aria-label="Pagination" class="flex  items-center  justify-between  gap-2">
-    <div class="flex  justify-start  sm:w-[96px]">
+<div class="border-secondary-100  border-t  flex  items-center  justify-between  mt-auto  py-8  text-sm">
+  <p class="hidden  md:block">Showing <strong>{start.toLocaleString()}</strong> to <strong>{end.toLocaleString()}</strong> of <strong>{total.toLocaleString()}</strong> recipes</p>
+  <nav aria-label="Pagination" class="flex  gap-2  items-center  justify-between  w-full  md:justify-end  md:w-auto">
+    <div class="flex  justify-start">
       <a
         aria-disabled={currentPage <= 1}
         class={`
-          border  border-secondary-400  flex  flex-initial  items-center  gap-1  px-3  py-1  rounded-md  transition
-          sm:border-0  sm:p-0  sm:hover:bg-transparent
-          ${currentPage <= 1 ? 'cursor-not-allowed  opacity-50' : 'hover:text-primary  hover:bg-secondary-50  hover:underline'}
+          flex  items-center  gap-1  px-3  py-2  rounded-md  transition
+          ${currentPage <= 1 ? 'cursor-not-allowed  opacity-50' : 'hover:bg-secondary-50  hover:underline'}
         `}
         href={currentPage > 1 ? getPageUrl((currentPage - 1), baseUrl, searchParams, forceQueryString) : undefined}
         tabindex={currentPage <= 1 ? -1 : 0}
@@ -38,7 +40,7 @@ const pages = getPagination(currentPage, totalPages);
               aria-current={page === currentPage ? 'page' : undefined}
               href={getPageUrl(Number(page), baseUrl, searchParams, forceQueryString)}
               class={`
-                px-3  py-1  rounded-md  transition
+                px-3  py-2  rounded-md  transition
                 ${page === currentPage ? 'bg-secondary-900  text-white' : 'hover:bg-secondary-50  hover:underline'}
               `}
             >
@@ -48,13 +50,12 @@ const pages = getPagination(currentPage, totalPages);
         )
       )}
     </div>
-    <div class="flex  justify-end  sm:w-[96px]">
+    <div class="flex  justify-end">
       <a
         aria-disabled={currentPage >= totalPages}
         class={`
-          border  border-secondary-400  flex  flex-initial  items-center  gap-1  px-3  py-1  rounded-md  transition
-          sm:border-0  sm:p-0  sm:hover:bg-transparent
-          ${currentPage >= totalPages ? 'cursor-not-allowed  opacity-50' : 'hover:text-primary  hover:bg-secondary-50  hover:underline'}
+          flex  items-center  gap-1  px-3  py-2  rounded-md  transition
+          ${currentPage >=totalPages ? 'cursor-not-allowed  opacity-50' : 'hover:bg-secondary-50  hover:underline'}
         `}
         href={currentPage < totalPages ? getPageUrl((currentPage + 1), baseUrl, searchParams, forceQueryString) : undefined}
         tabindex={currentPage >= totalPages ? -1 : 0}
