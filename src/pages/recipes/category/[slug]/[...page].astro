@@ -11,16 +11,11 @@ export const getStaticPaths = async ({ paginate }) => {
   for (const category of categories) {
     const recipes = await getRecipes({ categories: category.combinedCategories });
 
-    // Skip if only one page is needed
-    if (recipes.length <= recipesPerPage)
-      continue;
-
-    // Use Astro's built-in paginate function, excluding the first page (which is handled by index.astro)
     const paginatedPaths = paginate(recipes, {
       pageSize: recipesPerPage,
       params: { slug: createSlug(category.name) },
       props: { category },
-    }).slice(1); // Skip first page
+    });
 
     paths.push(...paginatedPaths);
   }
@@ -32,11 +27,16 @@ const { slug } = Astro.params;
 const { category, page } = Astro.props;
 const { name } = category;
 const { currentPage, data = [], lastPage, total } = page;
+const entry = await getEntry('categories', slug);
 ---
 
 <Layout heading={`${name} Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
-  <Container>
-    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+  <Container class="flex  flex-col  grow">
+    {(currentPage === 1) && entry && (
+      <div class="max-w-none  prose  pt-4  lg:pt-8" set:html={entry.rendered.html}>
+      </div>
+    )}
+    <div class="gap-4  grid  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
       {data.map((recipe) => {
         const { data, id } = recipe
         const { cuisine, image, prep_times, rating, title } = data;
@@ -53,11 +53,13 @@ const { currentPage, data = [], lastPage, total } = page;
         );
       })}
     </div>
-    <Pagination
-      baseUrl={`/recipes/category/${slug}/`}
-      currentPage={currentPage}
-      total={total}
-      totalPages={lastPage}
-    />
+    {(total > recipesPerPage) && (
+      <Pagination
+        baseUrl={`/recipes/category/${slug}/`}
+        currentPage={currentPage}
+        total={total}
+        totalPages={lastPage}
+      />
+    )}
   </Container>
 </Layout>

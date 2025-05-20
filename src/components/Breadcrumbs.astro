@@ -5,17 +5,18 @@ import Container from '@/components/Container.astro';
 const { items } = Astro.props as BreadcrumbsProps;
 ---
 
-<div class="bg-secondary-100  mb-4  py-6  text-sm  md:mb-8  print:hidden">
+<div class="bg-secondary-50  border-b  border-zinc-200  py-6  text-sm  print:hidden">
   <Container>
     <nav aria-label="Breadcrumb">
       <ol class="flex  space-x-2">
         {items.map((item, index) => (
-          <li class="flex  items-center">
+          <li class="hidden  items-center  [&:nth-last-child(2)]:flex  md:flex">
+            <span class="me-2  md:hidden"><Icon class="size-2.5" name="chevron-left" /></span>
             <a class="hover:underline" href={item.href}>
               {item.label}
             </a>
             {index < items.length - 1 && (
-              <span class="ms-2">/</span>
+              <span class="hidden  ms-2  md:block"><Icon class="size-2.5" name="chevron-right" /></span>
             )}
           </li>
         ))}

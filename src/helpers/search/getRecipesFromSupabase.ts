@@ -19,7 +19,7 @@ export const getRecipesFromSupabase = async ({
   const to = from + recipesPerPage - 1;
 
   const baseFilter = (q: ReturnType<typeof supabaseClient.from>) => {
-    q.or(`title.ilike.%${query}%,description.ilike.%${query}%`);
+    q.or(`title.ilike.%${query}%,description.ilike.%${query}%,ingredients.ilike.%${query}%`);
 
     if (filters?.calories) {
       const calorieField = 'nutritional_information->per_portion->energy_kcal';

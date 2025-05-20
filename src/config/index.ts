@@ -7,6 +7,6 @@ export const navItems = [
 export const targetPortionCalories = 600;
 export const recipesPerPage = 12;
 export const site = {
-  name: 'Gousto Recipe Finder',
+  name: 'Gousto Recipe Search',
   url: 'https://gousto.wiki',
 };

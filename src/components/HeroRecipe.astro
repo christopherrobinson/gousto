@@ -1,5 +1,5 @@
 ---
-import { type HeroRecipeProps } from '@/types/HeroRecipe';
+import { type HeroRecipeProps } from "@/types/HeroRecipe";
 
 const { id, image, rating, title, ...props } = Astro.props as HeroRecipeProps;
 const className = (props as { class?: string }).class;
@@ -9,20 +9,36 @@ const className = (props as { class?: string }).class;
   class={`aspect-square  ${className ? className : `block`}  group  overflow-hidden  relative  rounded-lg  shadow-sm`}
   href={`/recipes/${id}/`}
 >
-  <Image
-    alt={title}
-    class="transition  w-full  group-hover:opacity-80  group-hover:scale-110"
-    densities={[2]}
-    height={176}
-    src={useRemoteImageUrl(image)}
-    width={176}
-  />
-  {isValidRating(rating) &&
-    <div class="absolute  bg-white  end-0  flex  items-center  p-2  rounded-bl-lg  space-x-2  text-sm  top-0">
-      <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
-    </div>
+  <picture>
+    <source
+      srcset={`
+        ${useRemoteImageUrl(image, "h=176&output=webp&w=176")},
+        ${useRemoteImageUrl(image, "h=352&output=webp&w=352")} 2x
+      `}
+      type="image/webp"
+    />
+    <img
+      alt={title}
+      class="transition  w-full  group-hover:opacity-80  group-hover:scale-110"
+      decoding="async"
+      height={176}
+      loading="lazy"
+      src={useRemoteImageUrl(image, "h=176&w=176")}
+      srcset={`${useRemoteImageUrl(image, "h=352&w=352")} 2x`}
+      width={176}
+    />
+  </picture>
+  {
+    isValidRating(rating) && (
+      <div class="absolute  bg-white/90  end-2  flex  items-center  px-2  py-1.5  rounded-lg  space-x-2  text-sm  top-2">
+        <Icon class="text-primary-600" name="star" />{' '}
+        <span>{rating.average.toFixed(1)}</span>
+      </div>
+    )
   }
-  <div class="absolute  backdrop-blur  bg-secondary-900/30  flex  items-center  inset-0  justify-center  opacity-0  p-4  text-white  transition  group-focus:opacity-100  group-hover:opacity-100">
+  <div
+    class="absolute  backdrop-blur  bg-secondary-900/30  flex  items-center  inset-0  justify-center  opacity-0  p-4  text-white  transition  group-focus:opacity-100  group-hover:opacity-100"
+  >
     <span class="text-center  text-xs  md:text-sm">{title}</span>
   </div>
 </a>

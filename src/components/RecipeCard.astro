@@ -1,7 +1,7 @@
 ---
 import { type RecipeCardProps } from '@/types/RecipeCard';
 
-const { cuisine, id, image, prep_times, rating, title } = Astro.props as RecipeCardProps;
+const { cuisine, id, image, nutritional_information, prep_times, rating, title } = Astro.props as RecipeCardProps;
 const { for_2 } = prep_times;
 ---
 
@@ -10,17 +10,43 @@ const { for_2 } = prep_times;
   href={`/recipes/${id}/`}
 >
   {image &&
-    <div class="relative">
-      <Image alt={title} class="w-full" densities={[2]} height={288} src={useRemoteImageUrl(image)} width={288} />
+    <div class="aspect-square  bg-secondary-50  relative">
+      <div class="overflow-hidden">
+        <picture>
+          <source
+            srcset={`
+              ${useRemoteImageUrl(image, "h=288&output=webp&w=288")},
+              ${useRemoteImageUrl(image, "h=576&output=webp&w=576")} 2x
+            `}
+            type="image/webp"
+          />
+          <img
+            alt={title}
+            class="transition  w-full  group-hover:scale-110"
+            decoding="async"
+            height={288}
+            loading="lazy"
+            src={useRemoteImageUrl(image, "h=288&w=288")}
+            srcset={`${useRemoteImageUrl(image, "h=576&w=576")} 2x`}
+            width={288}
+          />
+        </picture>
+      </div>
+      {nutritional_information?.per_portion?.energy_kcal &&
+        <div class="absolute  bg-white/90  flex  items-center  px-2  py-1.5  rounded-lg  space-x-2  start-2  text-sm  top-2">
+          <Icon class="text-primary-600" name="user" />
+          <span class="flex  items-center">{nutritional_information.per_portion.energy_kcal.toLocaleString()}kcal</span>
+        </div>
+      }
       {isValidRating(rating) &&
-        <div class="absolute  bg-white  end-0  flex  items-center  p-2  rounded-bl-lg  space-x-2  text-sm  top-0">
+        <div class="absolute  bg-white/90  end-2  flex  items-center  px-2  py-1.5  rounded-lg  space-x-2  text-sm  top-2">
           <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
         </div>
       }
     </div>
   }
   <div class="flex  flex-col  h-full  justify-between  p-4">
-    <h2 class="font-medium  font-serif  mb-4  text-md  transition  group-hover:text-primary-600">{title}</h2>
+    <h2 class="font-medium  font-serif  mb-4  transition  group-hover:text-primary-600">{title}</h2>
     <div class="flex  items-center  justify-between  overflow-hidden  space-x-8  text-sm  text-center  text-secondary-700  group-hover:text-secondary-950">
       {for_2 &&
         <div class="flex  items-center  space-x-2">

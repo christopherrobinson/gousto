@@ -11,16 +11,11 @@ export const getStaticPaths = async ({ paginate }) => {
   for (const cuisine of cuisines) {
     const recipes = await getRecipes({ cuisine: cuisine.name });
 
-    // Skip if only one page is needed
-    if (recipes.length <= recipesPerPage)
-      continue;
-
-    // Use Astro's built-in paginate function, excluding the first page (which is handled by index.astro)
     const paginatedPaths = paginate(recipes, {
       pageSize: recipesPerPage,
       params: { slug: createSlug(cuisine.name) },
       props: { cuisine },
-    }).slice(1); // Skip first page
+    });
 
     paths.push(...paginatedPaths);
   }
@@ -35,8 +30,8 @@ const { currentPage, data = [], lastPage, total } = page;
 ---
 
 <Layout heading={`${name} Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
-  <Container>
-    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+  <Container class="flex  flex-col  grow">
+    <div class="gap-4  grid  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
       {data.map((recipe) => {
         const { data, id } = recipe
         const { cuisine, image, prep_times, rating, title } = data;
@@ -53,11 +48,13 @@ const { currentPage, data = [], lastPage, total } = page;
         );
       })}
     </div>
-    <Pagination
-      baseUrl={`/recipes/cuisine/${slug}/`}
-      currentPage={currentPage}
-      total={total}
-      totalPages={lastPage}
-    />
+    {(total > recipesPerPage) && (
+      <Pagination
+        baseUrl={`/recipes/cuisine/${slug}/`}
+        currentPage={currentPage}
+        total={total}
+        totalPages={lastPage}
+      />
+    )}
   </Container>
 </Layout>

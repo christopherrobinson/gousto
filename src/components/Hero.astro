@@ -14,7 +14,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
           Discover <span class="text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
           delicious recipes
         </h1>
-        <p class="text-md  md:leading-8  md:text-lg  lg:text-xl">
+        <p class="md:leading-8  md:text-lg  lg:text-xl">
           Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.
         </p>
         <div class="flex  flex-col  items-center  justify-center  space-y-6  text-center  sm:flex-row  sm:space-x-6  sm:space-y-0  md:justify-start">
@@ -104,7 +104,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
     }
 
     const start = Math.floor(recipeCount / 1000) * 1000;
-    const totalFrames = Math.round((1000 / 1000) * 60); // duration / 1000 * fps
+    const totalFrames = Math.round((2000 / 1000) * 60); // duration / 1000 * fps
     let frame = 0;
 
     const countTo = () => {

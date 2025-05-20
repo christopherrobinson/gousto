@@ -20,7 +20,7 @@ const featuredRecipes = await getRecipes({
     'chilli-garlic-and-jumbo-prawn-spaghetti',
   ]
 });
-const metaTitle = `Gousto Recipe Finder - ${recipes.length.toLocaleString()} Recipes`;
+const metaTitle = `Gousto Recipe Search - ${recipes.length.toLocaleString()} Recipes`;
 const metaDescription = `Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.`;
 ---
 
@@ -29,7 +29,7 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
     description: metaDescription,
     og: {
       'description': metaDescription,
-      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-finder.jpg`,
+      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-search.jpg`,
       'image:alt': metaTitle,
       'image:height': 630,
       'image:type': 'image/jpeg',
@@ -48,7 +48,7 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
   <div class="bg-primary-600  text-white">
     <Container>
       <section class="justify-center  items-center  py-8  space-y-4  sm:gap-8  sm:grid  sm:grid-cols-2  sm:space-y-0  md:gap-16  md:py-16">
-        <h2 class="font-normal  font-serif  text-md  text-center  md:text-2xl  lg:leading-16">Already know what you want to cook?</h2>
+        <h2 class="font-normal  font-serif  text-center  md:text-2xl  lg:leading-16">Already know what you want to cook?</h2>
         <form action="/search/" class="flex-1  w-full" id="searchForm" method="get">
           <label class="sr-only" for="q">Search</label>
           <div class="relative">
@@ -82,11 +82,12 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
     <div class="border  border-secondary-100  my-8  p-8  rounded-lg  text-center">
       <h2 class="font-medium  font-serif  mb-4  text-lg">Browse by cuisine&hellip;</h2>
       <ul class="flex  flex-wrap  justify-center  gap-4  text-sm">
-        {cuisines.map(({ name, slug }) => (
+        {cuisines.map(({ name, recipes, slug }) => (
           <li>
             <a
-              class="bg-secondary-50  border  border-secondary-300  block  px-2  py-1  rounded-md  hover:underline"
+              class="bg-secondary-50  border  border-zinc-200  block  px-2  py-1  rounded-md  hover:underline"
               href={slug}
+              title={`${recipes.toLocaleString()} Recipe${recipes > 1 ? 's' : ''}`}
             >
               {name}
             </a>
@@ -100,7 +101,7 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
         {categories.map(({ name, slug }) => (
           <li>
             <a
-              class="bg-secondary-50  border  border-secondary-300  block  px-3  py-1  rounded-md  hover:underline"
+              class="bg-secondary-50  border  border-zinc-200  block  px-3  py-1  rounded-md  hover:underline"
               href={slug}
             >
               {name}

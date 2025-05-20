@@ -6,13 +6,13 @@ import Layout from '@/layouts/Default.astro';
 
 <Layout heading="Inspiration">
   <Container>
-    <div class="max-w-none  prose  py-8  md:prose-md">
+    <div class="max-w-none  prose  pt-4  lg:pt-8">
       <p>Feeling indecisive about what to cook? Let chance be your chef! Our &ldquo;Inspiration&rdquo; feature picks four delicious recipes at random from our full collection. Each one packed with bold flavors, easy-to-follow steps, and ingredients you likely already have at home. Whether you're in the mood for a comforting classic, a quick weeknight dinner, or a dish from a cuisine you've never tried, these handpicked options are a great way to break out of your routine.</p>
       <p>Every time you reload the page you'll get a fresh set of randomly selected recipes - no two visits are likely ever the same. It's perfect for adventurous home cooks or anyone looking to inject a little fun into meal planning.</p>
       <p>Scroll down to explore your picks, or reload the page to shuffle the menu. You never know what tasty idea might appear next!</p>
     </div>
     <div
-      class="gap-4  grid  pb-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4"
+      class="gap-4  grid  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8"
       id="recipes"
     >
       {Array.from({ length: inspirationRecipeCount }, () => <RecipeCardSkeleton />)}
@@ -32,10 +32,30 @@ import Layout from '@/layouts/Default.astro';
 
         container.innerHTML = recipes.map(({ cuisine, id, image, prep_times, rating, title }) => `
           <a class="bg-white  border  border-secondary-100  flex  flex-col  group  h-full  overflow-hidden  rounded-lg  transition  hover:border-secondary-200  hover:shadow-sm" href="/recipes/${id}/">
-            <div class="relative">
-              <img alt="${title}" class="w-full" height="288" src="https://images.gousto.wiki/${image.replace(/^\/images\//, '')}" width="288">
+            <div class="aspect-square  bg-secondary-50  relative">
+              <div class="overflow-hidden">
+                <picture>
+                  <source
+                    srcset="
+                      https://wsrv.nl/?url=https://images.gousto.wiki/${image.replace(/^\/images\//, '')}&fit=cover&h=288&output=webp&w=288,
+                      https://wsrv.nl/?url=https://images.gousto.wiki/${image.replace(/^\/images\//, '')}&fit=cover&h=576&output=webp&w=576 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    alt="${title}"
+                    class="transition  w-full  group-hover:scale-110"
+                    decoding="async"
+                    height="288"
+                    loading="lazy"
+                    src="https://wsrv.nl/?url=https://images.gousto.wiki/${image.replace(/^\/images\//, '')}&fit=cover&h=288&w=288"
+                    srcset="https://wsrv.nl/?url=https://images.gousto.wiki/${image.replace(/^\/images\//, '')}&fit=cover&h=576&w=576 2x"
+                    width="288"
+                  />
+                </picture>
+              </div>
               ${isValidRating(rating) ? (`
-                <div class="absolute  bg-white  end-0  flex  items-center  p-2  rounded-bl-lg  space-x-2  text-sm  top-0">
+                <div class="absolute  bg-white/90  end-2  flex  items-center  px-2  py-1.5  rounded-lg  space-x-2  text-sm  top-2">
                   <svg width="1.13em" height="1em" class="text-primary-600" data-icon="star">
                     <symbol id="ai:local:star" viewBox="0 0 576 512">
                       <path fill="currentColor" d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4 459.8 484c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6 68.6-141.3C270.4 5.2 278.7 0 287.9 0m0 79-52.5 108.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9l85.9 85.1c5.5 5.5 8.1 13.3 6.8 21l-20.3 119.7 105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2-20.2-119.6c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1-118.3-17.5c-7.8-1.2-14.6-6.1-18.1-13.3z" />
