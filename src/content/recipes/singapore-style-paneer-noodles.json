@@ -10,7 +10,7 @@
   "gousto_id": "2173",
   "rating": {
     "average": 4.5,
-    "count": 3051
+    "count": 3095
   },
   "description": "Experience the tastes of Singapore in this super quick and easy stir-fry! Singaporean cuisine is hugely influenced by Chinese and Indian cuisine, hence the (delicious) pairing of Indian spices with fine egg noodles. Garnish with a wedge of lime and some crunchy peanuts, and transport yourself to South East Asia!",
   "prep_times": {
@@ -19,6 +19,12 @@
   },
   "cuisine": "Asian",
   "ingredients": [
+    {
+      "label": "Curry powder (2tbsp) x0",
+      "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+      "allergens": [],
+      "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+    },
     {
       "label": "Dried chilli flakes (1tsp) x0",
       "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -90,12 +96,6 @@
       "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
     },
     {
-      "label": "Curry powder (2tbsp) x0",
-      "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
-      "allergens": [],
-      "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
-    },
-    {
       "label": "Curry powder (1tbsp)",
       "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
       "allergens": [],
@@ -116,16 +116,7 @@
       "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
     },
     {
-      "label": "Fine egg noodle nests (2pcs)",
-      "gousto_uuid": "c183d798-492c-4b03-8729-21e57f828e89",
-      "allergens": [
-        "egg",
-        "gluten"
-      ],
-      "image": "/images/ingredients/c183d798-492c-4b03-8729-21e57f828e89.jpg"
-    },
-    {
-      "label": "Fine egg noodle nest x0",
+      "label": "Fine egg noodle nest x2",
       "gousto_uuid": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
       "allergens": [
         "egg",
@@ -342,10 +333,10 @@
           }
         },
         {
-          "id": "c183d798-492c-4b03-8729-21e57f828e89",
-          "code": "I-03-GRN-PA-64",
+          "id": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
+          "code": "I-03-GRN-PA-65",
           "quantities": {
-            "in_box": 1
+            "in_box": 2
           }
         },
         {
@@ -435,14 +426,7 @@
           "id": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
           "code": "I-03-GRN-PA-65",
           "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "c183d798-492c-4b03-8729-21e57f828e89",
-          "code": "I-03-GRN-PA-64",
-          "quantities": {
-            "in_box": 1
+            "in_box": 3
           }
         },
         {
@@ -522,10 +506,10 @@
           }
         },
         {
-          "id": "c183d798-492c-4b03-8729-21e57f828e89",
-          "code": "I-03-GRN-PA-64",
+          "id": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
+          "code": "I-03-GRN-PA-65",
           "quantities": {
-            "in_box": 2
+            "in_box": 4
           }
         },
         {
@@ -591,15 +575,15 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
-          "code": "I-06-SML-DL-71",
+          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+          "code": "I-06-SML-DL-69",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
-          "code": "I-06-SML-DL-69",
+          "id": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+          "code": "I-06-SML-DL-71",
           "quantities": {
             "in_box": 1
           }
@@ -615,14 +599,7 @@
           "id": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
           "code": "I-03-GRN-PA-65",
           "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "c183d798-492c-4b03-8729-21e57f828e89",
-          "code": "I-03-GRN-PA-64",
-          "quantities": {
-            "in_box": 2
+            "in_box": 5
           }
         },
         {
@@ -661,15 +638,15 @@
           }
         },
         {
-          "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-          "code": "I-06-SML-OT-15",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-          "code": "I-06-SML-OT-14",
+          "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+          "code": "I-06-SML-OT-15",
           "quantities": {
             "in_box": 1
           }
