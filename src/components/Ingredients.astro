@@ -21,7 +21,25 @@ const { basics, ingredients, portion_sizes } = Astro.props as IngredientsProps;
       <div class="flex  items-center  space-x-4">
         <div class="flex  flex-col  items-center">
           {image &&
-            <img alt={label} class="w-10" height={40} src={useRemoteImageUrl(image)} width={40} />
+            <picture>
+              <source
+                srcset={`
+                  ${useRemoteImageUrl(image, "h=40&output=webp&w=40")},
+                  ${useRemoteImageUrl(image, "h=80&output=webp&w=80")} 2x
+                `}
+                type="image/webp"
+              />
+              <img
+                alt={label}
+                class="w-10"
+                decoding="async"
+                height={40}
+                loading="lazy"
+                src={useRemoteImageUrl(image, "h=40&w=40")}
+                srcset={`${useRemoteImageUrl(image, "h=80&w=80")} 2x`}
+                width={40}
+              />
+            </picture>
           ||
             <span class="bg-secondary-50  flex  items-center  justify-center  rounded-full  size-10  text-secondary-800/50">x</span>
           }

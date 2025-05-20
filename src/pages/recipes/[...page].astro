@@ -15,8 +15,8 @@ const { currentPage, data = [], lastPage, total } = page;
 ---
 
 <Layout heading={`Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
-  <Container>
-    <div class="gap-4  grid  py-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+  <Container class="flex  flex-col  grow">
+    <div class="gap-4  grid  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
       {
         data.map(async (post: any) => {
           const { data, id } = post
@@ -35,11 +35,13 @@ const { currentPage, data = [], lastPage, total } = page;
         })
       }
     </div>
-    <Pagination
-      baseUrl={`/recipes/`}
-      currentPage={currentPage}
-      total={total}
-      totalPages={lastPage}
-    />
+    {(total > recipesPerPage) && (
+      <Pagination
+        baseUrl={`/recipes/`}
+        currentPage={currentPage}
+        total={total}
+        totalPages={lastPage}
+      />
+    )}
   </Container>
 </Layout>

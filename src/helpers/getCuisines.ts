@@ -1,4 +1,4 @@
-let cuisineCache: { name: string; slug: string }[] | null = null;
+let cuisineCache: { name: string; recipes: number, slug: string }[] | null = null;
 
 export const getCuisines = async () => {
   if (cuisineCache) {
@@ -7,21 +7,22 @@ export const getCuisines = async () => {
 
   const recipes = await getRecipes();
 
-  const cuisines = recipes.reduce((set, { data }) => {
+  const recipesCount = recipes.reduce((map, { data }) => {
     const cuisine = data.cuisine;
-
     if (typeof cuisine === 'string') {
-      set.add(cuisine);
+      map.set(cuisine, (map.get(cuisine) || 0) + 1);
     }
+    return map;
+  }, new Map<string, number>());
 
-    return set;
-  }, new Set<string>());
+  const entries = Array.from(recipesCount.entries()) as [string, number][];
 
-  cuisineCache = Array.from(cuisines)
-    .sort((a, b) => a.localeCompare(b))
-    .map(name => ({
-      name,
-      slug: `/recipes/cuisine/${createSlug(name)}/`
+  cuisineCache = entries
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([name, count]) => ({
+      name: name,
+      recipes: count,
+      slug: `/recipes/cuisine/${createSlug(name)}/`,
     }));
 
   return cuisineCache;

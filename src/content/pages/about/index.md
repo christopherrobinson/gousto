@@ -2,7 +2,7 @@
 title: About
 ---
 
-Welcome to the **Gousto Recipe Finder** &mdash; your new go-to destination for exploring the wonderful world of Gousto recipes! Whether you're a seasoned home chef, a busy parent looking for quick meal ideas, or just someone in search of fresh culinary inspiration, this site is here to make your recipe browsing faster, easier, and a lot more enjoyable.
+Welcome to the **Gousto Recipe Search** &mdash; your new go-to destination for exploring the wonderful world of Gousto recipes! Whether you're a seasoned home chef, a busy parent looking for quick meal ideas, or just someone in search of fresh culinary inspiration, this site is here to make your recipe browsing faster, easier, and a lot more enjoyable.
 
 ## What Is This?  
 

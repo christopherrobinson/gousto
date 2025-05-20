@@ -53,19 +53,17 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
   <RecipeStructuredData slot="structured-data" {...data} />
   <Breadcrumbs
     items={[
+      { label: 'Home', href: '/' },
       { label: 'Recipes', href: '/recipes/' },
       { label: title, href: `/recipes/${page.id}/` },
     ]}
   />
   <Container>
-    <div class="gap-4  grid  grid-cols-1  mb-4  md:gap-8  md:grid-cols-12  md:mb-8">
-      <div class="col-span-1  md:col-span-5  lg:col-span-6  print:col-span-4">
-        <img alt={title} class="h-auto  rounded-lg  w-full" height={1000} src={useRemoteImageUrl(image)} width={1000} />
-      </div>
-      <div class="col-span-1  md:col-span-7  lg:col-span-6  print:col-span-8">
-        <h2 class="font-semibold  font-serif  mb-4  text-3xl  lg:leading-16  md:mb-8  md:text-4xl  lg:text-5xl">{title}</h2>
-        <p class="mb-4  text-secondary-800  md:mb-8">{stripHtml(description).result}</p>
-        <div class="flex  flex-wrap  items-center  mb-4  space-x-4  text-sm  text-center  text-secondary-800  md:mb-8  md:space-x-4">
+    <div class="gap-4  grid  grid-cols-1  my-4  md:gap-8  md:grid-cols-12  md:my-8">
+      <div class="col-span-1  space-y-4  md:col-span-7  md:order-2  lg:col-span-6  print:col-span-8">
+        <h2 class="font-semibold  font-serif  text-3xl  lg:leading-16  md:mb-8  md:text-4xl  lg:text-5xl">{title}</h2>
+        <p class="text-secondary-800  md:mb-8">{stripHtml(description).result}</p>
+        <div class="flex  flex-wrap  items-center  space-x-4  text-sm  text-center  text-secondary-800  md:mb-8">
           {for_2 &&
             <div class="flex  items-center  space-x-2">
               <Icon class="text-primary-600" name="stopwatch" /> <span>{for_2} mins</span>
@@ -83,11 +81,6 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
               <span class="flex  items-center">{per_portion.energy_kcal.toLocaleString()}kcal</span>
             </div>
           }
-          {isValidRating(rating) &&
-            <div class="flex  items-center  space-x-2" title={`From ${rating.count.toLocaleString()} ratings`}>
-              <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
-            </div>
-          }
           {cuisine &&
             <a class="flex  group  items-center  space-x-2" href={`/recipes/cuisine/${createSlug(cuisine)}/`}>
               <Icon class="text-primary-600" name="globe" /> <span class="transition  group-hover:text-primary-600  group-hover:underline">{cuisine}</span>
@@ -96,13 +89,39 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
         </div>
         <div class="print:hidden">
           <a
-            class="animate-pulse  bg-tertiary-600  flex  flex-col  font-medium  items-center  px-6  py-3  rounded-lg  text-white  transition  hover:animate-none  hover:bg-tertiary-800"
-            href="/signup"
+            class="animate-pulse  bg-tertiary-600  flex  flex-col  font-normal  items-center  px-6  py-3  rounded-lg  text-white  transition  hover:animate-none  hover:bg-tertiary-800"
+            href="/signup/"
           >
             <span class="text-xl">Try Gousto now</span>
-            <span class="font-medium  opacity-90  text-md">Get 65% off your first box</span>
+            <span class="opacity-90">Get 65% off your first box</span>
           </a>
         </div>
+      </div>
+      <div class="col-span-1  relative  md:col-span-5  lg:col-span-6  print:col-span-4">
+        <picture>
+          <source
+            srcset={`
+              ${useRemoteImageUrl(image, "h=500&output=webp&w=500")},
+              ${useRemoteImageUrl(image, "h=1000&output=webp&w=1000")} 2x
+            `}
+            type="image/webp"
+          />
+          <img
+            alt={title}
+            class="h-auto  rounded-lg  w-full"
+            decoding="async"
+            height={500}
+            loading="lazy"
+            src={useRemoteImageUrl(image, "h=500&w=500")}
+            srcset={`${useRemoteImageUrl(image, "h=1000&w=1000")} 2x`}
+            width={500}
+          />
+        </picture>
+        {isValidRating(rating) &&
+          <div class="absolute  bg-white/90  end-3  flex  items-center  px-3  py-2  rounded-lg  space-x-2  text-base  top-3" title={`From ${rating.count.toLocaleString()} ratings`}>
+            <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
+          </div>
+        }
       </div>
     </div>
     <div class="border-b  border-secondary-100  gap-4  grid  grid-cols-1  mb-8  pb-8  md:gap-8  md:grid-cols-12  print:grid-cols-1  print:text-sm">
@@ -111,10 +130,10 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
           <Ingredients basics={basics} ingredients={ingredients} portion_sizes={portion_sizes} />
           <a
             class="animate-pulse  bg-tertiary-600  hidden  flex-col  font-medium  items-center  mt-8  px-6  py-3  rounded-lg  text-white  transition  md:flex  hover:animate-none  hover:bg-tertiary-800  print:hidden"
-            href="/signup"
+            href="/signup/"
           >
             <span class="text-xl">Try Gousto now</span>
-            <span class="font-medium  opacity-90  text-md">Get 65% off your first box</span>
+            <span class="font-medium  opacity-90">Get 65% off your first box</span>
           </a>
         </div>
       </div>
@@ -149,12 +168,31 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
                 </div>
                 <div class={`${(i < (cooking_instructions.length - 1)) ? `border-b  border-secondary-100  mb-8  pb-8  ` : ``}space-x-8  w-full  lg:flex  print:flex`}>
                   <div
-                    class={`max-w-none  ${image ? `mb-8  ` : ``}prose  w-full  md:prose-md  lg:mb-0  print:prose-sm`}
+                    class={`max-w-none  ${image ? `mb-8  ` : ``}prose  w-full  lg:mb-0  print:prose-sm`}
                     set:html={instruction}
                   />
                   {image &&
                     <div class="w-full  lg:w-1/3  print:w-1/4">
-                      <img alt={`Step ${order}`} class="w-full" height={375} src={useRemoteImageUrl(image)} width={500} />
+                      <picture>
+                        <source
+                          srcset={`
+                            ${useRemoteImageUrl(image, "h=225&output=webp&w=300")},
+                            ${useRemoteImageUrl(image, "h=450&output=webp&w=600")} 2x
+                          `}
+                          type="image/webp"
+                        />
+                        <img
+                          alt={`Step ${order}`}
+                          class="rounded-lg  w-full"
+                          decoding="async"
+                          height={225}
+                          loading="lazy"
+                          src={useRemoteImageUrl(image, "h=225&w=300")}
+                          srcset={`${useRemoteImageUrl(image, "h=450&w=600")} 2x`}
+                          width={300}
+                        />
+                      </picture>
+
                     </div>
                   }
                 </div>
