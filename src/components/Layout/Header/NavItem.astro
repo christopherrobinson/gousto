@@ -1,19 +1,14 @@
 ---
-export interface NavItemProps {
-  href: string;
-}
+import { type NavItemProps } from '@/types/NavItem';
 
-const { href } = Astro.props;
+const { href } = Astro.props as NavItemProps;
 const { pathname } = Astro.url;
-const isActive = href === pathname || href === `/${pathname.split('/')[1]}/`;
+const isActive = (href === pathname) || (href === `/${pathname.split('/')[1]}/`);
 ---
 
 <li class="px-2">
   <a
-    class={`
-      block  p-2  text-zinc-800  transition
-      ${(isActive && 'underline') || 'hover:underline'}
-    `}
+    class={`block  p-2  text-zinc-800  transition  ${isActive && 'underline' || 'hover:underline'}`}
     href={href}
   >
     <slot />

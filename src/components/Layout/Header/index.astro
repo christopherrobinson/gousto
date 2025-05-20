@@ -22,13 +22,12 @@ import PercentageScrolled from '@/components/Layout/Header/PercentageScrolled.as
           id="openNavigation"
           type="button"
         >
-          <Icon class="shrink-0  size-4" name="bars" />
+          <Icon class="shrink-0 size-4" name="bars" />
         </button>
       </div>
       <div class="hidden  -mr-4  sm:block">
         <ul class="flex  items-center  lowercase  text-sm">
-          <NavItem href="/about/">About</NavItem>
-          <NavItem href="/recipes/">Recipes</NavItem>
+          {navItems.slice(1).map((item) => <NavItem href={item.href}>{item.label}</NavItem> )}
         </ul>
       </div>
     </div>
@@ -41,30 +40,27 @@ import PercentageScrolled from '@/components/Layout/Header/PercentageScrolled.as
 >
 </div>
 <div
-  class="bg-white  border-l   border-zinc-200  bottom-0  fixed  flex  min-h-svh  position  pt-[58px]  -right-80  top-0  transition-all  w-80  z-20  sm:hidden"
+  class="bg-white  border-l  border-zinc-200  bottom-0  fixed  flex  min-h-svh  position  pt-[58px]  -right-80  top-0  transition-all  w-80  z-20  sm:hidden"
   id="navigation"
 >
-    <button
-      aria-label="Close navigation"
-      class="absolute  flex  items-center  justify-center  mr-2  mt-3  p-2  right-0  size-8  top-[2px]"
-      id="closeNavigation"
-      type="button"
-    >
-      <Icon class="shrink-0  size-4" name="x" />
-    </button>
-    <ul class="border-t  border-zinc-200  text-base  w-full">
-      <NavItemMobile href="/">Home</NavItemMobile>
-      <NavItemMobile href="/about/">About</NavItemMobile>
-      <NavItemMobile href="/recipes/">Recipes</NavItemMobile>
-    </ul>
+  <button
+    aria-label="Close navigation"
+    class="absolute  flex  items-center  justify-center  mr-2  mt-3  p-2  right-0  size-8  top-[2px]"
+    id="closeNavigation"
+    type="button"
+  >
+    <Icon class="shrink-0  size-4" name="x" />
+  </button>
+  <ul class="border-t  border-zinc-200  text-base  w-full">
+    {navItems.map((item) => <NavItemMobile href={item.href}>{item.label}</NavItemMobile> )}
+  </ul>
 </div>
 
 <script>
   document.addEventListener('astro:page-load', () => {
-
-    const navigation            = document.getElementById('navigation');
-    const navigationOverlay     = document.getElementById('navigationOverlay');
-    const openNavigationButton  = document.getElementById('openNavigation');
+    const navigation = document.getElementById('navigation');
+    const navigationOverlay = document.getElementById('navigationOverlay');
+    const openNavigationButton = document.getElementById('openNavigation');
     const closeNavigationButton = document.getElementById('closeNavigation');
 
     openNavigationButton?.addEventListener('click', () => {
@@ -80,6 +76,5 @@ import PercentageScrolled from '@/components/Layout/Header/PercentageScrolled.as
       navigationOverlay?.classList.add('hidden', 'opacity-0');
       navigationOverlay?.classList.remove('block', 'opacity-100');
     });
-
   });
 </script>
