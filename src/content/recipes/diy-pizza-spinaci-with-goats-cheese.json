@@ -19,6 +19,44 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "Garlic clove",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
+      "label": "Soft goats' cheese (75g)",
+      "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
+      "allergens": [
+        "milk"
+      ],
+      "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
+    },
+    {
+      "label": "Onion marmalade (40g)",
+      "gousto_uuid": "9366f231-1a90-466f-b292-1a237e15ddaf",
+      "allergens": [],
+      "image": "/images/ingredients/9366f231-1a90-466f-b292-1a237e15ddaf.jpg"
+    },
+    {
+      "label": "Tomato paste (32g)",
+      "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+      "allergens": [],
+      "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+    },
+    {
+      "label": "Tomato paste (16g) x0",
+      "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+      "allergens": [],
+      "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+    },
+    {
+      "label": "Spinach (80g)",
+      "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
+      "allergens": [],
+      "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
+    },
+    {
       "label": "Pizza base mix (250g)",
       "gousto_uuid": "9fc89ec3-0083-4ac2-a1fa-50386b5c4b48",
       "allergens": [
@@ -33,28 +71,16 @@
       "image": "/images/ingredients/593fed37-5b94-41af-8c40-e119b0007075.jpg"
     },
     {
-      "label": "Onion marmalade (40g)",
-      "gousto_uuid": "9366f231-1a90-466f-b292-1a237e15ddaf",
-      "allergens": [],
-      "image": "/images/ingredients/9366f231-1a90-466f-b292-1a237e15ddaf.jpg"
-    },
-    {
       "label": "Onion marmalade (20g) x0",
       "gousto_uuid": "0bf6cb32-c4d0-4201-8304-8133bfe8164a",
       "allergens": [],
       "image": "/images/ingredients/0bf6cb32-c4d0-4201-8304-8133bfe8164a.jpg"
     },
     {
-      "label": "Tomato paste (16g) x0",
-      "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+      "label": "Basil (5g)",
+      "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
       "allergens": [],
-      "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-    },
-    {
-      "label": "Tomato paste (32g)",
-      "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-      "allergens": [],
-      "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+      "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
     },
     {
       "label": "Mozzarella (125g)",
@@ -65,36 +91,10 @@
       "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
     },
     {
-      "label": "Basil (5g)",
-      "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
-      "allergens": [],
-      "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
-    },
-    {
-      "label": "Soft goats' cheese (75g)",
-      "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
-      "allergens": [
-        "milk"
-      ],
-      "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
-    },
-    {
-      "label": "Garlic clove",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
       "label": "Rocket (50g)",
       "gousto_uuid": "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
       "allergens": [],
       "image": "/images/ingredients/aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276.jpg"
-    },
-    {
-      "label": "Spinach (80g)",
-      "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
-      "allergens": [],
-      "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
     },
     {
       "label": "Balsamic vinegar (15ml)",
@@ -115,12 +115,12 @@
   ],
   "cooking_instructions": [
     {
-      "instruction": "<p>Preheat the oven to 240ºC/ 220ºC (fan)/ gas 9</p><p>Put a large baking tray[s] in the oven to heat up (this will stop the pizza bottoms from going soggy!)</p><p>Add your <strong>dried</strong> <strong>yeast</strong> to a large bowl with 100ml <span class=\"text-purple\">[150ml]</span> <span class=\"text-danger\">[200ml] </span><strong>warm water</strong> and 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar</strong></p><p>Give it a good mix up and set aside for 5-10 min for the yeast to develop</p>",
+      "instruction": "<p>Preheat the oven to 240ºC/ 220ºC (fan)/ gas 9</p><p>Put a large baking tray[s] in the oven to heat up (this will stop the pizza bottoms from going soggy!)</p><p>Add your <strong>dried</strong> <strong>yeast</strong> to a large bowl with 100ml <span class=\"text-purple\">[150ml]</span> <span class=\"text-danger\">[200ml] </span><strong>warm water</strong> and 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar</strong></p><p>Give it a good mix up and set aside for 5-10 min for the yeast to develop</p>",
       "order": 1,
       "image": "/images/instructions/diy-pizza-spinaci-with-goats-cheese/step-1.jpg"
     },
     {
-      "instruction": "<p>Meanwhile, boil a full kettle</p><p>Peel and finely chop (or grate) your <strong>garlic </strong>then add to a bowl with your <strong>tomato paste</strong> and a generous pinch of <strong>salt</strong>, <strong>pepper</strong> and <strong>sugar</strong></p><p>Add 4 tbsp <span class=\"text-purple\">[6 tbsp]</span> <span class=\"text-danger\">[8 tbsp] </span><strong>cold water</strong> and stir it all together – this is your <strong>tomato sauce</strong></p><p>Drain your <strong>mozzarella</strong>, then pat it dry with kitchen paper and tear into bite-sized pieces</p>",
+      "instruction": "<p>Meanwhile, boil a full kettle</p><p>Peel and finely chop (or grate) your <strong>garlic </strong>then add to a bowl with your <strong>tomato paste</strong> and a generous pinch of <strong>salt</strong>, <strong>pepper</strong> and <strong>sugar</strong></p><p>Add 4 tbsp <span class=\"text-purple\">[6 tbsp]</span> <span class=\"text-danger\">[8 tbsp] </span><strong>cold water</strong> and stir it all together – this is your <strong>tomato sauce</strong></p><p>Drain your <strong>mozzarella</strong>, then pat it dry with kitchen paper and tear into bite-sized pieces</p>",
       "order": 2,
       "image": "/images/instructions/diy-pizza-spinaci-with-goats-cheese/step-2.jpg"
     },
@@ -130,17 +130,17 @@
       "image": "/images/instructions/diy-pizza-spinaci-with-goats-cheese/step-3.jpg"
     },
     {
-      "instruction": "<p>Add your <strong>pizza base mix</strong><span class=\"text-danger\"> </span>to the bowl with the yeast</p><p>Gradually add up to 75ml <span class=\"text-purple\">[110ml]</span> <span class=\"text-danger\">[150ml]</span> <strong>warm water </strong>(you may not need all of it), a little at a time, and gently mix with a plastic spatula until a sticky dough ball has formed</p><p>Tip the <strong>dough ball</strong> out onto a<strong> floured </strong>work surface and cut into<span class=\"text-danger\"> </span>dough balls, 1 per person</p><p>Toss each <strong>dough ball</strong> in a light dusting of <strong>flour </strong>until coated, rounding the ball as you go (no need to knead!)</p>",
+      "instruction": "<p>Add your <strong>pizza base mix</strong><span class=\"text-danger\"> </span>to the bowl with the yeast</p><p>Gradually add up to 75ml <span class=\"text-purple\">[110ml]</span> <span class=\"text-danger\">[150ml]</span> <strong>warm water </strong>(you may not need all of it), a little at a time, and gently mix with a plastic spatula until a sticky dough ball has formed</p><p>Tip the <strong>dough ball</strong> out onto a<strong> floured </strong>work surface and cut into<span class=\"text-danger\"> </span>dough balls, 1 per person</p><p>Toss each <strong>dough ball</strong> in a light dusting of <strong>flour </strong>until coated, rounding the ball as you go (no need to knead!)</p>",
       "order": 4,
       "image": "/images/instructions/diy-pizza-spinaci-with-goats-cheese/step-4.jpg"
     },
     {
-      "instruction": "<p>Press each dough ball<strong> </strong>in the centre and gently push outwards with your fingertips, leaving the rim of the pizza untouched to form a <strong>crust </strong>(don't worry if the dough rips, just stick it back together and carry on!)</p><p>Tip: Dust with extra sprinkles of flour as you go to stop it sticking!</p><p>Keep going until your base is slightly smaller than a side plate (you will make them bigger in the pan!) – these are your <strong>pizza bases</strong></p><p>Heat a large, dry, non-stick, wide-based pan[s] over a high heat</p>",
+      "instruction": "<p>Press each dough ball<strong> </strong>in the centre and gently push outwards with your fingertips, leaving the rim of the pizza untouched to form a <strong>crust </strong>(don't worry if the dough rips, just stick it back together and carry on!)</p><p>Tip: Dust with extra sprinkles of flour as you go to stop it sticking!</p><p>Keep going until your base is slightly smaller than a side plate (you will make them bigger in the pan!) – these are your <strong>pizza bases</strong></p><p>Heat a large, dry, non-stick, wide-based pan[s] over a high heat</p>",
       "order": 5,
       "image": "/images/instructions/diy-pizza-spinaci-with-goats-cheese/step-5.jpg"
     },
     {
-      "instruction": "<p>Once hot, carefully add the <strong>pizza base[s]<span class=\"text-danger\"> </span></strong>to the pan[s], pushing the dough out to the edge to help shape the crust</p><p>Tip: To pick up the pizza dough, gently flip it over the back of your hand to stop it ripping!</p><p>Divide the<strong> tomato sauce </strong>evenly between each pizza and spread it evenly with the back of a spoon (be careful of the hot pan!)</p><p>Cook the pizza base[s] for 3-4 min or until the crust has started to puff up, then remove the heated tray[s] from the oven and slide the pizza base[s]<strong> </strong>onto the tray</p>",
+      "instruction": "<p>Once hot, carefully add the <strong>pizza base[s]<span class=\"text-danger\"> </span></strong>to the pan[s], pushing the dough out to the edge to help shape the crust</p><p>Tip: To pick up the pizza dough, gently flip it over the back of your hand to stop it ripping!</p><p>Divide the<strong> tomato sauce </strong>evenly between each pizza and spread it evenly with the back of a spoon (be careful of the hot pan!)</p><p>Cook the pizza base[s] for 3-4 min or until the crust has started to puff up, then remove the heated tray[s] from the oven and slide the pizza base[s]<strong> </strong>onto the tray</p>",
       "order": 6,
       "image": "/images/instructions/diy-pizza-spinaci-with-goats-cheese/step-6.jpg"
     },
@@ -161,27 +161,27 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 221,
-      "energy_kj": 932,
-      "fat_mg": 6526,
-      "fat_saturates_mg": 3925,
-      "carbs_mg": 31747,
-      "carbs_sugars_mg": 4401,
-      "fibre_mg": 1887,
-      "protein_mg": 10624,
-      "salt_mg": 647,
+      "energy_kcal": 220,
+      "energy_kj": 927,
+      "fat_mg": 6416,
+      "fat_saturates_mg": 4047,
+      "carbs_mg": 31583,
+      "carbs_sugars_mg": 4248,
+      "fibre_mg": 1781,
+      "protein_mg": 10734,
+      "salt_mg": 649,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 758,
-      "energy_kj": 3195,
-      "fat_mg": 22353,
-      "fat_saturates_mg": 13444,
-      "carbs_mg": 108736,
-      "carbs_sugars_mg": 15075,
-      "fibre_mg": 6465,
-      "protein_mg": 36389,
-      "salt_mg": 2219,
+      "energy_kcal": 754,
+      "energy_kj": 3176,
+      "fat_mg": 21978,
+      "fat_saturates_mg": 13864,
+      "carbs_mg": 108173,
+      "carbs_sugars_mg": 14550,
+      "fibre_mg": 6100,
+      "protein_mg": 36764,
+      "salt_mg": 2223,
       "net_weight_mg": 342500
     }
   },

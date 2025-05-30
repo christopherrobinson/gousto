@@ -7,7 +7,7 @@
   "gousto_id": "4499",
   "rating": {
     "average": 4.5,
-    "count": 4318
+    "count": 4604
   },
   "description": "Give your stew a Cajun-style kick. You'll simmer basa and pepper in a rich, smoky and spicy tomato sauce, before serving over fluffy steamed rice. Under 600 calories.",
   "prep_times": {
@@ -16,6 +16,12 @@
   },
   "cuisine": "American",
   "ingredients": [
+    {
+      "label": "Green pepper",
+      "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+      "allergens": [],
+      "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
+    },
     {
       "label": "Ground coriander (2tsp)",
       "gousto_uuid": "fabcebd0-0595-4c07-9a82-e4093d86be85",
@@ -77,10 +83,10 @@
       "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
     },
     {
-      "label": "Green pepper",
-      "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+      "label": "Intense vegetable stock mix (5.5g)",
+      "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
       "allergens": [],
-      "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
+      "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
     },
     {
       "label": "Brown onion",
@@ -127,12 +133,6 @@
       "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
     },
     {
-      "label": "Vegetable stock mix (11g)",
-      "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-      "allergens": [],
-      "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
-    },
-    {
       "label": "Dried oregano (1tsp)",
       "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
       "allergens": [],
@@ -143,6 +143,14 @@
       "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
       "allergens": [],
       "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
+    },
+    {
+      "label": "Basa fillet x0",
+      "gousto_uuid": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+      "allergens": [
+        "fish"
+      ],
+      "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
     }
   ],
   "basics": [
@@ -198,28 +206,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 111,
-      "energy_kj": 472,
-      "fat_mg": 1059,
-      "fat_saturates_mg": 201,
-      "carbs_mg": 17441,
-      "carbs_sugars_mg": 2541,
-      "fibre_mg": 1995,
-      "protein_mg": 7781,
+      "energy_kcal": 110,
+      "energy_kj": 466,
+      "fat_mg": 1067,
+      "fat_saturates_mg": 203,
+      "carbs_mg": 17018,
+      "carbs_sugars_mg": 2502,
+      "fibre_mg": 2007,
+      "protein_mg": 7725,
       "salt_mg": 392,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 416,
-      "energy_kj": 1762,
+      "energy_kcal": 408,
+      "energy_kj": 1727,
       "fat_mg": 3951,
       "fat_saturates_mg": 753,
-      "carbs_mg": 65058,
-      "carbs_sugars_mg": 9480,
-      "fibre_mg": 7442,
-      "protein_mg": 29026,
-      "salt_mg": 1465,
-      "net_weight_mg": 373000
+      "carbs_mg": 63012,
+      "carbs_sugars_mg": 9266,
+      "fibre_mg": 7431,
+      "protein_mg": 28605,
+      "salt_mg": 1454,
+      "net_weight_mg": 370250
     }
   },
   "portion_sizes": [
@@ -228,8 +236,8 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-          "code": "IQ-10-MPF-SE-33",
+          "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+          "code": "IQ-10-MPF-SE-62",
           "quantities": {
             "in_box": 1
           }
@@ -395,15 +403,15 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
           "quantities": {
             "in_box": 1
           }
@@ -422,10 +430,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+          "code": "IQ-10-MPF-SE-62",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
           "code": "IQ-10-MPF-SE-33",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -492,8 +507,8 @@
           }
         },
         {
-          "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-          "code": "I-08-SAU-PS-36",
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
           "quantities": {
             "in_box": 1
           }
@@ -506,15 +521,15 @@
           }
         },
         {
-          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
-          "code": "I-06-SML-SC-26",
+          "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+          "code": "I-08-SAU-PS-36",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
+          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
+          "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
           }
@@ -610,15 +625,15 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
           "quantities": {
             "in_box": 2
           }
         },
         {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
           "quantities": {
             "in_box": 2
           }
@@ -637,10 +652,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
+          "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+          "code": "IQ-10-MPF-SE-62",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
           "code": "IQ-10-MPF-SE-33",
           "quantities": {
-            "in_box": 3
+            "in_box": 2
           }
         },
         {
@@ -714,10 +736,10 @@
           }
         },
         {
-          "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-          "code": "I-08-SAU-PS-36",
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
           "quantities": {
-            "in_box": 1
+            "in_box": 2
           }
         },
         {
@@ -728,17 +750,17 @@
           }
         },
         {
-          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
-          "code": "I-06-SML-SC-26",
+          "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+          "code": "I-08-SAU-PS-36",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
+          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
+          "code": "I-06-SML-SC-26",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {

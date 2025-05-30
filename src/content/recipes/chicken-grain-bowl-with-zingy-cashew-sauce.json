@@ -17,19 +17,37 @@
   "cuisine": "Fusion",
   "ingredients": [
     {
-      "label": "0 British chicken breast portion",
+      "label": "Garlic clove",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
+      "label": "British chicken breast portions (2pcs)",
+      "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+      "allergens": [],
+      "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
+    },
+    {
+      "label": "British chicken breast portion x0",
       "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
       "allergens": [],
       "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
     },
     {
-      "label": "5.5g chicken stock mix",
-      "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+      "label": "Spinach (80g)",
+      "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
       "allergens": [],
-      "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+      "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
     },
     {
-      "label": "0 bulgur wheat",
+      "label": "Coriander & mint (10g)",
+      "gousto_uuid": "40769a3c-952b-492d-85af-b568ada4dd95",
+      "allergens": [],
+      "image": "/images/ingredients/40769a3c-952b-492d-85af-b568ada4dd95.jpg"
+    },
+    {
+      "label": "Bulgur wheat (65g) x0",
       "gousto_uuid": "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
       "allergens": [
         "gluten"
@@ -37,39 +55,7 @@
       "image": "/images/ingredients/a5e865dc-cff2-45cc-8d3b-4f95023cb408.jpg"
     },
     {
-      "label": "2 British chicken breast portions",
-      "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-      "allergens": [],
-      "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
-    },
-    {
-      "label": "160g blanched peas",
-      "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-      "allergens": [],
-      "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
-    },
-    {
-      "label": "130g bulgur wheat",
-      "gousto_uuid": "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
-      "allergens": [
-        "gluten"
-      ],
-      "image": "/images/ingredients/6e605a3f-32b0-4c8a-9b3c-43dddd595d6f.jpg"
-    },
-    {
-      "label": "80g spinach",
-      "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
-      "allergens": [],
-      "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
-    },
-    {
-      "label": "10g coriander & mint",
-      "gousto_uuid": "40769a3c-952b-492d-85af-b568ada4dd95",
-      "allergens": [],
-      "image": "/images/ingredients/40769a3c-952b-492d-85af-b568ada4dd95.jpg"
-    },
-    {
-      "label": "25g cashew nuts",
+      "label": "Cashew nuts (25g)",
       "gousto_uuid": "51c13827-189d-4d40-af7f-5b58f68054bd",
       "allergens": [
         "nut",
@@ -79,16 +65,30 @@
       "image": "/images/ingredients/51c13827-189d-4d40-af7f-5b58f68054bd.jpg"
     },
     {
-      "label": "1 garlic clove",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "label": "Chicken stock mix (5.5g)",
+      "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
       "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+      "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
     },
     {
-      "label": "1 lime",
+      "label": "Blanched peas (160g)",
+      "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
+      "allergens": [],
+      "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
+    },
+    {
+      "label": "Lime",
       "gousto_uuid": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
       "allergens": [],
       "image": "/images/ingredients/8cc1a219-f516-495d-9d3a-506bd62ae79f.jpg"
+    },
+    {
+      "label": "Bulgur wheat (130g)",
+      "gousto_uuid": "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
+      "allergens": [
+        "gluten"
+      ],
+      "image": "/images/ingredients/6e605a3f-32b0-4c8a-9b3c-43dddd595d6f.jpg"
     }
   ],
   "basics": [
@@ -148,26 +148,26 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 133,
-      "energy_kj": 566,
-      "fat_mg": 2524,
-      "fat_saturates_mg": 485,
-      "carbs_mg": 16749,
-      "carbs_sugars_mg": 2022,
-      "fibre_mg": 2456,
-      "protein_mg": 12019,
-      "salt_mg": 206,
+      "energy_kj": 567,
+      "fat_mg": 2526,
+      "fat_saturates_mg": 487,
+      "carbs_mg": 16741,
+      "carbs_sugars_mg": 1709,
+      "fibre_mg": 2497,
+      "protein_mg": 12027,
+      "salt_mg": 207,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 513,
-      "energy_kj": 2173,
-      "fat_mg": 9674,
-      "fat_saturates_mg": 1861,
-      "carbs_mg": 64191,
-      "carbs_sugars_mg": 7752,
-      "fibre_mg": 9416,
-      "protein_mg": 46064,
-      "salt_mg": 791,
+      "energy_kj": 2174,
+      "fat_mg": 9681,
+      "fat_saturates_mg": 1870,
+      "carbs_mg": 64163,
+      "carbs_sugars_mg": 6552,
+      "fibre_mg": 9572,
+      "protein_mg": 46096,
+      "salt_mg": 795,
       "net_weight_mg": 383250
     }
   },
@@ -176,13 +176,6 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
-        {
-          "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-          "code": "I-10-MPF-PO-57",
-          "quantities": {
-            "in_box": 1
-          }
-        },
         {
           "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
           "code": "IQ-05-FVG-PD-13-01",
@@ -200,6 +193,13 @@
         {
           "id": "51c13827-189d-4d40-af7f-5b58f68054bd",
           "code": "I-04-NUT-NT-02-30",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+          "code": "I-10-MPF-PO-57",
           "quantities": {
             "in_box": 1
           }
@@ -246,13 +246,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-          "code": "I-10-MPF-PO-45",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
           "code": "IQ-05-FVG-PD-13-01",
           "quantities": {
@@ -269,6 +262,13 @@
         {
           "id": "51c13827-189d-4d40-af7f-5b58f68054bd",
           "code": "I-04-NUT-NT-02-30",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+          "code": "I-10-MPF-PO-45",
           "quantities": {
             "in_box": 1
           }
@@ -315,20 +315,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-          "code": "I-10-MPF-PO-57",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-          "code": "I-10-MPF-PO-45",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
           "code": "IQ-05-FVG-PD-13-01",
           "quantities": {
@@ -357,6 +343,20 @@
           }
         },
         {
+          "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+          "code": "I-10-MPF-PO-57",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+          "code": "I-10-MPF-PO-45",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "dec1c16e-4785-40e7-b689-69721141bad6",
           "code": "I-06-SML-SC-22",
           "quantities": {
@@ -381,7 +381,7 @@
           "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
           "code": "I-05-FVG-FV-11",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -398,13 +398,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-          "code": "I-10-MPF-PO-45",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
           "code": "IQ-05-FVG-PD-13-01",
           "quantities": {
@@ -426,6 +419,13 @@
           }
         },
         {
+          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+          "code": "I-10-MPF-PO-45",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "dec1c16e-4785-40e7-b689-69721141bad6",
           "code": "I-06-SML-SC-22",
           "quantities": {
@@ -436,7 +436,7 @@
           "id": "40769a3c-952b-492d-85af-b568ada4dd95",
           "code": "I-07-HBS-PL-50",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -450,7 +450,7 @@
           "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
           "code": "I-05-FVG-FV-11",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -466,20 +466,6 @@
       "portions": 5,
       "is_offered": true,
       "ingredients_skus": [
-        {
-          "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-          "code": "I-10-MPF-PO-57",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-          "code": "I-10-MPF-PO-45",
-          "quantities": {
-            "in_box": 2
-          }
-        },
         {
           "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
           "code": "IQ-05-FVG-PD-13-01",
@@ -509,6 +495,20 @@
           }
         },
         {
+          "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+          "code": "I-10-MPF-PO-57",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+          "code": "I-10-MPF-PO-45",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "dec1c16e-4785-40e7-b689-69721141bad6",
           "code": "I-06-SML-SC-22",
           "quantities": {
@@ -533,7 +533,7 @@
           "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
           "code": "I-05-FVG-FV-11",
           "quantities": {
-            "in_box": 3
+            "in_box": 2
           }
         },
         {

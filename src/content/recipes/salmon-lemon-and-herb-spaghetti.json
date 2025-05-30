@@ -19,6 +19,26 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "Skin on salmon fillets (2pcs)",
+      "gousto_uuid": "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+      "allergens": [
+        "fish"
+      ],
+      "image": "/images/ingredients/ad9a92c9-f5b3-49ce-a582-be130ba3908b.jpg"
+    },
+    {
+      "label": "Dill (5g)",
+      "gousto_uuid": "39feab41-f280-4381-b1da-2e182aec599f",
+      "allergens": [],
+      "image": "/images/ingredients/39feab41-f280-4381-b1da-2e182aec599f.jpg"
+    },
+    {
+      "label": "Lemon",
+      "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
+      "allergens": [],
+      "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
+    },
+    {
       "label": "Quick cook spaghetti (160g)",
       "gousto_uuid": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
       "allergens": [
@@ -26,14 +46,6 @@
         "gluten"
       ],
       "image": "/images/ingredients/20d7f9a4-2be1-4161-90a7-04f2b8af56a3.jpg"
-    },
-    {
-      "label": "Skin on salmon fillets (2pcs)",
-      "gousto_uuid": "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
-      "allergens": [
-        "fish"
-      ],
-      "image": "/images/ingredients/ad9a92c9-f5b3-49ce-a582-be130ba3908b.jpg"
     },
     {
       "label": "Skin on salmon fillet x0",
@@ -56,12 +68,6 @@
       "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
     },
     {
-      "label": "Dill & chive (10g)",
-      "gousto_uuid": "170a30fc-bf70-4864-9d94-0f1eb5e4daab",
-      "allergens": [],
-      "image": "/images/ingredients/170a30fc-bf70-4864-9d94-0f1eb5e4daab.jpg"
-    },
-    {
       "label": "Grated Italian hard cheese (30g)",
       "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
       "allergens": [
@@ -82,12 +88,6 @@
         "milk"
       ],
       "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-    },
-    {
-      "label": "Lemon",
-      "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
-      "allergens": [],
-      "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
     }
   ],
   "basics": [
@@ -103,7 +103,7 @@
       "image": "/images/instructions/salmon-lemon-and-herb-spaghetti/step-1.jpg"
     },
     {
-      "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a generous drizzle of <strong>vegetable oil </strong>over a medium-high heat</p><p>Once the pan is hot, add your<strong> salmon fillet[s]</strong> with a generous pinch of <strong>salt</strong> and<strong> pepper</strong> and cook for 3-4 min on each side or until starting to colour</p>",
+      "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a generous drizzle of <strong>vegetable oil </strong>over a medium-high heat</p><p>Once the pan is hot, add your<strong> salmon fillet[s]</strong> with a generous pinch of <strong>salt</strong> and<strong> pepper</strong> and cook for 3-4 min on each side or until starting to colour</p>",
       "order": 2,
       "image": "/images/instructions/salmon-lemon-and-herb-spaghetti/step-2.jpg"
     },
@@ -118,22 +118,22 @@
       "image": "/images/instructions/salmon-lemon-and-herb-spaghetti/step-4.jpg"
     },
     {
-      "instruction": "<p>Once the salmon is starting to colour, add your <strong>roasted garlic paste</strong> and the juice<strong> </strong>of your<strong> lemon[s]</strong> (watch out for any pips!) and cook for 3-4 min further on each side or until the salmon is cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p>",
+      "instruction": "<p>Once the salmon is starting to colour, add your <strong>roasted garlic paste</strong> and the juice<strong> </strong>of your<strong> lemon[s]</strong> (watch out for any pips!) and cook for 3-4 min further on each side or until the salmon is cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p>",
       "order": 5,
       "image": "/images/instructions/salmon-lemon-and-herb-spaghetti/step-5.jpg"
     },
     {
-      "instruction": "<p>Once the salmon is cooked through, peel off and discard the skin and then flake the<strong> cooked salmon</strong> into bite-sized pieces in the pan</p><p>Chop your <strong>dill &</strong> <strong>chives </strong>roughly</p>",
+      "instruction": "<p>Once the salmon is cooked through, peel off and discard the skin and then flake the<strong> cooked salmon</strong> into bite-sized pieces in the pan</p><p>Chop your <strong>dill </strong>roughly</p>",
       "order": 6,
       "image": "/images/instructions/salmon-lemon-and-herb-spaghetti/step-6.jpg"
     },
     {
-      "instruction": "<p>Add the <strong>vegetable stock</strong> and <strong>clotted cream </strong>to the flaked salmon and gently stir it all together</p><p>Add the<strong> drained spaghetti & spinach</strong> and give everything a good mix up until the pasta is fully coated in the sauce</p><p>Season with a generous pinch of <strong>black pepper </strong>– this is your<strong> salmon & lemon spaghetti</strong></p><p>Tip: Add a splash of the reserved starchy pasta water if it's looking a little dry</p>",
+      "instruction": "<p>Add the <strong>vegetable stock</strong> and <strong>clotted cream </strong>to the flaked salmon and gently stir it all together</p><p>Add the<strong> drained spaghetti </strong>and<strong> spinach</strong> and give everything a good mix up until the pasta is fully coated in the sauce</p><p>Season with a generous pinch of <strong>black pepper </strong>– this is your<strong> salmon & lemon spaghetti</strong></p><p>Tip: Add a splash of the reserved starchy pasta water if it's looking a little dry</p>",
       "order": 7,
       "image": "/images/instructions/salmon-lemon-and-herb-spaghetti/step-7.jpg"
     },
     {
-      "instruction": "<p>To serve, top the <strong>salmon & lemon spaghetti </strong>with the<strong> chopped dill & chives </strong>– this is your <strong>salmon, lemon & herb spaghetti</strong></p><p>Garnish with your <strong>grated Italian hard cheese </strong>and a grind of <strong>black pepper</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>To serve, top the <strong>salmon & lemon spaghetti </strong>with the<strong> chopped dill </strong>– this is your <strong>salmon, lemon & herb spaghetti</strong></p><p>Garnish with your <strong>grated Italian hard cheese </strong>and a grind of <strong>black pepper</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -145,28 +145,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 222,
-      "energy_kj": 931,
-      "fat_mg": 11260,
-      "fat_saturates_mg": 5451,
-      "carbs_mg": 18528,
-      "carbs_sugars_mg": 1378,
-      "fibre_mg": 410,
-      "protein_mg": 11518,
-      "salt_mg": 359,
+      "energy_kcal": 225,
+      "energy_kj": 944,
+      "fat_mg": 11253,
+      "fat_saturates_mg": 4600,
+      "carbs_mg": 18867,
+      "carbs_sugars_mg": 1587,
+      "fibre_mg": 433,
+      "protein_mg": 11826,
+      "salt_mg": 355,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 735,
-      "energy_kj": 3077,
-      "fat_mg": 37189,
-      "fat_saturates_mg": 18002,
-      "carbs_mg": 61192,
-      "carbs_sugars_mg": 4554,
-      "fibre_mg": 1357,
-      "protein_mg": 38041,
-      "salt_mg": 1187,
-      "net_weight_mg": 330250
+      "energy_kcal": 739,
+      "energy_kj": 3096,
+      "fat_mg": 36884,
+      "fat_saturates_mg": 15079,
+      "carbs_mg": 61839,
+      "carbs_sugars_mg": 5202,
+      "fibre_mg": 1420,
+      "protein_mg": 38761,
+      "salt_mg": 1165,
+      "net_weight_mg": 327750
     }
   },
   "portion_sizes": [
@@ -182,8 +182,8 @@
           }
         },
         {
-          "id": "170a30fc-bf70-4864-9d94-0f1eb5e4daab",
-          "code": "I-07-HBS-PL-48",
+          "id": "39feab41-f280-4381-b1da-2e182aec599f",
+          "code": "I-07-HBS-PL-1505",
           "quantities": {
             "in_box": 1
           }
@@ -251,8 +251,8 @@
           }
         },
         {
-          "id": "170a30fc-bf70-4864-9d94-0f1eb5e4daab",
-          "code": "I-07-HBS-PL-48",
+          "id": "39feab41-f280-4381-b1da-2e182aec599f",
+          "code": "I-07-HBS-PL-1505",
           "quantities": {
             "in_box": 1
           }
@@ -320,8 +320,8 @@
           }
         },
         {
-          "id": "170a30fc-bf70-4864-9d94-0f1eb5e4daab",
-          "code": "I-07-HBS-PL-48",
+          "id": "39feab41-f280-4381-b1da-2e182aec599f",
+          "code": "I-07-HBS-PL-1505",
           "quantities": {
             "in_box": 1
           }
@@ -396,8 +396,8 @@
           }
         },
         {
-          "id": "170a30fc-bf70-4864-9d94-0f1eb5e4daab",
-          "code": "I-07-HBS-PL-48",
+          "id": "39feab41-f280-4381-b1da-2e182aec599f",
+          "code": "I-07-HBS-PL-1505",
           "quantities": {
             "in_box": 2
           }
@@ -465,8 +465,8 @@
           }
         },
         {
-          "id": "170a30fc-bf70-4864-9d94-0f1eb5e4daab",
-          "code": "I-07-HBS-PL-48",
+          "id": "39feab41-f280-4381-b1da-2e182aec599f",
+          "code": "I-07-HBS-PL-1505",
           "quantities": {
             "in_box": 2
           }

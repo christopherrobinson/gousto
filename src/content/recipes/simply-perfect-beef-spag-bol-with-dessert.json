@@ -13,6 +13,15 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "Spaghetti (190g)",
+      "gousto_uuid": "8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc",
+      "allergens": [
+        "egg",
+        "gluten"
+      ],
+      "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
+    },
+    {
       "label": "Beef mince (125g) x0",
       "gousto_uuid": "918d5383-38a6-45c2-8c96-8f91a945e964",
       "allergens": [],
@@ -59,6 +68,15 @@
       "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
     },
     {
+      "label": "Soy sauce (15ml) x1",
+      "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+    },
+    {
       "label": "Tomato paste (32g) x0",
       "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
       "allergens": [],
@@ -103,15 +121,6 @@
       "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
     },
     {
-      "label": "Spaghetti (190g)",
-      "gousto_uuid": "8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc",
-      "allergens": [
-        "egg",
-        "gluten"
-      ],
-      "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
-    },
-    {
       "label": "Carrot",
       "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
       "allergens": [],
@@ -122,15 +131,6 @@
       "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
       "allergens": [],
       "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
-    },
-    {
-      "label": "Soy sauce (8ml)",
-      "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
     }
   ],
   "basics": [
@@ -191,26 +191,26 @@
     "per_hundred_grams": {
       "energy_kcal": 187,
       "energy_kj": 787,
-      "fat_mg": 8138,
-      "fat_saturates_mg": 3969,
-      "carbs_mg": 19488,
-      "carbs_sugars_mg": 4429,
-      "fibre_mg": 1610,
-      "protein_mg": 8963,
-      "salt_mg": 455,
+      "fat_mg": 8142,
+      "fat_saturates_mg": 3971,
+      "carbs_mg": 19503,
+      "carbs_sugars_mg": 4433,
+      "fibre_mg": 1611,
+      "protein_mg": 8982,
+      "salt_mg": 471,
       "net_weight_mg": 100000
     },
     "per_portion": {
       "energy_kcal": 928,
-      "energy_kj": 3890,
+      "energy_kj": 3891,
       "fat_mg": 40223,
       "fat_saturates_mg": 19621,
-      "carbs_mg": 96323,
-      "carbs_sugars_mg": 21891,
+      "carbs_mg": 96346,
+      "carbs_sugars_mg": 21900,
       "fibre_mg": 7959,
-      "protein_mg": 44304,
-      "salt_mg": 2252,
-      "net_weight_mg": 494250
+      "protein_mg": 44373,
+      "salt_mg": 2331,
+      "net_weight_mg": 494000
     }
   },
   "portion_sizes": [
@@ -296,8 +296,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -400,8 +400,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -518,10 +518,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -622,10 +622,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -747,10 +747,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 3
+            "in_box": 2
           }
         },
         {
