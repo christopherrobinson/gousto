@@ -7,7 +7,7 @@
   "gousto_id": "5321",
   "rating": {
     "average": 5,
-    "count": 4648
+    "count": 4701
   },
   "description": "Transport your taste buds to China with these char siu pork bao buns. Legend has it these moreish mouthfuls have been a national favourite since the third century. One bite and you'll see why.",
   "prep_times": {
@@ -56,10 +56,19 @@
       "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
     },
     {
-      "label": "Sambal oelek (20g)",
-      "gousto_uuid": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
+      "label": "Soy sauce (15ml) x1",
+      "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+    },
+    {
+      "label": "Sriracha hot chilli sauce (8ml)",
+      "gousto_uuid": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
       "allergens": [],
-      "image": "/images/ingredients/8544cfa6-69b5-4789-a3a3-125f7c3459f5.jpg"
+      "image": "/images/ingredients/34ad5b48-6f2b-402b-8699-1237fb821ae2.jpg"
     },
     {
       "label": "Carrot, mooli & pink cabbage slaw mix (160g)",
@@ -100,15 +109,6 @@
       "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
       "allergens": [],
       "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
-    },
-    {
-      "label": "Soy sauce (8ml)",
-      "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
     },
     {
       "label": "Hoisin sauce (20g)",
@@ -159,7 +159,7 @@
       "image": "/images/instructions/char-siu-style-pork-bao-buns-mooli-slaw-and-loaded-fries/step-4.jpg"
     },
     {
-      "instruction": "<p>Combine your <strong>sambal </strong>(can't handle the heat? Go easy!) and <strong>mayo</strong> in a small bowl – this is your <strong>sambal mayo</strong></p><p>Pick your <strong>coriander </strong>from the<strong> </strong>stalks, discard the stalks</p>",
+      "instruction": "<p>Combine your <strong>sriracha </strong>(can't handle the heat? Go easy!) and <strong>mayo</strong> in a small bowl – this is your <strong>sriracha mayo</strong></p><p>Pick your <strong>coriander </strong>from the<strong> </strong>stalks, discard the stalks</p>",
       "order": 5,
       "image": "/images/instructions/char-siu-style-pork-bao-buns-mooli-slaw-and-loaded-fries/step-5.jpg"
     },
@@ -169,12 +169,12 @@
       "image": "/images/instructions/char-siu-style-pork-bao-buns-mooli-slaw-and-loaded-fries/step-6.jpg"
     },
     {
-      "instruction": "<p>Once cooked, carefully slice the <strong>char siu pork</strong> into 3 strips per person</p><p>Pierce your <strong>bao bun packet[s]</strong> with a few holes and <strong>microwave</strong> for 1-2 min</p><p>To build your buns, fill each <strong>bao bun</strong> with the <strong>sliced char siu pork</strong> and top with some of the <strong>quick-pickled mooli slaw</strong></p><p>Drizzle over a little of the <strong>sambal mayo</strong> and garnish with<strong> half</strong> of your <strong>crispy onions </strong>and <strong>coriander </strong>(save the rest for later!)<strong> </strong>– these are your <strong>char siu-style pork bao buns</strong></p>",
+      "instruction": "<p>Once cooked, carefully slice the <strong>char siu pork</strong> into 3 strips per person</p><p>Pierce your <strong>bao bun packet[s]</strong> with a few holes and <strong>microwave</strong> for 1-2 min</p><p>To build your buns, fill each <strong>bao bun</strong> with the <strong>sliced char siu pork</strong> and top with some of the <strong>quick-pickled mooli slaw</strong></p><p>Drizzle over a little of the <strong>sriracha mayo</strong> and garnish with<strong> half</strong> of your <strong>crispy onions </strong>and <strong>coriander </strong>(save the rest for later!)<strong> </strong>– these are your <strong>char siu-style pork bao buns</strong></p>",
       "order": 7,
       "image": "/images/instructions/char-siu-style-pork-bao-buns-mooli-slaw-and-loaded-fries/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>char siu-style pork bao buns </strong>with the <strong>fries </strong>and <strong>remaining quick-pickled mooli slaw </strong>to the side</p><p>Load up the<strong> </strong>fries<strong> </strong>with<strong> </strong>any<strong> remaining sambal mayo</strong>, <strong>crispy</strong> <strong>onions</strong> and <strong>coriander</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>char siu-style pork bao buns </strong>with the <strong>fries </strong>and <strong>remaining quick-pickled mooli slaw </strong>to the side</p><p>Load up the<strong> </strong>fries<strong> </strong>with<strong> </strong>any<strong> remaining sriracha mayo</strong>, <strong>crispy</strong> <strong>onions</strong> and <strong>coriander</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -188,27 +188,27 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 170,
-      "energy_kj": 718,
-      "fat_mg": 6381,
-      "fat_saturates_mg": 1588,
-      "carbs_mg": 20775,
-      "carbs_sugars_mg": 4231,
-      "fibre_mg": 1989,
-      "protein_mg": 8112,
-      "salt_mg": 439,
+      "energy_kj": 716,
+      "fat_mg": 6303,
+      "fat_saturates_mg": 1594,
+      "carbs_mg": 20781,
+      "carbs_sugars_mg": 4155,
+      "fibre_mg": 1988,
+      "protein_mg": 8193,
+      "salt_mg": 446,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 956,
-      "energy_kj": 4021,
-      "fat_mg": 35736,
-      "fat_saturates_mg": 8895,
-      "carbs_mg": 116341,
-      "carbs_sugars_mg": 23694,
-      "fibre_mg": 11140,
-      "protein_mg": 45430,
-      "salt_mg": 2461,
-      "net_weight_mg": 560000
+      "energy_kcal": 943,
+      "energy_kj": 3967,
+      "fat_mg": 34903,
+      "fat_saturates_mg": 8830,
+      "carbs_mg": 115078,
+      "carbs_sugars_mg": 23010,
+      "fibre_mg": 11014,
+      "protein_mg": 45371,
+      "salt_mg": 2470,
+      "net_weight_mg": 553750
     }
   },
   "portion_sizes": [
@@ -294,15 +294,15 @@
           }
         },
         {
-          "id": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
-          "code": "I-08-SAU-PS-82",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
+          "code": "I-06-SML-OT-34",
           "quantities": {
             "in_box": 1
           }
@@ -398,15 +398,15 @@
           }
         },
         {
-          "id": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
-          "code": "I-08-SAU-PS-82",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
+          "code": "I-06-SML-OT-34",
           "quantities": {
             "in_box": 1
           }
@@ -425,15 +425,15 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "28488d86-b289-4b36-b789-a2cf79fd8513",
-          "code": "I-10-MPF-PM-74",
+          "id": "eb1115a3-f429-4258-8477-08a9b363ffae",
+          "code": "I-10-MPF-PM-54",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "eb1115a3-f429-4258-8477-08a9b363ffae",
-          "code": "I-10-MPF-PM-54",
+          "id": "28488d86-b289-4b36-b789-a2cf79fd8513",
+          "code": "I-10-MPF-PM-74",
           "quantities": {
             "in_box": 1
           }
@@ -509,15 +509,15 @@
           }
         },
         {
-          "id": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
-          "code": "I-08-SAU-PS-82",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
+          "code": "I-06-SML-OT-34",
           "quantities": {
             "in_box": 2
           }
@@ -613,15 +613,15 @@
           }
         },
         {
-          "id": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
-          "code": "I-08-SAU-PS-82",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
+          "code": "I-06-SML-OT-34",
           "quantities": {
             "in_box": 2
           }
@@ -640,17 +640,17 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "28488d86-b289-4b36-b789-a2cf79fd8513",
-          "code": "I-10-MPF-PM-74",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "eb1115a3-f429-4258-8477-08a9b363ffae",
           "code": "I-10-MPF-PM-54",
           "quantities": {
             "in_box": 2
+          }
+        },
+        {
+          "id": "28488d86-b289-4b36-b789-a2cf79fd8513",
+          "code": "I-10-MPF-PM-74",
+          "quantities": {
+            "in_box": 1
           }
         },
         {
@@ -724,15 +724,15 @@
           }
         },
         {
-          "id": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
-          "code": "I-08-SAU-PS-82",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 3
+            "in_box": 2
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
+          "code": "I-06-SML-OT-34",
           "quantities": {
             "in_box": 3
           }

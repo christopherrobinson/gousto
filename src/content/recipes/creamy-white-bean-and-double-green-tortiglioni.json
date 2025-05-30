@@ -17,6 +17,16 @@
   "cuisine": "Italian",
   "ingredients": [
     {
+      "label": "Pumpkin seeds (15g) x0",
+      "gousto_uuid": "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
+      "allergens": [
+        "nut",
+        "peanut",
+        "sesame"
+      ],
+      "image": "/images/ingredients/8d49d7fe-1c65-4022-aae9-32fe3bb6df3a.jpg"
+    },
+    {
       "label": "Tenderstem broccoli (80g)",
       "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
       "allergens": [],
@@ -45,16 +55,6 @@
       "image": "/images/ingredients/98b9f72c-1fbb-407a-876d-1505460b6ab4.jpg"
     },
     {
-      "label": "Pumpkin seeds (15g) x0",
-      "gousto_uuid": "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
-      "allergens": [
-        "nut",
-        "peanut",
-        "sesame"
-      ],
-      "image": "/images/ingredients/8d49d7fe-1c65-4022-aae9-32fe3bb6df3a.jpg"
-    },
-    {
       "label": "Intense vegetable stock mix (5.5g)",
       "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
       "allergens": [],
@@ -79,12 +79,20 @@
       "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
     },
     {
-      "label": "Tortiglioni (75g) x0",
-      "gousto_uuid": "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
+      "label": "Wholewheat tortiglioni (150g)",
+      "gousto_uuid": "fe4fbea9-1dc8-476c-abad-e649b51eec21",
       "allergens": [
         "gluten"
       ],
-      "image": "/images/ingredients/8bd9259e-a6bc-4df5-a4a3-b630a19469b9.jpg"
+      "image": "/images/ingredients/fe4fbea9-1dc8-476c-abad-e649b51eec21.jpg"
+    },
+    {
+      "label": "Wholewheat tortiglioni (75g) x0",
+      "gousto_uuid": "e9248f5d-efd8-49f5-b050-9357e36f5fc7",
+      "allergens": [
+        "gluten"
+      ],
+      "image": "/images/ingredients/e9248f5d-efd8-49f5-b050-9357e36f5fc7.jpg"
     },
     {
       "label": "Grated Italian hard cheese (30g)",
@@ -101,14 +109,6 @@
         "milk"
       ],
       "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
-    },
-    {
-      "label": "Tortiglioni (150g)",
-      "gousto_uuid": "99d1eeed-7b6f-404a-9393-64101debcba7",
-      "allergens": [
-        "gluten"
-      ],
-      "image": "/images/ingredients/99d1eeed-7b6f-404a-9393-64101debcba7.jpg"
     }
   ],
   "basics": [
@@ -168,26 +168,26 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 156,
-      "energy_kj": 658,
-      "fat_mg": 5557,
-      "fat_saturates_mg": 2398,
-      "carbs_mg": 19932,
-      "carbs_sugars_mg": 1761,
-      "fibre_mg": 2955,
-      "protein_mg": 7086,
+      "energy_kcal": 153,
+      "energy_kj": 645,
+      "fat_mg": 5746,
+      "fat_saturates_mg": 2434,
+      "carbs_mg": 18406,
+      "carbs_sugars_mg": 2137,
+      "fibre_mg": 3875,
+      "protein_mg": 7358,
       "salt_mg": 491,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 561,
-      "energy_kj": 2361,
-      "fat_mg": 19939,
-      "fat_saturates_mg": 8604,
-      "carbs_mg": 71508,
-      "carbs_sugars_mg": 6318,
-      "fibre_mg": 10602,
-      "protein_mg": 25423,
+      "energy_kcal": 550,
+      "energy_kj": 2316,
+      "fat_mg": 20614,
+      "fat_saturates_mg": 8732,
+      "carbs_mg": 66033,
+      "carbs_sugars_mg": 7668,
+      "fibre_mg": 13902,
+      "protein_mg": 26398,
       "salt_mg": 1764,
       "net_weight_mg": 358750
     }
@@ -254,15 +254,15 @@
           }
         },
         {
-          "id": "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
-          "code": "IQ-03-GRN-PA-20-03",
+          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
+          "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
-          "code": "I-06-SML-SC-26",
+          "id": "e9248f5d-efd8-49f5-b050-9357e36f5fc7",
+          "code": "IQ-03-GRN-PA-38-03",
           "quantities": {
             "in_box": 1
           }
@@ -337,8 +337,8 @@
           }
         },
         {
-          "id": "99d1eeed-7b6f-404a-9393-64101debcba7",
-          "code": "IQ-03-GRN-PA-20-01",
+          "id": "fe4fbea9-1dc8-476c-abad-e649b51eec21",
+          "code": "IQ-03-GRN-PA-38-01",
           "quantities": {
             "in_box": 1
           }
@@ -413,22 +413,22 @@
           }
         },
         {
-          "id": "99d1eeed-7b6f-404a-9393-64101debcba7",
-          "code": "IQ-03-GRN-PA-20-01",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
-          "code": "IQ-03-GRN-PA-20-03",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "fe4fbea9-1dc8-476c-abad-e649b51eec21",
+          "code": "IQ-03-GRN-PA-38-01",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "e9248f5d-efd8-49f5-b050-9357e36f5fc7",
+          "code": "IQ-03-GRN-PA-38-03",
           "quantities": {
             "in_box": 1
           }
@@ -503,8 +503,8 @@
           }
         },
         {
-          "id": "99d1eeed-7b6f-404a-9393-64101debcba7",
-          "code": "IQ-03-GRN-PA-20-01",
+          "id": "fe4fbea9-1dc8-476c-abad-e649b51eec21",
+          "code": "IQ-03-GRN-PA-38-01",
           "quantities": {
             "in_box": 2
           }
@@ -579,22 +579,22 @@
           }
         },
         {
-          "id": "99d1eeed-7b6f-404a-9393-64101debcba7",
-          "code": "IQ-03-GRN-PA-20-01",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
-          "code": "IQ-03-GRN-PA-20-03",
+          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
+          "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "166bfad3-d300-465d-b61c-fef4d2965904",
-          "code": "I-06-SML-SC-26",
+          "id": "fe4fbea9-1dc8-476c-abad-e649b51eec21",
+          "code": "IQ-03-GRN-PA-38-01",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "e9248f5d-efd8-49f5-b050-9357e36f5fc7",
+          "code": "IQ-03-GRN-PA-38-03",
           "quantities": {
             "in_box": 1
           }

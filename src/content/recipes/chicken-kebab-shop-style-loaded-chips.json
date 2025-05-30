@@ -17,6 +17,12 @@
   "cuisine": "British",
   "ingredients": [
     {
+      "label": "Curry powder (2tbsp) x0",
+      "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+      "allergens": [],
+      "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+    },
+    {
       "label": "Mayonnaise (25ml)",
       "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
       "allergens": [
@@ -36,6 +42,15 @@
       "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
       "allergens": [],
       "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+    },
+    {
+      "label": "Mayonnaise (50ml) x0",
+      "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+      "allergens": [
+        "egg",
+        "mustard"
+      ],
+      "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
     },
     {
       "label": "Tomato ketchup (15ml) x0",
@@ -86,12 +101,6 @@
       "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
       "allergens": [],
       "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-    },
-    {
-      "label": "Curry powder (2tbsp) x0",
-      "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
-      "allergens": [],
-      "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
     },
     {
       "label": "Curry powder (1tbsp)",
@@ -167,7 +176,7 @@
       "image": "/images/instructions/chicken-kebab-shop-style-loaded-chips/step-7.jpg"
     },
     {
-      "instruction": "<p>Serve the <strong>kebab shop-style chicken </strong>over the <strong>cheesy chips</strong></p><p>Top with the <strong>shredded lettuce</strong>,<strong> chopped tomato</strong> and <strong>quick-pickled shallot</strong></p><p>Garnish with a drizzle of <strong>garlic mayo</strong> and <strong>ketchup</strong></p><p>Enjoy!</p>",
+      "instruction": "<p>Serve the <strong>kebab shop-style chicken </strong>over the <strong>cheesy chips</strong></p><p>Top with the <strong>shredded lettuce</strong>,<strong> chopped tomato</strong> and <strong>quick-pickled shallot</strong></p><p>Garnish with a drizzle of <strong>garlic mayo</strong> and <strong>tomato</strong> <strong>ketchup</strong></p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -444,10 +453,10 @@
           }
         },
         {
-          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-          "code": "I-06-SML-OT-36",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -541,10 +550,10 @@
           }
         },
         {
-          "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-          "code": "I-06-SML-OT-36",
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -652,10 +661,17 @@
           }
         },
         {
+          "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+          "code": "I-06-SML-OT-37",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
           "code": "I-06-SML-OT-36",
           "quantities": {
-            "in_box": 3
+            "in_box": 1
           }
         },
         {

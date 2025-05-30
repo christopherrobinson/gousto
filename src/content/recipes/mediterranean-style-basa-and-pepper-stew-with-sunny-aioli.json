@@ -11,7 +11,7 @@
   "gousto_id": "407",
   "rating": {
     "average": 4.5,
-    "count": 17734
+    "count": 17831
   },
   "description": "Head to the Med for this sumptuous stew, with perfectly-poached basa in a tomato and pepper sauce. Serve with a dollop of sunny aioli and warm ciabatta for dipping. 3 or more of your 5/day.",
   "prep_times": {
@@ -20,6 +20,12 @@
   },
   "cuisine": "Mediterranean",
   "ingredients": [
+    {
+      "label": "Yellow pepper",
+      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+      "allergens": [],
+      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+    },
     {
       "label": "Ground turmeric (0.5tsp) x0",
       "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
@@ -86,12 +92,6 @@
       "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
     },
     {
-      "label": "Yellow pepper",
-      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
-      "allergens": [],
-      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
-    },
-    {
       "label": "White wine vinegar (15ml)",
       "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
       "allergens": [],
@@ -108,14 +108,6 @@
       "gousto_uuid": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
       "allergens": [],
       "image": "/images/ingredients/44c1fcff-fadf-4b69-9d80-3d0b0baa38a2.jpg"
-    },
-    {
-      "label": "Basa fillet x0",
-      "gousto_uuid": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
-      "allergens": [
-        "fish"
-      ],
-      "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
     },
     {
       "label": "Ciabatta x2",
@@ -231,8 +223,8 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
-          "code": "IQ-10-MPF-SE-62",
+          "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+          "code": "IQ-10-MPF-SE-33",
           "quantities": {
             "in_box": 1
           }
@@ -425,17 +417,10 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
-          "code": "IQ-10-MPF-SE-62",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
           "code": "IQ-10-MPF-SE-33",
           "quantities": {
-            "in_box": 1
+            "in_box": 2
           }
         },
         {
@@ -502,15 +487,15 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+          "code": "I-08-SAU-PS-36",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-          "code": "I-08-SAU-PS-36",
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
           "quantities": {
             "in_box": 1
           }
@@ -640,17 +625,10 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
-          "code": "IQ-10-MPF-SE-62",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
           "code": "IQ-10-MPF-SE-33",
           "quantities": {
-            "in_box": 2
+            "in_box": 3
           }
         },
         {
@@ -724,17 +702,17 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
           "code": "I-08-SAU-PS-36",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 2
           }
         },
         {

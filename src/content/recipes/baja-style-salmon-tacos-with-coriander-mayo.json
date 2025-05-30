@@ -7,7 +7,7 @@
   "gousto_id": "3529",
   "rating": {
     "average": 4.5,
-    "count": 906
+    "count": 907
   },
   "description": "For these tasty tacos, you'll coat tender salmon fillets in spices before crisping them up in a pan. Once golden, layer them in warm tortillas with sweet roasted pepper and a tangy coriander mayo. ",
   "prep_times": {
@@ -16,6 +16,20 @@
   },
   "cuisine": "Mexican",
   "ingredients": [
+    {
+      "label": "Skin on salmon fillets (2pcs)",
+      "gousto_uuid": "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+      "allergens": [
+        "fish"
+      ],
+      "image": "/images/ingredients/ad9a92c9-f5b3-49ce-a582-be130ba3908b.jpg"
+    },
+    {
+      "label": "Red pepper",
+      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+      "allergens": [],
+      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+    },
     {
       "label": "Ground cumin (1tsp)",
       "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
@@ -59,12 +73,13 @@
       "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
     },
     {
-      "label": "Skin on salmon fillets (2pcs)",
-      "gousto_uuid": "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+      "label": "Soy sauce (15ml) x1",
+      "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
       "allergens": [
-        "fish"
+        "gluten",
+        "soya"
       ],
-      "image": "/images/ingredients/ad9a92c9-f5b3-49ce-a582-be130ba3908b.jpg"
+      "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
     },
     {
       "label": "Skin on salmon fillet x0",
@@ -73,12 +88,6 @@
         "fish"
       ],
       "image": "/images/ingredients/5d6b3f91-55f6-429e-b7cf-004b74520249.jpg"
-    },
-    {
-      "label": "Red pepper",
-      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-      "allergens": [],
-      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
     },
     {
       "label": "White wine vinegar (15ml)",
@@ -123,15 +132,6 @@
       "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
       "allergens": [],
       "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
-    },
-    {
-      "label": "Soy sauce (8ml)",
-      "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
     }
   ],
   "basics": [
@@ -192,26 +192,26 @@
     "per_hundred_grams": {
       "energy_kcal": 203,
       "energy_kj": 849,
-      "fat_mg": 10923,
-      "fat_saturates_mg": 2681,
-      "carbs_mg": 18506,
-      "carbs_sugars_mg": 2317,
-      "fibre_mg": 1674,
-      "protein_mg": 7845,
-      "salt_mg": 346,
+      "fat_mg": 10825,
+      "fat_saturates_mg": 1976,
+      "carbs_mg": 18496,
+      "carbs_sugars_mg": 2294,
+      "fibre_mg": 1675,
+      "protein_mg": 7970,
+      "salt_mg": 360,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 855,
-      "energy_kj": 3574,
-      "fat_mg": 45960,
-      "fat_saturates_mg": 11281,
-      "carbs_mg": 77865,
-      "carbs_sugars_mg": 9751,
+      "energy_kcal": 854,
+      "energy_kj": 3572,
+      "fat_mg": 45520,
+      "fat_saturates_mg": 8311,
+      "carbs_mg": 77778,
+      "carbs_sugars_mg": 9650,
       "fibre_mg": 7045,
-      "protein_mg": 33009,
-      "salt_mg": 1457,
-      "net_weight_mg": 420750
+      "protein_mg": 33518,
+      "salt_mg": 1514,
+      "net_weight_mg": 420500
     }
   },
   "portion_sizes": [
@@ -297,8 +297,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -394,8 +394,8 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
             "in_box": 1
           }
@@ -505,10 +505,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -602,10 +602,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -720,10 +720,10 @@
           }
         },
         {
-          "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-          "code": "I-06-SML-OT-05",
+          "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+          "code": "I-06-SML-OT-14",
           "quantities": {
-            "in_box": 3
+            "in_box": 2
           }
         },
         {

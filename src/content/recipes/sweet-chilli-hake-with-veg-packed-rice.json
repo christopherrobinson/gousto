@@ -17,10 +17,52 @@
   "cuisine": "Fusion",
   "ingredients": [
     {
+      "label": "White long grain rice (130g)",
+      "gousto_uuid": "49bc207f-e86c-4423-a7c1-86dc4718abc8",
+      "allergens": [],
+      "image": "/images/ingredients/49bc207f-e86c-4423-a7c1-86dc4718abc8.jpg"
+    },
+    {
+      "label": "Garlic clove",
+      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+      "allergens": [],
+      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+    },
+    {
+      "label": "Spring onion",
+      "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+      "allergens": [],
+      "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+    },
+    {
+      "label": "Soy sauce (15ml) x0",
+      "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+    },
+    {
+      "label": "Soy sauce (30ml)",
+      "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+      "allergens": [
+        "gluten",
+        "soya"
+      ],
+      "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+    },
+    {
       "label": "Maple syrup (15g)",
       "gousto_uuid": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
       "allergens": [],
       "image": "/images/ingredients/4c9e6ef0-9a83-4fe4-a792-0019ba935c0b.jpg"
+    },
+    {
+      "label": "White long grain rice (65g) x0",
+      "gousto_uuid": "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
+      "allergens": [],
+      "image": "/images/ingredients/3f8dd8e4-5658-4df8-9433-41aa47c6ff03.jpg"
     },
     {
       "label": "Red chilli relish (40g)",
@@ -33,18 +75,6 @@
       "gousto_uuid": "1dd3a011-a8dd-4804-b092-51da7f9c2f8d",
       "allergens": [],
       "image": "/images/ingredients/1dd3a011-a8dd-4804-b092-51da7f9c2f8d.jpg"
-    },
-    {
-      "label": "Spring onion",
-      "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-      "allergens": [],
-      "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-    },
-    {
-      "label": "White long grain rice (130g)",
-      "gousto_uuid": "49bc207f-e86c-4423-a7c1-86dc4718abc8",
-      "allergens": [],
-      "image": "/images/ingredients/49bc207f-e86c-4423-a7c1-86dc4718abc8.jpg"
     },
     {
       "label": "Hake fillets (2pcs)",
@@ -61,37 +91,16 @@
       "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
     },
     {
-      "label": "White long grain rice (65g) x0",
-      "gousto_uuid": "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
-      "allergens": [],
-      "image": "/images/ingredients/3f8dd8e4-5658-4df8-9433-41aa47c6ff03.jpg"
-    },
-    {
       "label": "Blanched peas (160g)",
       "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
       "allergens": [],
       "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
     },
     {
-      "label": "Garlic clove",
-      "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-      "allergens": [],
-      "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
       "label": "Carrot x2",
       "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
       "allergens": [],
       "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-    },
-    {
-      "label": "Soy sauce (30ml)",
-      "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
     },
     {
       "label": "Toasted sesame seeds (5g)",
@@ -105,15 +114,6 @@
         "soya"
       ],
       "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
-    },
-    {
-      "label": "Soy sauce (15ml) x0",
-      "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-      "allergens": [
-        "gluten",
-        "soya"
-      ],
-      "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
     }
   ],
   "basics": [
@@ -137,7 +137,7 @@
       "image": "/images/instructions/sweet-chilli-hake-with-veg-packed-rice/step-3.jpg"
     },
     {
-      "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the<strong> coated hake pieces </strong>to the pan and cook for 3-4 min on each side or until crispy and cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p><p>While the fish is cooking, combine your <strong>maple syrup</strong>, <strong>red chilli relish </strong>and 30ml <span class=\"text-purple\">[45ml]</span> <span class=\"text-danger\">[60ml]</span> <strong>cold water </strong>in a small bowl<strong> </strong>– this is your <strong>sweet chilli sauce</strong></p>",
+      "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the<strong> coated hake pieces </strong>to the pan and cook for 3-4 min on each side or until crispy and cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p><p>While the fish is cooking, combine your <strong>maple syrup</strong>, <strong>red chilli relish </strong>and 30ml <span class=\"text-purple\">[45ml]</span> <span class=\"text-danger\">[60ml]</span> <strong>cold water </strong>in a small bowl<strong> </strong>– this is your <strong>sweet chilli sauce</strong></p>",
       "order": 4,
       "image": "/images/instructions/sweet-chilli-hake-with-veg-packed-rice/step-4.jpg"
     },
@@ -173,26 +173,26 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 133,
-      "energy_kj": 564,
-      "fat_mg": 1285,
-      "fat_saturates_mg": 215,
-      "carbs_mg": 23358,
-      "carbs_sugars_mg": 6785,
-      "fibre_mg": 2461,
-      "protein_mg": 7380,
-      "salt_mg": 623,
+      "energy_kj": 566,
+      "fat_mg": 1278,
+      "fat_saturates_mg": 214,
+      "carbs_mg": 23482,
+      "carbs_sugars_mg": 6866,
+      "fibre_mg": 2473,
+      "protein_mg": 7426,
+      "salt_mg": 713,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 533,
-      "energy_kj": 2263,
-      "fat_mg": 5150,
-      "fat_saturates_mg": 864,
-      "carbs_mg": 93610,
-      "carbs_sugars_mg": 27194,
-      "fibre_mg": 9865,
-      "protein_mg": 29576,
-      "salt_mg": 2499,
+      "energy_kcal": 535,
+      "energy_kj": 2271,
+      "fat_mg": 5125,
+      "fat_saturates_mg": 859,
+      "carbs_mg": 94105,
+      "carbs_sugars_mg": 27519,
+      "fibre_mg": 9913,
+      "protein_mg": 29761,
+      "salt_mg": 2860,
       "net_weight_mg": 400750
     }
   },

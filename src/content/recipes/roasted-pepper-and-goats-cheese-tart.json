@@ -19,6 +19,26 @@
   "cuisine": "Mediterranean",
   "ingredients": [
     {
+      "label": "Red pepper",
+      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+      "allergens": [],
+      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+    },
+    {
+      "label": "Yellow pepper",
+      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+      "allergens": [],
+      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+    },
+    {
+      "label": "Soft goats' cheese (75g)",
+      "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
+      "allergens": [
+        "milk"
+      ],
+      "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
+    },
+    {
       "label": "Puff pastry (160g)",
       "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
       "allergens": [
@@ -33,30 +53,10 @@
       "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
     },
     {
-      "label": "Soft goats' cheese (75g)",
-      "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
-      "allergens": [
-        "milk"
-      ],
-      "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
-    },
-    {
-      "label": "Yellow pepper",
-      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
-      "allergens": [],
-      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
-    },
-    {
       "label": "Rocket (20g)",
       "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
       "allergens": [],
       "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
-    },
-    {
-      "label": "Red pepper",
-      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-      "allergens": [],
-      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
     },
     {
       "label": "White potato x3",
@@ -88,7 +88,7 @@
       "image": "/images/instructions/roasted-pepper-and-goats-cheese-tart/step-3.jpg"
     },
     {
-      "instruction": "<p>Whilst the potatoes are cooking, unroll your <strong>puff pastry</strong> and cut it into 1 square per person</p><p>Transfer the <strong>pastry square[s]</strong> to a sheet of <strong>non-stick baking paper</strong> (the size of a baking tray)</p><p>Score a 1cm border around the edge of the pastry with a knife and prick the inside of the border all over with a fork (this will stop you getting a soggy bottom!)</p>",
+      "instruction": "<p>Whilst the potatoes are cooking, unroll your <strong>puff pastry</strong> and cut it into 1 square per person</p><p>Transfer the <strong>pastry square[s]</strong> to a sheet of <strong>non-stick baking paper</strong> (the size of a baking tray)</p><p>Score a 1cm border around the edge of the pastry with a knife and prick the inside of the border all over with a fork (this will stop you getting a soggy bottom!)</p>",
       "order": 4,
       "image": "/images/instructions/roasted-pepper-and-goats-cheese-tart/step-4.jpg"
     },
@@ -103,12 +103,12 @@
       "image": "/images/instructions/roasted-pepper-and-goats-cheese-tart/step-6.jpg"
     },
     {
-      "instruction": "<p>Whilst the roasted pepper tarts are cooking, combine your<strong> cider vinegar</strong> with 2 tbsp <span class=\"text-purple\">[3 tbsp] </span><span class=\"text-danger\">[4 tbsp]</span> <strong>olive oil</strong> and a pinch of<strong> salt</strong> and <strong>pepper</strong> in a bowl – this is your <strong>dressing</strong></p><p>Crumble your <strong>goats' cheese</strong> into small bite-sized pieces</p><p>Wash your <strong>salad</strong>, then pat it dry with kitchen paper</p>",
+      "instruction": "<p>Whilst the roasted pepper tarts are cooking, combine your<strong> cider vinegar</strong> with 2 tbsp <span class=\"text-purple\">[3 tbsp] </span><span class=\"text-danger\">[4 tbsp]</span> <strong>olive oil</strong> and a pinch of<strong> salt</strong> and <strong>pepper</strong> in a bowl – this is your <strong>dressing</strong></p><p>Crumble your <strong>goats' cheese</strong> into small bite-sized pieces</p><p>Wash your <strong>salad</strong>, then pat it dry with kitchen paper</p>",
       "order": 7,
       "image": "/images/instructions/roasted-pepper-and-goats-cheese-tart/step-7.jpg"
     },
     {
-      "instruction": "<p>Top the <strong>roasted pepper tarts</strong> with the<strong> crumbled goats' cheese</strong> and season them with <strong>black pepper</strong></p><p>Serve the <strong>roasted pepper & goats' cheese tarts</strong> with the <strong>crispy potatoes</strong> and a handful of <strong>salad</strong> to the side</p><p>Drizzle the <strong>dressing</strong> over the salad</p><p>Enjoy!</p>",
+      "instruction": "<p>Top the <strong>roasted pepper tarts</strong> with the<strong> crumbled goats' cheese</strong> and season them with <strong>black pepper</strong></p><p>Serve the <strong>roasted pepper & goats' cheese tarts</strong> with the <strong>crispy potatoes</strong> and a handful of <strong>salad</strong> to the side</p><p>Drizzle the <strong>dressing</strong> over the salad</p><p>Enjoy!</p>",
       "order": 8
     }
   ],
@@ -118,24 +118,24 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 132,
-      "energy_kj": 555,
+      "energy_kcal": 133,
+      "energy_kj": 557,
       "fat_mg": 6495,
       "fat_saturates_mg": 3468,
-      "carbs_mg": 15420,
-      "carbs_sugars_mg": 2114,
+      "carbs_mg": 15438,
+      "carbs_sugars_mg": 2132,
       "fibre_mg": 1721,
       "protein_mg": 3509,
       "salt_mg": 169,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 557,
-      "energy_kj": 2335,
+      "energy_kcal": 559,
+      "energy_kj": 2341,
       "fat_mg": 27280,
       "fat_saturates_mg": 14569,
-      "carbs_mg": 64765,
-      "carbs_sugars_mg": 8882,
+      "carbs_mg": 64840,
+      "carbs_sugars_mg": 8957,
       "fibre_mg": 7230,
       "protein_mg": 14740,
       "salt_mg": 711,

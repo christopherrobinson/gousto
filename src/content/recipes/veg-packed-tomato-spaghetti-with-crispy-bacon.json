@@ -7,7 +7,7 @@
   "gousto_id": "5351",
   "rating": {
     "average": 4.5,
-    "count": 1348
+    "count": 1349
   },
   "description": "Everything tastes better with bacon. You'll cook down onion, carrot and peppers in a herby tomato sauce till deliciously rich. Toss in your spaghetti and scatter with crispy bacon to serve. 3 or more of your 5/day.",
   "prep_times": {
@@ -16,6 +16,21 @@
   },
   "cuisine": "Italian",
   "ingredients": [
+    {
+      "label": "Spaghetti (190g)",
+      "gousto_uuid": "8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc",
+      "allergens": [
+        "egg",
+        "gluten"
+      ],
+      "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
+    },
+    {
+      "label": "Red pepper",
+      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+      "allergens": [],
+      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+    },
     {
       "label": "Smoked streaky bacon (90g)",
       "gousto_uuid": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
@@ -53,6 +68,12 @@
       "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
     },
     {
+      "label": "Finely chopped tomatoes (390g) x0",
+      "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+      "allergens": [],
+      "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
+    },
+    {
       "label": "Tomato paste (32g)",
       "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
       "allergens": [],
@@ -63,12 +84,6 @@
       "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
       "allergens": [],
       "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-    },
-    {
-      "label": "Red pepper",
-      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-      "allergens": [],
-      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
     },
     {
       "label": "Finely chopped tomatoes (200g)",
@@ -103,15 +118,6 @@
       "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
       "allergens": [],
       "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-    },
-    {
-      "label": "Spaghetti (190g)",
-      "gousto_uuid": "8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc",
-      "allergens": [
-        "egg",
-        "gluten"
-      ],
-      "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
     },
     {
       "label": "Carrot x2",
@@ -176,7 +182,7 @@
   "nutritional_information": {
     "per_hundred_grams": {
       "energy_kcal": 116,
-      "energy_kj": 491,
+      "energy_kj": 488,
       "fat_mg": 2635,
       "fat_saturates_mg": 862,
       "carbs_mg": 18230,
@@ -188,7 +194,7 @@
     },
     "per_portion": {
       "energy_kcal": 588,
-      "energy_kj": 2478,
+      "energy_kj": 2460,
       "fat_mg": 13275,
       "fat_saturates_mg": 4343,
       "carbs_mg": 91836,
@@ -420,10 +426,10 @@
           }
         },
         {
-          "id": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
-          "code": "I-01-CAN-VC-50",
+          "id": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+          "code": "I-01-CAN-VC-55",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -524,10 +530,10 @@
           }
         },
         {
-          "id": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
-          "code": "I-01-CAN-VC-50",
+          "id": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+          "code": "I-01-CAN-VC-55",
           "quantities": {
-            "in_box": 2
+            "in_box": 1
           }
         },
         {
@@ -621,10 +627,17 @@
           }
         },
         {
+          "id": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+          "code": "I-01-CAN-VC-55",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
           "code": "I-01-CAN-VC-50",
           "quantities": {
-            "in_box": 3
+            "in_box": 1
           }
         },
         {

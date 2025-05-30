@@ -17,7 +17,7 @@
   "gousto_id": "477",
   "rating": {
     "average": 4.5,
-    "count": 42913
+    "count": 43304
   },
   "description": "With just one pan, you'll fill your home with the sizzling aromas of a Spanish-style paella. For a dash of citrus, finish with a zingy lemon aioli to serve. Under 600 calories.",
   "prep_times": {
@@ -26,6 +26,12 @@
   },
   "cuisine": "Spanish",
   "ingredients": [
+    {
+      "label": "Red pepper",
+      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+      "allergens": [],
+      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+    },
     {
       "label": "Ground turmeric (0.5tsp) x0",
       "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
@@ -66,12 +72,6 @@
       "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
     },
     {
-      "label": "Intense vegetable stock mix (5.5g)",
-      "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
-      "allergens": [],
-      "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
-    },
-    {
       "label": "Brown onion",
       "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
       "allergens": [],
@@ -99,12 +99,6 @@
       "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
     },
     {
-      "label": "Red pepper",
-      "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-      "allergens": [],
-      "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-    },
-    {
       "label": "Raw peeled king prawns (85g) x0",
       "gousto_uuid": "a3a2f2db-208c-49ba-905d-b51885be42b3",
       "allergens": [
@@ -124,6 +118,12 @@
       "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
       "allergens": [],
       "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+    },
+    {
+      "label": "Vegetable stock mix (11g)",
+      "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+      "allergens": [],
+      "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
     },
     {
       "label": "Ground turmeric (1tsp)",
@@ -194,28 +194,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 133,
-      "energy_kj": 562,
-      "fat_mg": 3240,
-      "fat_saturates_mg": 316,
-      "carbs_mg": 20744,
-      "carbs_sugars_mg": 2840,
-      "fibre_mg": 1819,
-      "protein_mg": 5551,
-      "salt_mg": 615,
+      "energy_kcal": 135,
+      "energy_kj": 567,
+      "fat_mg": 3216,
+      "fat_saturates_mg": 313,
+      "carbs_mg": 21144,
+      "carbs_sugars_mg": 2877,
+      "fibre_mg": 1808,
+      "protein_mg": 5623,
+      "salt_mg": 613,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 490,
-      "energy_kj": 2056,
+      "energy_kcal": 498,
+      "energy_kj": 2091,
       "fat_mg": 11851,
       "fat_saturates_mg": 1157,
-      "carbs_mg": 75872,
-      "carbs_sugars_mg": 10388,
-      "fibre_mg": 6654,
-      "protein_mg": 20303,
-      "salt_mg": 2250,
-      "net_weight_mg": 365750
+      "carbs_mg": 77918,
+      "carbs_sugars_mg": 10602,
+      "fibre_mg": 6665,
+      "protein_mg": 20724,
+      "salt_mg": 2261,
+      "net_weight_mg": 368500
     }
   },
   "portion_sizes": [
@@ -349,13 +349,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "f1332ef7-7474-4870-9221-18f33aa57c7d",
           "code": "I-02-SVG-SF-03",
           "quantities": {
@@ -393,6 +386,13 @@
         {
           "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
           "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -439,13 +439,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "f1332ef7-7474-4870-9221-18f33aa57c7d",
           "code": "I-02-SVG-SF-03",
           "quantities": {
@@ -504,6 +497,13 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -550,13 +550,6 @@
           }
         },
         {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "f1332ef7-7474-4870-9221-18f33aa57c7d",
           "code": "I-02-SVG-SF-03",
           "quantities": {
@@ -594,6 +587,13 @@
         {
           "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
           "code": "I-08-SAU-PS-37",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 2
           }
@@ -635,13 +635,6 @@
         {
           "id": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
           "code": "I-06-SML-IN-20",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
-          "code": "I-06-SML-SC-34",
           "quantities": {
             "in_box": 2
           }
@@ -707,6 +700,13 @@
           "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
+          "code": "I-06-SML-SC-27",
+          "quantities": {
+            "in_box": 2
           }
         }
       ]

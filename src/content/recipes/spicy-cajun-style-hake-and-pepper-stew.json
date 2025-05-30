@@ -6,8 +6,8 @@
   ],
   "gousto_id": "6418",
   "rating": {
-    "average": 4,
-    "count": 299
+    "average": 4.5,
+    "count": 320
   },
   "description": "Give your stew a Cajun-style kick. You'll simmer fish and pepper in a rich, smoky and spicy tomato sauce, before serving over fluffy steamed rice. Under 600 calories.",
   "prep_times": {
@@ -16,6 +16,12 @@
   },
   "cuisine": "American",
   "ingredients": [
+    {
+      "label": "Green pepper",
+      "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+      "allergens": [],
+      "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
+    },
     {
       "label": "Ground coriander (2tsp)",
       "gousto_uuid": "fabcebd0-0595-4c07-9a82-e4093d86be85",
@@ -77,10 +83,10 @@
       "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
     },
     {
-      "label": "Green pepper",
-      "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+      "label": "Intense vegetable stock mix (5.5g)",
+      "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
       "allergens": [],
-      "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
+      "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
     },
     {
       "label": "Brown onion",
@@ -117,12 +123,6 @@
       "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
       "allergens": [],
       "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
-    },
-    {
-      "label": "Vegetable stock mix (11g)",
-      "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-      "allergens": [],
-      "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
     },
     {
       "label": "Dried oregano (1tsp)",
@@ -198,28 +198,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 112,
-      "energy_kj": 476,
-      "fat_mg": 1327,
-      "fat_saturates_mg": 153,
-      "carbs_mg": 17575,
-      "carbs_sugars_mg": 2675,
-      "fibre_mg": 2129,
-      "protein_mg": 7594,
+      "energy_kcal": 111,
+      "energy_kj": 470,
+      "fat_mg": 1337,
+      "fat_saturates_mg": 154,
+      "carbs_mg": 17153,
+      "carbs_sugars_mg": 2637,
+      "fibre_mg": 2142,
+      "protein_mg": 7536,
       "salt_mg": 465,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 420,
-      "energy_kj": 1778,
+      "energy_kcal": 412,
+      "energy_kj": 1743,
       "fat_mg": 4951,
       "fat_saturates_mg": 573,
-      "carbs_mg": 65558,
-      "carbs_sugars_mg": 9980,
-      "fibre_mg": 7942,
-      "protein_mg": 28326,
-      "salt_mg": 1735,
-      "net_weight_mg": 373000
+      "carbs_mg": 63512,
+      "carbs_sugars_mg": 9766,
+      "fibre_mg": 7931,
+      "protein_mg": 27905,
+      "salt_mg": 1724,
+      "net_weight_mg": 370250
     }
   },
   "portion_sizes": [
@@ -395,15 +395,15 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
           "quantities": {
             "in_box": 1
           }
         },
         {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
           "quantities": {
             "in_box": 1
           }
@@ -492,6 +492,13 @@
           }
         },
         {
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
           "code": "I-08-SAU-PS-37",
           "quantities": {
@@ -508,13 +515,6 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -610,15 +610,15 @@
           }
         },
         {
-          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-          "code": "I-08-SAU-PS-37",
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
           "quantities": {
             "in_box": 2
           }
         },
         {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
+          "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+          "code": "I-08-SAU-PS-37",
           "quantities": {
             "in_box": 2
           }
@@ -714,6 +714,13 @@
           }
         },
         {
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
           "code": "I-08-SAU-PS-37",
           "quantities": {
@@ -732,13 +739,6 @@
           "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
-          }
-        },
-        {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
-          "quantities": {
-            "in_box": 2
           }
         },
         {
