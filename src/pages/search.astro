@@ -2,7 +2,6 @@
 export const prerender = false;
 
 Astro.response.headers.set('Cache-Control', 'public, max-age=604800, s-maxage=604800');
-Astro.response.headers.set('Netlify-Vary', 'query');
 
 import Container from '@/components/Container.astro';
 import Pagination from '@/components/Helpers/Pagination.astro';
@@ -147,7 +146,7 @@ const hasResults = (recipes && (recipes.length > 0));
       </form>
     </div>
     {hasResults ? (
-      <div class="gap-4  grid  pb-8  sm:gap-8  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+      <div class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
         {recipes?.map(({ cuisine, image, nutritional_information, prep_times, rating, title, url }) => (
           <RecipeCard
             cuisine={cuisine}
@@ -183,7 +182,7 @@ const hasResults = (recipes && (recipes.length > 0));
 
     const buildQuery = () => {
       const params = new URLSearchParams();
-      const query = searchInput.value.trim();
+      const query = searchInput?.value.trim();
 
       if (query)
         params.set('q', query);

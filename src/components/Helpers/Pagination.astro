@@ -8,7 +8,7 @@ const start = (currentPage - 1) * recipesPerPage + 1;
 const end = Math.min(currentPage * recipesPerPage, total);
 ---
 
-<div class="border-secondary-100  border-t  flex  items-center  justify-between  mt-auto  py-8  text-sm">
+<div class="border-secondary-100  border-t  flex  items-center  justify-between  mt-auto  py-4  text-sm  md:py-8">
   <p class="hidden  md:block">Showing <strong>{start.toLocaleString()}</strong> to <strong>{end.toLocaleString()}</strong> of <strong>{total.toLocaleString()}</strong> recipes</p>
   <nav aria-label="Pagination" class="flex  gap-2  items-center  justify-between  w-full  md:justify-end  md:w-auto">
     <div class="flex  justify-start">

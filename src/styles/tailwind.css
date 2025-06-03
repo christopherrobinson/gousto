@@ -2,6 +2,10 @@
 
 /* Plugins */
 @plugin '@tailwindcss/typography';
+@plugin 'tailwind-scrollbar' {
+  nocompatible: true;
+  preferredStrategy: 'pseudoelements';
+}
 
 /* Additional configuration */
 @config '../../tailwind.config.mjs';

@@ -1,0 +1,74 @@
+---
+const { selectedCategory, selectedCuisine } = Astro.props;
+
+const categories = await getCategories();
+const cuisines = await getCuisines();
+---
+
+<div class="space-y-4  text-secondary-800">
+  <div class="border-secondary-100  border-b  flex  items-center  justify-between  pb-2">
+    <h3 class="font-normal">Filters</h3>
+    <div class="flex  items-center  space-x-2">
+      {(selectedCategory || selectedCuisine) &&
+        <a class="text-primary-600  text-sm  hover:underline" href="/recipes/">(reset)</a>
+      }
+      <Icon name="sliders" />
+    </div>
+  </div>
+  <div class="text-sm">
+    <div class="flex  items-center  mb-2  space-x-2">
+      <strong class="block  font-normal">Category</strong>
+      {(selectedCategory) &&
+        <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
+      }
+    </div>
+    <div class="h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+      <ul>
+        {categories.map(({ name, slug }) => (
+          <li>
+            <a
+              class={`
+                flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
+                ${selectedCategory === name ? 'cursor-text  text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+              `}
+              href={slug}
+            >
+              <span>{name}</span>
+              {selectedCategory === name &&
+                <Icon class="text-primary-600" name="check" />
+              }
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+  <div class="text-sm">
+    <div class="flex  items-center  mb-2  space-x-2">
+      <strong class="block  font-normal">Cuisine</strong>
+      {(selectedCuisine) &&
+        <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
+      }
+    </div>
+    <div class="h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+      <ul>
+        {cuisines.map(({ name, slug }) => (
+          <li>
+            <a
+              class={`
+                flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
+                ${selectedCuisine === name ? 'cursor-text  text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+              `}
+              href={slug}
+            >
+              <span>{name}</span>
+              {selectedCuisine === name &&
+                <Icon class="text-primary-600" name="check" />
+              }
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>

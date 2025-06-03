@@ -1,0 +1,51 @@
+---
+import { type RecipesProps } from '@/types/Recipes';
+
+import Container from '@/components/Container.astro';
+import Filters from '@/components/Filters.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
+import RecipeCard from '@/components/RecipeCard.astro';
+
+const { baseUrl, content, currentPage, data, filters, lastPage, total } = Astro.props as RecipesProps;
+---
+
+<Container class="flex  flex-col  grow">
+  {(currentPage === 1) && content && (
+    <div class="max-w-none  prose  pt-4  lg:pt-8" set:html={content}>
+    </div>
+  )}
+  <div class="gap-4  grid  lg:gap-8  lg:grid-cols-4  xl:grid-cols-5  print:grid-cols-1">
+    <div class="col-span-1  hidden  py-4  lg:block  lg:py-8  print:col-span-1">
+      <div class="md:sticky  md:top-[34px]">
+        <Filters selectedCategory={filters?.selectedCategory} selectedCuisine={filters?.selectedCuisine} />
+      </div>
+    </div>
+    <div class="col-span-1  lg:col-span-3  xl:col-span-4  print:col-span-1">
+      <div class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
+        {data.map(async (recipe: any) => {
+          const { data, id } = recipe;
+          const { cuisine, image, prep_times, rating, title } = data;
+
+          return (
+            <RecipeCard
+              cuisine={cuisine}
+              id={id}
+              image={image}
+              prep_times={prep_times}
+              rating={rating}
+              title={title}
+            />
+          )
+        })}
+      </div>
+      {(total > recipesPerPage) && (
+        <Pagination
+          baseUrl={baseUrl}
+          currentPage={currentPage}
+          total={total}
+          totalPages={lastPage}
+        />
+      )}
+    </div>
+  </div>
+</Container>
