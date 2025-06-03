@@ -29,7 +29,7 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
     description: metaDescription,
     og: {
       'description': metaDescription,
-      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-search.jpg`,
+      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-search.jpg?${recipes.length}`,
       'image:alt': metaTitle,
       'image:height': 630,
       'image:type': 'image/jpeg',
@@ -85,7 +85,7 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
         {cuisines.map(({ name, recipes, slug }) => (
           <li>
             <a
-              class="bg-secondary-50  border  border-zinc-200  block  px-2  py-1  rounded-md  hover:underline"
+              class="bg-secondary-50  border  border-secondary-100  block  px-2  py-1  rounded-md  hover:underline"
               href={slug}
               title={`${recipes.toLocaleString()} Recipe${recipes > 1 ? 's' : ''}`}
             >
@@ -101,7 +101,7 @@ const metaDescription = `Browse, search, and get inspired by thousands of recipe
         {categories.map(({ name, slug }) => (
           <li>
             <a
-              class="bg-secondary-50  border  border-zinc-200  block  px-3  py-1  rounded-md  hover:underline"
+              class="bg-secondary-50  border  border-secondary-100  block  px-3  py-1  rounded-md  hover:underline"
               href={slug}
             >
               {name}
