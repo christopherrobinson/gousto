@@ -1,6 +1,6 @@
-import { defineConfig, envField, passthroughImageService } from 'astro/config';
+import { defineConfig, envField } from 'astro/config';
 import icon from 'astro-icon';
-import netlify from '@astrojs/netlify';
+import cloudflare from '@astrojs/cloudflare';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import basicSsl from '@vitejs/plugin-basic-ssl';
@@ -12,15 +12,15 @@ const { GOUSTO_REFERRAL_CODE } = loadEnv(process.env.NODE_ENV, process.cwd(), ''
 
 // https://astro.build/config
 export default defineConfig({
-  adapter: netlify({
-    cacheOnDemandPages: true,
+  adapter: cloudflare({
+    imageService: 'compile',
   }),
   env: {
     schema: {
       GOOGLE_TAG_MANAGER_ID: envField.string({ access: 'public', context: 'client', optional: true }),
       GOUSTO_REFERRAL_CODE: envField.string({ access: 'public', context: 'client', optional: false }),
-      SUPABASE_KEY: envField.string({ access: 'public', context: 'client', optional: false }),
-      SUPABASE_URL: envField.string({ access: 'public', context: 'client', optional: false }),
+      SUPABASE_KEY: envField.string({ access: 'public', context: 'server', optional: false }),
+      SUPABASE_URL: envField.string({ access: 'public', context: 'server', optional: false }),
     },
   },
   experimental: {
@@ -32,7 +32,6 @@ export default defineConfig({
   },
   image: {
     domains: ['images.gousto.wiki'],
-    service: passthroughImageService(),
   },
   integrations: [
     icon({ iconDir: './src/images/icons' }),
@@ -68,7 +67,7 @@ export default defineConfig({
         presets: [
           { from: 'astro:assets',          imports: [ 'getImage', 'Image' ] },
           { from: 'astro:components',      imports: [ 'Debug' ] },
-          { from: 'astro:content',         imports: [ 'defineCollection', 'getEntry', 'getCollection', 'render', 'z' ] },
+          { from: 'astro:content',         imports: [ 'defineCollection', 'getCollection', 'getEntry', 'render', 'z' ] },
           { from: 'astro:transitions',     imports: [ 'ViewTransitions' ] },
           { from: 'astro/loaders',         imports: [ 'glob' ] },
           { from: 'astro-capo',            imports: [ 'Head' ] },

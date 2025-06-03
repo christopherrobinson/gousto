@@ -18,7 +18,6 @@ export const GET: APIRoute = async () => {
       headers: {
         'Cache-Control': 'public, max-age=604800, s-maxage=604800',
         'Content-Type': 'application/json',
-        'Netlify-Vary': 'query',
       },
     });
   }
