@@ -1,6 +1,6 @@
 let categoryCache: { name: string; slug: string; combinedCategories: string[] }[] | null = null;
 
-const excludedCategories = new Set(['All Recipes']); // List of categories to exclude
+const excludedCategories = new Set(['All Gousto Recipes', 'All Recipes']); // List of categories to exclude
 
 // Helper function to strip " recipes" and similar suffixes (case-insensitive)
 const stripCategoryName = (name: string): string => {
@@ -28,7 +28,7 @@ const normaliseCategoryName = (category: string): string => {
     return "Gluten-Free";
   }
 
-  if (trimmedCategory === "Plant Bistro" || trimmedCategory === "Plant-Based") {
+  if (trimmedCategory === "Plant-Based" || trimmedCategory === "Plant Bistro") {
     return "Plant-Based";
   }
 
