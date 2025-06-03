@@ -1,3 +1,9 @@
+export const ignoredRecipeSuffixes = [
+  'and-dough-balls',
+  'with-dessert',
+  'with-side',
+  'with-sides',
+];
 export const inspirationRecipeCount = 8;
 export const navItems = [
   { href: '/', label: 'Home' },

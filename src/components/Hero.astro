@@ -10,7 +10,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
   <Container>
     <div class="gap-8  grid  items-center  justify-between  py-8  relative  md:grid-cols-2  md:py-16">
       <div class="flex-1  space-y-6  text-center  md:space-y-8  md:text-left">
-        <h1 class="font-semibold  font-serif  leading-11  text-4xl  lg:leading-16  md:text-4xl  lg:text-6xl">
+        <h1 class="font-semibold  font-serif  leading-11  text-4xl  md:text-4xl  lg:leading-16  lg:text-6xl">
           Discover <span class="text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
           delicious recipes
         </h1>
