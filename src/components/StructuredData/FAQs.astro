@@ -1,0 +1,20 @@
+---
+const { data } = Astro.props;
+const { faqs, title } = data;
+
+const structuredData: any = {
+  "@context": "https://schema.org/",
+  "@type": "FAQPage",
+  "name": title,
+  "mainEntity": faqs.map(({ question, answer }) => ({
+    "@type": "Question",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": stripHtml(answer).result,
+    },
+    "name": question,
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />

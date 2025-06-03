@@ -1,0 +1,56 @@
+---
+import Container from '@/components/Container.astro';
+import Layout from '@/layouts/Default.astro';
+import FAQsStructuredData from '@/components/StructuredData/FAQs.astro';
+
+const faqs = [
+  {
+    question: 'What is this site?',
+    answer: 'This is an <strong>unofficial, community-built tool</strong> for exploring Gousto\'s huge library of recipes. It\'s designed to be faster, easier, and more fun than scrolling through the official site when you\'re just looking for cooking ideas.',
+  },
+  {
+    question: 'How do I search for recipes?',
+    answer: 'Just head over to the <a class="font-normal  text-primary-600" href="/search/">Search</a> page and type in a keyword like “chicken,” “vegan,” or “30 minute” and hit enter. You can also browse by <strong>category</strong>, <strong>cuisine</strong>, or just scroll through the recipes at your leisure. It\'s like a recipe box with a built-in filter.',
+  },
+  {
+    question: 'Can I order these meals?',
+    answer: 'Nope, this site is just for browsing. To order meal kits, you\'ll still need to <a class="font-normal  text-primary-600" href="/signup">visit Gousto</a>. We\'re not affiliated with Gousto, so we don\'t handle any ordering or subscriptions.',
+  },
+  {
+    question: 'Where do the recipes come from?',
+    answer: 'All recipe content is sourced from <strong>Gousto\'s publicly available recipes</strong>. We don\'t modify the recipes, we just make them easier to search and explore. Full credit goes to Gousto for the delicious ideas.',
+  },
+  {
+    question: 'Can I suggest a feature or report a bug?',
+    answer: 'Absolutely! This is an ongoing passion project and we love hearing from users. You can email us at <a class="font-normal  text-primary-600" href="mailto:ideas@gousto.wiki">ideas@gousto.wiki</a> with feedback, suggestions, or bug reports.',
+  },
+  {
+    question: 'Do you use cookies?',
+    answer: 'Yes, but not the edible kind. We use basic cookies (via Google Analytics) to understand how the site is used. You can read more on our <a class="font-normal  text-primary-600" href="/cookies/">Cookies</a> and <a class="font-normal  text-primary-600" href="/privacy/">Privacy</a> pages.',
+  },
+]
+---
+
+<Layout heading="Freshly Asked Questions">
+  <FAQsStructuredData data={{ faqs, title: "Freshly Asked Questions" }} slot="structured-data" />
+  <Container>
+    <div class="max-w-none  prose  py-4  lg:py-8">
+      <p>Welcome to the <strong>FAQs</strong>, or as we like to call it, the <strong>“Freshly Asked Questions”</strong> section. If you're wondering how things work around here, you're in the right kitchen.</p>
+    </div>
+    <div class="border  border-secondary-100  divide-y  divide-secondary-100  px-6  rounded-lg">
+      {faqs.map(({ answer, question }, index) => (
+        <details open={index === 0} class="group/question  py-6">
+          <summary class="cursor-pointer  flex  group  items-center  justify-between  w-full  hover:text-primary-600">
+            <h2 class="font-normal  text-lg  group-hover:underline">{question}</h2>
+            <span class="before:content-['+']  text-secondary-700  text-2xl  group-hover:text-primary-600  group-open/question:before:content-['-']"></span>
+          </summary>
+          <div class="mt-2 text-secondary-800" set:html={answer}>
+          </div>
+        </details>
+      ))}
+    </div>
+    <div class="max-w-none  prose  py-4  lg:py-8">
+      <p>Still got questions? <a class="font-normal  text-primary-600" href="mailto:ideas@gousto.wiki">Drop us a line</a>, we're always happy to chat about good food and better tools!</p>
+    </div>
+  </Container>
+</Layout>
