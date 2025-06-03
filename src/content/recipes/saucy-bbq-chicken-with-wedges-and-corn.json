@@ -14,7 +14,7 @@
   "gousto_id": "2336",
   "rating": {
     "average": 4.5,
-    "count": 7036
+    "count": 7088
   },
   "description": "No need to fire up the barbie for this tasty BBQ chicken. You'll rub your chicken with paprika and cumin and smother it in barbecue sauce. Serve it with a simple dressed salad, potato wedges and buttery corn on the cob to get your teeth around. It's smokin'!",
   "prep_times": {
@@ -48,12 +48,6 @@
       "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
     },
     {
-      "label": "Baby leaf salad (50g)",
-      "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-      "allergens": [],
-      "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
-    },
-    {
       "label": "Chicken breast portions (2pcs)",
       "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
       "allergens": [],
@@ -84,6 +78,12 @@
       "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
       "allergens": [],
       "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
+    },
+    {
+      "label": "Gem lettuce",
+      "gousto_uuid": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+      "allergens": [],
+      "image": "/images/ingredients/28a5242e-1332-4a23-aa12-f75e4fd694fd.jpg"
     },
     {
       "label": "White potato x3",
@@ -132,7 +132,7 @@
       "image": "/images/instructions/saucy-bbq-chicken-with-wedges-and-corn/step-6.jpg"
     },
     {
-      "instruction": "<p>While the chicken is cooking, add your<strong> cider vinegar</strong> to a large bowl with 2 tbsp <span class=\"text-purple\">[3 tbsp]</span> <span class=\"text-danger\">[4 tbsp]</span><strong> olive oil</strong> and a pinch of<strong> salt</strong> and <strong>pepper </strong>and stir it all together</p><p>Wash your <strong>salad</strong>, then pat it dry with<strong> </strong>kitchen paper<strong> </strong>and add it to the bowl, gently tossing with the dressing – this is your <strong>dressed salad</strong></p>",
+      "instruction": "<p>While the chicken is cooking, add your<strong> cider vinegar</strong> to a large bowl with 2 tbsp <span class=\"text-purple\">[3 tbsp]</span> <span class=\"text-danger\">[4 tbsp]</span><strong> olive oil</strong> and a pinch of<strong> salt</strong> and <strong>pepper </strong>and stir it all together</p><p>Wash your <strong>lettuce</strong>, then pat it dry with kitchen paper and shred finely</p><p>Add the <strong>shredded lettuce</strong> to the bowl, gently tossing with the dressing – this is your <strong>dressed salad</strong></p>",
       "order": 7,
       "image": "/images/instructions/saucy-bbq-chicken-with-wedges-and-corn/step-7.jpg"
     },
@@ -146,28 +146,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 83,
-      "energy_kj": 355,
-      "fat_mg": 965,
-      "fat_saturates_mg": 168,
-      "carbs_mg": 11193,
-      "carbs_sugars_mg": 2871,
-      "fibre_mg": 1165,
-      "protein_mg": 8075,
-      "salt_mg": 186,
+      "energy_kcal": 80,
+      "energy_kj": 342,
+      "fat_mg": 924,
+      "fat_saturates_mg": 140,
+      "carbs_mg": 10857,
+      "carbs_sugars_mg": 2883,
+      "fibre_mg": 1169,
+      "protein_mg": 7664,
+      "salt_mg": 176,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 386,
-      "energy_kj": 1634,
+      "energy_kcal": 388,
+      "energy_kj": 1643,
       "fat_mg": 4439,
-      "fat_saturates_mg": 776,
-      "carbs_mg": 51488,
-      "carbs_sugars_mg": 13211,
-      "fibre_mg": 5362,
-      "protein_mg": 37148,
-      "salt_mg": 859,
-      "net_weight_mg": 460000
+      "fat_saturates_mg": 676,
+      "carbs_mg": 52118,
+      "carbs_sugars_mg": 13841,
+      "fibre_mg": 5612,
+      "protein_mg": 36788,
+      "salt_mg": 848,
+      "net_weight_mg": 480000
     }
   },
   "portion_sizes": [
@@ -183,13 +183,6 @@
           }
         },
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
           "code": "I-10-MPF-PO-57",
           "quantities": {
@@ -199,6 +192,13 @@
         {
           "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
           "code": "I-08-SAU-LS-24",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+          "code": "I-05-FVG-LF-27",
           "quantities": {
             "in_box": 1
           }
@@ -245,13 +245,6 @@
           }
         },
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
           "code": "I-10-MPF-PO-45",
           "quantities": {
@@ -261,6 +254,13 @@
         {
           "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
           "code": "I-08-SAU-LS-24",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+          "code": "I-05-FVG-LF-27",
           "quantities": {
             "in_box": 1
           }
@@ -307,13 +307,6 @@
           }
         },
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
           "code": "I-10-MPF-PO-57",
           "quantities": {
@@ -332,6 +325,13 @@
           "code": "I-08-SAU-LS-24",
           "quantities": {
             "in_box": 1
+          }
+        },
+        {
+          "id": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+          "code": "I-05-FVG-LF-27",
+          "quantities": {
+            "in_box": 2
           }
         },
         {
@@ -376,13 +376,6 @@
           }
         },
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
           "code": "I-10-MPF-PO-45",
           "quantities": {
@@ -392,6 +385,13 @@
         {
           "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
           "code": "I-08-SAU-LS-24",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+          "code": "I-05-FVG-LF-27",
           "quantities": {
             "in_box": 2
           }
@@ -438,13 +438,6 @@
           }
         },
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
           "id": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
           "code": "I-10-MPF-PO-57",
           "quantities": {
@@ -463,6 +456,13 @@
           "code": "I-08-SAU-LS-24",
           "quantities": {
             "in_box": 2
+          }
+        },
+        {
+          "id": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+          "code": "I-05-FVG-LF-27",
+          "quantities": {
+            "in_box": 3
           }
         },
         {

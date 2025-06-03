@@ -7,9 +7,9 @@
   "gousto_id": "5505",
   "rating": {
     "average": 4.5,
-    "count": 13561
+    "count": 13578
   },
-  "description": "Put a twist on classic pizza, open sandwich-style. You'll top ciabattas with herby tomato sauce, pepperoni and mozzarella before popping them in the oven to bake till melty. Serve with chips and leafy salad on the side.",
+  "description": "Put a twist on classic pizza, open sandwich-style. You'll top ciabattas with herby tomato sauce, pepperoni and mozzarella before popping them in the oven to bake till melty. Serve with chips and salad on the side.",
   "prep_times": {
     "for_2": 30,
     "for_4": 35
@@ -21,12 +21,6 @@
       "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
       "allergens": [],
       "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-    },
-    {
-      "label": "Baby leaf salad (50g)",
-      "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-      "allergens": [],
-      "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
     },
     {
       "label": "Tomato paste (32g)",
@@ -53,6 +47,12 @@
       "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
       "allergens": [],
       "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+    },
+    {
+      "label": "Mini cosberg lettuce",
+      "gousto_uuid": "03f0c89b-426b-4b83-acee-5667e2681ee0",
+      "allergens": [],
+      "image": "/images/ingredients/03f0c89b-426b-4b83-acee-5667e2681ee0.jpg"
     },
     {
       "label": "Ciabatta x2",
@@ -124,7 +124,7 @@
       "image": "/images/instructions/pepperoni-pizza-style-open-sandwich-with-chips-and-salad/step-6.jpg"
     },
     {
-      "instruction": "<p>Meanwhile, wash your<strong> salad</strong> and pat dry with kitchen paper</p><p>Combine your <strong>balsamic vinegar</strong>, a drizzle of<span class=\"text-danger\"> </span><strong>olive oil</strong> and a pinch of <strong>salt</strong> and<strong> pepper</strong> in a large bowl – this is your <strong>balsamic dressing</strong></p><p>Toss the<strong> salad</strong> in the <strong>balsamic dressing</strong></p>",
+      "instruction": "<p>Wash your <strong>lettuce</strong>, then pat it dry with kitchen paper and shred finely</p><p>Combine your <strong>balsamic vinegar</strong>, a drizzle of<span class=\"text-danger\"> </span><strong>olive oil</strong> and a pinch of <strong>salt</strong> and<strong> pepper</strong> in a large bowl – this is your <strong>balsamic dressing</strong></p><p>Toss the<strong> shredded lettuce</strong> in the <strong>balsamic dressing </strong>- this is your <strong>salad</strong></p>",
       "order": 7,
       "image": "/images/instructions/pepperoni-pizza-style-open-sandwich-with-chips-and-salad/step-7.jpg"
     },
@@ -141,28 +141,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 154,
-      "energy_kj": 649,
-      "fat_mg": 5212,
-      "fat_saturates_mg": 2913,
-      "carbs_mg": 20199,
-      "carbs_sugars_mg": 1607,
-      "fibre_mg": 1825,
-      "protein_mg": 6815,
-      "salt_mg": 444,
+      "energy_kcal": 146,
+      "energy_kj": 617,
+      "fat_mg": 4950,
+      "fat_saturates_mg": 2746,
+      "carbs_mg": 19301,
+      "carbs_sugars_mg": 1688,
+      "fibre_mg": 1795,
+      "protein_mg": 6362,
+      "salt_mg": 427,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 556,
-      "energy_kj": 2338,
-      "fat_mg": 18766,
-      "fat_saturates_mg": 10490,
-      "carbs_mg": 72717,
-      "carbs_sugars_mg": 5788,
-      "fibre_mg": 6573,
-      "protein_mg": 24536,
-      "salt_mg": 1601,
-      "net_weight_mg": 360000
+      "energy_kcal": 558,
+      "energy_kj": 2347,
+      "fat_mg": 18811,
+      "fat_saturates_mg": 10435,
+      "carbs_mg": 73347,
+      "carbs_sugars_mg": 6418,
+      "fibre_mg": 6823,
+      "protein_mg": 24176,
+      "salt_mg": 1626,
+      "net_weight_mg": 380000
     }
   },
   "portion_sizes": [
@@ -170,13 +170,6 @@
       "portions": 1,
       "is_offered": true,
       "ingredients_skus": [
-        {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 1
-          }
-        },
         {
           "id": "8357c090-d832-41bc-a458-b13600637e1b",
           "code": "I-08-SAU-LS-15",
@@ -201,6 +194,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
+          "code": "I-05-FVG-LF-30",
           "quantities": {
             "in_box": 1
           }
@@ -240,13 +240,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
           "id": "8357c090-d832-41bc-a458-b13600637e1b",
           "code": "I-08-SAU-LS-15",
           "quantities": {
@@ -270,6 +263,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
+          "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
+          "code": "I-05-FVG-LF-30",
           "quantities": {
             "in_box": 1
           }
@@ -309,13 +309,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "8357c090-d832-41bc-a458-b13600637e1b",
           "code": "I-08-SAU-LS-15",
           "quantities": {
@@ -339,6 +332,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
+          "code": "I-05-FVG-LF-30",
           "quantities": {
             "in_box": 2
           }
@@ -385,13 +385,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
           "id": "8357c090-d832-41bc-a458-b13600637e1b",
           "code": "I-08-SAU-LS-15",
           "quantities": {
@@ -415,6 +408,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
+          "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
+          "code": "I-05-FVG-LF-30",
           "quantities": {
             "in_box": 2
           }
@@ -454,13 +454,6 @@
       "is_offered": true,
       "ingredients_skus": [
         {
-          "id": "40c60e47-6a07-456c-b2fe-c551430de3fd",
-          "code": "I-05-FVG-FG-03-01",
-          "quantities": {
-            "in_box": 3
-          }
-        },
-        {
           "id": "8357c090-d832-41bc-a458-b13600637e1b",
           "code": "I-08-SAU-LS-15",
           "quantities": {
@@ -484,6 +477,13 @@
         {
           "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
           "code": "I-06-SML-OT-02",
+          "quantities": {
+            "in_box": 3
+          }
+        },
+        {
+          "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
+          "code": "I-05-FVG-LF-30",
           "quantities": {
             "in_box": 3
           }
