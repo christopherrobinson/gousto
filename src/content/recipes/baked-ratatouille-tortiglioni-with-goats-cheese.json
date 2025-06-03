@@ -10,7 +10,7 @@
   "gousto_id": "3285",
   "rating": {
     "average": 4.5,
-    "count": 20991
+    "count": 21007
   },
   "description": "This quick-prep pasta is cooked in the oven, so you won't need to keep an eye on it. You'll add flavour with roasted red onion, pepper and courgette, then top with melty goats' cheese to serve. ",
   "prep_times": {
@@ -19,6 +19,12 @@
   },
   "cuisine": "Italian",
   "ingredients": [
+    {
+      "label": "Yellow pepper",
+      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+      "allergens": [],
+      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+    },
     {
       "label": "Dried chilli flakes (1tsp) x0",
       "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -44,18 +50,18 @@
       "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
     },
     {
+      "label": "Intense vegetable stock mix (5.5g)",
+      "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+      "allergens": [],
+      "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
+    },
+    {
       "label": "Soft goats' cheese (75g)",
       "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
       "allergens": [
         "milk"
       ],
       "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
-    },
-    {
-      "label": "Yellow pepper",
-      "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
-      "allergens": [],
-      "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
     },
     {
       "label": "Finely chopped tomatoes (200g)",
@@ -88,12 +94,6 @@
       "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
       "allergens": [],
       "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
-    },
-    {
-      "label": "Vegetable stock mix (11g)",
-      "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-      "allergens": [],
-      "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
     },
     {
       "label": "Dried basil (1tsp)",
@@ -155,28 +155,28 @@
   ],
   "nutritional_information": {
     "per_hundred_grams": {
-      "energy_kcal": 118,
-      "energy_kj": 503,
-      "fat_mg": 2352,
-      "fat_saturates_mg": 1420,
-      "carbs_mg": 20984,
-      "carbs_sugars_mg": 3344,
-      "fibre_mg": 1829,
-      "protein_mg": 4855,
+      "energy_kcal": 117,
+      "energy_kj": 498,
+      "fat_mg": 2367,
+      "fat_saturates_mg": 1429,
+      "carbs_mg": 20652,
+      "carbs_sugars_mg": 3316,
+      "fibre_mg": 1838,
+      "protein_mg": 4791,
       "salt_mg": 423,
       "net_weight_mg": 100000
     },
     "per_portion": {
-      "energy_kcal": 530,
-      "energy_kj": 2244,
+      "energy_kcal": 522,
+      "energy_kj": 2209,
       "fat_mg": 10481,
       "fat_saturates_mg": 6330,
-      "carbs_mg": 93485,
-      "carbs_sugars_mg": 14898,
-      "fibre_mg": 8151,
-      "protein_mg": 21633,
-      "salt_mg": 1887,
-      "net_weight_mg": 445500
+      "carbs_mg": 91439,
+      "carbs_sugars_mg": 14684,
+      "fibre_mg": 8140,
+      "protein_mg": 21213,
+      "salt_mg": 1876,
+      "net_weight_mg": 442750
     }
   },
   "portion_sizes": [
@@ -310,6 +310,13 @@
           }
         },
         {
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
           "code": "I-02-SVG-VG-05",
           "quantities": {
@@ -326,13 +333,6 @@
         {
           "id": "248e9920-213f-426d-90d4-611a29171065",
           "code": "IQ-03-GRN-PA-20-02",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -393,6 +393,13 @@
           }
         },
         {
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
+          "quantities": {
+            "in_box": 1
+          }
+        },
+        {
           "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
           "code": "I-02-SVG-VG-05",
           "quantities": {
@@ -416,13 +423,6 @@
         {
           "id": "166bfad3-d300-465d-b61c-fef4d2965904",
           "code": "I-06-SML-SC-26",
-          "quantities": {
-            "in_box": 1
-          }
-        },
-        {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 1
           }
@@ -483,6 +483,13 @@
           }
         },
         {
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
           "code": "I-02-SVG-VG-05",
           "quantities": {
@@ -499,13 +506,6 @@
         {
           "id": "248e9920-213f-426d-90d4-611a29171065",
           "code": "IQ-03-GRN-PA-20-02",
-          "quantities": {
-            "in_box": 2
-          }
-        },
-        {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
           "quantities": {
             "in_box": 2
           }
@@ -566,6 +566,13 @@
           }
         },
         {
+          "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+          "code": "I-06-SML-SC-34",
+          "quantities": {
+            "in_box": 2
+          }
+        },
+        {
           "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
           "code": "I-02-SVG-VG-05",
           "quantities": {
@@ -591,13 +598,6 @@
           "code": "I-06-SML-SC-26",
           "quantities": {
             "in_box": 1
-          }
-        },
-        {
-          "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-          "code": "I-06-SML-SC-27",
-          "quantities": {
-            "in_box": 2
           }
         },
         {
