@@ -1,7 +1,5 @@
 ---
-import Container from '@/components/Container.astro';
-import Pagination from '@/components/Helpers/Pagination.astro';
-import RecipeCard from '@/components/RecipeCard.astro';
+import Recipes from '@/components/Recipes.astro';
 import Layout from '@/layouts/Default.astro';
 
 export const getStaticPaths = async ({ paginate }) => {
@@ -15,33 +13,5 @@ const { currentPage, data = [], lastPage, total } = page;
 ---
 
 <Layout heading={`Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
-  <Container class="flex  flex-col  grow">
-    <div class="gap-4  grid  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
-      {
-        data.map(async (post: any) => {
-          const { data, id } = post
-          const { cuisine, image, prep_times, rating, title } = data;
-
-          return (
-            <RecipeCard
-              cuisine={cuisine}
-              id={id}
-              image={image}
-              prep_times={prep_times}
-              rating={rating}
-              title={title}
-            />
-          )
-        })
-      }
-    </div>
-    {(total > recipesPerPage) && (
-      <Pagination
-        baseUrl={`/recipes/`}
-        currentPage={currentPage}
-        total={total}
-        totalPages={lastPage}
-      />
-    )}
-  </Container>
+  <Recipes baseUrl={`/recipes/`} currentPage={currentPage} data={data} lastPage={lastPage} total={total} />
 </Layout>

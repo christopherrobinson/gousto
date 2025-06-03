@@ -1,8 +1,6 @@
 ---
-import Container from '@/components/Container.astro';
-import RecipeCard from '@/components/RecipeCard.astro';
-import Pagination from '@/components/Helpers/Pagination.astro';
 import Layout from '@/layouts/Default.astro';
+import Recipes from '@/components/Recipes.astro';
 
 export const getStaticPaths = async ({ paginate }) => {
   const categories = await getCategories();
@@ -31,35 +29,14 @@ const entry = await getEntry('categories', slug);
 ---
 
 <Layout heading={`${name} Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
-  <Container class="flex  flex-col  grow">
-    {(currentPage === 1) && entry && (
-      <div class="max-w-none  prose  pt-4  lg:pt-8" set:html={entry.rendered.html}>
-      </div>
-    )}
-    <div class="gap-4  grid  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
-      {data.map((recipe) => {
-        const { data, id } = recipe
-        const { cuisine, image, prep_times, rating, title } = data;
-
-        return (
-          <RecipeCard
-            cuisine={cuisine}
-            id={id}
-            image={image}
-            prep_times={prep_times}
-            rating={rating}
-            title={title}
-          />
-        );
-      })}
-    </div>
-    {(total > recipesPerPage) && (
-      <Pagination
-        baseUrl={`/recipes/category/${slug}/`}
-        currentPage={currentPage}
-        total={total}
-        totalPages={lastPage}
-      />
-    )}
-  </Container>
+  <Recipes
+    baseUrl={`/recipes/category/${slug}/`}
+    content={entry.rendered.html}
+    currentPage={currentPage}
+    data={data}
+    filters={{ selectedCategory: name }}
+    lastPage={lastPage}
+    selectedCategory={name}
+    total={total}
+  />
 </Layout>
