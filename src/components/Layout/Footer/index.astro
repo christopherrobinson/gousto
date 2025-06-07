@@ -1,6 +1,4 @@
 ---
-import Container from '@/components/Container.astro';
-
 const navItems = [
   { href: '/faqs/', label: 'FAQs' },
   { href: '/cookies/', label: 'Cookies' },
@@ -9,12 +7,12 @@ const navItems = [
 ---
 
 <footer class="bg-secondary-950  mt-auto  py-4  text-center  text-sm  text-white/80  print:hidden" transition:persist>
-  <Container class="flex  items-center  justify-between">
+  <Container class="flex  flex-col-reverse  gap-2  items-center  justify-between  xs:flex-row">
     <span class="block  mb-0">{site.name}</span>
     {navItems && (
-      <ul class="flex  items-center  justify-center  -mr-3">
+      <ul class="flex  items-center  justify-center  gap-4">
         {navItems.map(({ href, label }) => (
-          <li class="mx-3"><a class="transition  hover:text-white  hover:underline" href={href}>{label}</a></li>
+          <li><a class="transition  hover:text-white  hover:underline" href={href}>{label}</a></li>
         ))}
       </ul>
     )}

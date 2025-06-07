@@ -1,3 +1,9 @@
+export const benefits = [
+  '500+ recipes every month',
+  '185+ veggie & vegan options',
+  'No commitments!',
+  'Skip or cancel for free anytime',
+];
 export const ignoredRecipeSuffixes = [
   'and-dough-balls',
   'with-dessert',

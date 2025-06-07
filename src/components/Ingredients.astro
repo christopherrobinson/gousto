@@ -46,7 +46,7 @@ const { basics, ingredients, portion_sizes } = Astro.props as IngredientsProps;
         </div>
         <div class="space-x-0.5">
           <span>{label}</span>
-          {allergens.length > 0 && <strong class="font-normal">†</strong>}
+          {allergens.length > 0 && (<strong class="font-normal">†</strong>)}
         </div>
       </div>
     ))}

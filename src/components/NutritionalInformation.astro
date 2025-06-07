@@ -10,7 +10,7 @@ const perPortionValues = Object.fromEntries(
 const { energy_kcal, fat_mg, carbs_mg, fibre_mg, protein_mg, salt_mg } = perPortionValues;
 ---
 
-{perPortion && (Object.keys(perPortionValues).length > 0) &&
+{perPortion && (Object.keys(perPortionValues).length > 0) && (
   <div class="border-b  border-secondary-100  mb-8  pb-8">
     <h2 class="font-semibold  font-serif  mb-2  text-3xl">Nutritional information</h2>
     <p class="mb-8  text-secondary-800">Nutritional information only applies to ingredients supplied by Gousto.</p>
@@ -59,4 +59,4 @@ const { energy_kcal, fat_mg, carbs_mg, fibre_mg, protein_mg, salt_mg } = perPort
     </div>
     <p class="text-secondary-800">The cooking process and additional ingredients added at home (listed under &ldquo;You'll also need&rdquo;) will affect total values.</p>
   </div>
-}
+)}

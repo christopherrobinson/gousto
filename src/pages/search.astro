@@ -3,7 +3,6 @@ export const prerender = false;
 
 Astro.response.headers.set('Cache-Control', 'public, max-age=604800, s-maxage=604800');
 
-import Container from '@/components/Container.astro';
 import Pagination from '@/components/Helpers/Pagination.astro';
 import RecipeCard from '@/components/RecipeCard.astro';
 import Layout from '@/layouts/Default.astro';
@@ -52,13 +51,35 @@ if (!error) {
 }
 
 const hasResults = (recipes && (recipes.length > 0));
+
+const filters = {
+  calories: [
+    { label: 'Under 600 calories', value: '600' },
+    { label: 'Under 800 calories', value: '800' },
+    { label: 'Under 1,000 calories', value: '1000' },
+    { label: 'Over 1,000 calories', value: '>1000' },
+  ],
+  prepTimes: [
+    { label: 'Under 15 minutes', value: '15' },
+    { label: 'Under 30 minutes', value: '30' },
+    { label: 'Under 45 minutes', value: '45' },
+    { label: 'Under 1 hour', value: '60' },
+    { label: 'Over 1 hour', value: '>60' },
+  ],
+  sort: [
+    { label: 'Name (A-Z)', value: 'name_asc' },
+    { label: 'Name (Z-A)', value: 'name_desc' },
+    { label: 'Rating', value: 'rating' },
+    { label: 'Calories', value: 'calories' },
+  ],
+};
 ---
 
 <Layout heading="Search">
   <Container>
     <div class="pt-8  w-full">
       <form action="/search/" method="get">
-        <div class="flex-1  mb-4  w-full  md:mb-8">
+        <div class="flex-1  w-full">
           <label class="sr-only" for="q">Search</label>
           <div class="relative">
             <div class="absolute  flex  inset-y-0  items-center  pointer-events-none  ps-4  start-0">
@@ -81,144 +102,179 @@ const hasResults = (recipes && (recipes.length > 0));
             </button>
           </div>
         </div>
-        {(hasResults || selectedCuisine || selectedTime) && (
-          <div class="flex  flex-wrap  items-center  mb-4  space-x-4  space-y-2  text-sm  text-secondary-800  md:mb-8  md:space-x-8" id="filters">
-            {cuisines && (
-              <div class="flex  items-center  space-x-2">
-                <label class="font-normal  text-sm" for="cuisine">Cuisine</label>
-                <select
-                  class="bg-secondary-50  border  border-secondary-300  px-2  py-1  rounded-md"
-                  id="cuisine"
-                  name="cuisine"
-                >
-                  <option value="">All cuisines</option>
-                  {cuisines.map(({ label, value }) => (
-                    <option value={value} selected={selectedCuisine === value}>{label}</option>
-                  ))}
-                </select>
-              </div>
-            )}
-            <div class="flex  items-center  space-x-2">
-              <label class="font-normal text-sm" for="time">Prep Time</label>
-              <select
-                class="bg-secondary-50  border  border-secondary-300  px-2  py-1 § rounded-md"
-                id="time"
-                name="time"
-              >
-                <option value="">All prep times</option>
-                <option value="15" selected={selectedTime === '15'}>15 minutes or less</option>
-                <option value="30" selected={selectedTime === '30'}>30 minutes or less</option>
-                <option value="45" selected={selectedTime === '45'}>45 minutes or less</option>
-                <option value="60" selected={selectedTime === '60'}>Up to 1 hour</option>
-                <option value=">60" selected={selectedTime === '>60'}>Over 1 hour</option>
-              </select>
-            </div>
-            <div class="flex  items-center  space-x-2">
-              <label class="font-normal text-sm" for="time">Calories (per portion)</label>
-              <select
-                class="bg-secondary-50  border  border-secondary-300  px-2  py-1 § rounded-md"
-                id="calories"
-                name="calories"
-              >
-                <option value="">All calories</option>
-                <option value="600" selected={selectedCalories === '600'}>600 calories or less</option>
-                <option value="800" selected={selectedCalories === '800'}>800 calories or less</option>
-                <option value="1000" selected={selectedCalories === '1000'}>1,000 calories or less</option>
-                <option value=">1000" selected={selectedCalories === '>1000'}>Over 1,000 calories</option>
-              </select>
-            </div>
-            <div class="flex  items-center  ml-auto  space-x-2">
-              <label class="font-normal text-sm" for="sort">Sort by</label>
-              <select
-                class="bg-secondary-50  border  border-secondary-300  px-2  py-1 § rounded-md"
-                id="sort"
-                name="sort"
-              >
-                <option value="">Default</option>
-                <option value="name_asc" selected={sort === 'name_asc'}>Name (A-Z)</option>
-                <option value="name_desc" selected={sort === 'name_desc'}>Name (Z-A)</option>
-                <option value="rating" selected={sort === 'rating'}>Rating</option>
-                <option value="calories" selected={sort === 'calories'}>Calories</option>
-              </select>
-            </div>
-          </div>
-        )}
       </form>
     </div>
-    {hasResults ? (
-      <div class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
-        {recipes?.map(({ cuisine, image, nutritional_information, prep_times, rating, title, url }) => (
-          <RecipeCard
-            cuisine={cuisine}
-            id={url}
-            image={image}
-            nutritional_information={nutritional_information}
-            prep_times={prep_times}
-            rating={rating}
-            title={title}
-          />
-        ))}
+    <div class="gap-4  grid  lg:gap-8  lg:grid-cols-4  xl:grid-cols-5  print:grid-cols-1">
+      <div class="col-span-1  hidden  py-4  lg:block  lg:py-8  print:col-span-1">
+        <div class="md:sticky  md:top-[34px]">
+          <div class="space-y-8  text-secondary-800">
+            <div class="space-y-4">
+              <div class="border-secondary-100  border-b  flex  items-center  justify-between  pb-2">
+                <h3 class="font-normal">Sort by</h3>
+                <div class="flex  items-center  space-x-2">
+                  {sort &&
+                    <a
+                      class="text-primary-600  text-sm  hover:underline"
+                      href={updateQueryParams(Astro.url, [{ sort: false }])}
+                    >
+                      (reset)
+                    </a>
+                  }
+                  <Icon name="sort" />
+                </div>
+              </div>
+              <div class="text-sm">
+                <ul>
+                  {filters.sort?.map(({ label, value }) => (
+                    <li>
+                      <a
+                        class={`
+                          flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
+                          ${sort === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                        `}
+                        href={updateQueryParams(Astro.url, [{ sort: (sort === value  ? false : value) }])}
+                      >
+                        <span>{label}</span>
+                        {sort === value &&
+                          <Icon class="text-primary-600" name="check" />
+                        }
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="border-secondary-100  border-b  flex  items-center  justify-between  pb-2">
+                <h3 class="font-normal">Filters</h3>
+                <div class="flex  items-center  space-x-2">
+                  {(selectedCalories || selectedCuisine || selectedTime) &&
+                    <a
+                      class="text-primary-600  text-sm  hover:underline"
+                      href={updateQueryParams(Astro.url, [{ cuisine: false }, { calories: false }, { time: false }])}
+                    >
+                      (reset)
+                    </a>
+                  }
+                  <Icon name="sliders" />
+                </div>
+              </div>
+              <div class="text-sm">
+                <div class="flex  items-center  mb-2  space-x-2">
+                  <strong class="block  font-normal">Calories <small class="font-light">(per portion)</small></strong>
+                  {(selectedCalories) &&
+                    <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
+                  }
+                </div>
+                <div class="max-h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+                  <ul>
+                    {filters.calories?.map(({ label, value }) => (
+                      <li>
+                        <a
+                          class={`
+                            flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
+                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                          `}
+                          href={updateQueryParams(Astro.url, [{ calories: (selectedCalories === value ? false : value) }])}
+                        >
+                          <span>{label}</span>
+                          {selectedCalories === value &&
+                            <Icon class="text-primary-600" name="check" />
+                          }
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div class="text-sm">
+                <div class="flex  items-center  mb-2  space-x-2">
+                  <strong class="block  font-normal">Cuisine</strong>
+                  {(selectedCuisine) &&
+                    <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
+                  }
+                </div>
+                <div class="max-h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+                  <ul>
+                    {cuisines?.map(({ label, value }) => (
+                      <li>
+                        <a
+                          class={`
+                            flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
+                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                          `}
+                          href={updateQueryParams(Astro.url, [{ cuisine: (selectedCuisine === value ? false : value) }])}
+                        >
+                          <span>{label}</span>
+                          {selectedCuisine === value &&
+                            <Icon class="text-primary-600" name="check" />
+                          }
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div class="text-sm">
+                <div class="flex  items-center  mb-2  space-x-2">
+                  <strong class="block  font-normal">Prep Time</strong>
+                  {(selectedTime) &&
+                    <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
+                  }
+                </div>
+                <div class="max-h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+                  <ul>
+                    {filters.prepTimes?.map(({ label, value }) => (
+                      <li>
+                        <a
+                          class={`
+                            flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
+                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                          `}
+                          href={updateQueryParams(Astro.url, [{ time: (selectedTime === value ? false : value) }])}
+                        >
+                          <span>{label}</span>
+                          {selectedTime === value &&
+                            <Icon class="text-primary-600" name="check" />
+                          }
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    ) : (
-      <p class="py-8  text-center">{error}</p>
-    )}
-    {hasResults && (
-      <Pagination
-        baseUrl={`/search/`}
-        currentPage={page}
-        forceQueryString={true}
-        total={totalResults}
-        totalPages={totalPages}
-      />
-    )}
+      <div class="col-span-1  lg:col-span-3  xl:col-span-4  print:col-span-1">
+        {hasResults ? (
+          <div class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
+            {recipes?.map(({ cuisine, image, nutritional_information, prep_times, rating, title, url }) => (
+              <RecipeCard
+                cuisine={cuisine}
+                id={url}
+                image={image}
+                nutritional_information={nutritional_information}
+                prep_times={prep_times}
+                rating={rating}
+                title={title}
+              />
+            ))}
+          </div>
+        ) : (
+          <p class="py-8  text-center">{error}</p>
+        )}
+        {hasResults && (
+          <Pagination
+            baseUrl={`/search/`}
+            currentPage={page}
+            forceQueryString={true}
+            total={totalResults}
+            totalPages={totalPages}
+          />
+        )}
+      </div>
+    </div>
   </Container>
 </Layout>
-
-<script>
-  const attachFilterListeners = () => {
-    const form = document.querySelector('form');
-    const searchInput = form.querySelector('[name="q"]');
-    const filterElements = ['calories', 'cuisine', 'sort', 'time'].map(name => form.querySelector(`[name="${name}"]`)).filter(Boolean);
-
-    const buildQuery = () => {
-      const params = new URLSearchParams();
-      const query = searchInput?.value.trim();
-
-      if (query)
-        params.set('q', query);
-
-      const calories = form.querySelector('[name="calories"]')?.value;
-      if (calories)
-        params.set('calories', calories);
-
-      const cuisine = form.querySelector('[name="cuisine"]')?.value;
-      if (cuisine)
-        params.set('cuisine', cuisine);
-
-      const time = form.querySelector('[name="time"]')?.value;
-      if (time)
-        params.set('time', time);
-
-      const sort = form.querySelector('[name="sort"]')?.value;
-      if (sort)
-        params.set('sort', sort);
-
-      return params.toString();
-    };
-
-
-    const submitWithCleanParams = (e) => {
-      e.preventDefault();
-
-      const query = buildQuery();
-      const path = form.getAttribute('action') || location.pathname;
-
-      window.location.href = `${path}?${query}`;
-    };
-
-    filterElements.forEach((el) => el.addEventListener('change', submitWithCleanParams));
-    form.addEventListener('submit', submitWithCleanParams);
-  };
-
-  document.addEventListener('astro:page-load', attachFilterListeners);
-</script>

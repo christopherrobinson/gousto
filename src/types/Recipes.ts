@@ -1,6 +1,6 @@
 export interface RecipesProps {
   baseUrl: string;
-  content: string;
+  content?: string;
   currentPage: number;
   data: any;
   filters: any;

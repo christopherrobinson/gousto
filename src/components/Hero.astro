@@ -1,6 +1,5 @@
 ---
 import { type HeroProps } from '@/types/Hero';
-import Container from '@/components/Container.astro';
 import HeroRecipe from '@/components/HeroRecipe.astro';
 
 const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
@@ -11,7 +10,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
     <div class="gap-8  grid  items-center  justify-between  py-8  relative  md:grid-cols-2  md:py-16">
       <div class="flex-1  space-y-6  text-center  md:space-y-8  md:text-left">
         <h1 class="font-semibold  font-serif  leading-11  text-4xl  md:text-4xl  lg:leading-16  lg:text-6xl">
-          Discover <span class="text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
+          Discover <span class="font-bold  text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
           delicious recipes
         </h1>
         <p class="md:leading-8  md:text-lg  lg:text-xl">

@@ -1,6 +1,5 @@
 ---
 import Benefits from '@/components/Benefits.astro';
-import Container from '@/components/Container.astro';
 import Hero from '@/components/Hero.astro';
 import Layout from '@/layouts/Default.astro';
 
@@ -11,10 +10,10 @@ const recipes = await getRecipes();
 const featuredRecipes = await getRecipes({
   recipes: [
     'garlicky-king-prawns-with-tomato-and-green-butter-orzo',
-    'buffalo-chicken-shawarma-kebab',
+    'buffalo-chicken-breast-shawarma-kebab',
     'crispy-ras-el-hanout-chicken-with-giant-couscous-and-tahini-yoghurt',
-    'halloumi-and-courgette-tray-bake',
     'korean-style-mushroom-bibimbap',
+    'halloumi-and-courgette-tray-bake',
     'simply-perfect-lean-beef-spag-bol',
     'creole-style-haddock-and-sweet-potato-stew-with-garlic-rice',
     'chilli-garlic-and-jumbo-prawn-spaghetti',
