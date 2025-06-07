@@ -1,0 +1,123 @@
+---
+import { GET } from './api/ingredients.ts'
+import RecipeCardSkeleton from '@/components/Skeleton/RecipeCard.astro';
+import Layout from '@/layouts/Default.astro';
+
+const response = await GET(Astro);
+const ingredients = response.ok ? await response.json() : [];
+---
+
+<Layout heading="Have ingredients? Need recipes?">
+  <Container>
+    <div class="max-w-none  prose  py-4  lg:py-8">
+      <p>Don't let those leftover ingredients go to waste. With our ingredient-powered recipe finder, you can turn whatever's in your fridge or pantry into something delicious. Just type in what you've got, like <strong>chicken</strong>, <strong>broccoli</strong>, and <strong>soy sauce</strong>, and we'll suggest recipes that include your chosen items.</p>
+      <p>Whether you're working with a few basics or planning around a specific item, this feature helps you skip the guesswork and find meals that fit what you already have. It's fast, flexible, and perfect for reducing food waste or saving a last-minute grocery trip. Ready to discover the meals hiding in plain sight? Start entering your ingredients and get inspired by what you can make tonight.</p>
+    </div>
+    {ingredients.length > 0 && (
+      <select
+        data-placeholder="Start typing to choose ingredients…"
+        id="ingredient-select"
+        multiple
+      >
+        {ingredients.map(i => <option value={i.label}>{i.name}</option>)}
+      </select>
+      <div
+        class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8"
+        id="recipes">
+      </div>
+      <div
+        class="gap-4  hidden  py-4  xs:grid-cols-2  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8"
+        id="loading"
+      >
+        {Array.from({ length: 4 }, () => <RecipeCardSkeleton />)}
+      </div>
+      <div
+        class="hidden py-4  text-center  text-sm  text-secondary-700"
+        id="no-recipes"
+      >
+        No recipes found with the selected ingredients.
+      </div>
+    )}
+
+    <script>
+      import Choices from 'choices.js';
+      import { renderRecipeCard } from '/src/helpers/renderRecipeCard.ts';
+
+      const container = document.getElementById('recipes');
+      const loadingDiv = document.getElementById('loading');
+      const noRecipesDiv = document.getElementById('no-recipes');
+
+      window.fetchRecipes = async function(selectedIngredients) {
+        loadingDiv.classList.remove('hidden');
+        loadingDiv.classList.add('grid');
+        container.innerHTML = '';
+        noRecipesDiv.classList.add('hidden');
+
+        const query = encodeURIComponent(selectedIngredients.join(','));
+        const response = await fetch(`/api/recipes/?ingredients=${query}`);
+
+        loadingDiv.classList.remove('grid');
+        loadingDiv.classList.add('hidden');
+
+        if (!response.ok) {
+          noRecipesDiv.textContent = "Error fetching recipes.";
+          noRecipesDiv.classList.remove('hidden');
+          return;
+        }
+
+        const recipes = response.ok ? await response.json() : [];
+
+        if (recipes.length === 0) {
+          noRecipesDiv.textContent = "No recipes found with the selected ingredients.";
+          noRecipesDiv.classList.remove('hidden');
+          return;
+        }
+
+        container.innerHTML = recipes.map(renderRecipeCard).join('');
+      }
+
+
+
+      document.addEventListener('astro:page-load', function() {
+        const select = document.querySelector('#ingredient-select');
+
+        if (!select) {
+          return;
+        }
+
+        const choices = new Choices(select, {
+          addChoices: true,
+          classNames: {
+            button: ['bg-white', 'border', 'border-secondary-200', 'cursor-pointer', '-indent-64', 'overflow-hidden', 'p-1', 'size-4', 'rounded-sm', 'transition', 'hover:border-primary-600', 'hover:text-primary-600'],
+            containerInner: ['flex', 'flex-col', 'gap-2', 'items-start', 'relative'],
+            containerOuter: ['relative'],
+            input: ['bg-white', 'border', 'border-secondary-200', 'px-3', 'py-2', 'rounded-lg', 'text-secondary-800', '!w-full', 'hover:border-secondary-400'],
+            item: ['bg-secondary-50', 'border', 'border-secondary-200', 'flex', 'items-center', 'justify-between', 'gap-2', 'px-2', 'py-1', 'rounded-lg', 'text-sm', 'text-nowrap'],
+            itemChoice: [ 'cursor-pointer', 'px-3', 'py-2', 'text-sm', 'hover:bg-secondary-100'],
+            list: ['flex', 'flex-wrap', 'gap-2'],
+            listDropdown: ['choices--list__dropdown', 'absolute', 'bg-white', 'border', 'border-secondary-200', 'hidden', 'mt-4', 'p-4', 'rounded-lg', 'text-sm', 'top-full', 'w-full', 'z-10', '[.is-open_&]:block'],
+          },
+          closeDropdownOnSelect: true,
+          duplicateItemsAllowed: false,
+          itemSelectText: '',
+          maxItemCount: 6,
+          removeItemButton: true,
+          searchEnabled: false,
+          shouldSort: false,
+        });
+
+        select.addEventListener('change', () => {
+          const selected = Array.from(select.selectedOptions).map(option => option.value);
+
+          if (selected.length > 0) {
+            window.fetchRecipes?.(selected);
+          }
+          else {
+            document.getElementById('recipes').innerHTML = '';
+            document.getElementById('no-recipes')?.classList.add('hidden');
+          }
+        });
+      });
+    </script>
+  </Container>
+</Layout>

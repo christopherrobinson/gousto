@@ -3,6 +3,7 @@ interface GetRecipesFromSupabaseParams {
   filters?: {
     calories?: string;
     cuisine?: string;
+    ingredients?: string;
     time?: string;
   };
   page: number;
@@ -19,14 +20,15 @@ export const getRecipesFromSupabase = async ({
   const to = from + recipesPerPage - 1;
 
   const baseFilter = (q: ReturnType<typeof supabaseClient.from>) => {
-    q.or(`title.ilike.%${query}%,description.ilike.%${query}%,ingredients.ilike.%${query}%`);
+    q.or(`title.ilike.%${query}%,description.ilike.%${query}%,ingredients_list.ilike.%${query}%`);
 
     if (filters?.calories) {
       const calorieField = 'nutritional_information->per_portion->energy_kcal';
 
       if (filters.calories === '>1000') {
         q.gte(calorieField, 1000);
-      } else {
+      }
+      else {
         q.lte(calorieField, Number(filters.calories));
       }
     }
@@ -35,12 +37,19 @@ export const getRecipesFromSupabase = async ({
       q.ilike('cuisine', filters.cuisine);
     }
 
+    if (filters?.ingredients?.length) {
+      for (const ingredient of filters.ingredients.split(',')) {
+        q.ilike('ingredients_list', `%${ingredient}%`);
+      }
+    }
+
     if (filters?.time) {
       const timeField = 'prep_times->for_2';
 
       if (filters.time === '>60') {
         q.gte(timeField, 60);
-      } else {
+      }
+      else {
         q.lte(timeField, Number(filters.time));
       }
     }
