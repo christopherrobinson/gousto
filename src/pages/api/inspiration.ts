@@ -4,8 +4,8 @@ export const prerender = false;
 
 export const GET: APIRoute = async () => {
   try {
-    const { data: recipes } = await supabaseClient.rpc('get_random_recipes', { limit_count: inspirationRecipeCount });
-    const recipesJSON = recipes.map(({ cuisine, image, prep_times, rating, url, title }) => ({
+    const { data } = await supabaseClient.rpc('get_random_recipes', { limit_count: inspirationRecipeCount });
+    const response = data.map(({ cuisine, image, prep_times, rating, url, title }) => ({
       cuisine: cuisine,
       id: url,
       image: image,
@@ -14,7 +14,7 @@ export const GET: APIRoute = async () => {
       title: title,
     }));
 
-    return new Response(JSON.stringify(recipesJSON), {
+    return new Response(JSON.stringify(response), {
       headers: {
         'Cache-Control': 'public, max-age=604800, s-maxage=604800',
         'Content-Type': 'application/json',
@@ -23,7 +23,9 @@ export const GET: APIRoute = async () => {
   }
   catch (error) {
     return new Response(JSON.stringify({ error: 'Failed to retrieve recipes.' }), {
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+      },
       status: 500,
     });
   }

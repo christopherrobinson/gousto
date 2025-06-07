@@ -2,40 +2,63 @@ export const deduplicateRecipesByTitle = (
   recipes: any[],
   removeXL: boolean = false
 ): any[] => {
-  const seenSlugs = new Set<string>();
-  const deduplicated: any[] = [];
+  const premiumRegex = /^\[premium (pro|prot|prot\.|protein|proteins)\]\s*/i;
+  const grouped = new Map<string, { normal?: any; premium?: any }>();
 
-  for (const recipe of recipes.sort((a, b) => a.data.title.localeCompare(b.data.title))) {
-    const rawTitle = recipe.data.title;
+  for (const recipe of recipes) {
+    let title = recipe.data.title?.trim();
 
-    if (removeXL && /\bXL\b/.test(rawTitle)) {
+    if (!title) {
       continue;
     }
 
-    const slug = createSlug(rawTitle);
+    const isPremium = premiumRegex.test(title);
+    const strippedTitle = isPremium ? title.replace(premiumRegex, '').trim() : title;
 
-    // Check for suffix presence
-    const hasSuffix = ignoredRecipeSuffixes.some(suffix => slug.endsWith(`-${createSlug(suffix)}`));
+    if (removeXL && /\bXL\b/.test(strippedTitle)) {
+      continue;
+    }
 
-    // Strip suffix if present to get base slug
-    let baseSlug = slug;
+    let slug = createSlug(strippedTitle);
 
+    // Strip known suffixes
     for (const suffix of ignoredRecipeSuffixes) {
       const slugSuffix = `-${createSlug(suffix)}`;
 
-      if (baseSlug.endsWith(slugSuffix)) {
-        baseSlug = baseSlug.slice(0, -slugSuffix.length);
+      if (slug.endsWith(slugSuffix)) {
+        slug = slug.slice(0, -slugSuffix.length);
 
         break;
       }
     }
 
-    if (hasSuffix && seenSlugs.has(baseSlug)) {
-      continue;
+    // Group recipes by base slug
+    if (!grouped.has(slug)) {
+      grouped.set(slug, {});
     }
 
-    seenSlugs.add(baseSlug);
-    deduplicated.push(recipe);
+    const entry = grouped.get(slug)!;
+    if (isPremium) {
+      entry.premium = { recipe, strippedTitle };
+    }
+    else {
+      entry.normal = { recipe, strippedTitle };
+    }
+  }
+
+  const deduplicated: any[] = [];
+
+  for (const { normal, premium } of grouped.values()) {
+    if (normal) {
+      deduplicated.push(normal.recipe);
+    }
+    else if (premium) {
+      // Update premium recipe to look like a non-premium one
+      premium.recipe.data.title = premium.strippedTitle;
+      premium.recipe.id = createSlug(premium.strippedTitle);
+
+      deduplicated.push(premium.recipe);
+    }
   }
 
   return deduplicated;

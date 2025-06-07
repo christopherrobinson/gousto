@@ -22,7 +22,7 @@ const cuisines = await getCuisines();
         <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
       }
     </div>
-    <div class="h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+    <div class="max-h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
       <ul>
         {categories.map(({ name, slug }) => (
           <li>
@@ -50,7 +50,7 @@ const cuisines = await getCuisines();
         <span class="bg-primary-600  block  rounded-full  size-4  text-center  text-white  text-xs">1</span>
       }
     </div>
-    <div class="h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
+    <div class="max-h-[140px]  overflow-y-scroll  pe-2  scrollbar  scrollbar-track-rounded-full  scrollbar-track-secondary-200  scrollbar-thumb-rounded-full  scrollbar-thumb-secondary-900  scrollbar-w-2">
       <ul>
         {cuisines.map(({ name, slug }) => (
           <li>

@@ -2,7 +2,6 @@
 import Allergens from '@/components/Allergens.astro';
 import Benefits from '@/components/Benefits.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
-import Container from '@/components/Container.astro';
 import Ingredients from '@/components/Ingredients.astro';
 import NutritionalInformation from '@/components/NutritionalInformation.astro';
 import RecipeStructuredData from '@/components/StructuredData/Recipe.astro';
@@ -11,7 +10,7 @@ import Layout from '@/layouts/Default.astro';
 export const getStaticPaths = async () => {
   const pages = await getRecipes();
 
-  return pages.map((page) => ({
+  return pages.sort((a, b) => a.id.localeCompare(b.id)).map((page) => ({
     params: {
       slug: page.id,
     },

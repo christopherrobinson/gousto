@@ -25,6 +25,7 @@ export default defineConfig({
   },
   experimental: {
     contentIntellisense: true,
+    responsiveImages: true,
   },
   i18n: {
     defaultLocale: 'en',
@@ -32,6 +33,7 @@ export default defineConfig({
   },
   image: {
     domains: ['images.gousto.wiki'],
+    experimentalDefaultStyles: false,
   },
   integrations: [
     icon({ iconDir: './src/images/icons' }),
@@ -59,6 +61,7 @@ export default defineConfig({
       tailwindcss(),
       Unimport.vite({
         dirs: [
+          './src/components/**/*',
           './src/config/**/*',
           './src/helpers/**/*',
         ],

@@ -1,5 +1,5 @@
 export const useRemoteImageUrl = (url: string, params: string): string => {
-  const baseUrl = 'https://wsrv.nl/?url=https://images.gousto.wiki/';
+  const baseUrl = 'https://wsrv.nl/?url=images.gousto.wiki/';
 
   // Ensure url is valid and starts with '/images/'
   if (!url || !url.startsWith('/images/')) {

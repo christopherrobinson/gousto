@@ -15,30 +15,28 @@
     "dev": "astro dev",
     "preview": "astro preview"
   },
-  "dependencies": {
-    "@astrojs/cloudflare": "^12.5.3",
-    "@astrojs/sitemap": "^3.4.0",
-    "@supabase/supabase-js": "^2.49.4",
-    "astro": "^5.8.1",
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/cloudflare": "^12.5.4",
+    "@astrojs/sitemap": "^3.4.1",
+    "@supabase/supabase-js": "2.49.8",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.8",
+    "@types/node": "^22.15.30",
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
+    "astro": "^5.9.1",
     "astro-capo": "^0.0.1",
     "astro-compress": "^2.3.8",
     "astro-icon": "^1.1.5",
     "choices.js": "^11.1.0",
-    "string-strip-html": "^13.4.12"
-  },
-  "devDependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.8",
-    "@types/node": "^22.15.29",
-    "@vitejs/plugin-basic-ssl": "^2.0.0",
     "puppeteer": "^24.10.0",
+    "string-strip-html": "^13.4.12",
     "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3",
     "unimport": "^5.0.1",
     "vite": "^6.3.5",
-    "wrangler": "^4.18.0"
+    "wrangler": "^4.19.1"
   },
   "packageManager": "yarn@4.9.1"
 }

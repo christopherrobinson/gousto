@@ -20,9 +20,9 @@ const metaTitle = stripHtml(title ?? '').result || site.name;
 <link rel="icon" href={faviconSvg.src} type="image/svg+xml" />
 <link rel="manifest" href="/manifest.json" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
-{description !== undefined &&
+{(description !== undefined) && (
   <meta name="description" content={stripHtml(description).result} />
-}
+)}
 
 <!-- Open Graph -->
 {og && Object.entries(og).map(([key, value]) => (
