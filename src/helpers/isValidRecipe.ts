@@ -1,11 +1,6 @@
 export const isValidRecipe = (recipe: { data: any }): boolean => {
   const { data } = recipe;
 
-  // Don't include recipes in the "Oven Ready" category
-  if (Array.isArray(data.categories) && data.categories.includes('Oven Ready')) {
-    return false;
-  }
-
   // Must not have a title that starts with "Oven Ready" or "Oven-Ready" (case-insensitive, optional space/hyphen)
   if (typeof data.title === 'string' && (/^oven[- ]ready/.test(data.title.trim().toLowerCase()))) {
     return false;

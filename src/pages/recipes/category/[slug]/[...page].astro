@@ -31,7 +31,7 @@ const entry = await getEntry('categories', slug);
 <Layout heading={`${name} Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
   <Recipes
     baseUrl={`/recipes/category/${slug}/`}
-    content={entry.rendered.html}
+    content={entry?.rendered.html}
     currentPage={currentPage}
     data={data}
     filters={{ selectedCategory: name }}
