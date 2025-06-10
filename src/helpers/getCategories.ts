@@ -1,6 +1,12 @@
 let categoryCache: { name: string; slug: string; combinedCategories: string[] }[] | null = null;
 
-const excludedCategories = new Set(['All Gousto Recipes', 'All Recipes']); // List of categories to exclude
+const cuisines = await getCuisines();
+const excludedCategories = new Set(['12', 'All Gousto', 'All', 'Test']); // List of categories to exclude
+
+// Add each cuisine name to the exclusion set
+for (const { name } of cuisines) {
+  excludedCategories.add(name);
+}
 
 // Helper function to strip " recipes" and similar suffixes (case-insensitive)
 const stripCategoryName = (name: string): string => {
@@ -22,6 +28,18 @@ const normaliseCategoryName = (category: string): string => {
 
   if (trimmedCategory === "Dairy-Free" || trimmedCategory === "Dairy Free") {
     return "Dairy-Free";
+  }
+
+  if (trimmedCategory === "Easter" || trimmedCategory === "Easter 2") {
+    return "Easter";
+  }
+
+  if (trimmedCategory === "Father's Day" || trimmedCategory === "Father's Day 2") {
+    return "Father's Day";
+  }
+
+  if (trimmedCategory === "Festive Flavours" || trimmedCategory === "Festive Flavours 2019") {
+    return "Festive Flavours";
   }
 
   if (trimmedCategory === "Gluten-Free" || trimmedCategory === "Gluten Free") {
@@ -54,19 +72,20 @@ export const getCategories = async () => {
 
     if (Array.isArray(recipeCategories)) {
       recipeCategories.forEach(category => {
-        if (typeof category === 'string' && !excludedCategories.has(category)) {
+
+        if (typeof category === 'string') {
           const normalisedCategory = normaliseCategoryName(category);
 
-          // If the normalised category doesn't exist in the map, create it
-          if (!categoryMap.has(normalisedCategory)) {
-            categoryMap.set(normalisedCategory, {
-              name: normalisedCategory,
-              combinedCategories: new Set([category]) // Start with the original category
-            });
-          } else {
-            // If the normalised category already exists, add the original category to the combined list
-            const existingCategory = categoryMap.get(normalisedCategory);
-            existingCategory?.combinedCategories.add(category); // Use Set to avoid duplicates
+          if (!excludedCategories.has(normalisedCategory)) {
+            if (!categoryMap.has(normalisedCategory)) {
+              categoryMap.set(normalisedCategory, {
+                name: normalisedCategory,
+                combinedCategories: new Set([category])
+              });
+            }
+            else {
+              categoryMap.get(normalisedCategory)?.combinedCategories.add(category);
+            }
           }
         }
       });
