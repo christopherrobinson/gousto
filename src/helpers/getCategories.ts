@@ -55,7 +55,7 @@ export const getCategories = async () => {
   }
 
   // Convert the Set to an array and prepare the final category list
-  const result = sortByStringProperty(
+  categoryCache = sortByStringProperty(
     Array.from(categoryMap.values()),
     'name'
   ).map(({ name, combinedCategories }) => ({
@@ -63,8 +63,6 @@ export const getCategories = async () => {
     slug: `/recipes/category/${createSlug(name)}/`, // Create the slug
     combinedCategories: Array.from(combinedCategories) // Convert Set to array
   }));
-
-  categoryCache = result;
 
   return categoryCache;
 };

@@ -33,9 +33,7 @@ export const getIngredients = async () => {
     }
   });
 
-  const result = Array.from(ingredientMap.values()).sort((a, b) => a.label.localeCompare(b.label));
-
-  ingredientCache = result;
+  ingredientCache = Array.from(ingredientMap.values()).sort((a, b) => a.label.localeCompare(b.label));
 
   return ingredientCache;
 };

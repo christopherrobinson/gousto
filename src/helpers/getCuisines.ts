@@ -19,15 +19,13 @@ export const getCuisines = async () => {
 
   const entries = Array.from(recipesCount.entries()) as [string, number][];
 
-  const result = entries
+  cuisineCache = entries
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([name, count]) => ({
       name: name,
       recipes: count,
       slug: `/recipes/cuisine/${createSlug(name)}/`,
     }));
-
-  cuisineCache = result;
 
   return cuisineCache;
 };
