@@ -1,25 +1,11 @@
 export const isValidRecipe = (recipe: { data: any }): boolean => {
   const { data } = recipe;
 
-  // Must not have a title that starts with "Oven Ready" or "Oven-Ready" (case-insensitive, optional space/hyphen)
-  if (typeof data.title === 'string' && (/^oven[- ]ready/.test(data.title.trim().toLowerCase()))) {
-    return false;
-  }
-
-  // Must have ingredients
-  if (!Array.isArray(data.ingredients) || data.ingredients.length === 0) {
-    return false;
-  }
-
-  // Must have cooking instructions
-  if (!Array.isArray(data.cooking_instructions) || data.cooking_instructions.length === 0) {
-    return false;
-  }
-
-  // Must have a valid prep time
-  if (typeof data.prep_times?.for_2 !== 'number') {
-    return false;
-  }
-
-  return true;
-}
+  return (
+       isNonEmptyString(data?.title)                        // Must have a title
+    && (!/^oven[- ]ready/.test(normaliseText(data?.title))) // Title should not start with "Oven Ready" or "Oven-Ready" (case-insensitive, optional space/hyphen)
+    && isNonEmptyArray(data?.ingredients)                   // Must have ingredients
+    && isNonEmptyArray(data?.cooking_instructions)          // Must have cooking instructions
+    && isValidNumber(data?.prep_times?.for_2)               // Must have a prep time for 2
+  );
+};
