@@ -1,31 +1,19 @@
-let cuisineCache: Map<string, any[]> = new Map();
-let isCachePopulated = false; // Track if cache is populated
-
 export const getRecipesByCuisine = async (cuisine: string) => {
-  // If the cache is populated, just return the data
-  if (isCachePopulated) {
-    return cuisineCache.get(cuisine) || [];
+  const cacheKey = createCacheKey('recipes-by-cuisine', cuisine);
+
+  // Check if we have cached results for this cuisine
+  const cached = recipeCache.get(cacheKey);
+
+  if (cached) {
+    return cached;
   }
 
-  // Cache hasn't been populated yet, so populate the cache first
+  // Get all recipes and filter by cuisine
   const recipes = await getRecipes();
+  const filteredRecipes = recipes.filter(recipe => recipe.data.cuisine === cuisine);
 
-  // Group recipes by cuisine once
-  recipes.forEach(recipe => {
-    const cuisineKey = recipe.data.cuisine;
+  // Cache the result
+  recipeCache.set(cacheKey, filteredRecipes);
 
-    if (cuisineKey) {
-      if (!cuisineCache.has(cuisineKey)) {
-        cuisineCache.set(cuisineKey, []);
-      }
-
-      cuisineCache.get(cuisineKey)?.push(recipe);
-    }
-  });
-
-  // Mark the cache as populated after the first pass
-  isCachePopulated = true;
-
-  // Return the filtered recipes for the requested cuisine
-  return cuisineCache.get(cuisine) || [];
+  return filteredRecipes;
 };

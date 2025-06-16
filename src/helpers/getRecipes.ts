@@ -9,21 +9,43 @@ type GetRecipesOptions = {
   recipes?: string[];
 };
 
-let recipeCache: any[] | null = null;
+// Base recipe cache for all recipes
+let baseRecipeCache: any[] | null = null;
 
 export const getRecipes = async (options: GetRecipesOptions = {}) => {
   const { limit, prepTime, categories, cuisine, ingredients, rating, recipes } = options;
 
-  if (!recipeCache) {
+  // Create cache key for this specific query
+  const cacheKey = createCacheKey(
+    'recipes',
+    JSON.stringify(categories?.sort()),
+    cuisine,
+    JSON.stringify(ingredients?.sort()),
+    typeof prepTime === 'object' ? JSON.stringify(prepTime) : prepTime,
+    typeof rating === 'object' ? JSON.stringify(rating) : rating,
+    JSON.stringify(recipes?.sort()),
+    limit,
+    options.randomise ? 'random' : 'ordered'
+  );
+
+  // Check if we have cached results for this exact query
+  const cachedResult = recipeCache.get(cacheKey);
+
+  if (cachedResult) {
+    return cachedResult;
+  }
+
+  // Load base recipe data if not already loaded
+  if (!baseRecipeCache) {
     const allRecipes = await getCollection('recipes');
     const validRecipes = allRecipes.filter(isValidRecipe);
     const deduplicatedRecipes = deduplicateRecipesByTitle(validRecipes, true);
 
-    recipeCache = deduplicatedRecipes.sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10));
+    baseRecipeCache = deduplicatedRecipes.sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10));
   }
 
   // Dynamic filtering on cached recipes - single pass for better performance
-  let filteredRecipes = recipeCache.filter(({ data }) => {
+  let filteredRecipes = baseRecipeCache.filter(({ data }) => {
     // Early exit optimisations - check most selective filters first
 
     // Filter by prep time (likely to be selective)
@@ -96,5 +118,12 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
   }
 
   // Apply limit if provided
-  return typeof limit === 'number' ? filteredRecipes.slice(0, limit) : filteredRecipes;
+  const result = typeof limit === 'number' ? filteredRecipes.slice(0, limit) : filteredRecipes;
+
+  // Cache the result for future use (don't cache randomized results)
+  if (!options.randomise) {
+    recipeCache.set(cacheKey, result);
+  }
+
+  return result;
 };

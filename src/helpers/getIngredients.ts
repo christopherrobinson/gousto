@@ -1,12 +1,14 @@
-let ingredientCache: typeof recipes[0]['data']['ingredients'][0][] | null = null;
-
 export const getIngredients = async () => {
-  if (ingredientCache) {
-    return ingredientCache;
+  const cacheKey = 'all-ingredients';
+
+  // Check cache first
+  const cached = ingredientCache.get(cacheKey);
+
+  if (cached) {
+    return cached;
   }
 
   const recipes = await getRecipes();
-
   const ingredientMap = new Map<string, typeof recipes[0]['data']['ingredients'][0]>();
 
   recipes.forEach(({ data }) => {
@@ -33,7 +35,10 @@ export const getIngredients = async () => {
     }
   });
 
-  ingredientCache = Array.from(ingredientMap.values()).sort((a, b) => a.label.localeCompare(b.label));
+  const result = Array.from(ingredientMap.values()).sort((a, b) => a.label.localeCompare(b.label));
 
-  return ingredientCache;
+  // Store in cache
+  ingredientCache.set(cacheKey, result);
+
+  return result;
 };

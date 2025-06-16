@@ -1,5 +1,3 @@
-let categoryCache: { name: string; slug: string; combinedCategories: string[] }[] | null = null;
-
 const cuisines = await getCuisines();
 const excludedCategories = new Set(['12', 'All Gousto', 'All', 'Test']);
 
@@ -55,9 +53,13 @@ const normaliseCategoryName = (category: string): string => {
 };
 
 export const getCategories = async () => {
-  // If categories are already cached, return them
-  if (categoryCache) {
-    return categoryCache;
+  const cacheKey = 'all-categories';
+
+  // Check cache first
+  const cached = categoryCache.get(cacheKey);
+
+  if (cached) {
+    return cached;
   }
 
   const recipes = await getRecipes(); // Fetch recipes
@@ -98,7 +100,7 @@ export const getCategories = async () => {
   }
 
   // Convert the Set to an array and prepare the final category list
-  categoryCache = Array.from(categoryMap.values())
+  const result = Array.from(categoryMap.values())
     .sort((a, b) => a.name.localeCompare(b.name)) // Sort the stripped category names alphabetically
     .map(({ name, combinedCategories }) => ({
       name,
@@ -106,5 +108,8 @@ export const getCategories = async () => {
       combinedCategories: Array.from(combinedCategories) // Convert Set to array
     }));
 
-  return categoryCache;
+  // Store in cache
+  categoryCache.set(cacheKey, result);
+
+  return result;
 };
