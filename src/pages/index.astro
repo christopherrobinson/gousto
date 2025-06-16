@@ -6,19 +6,7 @@ import Layout from '@/layouts/Default.astro';
 const categories = await getCategories();
 const cuisines = await getCuisines();
 const recipes = await getRecipes();
-// const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 1 });
-const featuredRecipes = await getRecipes({
-  recipes: [
-    'garlicky-king-prawns-with-tomato-and-green-butter-orzo',
-    'buffalo-chicken-breast-shawarma-kebab',
-    'crispy-ras-el-hanout-chicken-with-giant-couscous-and-tahini-yoghurt',
-    'korean-style-mushroom-bibimbap',
-    'halloumi-and-courgette-tray-bake',
-    'simply-perfect-lean-beef-spag-bol',
-    'creole-style-haddock-and-sweet-potato-stew-with-garlic-rice',
-    'chilli-garlic-and-jumbo-prawn-spaghetti',
-  ]
-});
+const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 4.5 });
 const metaTitle = `Gousto Recipe Search - ${recipes.length.toLocaleString()} Recipes`;
 const metaDescription = `Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.`;
 ---

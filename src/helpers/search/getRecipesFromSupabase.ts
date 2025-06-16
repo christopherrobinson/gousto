@@ -16,96 +16,46 @@ export const getRecipesFromSupabase = async ({
   page = 1,
   sort,
 }: GetRecipesFromSupabaseParams) => {
-  const from = (page - 1) * recipesPerPage;
-  const to = from + recipesPerPage - 1;
+  const limit = recipesPerPage;
+  const offset = (page - 1) * limit;
 
-  const baseFilter = (q: ReturnType<typeof supabaseClient.from>) => {
-    q.or(`title.ilike.%${query}%,description.ilike.%${query}%,ingredients_list.ilike.%${query}%`);
+  const { data, error } = await supabaseClient.rpc('search_recipes_unaccented', {
+    search_text: query,
+    calories_filter: nullIfEmpty(filters?.calories),
+    cuisine_filter: nullIfEmpty(filters?.cuisine),
+    ingredients_filter: nullIfEmpty(filters?.ingredients),
+    time_filter: nullIfEmpty(filters?.time),
+    result_limit: limit,
+    result_offset: offset,
+    sort_option: sort ?? null,
+  });
 
-    if (filters?.calories) {
-      const calorieField = 'nutritional_information->per_portion->energy_kcal';
+  if (error || !Array.isArray(data)) {
+    console.error('Supabase RPC error:', error);
 
-      if (filters.calories === '>1000') {
-        q.gte(calorieField, 1000);
-      }
-      else {
-        q.lte(calorieField, Number(filters.calories));
-      }
-    }
-
-    if (filters?.cuisine) {
-      q.ilike('cuisine', filters.cuisine);
-    }
-
-    if (filters?.ingredients?.length) {
-      for (const ingredient of filters.ingredients.split(',')) {
-        q.ilike('ingredients_list', `%${ingredient}%`);
-      }
-    }
-
-    if (filters?.time) {
-      const timeField = 'prep_times->for_2';
-
-      if (filters.time === '>60') {
-        q.gte(timeField, 60);
-      }
-      else {
-        q.lte(timeField, Number(filters.time));
-      }
-    }
-
-    return q;
-  };
-
-  // Main paginated recipe query
-  const recipeQuery = baseFilter(
-    supabaseClient.from('recipes').select('*', { count: 'exact' }).range(from, to)
-  );
-
-  switch (sort) {
-    case 'calories':
-      recipeQuery.order('nutritional_information->per_portion->energy_kcal', { ascending: true, nullsFirst: false });
-      break;
-    case 'name_asc':
-      recipeQuery.order('title', { ascending: true });
-      break;
-    case 'name_desc':
-      recipeQuery.order('title', { ascending: false });
-      break;
-    case 'rating':
-      recipeQuery.order('rating->average', { ascending: false, nullsFirst: false });
-      break;
-    default:
-      recipeQuery.order('gousto_id', { ascending: false });
+    return {
+      recipes: [],
+      cuisines: [],
+      total: 0,
+      error,
+    };
   }
 
-  // Distinct cuisine query (across all returned recipes)
-  const cuisineQuery = baseFilter(
-    supabaseClient
-      .from('recipes')
-      .select('cuisine', { distinct: true })
-      .neq('cuisine', null)
-  );
+  const recipes = data.map((entry) => entry.recipe);
+  const total = data[0]?.total_count ?? 0;
 
-  const [cuisineResponse, recipeResponse] = await Promise.all([
-    cuisineQuery,
-    recipeQuery,
-  ]);
-
-  // Normalised unique cuisine list (for dropdown filter)
-  const cuisines =
-    Array.from(
-      new Map(
-        (cuisineResponse.data ?? [])
-          .filter(r => r.cuisine)
-          .map(c => [c.cuisine.toLowerCase(), { label: c.cuisine, value: c.cuisine.toLowerCase() }])
-      ).values()
-    ).sort((a, b) => a.label.localeCompare(b.label));
+  const cuisines = Array.from(
+    new Map(
+      recipes
+        .filter(r => r.cuisine)
+        .map(c => [c.cuisine.toLowerCase(), { label: c.cuisine, value: c.cuisine.toLowerCase() }])
+    ).values()
+  ).sort((a, b) => a.label.localeCompare(b.label));
 
   return {
+    recipes,
     cuisines,
-    error: recipeResponse.error || cuisineResponse.error,
-    recipes: recipeResponse.data ?? [],
-    total: recipeResponse.count ?? 0,
+    total,
+    error: null,
   };
 };

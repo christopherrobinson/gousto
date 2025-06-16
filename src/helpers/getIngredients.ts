@@ -1,12 +1,12 @@
-let ingredientCache: typeof recipes[0]['data']['ingredients'][0][] | null = null;
+let ingredientCache: any[] | null = null;
 
 export const getIngredients = async () => {
+  // Check cache first
   if (ingredientCache) {
     return ingredientCache;
   }
 
   const recipes = await getRecipes();
-
   const ingredientMap = new Map<string, typeof recipes[0]['data']['ingredients'][0]>();
 
   recipes.forEach(({ data }) => {

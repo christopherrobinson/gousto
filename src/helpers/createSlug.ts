@@ -5,8 +5,8 @@ export const createSlug = (input: string | undefined | null): string => {
 
   return input
     .trim()
-    .replace(/[’‘]/g, "'")           // normalize apostrophes
-    .replace(/[“”]/g, '"')           // normalize quotes
+    .replace(/[’‘]/g, "'")           // normalise apostrophes
+    .replace(/[“”]/g, '"')           // normalise quotes
     .normalize('NFD')                // split accented letters
     .replace(/[\u0300-\u036f]/g, '') // remove diacritics
     .replace(/&/g, 'and')            // & to 'and'

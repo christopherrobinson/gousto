@@ -9,9 +9,11 @@ export const getCuisines = async () => {
 
   const recipesCount = recipes.reduce((map, { data }) => {
     const cuisine = data.cuisine;
+
     if (typeof cuisine === 'string') {
       map.set(cuisine, (map.get(cuisine) || 0) + 1);
     }
+
     return map;
   }, new Map<string, number>());
 

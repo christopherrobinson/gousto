@@ -29,5 +29,10 @@ export const GET: APIRoute = async () => {
     start_url: '/',
   };
 
-  return new Response(JSON.stringify(manifest));
+  return new Response(JSON.stringify(manifest), {
+    headers: {
+      'Cache-Control': 'public, max-age=604800, s-maxage=604800',
+      'Content-Type': 'application/json',
+    },
+  });
 }

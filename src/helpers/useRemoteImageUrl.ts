@@ -1,17 +1,16 @@
 export const useRemoteImageUrl = (url: string, params: string): string => {
-  const baseUrl = 'https://wsrv.nl/?url=images.gousto.wiki/';
-
-  // Ensure url is valid and starts with '/images/'
-  if (!url || !url.startsWith('/images/')) {
-    return url;
-  }
-
-  url = `${baseUrl}${url.replace(/^\/images\//, '')}`;
-  url = `${url}&fit=cover`;
+  // Parse params string into object
+  const paramObj: Record<string, string> = {};
 
   if (params) {
-    url = `${url}&${params}`;
+    params.split('&').forEach(param => {
+      const [key, value] = param.split('=');
+
+      if (key && value) {
+        paramObj[key] = value;
+      }
+    });
   }
 
-  return url;
+  return createImageUrl(url, paramObj);
 };
