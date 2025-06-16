@@ -22,8 +22,11 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
     recipeCache = deduplicatedRecipes.sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10));
   }
 
-  // Dynamic filtering on cached recipes
+  // Dynamic filtering on cached recipes - single pass for better performance
   let filteredRecipes = recipeCache.filter(({ data }) => {
+    // Early exit optimisations - check most selective filters first
+
+    // Filter by prep time (likely to be selective)
     if (typeof prepTime === 'number') {
       if (data.prep_times?.for_2 !== prepTime) {
         return false;
@@ -33,57 +36,48 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
       const { min, max } = prepTime;
       const time = data.prep_times?.for_2;
 
-      if (min !== undefined && time < min) {
-        return false;
-      }
-
-      if (max !== undefined && time > max) {
+      if ((min !== undefined && time < min) || (max !== undefined && time > max)) {
         return false;
       }
     }
 
-    // Filter by Category
+    // Filter by cuisine (exact match, fast)
+    if (cuisine && (typeof data.cuisine !== 'string' || data.cuisine !== cuisine)) {
+      return false;
+    }
+
+    // Filter by rating (numeric comparison, fast)
+    const ratingThreshold = typeof rating === 'number' ? rating : rating?.average;
+
+    if (ratingThreshold !== undefined) {
+      const averageRating = data.rating?.average;
+
+      if (typeof averageRating !== 'number' || averageRating < ratingThreshold) {
+        return false;
+      }
+    }
+
+    // Filter by categories (array operations, more expensive)
     if (categories && categories.length > 0) {
       if (!Array.isArray(data.categories) || !data.categories.some(category => categories.includes(category))) {
         return false;
       }
     }
 
-    // Filter by Cuisine
-    if (cuisine) {
-      if (typeof data.cuisine !== 'string' || data.cuisine !== cuisine) {
-        return false;
-      }
-    }
-
-    // Filter by Ingredients
+    // Filter by ingredients (most expensive - string operations)
     if (ingredients && ingredients.length > 0) {
-      if (
-        !Array.isArray(data.ingredients) ||
-        !ingredients.every(searchTerm =>
-          data.ingredients.some(ingredient =>
-            typeof ingredient.label === 'string' && ingredient.label.toLowerCase().includes(searchTerm.toLowerCase())
-          )
+      if (!Array.isArray(data.ingredients)) {
+        return false;
+      }
+
+      // Pre-compute lowercase search terms for efficiency
+      const lowerSearchTerms = ingredients.map(term => term.toLowerCase());
+
+      return lowerSearchTerms.every(searchTerm =>
+        data.ingredients.some(ingredient =>
+          typeof ingredient.label === 'string' && ingredient.label.toLowerCase().includes(searchTerm)
         )
-      ) {
-        return false;
-      }
-    }
-
-    // Filter by Rating if provided (supports both object { average: x } or direct number)
-    if (typeof rating === 'number') {
-      const averageRating = data.rating?.average;
-
-      if (typeof averageRating !== 'number' || averageRating < rating) {
-        return false;
-      }
-    }
-    else if (rating?.average !== undefined) {
-      const averageRating = data.rating?.average;
-
-      if (typeof averageRating !== 'number' || averageRating < rating.average) {
-        return false;
-      }
+      );
     }
 
     return true;
