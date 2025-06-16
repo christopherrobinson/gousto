@@ -37,7 +37,16 @@ export default defineConfig({
   },
   integrations: [
     icon({ iconDir: './src/images/icons' }),
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        // Exclude paginated URLs (e.g., /something/2/)
+        if (/\/\d+\/$/.test(page)) {
+          return false;
+        }
+
+        return true;
+      },
+    }),
     (await import('astro-compress')).default({
       CSS: true,
       HTML: false,
