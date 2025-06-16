@@ -3,7 +3,7 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_times, rating, title
 
   return `
     <a class="bg-white  border  border-secondary-100  flex  flex-col  group  h-full  overflow-hidden  rounded-lg  transition  hover:border-secondary-200  hover:shadow-sm" href="/recipes/${id}/">
-      <div class="aspect-square  bg-secondary-50  relative">
+      <div class="aspect-square  bg-secondary-100  relative">
         <div class="overflow-hidden">
           <picture>
             <source
