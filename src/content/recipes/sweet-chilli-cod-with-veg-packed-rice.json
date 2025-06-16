@@ -9,7 +9,7 @@
         "average": 4,
         "count": 148
     },
-    "description": "Who doesn't love a bit of sweet chilli? Here's our secret recipe for cod fillets, served up with rice that's packed with peas, carrots and sesame seeds. Yum! All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
+    "description": "Who doesn't love a bit of sweet chilli? Here's our secret recipe for cod fillets, served up with rice that's packed with peas, carrots and sesame seeds. Yum! Under 600 calories.",
     "prep_times": {
         "for_2": 20,
         "for_4": 25
@@ -51,12 +51,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Maple syrup (15g)",
-            "gousto_uuid": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
-            "allergens": [],
-            "image": "/images/ingredients/4c9e6ef0-9a83-4fe4-a792-0019ba935c0b.jpg"
         },
         {
             "label": "White long grain rice (65g) x0",
@@ -122,6 +116,12 @@
                 "soya"
             ],
             "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
+        },
+        {
+            "label": "Agave nectar (25g)",
+            "gousto_uuid": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+            "allergens": [],
+            "image": "/images/ingredients/eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80.jpg"
         }
     ],
     "basics": [
@@ -140,12 +140,12 @@
             "image": "/images/instructions/sweet-chilli-cod-with-veg-packed-rice/step-2.jpg"
         },
         {
-            "instruction": "<p>Combine your <strong>cornflour</strong> and <strong>half</strong> of your <strong>soy sauce</strong> (you'll use the rest later!) in a bowl</p><p>Add the <strong>chopped</strong> <strong>cod pieces</strong> and give everything a good mix up until fully coated</p><p>Boil half a kettle</p>",
+            "instruction": "<p>Combine your <strong>cornflour</strong> and <strong>half</strong> your <strong>soy sauce</strong> (you'll use the rest later!) in a bowl</p><p>Add the <strong>chopped</strong> <strong>cod pieces</strong> and give everything a good mix up until fully coated</p><p>Boil half a kettle</p>",
             "order": 3,
             "image": "/images/instructions/sweet-chilli-cod-with-veg-packed-rice/step-3.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the<strong> coated cod pieces </strong>to the pan and cook for 4-5 min on each side or until crispy and cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p><p>While the fish is cooking, combine your <strong>maple syrup</strong>, <strong>red chilli relish </strong>and 30ml <span class=\"text-purple\">[45ml]</span> <span class=\"text-danger\">[60ml]</span> <strong>cold water </strong>in a small bowl<strong> </strong>\u2013 this is your <strong>sweet chilli sauce</strong></p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the<strong> coated cod pieces </strong>to the pan and cook for 4-5 min on each side or until crispy and cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p><p>While the fish is cooking, combine your <strong>agave</strong>, <strong>red chilli relish </strong>and 30ml <span class=\"text-purple\">[45ml]</span> <span class=\"text-danger\">[60ml]</span> <strong>cold water </strong>in a small bowl<strong> </strong>\u2013 this is your <strong>sweet chilli sauce</strong></p>",
             "order": 4,
             "image": "/images/instructions/sweet-chilli-cod-with-veg-packed-rice/step-4.jpg"
         },
@@ -180,28 +180,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 128,
-            "energy_kj": 542,
-            "fat_mg": 872,
-            "fat_saturates_mg": 178,
-            "carbs_mg": 22788,
-            "carbs_sugars_mg": 6577,
-            "fibre_mg": 2291,
-            "protein_mg": 7549,
-            "salt_mg": 684,
+            "energy_kcal": 130,
+            "energy_kj": 553,
+            "fat_mg": 868,
+            "fat_saturates_mg": 177,
+            "carbs_mg": 23603,
+            "carbs_sugars_mg": 7662,
+            "fibre_mg": 2270,
+            "protein_mg": 7470,
+            "salt_mg": 674,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 526,
-            "energy_kj": 2230,
-            "fat_mg": 3585,
-            "fat_saturates_mg": 735,
-            "carbs_mg": 93605,
-            "carbs_sugars_mg": 27019,
-            "fibre_mg": 9413,
-            "protein_mg": 31011,
-            "salt_mg": 2813,
-            "net_weight_mg": 410750
+            "energy_kcal": 544,
+            "energy_kj": 2303,
+            "fat_mg": 3610,
+            "fat_saturates_mg": 740,
+            "carbs_mg": 98133,
+            "carbs_sugars_mg": 31857,
+            "fibre_mg": 9438,
+            "protein_mg": 31059,
+            "salt_mg": 2804,
+            "net_weight_mg": 415750
         }
     },
     "portion_sizes": [
@@ -209,6 +209,13 @@
             "portions": 1,
             "is_offered": true,
             "ingredients_skus": [
+                {
+                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                    "code": "I-01-CAN-LQ-07",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
                 {
                     "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                     "code": "IQ-05-FVG-PD-13-01",
@@ -240,13 +247,6 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
-                    "code": "I-01-CAN-LQ-09",
                     "quantities": {
                         "in_box": 1
                     }
@@ -293,6 +293,13 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                    "code": "I-01-CAN-LQ-07",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                     "code": "IQ-05-FVG-PD-13-01",
                     "quantities": {
@@ -323,13 +330,6 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
-                    "code": "I-01-CAN-LQ-09",
                     "quantities": {
                         "in_box": 1
                     }
@@ -375,6 +375,13 @@
             "portions": 3,
             "is_offered": true,
             "ingredients_skus": [
+                {
+                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                    "code": "I-01-CAN-LQ-07",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
                 {
                     "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                     "code": "IQ-05-FVG-PD-13-01",
@@ -422,13 +429,6 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 2
-                    }
-                },
-                {
-                    "id": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
-                    "code": "I-01-CAN-LQ-09",
-                    "quantities": {
-                        "in_box": 1
                     }
                 },
                 {
@@ -487,6 +487,13 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                    "code": "I-01-CAN-LQ-07",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                     "code": "IQ-05-FVG-PD-13-01",
                     "quantities": {
@@ -517,13 +524,6 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
-                    "code": "I-01-CAN-LQ-09",
                     "quantities": {
                         "in_box": 2
                     }
@@ -569,6 +569,13 @@
             "portions": 5,
             "is_offered": true,
             "ingredients_skus": [
+                {
+                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                    "code": "I-01-CAN-LQ-07",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
                 {
                     "id": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                     "code": "IQ-05-FVG-PD-13-01",
@@ -616,13 +623,6 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 3
-                    }
-                },
-                {
-                    "id": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
-                    "code": "I-01-CAN-LQ-09",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {

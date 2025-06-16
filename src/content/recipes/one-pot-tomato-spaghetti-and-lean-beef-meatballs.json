@@ -17,6 +17,21 @@
     "cuisine": "British",
     "ingredients": [
         {
+            "label": "Spaghetti (190g)",
+            "gousto_uuid": "8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
+        },
+        {
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
             "label": "Lean beef mince (<5% fat) (125g) x0",
             "gousto_uuid": "01fba203-db6f-4bc3-935e-e33a5035ad9f",
             "allergens": [],
@@ -47,6 +62,12 @@
             "gousto_uuid": "ec455cb7-01fc-4470-9db4-e94afca273e4",
             "allergens": [],
             "image": "/images/ingredients/ec455cb7-01fc-4470-9db4-e94afca273e4.jpg"
+        },
+        {
+            "label": "Finely chopped tomatoes (390g) x0",
+            "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+            "allergens": [],
+            "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
         },
         {
             "label": "Tomato paste (32g)",
@@ -99,21 +120,6 @@
             "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
             "allergens": [],
             "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
-        },
-        {
-            "label": "Spaghetti (190g)",
-            "gousto_uuid": "8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
             "label": "Rocket (20g)",
@@ -179,24 +185,24 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 153,
-            "energy_kj": 647,
+            "energy_kj": 642,
             "fat_mg": 3393,
             "fat_saturates_mg": 1717,
             "carbs_mg": 19174,
             "carbs_sugars_mg": 2772,
-            "fibre_mg": 1443,
+            "fibre_mg": 1472,
             "protein_mg": 11262,
             "salt_mg": 411,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 649,
-            "energy_kj": 2736,
+            "energy_kj": 2718,
             "fat_mg": 14347,
             "fat_saturates_mg": 7261,
             "carbs_mg": 81061,
             "carbs_sugars_mg": 11722,
-            "fibre_mg": 6101,
+            "fibre_mg": 6224,
             "protein_mg": 47611,
             "salt_mg": 1740,
             "net_weight_mg": 422750
@@ -423,10 +429,10 @@
                     }
                 },
                 {
-                    "id": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
-                    "code": "I-01-CAN-VC-50",
+                    "id": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+                    "code": "I-01-CAN-VC-55",
                     "quantities": {
-                        "in_box": 2
+                        "in_box": 1
                     }
                 },
                 {
@@ -527,10 +533,10 @@
                     }
                 },
                 {
-                    "id": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
-                    "code": "I-01-CAN-VC-50",
+                    "id": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+                    "code": "I-01-CAN-VC-55",
                     "quantities": {
-                        "in_box": 2
+                        "in_box": 1
                     }
                 },
                 {
@@ -624,10 +630,17 @@
                     }
                 },
                 {
+                    "id": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+                    "code": "I-01-CAN-VC-55",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                     "code": "I-01-CAN-VC-50",
                     "quantities": {
-                        "in_box": 3
+                        "in_box": 1
                     }
                 },
                 {

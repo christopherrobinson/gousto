@@ -7,9 +7,9 @@
     "gousto_id": "7177",
     "rating": {
         "average": 4.5,
-        "count": 9434
+        "count": 9448
     },
-    "description": "Cook up pure comfort with a creamy sausage and mushroom orzo with only one pan. Fry your sausage meat, chestnut mushrooms and plenty of garlic then add your orzo and stock. Finish with spinach, double cream and dive in.",
+    "description": "Cook up pure comfort with a creamy sausage and mushroom orzo with only one pan. Fry your sausage meat, chestnut mushrooms and plenty of garlic then add your orzo and stock. Finish with spinach, clotted cream and dive in.",
     "prep_times": {
         "for_2": 25,
         "for_4": 30
@@ -53,14 +53,6 @@
             "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
-            "label": "Double cream (80ml)",
-            "gousto_uuid": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5.jpg"
-        },
-        {
             "label": "Orzo (75g) x0",
             "gousto_uuid": "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
             "allergens": [
@@ -83,6 +75,14 @@
                 "milk"
             ],
             "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
+        },
+        {
+            "label": "Cornish clotted cream (40g) x2",
+            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
         },
         {
             "label": "Chicken stock mix (5.5g) x0",
@@ -152,7 +152,7 @@
             "image": "/images/instructions/one-pan-creamy-sausage-mushroom-and-spinach-orzo/step-6.jpg"
         },
         {
-            "instruction": "<p>Once cooked through, increase the heat to medium-high and add your <strong>double cream</strong> and <strong>spinach</strong> and cook for 1-2 min or until the spinach has wilted and the sauce has thickened \u2013 this is your <strong>one pan creamy sausage, mushroom & spinach orzo</strong></p>",
+            "instruction": "<p>Once cooked through, increase the heat to medium-high and add your <strong>clotted cream</strong> and <strong>spinach</strong> and cook for 1-2 min or until the spinach has wilted and the sauce has thickened \u2013 this is your <strong>one pan creamy sausage, mushroom & spinach orzo</strong></p>",
             "order": 7,
             "image": "/images/instructions/one-pan-creamy-sausage-mushroom-and-spinach-orzo/step-7.jpg"
         },
@@ -169,27 +169,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 207,
-            "energy_kj": 865,
-            "fat_mg": 11347,
-            "fat_saturates_mg": 5805,
-            "carbs_mg": 17349,
-            "carbs_sugars_mg": 1561,
+            "energy_kcal": 223,
+            "energy_kj": 934,
+            "fat_mg": 13160,
+            "fat_saturates_mg": 6952,
+            "carbs_mg": 17302,
+            "carbs_sugars_mg": 1514,
             "fibre_mg": 1229,
-            "protein_mg": 8364,
-            "salt_mg": 654,
+            "protein_mg": 8353,
+            "salt_mg": 658,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 708,
-            "energy_kj": 2959,
-            "fat_mg": 38808,
-            "fat_saturates_mg": 19856,
-            "carbs_mg": 59336,
-            "carbs_sugars_mg": 5341,
+            "energy_kcal": 765,
+            "energy_kj": 3196,
+            "fat_mg": 45008,
+            "fat_saturates_mg": 23776,
+            "carbs_mg": 59176,
+            "carbs_sugars_mg": 5181,
             "fibre_mg": 4204,
-            "protein_mg": 28608,
-            "salt_mg": 2239,
+            "protein_mg": 28568,
+            "salt_mg": 2253,
             "net_weight_mg": 342000
         }
     },
@@ -201,6 +201,13 @@
                 {
                     "id": "3484b3bc-d97e-4b98-b132-7ead51932d79",
                     "code": "I-08-SAU-LS-30",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
                     "quantities": {
                         "in_box": 1
                     }
@@ -229,13 +236,6 @@
                 {
                     "id": "dec1c16e-4785-40e7-b689-69721141bad6",
                     "code": "I-06-SML-SC-22",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
                     "quantities": {
                         "in_box": 1
                     }
@@ -282,6 +282,13 @@
                     }
                 },
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                     "code": "I-06-SML-TRK-31",
                     "quantities": {
@@ -298,13 +305,6 @@
                 {
                     "id": "258b809a-5998-431f-82cd-8c3da08a9201",
                     "code": "I-05-FVG-MS-15",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
                     "quantities": {
                         "in_box": 1
                     }
@@ -358,6 +358,13 @@
                     }
                 },
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 3
+                    }
+                },
+                {
                     "id": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                     "code": "I-06-SML-TRK-31",
                     "quantities": {
@@ -390,13 +397,6 @@
                     "code": "I-06-SML-SC-22",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {
@@ -455,6 +455,13 @@
                     }
                 },
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 4
+                    }
+                },
+                {
                     "id": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                     "code": "I-06-SML-TRK-31",
                     "quantities": {
@@ -471,13 +478,6 @@
                 {
                     "id": "258b809a-5998-431f-82cd-8c3da08a9201",
                     "code": "I-05-FVG-MS-15",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
                     "quantities": {
                         "in_box": 2
                     }
@@ -531,6 +531,13 @@
                     }
                 },
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 5
+                    }
+                },
+                {
                     "id": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                     "code": "I-06-SML-TRK-31",
                     "quantities": {
@@ -563,13 +570,6 @@
                     "code": "I-06-SML-SC-22",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
-                    "quantities": {
-                        "in_box": 3
                     }
                 },
                 {

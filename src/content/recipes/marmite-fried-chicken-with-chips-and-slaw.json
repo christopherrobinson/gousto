@@ -19,7 +19,7 @@
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "Mayonnaise (25ml) x2",
+            "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
             "allergens": [
                 "egg",
@@ -28,7 +28,7 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Ground paprika (1tsp) x0",
+            "label": "Ground paprika (2tsp) x0",
             "gousto_uuid": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
             "allergens": [],
             "image": "/images/ingredients/cb7a7f70-80cb-4648-840f-d350ad96d1ee.jpg"
@@ -50,6 +50,15 @@
             "gousto_uuid": "37857dd5-816c-4960-9f8e-f4c5de801230",
             "allergens": [],
             "image": "/images/ingredients/37857dd5-816c-4960-9f8e-f4c5de801230.jpg"
+        },
+        {
+            "label": "Mayonnaise (50ml) x0",
+            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
             "label": "Chicken breast strips (125g) x0",
@@ -167,28 +176,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 128,
-            "energy_kj": 540,
-            "fat_mg": 5176,
-            "fat_saturates_mg": 611,
-            "carbs_mg": 12739,
-            "carbs_sugars_mg": 2100,
-            "fibre_mg": 1517,
-            "protein_mg": 8643,
-            "salt_mg": 310,
+            "energy_kcal": 111,
+            "energy_kj": 469,
+            "fat_mg": 3038,
+            "fat_saturates_mg": 460,
+            "carbs_mg": 12985,
+            "carbs_sugars_mg": 2103,
+            "fibre_mg": 1546,
+            "protein_mg": 8858,
+            "salt_mg": 293,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 587,
-            "energy_kj": 2464,
-            "fat_mg": 23591,
-            "fat_saturates_mg": 2789,
-            "carbs_mg": 58060,
-            "carbs_sugars_mg": 9572,
-            "fibre_mg": 6915,
-            "protein_mg": 39391,
-            "salt_mg": 1413,
-            "net_weight_mg": 455750
+            "energy_kcal": 494,
+            "energy_kj": 2083,
+            "fat_mg": 13466,
+            "fat_saturates_mg": 2039,
+            "carbs_mg": 57560,
+            "carbs_sugars_mg": 9322,
+            "fibre_mg": 6853,
+            "protein_mg": 39266,
+            "salt_mg": 1299,
+            "net_weight_mg": 443250
         }
     },
     "portion_sizes": [
@@ -346,7 +355,7 @@
                     "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
                     "code": "I-06-SML-OT-36",
                     "quantities": {
-                        "in_box": 2
+                        "in_box": 1
                     }
                 },
                 {
@@ -440,10 +449,10 @@
                     }
                 },
                 {
-                    "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-                    "code": "I-06-SML-OT-36",
+                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+                    "code": "I-06-SML-OT-37",
                     "quantities": {
-                        "in_box": 3
+                        "in_box": 1
                     }
                 },
                 {
@@ -530,10 +539,10 @@
                     }
                 },
                 {
-                    "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-                    "code": "I-06-SML-OT-36",
+                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+                    "code": "I-06-SML-OT-37",
                     "quantities": {
-                        "in_box": 4
+                        "in_box": 1
                     }
                 },
                 {
@@ -627,10 +636,17 @@
                     }
                 },
                 {
+                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
+                    "code": "I-06-SML-OT-37",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
                     "code": "I-06-SML-OT-36",
                     "quantities": {
-                        "in_box": 5
+                        "in_box": 1
                     }
                 },
                 {
