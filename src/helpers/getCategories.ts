@@ -6,51 +6,6 @@ for (const { name } of cuisines) {
   excludedCategories.add(name);
 }
 
-// Helper function to strip " recipes" and similar suffixes (case-insensitive)
-const stripCategoryName = (name: string): string => name.trim().replace(/ recipes$/i, '').trim();
-
-// Special cases
-const normaliseCategoryName = (category: string): string => {
-  const trimmedCategory = stripCategoryName(category.trim());
-
-  if (trimmedCategory === "Chicken" || trimmedCategory === "Chicken Breast" || trimmedCategory === "Chicken Thigh") {
-    return "Chicken";
-  }
-
-  if (trimmedCategory === "Christmas" || trimmedCategory === "Christmas Inspired") {
-    return "Christmas";
-  }
-
-  if (trimmedCategory === "Dairy-Free" || trimmedCategory === "Dairy Free") {
-    return "Dairy-Free";
-  }
-
-  if (trimmedCategory === "Easter" || trimmedCategory === "Easter 2") {
-    return "Easter";
-  }
-
-  if (trimmedCategory === "Father's Day" || trimmedCategory === "Father's Day 2") {
-    return "Father's Day";
-  }
-
-  if (trimmedCategory === "Festive Flavours" || trimmedCategory === "Festive Flavours 2019") {
-    return "Festive Flavours";
-  }
-
-  if (trimmedCategory === "Gluten-Free" || trimmedCategory === "Gluten Free") {
-    return "Gluten-Free";
-  }
-
-  if (trimmedCategory === "Plant-Based" || trimmedCategory === "Plant Bistro") {
-    return "Plant-Based";
-  }
-
-  if (trimmedCategory === "Pork" || trimmedCategory === "Pork Fillet") {
-    return "Pork";
-  }
-
-  return stripCategoryName(trimmedCategory);
-};
 
 export const getCategories = async () => {
   const cacheKey = 'all-categories';
@@ -69,12 +24,12 @@ export const getCategories = async () => {
   for (const { data } of recipes) {
     const recipeCategories = data.categories;
 
-    if (!Array.isArray(recipeCategories)) {
+    if (!isNonEmptyArray(recipeCategories)) {
       continue;
     }
 
     for (const category of recipeCategories) {
-      if (typeof category !== 'string') {
+      if (!isNonEmptyString(category)) {
         continue;
       }
 
@@ -85,28 +40,32 @@ export const getCategories = async () => {
         continue;
       }
 
-      // Use Map's built-in get/set pattern for better performance
-      const existing = categoryMap.get(normalisedCategory);
-      if (existing) {
-        existing.combinedCategories.add(category);
-      }
-      else {
-        categoryMap.set(normalisedCategory, {
-          name: normalisedCategory,
-          combinedCategories: new Set([category])
-        });
-      }
+      // Use utility function for cleaner Map updates
+      updateMapEntry(categoryMap, normalisedCategory, (existing) => {
+        if (existing) {
+          existing.combinedCategories.add(category);
+
+          return existing;
+        }
+        else {
+          return {
+            name: normalisedCategory,
+            combinedCategories: new Set([category])
+          };
+        }
+      });
     }
   }
 
   // Convert the Set to an array and prepare the final category list
-  const result = Array.from(categoryMap.values())
-    .sort((a, b) => a.name.localeCompare(b.name)) // Sort the stripped category names alphabetically
-    .map(({ name, combinedCategories }) => ({
-      name,
-      slug: `/recipes/category/${createSlug(name)}/`, // Create the slug
-      combinedCategories: Array.from(combinedCategories) // Convert Set to array
-    }));
+  const result = sortByStringProperty(
+    Array.from(categoryMap.values()),
+    'name'
+  ).map(({ name, combinedCategories }) => ({
+    name,
+    slug: `/recipes/category/${createSlug(name)}/`, // Create the slug
+    combinedCategories: Array.from(combinedCategories) // Convert Set to array
+  }));
 
   // Store in cache
   categoryCache.set(cacheKey, result);

@@ -44,66 +44,16 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
     baseRecipeCache = deduplicatedRecipes.sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10));
   }
 
-  // Dynamic filtering on cached recipes - single pass for better performance
-  let filteredRecipes = baseRecipeCache.filter(({ data }) => {
-    // Early exit optimisations - check most selective filters first
-
-    // Filter by prep time (likely to be selective)
-    if (typeof prepTime === 'number') {
-      if (data.prep_times?.for_2 !== prepTime) {
-        return false;
-      }
-    }
-    else if (prepTime && typeof prepTime === 'object') {
-      const { min, max } = prepTime;
-      const time = data.prep_times?.for_2;
-
-      if ((min !== undefined && time < min) || (max !== undefined && time > max)) {
-        return false;
-      }
-    }
-
-    // Filter by cuisine (exact match, fast)
-    if (cuisine && (typeof data.cuisine !== 'string' || data.cuisine !== cuisine)) {
-      return false;
-    }
-
-    // Filter by rating (numeric comparison, fast)
-    const ratingThreshold = typeof rating === 'number' ? rating : rating?.average;
-
-    if (ratingThreshold !== undefined) {
-      const averageRating = data.rating?.average;
-
-      if (typeof averageRating !== 'number' || averageRating < ratingThreshold) {
-        return false;
-      }
-    }
-
-    // Filter by categories (array operations, more expensive)
-    if (categories && categories.length > 0) {
-      if (!Array.isArray(data.categories) || !data.categories.some(category => categories.includes(category))) {
-        return false;
-      }
-    }
-
-    // Filter by ingredients (most expensive - string operations)
-    if (ingredients && ingredients.length > 0) {
-      if (!Array.isArray(data.ingredients)) {
-        return false;
-      }
-
-      // Pre-compute lowercase search terms for efficiency
-      const lowerSearchTerms = ingredients.map(term => term.toLowerCase());
-
-      return lowerSearchTerms.every(searchTerm =>
-        data.ingredients.some(ingredient =>
-          typeof ingredient.label === 'string' && ingredient.label.toLowerCase().includes(searchTerm)
-        )
-      );
-    }
-
-    return true;
+  // Use the reusable filter utility for cleaner, more maintainable code
+  const recipeFilter = createRecipeFilter({
+    prepTime,
+    cuisine,
+    categories,
+    ingredients,
+    rating
   });
+
+  let filteredRecipes = baseRecipeCache.filter(recipeFilter);
 
   if (recipes) {
     const recipeIds = Array.isArray(recipes) ? recipes : [recipes];
@@ -120,7 +70,7 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
   // Apply limit if provided
   const result = typeof limit === 'number' ? filteredRecipes.slice(0, limit) : filteredRecipes;
 
-  // Cache the result for future use (don't cache randomized results)
+  // Cache the result for future use (don't cache randomised results)
   if (!options.randomise) {
     recipeCache.set(cacheKey, result);
   }
