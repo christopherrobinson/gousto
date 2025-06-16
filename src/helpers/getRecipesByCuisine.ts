@@ -1,11 +1,9 @@
+let cuisineRecipeCache: { [key: string]: any[] } = {};
+
 export const getRecipesByCuisine = async (cuisine: string) => {
-  const cacheKey = createCacheKey('recipes-by-cuisine', cuisine);
-
   // Check if we have cached results for this cuisine
-  const cached = recipeCache.get(cacheKey);
-
-  if (cached) {
-    return cached;
+  if (cuisineRecipeCache[cuisine]) {
+    return cuisineRecipeCache[cuisine];
   }
 
   // Get all recipes and filter by cuisine
@@ -13,7 +11,7 @@ export const getRecipesByCuisine = async (cuisine: string) => {
   const filteredRecipes = recipes.filter(recipe => recipe.data.cuisine === cuisine);
 
   // Cache the result
-  recipeCache.set(cacheKey, filteredRecipes);
+  cuisineRecipeCache[cuisine] = filteredRecipes;
 
   return filteredRecipes;
 };

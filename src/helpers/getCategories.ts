@@ -6,15 +6,12 @@ for (const { name } of cuisines) {
   excludedCategories.add(name);
 }
 
+let categoryCache: { name: string; slug: string; combinedCategories: string[] }[] | null = null;
 
 export const getCategories = async () => {
-  const cacheKey = 'all-categories';
-
-  // Check cache first
-  const cached = categoryCache.get(cacheKey);
-
-  if (cached) {
-    return cached;
+  // If categories are already cached, return them
+  if (categoryCache) {
+    return categoryCache;
   }
 
   const recipes = await getRecipes(); // Fetch recipes
@@ -67,8 +64,7 @@ export const getCategories = async () => {
     combinedCategories: Array.from(combinedCategories) // Convert Set to array
   }));
 
-  // Store in cache
-  categoryCache.set(cacheKey, result);
+  categoryCache = result;
 
-  return result;
+  return categoryCache;
 };

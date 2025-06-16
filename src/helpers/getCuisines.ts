@@ -1,11 +1,8 @@
+let cuisineCache: { name: string; recipes: number, slug: string }[] | null = null;
+
 export const getCuisines = async () => {
-  const cacheKey = 'all-cuisines';
-
-  // Check cache first
-  const cached = cuisineCache.get(cacheKey);
-
-  if (cached) {
-    return cached;
+  if (cuisineCache) {
+    return cuisineCache;
   }
 
   const recipes = await getRecipes();
@@ -30,8 +27,7 @@ export const getCuisines = async () => {
       slug: `/recipes/cuisine/${createSlug(name)}/`,
     }));
 
-  // Store in cache
-  cuisineCache.set(cacheKey, result);
+  cuisineCache = result;
 
-  return result;
+  return cuisineCache;
 };

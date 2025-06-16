@@ -1,11 +1,9 @@
+let ingredientCache: any[] | null = null;
+
 export const getIngredients = async () => {
-  const cacheKey = 'all-ingredients';
-
   // Check cache first
-  const cached = ingredientCache.get(cacheKey);
-
-  if (cached) {
-    return cached;
+  if (ingredientCache) {
+    return ingredientCache;
   }
 
   const recipes = await getRecipes();
@@ -37,8 +35,7 @@ export const getIngredients = async () => {
 
   const result = Array.from(ingredientMap.values()).sort((a, b) => a.label.localeCompare(b.label));
 
-  // Store in cache
-  ingredientCache.set(cacheKey, result);
+  ingredientCache = result;
 
-  return result;
+  return ingredientCache;
 };
