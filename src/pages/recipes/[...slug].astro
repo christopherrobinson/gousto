@@ -96,31 +96,33 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
           </a>
         </div>
       </div>
-      <div class="col-span-1  relative  md:col-span-5  lg:col-span-6  xl:col-span-5  print:col-span-4">
-        <picture>
-          <source
-            srcset={`
-              ${useRemoteImageUrl(image, "h=500&output=webp&w=500")},
-              ${useRemoteImageUrl(image, "h=1000&output=webp&w=1000")} 2x
-            `}
-            type="image/webp"
-          />
-          <img
-            alt={title}
-            class="h-auto  rounded-lg  w-full"
-            decoding="async"
-            height={500}
-            loading="lazy"
-            src={useRemoteImageUrl(image, "h=500&w=500")}
-            srcset={`${useRemoteImageUrl(image, "h=1000&w=1000")} 2x`}
-            width={500}
-          />
-        </picture>
-        {isValidRating(rating) &&
-          <div class="absolute  bg-white/90  end-3  flex  items-center  px-3  py-2  rounded-lg  space-x-2  text-base  top-3" title={`From ${rating.count.toLocaleString()} ratings`}>
-            <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
-          </div>
-        }
+      <div class="col-span-1  md:col-span-5  lg:col-span-6  xl:col-span-5  print:col-span-4">
+        <div class="aspect-square  bg-secondary-100  relative  rounded-lg">
+          <picture>
+            <source
+              srcset={`
+                ${useRemoteImageUrl(image, "h=500&output=webp&w=500")},
+                ${useRemoteImageUrl(image, "h=1000&output=webp&w=1000")} 2x
+              `}
+              type="image/webp"
+            />
+            <img
+              alt={title}
+              class="h-auto  rounded-lg  w-full"
+              decoding="async"
+              height={500}
+              loading="lazy"
+              src={useRemoteImageUrl(image, "h=500&w=500")}
+              srcset={`${useRemoteImageUrl(image, "h=1000&w=1000")} 2x`}
+              width={500}
+            />
+          </picture>
+          {isValidRating(rating) &&
+            <div class="absolute  bg-white/90  end-3  flex  items-center  px-3  py-2  rounded-lg  space-x-2  text-base  top-3" title={`From ${rating.count.toLocaleString()} ratings`}>
+              <Icon class="text-primary-600" name="star" /> <span>{rating.average.toFixed(1)}</span>
+            </div>
+          }
+        </div>
       </div>
     </div>
     <div class="border-b  border-secondary-100  gap-4  grid  grid-cols-1  mb-8  pb-8  md:gap-8  md:grid-cols-12  print:grid-cols-1  print:text-sm">
