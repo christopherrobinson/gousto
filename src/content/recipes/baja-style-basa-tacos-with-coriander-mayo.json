@@ -12,7 +12,7 @@
     "gousto_id": "1541",
     "rating": {
         "average": 4.5,
-        "count": 18326
+        "count": 18393
     },
     "description": "For these tasty tacos, you'll coat tender fish fillets in spices before crisping them up in a pan. Once golden, layer them in warm tortillas with sweet roasted pepper and a tangy coriander mayo.",
     "prep_times": {
@@ -70,15 +70,6 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
-            "label": "Soy sauce (15ml) x1",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
-        },
-        {
             "label": "Basa fillets (2pcs)",
             "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
             "allergens": [
@@ -105,6 +96,14 @@
             "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
         },
         {
+            "label": "Basa fillet x0",
+            "gousto_uuid": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
+        },
+        {
             "label": "Plain tortillas (6pcs)",
             "gousto_uuid": "55692d26-3834-4b6f-94ce-0cd6332af610",
             "allergens": [
@@ -129,6 +128,15 @@
             "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
             "allergens": [],
             "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         }
     ],
     "basics": [
@@ -188,27 +196,27 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 168,
-            "energy_kj": 708,
-            "fat_mg": 7190,
-            "fat_saturates_mg": 1292,
-            "carbs_mg": 18667,
-            "carbs_sugars_mg": 2054,
+            "energy_kj": 707,
+            "fat_mg": 7186,
+            "fat_saturates_mg": 1291,
+            "carbs_mg": 18650,
+            "carbs_sugars_mg": 2051,
             "fibre_mg": 1429,
-            "protein_mg": 7361,
-            "salt_mg": 348,
+            "protein_mg": 7339,
+            "salt_mg": 328,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 693,
-            "energy_kj": 2907,
+            "energy_kcal": 692,
+            "energy_kj": 2906,
             "fat_mg": 29517,
             "fat_saturates_mg": 5305,
-            "carbs_mg": 76630,
-            "carbs_sugars_mg": 8435,
+            "carbs_mg": 76608,
+            "carbs_sugars_mg": 8426,
             "fibre_mg": 5870,
-            "protein_mg": 30218,
-            "salt_mg": 1430,
-            "net_weight_mg": 410500
+            "protein_mg": 30149,
+            "salt_mg": 1351,
+            "net_weight_mg": 410750
         }
     },
     "portion_sizes": [
@@ -217,8 +225,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
-                    "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-                    "code": "IQ-10-MPF-SE-33",
+                    "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+                    "code": "IQ-10-MPF-SE-62",
                     "quantities": {
                         "in_box": 1
                     }
@@ -294,8 +302,8 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -391,8 +399,8 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -411,10 +419,17 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+                    "code": "IQ-10-MPF-SE-62",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                     "code": "IQ-10-MPF-SE-33",
                     "quantities": {
-                        "in_box": 2
+                        "in_box": 1
                     }
                 },
                 {
@@ -495,10 +510,10 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
-                        "in_box": 1
+                        "in_box": 2
                     }
                 },
                 {
@@ -592,10 +607,10 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
-                        "in_box": 1
+                        "in_box": 2
                     }
                 },
                 {
@@ -612,10 +627,17 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+                    "code": "IQ-10-MPF-SE-62",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                     "code": "IQ-10-MPF-SE-33",
                     "quantities": {
-                        "in_box": 3
+                        "in_box": 2
                     }
                 },
                 {
@@ -703,10 +725,10 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
-                        "in_box": 2
+                        "in_box": 3
                     }
                 },
                 {

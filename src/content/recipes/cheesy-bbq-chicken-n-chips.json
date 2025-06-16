@@ -7,7 +7,7 @@
     "gousto_id": "3572",
     "rating": {
         "average": 4.5,
-        "count": 37328
+        "count": 37335
     },
     "description": "This cheesy BBQ chicken is sure to please everyone! Coat chicken breast in smoked paprika, pan-fry, then bake it smothered in BBQ sauce and cheese. Serve with chips and a tomato and cucumber salad.",
     "prep_times": {
@@ -41,18 +41,18 @@
             "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
         },
         {
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+        },
+        {
             "label": "White wine vinegar (15ml)",
             "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
             "allergens": [],
             "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
-            "label": "Lighter cheese (30g)",
-            "gousto_uuid": "50831f8e-cbf7-41ed-884e-6ab078f30e3d",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/50831f8e-cbf7-41ed-884e-6ab078f30e3d.jpg"
         },
         {
             "label": "Cucumber (0.5pcs)",
@@ -110,7 +110,7 @@
             "image": "/images/instructions/cheesy-bbq-chicken-n-chips/step-3.jpg"
         },
         {
-            "instruction": "<p>While the chicken is cooking, grate your <strong>lighter cheese</strong></p>",
+            "instruction": "<p>While the chicken is cooking, grate your <strong>cheddar cheese</strong></p>",
             "order": 4,
             "image": "/images/instructions/cheesy-bbq-chicken-n-chips/step-4.jpg"
         },
@@ -140,28 +140,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 74,
-            "energy_kj": 315,
-            "fat_mg": 924,
-            "fat_saturates_mg": 331,
-            "carbs_mg": 9310,
-            "carbs_sugars_mg": 1869,
-            "fibre_mg": 1181,
-            "protein_mg": 7531,
-            "salt_mg": 150,
+            "energy_kcal": 81,
+            "energy_kj": 344,
+            "fat_mg": 1837,
+            "fat_saturates_mg": 965,
+            "carbs_mg": 9240,
+            "carbs_sugars_mg": 1850,
+            "fibre_mg": 1146,
+            "protein_mg": 7432,
+            "salt_mg": 162,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 404,
-            "energy_kj": 1714,
-            "fat_mg": 5024,
-            "fat_saturates_mg": 1801,
-            "carbs_mg": 50600,
-            "carbs_sugars_mg": 10163,
-            "fibre_mg": 6424,
-            "protein_mg": 40931,
-            "salt_mg": 816,
-            "net_weight_mg": 543500
+            "energy_kcal": 447,
+            "energy_kj": 1892,
+            "fat_mg": 10079,
+            "fat_saturates_mg": 5296,
+            "carbs_mg": 50685,
+            "carbs_sugars_mg": 10148,
+            "fibre_mg": 6289,
+            "protein_mg": 40766,
+            "salt_mg": 891,
+            "net_weight_mg": 548500
         }
     },
     "portion_sizes": [
@@ -172,6 +172,13 @@
                 {
                     "id": "2af82637-9ecc-464e-b659-5966276c7fc5",
                     "code": "I-08-SAU-PS-62",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
+                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
+                    "code": "I-09-DAI-CH-02",
                     "quantities": {
                         "in_box": 1
                     }
@@ -200,13 +207,6 @@
                 {
                     "id": "9bbbe335-1516-4488-957c-814e34eae5b1",
                     "code": "I-06-SML-DL-15",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "50831f8e-cbf7-41ed-884e-6ab078f30e3d",
-                    "code": "I-09-DAI-CH-03",
                     "quantities": {
                         "in_box": 1
                     }
@@ -246,6 +246,13 @@
                     }
                 },
                 {
+                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
+                    "code": "I-09-DAI-CH-02",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                     "code": "I-10-MPF-PO-40",
                     "quantities": {
@@ -269,13 +276,6 @@
                 {
                     "id": "9bbbe335-1516-4488-957c-814e34eae5b1",
                     "code": "I-06-SML-DL-15",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "50831f8e-cbf7-41ed-884e-6ab078f30e3d",
-                    "code": "I-09-DAI-CH-03",
                     "quantities": {
                         "in_box": 1
                     }
@@ -315,6 +315,13 @@
                     }
                 },
                 {
+                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
+                    "code": "I-09-DAI-CH-02",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                     "code": "I-10-MPF-PO-40",
                     "quantities": {
@@ -347,13 +354,6 @@
                     "code": "I-06-SML-DL-15",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "50831f8e-cbf7-41ed-884e-6ab078f30e3d",
-                    "code": "I-09-DAI-CH-03",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {
@@ -391,6 +391,13 @@
                     }
                 },
                 {
+                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
+                    "code": "I-09-DAI-CH-02",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                     "code": "I-10-MPF-PO-40",
                     "quantities": {
@@ -416,13 +423,6 @@
                     "code": "I-06-SML-DL-16",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "50831f8e-cbf7-41ed-884e-6ab078f30e3d",
-                    "code": "I-09-DAI-CH-03",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {
@@ -460,6 +460,13 @@
                     }
                 },
                 {
+                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
+                    "code": "I-09-DAI-CH-02",
+                    "quantities": {
+                        "in_box": 3
+                    }
+                },
+                {
                     "id": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                     "code": "I-10-MPF-PO-40",
                     "quantities": {
@@ -492,13 +499,6 @@
                     "code": "I-06-SML-DL-16",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "50831f8e-cbf7-41ed-884e-6ab078f30e3d",
-                    "code": "I-09-DAI-CH-03",
-                    "quantities": {
-                        "in_box": 3
                     }
                 },
                 {
