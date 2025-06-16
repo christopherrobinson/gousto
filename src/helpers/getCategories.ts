@@ -1,7 +1,7 @@
 let categoryCache: { name: string; slug: string; combinedCategories: string[] }[] | null = null;
 
 const cuisines = await getCuisines();
-const excludedCategories = new Set(['12', 'All Gousto', 'All', 'Test']); // List of categories to exclude
+const excludedCategories = new Set(['12', 'All Gousto', 'All', 'Test']);
 
 // Add each cuisine name to the exclusion set
 for (const { name } of cuisines) {
@@ -9,10 +9,7 @@ for (const { name } of cuisines) {
 }
 
 // Helper function to strip " recipes" and similar suffixes (case-insensitive)
-const stripCategoryName = (name: string): string => {
-  const stripped = name.trim().replace(/ recipes$/i, '').trim();
-  return stripped;
-};
+const stripCategoryName = (name: string): string => name.trim().replace(/ recipes$/i, '').trim();
 
 // Special cases
 const normaliseCategoryName = (category: string): string => {
@@ -67,30 +64,38 @@ export const getCategories = async () => {
 
   const categoryMap = new Map<string, { name: string; combinedCategories: Set<string> }>();
 
-  recipes.forEach(({ data }) => {
+  for (const { data } of recipes) {
     const recipeCategories = data.categories;
 
-    if (Array.isArray(recipeCategories)) {
-      recipeCategories.forEach(category => {
-
-        if (typeof category === 'string') {
-          const normalisedCategory = normaliseCategoryName(category);
-
-          if (!excludedCategories.has(normalisedCategory)) {
-            if (!categoryMap.has(normalisedCategory)) {
-              categoryMap.set(normalisedCategory, {
-                name: normalisedCategory,
-                combinedCategories: new Set([category])
-              });
-            }
-            else {
-              categoryMap.get(normalisedCategory)?.combinedCategories.add(category);
-            }
-          }
-        }
-      });
+    if (!Array.isArray(recipeCategories)) {
+      continue;
     }
-  });
+
+    for (const category of recipeCategories) {
+      if (typeof category !== 'string') {
+        continue;
+      }
+
+      const normalisedCategory = normaliseCategoryName(category);
+
+      // Skip excluded categories early
+      if (excludedCategories.has(normalisedCategory)) {
+        continue;
+      }
+
+      // Use Map's built-in get/set pattern for better performance
+      const existing = categoryMap.get(normalisedCategory);
+      if (existing) {
+        existing.combinedCategories.add(category);
+      }
+      else {
+        categoryMap.set(normalisedCategory, {
+          name: normalisedCategory,
+          combinedCategories: new Set([category])
+        });
+      }
+    }
+  }
 
   // Convert the Set to an array and prepare the final category list
   categoryCache = Array.from(categoryMap.values())
