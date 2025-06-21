@@ -28,7 +28,10 @@ const { currentPage, data = [], lastPage, total } = page;
 const entry = await getEntry('categories', slug);
 ---
 
-<Layout heading={`${name} Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
+<Layout
+  heading={`${name} Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}
+  meta={(currentPage === 1) ? entry?.data?.meta : undefined}
+>
   <Recipes
     baseUrl={`/recipes/category/${slug}/`}
     content={entry?.rendered.html}
