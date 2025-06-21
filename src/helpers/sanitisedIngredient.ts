@@ -13,6 +13,6 @@ export const sanitisedIngredient = (label: string): string => {
     .replace(/\b(?!\d{4}\b)\d+(\.\d+)?\b/g, '')                                    // remove numbers unless exactly 4 digits
     .replace(/[^\p{L}\s&',0-9-]/gu, '')                                            // preserve letters, digits, spaces, &, ', comma, and hyphen
     .replace(/\s{2,}/g, ' ')                                                       // collapse extra whitespace
-    .trim()
+    .trim()                                                                        // remove leading/trailing whitespace
     .replace(/\s+-\s*$/, '');                                                      // remove trailing hyphens
 };
