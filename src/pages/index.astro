@@ -6,26 +6,28 @@ import Layout from '@/layouts/Default.astro';
 const categories = await getCategories();
 const cuisines = await getCuisines();
 const recipes = await getRecipes();
-const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 4.5 });
-const metaTitle = `Gousto Recipe Search - ${recipes.length.toLocaleString()} Recipes`;
-const metaDescription = `Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.`;
+const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 4 });
+const meta = {
+  title: `Gousto Recipe Search - ${recipes.length.toLocaleString()} Recipes`,
+  description: `Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.`,
+};
 ---
 
 <Layout
   meta={{
-    description: metaDescription,
+    description: meta.description,
     og: {
-      'description': metaDescription,
-      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-search.jpg?${recipes.length}`,
-      'image:alt': metaTitle,
+      'description': meta.description,
+      'image': `https://images.gousto.wiki/screenshots/gousto-recipe-search.jpg`,
+      'image:alt': meta.title,
       'image:height': 630,
       'image:type': 'image/jpeg',
       'image:width': 1200,
       'locale': 'en_GB',
-      'title': metaTitle,
+      'title': meta.title,
       'url': site.url,
     },
-    title: metaTitle,
+    title: meta.title,
     twitter: {
       'card': 'summary_large_image',
     },
