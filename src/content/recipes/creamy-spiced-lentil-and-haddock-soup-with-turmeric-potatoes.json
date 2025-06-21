@@ -7,9 +7,9 @@
     "gousto_id": "6010",
     "rating": {
         "average": 4.5,
-        "count": 501
+        "count": 544
     },
-    "description": "This subtly spiced stew features a fragrant trio of cardamom, cumin and chilli. Let your lentils simmer till tender before stirring through double cream and topping with haddock. Serve over turmeric potatoes for an easy dinner.",
+    "description": "This subtly spiced stew features a fragrant trio of cardamom, cumin and chilli. Let your lentils simmer till tender before stirring through clotted cream and topping with haddock. Serve over turmeric potatoes for an easy dinner.",
     "prep_times": {
         "for_2": 35,
         "for_4": 40
@@ -71,14 +71,6 @@
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
-            "label": "Double cream (80ml)",
-            "gousto_uuid": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5.jpg"
-        },
-        {
             "label": "Haddock bites (100g) x0",
             "gousto_uuid": "b75f99ec-6ca3-4ace-bc6f-a5b689e5aab6",
             "allergens": [
@@ -101,6 +93,14 @@
                 "fish"
             ],
             "image": "/images/ingredients/87633123-034b-415f-8107-af23c882cc90.jpg"
+        },
+        {
+            "label": "Cornish clotted cream (40g) x2",
+            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
         },
         {
             "label": "Fresh root ginger (15g)",
@@ -166,7 +166,7 @@
             "image": "/images/instructions/creamy-spiced-lentil-and-haddock-soup-with-turmeric-potatoes/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the lentils are tender, add your <strong>double cream</strong> with a generous pinch of <strong>pepper</strong> and mix it all together</p><p>Top with your <strong>haddock bites</strong> (unevenly sized haddock bites? Chop any larger ones into bite-sized pieces!) and cook, covered, for 4-5 min or until the fish is cooked through \u2013 this is your <strong>creamy spiced lentil & haddock soup</strong></p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p>",
+            "instruction": "<p>Once the lentils are tender, add your <strong>clotted cream</strong> with a generous pinch of <strong>pepper</strong> and mix it all together</p><p>Top with your <strong>haddock bites</strong> (unevenly sized haddock bites? Chop any larger ones into bite-sized pieces!) and cook, covered, for 4-5 min or until the fish is cooked through \u2013 this is your <strong>creamy spiced lentil & haddock soup</strong></p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p>",
             "order": 7,
             "image": "/images/instructions/creamy-spiced-lentil-and-haddock-soup-with-turmeric-potatoes/step-7.jpg"
         },
@@ -182,27 +182,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 150,
-            "energy_kj": 631,
-            "fat_mg": 6088,
-            "fat_saturates_mg": 3520,
-            "carbs_mg": 15209,
-            "carbs_sugars_mg": 1717,
+            "energy_kcal": 167,
+            "energy_kj": 699,
+            "fat_mg": 7866,
+            "fat_saturates_mg": 4644,
+            "carbs_mg": 15163,
+            "carbs_sugars_mg": 1671,
             "fibre_mg": 3567,
-            "protein_mg": 9893,
-            "salt_mg": 446,
+            "protein_mg": 9882,
+            "salt_mg": 450,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 525,
-            "energy_kj": 2202,
-            "fat_mg": 21241,
-            "fat_saturates_mg": 12283,
-            "carbs_mg": 53058,
-            "carbs_sugars_mg": 5992,
+            "energy_kcal": 583,
+            "energy_kj": 2439,
+            "fat_mg": 27441,
+            "fat_saturates_mg": 16203,
+            "carbs_mg": 52898,
+            "carbs_sugars_mg": 5832,
             "fibre_mg": 12446,
-            "protein_mg": 34514,
-            "salt_mg": 1559,
+            "protein_mg": 34474,
+            "salt_mg": 1573,
             "net_weight_mg": 348850
         }
     },
@@ -211,6 +211,13 @@
             "portions": 1,
             "is_offered": true,
             "ingredients_skus": [
+                {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
                 {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
@@ -235,13 +242,6 @@
                 {
                     "id": "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                     "code": "I-06-SML-DL-21",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
                     "quantities": {
                         "in_box": 1
                     }
@@ -309,6 +309,13 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -332,13 +339,6 @@
                 {
                     "id": "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                     "code": "I-06-SML-DL-21",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
                     "quantities": {
                         "in_box": 1
                     }
@@ -406,6 +406,13 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 4
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -431,13 +438,6 @@
                     "code": "I-06-SML-DL-21",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {
@@ -517,6 +517,13 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 4
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -542,13 +549,6 @@
                     "code": "I-06-SML-DL-51",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {
@@ -614,6 +614,13 @@
             "is_offered": true,
             "ingredients_skus": [
                 {
+                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
+                    "code": "IQ-09-DAI-CR-11",
+                    "quantities": {
+                        "in_box": 6
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -639,13 +646,6 @@
                     "code": "I-06-SML-DL-51",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-                    "code": "I-09-DAI-CR-33",
-                    "quantities": {
-                        "in_box": 3
                     }
                 },
                 {
