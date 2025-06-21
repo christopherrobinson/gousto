@@ -15,7 +15,7 @@
         "average": 4.5,
         "count": 2092
     },
-    "description": "Indian flavours give the classic egg, chips and beans a delicious twist. You'll then garnish with fresh coriander and nigella seeds for a winner dinner \u2013 or a brunch with a punch!",
+    "description": "Indian flavours give the classic egg, chips and beans a delicious twist. You'll then garnish with fresh coriander and black sesame seeds for a winner dinner \u2013 or a brunch with a punch!",
     "prep_times": {
         "for_2": 35,
         "for_4": 40
@@ -55,6 +55,19 @@
             "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
         },
         {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+        },
+        {
             "label": "Curry powder (0.5tbsp) x0",
             "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
             "allergens": [],
@@ -71,12 +84,6 @@
             "gousto_uuid": "1916617b-68a4-48fa-a4f6-b042df2cbc55",
             "allergens": [],
             "image": "/images/ingredients/1916617b-68a4-48fa-a4f6-b042df2cbc55.jpg"
-        },
-        {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
         },
         {
             "label": "Red onion",
@@ -160,37 +167,43 @@
             "image": "/images/instructions/indian-style-beans-with-fried-egg-and-sweet-potato-wedges/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>fried egg</strong> over the <strong>Indian-style beans</strong> with the <strong>sweet potato wedges</strong> to the side</p><p>Garnish with your <strong>nigella seeds</strong> and <strong>chopped coriander</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>fried egg</strong> over the <strong>Indian-style beans</strong> with the <strong>sweet potato wedges</strong> to the side</p><p>Garnish with your <strong>black sesame seeds</strong> and <strong>chopped coriander</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
     "allergens": [
-        "egg"
+        "celery",
+        "egg",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 68,
-            "energy_kj": 290,
-            "fat_mg": 1149,
-            "fat_saturates_mg": 288,
-            "carbs_mg": 11295,
-            "carbs_sugars_mg": 3776,
-            "fibre_mg": 2592,
-            "protein_mg": 3249,
-            "salt_mg": 282,
+            "energy_kcal": 70,
+            "energy_kj": 296,
+            "fat_mg": 1329,
+            "fat_saturates_mg": 312,
+            "carbs_mg": 11232,
+            "carbs_sugars_mg": 3772,
+            "fibre_mg": 2556,
+            "protein_mg": 3260,
+            "salt_mg": 281,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 433,
-            "energy_kj": 1834,
-            "fat_mg": 7257,
-            "fat_saturates_mg": 1820,
-            "carbs_mg": 71330,
-            "carbs_sugars_mg": 23851,
-            "fibre_mg": 16371,
-            "protein_mg": 20522,
-            "salt_mg": 1783,
-            "net_weight_mg": 631500
+            "energy_kcal": 443,
+            "energy_kj": 1874,
+            "fat_mg": 8409,
+            "fat_saturates_mg": 1979,
+            "carbs_mg": 71046,
+            "carbs_sugars_mg": 23859,
+            "fibre_mg": 16170,
+            "protein_mg": 20620,
+            "salt_mg": 1782,
+            "net_weight_mg": 632500
         }
     },
     "portion_sizes": [
@@ -201,6 +214,13 @@
                 {
                     "id": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
                     "code": "I-08-SAU-HD-03",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
+                    "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                    "code": "I-06-SML-SD-13",
                     "quantities": {
                         "in_box": 1
                     }
@@ -243,13 +263,6 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-                    "code": "I-06-SML-DL-34",
                     "quantities": {
                         "in_box": 1
                     }
@@ -289,6 +302,13 @@
                     }
                 },
                 {
+                    "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                    "code": "I-06-SML-SD-13",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "8b55c0be-856c-485e-87cf-59f0eaf5d4b0",
                     "code": "I-01-CAN-VC-46",
                     "quantities": {
@@ -331,13 +351,6 @@
                     }
                 },
                 {
-                    "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-                    "code": "I-06-SML-DL-34",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
                     "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                     "code": "I-02-SVG-VG-05",
                     "quantities": {
@@ -367,6 +380,13 @@
                 {
                     "id": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
                     "code": "I-08-SAU-HD-03",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
+                    "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                    "code": "I-06-SML-SD-13",
                     "quantities": {
                         "in_box": 1
                     }
@@ -435,13 +455,6 @@
                     }
                 },
                 {
-                    "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-                    "code": "I-06-SML-DL-34",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
                     "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                     "code": "I-02-SVG-VG-05",
                     "quantities": {
@@ -473,6 +486,13 @@
                     "code": "I-08-SAU-HD-03",
                     "quantities": {
                         "in_box": 2
+                    }
+                },
+                {
+                    "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                    "code": "I-06-SML-SD-13",
+                    "quantities": {
+                        "in_box": 1
                     }
                 },
                 {
@@ -518,13 +538,6 @@
                     }
                 },
                 {
-                    "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-                    "code": "I-06-SML-DL-34",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
                     "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                     "code": "I-02-SVG-VG-05",
                     "quantities": {
@@ -554,6 +567,13 @@
                 {
                     "id": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
                     "code": "I-08-SAU-HD-03",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
+                    "id": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                    "code": "I-06-SML-SD-13",
                     "quantities": {
                         "in_box": 2
                     }
@@ -617,13 +637,6 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-                    "code": "I-06-SML-DL-34",
                     "quantities": {
                         "in_box": 3
                     }
