@@ -17,6 +17,12 @@
     "cuisine": "Brazilian",
     "ingredients": [
         {
+            "label": "Ground coriander (2tsp)",
+            "gousto_uuid": "fabcebd0-0595-4c07-9a82-e4093d86be85",
+            "allergens": [],
+            "image": "/images/ingredients/fabcebd0-0595-4c07-9a82-e4093d86be85.jpg"
+        },
+        {
             "label": "Ground coriander (1tsp) x0",
             "gousto_uuid": "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
             "allergens": [],
@@ -27,12 +33,6 @@
             "gousto_uuid": "a749d8cc-add6-4cb1-99df-6ca05a9436fa",
             "allergens": [],
             "image": "/images/ingredients/a749d8cc-add6-4cb1-99df-6ca05a9436fa.jpg"
-        },
-        {
-            "label": "Ground coriander (2tsp)",
-            "gousto_uuid": "fabcebd0-0595-4c07-9a82-e4093d86be85",
-            "allergens": [],
-            "image": "/images/ingredients/fabcebd0-0595-4c07-9a82-e4093d86be85.jpg"
         },
         {
             "label": "Cayenne pepper (0.5tsp)",
@@ -91,15 +91,6 @@
             "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
         },
         {
-            "label": "Soy sauce (15ml) x1",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
-        },
-        {
             "label": "Cherry tomatoes (125g)",
             "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
             "allergens": [],
@@ -122,6 +113,15 @@
             "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
             "allergens": [],
             "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x1",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         }
     ],
     "basics": [
@@ -179,27 +179,27 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 139,
-            "energy_kj": 588,
-            "fat_mg": 1897,
-            "fat_saturates_mg": 685,
-            "carbs_mg": 19880,
+            "energy_kj": 589,
+            "fat_mg": 1906,
+            "fat_saturates_mg": 688,
+            "carbs_mg": 19936,
             "carbs_sugars_mg": 1504,
-            "fibre_mg": 1789,
-            "protein_mg": 11026,
-            "salt_mg": 544,
+            "fibre_mg": 1798,
+            "protein_mg": 11014,
+            "salt_mg": 454,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 520,
-            "energy_kj": 2201,
+            "energy_kcal": 519,
+            "energy_kj": 2194,
             "fat_mg": 7093,
             "fat_saturates_mg": 2562,
-            "carbs_mg": 74305,
-            "carbs_sugars_mg": 5623,
+            "carbs_mg": 74163,
+            "carbs_sugars_mg": 5595,
             "fibre_mg": 6689,
-            "protein_mg": 41211,
-            "salt_mg": 2034,
-            "net_weight_mg": 373750
+            "protein_mg": 40974,
+            "salt_mg": 1689,
+            "net_weight_mg": 372000
         }
     },
     "portion_sizes": [
@@ -285,8 +285,8 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -382,8 +382,8 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -493,8 +493,8 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -590,8 +590,8 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -701,10 +701,10 @@
                     }
                 },
                 {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
+                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                    "code": "I-06-SML-OT-05",
                     "quantities": {
-                        "in_box": 2
+                        "in_box": 1
                     }
                 },
                 {
