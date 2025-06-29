@@ -1,5 +1,6 @@
 import { defineConfig, envField } from 'astro/config';
 import icon from 'astro-icon';
+import remarkDescription from 'astro-remark-description';
 import cloudflare from '@astrojs/cloudflare';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
@@ -7,6 +8,8 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 import Unimport from 'unimport/unplugin';
 import { loadEnv } from 'vite';
 import { site } from './src/config';
+import { remarkExternalLinks } from './src/helpers/remarkExternalLinks';
+import { remarkReadingTime } from './src/helpers/remarkReadingTime';
 
 const { GOUSTO_REFERRAL_CODE } = loadEnv(process.env.NODE_ENV, process.cwd(), '');
 
@@ -53,7 +56,13 @@ export default defineConfig({
       SVG: true,
     }),
   ],
-  // output: 'server',
+  markdown: {
+    remarkPlugins: [
+      [remarkDescription, { name: 'excerpt' }],
+      [remarkExternalLinks, {}],
+      [remarkReadingTime, {}],
+    ],
+  },
   prefetch: {
     defaultStrategy: 'hover',
   },

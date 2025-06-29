@@ -27,6 +27,7 @@ export const navItems = [
   { href: '/about/', label: 'About' },
   { href: '/recipes/', label: 'Recipes' },
 ];
+export const postsPerPage = 6;
 export const targetPortionCalories = 600;
 export const recipesPerPage = 12;
 export const site = {
