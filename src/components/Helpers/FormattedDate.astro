@@ -1,0 +1,12 @@
+---
+import type { FormattedDateProps } from '@/types/FormattedDate';
+
+const { date, options } = Astro.props as FormattedDateProps;
+---
+
+<time datetime={date.toISOString()}>
+  {date.toLocaleDateString(
+    'en-gb',
+    options || { day: 'numeric', month: 'long', year: 'numeric' }
+  )}
+</time>

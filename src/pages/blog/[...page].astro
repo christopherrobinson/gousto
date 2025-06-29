@@ -1,0 +1,48 @@
+---
+import BlogPostCard from '@/components/BlogPostCard.astro';
+import Pagination from '@/components/Helpers/Pagination.astro';
+import Layout from '@/layouts/Default.astro';
+
+export const getStaticPaths = async ({ paginate }) => {
+  const posts = await getBlogPosts();
+
+  return paginate(posts, { pageSize: postsPerPage });
+}
+
+const { page } = Astro.props;
+const { currentPage, data = [], lastPage, total, url } = page;
+---
+
+<Layout
+  heading={`Blog${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}
+>
+  <Container class="flex  flex-col  grow">
+    <div class="gap-4  grid  py-8  sm:py-16  lg:gap-8">
+      {
+        data.map(async (post: any) => {
+          const { data, id } = post;
+          const { cover, date, title } = data;
+          const { remarkPluginFrontmatter } = await render(post);
+          const { excerpt, readingTime } = remarkPluginFrontmatter;
+
+          return (
+            <BlogPostCard
+              cover={cover}
+              date={date}
+              excerpt={excerpt}
+              id={id}
+              readingTime={readingTime}
+              title={title}
+            />
+          )
+        })
+      }
+    </div>
+    <Pagination
+      baseUrl="/blog/"
+      currentPage={currentPage}
+      total={total}
+      totalPages={lastPage}
+    />
+  </Container>
+</Layout>

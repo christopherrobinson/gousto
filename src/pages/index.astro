@@ -1,5 +1,6 @@
 ---
 import Benefits from '@/components/Benefits.astro';
+import BlogPostCard from '@/components/BlogPostCard.astro';
 import Hero from '@/components/Hero.astro';
 import Layout from '@/layouts/Default.astro';
 
@@ -8,9 +9,13 @@ const cuisines = await getCuisines();
 const recipes = await getRecipes();
 const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 4 });
 const meta = {
-  title: `Gousto Recipe Search - ${recipes.length.toLocaleString()} Recipes`,
-  description: `Browse, search, and get inspired by thousands of recipes from Gousto. Find your next favourite meal in seconds.`,
+  title: `${recipes.length.toLocaleString()} Delicious Gousto Recipes - Search by Cuisine & Prep Time`,
+  description: `Explore almost 6,000 Gousto recipes by cuisine, prep time, or ingredients. Discover easy, delicious meals and find your next favourite recipe in seconds.`,
 };
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+
 ---
 
 <Layout
@@ -67,6 +72,40 @@ const meta = {
       </section>
     </Container>
   </div>
+  {posts?.length > 0 && (
+    <div class="bg-secondary-50  border-b  border-secondary-100  py-8  sm:py-16">
+      <Container>
+        <div class="flex  items-baseline  justify-between  mb-8">
+          <h2 class="font-light  font-serif  text-2xl  lg:text-3xl">Latest blog posts</h2>
+          <a
+            class="flex  items-center  justify-end  text-zinc-600  hover:text-zinc-600  hover:underline"
+            href="/blog/"
+          >
+            View all
+            <Icon class="ml-1  size-3" name="chevron-right" />
+          </a>
+        </div>
+        <div class="gap-4  grid  lg:gap-8  lg:grid-cols-3">
+          {posts.map(async (post) => {
+            const { data, id } = post
+            const { cover, date, title } = data
+            const { remarkPluginFrontmatter } = await render(post)
+
+            return (
+              <BlogPostCard
+                cover={cover}
+                date={date}
+                excerpt={remarkPluginFrontmatter.excerpt}
+                id={id}
+                readingTime={remarkPluginFrontmatter.readingTime}
+                title={title}
+              />
+            )
+          })}
+        </div>
+      </Container>
+    </div>
+  )}
   <Container>
     <div class="border  border-secondary-100  my-8  p-8  rounded-lg  text-center">
       <h2 class="font-medium  font-serif  mb-4  text-lg">Browse by cuisine&hellip;</h2>
@@ -105,13 +144,13 @@ const meta = {
 
 <script>
   const form = document.getElementById('searchForm');
-  const button = form?.querySelector('button[type="submit"]');
+  const button = form?.querySelector('button[type="submit"]') as HTMLButtonElement | null;
   const buttonTextDefault = button?.querySelector('span[data-submitted="false"]');
   const buttonText = button?.querySelector('span[data-submitted="true"]');
 
   if (form && button) {
     form.addEventListener('submit', (e) => {
-      const input = form.querySelector('input[name="q"]');
+      const input = form.querySelector('input[name="q"]') as HTMLInputElement | null;
 
       if (!input?.value.trim()) {
         e.preventDefault();

@@ -1,9 +1,14 @@
+import { blogSchema } from '@/schema/blog.ts'
 import { categoriesSchema } from '@/schema/categories.ts'
 import { cuisinesSchema } from '@/schema/cuisines.ts'
 import { pagesSchema } from '@/schema/pages.ts'
 import { recipesSchema } from '@/schema/recipes.ts'
 
 export const collections = {
+  blog: defineCollection({
+    loader: glob({ pattern: '**/[^_]*.md', base: './src/content/blog' }),
+    schema: blogSchema,
+  }),
   categories: defineCollection({
     loader: glob({ pattern: '**/[^_]*.md', base: './src/content/categories' }),
     schema: categoriesSchema,
