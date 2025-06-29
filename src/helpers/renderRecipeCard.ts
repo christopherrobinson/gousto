@@ -1,9 +1,5 @@
 export const renderRecipeCard = ({ cuisine, id, image, prep_times, rating, title }) => {
   const imageSrc = createImageUrl(image, { h: 288, w: 288 });
-  const imageSrcSet = createResponsiveImageSrcSet(image, [
-    { width: 288, height: 288 },
-    { width: 576, height: 576, density: 2 }
-  ]);
 
   return `
     <a class="bg-white  border  border-secondary-100  flex  flex-col  group  h-full  overflow-hidden  rounded-lg  transition  hover:border-secondary-200  hover:shadow-sm" href="/recipes/${id}/">
@@ -11,10 +7,10 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_times, rating, title
         <div class="overflow-hidden">
           <picture>
             <source
-              srcset="${createResponsiveImageSrcSet(image, [
-                { width: 288, height: 288 },
-                { width: 576, height: 576, density: 2 }
-              ]).replace(/&/g, '&amp;')}&amp;output=webp"
+              srcset="
+                ${imageSrc}&fit=cover&h=288&output=webp&w=288,
+                ${imageSrc}&fit=cover&h=576&output=webp&w=576 2x
+              "
               type="image/webp"
             />
             <img
@@ -23,8 +19,8 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_times, rating, title
               decoding="async"
               height="288"
               loading="lazy"
-              src="${imageSrc}"
-              srcset="${imageSrcSet}"
+              src="${imageSrc}&fit=cover&h=288&w=288"
+              srcset="${imageSrc}&fit=cover&h=576&w=576 2x"
               width="288"
             />
           </picture>
