@@ -30,32 +30,29 @@ export const getRecipesFromSupabase = async ({
     sort_option: sort ?? null,
   });
 
-  if (error || !Array.isArray(data)) {
+  if (error || !data || !Array.isArray(data.results)) {
     console.error('Supabase RPC error:', error);
 
     return {
-      recipes: [],
       cuisines: [],
-      total: 0,
       error,
+      recipes: [],
+      total: 0,
     };
   }
 
-  const recipes = data.map((entry) => entry.recipe);
-  const total = data[0]?.total_count ?? 0;
+  const recipes = data.results.map((entry) => entry.recipe);
+  const total = data.results[0]?.total_count ?? 0;
 
-  const cuisines = Array.from(
-    new Map(
-      recipes
-        .filter(r => r.cuisine)
-        .map(c => [c.cuisine.toLowerCase(), { label: c.cuisine, value: c.cuisine.toLowerCase() }])
-    ).values()
-  ).sort((a, b) => a.label.localeCompare(b.label));
+  const cuisines = (data.all_cuisines ?? []).map((cuisine) => ({
+    label: cuisine,
+    value: cuisine.toLowerCase(),
+  })).sort((a, b) => a.label.localeCompare(b.label));
 
   return {
-    recipes,
-    cuisines,
-    total,
     error: null,
+    cuisines,
+    recipes,
+    total,
   };
 };
