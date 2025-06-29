@@ -8,6 +8,7 @@ export interface DefaultLayoutProps {
       'image:height'?: number;
       'image:width'?: number;
     };
+    robots?: string;
     title?: string;
     twitter?: {
       'card'?: string;
