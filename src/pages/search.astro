@@ -75,7 +75,7 @@ const filters = {
 };
 ---
 
-<Layout heading="Search">
+<Layout heading="Search" meta={{ robots: 'noindex' }}>
   <Container>
     <div class="pt-8  w-full">
       <form action="/search/" method="get">
@@ -88,6 +88,7 @@ const filters = {
             <input
               class="bg-white  border-2  border-secondary-200  block  p-4  ps-12   rounded-lg  text-secondary-800  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
               id="q"
+              minlength={MIN_QUERY_LENGTH}
               name="q"
               placeholder="Search recipes..."
               required

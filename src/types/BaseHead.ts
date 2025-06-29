@@ -9,6 +9,7 @@ export interface BaseHeadProps {
     'locale'?: string;
     'title'?: string;
   };
+  robots?: string
   title?: string;
   twitter?: {
     card?: string;
