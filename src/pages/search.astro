@@ -27,6 +27,12 @@ if (query && (query.length < MIN_QUERY_LENGTH)) {
   error = `Search query must be at least ${MIN_QUERY_LENGTH} characters long.`;
 }
 
+if (selectedCuisine) {
+  if (!(await isValidCuisine(selectedCuisine))) {
+    return Astro.redirect(updateQueryParams(Astro.url, [{ cuisine: false }]));
+  }
+}
+
 if (!error) {
   const res = await getRecipesFromSupabase({
     query,
