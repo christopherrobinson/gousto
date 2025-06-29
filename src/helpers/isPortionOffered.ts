@@ -1,3 +1,5 @@
+import { type IngredientsProps } from '../types/Ingredients.ts';
+
 export const isPortionOffered = (portionSizes: IngredientsProps['portion_sizes'], portions: number): boolean => {
   if (!portionSizes) {
     return false;
