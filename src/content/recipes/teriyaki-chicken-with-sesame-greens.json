@@ -14,7 +14,7 @@
     "gousto_id": "1706",
     "rating": {
         "average": 4.5,
-        "count": 41977
+        "count": 41978
     },
     "description": "For this easy cook's trick, you'll season your chicken in soy, honey and chilli to make a quick teriyaki glaze. Round out your meal with microwave rice and sesame greens to serve. Sizzle, ding, done! All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
     "prep_times": {
@@ -40,6 +40,12 @@
             "gousto_uuid": "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
             "allergens": [],
             "image": "/images/ingredients/b54cc858-8ac5-4bcc-b0b3-17f88960a94e.jpg"
+        },
+        {
+            "label": "Sugar snap peas (80g)",
+            "gousto_uuid": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+            "allergens": [],
+            "image": "/images/ingredients/2b08232e-e5bb-458e-8ecc-9ac866642ee7.jpg"
         },
         {
             "label": "Spring onion x2",
@@ -125,12 +131,6 @@
             "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
         },
         {
-            "label": "Fine green beans (80g)",
-            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-            "allergens": [],
-            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
-        },
-        {
             "label": "Honey (25g)",
             "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
             "allergens": [],
@@ -157,7 +157,7 @@
             "image": "/images/instructions/teriyaki-chicken-with-sesame-greens/step-3.jpg"
         },
         {
-            "instruction": "<p>While the chicken is cooking, trim your <strong>green beans </strong>then add your<strong> mangetout </strong>and<strong> green beans</strong> to a large bowl and cover them in <strong>boiled water</strong> until fully submerged</p><p>Set aside to soften</p><p>In a separate small bowl combine your<strong> soy sauce</strong>, <strong>honey</strong> and <strong>chilli flakes</strong> (can't handle the heat? Go easy!) \u2013 this is your<strong> teriyaki sauce</strong></p>",
+            "instruction": "<p>While the chicken is cooking, add your<strong> mangetout </strong>and<strong> sugar snap peas</strong> to a large bowl and cover them in <strong>boiled water</strong> until fully submerged</p><p>Set aside to soften</p><p>In a separate small bowl combine your<strong> soy sauce</strong>, <strong>honey</strong> and <strong>chilli flakes</strong> (can't handle the heat? Go easy!) \u2013 this is your<strong> teriyaki sauce</strong></p>",
             "order": 4,
             "image": "/images/instructions/teriyaki-chicken-with-sesame-greens/step-4.jpg"
         },
@@ -172,7 +172,7 @@
             "image": "/images/instructions/teriyaki-chicken-with-sesame-greens/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the sauce has thickened, drain the <strong>softened green beans </strong>and <strong>mangetout</strong>, then return to the bowl</p><p>Add your <strong>toasted sesame oil</strong> and <strong>toasted sesame seeds</strong> and give everything a good mix up \u2013 these are your <strong>sesame greens</strong></p>",
+            "instruction": "<p>Once the sauce has thickened, drain the <strong>softened sugar snap peas </strong>and <strong>mangetout</strong>, then return to the bowl</p><p>Add your <strong>toasted sesame oil</strong> and <strong>toasted sesame seeds</strong> and give everything a good mix up \u2013 these are your <strong>sesame greens</strong></p>",
             "order": 7,
             "image": "/images/instructions/teriyaki-chicken-with-sesame-greens/step-7.jpg"
         },
@@ -193,27 +193,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 143,
-            "energy_kj": 605,
-            "fat_mg": 3193,
+            "energy_kcal": 144,
+            "energy_kj": 610,
+            "fat_mg": 3173,
             "fat_saturates_mg": 442,
-            "carbs_mg": 18562,
-            "carbs_sugars_mg": 3168,
-            "fibre_mg": 1145,
-            "protein_mg": 10176,
-            "salt_mg": 695,
+            "carbs_mg": 18756,
+            "carbs_sugars_mg": 3322,
+            "fibre_mg": 951,
+            "protein_mg": 10309,
+            "salt_mg": 688,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 560,
-            "energy_kj": 2365,
-            "fat_mg": 12472,
+            "energy_kcal": 564,
+            "energy_kj": 2383,
+            "fat_mg": 12392,
             "fat_saturates_mg": 1729,
-            "carbs_mg": 72486,
-            "carbs_sugars_mg": 12374,
-            "fibre_mg": 4474,
-            "protein_mg": 39738,
-            "salt_mg": 2715,
+            "carbs_mg": 73246,
+            "carbs_sugars_mg": 12974,
+            "fibre_mg": 3714,
+            "protein_mg": 40258,
+            "salt_mg": 2687,
             "net_weight_mg": 390500
         }
     },
@@ -244,13 +244,6 @@
                     }
                 },
                 {
-                    "id": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-                    "code": "I-05-FVG-PD-01-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
                     "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
                     "code": "I-01-CAN-LQ-06",
                     "quantities": {
@@ -274,6 +267,13 @@
                 {
                     "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                     "code": "I-07-HBS-PL-10",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
+                    "id": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                    "code": "I-05-FVG-PD-03-05",
                     "quantities": {
                         "in_box": 1
                     }
@@ -320,13 +320,6 @@
                     }
                 },
                 {
-                    "id": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-                    "code": "I-05-FVG-PD-01-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
                     "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
                     "code": "I-01-CAN-LQ-06",
                     "quantities": {
@@ -352,6 +345,13 @@
                     "code": "I-07-HBS-PL-10",
                     "quantities": {
                         "in_box": 2
+                    }
+                },
+                {
+                    "id": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                    "code": "I-05-FVG-PD-03-05",
+                    "quantities": {
+                        "in_box": 1
                     }
                 },
                 {
@@ -403,13 +403,6 @@
                     }
                 },
                 {
-                    "id": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-                    "code": "I-05-FVG-PD-01-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
                     "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
                     "code": "I-01-CAN-LQ-06",
                     "quantities": {
@@ -442,6 +435,13 @@
                     "code": "I-07-HBS-PL-10",
                     "quantities": {
                         "in_box": 3
+                    }
+                },
+                {
+                    "id": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                    "code": "I-05-FVG-PD-03-05",
+                    "quantities": {
+                        "in_box": 2
                     }
                 },
                 {
@@ -486,13 +486,6 @@
                     }
                 },
                 {
-                    "id": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-                    "code": "I-05-FVG-PD-01-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
                     "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
                     "code": "I-01-CAN-LQ-06",
                     "quantities": {
@@ -518,6 +511,13 @@
                     "code": "I-07-HBS-PL-10",
                     "quantities": {
                         "in_box": 4
+                    }
+                },
+                {
+                    "id": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                    "code": "I-05-FVG-PD-03-05",
+                    "quantities": {
+                        "in_box": 2
                     }
                 },
                 {
@@ -569,13 +569,6 @@
                     }
                 },
                 {
-                    "id": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-                    "code": "I-05-FVG-PD-01-14",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
                     "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
                     "code": "I-01-CAN-LQ-06",
                     "quantities": {
@@ -608,6 +601,13 @@
                     "code": "I-07-HBS-PL-10",
                     "quantities": {
                         "in_box": 5
+                    }
+                },
+                {
+                    "id": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                    "code": "I-05-FVG-PD-03-05",
+                    "quantities": {
+                        "in_box": 3
                     }
                 },
                 {

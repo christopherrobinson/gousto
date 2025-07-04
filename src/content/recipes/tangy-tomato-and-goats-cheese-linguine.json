@@ -21,12 +21,6 @@
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Vegetable stock mix (11g)",
-            "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-            "allergens": [],
-            "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
-        },
-        {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
@@ -43,6 +37,12 @@
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
             "label": "Spinach (120g)",
@@ -197,28 +197,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 128,
-            "energy_kj": 541,
-            "fat_mg": 3087,
-            "fat_saturates_mg": 1639,
-            "carbs_mg": 19674,
-            "carbs_sugars_mg": 2790,
-            "fibre_mg": 1416,
-            "protein_mg": 5540,
+            "energy_kcal": 127,
+            "energy_kj": 536,
+            "fat_mg": 3108,
+            "fat_saturates_mg": 1650,
+            "carbs_mg": 19311,
+            "carbs_sugars_mg": 2757,
+            "fibre_mg": 1423,
+            "protein_mg": 5475,
             "salt_mg": 435,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 536,
-            "energy_kj": 2259,
+            "energy_kcal": 528,
+            "energy_kj": 2224,
             "fat_mg": 12875,
             "fat_saturates_mg": 6837,
-            "carbs_mg": 82043,
-            "carbs_sugars_mg": 11636,
-            "fibre_mg": 5907,
-            "protein_mg": 23102,
-            "salt_mg": 1816,
-            "net_weight_mg": 417000
+            "carbs_mg": 79997,
+            "carbs_sugars_mg": 11422,
+            "fibre_mg": 5896,
+            "protein_mg": 22681,
+            "salt_mg": 1805,
+            "net_weight_mg": 414250
         }
     },
     "portion_sizes": [
@@ -331,6 +331,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "5e4d2fda-8e04-497b-b428-61c8075d7016",
                     "code": "I-03-GRN-PA-42",
                     "quantities": {
@@ -361,13 +368,6 @@
                 {
                     "id": "c4363e48-068d-4650-b2c3-afba8d801197",
                     "code": "I-06-SML-SD-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 1
                     }
@@ -407,6 +407,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "5e4d2fda-8e04-497b-b428-61c8075d7016",
                     "code": "I-03-GRN-PA-42",
                     "quantities": {
@@ -461,13 +468,6 @@
                     "quantities": {
                         "in_box": 1
                     }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 1
-                    }
                 }
             ]
         },
@@ -504,6 +504,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "5e4d2fda-8e04-497b-b428-61c8075d7016",
                     "code": "I-03-GRN-PA-42",
                     "quantities": {
@@ -534,13 +541,6 @@
                 {
                     "id": "c4363e48-068d-4650-b2c3-afba8d801197",
                     "code": "I-06-SML-SD-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 2
                     }
@@ -577,6 +577,13 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 5
+                    }
+                },
+                {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
                     }
                 },
                 {
@@ -633,13 +640,6 @@
                     "code": "I-06-SML-SC-26",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 2
                     }
                 }
             ]

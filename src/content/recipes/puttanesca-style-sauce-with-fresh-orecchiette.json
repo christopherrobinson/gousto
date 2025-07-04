@@ -7,7 +7,7 @@
     "gousto_id": "7003",
     "rating": {
         "average": 4.5,
-        "count": 4473
+        "count": 4503
     },
     "description": "When life gives you capers, make a puttanesca. For this Neapolitan classic, you'll cook garlicky tomatoes with black olives and tangy capers before serving over fresh orecchiette.",
     "prep_times": {
@@ -16,12 +16,6 @@
     },
     "cuisine": "Italian",
     "ingredients": [
-        {
-            "label": "Vegetable stock mix (11g)",
-            "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-            "allergens": [],
-            "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
-        },
         {
             "label": "Black olives (40g)",
             "gousto_uuid": "f67d256a-866c-4110-b863-e47f32ea89f7",
@@ -33,6 +27,12 @@
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
             "label": "Finely chopped tomatoes (200g)",
@@ -126,28 +126,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 158,
-            "energy_kj": 669,
-            "fat_mg": 1772,
-            "fat_saturates_mg": 306,
-            "carbs_mg": 29912,
-            "carbs_sugars_mg": 2379,
-            "fibre_mg": 1601,
-            "protein_mg": 5344,
-            "salt_mg": 753,
+            "energy_kcal": 156,
+            "energy_kj": 662,
+            "fat_mg": 1790,
+            "fat_saturates_mg": 310,
+            "carbs_mg": 29457,
+            "carbs_sugars_mg": 2324,
+            "fibre_mg": 1613,
+            "protein_mg": 5242,
+            "salt_mg": 757,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 430,
-            "energy_kj": 1820,
+            "energy_kcal": 422,
+            "energy_kj": 1785,
             "fat_mg": 4820,
             "fat_saturates_mg": 835,
-            "carbs_mg": 81361,
-            "carbs_sugars_mg": 6473,
-            "fibre_mg": 4356,
-            "protein_mg": 14536,
-            "salt_mg": 2050,
-            "net_weight_mg": 272000
+            "carbs_mg": 79315,
+            "carbs_sugars_mg": 6258,
+            "fibre_mg": 4345,
+            "protein_mg": 14115,
+            "salt_mg": 2039,
+            "net_weight_mg": 269250
         }
     },
     "portion_sizes": [
@@ -246,15 +246,15 @@
                     }
                 },
                 {
-                    "id": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-                    "code": "I-07-HBS-PL-25-5",
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
                     "quantities": {
                         "in_box": 1
                     }
                 },
                 {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
+                    "id": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+                    "code": "I-07-HBS-PL-25-5",
                     "quantities": {
                         "in_box": 1
                     }
@@ -301,6 +301,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                     "code": "I-07-HBS-PL-25-5",
                     "quantities": {
@@ -310,13 +317,6 @@
                 {
                     "id": "166bfad3-d300-465d-b61c-fef4d2965904",
                     "code": "I-06-SML-SC-26",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 1
                     }
@@ -363,17 +363,17 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                     "code": "I-07-HBS-PL-25-5",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 2
                     }
                 }
             ]
@@ -418,6 +418,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                     "code": "I-07-HBS-PL-25-5",
                     "quantities": {
@@ -429,13 +436,6 @@
                     "code": "I-06-SML-SC-26",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 2
                     }
                 }
             ]
