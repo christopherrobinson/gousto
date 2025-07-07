@@ -7,7 +7,7 @@
     "gousto_id": "5398",
     "rating": {
         "average": 4.5,
-        "count": 5220
+        "count": 5231
     },
     "description": "Tuck into this speedy spaghetti in 10. You'll saut\u00e9 chestnut mushrooms in a creamy sun-dried tomato sauce before tossing in spaghetti and Tenderstem broccoli. Sprinkle with grated Italian cheese and dig in. Under 600 calories.",
     "prep_times": {
@@ -16,12 +16,6 @@
     },
     "cuisine": "Italian",
     "ingredients": [
-        {
-            "label": "Vegetable stock mix (11g)",
-            "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-            "allergens": [],
-            "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
-        },
         {
             "label": "Tomato paste (32g)",
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
@@ -39,6 +33,12 @@
             "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
             "allergens": [],
             "image": "/images/ingredients/f99089af-84d8-4c24-b144-079ed2f2726b.jpg"
+        },
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
             "label": "Quick cook spaghetti (160g)",
@@ -157,28 +157,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 169,
-            "energy_kj": 711,
-            "fat_mg": 6551,
-            "fat_saturates_mg": 2847,
-            "carbs_mg": 20687,
-            "carbs_sugars_mg": 3087,
-            "fibre_mg": 1478,
-            "protein_mg": 6624,
-            "salt_mg": 687,
+            "energy_kcal": 168,
+            "energy_kj": 707,
+            "fat_mg": 6606,
+            "fat_saturates_mg": 2871,
+            "carbs_mg": 20238,
+            "carbs_sugars_mg": 3047,
+            "fibre_mg": 1487,
+            "protein_mg": 6551,
+            "salt_mg": 689,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 562,
-            "energy_kj": 2360,
+            "energy_kcal": 553,
+            "energy_kj": 2325,
             "fat_mg": 21718,
             "fat_saturates_mg": 9440,
-            "carbs_mg": 68579,
-            "carbs_sugars_mg": 10234,
-            "fibre_mg": 4902,
-            "protein_mg": 21960,
-            "salt_mg": 2279,
-            "net_weight_mg": 331500
+            "carbs_mg": 66533,
+            "carbs_sugars_mg": 10019,
+            "fibre_mg": 4891,
+            "protein_mg": 21539,
+            "salt_mg": 2268,
+            "net_weight_mg": 328750
         }
     },
     "portion_sizes": [
@@ -277,6 +277,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
                     "code": "I-03-GRN-PA-41",
                     "quantities": {
@@ -307,13 +314,6 @@
                 {
                     "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                     "code": "I-08-SAU-PS-37",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 1
                     }
@@ -360,6 +360,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
                     "code": "I-03-GRN-PA-41",
                     "quantities": {
@@ -407,13 +414,6 @@
                     "quantities": {
                         "in_box": 1
                     }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 1
-                    }
                 }
             ]
         },
@@ -438,6 +438,13 @@
                 {
                     "id": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                     "code": "I-09-DAI-CH-42",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
                     "quantities": {
                         "in_box": 2
                     }
@@ -473,13 +480,6 @@
                 {
                     "id": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                     "code": "I-08-SAU-PS-37",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 2
                     }
@@ -526,6 +526,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
                     "code": "I-03-GRN-PA-41",
                     "quantities": {
@@ -572,13 +579,6 @@
                     "code": "I-06-SML-SC-26",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 2
                     }
                 }
             ]

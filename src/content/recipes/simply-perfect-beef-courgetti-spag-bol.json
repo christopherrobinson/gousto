@@ -7,7 +7,7 @@
     "gousto_id": "8680",
     "rating": {
         "average": 4.5,
-        "count": 63
+        "count": 97
     },
     "description": "This carb smart recipe replaces half the pasta for courgetti. This beef spag bol is slurp-ready to eat in 30 minutes. Rustle up a rich meat sauce and top with a good sprinkle of cheese and fresh parsley and you're good to go.",
     "prep_times": {
@@ -16,6 +16,24 @@
     },
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Beef stock mix (11g)",
+            "gousto_uuid": "8e096433-e7cf-4a14-95f0-c81730b98f56",
+            "allergens": [],
+            "image": "/images/ingredients/8e096433-e7cf-4a14-95f0-c81730b98f56.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
+            "label": "Tomato paste (32g) x0",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
         {
             "label": "Spaghetti (50g) x0",
             "gousto_uuid": "804ea8fd-7150-4108-b11f-a6b15fc08c73",
@@ -64,24 +82,6 @@
             "gousto_uuid": "a7f888da-1e74-4180-9550-f7c69dcc5872",
             "allergens": [],
             "image": "/images/ingredients/a7f888da-1e74-4180-9550-f7c69dcc5872.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "Intense beef stock mix (5.5g)",
-            "gousto_uuid": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-            "allergens": [],
-            "image": "/images/ingredients/ec455cb7-01fc-4470-9db4-e94afca273e4.jpg"
-        },
-        {
-            "label": "Tomato paste (32g) x0",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Tomato paste (16g)",
@@ -191,45 +191,35 @@
         }
     ],
     "allergens": [
-        "celery",
-        "crustacean",
         "egg",
-        "fish",
         "gluten",
-        "lupin",
         "milk",
-        "mollusc",
-        "mustard",
-        "nut",
-        "peanut",
-        "sesame",
-        "soya",
-        "sulphites"
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 122,
-            "energy_kj": 515,
-            "fat_mg": 5155,
-            "fat_saturates_mg": 2300,
-            "carbs_mg": 11172,
-            "carbs_sugars_mg": 3050,
-            "fibre_mg": 1462,
-            "protein_mg": 8058,
+            "energy_kcal": 124,
+            "energy_kj": 519,
+            "fat_mg": 5126,
+            "fat_saturates_mg": 2287,
+            "carbs_mg": 11493,
+            "carbs_sugars_mg": 3063,
+            "fibre_mg": 1465,
+            "protein_mg": 8160,
             "salt_mg": 434,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 589,
-            "energy_kj": 2470,
+            "energy_kcal": 600,
+            "energy_kj": 2504,
             "fat_mg": 24708,
             "fat_saturates_mg": 11026,
-            "carbs_mg": 53543,
-            "carbs_sugars_mg": 14621,
-            "fibre_mg": 7009,
-            "protein_mg": 38619,
-            "salt_mg": 2084,
-            "net_weight_mg": 479250
+            "carbs_mg": 55397,
+            "carbs_sugars_mg": 14764,
+            "fibre_mg": 7064,
+            "protein_mg": 39334,
+            "salt_mg": 2093,
+            "net_weight_mg": 482000
         }
     },
     "portion_sizes": [
@@ -356,6 +346,13 @@
                     }
                 },
                 {
+                    "id": "8e096433-e7cf-4a14-95f0-c81730b98f56",
+                    "code": "I-06-SML-SC-25",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -402,13 +399,6 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 2
-                    }
-                },
-                {
-                    "id": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-                    "code": "I-06-SML-SC-36",
-                    "quantities": {
-                        "in_box": 1
                     }
                 },
                 {
@@ -474,6 +464,13 @@
                     }
                 },
                 {
+                    "id": "8e096433-e7cf-4a14-95f0-c81730b98f56",
+                    "code": "I-06-SML-SC-25",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -520,13 +517,6 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 3
-                    }
-                },
-                {
-                    "id": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-                    "code": "I-06-SML-SC-36",
-                    "quantities": {
-                        "in_box": 1
                     }
                 },
                 {
@@ -585,6 +575,13 @@
                     }
                 },
                 {
+                    "id": "8e096433-e7cf-4a14-95f0-c81730b98f56",
+                    "code": "I-06-SML-SC-25",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -631,13 +628,6 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 4
-                    }
-                },
-                {
-                    "id": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-                    "code": "I-06-SML-SC-36",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {
@@ -703,6 +693,13 @@
                     }
                 },
                 {
+                    "id": "8e096433-e7cf-4a14-95f0-c81730b98f56",
+                    "code": "I-06-SML-SC-25",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                     "code": "I-02-SVG-VG-07",
                     "quantities": {
@@ -749,13 +746,6 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 5
-                    }
-                },
-                {
-                    "id": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-                    "code": "I-06-SML-SC-36",
-                    "quantities": {
-                        "in_box": 2
                     }
                 },
                 {

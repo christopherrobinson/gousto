@@ -5,6 +5,10 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "7987",
+    "rating": {
+        "average": 4.5,
+        "count": 5
+    },
     "description": "Butter is the star of the show in this northern Italian classic. You'll coat your pasta in a rich sage, garlic and brown butter sauce before serving with a side of caramelised butternut squash salad.",
     "prep_times": {
         "for_2": 20,
@@ -71,18 +75,18 @@
             "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
         },
         {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
-        {
             "label": "Butternut squash cubes (160g)",
             "gousto_uuid": "88852431-ad79-4030-a171-252206c931f7",
             "allergens": [],
             "image": "/images/ingredients/88852431-ad79-4030-a171-252206c931f7.jpg"
+        },
+        {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "Rocket (50g)",
@@ -123,7 +127,7 @@
             "image": "/images/instructions/brown-butter-and-crispy-sage-mafaldine-with-butternut-salad/step-3.jpg"
         },
         {
-            "instruction": "<p>While the <strong>butternut</strong> is cooking, add your <strong>mafaldine</strong> to a pot of <strong>boiled water</strong> and bring to the boil over a high heat</p><p>Cook the mafaldine for 7-9 min or until cooked with a slight bite</p><p>Once done, drain the mafaldine, reserving 100ml <span class=\"text-purple\">[130ml]</span> <span class=\"text-danger\">[170ml]</span> <strong>starchy pasta water</strong></p><p>Combine the <strong>reserved starchy pasta water </strong>with your <strong>clotted cream </strong>and <strong>vegetable stock mix</strong> \u2013 this is your <strong>pasta stock</strong></p>",
+            "instruction": "<p>While the <strong>butternut</strong> is cooking, add your <strong>mafaldine</strong> to a pot of <strong>boiled water</strong> and bring to the boil over a high heat</p><p>Cook the mafaldine for 7-9 min or until cooked with a slight bite</p><p>Once done, drain the mafaldine, reserving 100ml <span class=\"text-purple\">[130ml]</span> <span class=\"text-danger\">[170ml]</span> <strong>starchy pasta water</strong></p><p>Combine the <strong>reserved starchy pasta water </strong>with your <strong>soft cheese </strong>and <strong>vegetable stock mix</strong> \u2013 this is your <strong>pasta stock</strong></p>",
             "order": 4,
             "image": "/images/instructions/brown-butter-and-crispy-sage-mafaldine-with-butternut-salad/step-4.jpg"
         },
@@ -157,28 +161,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 239,
-            "energy_kj": 1008,
-            "fat_mg": 9104,
-            "fat_saturates_mg": 4483,
-            "carbs_mg": 31334,
-            "carbs_sugars_mg": 3404,
-            "fibre_mg": 2031,
-            "protein_mg": 7565,
-            "salt_mg": 607,
+            "energy_kcal": 215,
+            "energy_kj": 907,
+            "fat_mg": 6559,
+            "fat_saturates_mg": 2948,
+            "carbs_mg": 30871,
+            "carbs_sugars_mg": 3456,
+            "fibre_mg": 1994,
+            "protein_mg": 7722,
+            "salt_mg": 638,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 639,
-            "energy_kj": 2684,
-            "fat_mg": 24242,
-            "fat_saturates_mg": 11937,
-            "carbs_mg": 83428,
-            "carbs_sugars_mg": 9065,
+            "energy_kcal": 584,
+            "energy_kj": 2461,
+            "fat_mg": 17792,
+            "fat_saturates_mg": 7997,
+            "carbs_mg": 83738,
+            "carbs_sugars_mg": 9375,
             "fibre_mg": 5409,
-            "protein_mg": 20143,
-            "salt_mg": 1617,
-            "net_weight_mg": 266250
+            "protein_mg": 20948,
+            "salt_mg": 1733,
+            "net_weight_mg": 271250
         }
     },
     "portion_sizes": [
@@ -186,13 +190,6 @@
             "portions": 1,
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
-                    "code": "IQ-09-DAI-CR-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
                 {
                     "id": "8357c090-d832-41bc-a458-b13600637e1b",
                     "code": "I-08-SAU-LS-15",
@@ -250,6 +247,13 @@
                     }
                 },
                 {
+                    "id": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+                    "code": "I-09-DAI-CR-15",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "166bfad3-d300-465d-b61c-fef4d2965904",
                     "code": "I-06-SML-SC-26",
                     "quantities": {
@@ -262,13 +266,6 @@
             "portions": 2,
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
-                    "code": "IQ-09-DAI-CR-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
                 {
                     "id": "8357c090-d832-41bc-a458-b13600637e1b",
                     "code": "I-08-SAU-LS-15",
@@ -331,6 +328,13 @@
                     "quantities": {
                         "in_box": 1
                     }
+                },
+                {
+                    "id": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+                    "code": "I-09-DAI-CR-15",
+                    "quantities": {
+                        "in_box": 1
+                    }
                 }
             ]
         },
@@ -338,13 +342,6 @@
             "portions": 3,
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
-                    "code": "IQ-09-DAI-CR-11",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
                 {
                     "id": "8357c090-d832-41bc-a458-b13600637e1b",
                     "code": "I-08-SAU-LS-15",
@@ -416,6 +413,13 @@
                     }
                 },
                 {
+                    "id": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+                    "code": "I-09-DAI-CR-15",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "166bfad3-d300-465d-b61c-fef4d2965904",
                     "code": "I-06-SML-SC-26",
                     "quantities": {
@@ -428,13 +432,6 @@
             "portions": 4,
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
-                    "code": "IQ-09-DAI-CR-11",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
                 {
                     "id": "8357c090-d832-41bc-a458-b13600637e1b",
                     "code": "I-08-SAU-LS-15",
@@ -497,6 +494,13 @@
                     "quantities": {
                         "in_box": 2
                     }
+                },
+                {
+                    "id": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+                    "code": "I-09-DAI-CR-15",
+                    "quantities": {
+                        "in_box": 2
+                    }
                 }
             ]
         },
@@ -504,13 +508,6 @@
             "portions": 5,
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "488d5751-dcff-4985-88c0-bf745ff54904",
-                    "code": "IQ-09-DAI-CR-11",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
                 {
                     "id": "8357c090-d832-41bc-a458-b13600637e1b",
                     "code": "I-08-SAU-LS-15",
@@ -579,6 +576,13 @@
                     "code": "I-07-HBS-PL-41",
                     "quantities": {
                         "in_box": 2
+                    }
+                },
+                {
+                    "id": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+                    "code": "I-09-DAI-CR-15",
+                    "quantities": {
+                        "in_box": 3
                     }
                 },
                 {

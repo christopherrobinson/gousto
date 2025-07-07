@@ -17,12 +17,6 @@
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Vegetable stock mix (11g)",
-            "gousto_uuid": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-            "allergens": [],
-            "image": "/images/ingredients/0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f.jpg"
-        },
-        {
             "label": "Red pepper",
             "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
             "allergens": [],
@@ -39,6 +33,12 @@
             "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
             "allergens": [],
             "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
             "label": "Finely chopped tomatoes (390g) x0",
@@ -168,28 +168,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 82,
-            "energy_kj": 342,
-            "fat_mg": 4036,
-            "fat_saturates_mg": 500,
-            "carbs_mg": 7861,
-            "carbs_sugars_mg": 2655,
-            "fibre_mg": 2364,
-            "protein_mg": 3164,
+            "energy_kcal": 80,
+            "energy_kj": 337,
+            "fat_mg": 4060,
+            "fat_saturates_mg": 503,
+            "carbs_mg": 7452,
+            "carbs_sugars_mg": 2624,
+            "fibre_mg": 2376,
+            "protein_mg": 3089,
             "salt_mg": 356,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 369,
-            "energy_kj": 1542,
+            "energy_kcal": 361,
+            "energy_kj": 1508,
             "fat_mg": 18162,
             "fat_saturates_mg": 2251,
-            "carbs_mg": 35378,
-            "carbs_sugars_mg": 11950,
-            "fibre_mg": 10638,
-            "protein_mg": 14239,
-            "salt_mg": 1606,
-            "net_weight_mg": 450000
+            "carbs_mg": 33332,
+            "carbs_sugars_mg": 11736,
+            "fibre_mg": 10627,
+            "protein_mg": 13818,
+            "salt_mg": 1595,
+            "net_weight_mg": 447250
         }
     },
     "portion_sizes": [
@@ -330,6 +330,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "0af67d61-fa68-4172-bec1-09d635e3fc71",
                     "code": "IQ-07-GRN-FL-09-03",
                     "quantities": {
@@ -360,13 +367,6 @@
                 {
                     "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                     "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 1
                     }
@@ -427,6 +427,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
                     "id": "0af67d61-fa68-4172-bec1-09d635e3fc71",
                     "code": "IQ-07-GRN-FL-09-03",
                     "quantities": {
@@ -464,13 +471,6 @@
                 {
                     "id": "166bfad3-d300-465d-b61c-fef4d2965904",
                     "code": "I-06-SML-SC-26",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 1
                     }
@@ -524,6 +524,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "0af67d61-fa68-4172-bec1-09d635e3fc71",
                     "code": "IQ-07-GRN-FL-09-03",
                     "quantities": {
@@ -554,13 +561,6 @@
                 {
                     "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                     "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
                     "quantities": {
                         "in_box": 2
                     }
@@ -628,6 +628,13 @@
                     }
                 },
                 {
+                    "id": "9fba123b-025a-43b0-8a85-3397a62f044e",
+                    "code": "I-06-SML-SC-34",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
                     "id": "0af67d61-fa68-4172-bec1-09d635e3fc71",
                     "code": "IQ-07-GRN-FL-09-03",
                     "quantities": {
@@ -667,13 +674,6 @@
                     "code": "I-06-SML-SC-26",
                     "quantities": {
                         "in_box": 1
-                    }
-                },
-                {
-                    "id": "0b0b68a5-7e0b-4f87-9ffd-3fd67f464b9f",
-                    "code": "I-06-SML-SC-27",
-                    "quantities": {
-                        "in_box": 2
                     }
                 }
             ]
