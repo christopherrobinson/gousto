@@ -14,7 +14,7 @@ const backgroundImage = cover && (await getImage({ src: cover }));
   >
     <div
       class={`
-        aspect-video  bg-center  bg-cover  flex  items-center  justify-center  relative  shrink-0  w-full  @[608px]:w-60
+        aspect-video  bg-center  bg-cover  bg-secondary-100  flex  items-center  justify-center  relative  shrink-0  w-full  @[608px]:w-60
         ${!cover && (`bg-zinc-100`)}
       `}
       style={cover && { backgroundImage: `url('${backgroundImage?.src}')` } || ``}
