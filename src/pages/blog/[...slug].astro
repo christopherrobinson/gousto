@@ -1,6 +1,6 @@
 ---
 import FormattedDate from '@/components/Helpers/FormattedDate.astro';
-import RecipeCard from '@/components/RecipeCard.astro';
+import FeaturedRecipes from '@/components/FeaturedRecipes.astro';
 import Layout from '@/layouts/Default.astro';
 
 export const getStaticPaths = async () => {
@@ -26,27 +26,5 @@ const { Content } = await render(post);
       <Content />
     </div>
   </Container>
-  {(recipes?.length > 0) &&
-    <div class="bg-secondary-50  border-t  border-secondary-100  py-8  relative  md:py-16">
-      <Container class="space-y-4  lg:space-y-8">
-        <h2 class="font-light  font-serif  text-2xl  lg:text-3xl">Featured recipes</h2>
-        <div class="gap-4  grid  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  xl:grid-cols-5">
-          {recipes.map(({ data: { cuisine, image, nutritional_information, prep_times, rating, title }, id}) => (
-            <div>
-              <RecipeCard
-                cuisine={cuisine}
-                id={id}
-                image={image}
-                nutritional_information={nutritional_information}
-                prep_times={prep_times}
-                rating={rating}
-                title={title}
-              />
-            </div>
-          ))}
-        </div>
-      </Container>
-    </div>
-
-  }
+  <FeaturedRecipes recipes={recipes} />
 </Layout>

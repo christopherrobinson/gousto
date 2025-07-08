@@ -2,7 +2,7 @@ export const deduplicateRecipesByTitle = (
   recipes: any[],
   removeXL: boolean = false
 ): any[] => {
-  const premiumRegex = /^\[premium (pro|prot|prot\.|protein|proteins)\]\s*/i;
+  const premiumRegex = /^\[(prem|premium) (pro|prot|prot\.|protein|proteins)\]\s*/i;
   const grouped = new Map<string, { normal?: any; premium?: any }>();
 
   // Pre-compile suffix patterns for better performance

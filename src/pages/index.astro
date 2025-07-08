@@ -10,12 +10,9 @@ const recipes = await getRecipes();
 const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 4 });
 const meta = {
   title: `${recipes.length.toLocaleString()} Delicious Gousto Recipes - Search by Cuisine & Prep Time`,
-  description: `Explore almost 6,000 Gousto recipes by cuisine, prep time, or ingredients. Discover easy, delicious meals and find your next favourite recipe in seconds.`,
+  description: `Explore over 6,000 Gousto recipes by cuisine, prep time, or ingredients. Discover easy, delicious meals and find your next favourite recipe in seconds.`,
 };
-const posts = (await getCollection('blog'))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
-
+const blogPosts = await getBlogPosts({ limit: 3 });
 ---
 
 <Layout
@@ -72,7 +69,7 @@ const posts = (await getCollection('blog'))
       </section>
     </Container>
   </div>
-  {posts?.length > 0 && (
+  {blogPosts?.length > 0 && (
     <div class="bg-secondary-50  border-b  border-secondary-100  py-8  sm:py-16">
       <Container>
         <div class="flex  items-baseline  justify-between  mb-8">
@@ -86,7 +83,7 @@ const posts = (await getCollection('blog'))
           </a>
         </div>
         <div class="gap-4  grid  lg:gap-8  lg:grid-cols-3">
-          {posts.map(async (post) => {
+          {blogPosts.map(async (post) => {
             const { data, id } = post
             const { cover, date, title } = data
             const { remarkPluginFrontmatter } = await render(post)
