@@ -12,7 +12,7 @@ type GetRecipesOptions = {
 let recipeCache: any[] | null = null;
 
 export const getRecipes = async (options: GetRecipesOptions = {}) => {
-  const { limit, prepTime, categories, cuisine, ingredients, rating, recipes } = options;
+  const { categories, cuisine, ingredients, prepTime, randomise, rating, recipes } = options;
 
   if (!recipeCache) {
     const allRecipes = await getCollection('recipes');
@@ -42,10 +42,10 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
     filteredRecipes?.sort((a, b) => recipeIds.indexOf(a.id) - recipeIds.indexOf(b.id));
   }
 
-  if (options.randomise) {
+  if (randomise) {
     filteredRecipes = shuffleArray(filteredRecipes);
   }
 
   // Apply limit if provided
-  return typeof limit === 'number' ? filteredRecipes?.slice(0, limit) : filteredRecipes;
+  return (typeof options.limit === 'number') ? filteredRecipes?.slice(0, options.limit) : filteredRecipes;
 };
