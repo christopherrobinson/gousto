@@ -17,12 +17,6 @@
     "cuisine": "Fusion",
     "ingredients": [
         {
-            "label": "Chicken stock mix (11g)",
-            "gousto_uuid": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-            "allergens": [],
-            "image": "/images/ingredients/26a9d0f7-4abc-4337-afdd-7f17f2464084.jpg"
-        },
-        {
             "label": "Tomato paste (32g)",
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
@@ -51,6 +45,12 @@
             "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
             "allergens": [],
             "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
+        },
+        {
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
         },
         {
             "label": "Tomato paste (16g) x0",
@@ -128,12 +128,12 @@
             "image": "/images/instructions/tomatoey-lean-pork-meatball-sandwich-with-chips/step-3.jpg"
         },
         {
-            "instruction": "<p>Combine your <strong>lean pork mince</strong> (remove the paper if required!) with <strong>half</strong> the <strong>diced shallot</strong>, <strong>half</strong> your<strong> stock mix</strong> (you'll use the rest later!) and a pinch of<strong> salt</strong> and mix until thoroughly combined (clean hands is the best way!)</p><p>Divide and shape into meatballs (4 per person!), then heat a large, wide-based pan (preferably non-stick with a matching lid) over a high heat</p><p>Once hot, add the <strong>meatballs</strong> to the pan and cook for 2 min on each side or until lightly browned</p>",
+            "instruction": "<p>Combine your <strong>lean pork mince</strong> (remove the paper if required!) with <strong>half</strong> the <strong>diced shallot</strong>, <strong>half</strong> your<strong> chicken stock mix</strong> (you'll use the rest later!) and a pinch of<strong> salt</strong> and mix until thoroughly combined (clean hands is the best way!)</p><p>Divide and shape into meatballs (4 per person!), then heat a large, wide-based pan (preferably non-stick with a matching lid) over a high heat</p><p>Once hot, add the <strong>meatballs</strong> to the pan and cook for 2 min on each side or until lightly browned</p>",
             "order": 4,
             "image": "/images/instructions/tomatoey-lean-pork-meatball-sandwich-with-chips/step-4.jpg"
         },
         {
-            "instruction": "<p>Once the meatballs have lightly browned, transfer them to a plate and set aside (these will finish cooking in the sauce later)</p><p>Return the pan to a medium-high heat and once hot, add the <strong>remaining diced shallot</strong>, <strong>chopped garlic</strong> and <strong>chopped tomato</strong> with a pinch of <strong>salt</strong> and cook for 2-3 min or until the tomato has slightly softened</p><p>Once slightly softened, add your <strong>tomato paste</strong>, <strong>dried oregano</strong>, <strong>remaining stock mix</strong> and 190ml <span class=\"text-purple\">[250ml] </span><span class=\"text-danger\">[320ml] </span><strong>boiled water</strong> and give everything a good mix up</p>",
+            "instruction": "<p>Once the meatballs have lightly browned, transfer them to a plate and set aside (these will finish cooking in the sauce later)</p><p>Return the pan to a medium-high heat and once hot, add the <strong>remaining diced shallot</strong>, <strong>chopped garlic</strong> and <strong>chopped tomato</strong> with a pinch of <strong>salt</strong> and cook for 2-3 min or until the tomato has slightly softened</p><p>Once slightly softened, add your <strong>tomato paste</strong>, <strong>dried oregano</strong>, <strong>remaining chicken stock mix</strong> and 190ml <span class=\"text-purple\">[250ml] </span><span class=\"text-danger\">[320ml] </span><strong>boiled water</strong> and give everything a good mix up</p>",
             "order": 5,
             "image": "/images/instructions/tomatoey-lean-pork-meatball-sandwich-with-chips/step-5.jpg"
         },
@@ -158,28 +158,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 127,
-            "energy_kj": 537,
-            "fat_mg": 3485,
-            "fat_saturates_mg": 1381,
-            "carbs_mg": 15796,
-            "carbs_sugars_mg": 1304,
-            "fibre_mg": 1594,
-            "protein_mg": 8487,
-            "salt_mg": 439,
+            "energy_kcal": 125,
+            "energy_kj": 531,
+            "fat_mg": 3502,
+            "fat_saturates_mg": 1389,
+            "carbs_mg": 15371,
+            "carbs_sugars_mg": 1285,
+            "fibre_mg": 1597,
+            "protein_mg": 8497,
+            "salt_mg": 443,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 619,
-            "energy_kj": 2611,
-            "fat_mg": 16924,
-            "fat_saturates_mg": 6706,
-            "carbs_mg": 76690,
-            "carbs_sugars_mg": 6331,
-            "fibre_mg": 7743,
-            "protein_mg": 41209,
-            "salt_mg": 2134,
-            "net_weight_mg": 485500
+            "energy_kcal": 608,
+            "energy_kj": 2565,
+            "fat_mg": 16910,
+            "fat_saturates_mg": 6709,
+            "carbs_mg": 74204,
+            "carbs_sugars_mg": 6207,
+            "fibre_mg": 7713,
+            "protein_mg": 41022,
+            "salt_mg": 2143,
+            "net_weight_mg": 482750
         }
     },
     "portion_sizes": [
@@ -278,13 +278,6 @@
                     }
                 },
                 {
-                    "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-                    "code": "I-06-SML-SC-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
                     "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                     "code": "I-11-BRD-BR-59",
                     "quantities": {
@@ -301,6 +294,13 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
+                    "quantities": {
+                        "in_box": 1
+                    }
+                },
+                {
+                    "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                    "code": "I-06-SML-SC-35",
                     "quantities": {
                         "in_box": 1
                     }
@@ -368,13 +368,6 @@
                     }
                 },
                 {
-                    "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-                    "code": "I-06-SML-SC-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
                     "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                     "code": "I-11-BRD-BR-59",
                     "quantities": {
@@ -393,6 +386,13 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 2
+                    }
+                },
+                {
+                    "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                    "code": "I-06-SML-SC-35",
+                    "quantities": {
+                        "in_box": 1
                     }
                 },
                 {
@@ -465,13 +465,6 @@
                     }
                 },
                 {
-                    "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-                    "code": "I-06-SML-SC-23",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
                     "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                     "code": "I-11-BRD-BR-59",
                     "quantities": {
@@ -488,6 +481,13 @@
                 {
                     "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                     "code": "I-06-SML-OT-02",
+                    "quantities": {
+                        "in_box": 2
+                    }
+                },
+                {
+                    "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                    "code": "I-06-SML-SC-35",
                     "quantities": {
                         "in_box": 2
                     }
@@ -555,13 +555,6 @@
                     }
                 },
                 {
-                    "id": "26a9d0f7-4abc-4337-afdd-7f17f2464084",
-                    "code": "I-06-SML-SC-23",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
                     "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                     "code": "I-11-BRD-BR-59",
                     "quantities": {
@@ -580,6 +573,13 @@
                     "code": "I-06-SML-OT-02",
                     "quantities": {
                         "in_box": 3
+                    }
+                },
+                {
+                    "id": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                    "code": "I-06-SML-SC-35",
+                    "quantities": {
+                        "in_box": 2
                     }
                 },
                 {
