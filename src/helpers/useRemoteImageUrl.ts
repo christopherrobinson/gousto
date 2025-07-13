@@ -1,5 +1,4 @@
 export const useRemoteImageUrl = (url: string, params: string): string => {
-  // Parse params string into object
   const paramObj: Record<string, string> = {};
 
   if (params) {
