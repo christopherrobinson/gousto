@@ -1,25 +1,24 @@
-/**
- * Generates optimised image URL with parameters
- */
 export const createImageUrl = (
   imagePath: string,
   params: Record<string, string | number> = {}
 ): string => {
-  // Validate and clean image path
-  if (!imagePath || !imagePath.startsWith(IMAGE_CONFIG.imagePath)) {
+  const { baseUrl, imagePath: imagePrefix, defaultParams } = IMAGE_CONFIG;
+
+  if (!imagePath || !imagePath.startsWith(imagePrefix)) {
     return imagePath;
   }
 
-  // Remove the /images/ prefix
-  const cleanPath = imagePath.replace(/^\/images\//, '');
+  const relativePath = imagePath.slice(imagePrefix.length);
 
-  // Build URL with base and default params
-  let url = `${IMAGE_CONFIG.baseUrl}${cleanPath}&${IMAGE_CONFIG.defaultParams}`;
+  let url = `${baseUrl}${encodeURIComponent(relativePath)}`;
 
-  // Add additional parameters
+  const allParams = new URLSearchParams(defaultParams);
+
   for (const [key, value] of Object.entries(params)) {
-    url += `&${key}=${value}`;
+    allParams.set(key, String(value));
   }
+
+  url += `&${allParams.toString()}`;
 
   return url;
 };
