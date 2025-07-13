@@ -1,7 +1,6 @@
 ---
-const { basics, cooking_instructions, cuisine, description, image, nutritional_information, prep_times, rating, title } = Astro.props;
+const { basics, cooking_instructions, cuisine, description, image, nutritional_information, prep_time_minutes, rating, title } = Astro.props;
 const { per_portion } = nutritional_information;
-const { for_2 } = prep_times;
 const { href } = Astro.url;
 
 const structuredData: any = {
@@ -34,7 +33,7 @@ const structuredData: any = {
     "url": `${href}#step-${order}`,
   })),
   "recipeYield": "2 servings",
-  "totalTime": toISODuration(`${for_2} minutes`),
+  "totalTime": toISODuration(`${prep_time_minutes[2]} minutes`),
 };
 
 ---

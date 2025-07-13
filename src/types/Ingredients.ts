@@ -6,7 +6,8 @@ export interface IngredientsProps {
     image: string;
   }[];
   portion_sizes?: {
-    is_offered: boolean;
-    portions: number;
-  }[],
+    [portions: string]: {
+      is_offered: boolean;
+    };
+  };
 }

@@ -1,8 +1,7 @@
 ---
 import { type RecipeCardProps } from '@/types/RecipeCard';
 
-const { cuisine, id, image, nutritional_information, prep_times, rating, title } = Astro.props as RecipeCardProps;
-const { for_2 } = prep_times;
+const { cuisine, id, image, nutritional_information, prep_time_minutes, rating, title } = Astro.props as RecipeCardProps;
 ---
 
 <a
@@ -48,9 +47,9 @@ const { for_2 } = prep_times;
   <div class="flex  flex-col  h-full  justify-between  p-4">
     <h2 class="font-medium  font-serif  mb-4  transition  group-hover:text-primary-600">{title}</h2>
     <div class="flex  items-center  justify-between  overflow-hidden  space-x-8  text-sm  text-center  text-secondary-700  group-hover:text-secondary-950">
-      {for_2 && (
+      {prep_time_minutes['2'] && (
         <div class="flex  items-center  space-x-2">
-          <Icon class="text-primary-600" name="stopwatch" /> <span>{for_2} mins</span>
+          <Icon class="text-primary-600" name="stopwatch" /> <span>{prep_time_minutes['2']} mins</span>
         </div>
       )}
       {cuisine && (

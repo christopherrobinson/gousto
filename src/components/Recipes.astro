@@ -23,14 +23,14 @@ const { baseUrl, content, currentPage, data, filters, lastPage, total } = Astro.
       <div class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
         {data.map(async (recipe: any) => {
           const { data, id } = recipe;
-          const { cuisine, image, prep_times, rating, title } = data;
+          const { cuisine, image, prep_time_minutes, rating, title } = data;
 
           return (
             <RecipeCard
               cuisine={cuisine}
               id={id}
               image={image}
-              prep_times={prep_times}
+              prep_time_minutes={prep_time_minutes}
               rating={rating}
               title={title}
             />

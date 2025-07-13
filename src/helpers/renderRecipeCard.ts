@@ -1,4 +1,4 @@
-export const renderRecipeCard = ({ cuisine, id, image, prep_times, rating, title }) => {
+export const renderRecipeCard = ({ cuisine, id, image, prep_time_minutes, rating, title }) => {
   const imageSrc = createImageUrl(image, { h: 288, w: 288 });
 
   return `
@@ -47,7 +47,7 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_times, rating, title
               </symbol>
               <use href="#ai:local:stopwatch" />
             </svg>
-            <span>${prep_times.for_2} mins</span>
+            <span>${prep_time_minutes['2']} mins</span>
           </div>
           <div class="flex  items-center  space-x-2">
             <svg width="1em" height="1em" class="text-primary-600" data-icon="globe">

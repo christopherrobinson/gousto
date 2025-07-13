@@ -5,11 +5,11 @@ export const prerender = false;
 export const GET: APIRoute = async () => {
   try {
     const { data } = await supabaseClient.rpc('get_random_recipes', { limit_count: inspirationRecipeCount });
-    const response = data.map(({ cuisine, image, prep_times, rating, url, title }) => ({
+    const response = data.map(({ cuisine, image, prep_time_minutes, rating, url, title }) => ({
       cuisine: cuisine,
       id: url,
       image: image,
-      prep_times: prep_times,
+      prep_time_minutes: prep_time_minutes,
       rating: rating,
       title: title,
     }));

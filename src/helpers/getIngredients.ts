@@ -1,7 +1,6 @@
 let ingredientCache: any[] | null = null;
 
 export const getIngredients = async () => {
-  // Check cache first
   if (ingredientCache) {
     return ingredientCache;
   }
@@ -16,13 +15,13 @@ export const getIngredients = async () => {
       return;
     }
 
-    const portionForTwo = portion_sizes.find(p => p.portions === 2);
+    const portionForTwo = portion_sizes['2'];
 
     if (!portionForTwo?.ingredients_skus) {
       return;
     }
 
-    const validIds = new Set(portionForTwo.ingredients_skus.map(sku => sku.id));
+    const validIds = new Set(portionForTwo.ingredients_skus);
 
     for (let i = 0; i < ingredients.length; i++) {
       const ingredient = ingredients[i];

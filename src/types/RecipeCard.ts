@@ -7,8 +7,8 @@ export interface RecipeCardProps {
       energy_kcal: number;
     };
   };
-  prep_times: {
-    for_2: number;
+  prep_time_minutes: {
+    '2': string;
   };
   rating: {
     average: number;

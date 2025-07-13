@@ -5,5 +5,8 @@ export const isPortionOffered = (portionSizes: IngredientsProps['portion_sizes']
     return false;
   }
 
-  return portionSizes.find(p => p.portions === portions)?.is_offered ?? false;
+  // Access the portion data directly using the 'portions' number as the key.
+  const portionInfo = portionSizes[portions];
+
+  return portionInfo?.is_offered ?? false;
 }
