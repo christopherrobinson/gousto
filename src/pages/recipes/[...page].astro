@@ -12,6 +12,23 @@ const { page } = Astro.props;
 const { currentPage, data = [], lastPage, total } = page;
 ---
 
-<Layout heading={`Recipes${currentPage > 1 ? ` <small>(Page ${currentPage})</small>` : ``}`}>
-  <Recipes baseUrl={`/recipes/`} currentPage={currentPage} data={data} lastPage={lastPage} total={total} />
+<Layout
+  meta={{
+    title: (currentPage > 1) ? `Recipes (Page ${currentPage})` : 'Explore Delicious Recipes',
+    description: (currentPage > 1) ? '' : 'Discover a world of flavour with our extensive collection of Gousto recipes. Browse cuisines, explore categories, and find your next favourite dish for every occasion.',
+  }}
+  heading={(currentPage > 1) ? `Recipes (Page ${currentPage})` : 'Explore Delicious Recipes'}
+>
+  <Recipes
+    baseUrl={`/recipes/`}
+    content={`
+      <p>Welcome to our comprehensive collection of <strong>Gousto recipes</strong>, where culinary inspiration meets convenience. Whether you're a seasoned home cook or just starting your gastronomic journey, our diverse range of <strong>meal kit recipes</strong> offers something for everyone.</p>
+      <p>Explore an array of <strong>easy dinner ideas</strong>, <strong>healthy meal prep options</strong>, and <strong>family-friendly dishes</strong> designed to simplify your cooking experience. Each recipe is crafted to bring delicious, restaurant-quality meals to your table with minimal effort.</p>
+      <p>Dive into categories, browse cuisines, and find the perfect <strong>Gousto meal</strong> to suit your taste and lifestyle. From quick weeknight dinners to elaborate weekend feasts, your next culinary adventure starts here!</p>
+    `}
+    currentPage={currentPage}
+    data={data}
+    lastPage={lastPage}
+    total={total}
+  />
 </Layout>
