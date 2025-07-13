@@ -11,10 +11,6 @@
         "count": 1752
     },
     "description": "Slow-cooked lamb rag\u00f9 with tomato and mint, layered with potatoes, roasted aubergines and creamy b\u00e9chamel sauce.",
-    "prep_times": {
-        "for_2": 35,
-        "for_4": 35
-    },
     "cuisine": "Greek",
     "ingredients": [
         {
@@ -67,33 +63,23 @@
             "net_weight_mg": 327500
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "88362e7a-cb92-4d7a-9b9a-77392f05f8a0",
-                    "code": "I-FCD-CPM-05",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "88362e7a-cb92-4d7a-9b9a-77392f05f8a0"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "88362e7a-cb92-4d7a-9b9a-77392f05f8a0",
-                    "code": "I-FCD-CPM-05",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "88362e7a-cb92-4d7a-9b9a-77392f05f8a0"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "35",
+        "4": "35"
+    },
     "image": "/images/recipes/charlie-bighams-moussaka.jpg"
 }

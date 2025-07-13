@@ -7,13 +7,9 @@
     "gousto_id": "8518",
     "rating": {
         "average": 3.5,
-        "count": 130
+        "count": 132
     },
     "description": "Ping this spicy Thai green curry in the microwave and you'll have dinner in minutes. Serve it with fluffy rice and a zesty lime slaw to finish.",
-    "prep_times": {
-        "for_2": 10,
-        "for_4": 10
-    },
     "cuisine": "Thai",
     "ingredients": [
         {
@@ -42,16 +38,16 @@
             "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
         },
         {
+            "label": "Carrot & cabbage slaw mix (160g)",
+            "gousto_uuid": "4366001c-0c31-41c9-b051-f5ddb2e73677",
+            "allergens": [],
+            "image": "/images/ingredients/4366001c-0c31-41c9-b051-f5ddb2e73677.jpg"
+        },
+        {
             "label": "Cooked white long grain rice (280g)",
             "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
             "allergens": [],
             "image": "/images/ingredients/e604f6ba-a67f-4a10-ae71-6032c08a90a6.jpg"
-        },
-        {
-            "label": "Carrot, mooli & pink cabbage slaw mix (160g)",
-            "gousto_uuid": "076a3314-6216-4cc6-bd92-188d2c9404e8",
-            "allergens": [],
-            "image": "/images/ingredients/076a3314-6216-4cc6-bd92-188d2c9404e8.jpg"
         },
         {
             "label": "Lime",
@@ -87,7 +83,7 @@
             "image": "/images/instructions/ready-to-heat-thai-green-chicken-curry-with-rice-and-lime-slaw/step-4.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>mooli slaw mix</strong> to the bowl with the <strong>lime dressing </strong>and give everything a good mix up \u2013 this is your <strong>lime slaw</strong></p>",
+            "instruction": "<p>Add your <strong>carrot & cabbage slaw mix</strong> to the bowl with the <strong>lime dressing </strong>and give everything a good mix up \u2013 this is your <strong>lime slaw</strong></p>",
             "order": 5,
             "image": "/images/instructions/ready-to-heat-thai-green-chicken-curry-with-rice-and-lime-slaw/step-5.jpg"
         },
@@ -123,234 +119,83 @@
         "per_hundred_grams": {
             "energy_kcal": 138,
             "energy_kj": 579,
-            "fat_mg": 5543,
-            "fat_saturates_mg": 3020,
-            "carbs_mg": 17914,
-            "carbs_sugars_mg": 2867,
-            "fibre_mg": 1063,
+            "fat_mg": 5526,
+            "fat_saturates_mg": 3004,
+            "carbs_mg": 17863,
+            "carbs_sugars_mg": 2967,
+            "fibre_mg": 1114,
             "protein_mg": 5126,
-            "salt_mg": 224,
+            "salt_mg": 223,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 659,
-            "energy_kj": 2768,
-            "fat_mg": 26470,
-            "fat_saturates_mg": 14425,
-            "carbs_mg": 85540,
-            "carbs_sugars_mg": 13690,
-            "fibre_mg": 5080,
+            "energy_kj": 2767,
+            "fat_mg": 26390,
+            "fat_saturates_mg": 14345,
+            "carbs_mg": 85300,
+            "carbs_sugars_mg": 14170,
+            "fibre_mg": 5320,
             "protein_mg": 24480,
-            "salt_mg": 1074,
+            "salt_mg": 1066,
             "net_weight_mg": 477500
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": false,
             "ingredients_skus": [
-                {
-                    "id": "076a3314-6216-4cc6-bd92-188d2c9404e8",
-                    "code": "I-05-FVG-LF-61",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
-                    "code": "I-03-GRN-RC-39",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "61499436-65ce-4e9a-8e7b-72882f1121a8",
-                    "code": "IQ-08-SAU-PT-06-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
-                    "code": "IQ-FCD-CPM-21",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                    "code": "I-05-FVG-FV-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
+                "61499436-65ce-4e9a-8e7b-72882f1121a8",
+                "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
+                "8cc1a219-f516-495d-9d3a-506bd62ae79f"
             ]
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "076a3314-6216-4cc6-bd92-188d2c9404e8",
-                    "code": "I-05-FVG-LF-61",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
-                    "code": "I-03-GRN-RC-39",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "61499436-65ce-4e9a-8e7b-72882f1121a8",
-                    "code": "IQ-08-SAU-PT-06-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
-                    "code": "IQ-FCD-CPM-21",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                    "code": "I-05-FVG-FV-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
+                "61499436-65ce-4e9a-8e7b-72882f1121a8",
+                "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
+                "8cc1a219-f516-495d-9d3a-506bd62ae79f"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": false,
             "ingredients_skus": [
-                {
-                    "id": "076a3314-6216-4cc6-bd92-188d2c9404e8",
-                    "code": "I-05-FVG-LF-61",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
-                    "code": "I-03-GRN-RC-39",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "61499436-65ce-4e9a-8e7b-72882f1121a8",
-                    "code": "IQ-08-SAU-PT-06-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
-                    "code": "IQ-FCD-CPM-21",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                    "code": "I-05-FVG-FV-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
+                "61499436-65ce-4e9a-8e7b-72882f1121a8",
+                "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
+                "8cc1a219-f516-495d-9d3a-506bd62ae79f"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "076a3314-6216-4cc6-bd92-188d2c9404e8",
-                    "code": "I-05-FVG-LF-61",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
-                    "code": "I-03-GRN-RC-39",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "61499436-65ce-4e9a-8e7b-72882f1121a8",
-                    "code": "IQ-08-SAU-PT-06-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
-                    "code": "IQ-FCD-CPM-21",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                    "code": "I-05-FVG-FV-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
+                "61499436-65ce-4e9a-8e7b-72882f1121a8",
+                "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
+                "8cc1a219-f516-495d-9d3a-506bd62ae79f"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": false,
             "ingredients_skus": [
-                {
-                    "id": "076a3314-6216-4cc6-bd92-188d2c9404e8",
-                    "code": "I-05-FVG-LF-61",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
-                    "code": "I-03-GRN-RC-39",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "61499436-65ce-4e9a-8e7b-72882f1121a8",
-                    "code": "IQ-08-SAU-PT-06-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
-                    "code": "IQ-FCD-CPM-21",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                    "code": "I-05-FVG-FV-11",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
+                "61499436-65ce-4e9a-8e7b-72882f1121a8",
+                "e1fa44ca-f220-4b61-a3d8-3fd73a3234b9",
+                "8cc1a219-f516-495d-9d3a-506bd62ae79f"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "10",
+        "4": "10"
+    },
     "image": "/images/recipes/ready-to-heat-thai-green-chicken-curry-with-rice-and-lime-slaw.jpg"
 }

@@ -10,10 +10,6 @@
         "count": 298
     },
     "description": "The same Gousto great taste, expertly made for you. Meet our oven-ready dishes. This evening's winner? A flavour feast of chicken thighs, chickpeas and sweet potato in a harissa and tomato sauce spiced with fennel, nutmeg and caraway. Topped with creamy feta and seeded dukkah. Pack size (800g). Refer to package for cooking instructions.",
-    "prep_times": {
-        "for_2": 40,
-        "for_4": 40
-    },
     "cuisine": "Middle Eastern",
     "ingredients": [
         {
@@ -100,48 +96,35 @@
             "net_weight_mg": 400000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "04b41716-c505-4f2b-ac85-7bc6810f0205",
-                    "code": "IQ-FCD-CPM-03",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "04b41716-c505-4f2b-ac85-7bc6810f0205"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "04b41716-c505-4f2b-ac85-7bc6810f0205",
-                    "code": "IQ-FCD-CPM-03",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "04b41716-c505-4f2b-ac85-7bc6810f0205"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": false,
             "ingredients_skus": []
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "40",
+        "4": "40"
+    },
     "image": "/images/recipes/oven-ready-harissa-chicken-and-vegetables-with-dukkah-800g.jpg"
 }

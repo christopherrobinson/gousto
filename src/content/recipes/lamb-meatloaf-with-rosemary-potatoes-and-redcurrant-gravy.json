@@ -11,12 +11,16 @@
         "count": 18164
     },
     "description": "Celebrate spring early with this twist on a family classic. You'll bake minty lamb meatloaf with a sticky redcurrant glaze, and serve with crispy rosemary potatoes, garlicky greens and lashings of gravy.",
-    "prep_times": {
-        "for_2": 60,
-        "for_4": 65
-    },
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Panko breadcrumbs (20g)",
+            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
         {
             "label": "Lamb mince (250g)",
             "gousto_uuid": "6b169ed1-5fb7-47f8-9265-437b39a47746",
@@ -58,14 +62,6 @@
             "gousto_uuid": "ec455cb7-01fc-4470-9db4-e94afca273e4",
             "allergens": [],
             "image": "/images/ingredients/ec455cb7-01fc-4470-9db4-e94afca273e4.jpg"
-        },
-        {
-            "label": "Panko breadcrumbs (20g)",
-            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
         },
         {
             "label": "Red onion",
@@ -194,187 +190,45 @@
             "net_weight_mg": 507250
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                    "code": "I-05-FVG-VG-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                    "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-                    "code": "I-06-SML-SC-36",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "6b169ed1-5fb7-47f8-9265-437b39a47746",
-                    "code": "I-10-MPF-ME-111",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "30a51d70-fcaf-4ed8-975d-9c0599d8492a",
-                    "code": "I-07-HBS-PL-18",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-                    "code": "IQ-07-GRN-FL-09-03",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b1065347-a957-4dfc-bb86-fefb84b07bb9",
-                    "code": "I-06-SML-TRK-08",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "a0cbff79-0da6-4e5a-a710-50a5dd4b3316",
-                    "code": "I-07-HBS-PL-44",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                    "code": "I-05-FVG-LF-18",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "43938034-cb9a-45cb-ad78-44234261fb46",
-                    "code": "I-06-SML-OT-38",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "ec455cb7-01fc-4470-9db4-e94afca273e4",
+                "6b169ed1-5fb7-47f8-9265-437b39a47746",
+                "30a51d70-fcaf-4ed8-975d-9c0599d8492a",
+                "0af67d61-fa68-4172-bec1-09d635e3fc71",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
+                "a0cbff79-0da6-4e5a-a710-50a5dd4b3316",
+                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "43938034-cb9a-45cb-ad78-44234261fb46",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                    "code": "I-05-FVG-VG-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                    "code": "I-06-SML-OT-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "ec455cb7-01fc-4470-9db4-e94afca273e4",
-                    "code": "I-06-SML-SC-36",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "6b169ed1-5fb7-47f8-9265-437b39a47746",
-                    "code": "I-10-MPF-ME-111",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "30a51d70-fcaf-4ed8-975d-9c0599d8492a",
-                    "code": "I-07-HBS-PL-18",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-                    "code": "IQ-07-GRN-FL-09-03",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "b1065347-a957-4dfc-bb86-fefb84b07bb9",
-                    "code": "I-06-SML-TRK-08",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "a0cbff79-0da6-4e5a-a710-50a5dd4b3316",
-                    "code": "I-07-HBS-PL-44",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                    "code": "I-05-FVG-LF-18",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
-                    "code": "I-06-SML-OT-39",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "ec455cb7-01fc-4470-9db4-e94afca273e4",
+                "6b169ed1-5fb7-47f8-9265-437b39a47746",
+                "30a51d70-fcaf-4ed8-975d-9c0599d8492a",
+                "0af67d61-fa68-4172-bec1-09d635e3fc71",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
+                "a0cbff79-0da6-4e5a-a710-50a5dd4b3316",
+                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "60",
+        "4": "65"
+    },
     "image": "/images/recipes/lamb-meatloaf-with-rosemary-potatoes-and-redcurrant-gravy.jpg"
 }

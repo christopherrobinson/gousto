@@ -14,10 +14,6 @@
         "count": 2872
     },
     "description": "We've deconstructed a classic BLT and turned it into a delicious warm salad. You'll serve up crispy bacon shards with roasted potatoes, avocado, lettuce, shallot rings and juicy cherry tomatoes, all drizzled with a zippy mustard mayo dressing. Yum!",
-    "prep_times": {
-        "for_2": 40,
-        "for_4": 45
-    },
     "cuisine": "American",
     "ingredients": [
         {
@@ -177,387 +173,86 @@
             "net_weight_mg": 503000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "a95b0c60-4418-43e3-8878-5eaca136762d",
-                    "code": "I-05-FVG-FV-21",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b3374bc8-0097-449f-9ac6-b53299104e11",
-                    "code": "I-05-FVG-FV-02-08",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-                    "code": "I-06-SML-OT-36",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
-                    "code": "I-05-FVG-LF-30",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                    "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
-                    "code": "I-10-MPF-PM-55",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "b3374bc8-0097-449f-9ac6-b53299104e11",
+                "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "03f0c89b-426b-4b83-acee-5667e2681ee0",
+                "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+                "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "a95b0c60-4418-43e3-8878-5eaca136762d",
-                    "code": "I-05-FVG-FV-21",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b3374bc8-0097-449f-9ac6-b53299104e11",
-                    "code": "I-05-FVG-FV-02-08",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
-                    "code": "I-06-SML-OT-37",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
-                    "code": "I-05-FVG-LF-30",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                    "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
-                    "code": "I-10-MPF-PM-53",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "b3374bc8-0097-449f-9ac6-b53299104e11",
+                "70f967b5-e78a-44a4-9450-a52705125b45",
+                "03f0c89b-426b-4b83-acee-5667e2681ee0",
+                "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+                "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "a95b0c60-4418-43e3-8878-5eaca136762d",
-                    "code": "I-05-FVG-FV-21",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                    "code": "I-05-FVG-FV-02-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
-                    "code": "I-06-SML-OT-37",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-                    "code": "I-06-SML-OT-36",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
-                    "code": "I-05-FVG-LF-30",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                    "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
-                    "code": "I-10-MPF-PM-53",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
-                    "code": "I-10-MPF-PM-55",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+                "70f967b5-e78a-44a4-9450-a52705125b45",
+                "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "03f0c89b-426b-4b83-acee-5667e2681ee0",
+                "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+                "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
+                "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "a95b0c60-4418-43e3-8878-5eaca136762d",
-                    "code": "I-05-FVG-FV-21",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                    "code": "I-05-FVG-FV-02-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
-                    "code": "I-06-SML-OT-37",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
-                    "code": "I-05-FVG-LF-30",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                    "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
-                    "code": "I-10-MPF-PM-53",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+                "70f967b5-e78a-44a4-9450-a52705125b45",
+                "03f0c89b-426b-4b83-acee-5667e2681ee0",
+                "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+                "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "a95b0c60-4418-43e3-8878-5eaca136762d",
-                    "code": "I-05-FVG-FV-21",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                    "code": "I-05-FVG-FV-02-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b3374bc8-0097-449f-9ac6-b53299104e11",
-                    "code": "I-05-FVG-FV-02-08",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "70f967b5-e78a-44a4-9450-a52705125b45",
-                    "code": "I-06-SML-OT-37",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-                    "code": "I-06-SML-OT-36",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "03f0c89b-426b-4b83-acee-5667e2681ee0",
-                    "code": "I-05-FVG-LF-30",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                    "code": "I-02-SVG-VG-10",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
-                    "code": "I-10-MPF-PM-53",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
-                    "code": "I-10-MPF-PM-55",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-                    "code": "I-02-SVG-VG-02-04",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+                "b3374bc8-0097-449f-9ac6-b53299104e11",
+                "70f967b5-e78a-44a4-9450-a52705125b45",
+                "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "03f0c89b-426b-4b83-acee-5667e2681ee0",
+                "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+                "0bcb786e-1be8-4fab-8613-7a63a4441ae4",
+                "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
+                "04d00729-52ec-4664-abf3-7deeca96c6d8",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "40",
+        "4": "45"
+    },
     "image": "/images/recipes/warm-bacon-lettuce-tomato-and-avocado-salad.jpg"
 }

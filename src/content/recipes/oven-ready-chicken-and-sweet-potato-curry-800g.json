@@ -10,10 +10,6 @@
         "count": 274
     },
     "description": "Give yourself a next-level night off with our oven-ready dishes. Tonight's menu? Juicy chicken thighs supremely spiced with cumin, fenugreek and turmeric, topped off with cr\u00e8me fra\u00eeche, nigella seeds and perfectly crispy onions Pack size (800g). Refer to package for cooking instructions.",
-    "prep_times": {
-        "for_2": 40,
-        "for_4": 40
-    },
     "cuisine": "Indian",
     "ingredients": [
         {
@@ -100,48 +96,35 @@
             "net_weight_mg": 400000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "9f58da86-5351-438a-b140-9945f47596a3",
-                    "code": "IQ-FCD-CPM-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "9f58da86-5351-438a-b140-9945f47596a3"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "9f58da86-5351-438a-b140-9945f47596a3",
-                    "code": "IQ-FCD-CPM-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "9f58da86-5351-438a-b140-9945f47596a3"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": false,
             "ingredients_skus": []
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "40",
+        "4": "40"
+    },
     "image": "/images/recipes/oven-ready-chicken-and-sweet-potato-curry-800g.jpg"
 }

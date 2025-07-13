@@ -13,10 +13,6 @@
         "count": 1007
     },
     "description": "Slow-cooked lentil ragu with red wine and rosemary, topped with our creamy sweet potato mash, vintage Cheddar and a ciabatta crumb.",
-    "prep_times": {
-        "for_2": 35,
-        "for_4": 35
-    },
     "cuisine": "British",
     "ingredients": [
         {
@@ -71,33 +67,23 @@
             "net_weight_mg": 325000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "2b85182b-df4c-4e30-9415-cde1121874b7",
-                    "code": "I-FCD-CPM-10",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "2b85182b-df4c-4e30-9415-cde1121874b7"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "2b85182b-df4c-4e30-9415-cde1121874b7",
-                    "code": "I-FCD-CPM-10",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "2b85182b-df4c-4e30-9415-cde1121874b7"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "35",
+        "4": "35"
+    },
     "image": "/images/recipes/charlie-bighams-vegetarian-cottage-pie.jpg"
 }

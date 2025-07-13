@@ -10,10 +10,6 @@
         "count": 426
     },
     "description": "The same Gousto great taste, expertly made for you. Meet our oven-ready dishes. This evening's winner? Meltingly-tender beef and pork covered in a richly-flavoured red wine and smoked bacon sauce, with fettuccine and a golden cheese topping. Pack size (800g). Refer to package for cooking instructions.",
-    "prep_times": {
-        "for_2": 40,
-        "for_4": 40
-    },
     "cuisine": "Italian",
     "ingredients": [
         {
@@ -104,48 +100,35 @@
             "net_weight_mg": 400000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "d98a7bee-0627-41a8-b4b2-4a64a29fe74c",
-                    "code": "IQ-FCD-CPM-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "d98a7bee-0627-41a8-b4b2-4a64a29fe74c"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "d98a7bee-0627-41a8-b4b2-4a64a29fe74c",
-                    "code": "IQ-FCD-CPM-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "d98a7bee-0627-41a8-b4b2-4a64a29fe74c"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": false,
             "ingredients_skus": []
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "40",
+        "4": "40"
+    },
     "image": "/images/recipes/oven-ready-braised-beef-and-pork-ragu-with-fettuccine-800g.jpg"
 }

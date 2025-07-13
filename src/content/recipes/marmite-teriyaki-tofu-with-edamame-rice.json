@@ -11,13 +11,9 @@
     "gousto_id": "3235",
     "rating": {
         "average": 4.5,
-        "count": 9488
+        "count": 9491
     },
     "description": "Our secret ingredient, Marmite, packs this dish with delicious umami. You'll coat crispy tofu in a glossy teriyaki-style sauce, before tossing in peanuts. Serve over sticky sushi rice studded with edamame, and dig in!",
-    "prep_times": {
-        "for_2": 25,
-        "for_4": 30
-    },
     "cuisine": "Fusion",
     "ingredients": [
         {
@@ -191,380 +187,85 @@
             "net_weight_mg": 360500
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "23935a7d-bed7-4bb2-863d-9e826b549e47",
-                    "code": "I-06-SML-SC-09",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
-                    "code": "I-01-CAN-LQ-07",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-                    "code": "IQ-05-FVG-PD-14-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                    "code": "I-06-SML-DL-43",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
-                    "code": "I-08-SAU-LS-26",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3d2328cc-da90-47e1-9553-4debba1d551c",
-                    "code": "I-09-DAI-TF-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b2ed8a90-5335-4ba0-851b-2948f9426a00",
-                    "code": "I-04-NUT-SD-02-30",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "c6911e1e-0963-4410-ad05-f028b84dc626",
-                    "code": "IQ-03-GRN-RC-24-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "23935a7d-bed7-4bb2-863d-9e826b549e47",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
+                "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+                "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
+                "3d2328cc-da90-47e1-9553-4debba1d551c",
+                "b2ed8a90-5335-4ba0-851b-2948f9426a00",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "c6911e1e-0963-4410-ad05-f028b84dc626"
             ]
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "23935a7d-bed7-4bb2-863d-9e826b549e47",
-                    "code": "I-06-SML-SC-09",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
-                    "code": "I-01-CAN-LQ-07",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-                    "code": "IQ-05-FVG-PD-14-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                    "code": "I-06-SML-DL-43",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
-                    "code": "I-08-SAU-LS-26",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3d2328cc-da90-47e1-9553-4debba1d551c",
-                    "code": "I-09-DAI-TF-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b2ed8a90-5335-4ba0-851b-2948f9426a00",
-                    "code": "I-04-NUT-SD-02-30",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                    "code": "I-06-SML-OT-15",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
-                    "code": "IQ-03-GRN-RC-24-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "23935a7d-bed7-4bb2-863d-9e826b549e47",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
+                "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+                "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
+                "3d2328cc-da90-47e1-9553-4debba1d551c",
+                "b2ed8a90-5335-4ba0-851b-2948f9426a00",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "23935a7d-bed7-4bb2-863d-9e826b549e47",
-                    "code": "I-06-SML-SC-09",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
-                    "code": "I-01-CAN-LQ-07",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-                    "code": "IQ-05-FVG-PD-14-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                    "code": "I-06-SML-DL-43",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
-                    "code": "I-08-SAU-LS-26",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3d2328cc-da90-47e1-9553-4debba1d551c",
-                    "code": "I-09-DAI-TF-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "b2ed8a90-5335-4ba0-851b-2948f9426a00",
-                    "code": "I-04-NUT-SD-02-30",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                    "code": "I-06-SML-OT-15",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
-                    "code": "IQ-03-GRN-RC-24-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "c6911e1e-0963-4410-ad05-f028b84dc626",
-                    "code": "IQ-03-GRN-RC-24-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "23935a7d-bed7-4bb2-863d-9e826b549e47",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
+                "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+                "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
+                "3d2328cc-da90-47e1-9553-4debba1d551c",
+                "b2ed8a90-5335-4ba0-851b-2948f9426a00",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
+                "c6911e1e-0963-4410-ad05-f028b84dc626"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "23935a7d-bed7-4bb2-863d-9e826b549e47",
-                    "code": "I-06-SML-SC-09",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
-                    "code": "I-01-CAN-LQ-07",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-                    "code": "IQ-05-FVG-PD-14-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                    "code": "I-06-SML-DL-43",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "7eb70cf4-458d-4be8-b513-972188692b59",
-                    "code": "I-08-SAU-LS-27",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3d2328cc-da90-47e1-9553-4debba1d551c",
-                    "code": "I-09-DAI-TF-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "b2ed8a90-5335-4ba0-851b-2948f9426a00",
-                    "code": "I-04-NUT-SD-02-30",
-                    "quantities": {
-                        "in_box": 4
-                    }
-                },
-                {
-                    "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                    "code": "I-06-SML-OT-15",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
-                    "code": "IQ-03-GRN-RC-24-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "23935a7d-bed7-4bb2-863d-9e826b549e47",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
+                "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+                "7eb70cf4-458d-4be8-b513-972188692b59",
+                "3d2328cc-da90-47e1-9553-4debba1d551c",
+                "b2ed8a90-5335-4ba0-851b-2948f9426a00",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "23935a7d-bed7-4bb2-863d-9e826b549e47",
-                    "code": "I-06-SML-SC-09",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
-                    "code": "I-01-CAN-LQ-07",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-                    "code": "IQ-05-FVG-PD-14-01",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                    "code": "I-06-SML-DL-43",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "7eb70cf4-458d-4be8-b513-972188692b59",
-                    "code": "I-08-SAU-LS-27",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3d2328cc-da90-47e1-9553-4debba1d551c",
-                    "code": "I-09-DAI-TF-02",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "b2ed8a90-5335-4ba0-851b-2948f9426a00",
-                    "code": "I-04-NUT-SD-02-30",
-                    "quantities": {
-                        "in_box": 5
-                    }
-                },
-                {
-                    "id": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                    "code": "I-06-SML-OT-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                    "code": "I-06-SML-OT-15",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
-                    "code": "IQ-03-GRN-RC-24-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "c6911e1e-0963-4410-ad05-f028b84dc626",
-                    "code": "IQ-03-GRN-RC-24-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "23935a7d-bed7-4bb2-863d-9e826b549e47",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
+                "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
+                "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+                "7eb70cf4-458d-4be8-b513-972188692b59",
+                "3d2328cc-da90-47e1-9553-4debba1d551c",
+                "b2ed8a90-5335-4ba0-851b-2948f9426a00",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
+                "c6911e1e-0963-4410-ad05-f028b84dc626"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "25",
+        "4": "30"
+    },
     "image": "/images/recipes/marmite-teriyaki-tofu-with-edamame-rice.jpg"
 }

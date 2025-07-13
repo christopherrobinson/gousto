@@ -10,10 +10,6 @@
         "count": 621
     },
     "description": "Give yourself a next-level night off with our oven-ready dishes. Tonight's menu? All-out pasta al forno made with a triumphant trio of mature cheddar, smooth regato and creamy mozzarella, deliciously paired with roasted cauliflower. Pack size (720g). Refer to package for cooking instructions.",
-    "prep_times": {
-        "for_2": 35,
-        "for_4": 35
-    },
     "cuisine": "Italian",
     "ingredients": [
         {
@@ -106,48 +102,35 @@
             "net_weight_mg": 360000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "abcc3593-9b28-4f97-8e4b-5ca149702394",
-                    "code": "IQ-FCD-CPM-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "abcc3593-9b28-4f97-8e4b-5ca149702394"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": false,
             "ingredients_skus": []
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "abcc3593-9b28-4f97-8e4b-5ca149702394",
-                    "code": "IQ-FCD-CPM-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "abcc3593-9b28-4f97-8e4b-5ca149702394"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": false,
             "ingredients_skus": []
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "35",
+        "4": "35"
+    },
     "image": "/images/recipes/oven-ready-cauliflower-and-pesto-pasta-bake-720g.jpg"
 }
