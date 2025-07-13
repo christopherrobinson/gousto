@@ -11,23 +11,19 @@
         "count": 720
     },
     "description": "For this hearty salad, you'll layer meat-free sausages over crisp apple, sweet roasted red onion and croutons for crunch. Drizzle with a sticky honey mustard dressing to serve.",
-    "prep_times": {
-        "for_2": 35,
-        "for_4": 40
-    },
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Baby leaf salad (50g)",
+            "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
+            "allergens": [],
+            "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
+        },
         {
             "label": "Apple",
             "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
             "allergens": [],
             "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
-        },
-        {
-            "label": "Seasonal salad (50g)",
-            "gousto_uuid": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-            "allergens": [],
-            "image": "/images/ingredients/036b603f-e51f-4971-bdc8-d72ec87ece3b.jpg"
         },
         {
             "label": "Meatless Farm sausages (6pcs)",
@@ -124,339 +120,98 @@
         "per_hundred_grams": {
             "energy_kcal": 146,
             "energy_kj": 615,
-            "fat_mg": 5357,
-            "fat_saturates_mg": 419,
-            "carbs_mg": 16557,
-            "carbs_sugars_mg": 5390,
-            "fibre_mg": 3262,
-            "protein_mg": 7567,
+            "fat_mg": 5351,
+            "fat_saturates_mg": 442,
+            "carbs_mg": 16517,
+            "carbs_sugars_mg": 5349,
+            "fibre_mg": 3227,
+            "protein_mg": 7628,
             "salt_mg": 644,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 636,
             "energy_kj": 2665,
-            "fat_mg": 23199,
-            "fat_saturates_mg": 1816,
-            "carbs_mg": 71696,
-            "carbs_sugars_mg": 23339,
-            "fibre_mg": 14127,
-            "protein_mg": 32769,
-            "salt_mg": 2789,
+            "fat_mg": 23174,
+            "fat_saturates_mg": 1916,
+            "carbs_mg": 71521,
+            "carbs_sugars_mg": 23164,
+            "fibre_mg": 13977,
+            "protein_mg": 33031,
+            "salt_mg": 2792,
             "net_weight_mg": 433000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 1,
+    "portion_sizes": {
+        "1": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "57e647ce-4e92-4725-8fa5-077efd570790",
-                    "code": "IQ-10-MPF-VE-22-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "624ca93c-914e-4290-b00a-bd936adfebca",
-                    "code": "I-02-SVG-SF-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                    "code": "I-08-SAU-LS-24",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-                    "code": "I-05-FVG-FG-08-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "57e647ce-4e92-4725-8fa5-077efd570790",
+                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "b2311aae-125d-4995-b0fb-ce577dd2f983",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 2,
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "57e647ce-4e92-4725-8fa5-077efd570790",
-                    "code": "IQ-10-MPF-VE-22-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "624ca93c-914e-4290-b00a-bd936adfebca",
-                    "code": "I-02-SVG-SF-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                    "code": "I-08-SAU-LS-24",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-                    "code": "I-05-FVG-FG-08-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "57e647ce-4e92-4725-8fa5-077efd570790",
+                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "b2311aae-125d-4995-b0fb-ce577dd2f983",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 3,
+        "3": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "57e647ce-4e92-4725-8fa5-077efd570790",
-                    "code": "IQ-10-MPF-VE-22-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "624ca93c-914e-4290-b00a-bd936adfebca",
-                    "code": "I-02-SVG-SF-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                    "code": "I-08-SAU-LS-24",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-                    "code": "I-05-FVG-FG-08-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "57e647ce-4e92-4725-8fa5-077efd570790",
+                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "b2311aae-125d-4995-b0fb-ce577dd2f983",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "57e647ce-4e92-4725-8fa5-077efd570790",
-                    "code": "IQ-10-MPF-VE-22-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "624ca93c-914e-4290-b00a-bd936adfebca",
-                    "code": "I-02-SVG-SF-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 4
-                    }
-                },
-                {
-                    "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                    "code": "I-08-SAU-LS-24",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 4
-                    }
-                },
-                {
-                    "id": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-                    "code": "I-05-FVG-FG-08-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "57e647ce-4e92-4725-8fa5-077efd570790",
+                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "b2311aae-125d-4995-b0fb-ce577dd2f983",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         },
-        {
-            "portions": 5,
+        "5": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "57e647ce-4e92-4725-8fa5-077efd570790",
-                    "code": "IQ-10-MPF-VE-22-01",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "624ca93c-914e-4290-b00a-bd936adfebca",
-                    "code": "I-02-SVG-SF-04",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 5
-                    }
-                },
-                {
-                    "id": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                    "code": "I-08-SAU-LS-24",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                    "code": "I-02-SVG-VG-05",
-                    "quantities": {
-                        "in_box": 5
-                    }
-                },
-                {
-                    "id": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-                    "code": "I-05-FVG-FG-08-01",
-                    "quantities": {
-                        "in_box": 3
-                    }
-                },
-                {
-                    "id": "4cad21de-c673-4385-82b7-78aaca9c8367",
-                    "code": "I-06-SML-TRK-23",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "57e647ce-4e92-4725-8fa5-077efd570790",
+                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "b2311aae-125d-4995-b0fb-ce577dd2f983",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "35",
+        "4": "40"
+    },
     "image": "/images/recipes/honey-mustard-meat-free-sausage-and-apple-salad.jpg"
 }

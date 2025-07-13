@@ -10,10 +10,6 @@
         "count": 833
     },
     "description": "This do-it-yourself twist on takeaway pizza is all you knead. You'll smother pizza dough with cheesy, garlicky white sauce before scattering over sausage. Pop it in the oven and top it with sweet balsamic-glazed caramelised onion to serve.",
-    "prep_times": {
-        "for_2": 45,
-        "for_4": 50
-    },
     "cuisine": "Italian",
     "ingredients": [
         {
@@ -179,15 +175,17 @@
             "net_weight_mg": 378500
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "45",
+        "4": "50"
+    },
     "image": "/images/recipes/sausage-fennel-and-caramelised-onion-white-pizza.jpg"
 }

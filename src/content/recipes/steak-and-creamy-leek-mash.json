@@ -11,10 +11,6 @@
         "count": 690
     },
     "description": "This homely dish demonstrates how simple food can really shine. It's all about the quality of the produce and a little extra love in the form of honey, cinnamon and butter.",
-    "prep_times": {
-        "for_2": 30,
-        "for_4": 30
-    },
     "cuisine": "British",
     "ingredients": [
         {
@@ -121,103 +117,33 @@
             "net_weight_mg": 688250
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "645a774c-589a-4172-9f0b-dd51a3c7e739",
-                    "code": "I-05-FVG-LF-03",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "08c40346-e6d3-475b-a9cb-b1adf9c5d5e6",
-                    "code": "IQ-05-FVG-VG-01-09",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "4addefc4-01ca-40dd-bd96-ea9184b057cf",
-                    "code": "I-10-MPF-ME-13",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "225f019e-406c-43cd-bd2b-dbe8fe85cc06",
-                    "code": "I-06-SML-IN-01-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "d3d0d01e-fd04-4393-bfd6-603fb5e030e8",
-                    "code": "I-02-SVG-VG-01-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "645a774c-589a-4172-9f0b-dd51a3c7e739",
+                "08c40346-e6d3-475b-a9cb-b1adf9c5d5e6",
+                "4addefc4-01ca-40dd-bd96-ea9184b057cf",
+                "225f019e-406c-43cd-bd2b-dbe8fe85cc06",
+                "d3d0d01e-fd04-4393-bfd6-603fb5e030e8",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "645a774c-589a-4172-9f0b-dd51a3c7e739",
-                    "code": "I-05-FVG-LF-03",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "08c40346-e6d3-475b-a9cb-b1adf9c5d5e6",
-                    "code": "IQ-05-FVG-VG-01-09",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "4addefc4-01ca-40dd-bd96-ea9184b057cf",
-                    "code": "I-10-MPF-ME-13",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "225f019e-406c-43cd-bd2b-dbe8fe85cc06",
-                    "code": "I-06-SML-IN-01-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "d3d0d01e-fd04-4393-bfd6-603fb5e030e8",
-                    "code": "I-02-SVG-VG-01-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-                    "code": "I-01-CAN-LQ-06",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "645a774c-589a-4172-9f0b-dd51a3c7e739",
+                "08c40346-e6d3-475b-a9cb-b1adf9c5d5e6",
+                "4addefc4-01ca-40dd-bd96-ea9184b057cf",
+                "225f019e-406c-43cd-bd2b-dbe8fe85cc06",
+                "d3d0d01e-fd04-4393-bfd6-603fb5e030e8",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "30",
+        "4": "30"
+    },
     "image": "/images/recipes/steak-and-creamy-leek-mash.jpg"
 }

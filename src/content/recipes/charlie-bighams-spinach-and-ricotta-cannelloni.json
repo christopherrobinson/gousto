@@ -12,10 +12,6 @@
         "count": 1768
     },
     "description": "Egg pasta stuffed with spinach, ricotta and roasted tomatoes, topped with our rich b\u00e9chamel sauce.",
-    "prep_times": {
-        "for_2": 30,
-        "for_4": 30
-    },
     "cuisine": "Italian",
     "ingredients": [
         {
@@ -68,33 +64,23 @@
             "net_weight_mg": 330000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "42ff48a2-874c-48c5-a20e-6993ae3e3586",
-                    "code": "I-FCD-CPM-11",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "42ff48a2-874c-48c5-a20e-6993ae3e3586"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "42ff48a2-874c-48c5-a20e-6993ae3e3586",
-                    "code": "I-FCD-CPM-11",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "42ff48a2-874c-48c5-a20e-6993ae3e3586"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "30",
+        "4": "30"
+    },
     "image": "/images/recipes/charlie-bighams-spinach-and-ricotta-cannelloni.jpg"
 }

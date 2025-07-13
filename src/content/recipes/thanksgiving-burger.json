@@ -11,10 +11,6 @@
         "count": 611
     },
     "description": "Our lean, mean cranberry-studded turkey brioche burger pays homage to the Thanksgiving celebrations happening across the pond. Served with wholesome salad and a D.I.Y. blue cheese dressing, you'll be thankful after you've knocked this baby up!",
-    "prep_times": {
-        "for_2": 30,
-        "for_4": 30
-    },
     "cuisine": "American",
     "ingredients": [
         {
@@ -148,117 +144,35 @@
             "net_weight_mg": 295500
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "e89eccef-6606-4529-bf66-346d735b2785",
-                    "code": "IQ-04-NUT-DF-02-01",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3db9921e-922a-41d5-9f89-adbab2f3fd42",
-                    "code": "I-06-SML-OT-06",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "fe9c499f-91a6-4aaa-bdcd-08b14b426a24",
-                    "code": "I-10-MPF-PO-27",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "69864354-d545-43c7-89a0-6498529df6f6",
-                    "code": "IQ-11-BRD-BR-12",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "0735ac32-103f-4058-b385-8a7aa6660114",
-                    "code": "I-05-FVG-FG-04",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "d94817ad-be58-4ac8-935e-90cda03538dc",
-                    "code": "I-09-DAI-CH-10",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "e89eccef-6606-4529-bf66-346d735b2785",
+                "3db9921e-922a-41d5-9f89-adbab2f3fd42",
+                "fe9c499f-91a6-4aaa-bdcd-08b14b426a24",
+                "69864354-d545-43c7-89a0-6498529df6f6",
+                "0735ac32-103f-4058-b385-8a7aa6660114",
+                "d94817ad-be58-4ac8-935e-90cda03538dc",
+                "ef566c78-5df6-49d9-8356-68789149176f"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "e89eccef-6606-4529-bf66-346d735b2785",
-                    "code": "IQ-04-NUT-DF-02-01",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "3db9921e-922a-41d5-9f89-adbab2f3fd42",
-                    "code": "I-06-SML-OT-06",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "fe9c499f-91a6-4aaa-bdcd-08b14b426a24",
-                    "code": "I-10-MPF-PO-27",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "69864354-d545-43c7-89a0-6498529df6f6",
-                    "code": "IQ-11-BRD-BR-12",
-                    "quantities": {
-                        "in_box": 4
-                    }
-                },
-                {
-                    "id": "0735ac32-103f-4058-b385-8a7aa6660114",
-                    "code": "I-05-FVG-FG-04",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "d94817ad-be58-4ac8-935e-90cda03538dc",
-                    "code": "I-09-DAI-CH-10",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "e89eccef-6606-4529-bf66-346d735b2785",
+                "3db9921e-922a-41d5-9f89-adbab2f3fd42",
+                "fe9c499f-91a6-4aaa-bdcd-08b14b426a24",
+                "69864354-d545-43c7-89a0-6498529df6f6",
+                "0735ac32-103f-4058-b385-8a7aa6660114",
+                "d94817ad-be58-4ac8-935e-90cda03538dc",
+                "ef566c78-5df6-49d9-8356-68789149176f"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "30",
+        "4": "30"
+    },
     "image": "/images/recipes/thanksgiving-burger.jpg"
 }

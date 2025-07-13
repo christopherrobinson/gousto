@@ -22,11 +22,10 @@ const { slug } = Astro.params;
 const { page } = Astro.props;
 const { href } = Astro.url;
 const { data } = page;
-const { allergens, basics, cooking_instructions, cuisine, description, image, nutritional_information, portion_sizes, prep_times, rating, title } = data;
+const { allergens, basics, cooking_instructions, cuisine, description, image, nutritional_information, portion_sizes, prep_time_minutes, rating, title } = data;
 const { per_portion } = nutritional_information;
-const { for_2 } = prep_times;
-const ingredientsFor2 = data.ingredients.filter(ingredient => portion_sizes?.find(p => p.portions === 2)?.ingredients_skus?.map(sku => sku.id)?.includes(ingredient.gousto_uuid));
-const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingredients;
+const ingredientsFor2 = data.ingredients.filter(ingredient => data.portion_sizes?.['2']?.ingredients_skus?.includes(ingredient.gousto_uuid));
+const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredients;
 ---
 
 <Layout
@@ -43,7 +42,7 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
       'title': title,
       'url': href,
     },
-    title: `${title}${for_2 ? ` (${for_2} mins)` : ``}`,
+    title: `${title}${prep_time_minutes['2'] ? ` (${prep_time_minutes['2']} mins)` : ``}`,
     twitter: {
       'card': 'summary_large_image',
     },
@@ -63,9 +62,9 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
         <h1 class="font-semibold  font-serif  leading-10  text-3xl  lg:leading-15  lg:text-5xl">{title}</h1>
         <p class="text-secondary-800  md:mb-8">{stripHtml(description).result}</p>
         <div class="flex  flex-wrap  items-center  space-x-4  text-sm  text-center  text-secondary-800  md:mb-8">
-          {for_2 &&
+          {prep_time_minutes['2'] &&
             <div class="flex  items-center  space-x-2">
-              <Icon class="text-primary-600" name="stopwatch" /> <span>{for_2} mins</span>
+              <Icon class="text-primary-600" name="stopwatch" /> <span>{prep_time_minutes['2']} mins</span>
             </div>
           }
           <!-- {per_portion?.energy_kcal < targetPortionCalories &&
@@ -91,7 +90,7 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
             class="animate-[var(--animate-pulse-ring)]  bg-primary-600  flex  font-normal  items-center  justify-between  px-6  py-4  text-center  rounded-lg  text-white  transition  hover:animate-none  hover:bg-red-700"
             href="/signup"
           >
-            <p class="font-semibold  space-x-1  text-xl"><span>🎁</span> <span>Get 70% Off Your First Box</span></p>
+            <p class="font-semibold  space-x-1  text-xl"><span>🎁</span> <span>Get 65% Off Your First Box</span></p>
             <p class="underline">Try Gousto Now →</p>
           </a>
         </div>
@@ -134,7 +133,7 @@ const ingredients = ingredientsFor2.length > 0 && ingredientsFor2 || data.ingred
             href="/signup"
           >
             <span class="text-xl">Try Gousto now</span>
-            <span class="font-medium  opacity-90">Get 70% off your first box</span>
+            <span class="font-medium  opacity-90">Get 65% off your first box</span>
           </a>
         </div>
       </div>

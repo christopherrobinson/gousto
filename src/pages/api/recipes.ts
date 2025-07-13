@@ -28,11 +28,11 @@ export const GET: APIRoute = async ({ request }) => {
       ? String(res.error.message)
       : (recipes?.length === 0 ? 'No recipes found.' : '');
 
-    const response = recipes?.map(({ cuisine, image, prep_times, rating, url, title }) => ({
+    const response = recipes?.map(({ cuisine, image, prep_time_minutes, rating, url, title }) => ({
       cuisine: cuisine,
       id: url,
       image: image,
-      prep_times: prep_times,
+      prep_time_minutes: prep_time_minutes,
       rating: rating,
       title: title,
     }));

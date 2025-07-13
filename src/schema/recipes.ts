@@ -47,23 +47,11 @@ export const recipesSchema = () => z.object({
       salt_mg: z.number().nullish(),
     })
   }),
-  portion_sizes: z.array(
-    z.object({
-      ingredients_skus: z.array(
-        z.object({
-          code: z.string(),
-          id: z.string(),
-          quantities: z.object({ in_box: z.number() })
-        })
-      ).optional(),
-      is_offered: z.boolean(),
-      portions: z.number(),
-    })
-  ).optional(),
-  prep_times: z.object({
-    for_2: z.number(),
-    for_4: z.number().nullable(),
-  }),
+  portion_sizes: z.record(z.string(), z.object({
+    is_offered: z.boolean(),
+    ingredients_skus: z.array(z.string()).optional(),
+  })).optional(),
+  prep_time_minutes: z.record(z.string(), z.string().nullable()),
   rating: z.object({
     average: z.number().nullish(),
     count: z.number().nullish(),

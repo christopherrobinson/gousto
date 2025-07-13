@@ -14,15 +14,27 @@ export const createRecipeFilter = (options: {
     const { data } = recipe;
 
     // Filter by prep time
-    if (typeof prepTime === 'number') {
-      if (data.prep_times?.for_2 !== prepTime) return false;
-    }
-    else if (prepTime && typeof prepTime === 'object') {
-      const { min, max } = prepTime;
-      const time = data.prep_times?.for_2;
+    if (prepTime !== undefined) {
+      // Note: This filter currently only checks the prep time for 2 portions.
+      const timeFor2Portions = data.prep_time_minutes?.['2'];
 
-      if ((min !== undefined && time < min) || (max !== undefined && time > max)) {
-        return false;
+      if (timeFor2Portions === undefined || timeFor2Portions === null) {
+        return false; // No prep time for 2 portions, so filter fails.
+      }
+
+      const timeInMinutes = parseInt(timeFor2Portions, 10);
+
+      if (isNaN(timeInMinutes)) {
+        return false; // Prep time is not a valid number.
+      }
+
+      if (typeof prepTime === 'number') {
+        if (timeInMinutes !== prepTime) return false;
+      } else { // typeof prepTime === 'object'
+        const { min, max } = prepTime;
+        if ((min !== undefined && timeInMinutes < min) || (max !== undefined && timeInMinutes > max)) {
+          return false;
+        }
       }
     }
 

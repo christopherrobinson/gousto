@@ -13,10 +13,6 @@
         "count": 1892
     },
     "description": "Tender marinated chicken in our mild, creamy coconut korma sauce, delicately spiced and served with pilau rice.",
-    "prep_times": {
-        "for_2": 30,
-        "for_4": 30
-    },
     "cuisine": "Indian",
     "ingredients": [
         {
@@ -67,33 +63,23 @@
             "net_weight_mg": 405000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "3631aa9c-e06a-4cab-bd39-3d3d51a0402e",
-                    "code": "I-FCD-CPM-13",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "3631aa9c-e06a-4cab-bd39-3d3d51a0402e"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "3631aa9c-e06a-4cab-bd39-3d3d51a0402e",
-                    "code": "I-FCD-CPM-13",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "3631aa9c-e06a-4cab-bd39-3d3d51a0402e"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "30",
+        "4": "30"
+    },
     "image": "/images/recipes/charlie-bighams-chicken-korma.jpg"
 }

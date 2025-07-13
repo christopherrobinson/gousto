@@ -19,14 +19,14 @@ if (!recipes || !Array.isArray(recipes) || recipes.length === 0) {
     </div>
     <div class="swiper">
       <div class="swiper-wrapper">
-        {recipes.map(({ data: { cuisine, image, nutritional_information, prep_times, rating, title }, id}) => (
+        {recipes.map(({ data: { cuisine, image, nutritional_information, prep_time_minutes, rating, title }, id}) => (
           <div class="!h-auto  swiper-slide">
             <RecipeCard
               cuisine={cuisine}
               id={id}
               image={image}
               nutritional_information={nutritional_information}
-              prep_times={prep_times}
+              prep_time_minutes={prep_time_minutes}
               rating={rating}
               title={title}
             />

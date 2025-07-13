@@ -10,10 +10,6 @@
         "count": 248
     },
     "description": "This classic sandwich from Philadelphia is as messy as it is delicious. It's packed full of tender sliced rump steak, caramelised onion and green pepper, and topped with gooey melted cheese. Philly-nomenal!",
-    "prep_times": {
-        "for_2": 30,
-        "for_4": 35
-    },
     "cuisine": "American",
     "ingredients": [
         {
@@ -165,159 +161,41 @@
             "net_weight_mg": 539000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-                    "code": "I-02-SVG-VG-07",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
-                    "code": "I-05-FVG-FV-05",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-                    "code": "I-07-HBS-PL-10",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "07b2a349-41a9-4ac4-91c8-a83f91944194",
-                    "code": "I-10-MPF-ME-57",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "cc528288-843a-430c-ad37-39d44f212122",
-                    "code": "I-02-SVG-VG-02-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "34869527-4715-40aa-93c3-2a616d203aa9",
-                    "code": "I-06-SML-OT-19",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
-                    "code": "I-09-DAI-CH-02",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                },
-                {
-                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                    "code": "I-06-SML-OT-05",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "07b2a349-41a9-4ac4-91c8-a83f91944194",
+                "cc528288-843a-430c-ad37-39d44f212122",
+                "34869527-4715-40aa-93c3-2a616d203aa9",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-                    "code": "I-02-SVG-VG-07",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                    "code": "I-11-BRD-BR-59",
-                    "quantities": {
-                        "in_box": 4
-                    }
-                },
-                {
-                    "id": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
-                    "code": "I-05-FVG-FV-05",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-                    "code": "I-07-HBS-PL-10",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "ef566c78-5df6-49d9-8356-68789149176f",
-                    "code": "I-08-SAU-LS-14",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "07b2a349-41a9-4ac4-91c8-a83f91944194",
-                    "code": "I-10-MPF-ME-57",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "cc528288-843a-430c-ad37-39d44f212122",
-                    "code": "I-02-SVG-VG-02-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "34869527-4715-40aa-93c3-2a616d203aa9",
-                    "code": "I-06-SML-OT-19",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "aed1561d-bae6-487b-a645-4125a6829119",
-                    "code": "I-09-DAI-CH-02",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                },
-                {
-                    "id": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                    "code": "I-06-SML-OT-05",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+                "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+                "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+                "ef566c78-5df6-49d9-8356-68789149176f",
+                "07b2a349-41a9-4ac4-91c8-a83f91944194",
+                "cc528288-843a-430c-ad37-39d44f212122",
+                "34869527-4715-40aa-93c3-2a616d203aa9",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "30",
+        "4": "35"
+    },
     "image": "/images/recipes/philly-cheesesteak-sandwich-with-potato-salad.jpg"
 }

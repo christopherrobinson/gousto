@@ -261,13 +261,13 @@ const filters = {
       <div class="col-span-1  lg:col-span-3  xl:col-span-4  print:col-span-1">
         {hasResults ? (
           <div class="gap-4  grid  py-4  xs:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  lg:gap-8  lg:py-8">
-            {recipes?.map(({ cuisine, image, nutritional_information, prep_times, rating, title, url }) => (
+            {recipes?.map(({ cuisine, image, nutritional_information, prep_time_minutes, rating, title, url }) => (
               <RecipeCard
                 cuisine={cuisine}
                 id={url}
                 image={image}
                 nutritional_information={nutritional_information}
-                prep_times={prep_times}
+                prep_time_minutes={prep_time_minutes}
                 rating={rating}
                 title={title}
               />

@@ -11,10 +11,6 @@
         "count": null
     },
     "description": "Pork and beef meatballs with trulli pasta in tomato sauce, topped with a Regato cheese crumb.",
-    "prep_times": {
-        "for_2": 35,
-        "for_4": 35
-    },
     "cuisine": "Italian",
     "call_to_action": {
         "cta_link": "",
@@ -71,33 +67,23 @@
             "net_weight_mg": 325000
         }
     },
-    "portion_sizes": [
-        {
-            "portions": 2,
+    "portion_sizes": {
+        "2": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "84fc1b5c-4d46-4e97-8827-5d529fce52b5",
-                    "code": "I-FCD-CPM-06",
-                    "quantities": {
-                        "in_box": 1
-                    }
-                }
+                "84fc1b5c-4d46-4e97-8827-5d529fce52b5"
             ]
         },
-        {
-            "portions": 4,
+        "4": {
             "is_offered": true,
             "ingredients_skus": [
-                {
-                    "id": "84fc1b5c-4d46-4e97-8827-5d529fce52b5",
-                    "code": "I-FCD-CPM-06",
-                    "quantities": {
-                        "in_box": 2
-                    }
-                }
+                "84fc1b5c-4d46-4e97-8827-5d529fce52b5"
             ]
         }
-    ],
+    },
+    "prep_time_minutes": {
+        "2": "35",
+        "4": "35"
+    },
     "image": "/images/recipes/charlie-bighams-meatballs-al-forno.jpg"
 }
