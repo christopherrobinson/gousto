@@ -3,6 +3,7 @@ export const blogSchema = ({ image }) => z.object({
   cover: image().optional(),
   meta: z.object({
     description: z.string().optional(),
+    robots: z.string().optional(),
     title: z.string().optional(),
   }).optional(),
   recipes: z.array(z.string()).optional(),
