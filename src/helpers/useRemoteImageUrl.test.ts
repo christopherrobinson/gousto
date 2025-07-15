@@ -16,17 +16,17 @@ describe('useRemoteImageUrl', () => {
     (createImageUrl as ReturnType<typeof vi.fn>).mockClear();
   });
 
-  it('should call createImageUrl with parsed params', () => {
+  it('should call createImageUrl with the provided params', () => {
     const url = 'https://localhost/image.jpg';
-    const params = 'w=100&h=200&fit=crop';
+    const params = { fit: 'crop', h: 200, w: 100 };
 
     useRemoteImageUrl(url, params);
-    expect(createImageUrl).toHaveBeenCalledWith(url, { w: '100', h: '200', fit: 'crop' });
+    expect(createImageUrl).toHaveBeenCalledWith(url, params);
   });
 
-  it('should handle empty params string', () => {
+  it('should handle empty params object', () => {
     const url = 'https://localhost/image.jpg';
-    const params = '';
+    const params = {};
 
     useRemoteImageUrl(url, params);
     expect(createImageUrl).toHaveBeenCalledWith(url, {});
@@ -34,18 +34,18 @@ describe('useRemoteImageUrl', () => {
 
   it('should handle params with no value', () => {
     const url = 'https://localhost/image.jpg';
-    const params = 'w=100&h=';
+    const params = { h: undefined, w: 100 };
 
     useRemoteImageUrl(url, params);
-    expect(createImageUrl).toHaveBeenCalledWith(url, { w: '100' });
+    expect(createImageUrl).toHaveBeenCalledWith(url, params);
   });
 
   it('should handle params with special characters', () => {
     const url = 'https://localhost/image.jpg';
-    const params = 'text=hello%20world&color=%23FF0000';
+    const params = { color: '%23FF0000', text: 'helloo%20world' };
 
     useRemoteImageUrl(url, params);
-    expect(createImageUrl).toHaveBeenCalledWith(url, { text: 'hello%20world', color: '%23FF0000' });
+    expect(createImageUrl).toHaveBeenCalledWith(url, params);
   });
 });
 

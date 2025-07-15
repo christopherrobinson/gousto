@@ -100,8 +100,8 @@ const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredie
           <picture>
             <source
               srcset={`
-                ${useRemoteImageUrl(image, "h=500&output=webp&w=500")},
-                ${useRemoteImageUrl(image, "h=1000&output=webp&w=1000")} 2x
+                ${useRemoteImageUrl(image, { h: 500, output: 'webp', w: 500 })},
+                ${useRemoteImageUrl(image, { h: 1000, output: 'webp', w: 1000 })} 2x
               `}
               type="image/webp"
             />
@@ -111,8 +111,8 @@ const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredie
               decoding="async"
               height={500}
               loading="lazy"
-              src={useRemoteImageUrl(image, "h=500&w=500")}
-              srcset={`${useRemoteImageUrl(image, "h=1000&w=1000")} 2x`}
+              src={useRemoteImageUrl(image, { h: 500, w: 500 })}
+              srcset={`${useRemoteImageUrl(image, { h: 1000, w: 1000 })} 2x`}
               width={500}
             />
           </picture>
@@ -176,8 +176,8 @@ const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredie
                       <picture>
                         <source
                           srcset={`
-                            ${useRemoteImageUrl(image, "h=225&output=webp&w=300")},
-                            ${useRemoteImageUrl(image, "h=450&output=webp&w=600")} 2x
+                            ${useRemoteImageUrl(image, { h: 225, output: 'webp', w: 300 })},
+                            ${useRemoteImageUrl(image, { h: 450, output: 'webp', w: 600 })} 2x
                           `}
                           type="image/webp"
                         />
@@ -187,7 +187,7 @@ const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredie
                           decoding="async"
                           height={225}
                           loading="lazy"
-                          src={useRemoteImageUrl(image, "h=225&w=300")}
+                          src={useRemoteImageUrl(image, { h: 225, w: 300 })}
                           srcset={`${useRemoteImageUrl(image, "h=450&w=600")} 2x`}
                           width={300}
                         />

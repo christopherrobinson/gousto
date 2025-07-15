@@ -12,8 +12,8 @@ const className = (props as { class?: string }).class;
   <picture>
     <source
       srcset={`
-        ${useRemoteImageUrl(image, "h=176&output=webp&w=176")},
-        ${useRemoteImageUrl(image, "h=352&output=webp&w=352")} 2x
+        ${useRemoteImageUrl(image, { h: 176, output: 'webp', w: 176 })},
+        ${useRemoteImageUrl(image, { h: 352, output: 'webp', w: 352 })} 2x
       `}
       type="image/webp"
     />
@@ -23,7 +23,7 @@ const className = (props as { class?: string }).class;
       decoding="async"
       height={176}
       loading="lazy"
-      src={useRemoteImageUrl(image, "h=176&w=176")}
+      src={useRemoteImageUrl(image, { h: 176, w: 176 })}
       srcset={`${useRemoteImageUrl(image, "h=352&w=352")} 2x`}
       width={176}
     />
