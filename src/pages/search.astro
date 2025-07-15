@@ -58,7 +58,7 @@ if (!error) {
 
 const hasResults = (recipes && (recipes.length > 0));
 
-if (!hasResults) {
+if (!query && !hasResults) {
   return Astro.redirect('/search/');
 }
 
