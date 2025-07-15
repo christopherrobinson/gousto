@@ -14,8 +14,8 @@ const { cuisine, id, image, nutritional_information, prep_time_minutes, rating, 
         <picture>
           <source
             srcset={`
-              ${useRemoteImageUrl(image, "h=288&output=webp&w=288")},
-              ${useRemoteImageUrl(image, "h=576&output=webp&w=576")} 2x
+              ${useRemoteImageUrl(image, { h: 288, output: 'webp', w: 288 })},
+              ${useRemoteImageUrl(image, { h: 576, output: 'webp', w: 576 })} 2x
             `}
             type="image/webp"
           />
@@ -25,8 +25,8 @@ const { cuisine, id, image, nutritional_information, prep_time_minutes, rating, 
             decoding="async"
             height={288}
             loading="lazy"
-            src={useRemoteImageUrl(image, "h=288&w=288")}
-            srcset={`${useRemoteImageUrl(image, "h=576&w=576")} 2x`}
+            src={useRemoteImageUrl(image, { h: 288, w: 288 })}
+            srcset={`${useRemoteImageUrl(image, { h: 576, w: 576 })} 2x`}
             width={288}
           />
         </picture>
