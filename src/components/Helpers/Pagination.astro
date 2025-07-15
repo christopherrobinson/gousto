@@ -3,9 +3,13 @@ import { type PaginationProps } from '@/types/Pagination';
 
 const { baseUrl, currentPage, forceQueryString, total, totalPages } = Astro.props as PaginationProps;
 const { searchParams } = Astro.url;
+const itemsPerPage = {
+  '/blog/'   : postsPerPage,
+  '/recipes/': recipesPerPage
+}[baseUrl] || 10;
 const pages = getPagination(currentPage, totalPages);
-const start = (currentPage - 1) * recipesPerPage + 1;
-const end = Math.min(currentPage * recipesPerPage, total);
+const start = (currentPage - 1) * itemsPerPage + 1;
+const end = Math.min(currentPage * itemsPerPage, total);
 const itemType = {
   '/blog/'   : 'posts',
   '/recipes/': 'recipes'
