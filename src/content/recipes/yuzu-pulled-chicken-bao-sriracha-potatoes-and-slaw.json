@@ -7,11 +7,17 @@
     "gousto_id": "8247",
     "rating": {
         "average": 4,
-        "count": 73
+        "count": 130
     },
     "description": "Toaster, microwave or kettle-friendly \u2013 this is dinner without the cooking. These pillowy bao buns are loaded with yuzu pulled cooked chicken and crunchy cucumber. Serve them with creamy soy slaw and sriracha potatoes for a spicy finish.",
     "cuisine": "Japanese",
     "ingredients": [
+        {
+            "label": "Cooked shredded chicken thighs (160g)",
+            "gousto_uuid": "77fe3a32-595e-449d-a0ef-827ce4151d7d",
+            "allergens": [],
+            "image": "/images/ingredients/77fe3a32-595e-449d-a0ef-827ce4151d7d.jpg"
+        },
         {
             "label": "Mayonnaise (25ml) x0",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -20,12 +26,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
-        },
-        {
-            "label": "Cooked shredded chicken thighs (170g)",
-            "gousto_uuid": "77fe3a32-595e-449d-a0ef-827ce4151d7d",
-            "allergens": [],
-            "image": "/images/ingredients/77fe3a32-595e-449d-a0ef-827ce4151d7d.jpg"
         },
         {
             "label": "Bao buns (6pcs)",
@@ -73,16 +73,16 @@
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
-            "label": "Carrot & cabbage slaw mix (160g)",
-            "gousto_uuid": "4366001c-0c31-41c9-b051-f5ddb2e73677",
-            "allergens": [],
-            "image": "/images/ingredients/4366001c-0c31-41c9-b051-f5ddb2e73677.jpg"
-        },
-        {
             "label": "Sriracha hot chilli sauce (8ml)",
             "gousto_uuid": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
             "allergens": [],
             "image": "/images/ingredients/34ad5b48-6f2b-402b-8699-1237fb821ae2.jpg"
+        },
+        {
+            "label": "Carrot, mooli & pink cabbage slaw mix (160g)",
+            "gousto_uuid": "076a3314-6216-4cc6-bd92-188d2c9404e8",
+            "allergens": [],
+            "image": "/images/ingredients/076a3314-6216-4cc6-bd92-188d2c9404e8.jpg"
         },
         {
             "label": "Waxy potatoes (350g)",
@@ -141,7 +141,7 @@
             "image": "/images/instructions/yuzu-pulled-chicken-bao-sriracha-potatoes-and-slaw/step-3.jpg"
         },
         {
-            "instruction": "<p>Combine your <strong>remaining vinegar</strong>, <strong>remaining mayo</strong> and <strong>remaining soy sauce</strong> with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span><strong> sugar </strong>in a large bowl</p><p>Add your <strong>carrot & cabbage slaw mix </strong>and give it a good mix up until well combined \u2013 this is your <strong>soy slaw</strong></p>",
+            "instruction": "<p>Combine your <strong>remaining vinegar</strong>, <strong>remaining mayo</strong> and <strong>remaining soy sauce</strong> with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span><strong> sugar </strong>in a large bowl</p><p>Add your <strong>mooli slaw mix </strong>and give it a good mix up until well combined \u2013 this is your <strong>soy slaw</strong></p>",
             "order": 4,
             "image": "/images/instructions/yuzu-pulled-chicken-bao-sriracha-potatoes-and-slaw/step-4.jpg"
         },
@@ -175,26 +175,26 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 134,
-            "energy_kj": 565,
-            "fat_mg": 5335,
-            "fat_saturates_mg": 591,
-            "carbs_mg": 16331,
-            "carbs_sugars_mg": 2306,
-            "fibre_mg": 1778,
+            "energy_kj": 566,
+            "fat_mg": 5348,
+            "fat_saturates_mg": 605,
+            "carbs_mg": 16373,
+            "carbs_sugars_mg": 2223,
+            "fibre_mg": 1736,
             "protein_mg": 5763,
-            "salt_mg": 411,
+            "salt_mg": 412,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 780,
-            "energy_kj": 3277,
-            "fat_mg": 30890,
-            "fat_saturates_mg": 3425,
-            "carbs_mg": 94560,
-            "carbs_sugars_mg": 13353,
-            "fibre_mg": 10295,
+            "energy_kj": 3278,
+            "fat_mg": 30970,
+            "fat_saturates_mg": 3505,
+            "carbs_mg": 94800,
+            "carbs_sugars_mg": 12873,
+            "fibre_mg": 10055,
             "protein_mg": 33373,
-            "salt_mg": 2383,
+            "salt_mg": 2391,
             "net_weight_mg": 579000
         }
     },
@@ -203,7 +203,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "e18ad6db-de1e-4d2e-b015-eb11138e317a",
-                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "77fe3a32-595e-449d-a0ef-827ce4151d7d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -218,7 +218,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "e18ad6db-de1e-4d2e-b015-eb11138e317a",
-                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "77fe3a32-595e-449d-a0ef-827ce4151d7d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
@@ -233,7 +233,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "e18ad6db-de1e-4d2e-b015-eb11138e317a",
-                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "77fe3a32-595e-449d-a0ef-827ce4151d7d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
@@ -250,7 +250,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "e18ad6db-de1e-4d2e-b015-eb11138e317a",
-                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "77fe3a32-595e-449d-a0ef-827ce4151d7d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
@@ -265,7 +265,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "e18ad6db-de1e-4d2e-b015-eb11138e317a",
-                "4366001c-0c31-41c9-b051-f5ddb2e73677",
+                "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "77fe3a32-595e-449d-a0ef-827ce4151d7d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "70f967b5-e78a-44a4-9450-a52705125b45",

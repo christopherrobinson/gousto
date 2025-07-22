@@ -13,6 +13,38 @@
     "cuisine": "Greek",
     "ingredients": [
         {
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
+        },
+        {
+            "label": "Salmon fillet (110g) x0",
+            "gousto_uuid": "fd8bf04f-60ad-42cc-a3b6-347c38cfeaff",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/fd8bf04f-60ad-42cc-a3b6-347c38cfeaff.jpg"
+        },
+        {
+            "label": "Skin-on salmon fillets (220g)",
+            "gousto_uuid": "577446f0-f77e-42d4-bf8b-bf6bc51031a9",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/577446f0-f77e-42d4-bf8b-bf6bc51031a9.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
             "label": "Pumpkin seeds (15g) x0",
             "gousto_uuid": "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
             "allergens": [
@@ -21,14 +53,6 @@
                 "sesame"
             ],
             "image": "/images/ingredients/8d49d7fe-1c65-4022-aae9-32fe3bb6df3a.jpg"
-        },
-        {
-            "label": "Skin on salmon fillets (2pcs)",
-            "gousto_uuid": "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/ad9a92c9-f5b3-49ce-a582-be130ba3908b.jpg"
         },
         {
             "label": "Cherry tomatoes (250g) x0",
@@ -47,12 +71,6 @@
             "image": "/images/ingredients/98b9f72c-1fbb-407a-876d-1505460b6ab4.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
             "label": "Spinach (120g)",
             "gousto_uuid": "e329fbb2-795e-457b-838e-4734e2691d32",
             "allergens": [],
@@ -63,14 +81,6 @@
             "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
             "allergens": [],
             "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
-        },
-        {
-            "label": "Skin on salmon fillet x0",
-            "gousto_uuid": "5d6b3f91-55f6-429e-b7cf-004b74520249",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/5d6b3f91-55f6-429e-b7cf-004b74520249.jpg"
         },
         {
             "label": "Spinach (80g) x0",
@@ -85,16 +95,6 @@
                 "gluten"
             ],
             "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
-        },
-        {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
             "label": "Dried oregano (1tsp)",
@@ -211,25 +211,25 @@
         "per_hundred_grams": {
             "energy_kcal": 150,
             "energy_kj": 627,
-            "fat_mg": 8582,
-            "fat_saturates_mg": 2947,
+            "fat_mg": 8620,
+            "fat_saturates_mg": 2778,
             "carbs_mg": 11801,
             "carbs_sugars_mg": 1589,
-            "fibre_mg": 1633,
-            "protein_mg": 6439,
-            "salt_mg": 136,
+            "fibre_mg": 1501,
+            "protein_mg": 6420,
+            "salt_mg": 134,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 880,
             "energy_kj": 3677,
-            "fat_mg": 50316,
-            "fat_saturates_mg": 17281,
+            "fat_mg": 50536,
+            "fat_saturates_mg": 16291,
             "carbs_mg": 69187,
             "carbs_sugars_mg": 9319,
-            "fibre_mg": 9575,
-            "protein_mg": 37753,
-            "salt_mg": 801,
+            "fibre_mg": 8805,
+            "protein_mg": 37643,
+            "salt_mg": 791,
             "net_weight_mg": 586250
         }
     },
@@ -246,7 +246,7 @@
                 "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
-                "5d6b3f91-55f6-429e-b7cf-004b74520249",
+                "fd8bf04f-60ad-42cc-a3b6-347c38cfeaff",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -264,7 +264,7 @@
                 "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
-                "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+                "577446f0-f77e-42d4-bf8b-bf6bc51031a9",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -282,8 +282,8 @@
                 "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
-                "5d6b3f91-55f6-429e-b7cf-004b74520249",
-                "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+                "fd8bf04f-60ad-42cc-a3b6-347c38cfeaff",
+                "577446f0-f77e-42d4-bf8b-bf6bc51031a9",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
@@ -302,7 +302,7 @@
                 "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "c9bfadf4-a66f-4282-891a-a024f8a937fd",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
-                "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+                "577446f0-f77e-42d4-bf8b-bf6bc51031a9",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -321,8 +321,8 @@
                 "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "c9bfadf4-a66f-4282-891a-a024f8a937fd",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
-                "5d6b3f91-55f6-429e-b7cf-004b74520249",
-                "ad9a92c9-f5b3-49ce-a582-be130ba3908b",
+                "fd8bf04f-60ad-42cc-a3b6-347c38cfeaff",
+                "577446f0-f77e-42d4-bf8b-bf6bc51031a9",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",

@@ -7,11 +7,21 @@
     "gousto_id": "7362",
     "rating": {
         "average": 4.5,
-        "count": 2939
+        "count": 3097
     },
     "description": "Chicken and broccoli who? This creamy satay-style winner is loaded with protein and packs a flavour punch to boot. Drizzle your pan-fried chicken with creamy peanut dressing and serve with white rice and a crunchy cucumber salad. Banging. High in protein. Protein contributes to a growth in muscle mass.",
     "cuisine": "Indonesian",
     "ingredients": [
+        {
+            "label": "Smooth peanut butter (26g)",
+            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
+        },
         {
             "label": "Gem lettuces (2pcs) x0",
             "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
@@ -79,14 +89,6 @@
             "gousto_uuid": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
             "allergens": [],
             "image": "/images/ingredients/8cc1a219-f516-495d-9d3a-506bd62ae79f.jpg"
-        },
-        {
-            "label": "Smooth peanut butter (26g)",
-            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
-            "allergens": [
-                "peanut"
-            ],
-            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         }
     ],
     "basics": [
@@ -137,7 +139,9 @@
         }
     ],
     "allergens": [
+        "nut",
         "peanut",
+        "sesame",
         "soya"
     ],
     "nutritional_information": {

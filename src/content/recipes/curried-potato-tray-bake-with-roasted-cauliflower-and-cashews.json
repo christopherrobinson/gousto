@@ -51,6 +51,19 @@
             "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+        },
+        {
             "label": "Spinach (80g)",
             "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
@@ -61,12 +74,6 @@
             "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
             "allergens": [],
             "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
-        },
-        {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
         },
         {
             "label": "Mango chutney (20g)",
@@ -130,7 +137,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7</p><p>Boil half a kettle</p><p>Chop your <strong>potatoes</strong> (skins on) into small bite-sized pieces</p><p>Peel and chop your <strong>red onions</strong>\u00a0into wedges</p>",
+            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7</p><p>Boil half a kettle</p><p>Chop your <strong>potatoes</strong> (skins on) into small bite-sized pieces</p><p>Peel and chop your <strong>red onions</strong> into wedges</p>",
             "order": 1,
             "image": "/images/instructions/curried-potato-tray-bake-with-roasted-cauliflower-and-cashews/step-1.jpg"
         },
@@ -140,7 +147,7 @@
             "image": "/images/instructions/curried-potato-tray-bake-with-roasted-cauliflower-and-cashews/step-2.jpg"
         },
         {
-            "instruction": "<p>Chop your\u00a0<strong>creamed coconut\u00a0</strong>roughly (if required!)</p><p>Dissolve your <strong>vegetable stock mix</strong>, <strong>chopped creamed coconut </strong>and<strong>\u00a0ground turmeric</strong> in 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[550ml]</span> <strong>boiled water </strong>\u2013\u00a0this is your<strong> coconut stock</strong></p>",
+            "instruction": "<p>Chop your <strong>creamed coconut </strong>roughly (if required!)</p><p>Dissolve your <strong>vegetable stock mix</strong>, <strong>chopped creamed coconut </strong>and<strong> ground turmeric</strong> in 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[550ml]</span> <strong>boiled water </strong>\u2013 this is your<strong> coconut stock</strong></p>",
             "order": 3,
             "image": "/images/instructions/curried-potato-tray-bake-with-roasted-cauliflower-and-cashews/step-3.jpg"
         },
@@ -155,12 +162,12 @@
             "image": "/images/instructions/curried-potato-tray-bake-with-roasted-cauliflower-and-cashews/step-5.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, add the <strong>cauliflower wedges</strong> to a separate tray with a drizzle of <strong>vegetable oil</strong>, your <strong>nigella seeds </strong>and a pinch of <strong>salt</strong></p><p>Put the tray in the oven for an initial 20-25 min</p><p>After 20-25 min, add your <strong>cashew nuts</strong> to the tray and cook for 3-4 min further or until the nuts are toasted and the cauliflower is golden and crisp</p><p>Tip: Watch the cashew nuts like a hawk to make sure they don't burn!</p>",
+            "instruction": "<p>Meanwhile, add the <strong>cauliflower wedges</strong> to a separate tray with a drizzle of <strong>vegetable oil</strong>, your <strong>black sesame seeds </strong>and a pinch of <strong>salt</strong></p><p>Put the tray in the oven for an initial 20-25 min</p><p>After 20-25 min, add your <strong>cashew nuts</strong> to the tray and cook for 3-4 min further or until the nuts are toasted and the cauliflower is golden and crisp</p><p>Tip: Watch the cashew nuts like a hawk to make sure they don't burn!</p>",
             "order": 6,
             "image": "/images/instructions/curried-potato-tray-bake-with-roasted-cauliflower-and-cashews/step-6.jpg"
         },
         {
-            "instruction": "<p>Wash your <strong>spinach</strong>, then pat it dry with kitchen paper</p><p>Once the potatoes are done, add the <strong>spinach</strong> to the tray and return it to the oven for 1-2 min further or until it has started to wilt \u2013 this is your\u00a0<strong>curried</strong> <strong>potato tray bake</strong></p>",
+            "instruction": "<p>Wash your <strong>spinach</strong>, then pat it dry with kitchen paper</p><p>Once the potatoes are done, add the <strong>spinach</strong> to the tray and return it to the oven for 1-2 min further or until it has started to wilt \u2013 this is your <strong>curried</strong> <strong>potato tray bake</strong></p>",
             "order": 7,
             "image": "/images/instructions/curried-potato-tray-bake-with-roasted-cauliflower-and-cashews/step-7.jpg"
         },
@@ -170,47 +177,51 @@
         }
     ],
     "allergens": [
+        "celery",
+        "fish",
+        "mustard",
         "nut",
         "peanut",
-        "sesame"
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 98,
-            "energy_kj": 415,
-            "fat_mg": 4864,
-            "fat_saturates_mg": 3474,
-            "carbs_mg": 11368,
-            "carbs_sugars_mg": 4091,
-            "fibre_mg": 2553,
-            "protein_mg": 2939,
-            "salt_mg": 397,
+            "energy_kcal": 100,
+            "energy_kj": 421,
+            "fat_mg": 5073,
+            "fat_saturates_mg": 3498,
+            "carbs_mg": 11292,
+            "carbs_sugars_mg": 4084,
+            "fibre_mg": 2510,
+            "protein_mg": 2952,
+            "salt_mg": 396,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 520,
-            "energy_kj": 2192,
-            "fat_mg": 25674,
-            "fat_saturates_mg": 18337,
-            "carbs_mg": 59995,
-            "carbs_sugars_mg": 21591,
-            "fibre_mg": 13478,
-            "protein_mg": 15513,
-            "salt_mg": 2099,
-            "net_weight_mg": 527750
+            "energy_kcal": 529,
+            "energy_kj": 2231,
+            "fat_mg": 26826,
+            "fat_saturates_mg": 18496,
+            "carbs_mg": 59711,
+            "carbs_sugars_mg": 21599,
+            "fibre_mg": 13276,
+            "protein_mg": 15612,
+            "salt_mg": 2097,
+            "net_weight_mg": 528750
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "51c13827-189d-4d40-af7f-5b58f68054bd",
                 "92c4a6e3-0189-40b9-8df6-76f9b98734c7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "609342b6-6462-4c52-908f-dc4b600a8546",
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
@@ -221,6 +232,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "51c13827-189d-4d40-af7f-5b58f68054bd",
                 "92c4a6e3-0189-40b9-8df6-76f9b98734c7",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
@@ -228,7 +240,6 @@
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
@@ -238,6 +249,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "51c13827-189d-4d40-af7f-5b58f68054bd",
                 "92c4a6e3-0189-40b9-8df6-76f9b98734c7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -246,7 +258,6 @@
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
@@ -257,6 +268,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "51c13827-189d-4d40-af7f-5b58f68054bd",
                 "92c4a6e3-0189-40b9-8df6-76f9b98734c7",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
@@ -264,7 +276,6 @@
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
@@ -274,6 +285,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "51c13827-189d-4d40-af7f-5b58f68054bd",
                 "92c4a6e3-0189-40b9-8df6-76f9b98734c7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -282,7 +294,6 @@
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",

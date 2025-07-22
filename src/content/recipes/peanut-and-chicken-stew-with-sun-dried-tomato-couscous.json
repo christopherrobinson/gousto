@@ -18,6 +18,16 @@
     "cuisine": "African",
     "ingredients": [
         {
+            "label": "Smooth peanut butter (26g)",
+            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
+        },
+        {
             "label": "Ground cumin (1tsp)",
             "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
             "allergens": [],
@@ -98,14 +108,6 @@
             "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Smooth peanut butter (26g)",
-            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
-            "allergens": [
-                "peanut"
-            ],
-            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         }
     ],
     "basics": [
@@ -156,7 +158,9 @@
     ],
     "allergens": [
         "gluten",
-        "peanut"
+        "nut",
+        "peanut",
+        "sesame"
     ],
     "nutritional_information": {
         "per_hundred_grams": {

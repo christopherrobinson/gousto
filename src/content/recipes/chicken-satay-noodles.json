@@ -7,7 +7,7 @@
     "gousto_id": "8292",
     "rating": {
         "average": 4,
-        "count": 718
+        "count": 1220
     },
     "description": "Toaster, microwave or kettle-friendly \u2013 this is dinner without the cooking. You'll toss rice noodles with cooked chicken into a rich peanut broth with sweet soy ketjap manis and sweet chilli relish. Serve up and dig in.",
     "cuisine": "Asian",
@@ -17,6 +17,16 @@
             "gousto_uuid": "77fe3a32-595e-449d-a0ef-827ce4151d7d",
             "allergens": [],
             "image": "/images/ingredients/77fe3a32-595e-449d-a0ef-827ce4151d7d.jpg"
+        },
+        {
+            "label": "Smooth peanut butter (26g)",
+            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         },
         {
             "label": "Ketjap manis (20g)",
@@ -55,14 +65,6 @@
             "gousto_uuid": "58516075-8bdb-4567-9f1f-8135695ef8b4",
             "allergens": [],
             "image": "/images/ingredients/58516075-8bdb-4567-9f1f-8135695ef8b4.jpg"
-        },
-        {
-            "label": "Smooth peanut butter (26g)",
-            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
-            "allergens": [
-                "peanut"
-            ],
-            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         }
     ],
     "basics": [
@@ -111,7 +113,9 @@
         }
     ],
     "allergens": [
+        "nut",
         "peanut",
+        "sesame",
         "soya"
     ],
     "nutritional_information": {
