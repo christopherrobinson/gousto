@@ -12,9 +12,15 @@
         "average": 4.5,
         "count": 7142
     },
-    "description": "For this easy twist on a takeaway classic, you'll flavour succulent chicken with a mildly spiced tomato and green pepper sauce, and serve over buttery, nigella seed rice. Jalfr-easy!",
+    "description": "For this easy twist on a takeaway classic, you'll flavour succulent chicken with a mildly spiced tomato and green pepper sauce, and serve over buttery, sesame rice. Jalfr-easy!",
     "cuisine": "Indian",
     "ingredients": [
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
         {
             "label": "Curry powder (0.5tbsp) x0",
             "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -64,12 +70,6 @@
             "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
             "label": "Intense chicken stock mix (5.5g)",
             "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
             "allergens": [],
@@ -82,10 +82,17 @@
             "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "White basmati rice (130g)",
@@ -134,17 +141,17 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Take your <strong>chicken</strong> out of the fridge, open the packet and let it air</p><p>Peel and finely slice your <strong>brown\u00a0onion[s]</strong></p><p>Heat a large, wide-based pan (preferably non-stick with a matching lid), with a drizzle of <strong>vegetable oil</strong> over a high heat</p>",
+            "instruction": "<p>Take your <strong>chicken</strong> out of the fridge, open the packet and let it air</p><p>Peel and finely slice your <strong>brown onion[s]</strong></p><p>Heat a large, wide-based pan (preferably non-stick with a matching lid), with a drizzle of <strong>vegetable oil</strong> over a high heat</p>",
             "order": 1,
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-1.jpg"
         },
         {
-            "instruction": "<p>Once hot, add your\u00a0<strong>diced chicken thigh\u00a0</strong>and <strong>sliced onion</strong> to the pan with a generous pinch of <strong>salt </strong>and <strong>sugar </strong>and cook for an initial 3-4 min or until the chicken is starting to brown and the onion is starting to soften and caramelise</p><p>Meanwhile, heat a pot (with a matching lid) with a drizzle of\u00a0<strong>vegetable oil</strong> and a knob of <strong>butter</strong> over a medium heat</p><p>Once the butter has melted, add your <strong>nigella</strong> <strong>seeds</strong> and<strong>\u00a0basmati rice</strong> and stir to fully coat the grains in oil</p>",
+            "instruction": "<p>Once hot, add your <strong>diced chicken thigh </strong>and <strong>sliced onion</strong> to the pan with a generous pinch of <strong>salt </strong>and <strong>sugar </strong>and cook for an initial 3-4 min or until the chicken is starting to brown and the onion is starting to soften and caramelise</p><p>Meanwhile, heat a pot (with a matching lid) with a drizzle of <strong>vegetable oil</strong> and a knob of <strong>butter</strong> over a medium heat</p><p>Once the butter has melted, add your <strong>black sesame</strong> <strong>seeds</strong> and<strong> basmati rice</strong> and stir to fully coat the grains in oil</p>",
             "order": 2,
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-2.jpg"
         },
         {
-            "instruction": "<p>Add 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to the rice, increase the heat to high and bring to the boil</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving \u2013 this is your\u00a0<strong>fragrant basmati rice</strong></p><p>Boil a kettle</p>",
+            "instruction": "<p>Add 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to the rice, increase the heat to high and bring to the boil</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving \u2013 this is your <strong>fragrant basmati rice</strong></p><p>Boil a kettle</p>",
             "order": 3,
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-3.jpg"
         },
@@ -154,12 +161,12 @@
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-4.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>sliced\u00a0pepper</strong>\u00a0to the softened onion and chicken and cook for a further 5-8 min or until starting to brown</p><p>Dissolve your <strong>chicken stock mix</strong>\u00a0in 300ml <span class=\"text-purple\">[450ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>boiled water</strong></p>",
+            "instruction": "<p>Add the <strong>sliced pepper</strong> to the softened onion and chicken and cook for a further 5-8 min or until starting to brown</p><p>Dissolve your <strong>chicken stock mix</strong> in 300ml <span class=\"text-purple\">[450ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>boiled water</strong></p>",
             "order": 5,
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-5.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>chopped\u00a0ginger</strong>, <strong>chopped\u00a0garlic</strong>, <strong>chilli</strong> <strong>flakes</strong> (can't handle the heat? Go easy!) and <strong>curry</strong> <strong>powder</strong> to the pan and stir until everything is coated in spice</p><p>Stir your\u00a0<strong>tomato\u00a0paste</strong>\u00a0into the pan, then add the <strong>tomato\u00a0wedges\u00a0</strong>and\u00a0<strong>chicken</strong> <strong>stock</strong></p>",
+            "instruction": "<p>Add the <strong>chopped ginger</strong>, <strong>chopped garlic</strong>, <strong>chilli</strong> <strong>flakes</strong> (can't handle the heat? Go easy!) and <strong>curry</strong> <strong>powder</strong> to the pan and stir until everything is coated in spice</p><p>Stir your <strong>tomato paste</strong> into the pan, then add the <strong>tomato wedges </strong>and <strong>chicken</strong> <strong>stock</strong></p>",
             "order": 6,
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-6.jpg"
         },
@@ -169,41 +176,49 @@
             "image": "/images/instructions/chicken-thigh-jalfrezi-with-fragrant-basmati-rice/step-7.jpg"
         },
         {
-            "instruction": "<p>Fluff the <strong>fragrant</strong> <strong>basmati</strong> <strong>rice</strong> with a fork and stir in a knob of <strong>butter</strong></p><p>Taste for seasoning, adding more<strong> salt</strong> and <strong>pepper</strong> if needed and serve the <strong>chicken</strong> <strong>thigh jalfrezi</strong>\u00a0with the <strong>fragrant basmati rice</strong>\u00a0to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>Fluff the <strong>fragrant</strong> <strong>basmati</strong> <strong>rice</strong> with a fork and stir in a knob of <strong>butter</strong></p><p>Taste for seasoning, adding more<strong> salt</strong> and <strong>pepper</strong> if needed and serve the <strong>chicken</strong> <strong>thigh jalfrezi</strong> with the <strong>fragrant basmati rice</strong> to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
-    "allergens": [],
+    "allergens": [
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
+    ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 97,
-            "energy_kj": 414,
-            "fat_mg": 1181,
-            "fat_saturates_mg": 265,
-            "carbs_mg": 13446,
-            "carbs_sugars_mg": 2422,
-            "fibre_mg": 1418,
-            "protein_mg": 7759,
-            "salt_mg": 397,
+            "energy_kcal": 99,
+            "energy_kj": 422,
+            "fat_mg": 1422,
+            "fat_saturates_mg": 298,
+            "carbs_mg": 13358,
+            "carbs_sugars_mg": 2419,
+            "fibre_mg": 1373,
+            "protein_mg": 7763,
+            "salt_mg": 396,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 461,
-            "energy_kj": 1952,
-            "fat_mg": 5564,
-            "fat_saturates_mg": 1249,
-            "carbs_mg": 63335,
-            "carbs_sugars_mg": 11411,
-            "fibre_mg": 6682,
-            "protein_mg": 36547,
-            "salt_mg": 1873,
-            "net_weight_mg": 471000
+            "energy_kcal": 470,
+            "energy_kj": 1992,
+            "fat_mg": 6716,
+            "fat_saturates_mg": 1408,
+            "carbs_mg": 63051,
+            "carbs_sugars_mg": 11418,
+            "fibre_mg": 6481,
+            "protein_mg": 36645,
+            "salt_mg": 1872,
+            "net_weight_mg": 472000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -212,7 +227,6 @@
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "1b567531-3d45-4705-97a5-e2056fa33b9f"
@@ -221,6 +235,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "c666ef27-3946-4630-8e30-da2fc8b60b2c",
@@ -229,7 +244,6 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
@@ -238,6 +252,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
@@ -248,7 +263,6 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
@@ -259,6 +273,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "c666ef27-3946-4630-8e30-da2fc8b60b2c",
@@ -267,7 +282,6 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
@@ -276,6 +290,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
@@ -286,7 +301,6 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",

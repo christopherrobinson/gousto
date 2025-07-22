@@ -7,7 +7,7 @@
     "gousto_id": "7871",
     "rating": {
         "average": 4.5,
-        "count": 489
+        "count": 515
     },
     "description": "Take your pancakes up a notch with this Pi\u00f1a Colada-inspired twist. You'll caramelise pineapple with maple syrup before layering it over fluffy buttermilk pancakes with creamy coconut yoghurt. Breakfast or dessert \u2013 you decide.",
     "cuisine": "American",
@@ -21,6 +21,12 @@
                 "milk"
             ],
             "image": "/images/ingredients/4640d123-f647-4a6a-8262-b9f2ca04ba2d.jpg"
+        },
+        {
+            "label": "Maple syrup (15g)",
+            "gousto_uuid": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
+            "allergens": [],
+            "image": "/images/ingredients/4c9e6ef0-9a83-4fe4-a792-0019ba935c0b.jpg"
         },
         {
             "label": "Cultured coconut (80g)",
@@ -45,12 +51,6 @@
                 "milk"
             ],
             "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
-        },
-        {
-            "label": "Agave nectar (25g)",
-            "gousto_uuid": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
-            "allergens": [],
-            "image": "/images/ingredients/eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80.jpg"
         },
         {
             "label": "Pineapple slices (220g)",
@@ -79,12 +79,12 @@
             "image": "/images/instructions/pina-colada-inspired-pineapple-and-coconut-yoghurt-pancakes/step-3.jpg"
         },
         {
-            "instruction": "<p>Return the reserved pan to a medium heat</p><p>Once hot, add the <strong>sliced pineapple</strong> with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span><span class=\"text-danger\"> [2 tbsp]</span> <strong>brown sugar</strong></p><p>Cook for 5-6 min, turning halfway, or until the pineapple is caramelised</p><p>Add your <strong>agave</strong> to the <strong>reserved pineapple juice</strong> and stir together \u2013 this is your <strong>pineapple agave sauce</strong></p>",
+            "instruction": "<p>Return the reserved pan to a medium heat</p><p>Once hot, add the <strong>sliced pineapple</strong> with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span><span class=\"text-danger\"> [2 tbsp]</span> <strong>brown sugar</strong></p><p>Cook for 5-6 min, turning halfway, or until the pineapple is caramelised</p><p>Add your <strong>maple syrup</strong> to the <strong>reserved pineapple juice</strong> and stir together \u2013 this is your <strong>pineapple maple sauce</strong></p>",
             "order": 4,
             "image": "/images/instructions/pina-colada-inspired-pineapple-and-coconut-yoghurt-pancakes/step-4.jpg"
         },
         {
-            "instruction": "<p>Once caramelised, add the <strong>pineapple agave sauce </strong>to the pan</p><p>Cook for a further 3-4 min or until golden and the sauce begins to thicken to a syrup-like consistency \u2013 this is your <strong>caramelised pineapple</strong></p>",
+            "instruction": "<p>Once caramelised, add the <strong>pineapple maple sauce </strong>to the pan</p><p>Cook for a further 3-4 min or until golden and the sauce begins to thicken to a syrup-like consistency \u2013 this is your <strong>caramelised pineapple</strong></p>",
             "order": 5,
             "image": "/images/instructions/pina-colada-inspired-pineapple-and-coconut-yoghurt-pancakes/step-5.jpg"
         },
@@ -113,38 +113,38 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 181,
-            "energy_kj": 768,
-            "fat_mg": 8379,
-            "fat_saturates_mg": 3740,
-            "carbs_mg": 22628,
-            "carbs_sugars_mg": 14085,
-            "fibre_mg": 888,
-            "protein_mg": 3543,
-            "salt_mg": 426,
+            "energy_kcal": 178,
+            "energy_kj": 757,
+            "fat_mg": 8500,
+            "fat_saturates_mg": 3796,
+            "carbs_mg": 21591,
+            "carbs_sugars_mg": 12823,
+            "fibre_mg": 894,
+            "protein_mg": 3583,
+            "salt_mg": 435,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 603,
-            "energy_kj": 2555,
-            "fat_mg": 27863,
-            "fat_saturates_mg": 12437,
-            "carbs_mg": 75240,
-            "carbs_sugars_mg": 46835,
-            "fibre_mg": 2953,
-            "protein_mg": 11783,
-            "salt_mg": 1417,
-            "net_weight_mg": 332500
+            "energy_kcal": 585,
+            "energy_kj": 2481,
+            "fat_mg": 27838,
+            "fat_saturates_mg": 12432,
+            "carbs_mg": 70713,
+            "carbs_sugars_mg": 41998,
+            "fibre_mg": 2928,
+            "protein_mg": 11735,
+            "salt_mg": 1426,
+            "net_weight_mg": 327500
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "5487587b-eaf7-48a8-aa9a-d06c7b9b3569",
                 "73c511af-2605-4ca3-ab10-5f90655cc8c1",
+                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "84e37401-e165-4189-bd3c-c422fee4cf08"
             ]
@@ -152,10 +152,10 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "5487587b-eaf7-48a8-aa9a-d06c7b9b3569",
                 "73c511af-2605-4ca3-ab10-5f90655cc8c1",
+                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "84e37401-e165-4189-bd3c-c422fee4cf08"
             ]
@@ -163,10 +163,10 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "5487587b-eaf7-48a8-aa9a-d06c7b9b3569",
                 "73c511af-2605-4ca3-ab10-5f90655cc8c1",
+                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "84e37401-e165-4189-bd3c-c422fee4cf08"
             ]
@@ -174,10 +174,10 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "5487587b-eaf7-48a8-aa9a-d06c7b9b3569",
                 "73c511af-2605-4ca3-ab10-5f90655cc8c1",
+                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "84e37401-e165-4189-bd3c-c422fee4cf08"
             ]
@@ -185,10 +185,10 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "5487587b-eaf7-48a8-aa9a-d06c7b9b3569",
                 "73c511af-2605-4ca3-ab10-5f90655cc8c1",
+                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "84e37401-e165-4189-bd3c-c422fee4cf08"
             ]

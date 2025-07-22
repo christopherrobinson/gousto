@@ -7,7 +7,7 @@
     "gousto_id": "3718",
     "rating": {
         "average": 4.5,
-        "count": 7017
+        "count": 7018
     },
     "description": "For this open-faced tikka sandwich, you'll marinate king prawns in yoghurt and spices, before pan-frying until golden. Serve with warmed naan, carrot and cucumber salad, and cooling mint yoghurt. All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
     "cuisine": "Indian",
@@ -34,7 +34,7 @@
             "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
         },
         {
-            "label": "Ground paprika (1tsp) x0",
+            "label": "Ground paprika (2tsp) x0",
             "gousto_uuid": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
             "allergens": [],
             "image": "/images/ingredients/cb7a7f70-80cb-4648-840f-d350ad96d1ee.jpg"
@@ -61,10 +61,17 @@
             "image": "/images/ingredients/3518d21a-ac56-46f1-915a-76c1a91f79df.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Ginger paste (15g)",
@@ -130,7 +137,7 @@
             "image": "/images/instructions/king-prawn-tikka-naan-with-indian-style-salad/step-2.jpg"
         },
         {
-            "instruction": "<p>Add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span><span class=\"text-danger\"> [2 tbsp]</span> of your <strong>natural yoghurt </strong>(save the rest for later!) to a bowl with your<strong> ground turmeric</strong>, <strong>ground</strong> <strong>paprika</strong>,\u00a0<strong>garam masala</strong>, <strong>ginger paste </strong>and a squeeze of <strong>lemon</strong> <strong>juice</strong></p><p>Add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>vegetable oil</strong>,<strong> </strong>season with a pinch of <strong>salt</strong> and give everything a good mix up \u2013 this is your <strong>tikka</strong> <strong>marinade</strong></p>",
+            "instruction": "<p>Add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span><span class=\"text-danger\"> [2 tbsp]</span> of your <strong>natural yoghurt </strong>(save the rest for later!) to a bowl with your<strong> ground turmeric</strong>, <strong>ground</strong> <strong>paprika</strong>, <strong>garam masala</strong>, <strong>ginger paste </strong>and a squeeze of <strong>lemon</strong> <strong>juice</strong></p><p>Add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>vegetable oil</strong>,<strong> </strong>season with a pinch of <strong>salt</strong> and give everything a good mix up \u2013 this is your <strong>tikka</strong> <strong>marinade</strong></p>",
             "order": 3,
             "image": "/images/instructions/king-prawn-tikka-naan-with-indian-style-salad/step-3.jpg"
         },
@@ -140,12 +147,12 @@
             "image": "/images/instructions/king-prawn-tikka-naan-with-indian-style-salad/step-4.jpg"
         },
         {
-            "instruction": "<p>Once hot, add the\u00a0<strong>marinated king prawns</strong>\u00a0to the pan and cook for 4-5 min, stirring occasionally until golden and cooked through \u2013 this is your<strong> king prawn tikka</strong></p><p>Note: Please make sure you cook your prawns thoroughly (until piping hot!) as cooking equipment varies</p><p>Add your<strong> naan[s]</strong> to a toaster for 1-2 min or until warmed through</p>",
+            "instruction": "<p>Once hot, add the <strong>marinated king prawns</strong> to the pan and cook for 4-5 min, stirring occasionally until golden and cooked through \u2013 this is your<strong> king prawn tikka</strong></p><p>Note: Please make sure you cook your prawns thoroughly (until piping hot!) as cooking equipment varies</p><p>Add your<strong> naan[s]</strong> to a toaster for 1-2 min or until warmed through</p>",
             "order": 5,
             "image": "/images/instructions/king-prawn-tikka-naan-with-indian-style-salad/step-5.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, cut your<strong> cucumber</strong> into quarters lengthways, then dice roughly</p><p>Top, tail, peel and grate your <strong>carrot[s]</strong></p><p>Add the <strong>diced cucumber</strong> and <strong>grated carrot</strong> to a bowl with your <strong>nigella seeds</strong>, a pinch of <strong>salt</strong>, a squeeze of <strong>lemon </strong>juice and a drizzle of <strong>olive oil</strong></p><p>Give everything a good mix up \u2013 this is your <strong>Indian-style salad</strong></p>",
+            "instruction": "<p>Meanwhile, cut your<strong> cucumber</strong> into quarters lengthways, then dice roughly</p><p>Top, tail, peel and grate your <strong>carrot[s]</strong></p><p>Add the <strong>diced cucumber</strong> and <strong>grated carrot</strong> to a bowl with your <strong>black sesame seeds</strong>, a pinch of <strong>salt</strong>, a squeeze of <strong>lemon </strong>juice and a drizzle of <strong>olive oil</strong></p><p>Give everything a good mix up \u2013 this is your <strong>Indian-style salad</strong></p>",
             "order": 6,
             "image": "/images/instructions/king-prawn-tikka-naan-with-indian-style-salad/step-6.jpg"
         },
@@ -160,41 +167,48 @@
         }
     ],
     "allergens": [
+        "celery",
         "crustacean",
+        "fish",
         "gluten",
         "milk",
-        "mollusc"
+        "mollusc",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 94,
-            "energy_kj": 395,
-            "fat_mg": 1597,
-            "fat_saturates_mg": 349,
-            "carbs_mg": 14241,
-            "carbs_sugars_mg": 3236,
-            "fibre_mg": 1608,
-            "protein_mg": 5467,
-            "salt_mg": 426,
+            "energy_kcal": 96,
+            "energy_kj": 404,
+            "fat_mg": 1859,
+            "fat_saturates_mg": 385,
+            "carbs_mg": 14142,
+            "carbs_sugars_mg": 3230,
+            "fibre_mg": 1557,
+            "protein_mg": 5477,
+            "salt_mg": 424,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 407,
-            "energy_kj": 1710,
-            "fat_mg": 6901,
-            "fat_saturates_mg": 1510,
-            "carbs_mg": 61523,
-            "carbs_sugars_mg": 13982,
-            "fibre_mg": 6948,
-            "protein_mg": 23619,
-            "salt_mg": 1842,
-            "net_weight_mg": 432000
+            "energy_kcal": 416,
+            "energy_kj": 1750,
+            "fat_mg": 8052,
+            "fat_saturates_mg": 1669,
+            "carbs_mg": 61239,
+            "carbs_sugars_mg": 13989,
+            "fibre_mg": 6746,
+            "protein_mg": 23717,
+            "salt_mg": 1840,
+            "net_weight_mg": 433000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -204,7 +218,6 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
                 "a3a2f2db-208c-49ba-905d-b51885be42b3"
             ]
@@ -212,6 +225,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -221,7 +235,6 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
                 "48c7b19a-f68a-4b5d-91ca-cab712024589"
             ]
@@ -229,6 +242,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -238,7 +252,6 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
                 "48c7b19a-f68a-4b5d-91ca-cab712024589",
                 "a3a2f2db-208c-49ba-905d-b51885be42b3"
@@ -247,6 +260,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -256,7 +270,6 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
                 "48c7b19a-f68a-4b5d-91ca-cab712024589"
             ]
@@ -264,6 +277,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -273,7 +287,6 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
                 "48c7b19a-f68a-4b5d-91ca-cab712024589",
                 "a3a2f2db-208c-49ba-905d-b51885be42b3"
