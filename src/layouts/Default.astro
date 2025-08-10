@@ -14,7 +14,7 @@ const { heading, meta } = Astro.props as DefaultLayoutProps;
     <BaseHead description={meta?.description} og={meta?.og} robots={meta?.robots} title={meta?.title || heading || ``} twitter={meta?.twitter} />
     <slot name="structured-data" />
   </Head>
-  <body class="font-light  min-w-[360px]  text-secondary-900">
+  <body class="font-light  min-w-[360px]  overscroll-none  text-zinc-700">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${GOOGLE_TAG_MANAGER_ID}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->

@@ -12,7 +12,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
     <div class="gap-8  grid  items-center  justify-between  py-8  relative  md:grid-cols-2  md:py-16">
       <div class="flex-1  space-y-6  text-center  md:space-y-8  md:text-left">
         <h1 class="font-semibold  font-serif  leading-11  text-4xl  md:text-4xl  lg:leading-16  lg:text-6xl">
-          Discover <span class="font-bold  text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000 - 1000).toLocaleString()}</span><br>
+          Discover <span class="font-bold  text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
           delicious recipes
         </h1>
         <h2 class="md:leading-8  md:text-lg  lg:text-xl">
@@ -22,7 +22,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
           <a class="bg-tertiary-600  block  px-4  py-3  rounded-lg  text-white  transition  hover:bg-tertiary-800  hover:underline" href="/recipes/">
             View all recipes
           </a>
-          <a class="group  text-secondary-800  text-sm  md:text-base" href="/inspiration/">
+          <a class="group  text-sm  md:text-base" href="/inspiration/">
             Not sure what to cook? <span class="font-medium  group-hover:text-primary-600  group-hover:underline">Try something new <span aria-hidden="true">→</span></span>
           </a>
         </div>
@@ -104,7 +104,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
       return;
     }
 
-    const start = (Math.floor(recipeCount / 1000) * 1000) - 1000;
+    const start = (Math.floor(recipeCount / 1000) * 1000);
     const totalFrames = Math.round((2000 / 1000) * 60); // duration / 1000 * fps
     let frame = 0;
 

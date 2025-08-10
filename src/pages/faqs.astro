@@ -41,9 +41,9 @@ const faqs = [
         <details open={index === 0} class="group/question  py-6">
           <summary class="cursor-pointer  flex  group  items-center  justify-between  w-full  hover:text-primary-600">
             <h2 class="font-normal  text-lg  group-hover:underline">{question}</h2>
-            <span class="before:content-['+']  text-secondary-700  text-2xl  group-hover:text-primary-600  group-open/question:before:content-['-']"></span>
+            <span class="before:content-['+']  text-2xl  group-hover:text-primary-600  group-open/question:before:content-['-']"></span>
           </summary>
-          <div class="mt-2 text-secondary-800" set:html={answer}>
+          <div class="mt-2" set:html={answer}>
           </div>
         </details>
       ))}
