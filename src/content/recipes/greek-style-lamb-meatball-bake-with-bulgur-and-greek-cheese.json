@@ -11,22 +11,24 @@
     "gousto_id": "1455",
     "rating": {
         "average": 4.5,
-        "count": 17474
+        "count": 17477
     },
     "description": "We've taken inspiration from sunny Greece for this crowd pleaser. You'll bake succulent lamb meatballs in a rich tomato sauce, before serving with bulgur wheat, parsley and feta crumbled on top.",
     "cuisine": "Greek",
     "ingredients": [
         {
-            "label": "British lamb mince (250g)",
-            "gousto_uuid": "6b169ed1-5fb7-47f8-9265-437b39a47746",
-            "allergens": [],
-            "image": "/images/ingredients/6b169ed1-5fb7-47f8-9265-437b39a47746.jpg"
+            "label": "Bulgur wheat (65g) x0",
+            "gousto_uuid": "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/a5e865dc-cff2-45cc-8d3b-4f95023cb408.jpg"
         },
         {
-            "label": "British lamb mince (125g) x0",
-            "gousto_uuid": "2397c77a-f7f2-4ad5-93a3-3e762aab14ed",
+            "label": "Finely chopped tomatoes (390g) x0",
+            "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
             "allergens": [],
-            "image": "/images/ingredients/2397c77a-f7f2-4ad5-93a3-3e762aab14ed.jpg"
+            "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
         },
         {
             "label": "Finely chopped tomatoes (200g)",
@@ -35,16 +37,10 @@
             "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
         },
         {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "label": "Lamb mince (125g) x0",
+            "gousto_uuid": "2397c77a-f7f2-4ad5-93a3-3e762aab14ed",
             "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "Beef stock mix (5.5g)",
-            "gousto_uuid": "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-            "allergens": [],
-            "image": "/images/ingredients/e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3.jpg"
+            "image": "/images/ingredients/2397c77a-f7f2-4ad5-93a3-3e762aab14ed.jpg"
         },
         {
             "label": "Dried oregano (1tsp)",
@@ -53,12 +49,16 @@
             "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
         },
         {
-            "label": "Bulgur wheat (65g) x0",
-            "gousto_uuid": "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/a5e865dc-cff2-45cc-8d3b-4f95023cb408.jpg"
+            "label": "Parsley (5g)",
+            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+            "allergens": [],
+            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
         },
         {
             "label": "Greek salad cheese (100g)",
@@ -69,16 +69,22 @@
             "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
         },
         {
+            "label": "Lamb mince (250g)",
+            "gousto_uuid": "6b169ed1-5fb7-47f8-9265-437b39a47746",
+            "allergens": [],
+            "image": "/images/ingredients/6b169ed1-5fb7-47f8-9265-437b39a47746.jpg"
+        },
+        {
+            "label": "Beef stock mix (5.5g)",
+            "gousto_uuid": "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
+            "allergens": [],
+            "image": "/images/ingredients/e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3.jpg"
+        },
+        {
             "label": "Carrot",
             "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
             "allergens": [],
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
-            "label": "Parsley (5g)",
-            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-            "allergens": [],
-            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
             "label": "Bulgur wheat (130g)",
@@ -103,37 +109,37 @@
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-1.jpg"
         },
         {
-            "instruction": "<p>Combine your <strong>lamb mince</strong>, <strong>half</strong> of the <strong>grated onion</strong> (you'll use the rest later!) and a pinch of <strong>salt</strong>\u00a0and\u00a0<strong>pepper</strong>\u00a0in a bowl</p><p>Give everything a good mix up until thoroughly combined (clean hands are the best way!)</p><p>Divide and shape the\u00a0<strong>lamb\u00a0mince</strong> into meatballs (3 per person!)</p>",
+            "instruction": "<p>Combine your <strong>mince</strong>, <strong>half</strong> of the <strong>grated onion</strong> (you'll use the rest later!) and a pinch of <strong>salt</strong> and <strong>pepper</strong> in a bowl</p><p>Give everything a good mix up until thoroughly combined (clean hands are the best way!)</p><p>Divide and shape the <strong>mince</strong> into meatballs (3 per person!)</p>",
             "order": 2,
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-2.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick)\u00a0with a drizzle of <strong>vegetable oil\u00a0</strong>over a medium-high heat</p><p>Once hot, add the\u00a0<strong>lamb</strong> <strong>meatballs</strong>\u00a0and cook for 3-4 min, turning occasionally, until they're browned all over</p><p>Once the meatballs have browned, transfer them to a plate and set aside (these will finish cooking in the sauce later!), then return the pan to a medium-low heat</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil </strong>over a medium-high heat</p><p>Once hot, add the <strong>meatballs</strong> and cook for 3-4 min, turning occasionally, until they're browned all over</p><p>Once the meatballs have browned, transfer them to a plate and set aside (these will finish cooking in the sauce later!), then return the pan to a medium-low heat</p>",
             "order": 3,
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-3.jpg"
         },
         {
-            "instruction": "<p>Top, tail, peel and grate your <strong>carrot[s]</strong></p><p>Once the pan is hot, add the <strong>grated\u00a0carrot</strong> and <strong>remaining grated onion </strong>with a pinch of <strong>salt</strong> and cook for 3-5 min or until softened</p><p>Dissolve your <strong>stock mix</strong> in 250ml <span class=\"text-purple\">[325ml]</span> <span class=\"text-danger\">[450ml]</span> <strong>boiled water</strong></p><p>Reboil a kettle</p>",
+            "instruction": "<p>Top, tail, peel and grate your <strong>carrot[s]</strong></p><p>Once the pan is hot, add the <strong>grated carrot</strong> and <strong>remaining grated onion </strong>with a pinch of <strong>salt</strong> and cook for 3-5 min or until softened</p><p>Dissolve your <strong>stock mix</strong> in 250ml <span class=\"text-purple\">[325ml]</span> <span class=\"text-danger\">[450ml]</span> <strong>boiled water</strong></p><p>Reboil a kettle</p>",
             "order": 4,
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-4.jpg"
         },
         {
-            "instruction": "<p>Once the onion and carrot have softened, add your<strong> chopped tomatoes</strong>, <strong>dried oregano</strong>,<strong> stock </strong>and\u00a0a pinch of <strong>sugar </strong>to the pan and cook for 8-10 min or until reduced to a thick sauce</p><p>Once thickened, transfer the sauce to an <strong>oven-proof dish</strong> and add the\u00a0<strong>lamb</strong> <strong>meatballs</strong></p><p>Put the dish in the oven for 15-20 min until the sauce is bubbling and the meatballs are cooked through (no pink meat!) \u2013 this is your <strong>Greek-style lamb meatball bake</strong></p>",
+            "instruction": "<p>Once the onion and carrot have softened, add your<strong> chopped tomatoes</strong>, <strong>dried oregano</strong>,<strong> stock </strong>and a pinch of <strong>sugar </strong>to the pan and cook for 8-10 min or until reduced to a thick sauce</p><p>Once thickened, transfer the sauce to an <strong>oven-proof dish</strong> and add the <strong>meatballs</strong></p><p>Put the dish in the oven for 15-20 min until the sauce is bubbling and the meatballs are cooked through (no pink meat!) \u2013 this is your <strong>Greek-style meatball bake</strong></p>",
             "order": 5,
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-5.jpg"
         },
         {
-            "instruction": "<p>While the meatballs are cooking,\u00a0add your <strong>bulgur wheat</strong> to a pot with plenty of <strong>boiled water</strong> and a pinch of <strong>salt</strong></p><p>Cook over a high heat for 7-9 min or until tender with a slight bite, then drain and return to the pot</p>",
+            "instruction": "<p>While the meatballs are cooking, add your <strong>bulgur wheat</strong> to a pot with plenty of <strong>boiled water</strong> and a pinch of <strong>salt</strong></p><p>Cook over a high heat for 7-9 min or until tender with a slight bite, then drain and return to the pot</p>",
             "order": 6,
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-6.jpg"
         },
         {
-            "instruction": "<p>While the bulgur wheat is cooking, roughly crumble your <strong>Greek cheese </strong>on a clean chopping board</p><p>Chop your <strong>parsley</strong>\u00a0finely, including the stalks</p>",
+            "instruction": "<p>While the bulgur wheat is cooking, roughly crumble your <strong>Greek cheese </strong>on a clean chopping board</p><p>Chop your <strong>parsley</strong> finely, including the stalks</p>",
             "order": 7,
             "image": "/images/instructions/greek-style-lamb-meatball-bake-with-bulgur-and-greek-cheese/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>Greek-style lamb meatball bake</strong>\u00a0over the <strong>bulgur wheat</strong></p><p>Sprinkle over the <strong>Greek cheese</strong> and <strong>chopped parsley</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>Greek-style meatball bake</strong> over the <strong>bulgur wheat</strong></p><p>Sprinkle over the <strong>Greek cheese</strong> and <strong>chopped parsley</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -205,7 +211,7 @@
                 "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
+                "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "6b169ed1-5fb7-47f8-9265-437b39a47746",
                 "2397c77a-f7f2-4ad5-93a3-3e762aab14ed",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
@@ -220,7 +226,7 @@
                 "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
+                "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "6b169ed1-5fb7-47f8-9265-437b39a47746",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60"
@@ -236,6 +242,7 @@
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
+                "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "6b169ed1-5fb7-47f8-9265-437b39a47746",
                 "2397c77a-f7f2-4ad5-93a3-3e762aab14ed",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",

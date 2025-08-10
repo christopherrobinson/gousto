@@ -13,16 +13,18 @@
     "cuisine": "Korean",
     "ingredients": [
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Gochujang paste (30g)",
+            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
         },
         {
             "label": "Dried chilli flakes (0.5tsp)",
@@ -37,36 +39,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "label": "Fresh root ginger (15g)",
+            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
             "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Soy sauce (15ml) x0",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
-        },
-        {
-            "label": "Soy sauce (30ml)",
-            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Gochujang paste (30g)",
-            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
+            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
             "label": "Toasted sesame oil (10ml)",
@@ -83,6 +59,21 @@
             "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
         },
         {
+            "label": "Sushi rice (75g) x0",
+            "gousto_uuid": "c6911e1e-0963-4410-ad05-f028b84dc626",
+            "allergens": [],
+            "image": "/images/ingredients/c6911e1e-0963-4410-ad05-f028b84dc626.jpg"
+        },
+        {
+            "label": "Soy sauce (15ml) x0",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+        },
+        {
             "label": "Toasted sesame oil (20ml) x0",
             "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
             "allergens": [
@@ -97,10 +88,16 @@
             "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
         },
         {
-            "label": "Sushi rice (75g) x0",
-            "gousto_uuid": "c6911e1e-0963-4410-ad05-f028b84dc626",
+            "label": "Sushi rice (150g)",
+            "gousto_uuid": "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
             "allergens": [],
-            "image": "/images/ingredients/c6911e1e-0963-4410-ad05-f028b84dc626.jpg"
+            "image": "/images/ingredients/5b608e35-d38b-42bd-a3cb-9553e0d8fa8c.jpg"
+        },
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "White miso paste (17g)",
@@ -111,12 +108,6 @@
             "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
         },
         {
-            "label": "Fresh root ginger (15g)",
-            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
-            "allergens": [],
-            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
-        },
-        {
             "label": "Plain tofu (280g)",
             "gousto_uuid": "3d2328cc-da90-47e1-9553-4debba1d551c",
             "allergens": [
@@ -125,10 +116,10 @@
             "image": "/images/ingredients/3d2328cc-da90-47e1-9553-4debba1d551c.jpg"
         },
         {
-            "label": "Sushi rice (150g)",
-            "gousto_uuid": "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
+            "label": "Chestnut mushrooms (80g)",
+            "gousto_uuid": "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
             "allergens": [],
-            "image": "/images/ingredients/5b608e35-d38b-42bd-a3cb-9553e0d8fa8c.jpg"
+            "image": "/images/ingredients/b03e9a68-9ad1-4cc3-bde3-5823be6468c2.jpg"
         },
         {
             "label": "Carrot x2",
@@ -137,20 +128,30 @@
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
-            "label": "Chestnut mushrooms (80g)",
-            "gousto_uuid": "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
+            "label": "Soy sauce (30ml)",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
-            "image": "/images/ingredients/b03e9a68-9ad1-4cc3-bde3-5823be6468c2.jpg"
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
         "Vegetable oil",
         "Salt",
-        "Sugar"
+        "Sugar",
+        "Water"
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Rinse the <strong>sushi rice</strong> in a sieve under <strong>cold running water</strong> for 30 secs (use your hands to really wash the grains!), then set aside to drain fully</p><p>Add the drained rice with 200ml <span class=\"text-danger\">[400ml]</span> <strong>cold water</strong> and a pinch of <strong>salt</strong> to a pot with a lid and bring to the boil over a high heat</p>",
+            "instruction": "<p>Rinse your <strong>sushi rice</strong> in a sieve under <strong>cold running water</strong> for 30 secs (use your hands to really wash the grains!), then set aside to drain fully</p><p>Add the drained rice with 200ml <span class=\"text-purple\">[300ml]</span> <span class=\"text-danger\">[400ml]</span> <strong>cold water</strong> and a pinch of <strong>salt</strong> to a pot with a lid and bring to the boil over a high heat</p>",
             "order": 1,
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-1.jpg"
         },
@@ -160,7 +161,7 @@
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-2.jpg"
         },
         {
-            "instruction": "<p>Boil a kettle</p><p>Peel and finely slice the <strong>brown onion<span class=\"text-danger\">[s]</span></strong></p><p>Peel and finely chop (or grate) the <strong>garlic</strong></p><p>Peel (scrape the skin off with a teaspoon) and finely chop (or grate) the <strong>ginger</strong></p><p>Slice the <strong>chestnut mushrooms</strong></p>",
+            "instruction": "<p>Boil a kettle</p><p>Peel and finely slice your <strong>brown onion[s]</strong></p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Peel (scrape the skin off with a teaspoon) and finely chop (or grate) your <strong>ginger</strong></p><p>Slice your <strong>chestnut mushrooms</strong></p>",
             "order": 3,
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-3.jpg"
         },
@@ -170,7 +171,7 @@
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-4.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, top, tail, peel and grate the <strong>carrot<span class=\"text-danger\">[s]</span></strong></p><p>Drain the <strong>tofu</strong> and pat it dry with kitchen paper</p><p>Cut the <strong>tofu</strong> into cubes</p><p>Dissolve the<strong> miso</strong>, <strong>gochujang paste</strong>, <strong>chilli flakes </strong>(can't handle the heat? Go easy!), <strong>toasted sesame oil</strong> and the <strong>soy sauce </strong>with 1 tsp <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>in 550ml<span class=\"text-danger\"> [950ml]</span> <strong>boiled water </strong>\u2013 this is your <strong>jjigae stock</strong></p>",
+            "instruction": "<p>Meanwhile, top, tail, peel and grate your <strong>carrot[s]</strong></p><p>Drain your <strong>tofu</strong> and pat it dry with kitchen paper</p><p>Cut the <strong>tofu</strong> into cubes</p><p>Dissolve your<strong> miso</strong>, <strong>gochujang paste</strong>, <strong>chilli flakes </strong>(can't handle the heat? Go easy!), <strong>toasted sesame oil</strong> and your <strong>soy sauce </strong>with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>in 550ml <span class=\"text-purple\">[720ml]</span><span class=\"text-danger\"> [940ml]</span> <strong>boiled water </strong>\u2013 this is your <strong>jjigae stock</strong></p>",
             "order": 5,
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-5.jpg"
         },
@@ -180,7 +181,7 @@
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-6.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, trim, then finely slice the <strong>spring onion<span class=\"text-danger\">[s]</span></strong></p>",
+            "instruction": "<p>Meanwhile, trim, then finely slice your <strong>spring onion[s]</strong></p>",
             "order": 7,
             "image": "/images/instructions/korean-style-tofu-jjigae-stew/step-7.jpg"
         },
@@ -201,26 +202,26 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 143,
-            "energy_kj": 606,
-            "fat_mg": 4043,
-            "fat_saturates_mg": 625,
-            "carbs_mg": 19639,
+            "energy_kcal": 140,
+            "energy_kj": 590,
+            "fat_mg": 3961,
+            "fat_saturates_mg": 608,
+            "carbs_mg": 18717,
             "carbs_sugars_mg": 3959,
             "fibre_mg": 2187,
-            "protein_mg": 7085,
+            "protein_mg": 7266,
             "salt_mg": 936,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 655,
-            "energy_kj": 2761,
-            "fat_mg": 18418,
-            "fat_saturates_mg": 2848,
-            "carbs_mg": 89456,
+            "energy_kcal": 638,
+            "energy_kj": 2690,
+            "fat_mg": 18043,
+            "fat_saturates_mg": 2773,
+            "carbs_mg": 85256,
             "carbs_sugars_mg": 18037,
             "fibre_mg": 9965,
-            "protein_mg": 32274,
+            "protein_mg": 33099,
             "salt_mg": 4267,
             "net_weight_mg": 455500
         }

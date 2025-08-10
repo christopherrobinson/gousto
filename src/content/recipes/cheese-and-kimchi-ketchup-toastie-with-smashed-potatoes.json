@@ -13,6 +13,14 @@
     "cuisine": "Fusion",
     "ingredients": [
         {
+            "label": "Kimchi ketchup (40g)",
+            "gousto_uuid": "6243a99c-46ab-4dd8-a494-7d8445e6cfea",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/6243a99c-46ab-4dd8-a494-7d8445e6cfea.jpg"
+        },
+        {
             "label": "Mayonnaise (25ml) x0",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
             "allergens": [
@@ -22,14 +30,6 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Kimchi ketchup (40g)",
-            "gousto_uuid": "6243a99c-46ab-4dd8-a494-7d8445e6cfea",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/6243a99c-46ab-4dd8-a494-7d8445e6cfea.jpg"
-        },
-        {
             "label": "Mayonnaise (50ml)",
             "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
             "allergens": [
@@ -37,39 +37,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
-        },
-        {
-            "label": "Spring onion x2",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Cheddar cheese (40g) x2",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
-            "label": "Black sesame seeds (5g)",
-            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
-        },
-        {
-            "label": "Carrot & cabbage slaw mix (160g)",
-            "gousto_uuid": "4366001c-0c31-41c9-b051-f5ddb2e73677",
-            "allergens": [],
-            "image": "/images/ingredients/4366001c-0c31-41c9-b051-f5ddb2e73677.jpg"
         },
         {
             "label": "Toasted sesame oil (10ml)",
@@ -86,18 +53,10 @@
             "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
         },
         {
-            "label": "Toasted sesame oil (20ml) x0",
-            "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "peanut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
+            "label": "Carrot & cabbage slaw mix (160g)",
+            "gousto_uuid": "4366001c-0c31-41c9-b051-f5ddb2e73677",
+            "allergens": [],
+            "image": "/images/ingredients/4366001c-0c31-41c9-b051-f5ddb2e73677.jpg"
         },
         {
             "label": "Sriracha hot chilli sauce (8ml) x2",
@@ -112,12 +71,53 @@
             "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
         },
         {
+            "label": "Toasted sesame oil (20ml) x0",
+            "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "peanut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
+        },
+        {
             "label": "Ciabatta x2",
             "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Spring onion x2",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g) x2",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         }
     ],
     "basics": [
@@ -153,7 +153,7 @@
             "image": "/images/instructions/cheese-and-kimchi-ketchup-toastie-with-smashed-potatoes/step-5.jpg"
         },
         {
-            "instruction": "<p>Wipe the reserved bowl clean and add your <strong>carrot & cabbage</strong> <strong>slaw mix</strong> with the <strong>remaining mayo</strong>,<strong> </strong>your <strong>sesame oil</strong> and most of your <strong>black sesame seeds </strong>(save the rest for garnish!)</p><p>Add a pinch of <strong>salt</strong>, <strong>sugar</strong> and <strong>pepper</strong> and give everything a good mix up \u2013 this is your <strong>creamy sesame slaw</strong></p>",
+            "instruction": "<p>Wipe the reserved bowl clean and add your <strong>carrot & cabbage</strong> <strong>slaw mix</strong> with the <strong>remaining mayo</strong>,<strong> </strong>your <strong>toasted</strong> <strong>sesame oil</strong> and most of your <strong>black sesame seeds </strong>(save the rest for garnish!)</p><p>Add a pinch of <strong>salt</strong>, <strong>sugar</strong> and <strong>pepper</strong> and give everything a good mix up \u2013 this is your <strong>creamy sesame slaw</strong></p>",
             "order": 6,
             "image": "/images/instructions/cheese-and-kimchi-ketchup-toastie-with-smashed-potatoes/step-6.jpg"
         },

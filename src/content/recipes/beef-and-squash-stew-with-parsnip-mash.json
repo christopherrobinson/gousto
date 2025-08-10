@@ -13,13 +13,29 @@
     "cuisine": "British",
     "ingredients": [
         {
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
             "label": "Tomato paste (32g) x0",
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
             "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
-            "label": "British beef mince (125g) x0",
+            "label": "Beef mince (125g) x0",
             "gousto_uuid": "918d5383-38a6-45c2-8c96-8f91a945e964",
             "allergens": [],
             "image": "/images/ingredients/918d5383-38a6-45c2-8c96-8f91a945e964.jpg"
@@ -31,16 +47,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "British beef mince (250g)",
+            "label": "Beef mince (250g)",
             "gousto_uuid": "a7f888da-1e74-4180-9550-f7c69dcc5872",
             "allergens": [],
             "image": "/images/ingredients/a7f888da-1e74-4180-9550-f7c69dcc5872.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
             "label": "Intense beef stock mix (5.5g)",
@@ -71,16 +81,6 @@
             "gousto_uuid": "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
             "allergens": [],
             "image": "/images/ingredients/e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3.jpg"
-        },
-        {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
             "label": "Butternut squash cubes (160g)",
@@ -128,7 +128,7 @@
             "image": "/images/instructions/beef-and-squash-stew-with-parsnip-mash/step-2.jpg"
         },
         {
-            "instruction": "<p>Once the onion has softened, add your <strong>beef mince </strong>to the pan with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>flour</strong></p><p>Increase the heat to medium-high and cook for 3-4 min or until browned, breaking it up with a wooden spoon as you go</p>",
+            "instruction": "<p>Once the onion has softened, add your <strong>mince </strong>to the pan with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>flour</strong></p><p>Increase the heat to medium-high and cook for 3-4 min or until browned, breaking it up with a wooden spoon as you go</p>",
             "order": 3,
             "image": "/images/instructions/beef-and-squash-stew-with-parsnip-mash/step-3.jpg"
         },
@@ -138,7 +138,7 @@
             "image": "/images/instructions/beef-and-squash-stew-with-parsnip-mash/step-4.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>stock</strong>, <strong>Dijon mustard</strong> and your <strong>Henderson's Relish</strong> with a generous grind of <strong>black pepper</strong></p><p>Give everything a good mix up and cook, covered, for 20-25 min or until the sauce has reduced, the squash has softened and the the mince is cooked through (no pink meat!) \u2013 this is your <strong>beef & squash stew</strong></p><p>Reboil a kettle</p>",
+            "instruction": "<p>Add the <strong>stock</strong>, <strong>Dijon mustard</strong> and your <strong>Henderson's Relish</strong> with a generous grind of <strong>black pepper</strong></p><p>Give everything a good mix up and cook, covered, for 20-25 min or until the sauce has reduced, the squash has softened and the the mince is cooked through (no pink meat!) \u2013 this is your <strong>mince & squash stew</strong></p><p>Reboil a kettle</p>",
             "order": 5,
             "image": "/images/instructions/beef-and-squash-stew-with-parsnip-mash/step-5.jpg"
         },
@@ -153,7 +153,7 @@
             "image": "/images/instructions/beef-and-squash-stew-with-parsnip-mash/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>beef & squash stew</strong> with the <strong>parsnip mash</strong> to the side</p><p>Sprinkle over the <strong>chopped</strong> <strong>parsley</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>mince & squash stew</strong> with the <strong>parsnip mash</strong> to the side</p><p>Sprinkle over the <strong>chopped</strong> <strong>parsley</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -184,7 +184,7 @@
             "carbs_sugars_mg": 19823,
             "fibre_mg": 13958,
             "protein_mg": 33654,
-            "salt_mg": 1678,
+            "salt_mg": 1679,
             "net_weight_mg": 604500
         }
     },

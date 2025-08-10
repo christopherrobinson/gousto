@@ -7,11 +7,17 @@
     "gousto_id": "4830",
     "rating": {
         "average": 5,
-        "count": 2957
+        "count": 3079
     },
     "description": "This Asian-style salad combines lettuce with cucumber and spring onion matchsticks for freshness and crunch. You'll top it with shredded duck leg, sesame croutons and sweet hoisin dressing for a show-stopping summer salad.",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "Slow cooked duck leg x0",
+            "gousto_uuid": "160142db-dd35-4056-8f17-13c23edfa2ee",
+            "allergens": [],
+            "image": "/images/ingredients/160142db-dd35-4056-8f17-13c23edfa2ee.jpg"
+        },
         {
             "label": "Five-spice mix (1tsp)",
             "gousto_uuid": "8257b5b7-8205-4fce-b42e-701a27261689",
@@ -25,35 +31,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Spring onion x2",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Slow cooked duck leg x0",
-            "gousto_uuid": "160142db-dd35-4056-8f17-13c23edfa2ee",
-            "allergens": [],
-            "image": "/images/ingredients/160142db-dd35-4056-8f17-13c23edfa2ee.jpg"
-        },
-        {
             "label": "Slow cooked duck legs (2pcs)",
             "gousto_uuid": "8d9e0aba-c416-41d6-8fd3-4b4cb21158e0",
             "allergens": [],
             "image": "/images/ingredients/8d9e0aba-c416-41d6-8fd3-4b4cb21158e0.jpg"
-        },
-        {
-            "label": "Black sesame seeds (5g)",
-            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Toasted sesame oil (10ml) x0",
@@ -70,14 +51,6 @@
             "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
         },
         {
-            "label": "Hoisin sauce (40g) x2",
-            "gousto_uuid": "74311c86-2d88-4c4b-9e0a-fd504da96054",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/74311c86-2d88-4c4b-9e0a-fd504da96054.jpg"
-        },
-        {
             "label": "Toasted sesame oil (20ml)",
             "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
             "allergens": [
@@ -92,12 +65,6 @@
             "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
         },
         {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-            "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
-        },
-        {
             "label": "Ciabatta",
             "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
             "allergens": [
@@ -106,10 +73,55 @@
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
         },
         {
+            "label": "Spring onion x2",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Hoisin sauce (40g) x2",
+            "gousto_uuid": "74311c86-2d88-4c4b-9e0a-fd504da96054",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/74311c86-2d88-4c4b-9e0a-fd504da96054.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
+        },
+        {
+            "label": "Rice vinegar (30ml) x0",
+            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
+            "allergens": [],
+            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
+        },
+        {
             "label": "Rice vinegar (15ml)",
             "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
             "allergens": [],
             "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
+        },
+        {
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
+            "label": "Gem lettuce",
+            "gousto_uuid": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+            "allergens": [],
+            "image": "/images/ingredients/28a5242e-1332-4a23-aa12-f75e4fd694fd.jpg"
         },
         {
             "label": "Carrot",
@@ -129,18 +141,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
-        },
-        {
-            "label": "Rice vinegar (30ml) x0",
-            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
-            "allergens": [],
-            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
-        },
-        {
-            "label": "Gem lettuce",
-            "gousto_uuid": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
-            "allergens": [],
-            "image": "/images/ingredients/28a5242e-1332-4a23-aa12-f75e4fd694fd.jpg"
         }
     ],
     "basics": [

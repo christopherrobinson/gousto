@@ -10,11 +10,21 @@
     "gousto_id": "2706",
     "rating": {
         "average": 4.5,
-        "count": 53168
+        "count": 53264
     },
     "description": "Fast meets fusion with these tasty tacos. After stuffing your tortillas with caramelised beef, you'll drizzle them with a creamy, nutty satay sauce and sprinkle with chilli to serve. Spec-taco-lar!",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Smooth peanut butter (26g)",
+            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
+        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -121,16 +131,6 @@
             "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
             "allergens": [],
             "image": "/images/ingredients/79f3354b-1c07-4ead-a173-f97e8cddd843.jpg"
-        },
-        {
-            "label": "Smooth peanut butter (26g)",
-            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
-            "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
-            ],
-            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         }
     ],
     "basics": [
@@ -145,7 +145,7 @@
             "image": "/images/instructions/sticky-beef-satay-wraps/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your<strong>\u00a0beef mince</strong>\u00a0and cook for\u00a03-4 min or until beginning to brown, breaking it up with a wooden spoon as you go</p><p>Tip: Spoon off and discard any excess fat that may come out of the meat!</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your<strong> mince</strong> and cook for 3-4 min or until beginning to brown, breaking it up with a wooden spoon as you go</p><p>Tip: Spoon off and discard any excess fat that may come out of the meat!</p>",
             "order": 2,
             "image": "/images/instructions/sticky-beef-satay-wraps/step-2.jpg"
         },
@@ -155,7 +155,7 @@
             "image": "/images/instructions/sticky-beef-satay-wraps/step-3.jpg"
         },
         {
-            "instruction": "<p>Once the mince has started to brown, add your <strong>ginger\u00a0& garlic paste</strong>, <strong>honey</strong>, <strong>Chinese rice wine</strong>, <strong>half </strong>your <strong>chilli flakes</strong> (can't handle the heat? Go easy!), and <strong>half</strong> your <strong>soy sauce </strong>(you'll use the rest later!)</p><p>Give everything a good mix up and cook for 4-5 min or until the mince has caramelised and is cooked through (no pink meat!) \u2013 this is your <strong>sticky\u00a0beef</strong></p>",
+            "instruction": "<p>Once the mince has started to brown, add your <strong>ginger & garlic paste</strong>, <strong>honey</strong>, <strong>Chinese rice wine</strong>, <strong>half </strong>your <strong>chilli flakes</strong> (can't handle the heat? Go easy!), and <strong>half</strong> your <strong>soy sauce </strong>(you'll use the rest later!)</p><p>Give everything a good mix up and cook for 4-5 min or until the mince has caramelised and is cooked through (no pink meat!) \u2013 this is your <strong>sticky mince</strong></p>",
             "order": 4,
             "image": "/images/instructions/sticky-beef-satay-wraps/step-4.jpg"
         },
@@ -165,23 +165,25 @@
             "image": "/images/instructions/sticky-beef-satay-wraps/step-5.jpg"
         },
         {
-            "instruction": "<p>Whilst the mince is caramelising, add your\u00a0<strong>tortillas</strong>\u00a0to a plate</p><p>Put the plate in the\u00a0<strong>microwave</strong>\u00a0and cook for 20 secs on high or until the tortillas are warmed through</p>",
+            "instruction": "<p>Whilst the mince is caramelising, add your <strong>tortillas</strong> to a plate</p><p>Put the plate in the <strong>microwave</strong> and cook for 20 secs on high or until the tortillas are warmed through</p>",
             "order": 6,
             "image": "/images/instructions/sticky-beef-satay-wraps/step-6.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, combine your <strong>peanut butter</strong>, <strong>red</strong> <strong>chilli relish</strong>,<strong> remaining soy sauce</strong>,<strong> </strong>the juice of your <strong>lime[s]</strong>, a splash of <strong>cold</strong> <strong>water</strong>\u00a0and a pinch of <strong>salt</strong> in a small bowl</p><p>Give everything a good mix up \u2013 this is your <strong>satay sauce</strong></p>",
+            "instruction": "<p>Meanwhile, combine your <strong>peanut butter</strong>, <strong>red</strong> <strong>chilli relish</strong>,<strong> remaining soy sauce</strong>,<strong> </strong>the juice of your <strong>lime[s]</strong>, a splash of <strong>cold</strong> <strong>water</strong> and a pinch of <strong>salt</strong> in a small bowl</p><p>Give everything a good mix up \u2013 this is your <strong>satay sauce</strong></p>",
             "order": 7,
             "image": "/images/instructions/sticky-beef-satay-wraps/step-7.jpg"
         },
         {
-            "instruction": "<p>Divide the <strong>sticky beef</strong>\u00a0between the <strong>warmed</strong> <strong>tortillas</strong> and top with the <strong>grated carrot </strong>and<strong> cucumber batons</strong></p><p>Drizzle over the <strong>satay sauce</strong>\u00a0and garnish with your<strong> reserved chilli flakes\u00a0</strong>(not a fan of spice? Just add a little!)</p><p>Enjoy!</p>",
+            "instruction": "<p>Divide the <strong>sticky mince </strong>between the <strong>warmed</strong> <strong>tortillas</strong> and top with the <strong>grated carrot </strong>and<strong> cucumber batons</strong></p><p>Drizzle over the <strong>satay sauce</strong> and garnish with your<strong> reserved chilli flakes </strong>(not a fan of spice? Just add a little!)</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
     "allergens": [
         "gluten",
+        "nut",
         "peanut",
+        "sesame",
         "soya"
     ],
     "nutritional_information": {

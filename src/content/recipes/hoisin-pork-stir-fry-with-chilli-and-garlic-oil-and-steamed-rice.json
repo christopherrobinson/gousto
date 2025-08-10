@@ -7,11 +7,17 @@
     "gousto_id": "7651",
     "rating": {
         "average": 4.5,
-        "count": 3876
+        "count": 3889
     },
     "description": "Whip up this tasty stir fry in just 20 minutes! You'll pan fry pork strips and green beans with a rich hoisin and garlic sauce. Serve on a bed of fluffy rice and drizzle with a punchy chilli and garlic oil. Source of protein. Protein contributes to a growth in muscle mass",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "White long grain rice (65g) x0",
+            "gousto_uuid": "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
+            "allergens": [],
+            "image": "/images/ingredients/3f8dd8e4-5658-4df8-9433-41aa47c6ff03.jpg"
+        },
         {
             "label": "White long grain rice (130g)",
             "gousto_uuid": "49bc207f-e86c-4423-a7c1-86dc4718abc8",
@@ -25,16 +31,19 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "label": "Soy sauce (15ml)",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "label": "Red chilli",
+            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
             "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
         },
         {
             "label": "Pork strips (250g)",
@@ -43,13 +52,23 @@
             "image": "/images/ingredients/f8ecb692-ca7b-4d74-b919-af6fec144d14.jpg"
         },
         {
-            "label": "Soy sauce (15ml)",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "label": "Pork strips (125g) x0",
+            "gousto_uuid": "ddd10a5e-9586-4e58-9de4-a701795e9860",
+            "allergens": []
+        },
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Hoisin sauce (40g)",
+            "gousto_uuid": "74311c86-2d88-4c4b-9e0a-fd504da96054",
             "allergens": [
-                "gluten",
                 "soya"
             ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+            "image": "/images/ingredients/74311c86-2d88-4c4b-9e0a-fd504da96054.jpg"
         },
         {
             "label": "Soy sauce (30ml) x0",
@@ -61,32 +80,6 @@
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
-            "label": "White long grain rice (65g) x0",
-            "gousto_uuid": "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
-            "allergens": [],
-            "image": "/images/ingredients/3f8dd8e4-5658-4df8-9433-41aa47c6ff03.jpg"
-        },
-        {
-            "label": "Spinach (80g)",
-            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
-            "allergens": [],
-            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
-        },
-        {
-            "label": "Hoisin sauce (40g)",
-            "gousto_uuid": "74311c86-2d88-4c4b-9e0a-fd504da96054",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/74311c86-2d88-4c4b-9e0a-fd504da96054.jpg"
-        },
-        {
-            "label": "Fine green beans (80g)",
-            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-            "allergens": [],
-            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
-        },
-        {
             "label": "Soy sauce (8ml) x0",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
             "allergens": [
@@ -96,10 +89,22 @@
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
-            "label": "Red chilli",
-            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
+            "label": "Fine green beans (80g)",
+            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
             "allergens": [],
-            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
+            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
+        },
+        {
+            "label": "Spinach (80g)",
+            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
+            "allergens": [],
+            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
             "label": "Hoisin sauce (20g) x0",
@@ -172,7 +177,7 @@
             "carbs_sugars_mg": 3430,
             "fibre_mg": 1211,
             "protein_mg": 10370,
-            "salt_mg": 464,
+            "salt_mg": 465,
             "net_weight_mg": 100000
         },
         "per_portion": {
@@ -184,7 +189,7 @@
             "carbs_sugars_mg": 12300,
             "fibre_mg": 4343,
             "protein_mg": 37178,
-            "salt_mg": 1667,
+            "salt_mg": 1668,
             "net_weight_mg": 358500
         }
     },

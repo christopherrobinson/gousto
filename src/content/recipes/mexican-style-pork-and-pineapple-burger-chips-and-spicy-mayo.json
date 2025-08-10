@@ -10,11 +10,19 @@
     "gousto_id": "1698",
     "rating": {
         "average": 4.5,
-        "count": 1420
+        "count": 1421
     },
     "description": "This delicious Mexican burger will have you shouting \u00a1Arriba! The succulent pork patty is full of flavour from the toasted cumin seeds and smoked paprika. You'll slow roast the pineapple alongside the chips for a sweet and tangy hit that pairs perfectly with the richness of the pork.",
     "cuisine": "Mexican",
     "ingredients": [
+        {
+            "label": "Panko breadcrumbs (20g) x0",
+            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
         {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -23,6 +31,18 @@
                 "mustard"
             ],
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+        },
+        {
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "allergens": [],
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+        },
+        {
+            "label": "Gem lettuce",
+            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
+            "allergens": [],
+            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
             "label": "Cayenne pepper (0.5tsp)",
@@ -100,14 +120,6 @@
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
-            "label": "Panko breadcrumbs (20g) x0",
-            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
-        },
-        {
             "label": "Panko breadcrumbs (40g)",
             "gousto_uuid": "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
             "allergens": [
@@ -123,18 +135,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
-        },
-        {
-            "label": "Gem lettuce",
-            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-            "allergens": [],
-            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
-        },
-        {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
-            "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
         },
         {
             "label": "Soy sauce (8ml) x0",
@@ -179,7 +179,7 @@
             "image": "/images/instructions/mexican-style-pork-and-pineapple-burger-chips-and-spicy-mayo/step-3.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>pork mince </strong>(remove paper if required!),<strong> soy sauce</strong>, <strong>ground smoked paprika</strong> and<strong> panko breadcrumbs </strong>to the large bowl with toasted cumin seeds</p><p>Give everything a good mix up until thoroughly combined (clean hands are the best way!)</p><p>Divide and shape into 1 equal-sized <strong>burger patty </strong>per person</p><p>Tip: kneading the patties for longer will make them more tender!</p>",
+            "instruction": "<p>Add your <strong>mince </strong>(remove paper if required!),<strong> soy sauce</strong>, <strong>ground smoked paprika</strong> and<strong> panko breadcrumbs </strong>to the large bowl with toasted cumin seeds</p><p>Give everything a good mix up until thoroughly combined (clean hands are the best way!)</p><p>Divide and shape into 1 equal-sized <strong>burger patty </strong>per person</p><p>Tip: kneading the patties for longer will make them more tender!</p>",
             "order": 4,
             "image": "/images/instructions/mexican-style-pork-and-pineapple-burger-chips-and-spicy-mayo/step-4.jpg"
         },
@@ -214,7 +214,7 @@
             "energy_kcal": 148,
             "energy_kj": 624,
             "fat_mg": 5862,
-            "fat_saturates_mg": 1408,
+            "fat_saturates_mg": 1411,
             "carbs_mg": 17165,
             "carbs_sugars_mg": 4553,
             "fibre_mg": 1428,
@@ -226,7 +226,7 @@
             "energy_kcal": 810,
             "energy_kj": 3409,
             "fat_mg": 32026,
-            "fat_saturates_mg": 7695,
+            "fat_saturates_mg": 7709,
             "carbs_mg": 93768,
             "carbs_sugars_mg": 24873,
             "fibre_mg": 7802,

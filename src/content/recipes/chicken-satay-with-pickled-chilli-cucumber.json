@@ -11,11 +11,21 @@
     "gousto_id": "2642",
     "rating": {
         "average": 4.5,
-        "count": 10783
+        "count": 10784
     },
     "description": "This sizzling supper is inspired by the flavours of Indonesia. You'll cook chicken on a high heat, then mix together coconut, soy, peanut butter and chilli relish for your satay sauce. Serve on brown rice with a side of pickled chilli cucumbers.",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "Smooth peanut butter (26g)",
+            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
+        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -102,16 +112,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
-            "label": "Smooth peanut butter (26g)",
-            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
-            "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
-            ],
-            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         }
     ],
     "basics": [
@@ -162,7 +162,9 @@
     ],
     "allergens": [
         "gluten",
+        "nut",
         "peanut",
+        "sesame",
         "soya"
     ],
     "nutritional_information": {
