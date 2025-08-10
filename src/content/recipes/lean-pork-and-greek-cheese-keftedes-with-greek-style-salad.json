@@ -13,6 +13,18 @@
     "cuisine": "Greek",
     "ingredients": [
         {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
             "label": "Panko breadcrumbs (20g)",
             "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
             "allergens": [
@@ -21,54 +33,10 @@
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
         },
         {
-            "label": "Black olives (40g)",
-            "gousto_uuid": "f67d256a-866c-4110-b863-e47f32ea89f7",
+            "label": "White potato x3",
+            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
-            "image": "/images/ingredients/f67d256a-866c-4110-b863-e47f32ea89f7.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
-        },
-        {
-            "label": "Lean pork mince (<5% fat) (125g) x0",
-            "gousto_uuid": "8371ef5f-f73b-40c3-8e15-595f00820cf4",
-            "allergens": [],
-            "image": "/images/ingredients/8371ef5f-f73b-40c3-8e15-595f00820cf4.jpg"
-        },
-        {
-            "label": "Lean pork mince (<5% fat) (250g)",
-            "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
-            "allergens": [],
-            "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
-        },
-        {
-            "label": "Mint (5g)",
-            "gousto_uuid": "5a446609-a9e0-420e-af4e-da2fa9f91f81",
-            "allergens": [],
-            "image": "/images/ingredients/5a446609-a9e0-420e-af4e-da2fa9f91f81.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
         },
         {
             "label": "Greek salad cheese (100g)",
@@ -79,22 +47,54 @@
             "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
         },
         {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+        },
+        {
+            "label": "Lean pork mince (<5% fat) (125g) x0",
+            "gousto_uuid": "8371ef5f-f73b-40c3-8e15-595f00820cf4",
+            "allergens": [],
+            "image": "/images/ingredients/8371ef5f-f73b-40c3-8e15-595f00820cf4.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Lean pork mince (<5% fat) (250g)",
+            "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
+            "allergens": [],
+            "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
+        },
+        {
+            "label": "Black olives (40g)",
+            "gousto_uuid": "f67d256a-866c-4110-b863-e47f32ea89f7",
+            "allergens": [],
+            "image": "/images/ingredients/f67d256a-866c-4110-b863-e47f32ea89f7.jpg"
+        },
+        {
+            "label": "Mint (5g)",
+            "gousto_uuid": "5a446609-a9e0-420e-af4e-da2fa9f91f81",
+            "allergens": [],
+            "image": "/images/ingredients/5a446609-a9e0-420e-af4e-da2fa9f91f81.jpg"
         },
         {
             "label": "Tomato",
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
-            "label": "White potato x3",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
-            "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
         }
     ],
     "basics": [
@@ -110,12 +110,12 @@
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-1.jpg"
         },
         {
-            "instruction": "<p>While the chips are cooking, peel and grate your<strong> shallot[s]</strong></p><p>Add the\u00a0<strong>grated shallot</strong>,\u00a0<strong>lean</strong> <strong>pork mince</strong>,\u00a0<strong>panko breadcrumbs</strong>\u00a0and\u00a0<strong>half </strong>your <strong>dried oregano </strong>(save the rest for later!)<strong> </strong>to a large bowl with a pinch of\u00a0<strong>salt\u00a0</strong>and <strong>pepper</strong></p><p>Crumble in <strong>half</strong> your <strong>Greek cheese </strong>(you'll use the rest later!) and mix thoroughly until fully combined\u00a0(clean hands is the best way!) \u2013 this is your <strong>lean</strong> <strong>pork mixture</strong></p>",
+            "instruction": "<p>While the chips are cooking, peel and grate your<strong> shallot[s]</strong></p><p>Add the <strong>grated shallot</strong>, <strong>mince</strong>, <strong>panko breadcrumbs</strong> and <strong>half </strong>your <strong>dried oregano </strong>(save the rest for later!)<strong> </strong>to a large bowl with a pinch of <strong>salt </strong>and <strong>pepper</strong></p><p>Crumble in <strong>half</strong> your <strong>Greek cheese </strong>(you'll use the rest later!) and mix thoroughly until fully combined (clean hands is the best way!) \u2013 this is your <strong>mince mixture</strong></p>",
             "order": 2,
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-2.jpg"
         },
         {
-            "instruction": "<p>Divide the\u00a0<strong>lean</strong> <strong>pork mixture\u00a0</strong>into 3 per person\u00a0and shape into\u00a0meatballs \u2013 these are your <strong>lean</strong> <strong>pork & Greek cheese\u00a0keftedes</strong></p><p>Once the chips have had 10 min, add the <strong>lean</strong> <strong>pork & Greek cheese\u00a0keftedes</strong>\u00a0to one side of the tray[s]</p><p>Return the tray[s] to the oven for 15-20 min or until everything is cooked through (no pink meat!)</p>",
+            "instruction": "<p>Divide the <strong>mince mixture </strong>into 3 per person and shape into meatballs \u2013 these are your <strong>mince & Greek cheese keftedes</strong></p><p>Once the chips have had 10 min, add the <strong>mince & Greek cheese keftedes</strong> to one side of the tray[s]</p><p>Return the tray[s] to the oven for 15-20 min or until everything is cooked through (no pink meat!)</p>",
             "order": 3,
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-3.jpg"
         },
@@ -125,7 +125,7 @@
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-4.jpg"
         },
         {
-            "instruction": "<p>Squeeze the water out of the <strong>grated cucumber</strong> and add it to a bowl along with\u00a0the <strong>chopped mint</strong>,<strong>\u00a0chopped garlic </strong>(don't like raw garlic? Go easy!)\u00a0and\u00a0<strong>natural\u00a0yoghurt</strong></p><p>Season with\u00a0<strong>pepper</strong>\u00a0and stir it all together \u2013 this is your\u00a0<strong>tzatziki</strong></p>",
+            "instruction": "<p>Squeeze the water out of the <strong>grated cucumber</strong> and add it to a bowl along with the <strong>chopped mint</strong>,<strong> chopped garlic </strong>(don't like raw garlic? Go easy!) and <strong>natural yoghurt</strong></p><p>Season with <strong>pepper</strong> and stir it all together \u2013 this is your <strong>tzatziki</strong></p>",
             "order": 5,
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-5.jpg"
         },
@@ -135,12 +135,12 @@
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-6.jpg"
         },
         {
-            "instruction": "<p>Add\u00a0the<strong> halved black olives, Greek cheese cubes</strong> and <strong>diced tomato </strong>to\u00a0a bowl with the <strong>diced cucumber</strong>, <strong>remaining</strong> <strong>dried oregano</strong>,\u00a0a drizzle of<strong> olive oil</strong> and a generous grind of <strong>black pepper</strong></p><p>Gently mix it all together\u00a0\u2013 this is your <strong>Greek-style salad</strong></p>",
+            "instruction": "<p>Add the<strong> halved black olives, Greek cheese cubes</strong> and <strong>diced tomato </strong>to a bowl with the <strong>diced cucumber</strong>, <strong>remaining</strong> <strong>dried oregano</strong>, a drizzle of<strong> olive oil</strong> and a generous grind of <strong>black pepper</strong></p><p>Gently mix it all together \u2013 this is your <strong>Greek-style salad</strong></p>",
             "order": 7,
             "image": "/images/instructions/lean-pork-and-greek-cheese-keftedes-with-greek-style-salad/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>lean</strong> <strong>pork & Greek cheese\u00a0keftedes</strong> with the <strong>chips</strong> and<strong> </strong>top with the<strong> Greek-style salad</strong></p><p>Serve the <strong>tzatziki </strong>to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>mince & Greek cheese keftedes</strong> with the <strong>chips</strong> and<strong> </strong>top with the<strong> Greek-style salad</strong></p><p>Serve the <strong>tzatziki </strong>to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],

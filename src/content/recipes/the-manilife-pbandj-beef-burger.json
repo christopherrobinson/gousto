@@ -13,6 +13,16 @@
     "cuisine": "American",
     "ingredients": [
         {
+            "label": "Smooth peanut butter (26g)",
+            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
+        },
+        {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
             "allergens": [
@@ -20,6 +30,18 @@
                 "mustard"
             ],
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+        },
+        {
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "allergens": [],
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+        },
+        {
+            "label": "Gem lettuce",
+            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
+            "allergens": [],
+            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
             "label": "Ground smoked paprika (2tsp)",
@@ -100,32 +122,10 @@
             "image": "/images/ingredients/c9bfadf4-a66f-4282-891a-a024f8a937fd.jpg"
         },
         {
-            "label": "Gem lettuce",
-            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-            "allergens": [],
-            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
-        },
-        {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
-            "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
-        },
-        {
             "label": "White potato x3",
             "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
             "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
-        },
-        {
-            "label": "Smooth peanut butter (26g)",
-            "gousto_uuid": "80a2fb1b-cd5f-47ea-a9a0-508ccfea2629",
-            "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
-            ],
-            "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
         }
     ],
     "basics": [
@@ -151,7 +151,7 @@
             "image": "/images/instructions/the-manilife-pbandj-beef-burger/step-3.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>beef mince</strong> to a bowl with generous pinch of <strong>salt</strong> and<strong> pepper </strong>and mix thoroughly with clean hands for 1 min until fully combined (this helps them to hold their shape whilst cooking)</p><p>Divide the mince into 2 <span class=\"text-danger\">[4]</span>, shape them into patties and refrigerate until later</p>",
+            "instruction": "<p>Add the <strong>mince</strong> to a bowl with generous pinch of <strong>salt</strong> and<strong> pepper </strong>and mix thoroughly with clean hands for 1 min until fully combined (this helps them to hold their shape whilst cooking)</p><p>Divide the mince into 2 <span class=\"text-danger\">[4]</span>, shape them into patties and refrigerate until later</p>",
             "order": 4,
             "image": "/images/instructions/the-manilife-pbandj-beef-burger/step-4.jpg"
         },
@@ -166,7 +166,7 @@
             "image": "/images/instructions/the-manilife-pbandj-beef-burger/step-6.jpg"
         },
         {
-            "instruction": "<p>Return the pan to a high heat</p><p>Add the <strong>beef patties </strong>and cook for 5-6 min on one side, or until browned</p><p>Once browned, flip the patties and top with the <strong>grated cheddar cheese</strong></p><p>Cover loosely with a lid (or some<strong> tin foil</strong>!) and cook for 2-3 min further or until the cheese has melted and the patties are cooked through</p>",
+            "instruction": "<p>Return the pan to a high heat</p><p>Add the <strong>patties </strong>and cook for 5-6 min on one side, or until browned</p><p>Once browned, flip the patties and top with the <strong>grated cheddar cheese</strong></p><p>Cover loosely with a lid (or some<strong> tin foil</strong>!) and cook for 2-3 min further or until the cheese has melted and the patties are cooked through</p>",
             "order": 7,
             "image": "/images/instructions/the-manilife-pbandj-beef-burger/step-7.jpg"
         },
@@ -180,7 +180,9 @@
         "gluten",
         "milk",
         "mustard",
+        "nut",
         "peanut",
+        "sesame",
         "soya",
         "sulphites"
     ],
@@ -189,7 +191,7 @@
             "energy_kcal": 190,
             "energy_kj": 795,
             "fat_mg": 10416,
-            "fat_saturates_mg": 3326,
+            "fat_saturates_mg": 3329,
             "carbs_mg": 15120,
             "carbs_sugars_mg": 3025,
             "fibre_mg": 1819,
@@ -201,7 +203,7 @@
             "energy_kcal": 876,
             "energy_kj": 3664,
             "fat_mg": 47966,
-            "fat_saturates_mg": 15320,
+            "fat_saturates_mg": 15334,
             "carbs_mg": 69631,
             "carbs_sugars_mg": 13931,
             "fibre_mg": 8378,

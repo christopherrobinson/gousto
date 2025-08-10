@@ -5,9 +5,39 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "8833",
+    "rating": {
+        "average": 5,
+        "count": 1
+    },
     "description": "Fire up taco night with these crispy baja-style wraps. You'll coat cod in a spicy batter before pan-frying till golden. Load them into tortillas with creamy slaw, chipotle hot honey and sliced green chilli. It's gonna be a scorcher.",
     "cuisine": "Mexican",
     "ingredients": [
+        {
+            "label": "Dried chilli flakes (1tsp) x0",
+            "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
+            "allergens": [],
+            "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Chipotle paste (20g) x0",
+            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "allergens": [],
+            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+        },
+        {
+            "label": "Dried chilli flakes (0.5tsp)",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
+            "allergens": [],
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "Cod fillets (2pcs)",
+            "gousto_uuid": "36ee321e-acbe-4fd6-919a-a01ba1670905",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/36ee321e-acbe-4fd6-919a-a01ba1670905.jpg"
+        },
         {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -18,18 +48,6 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Dried chilli flakes (1tsp) x0",
-            "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
-            "allergens": [],
-            "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
-        },
-        {
-            "label": "Dried chilli flakes (0.5tsp)",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-            "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
-        },
-        {
             "label": "Mayonnaise (50ml) x0",
             "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
             "allergens": [
@@ -37,24 +55,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
-        },
-        {
-            "label": "Green chilli",
-            "gousto_uuid": "2a6039c4-3425-4c91-a976-2ef070aa08ae",
-            "allergens": [],
-            "image": "/images/ingredients/2a6039c4-3425-4c91-a976-2ef070aa08ae.jpg"
-        },
-        {
-            "label": "Chipotle paste (40g)",
-            "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
-            "allergens": [],
-            "image": "/images/ingredients/6181d96e-d862-479f-9f24-626b4c531cc5.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
         },
         {
             "label": "Cornflour (4tbsp)",
@@ -69,32 +69,16 @@
             "image": "/images/ingredients/4366001c-0c31-41c9-b051-f5ddb2e73677.jpg"
         },
         {
-            "label": "Cod fillet x0",
-            "gousto_uuid": "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/9e04ddd6-9258-4afb-9731-bce33a9f87bb.jpg"
-        },
-        {
-            "label": "Cod fillets (2pcs)",
-            "gousto_uuid": "36ee321e-acbe-4fd6-919a-a01ba1670905",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/36ee321e-acbe-4fd6-919a-a01ba1670905.jpg"
-        },
-        {
             "label": "Mini cosberg lettuce",
             "gousto_uuid": "03f0c89b-426b-4b83-acee-5667e2681ee0",
             "allergens": [],
             "image": "/images/ingredients/03f0c89b-426b-4b83-acee-5667e2681ee0.jpg"
         },
         {
-            "label": "Chipotle paste (20g) x0",
-            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "label": "Chipotle paste (40g)",
+            "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
             "allergens": [],
-            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+            "image": "/images/ingredients/6181d96e-d862-479f-9f24-626b4c531cc5.jpg"
         },
         {
             "label": "Plain tortillas (6pcs)",
@@ -103,6 +87,18 @@
                 "gluten"
             ],
             "image": "/images/ingredients/55692d26-3834-4b6f-94ce-0cd6332af610.jpg"
+        },
+        {
+            "label": "Green chilli",
+            "gousto_uuid": "2a6039c4-3425-4c91-a976-2ef070aa08ae",
+            "allergens": [],
+            "image": "/images/ingredients/2a6039c4-3425-4c91-a976-2ef070aa08ae.jpg"
+        },
+        {
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "allergens": [],
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
         },
         {
             "label": "Honey (25g)",
@@ -198,7 +194,7 @@
             "ingredients_skus": [
                 "4366001c-0c31-41c9-b051-f5ddb2e73677",
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
-                "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
+                "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "2a6039c4-3425-4c91-a976-2ef070aa08ae",
@@ -231,7 +227,6 @@
                 "4366001c-0c31-41c9-b051-f5ddb2e73677",
                 "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
-                "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -265,7 +260,6 @@
                 "4366001c-0c31-41c9-b051-f5ddb2e73677",
                 "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
-                "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",

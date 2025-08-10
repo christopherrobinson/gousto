@@ -5,6 +5,10 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "8641",
+    "rating": {
+        "average": 4,
+        "count": 10
+    },
     "description": "Leave the knife and fork behind, because this one's meant to be messy! You'll smother crispy cod pieces in fiery buffalo sauce, and serve them with sweet potato fries and cool ranch dip. Get stuck in!",
     "cuisine": "American",
     "ingredients": [
@@ -19,16 +23,12 @@
             "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
-            "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
-        },
-        {
-            "label": "Gem lettuce",
-            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-            "allergens": [],
-            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
+            "label": "Cod fillets (2pcs)",
+            "gousto_uuid": "36ee321e-acbe-4fd6-919a-a01ba1670905",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/36ee321e-acbe-4fd6-919a-a01ba1670905.jpg"
         },
         {
             "label": "Garlic clove",
@@ -43,18 +43,10 @@
             "image": "/images/ingredients/f585c6d0-f7a2-45b2-982b-da6abee7c2a5.jpg"
         },
         {
-            "label": "Chives (5g)",
-            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
             "allergens": [],
-            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
-        },
-        {
-            "label": "Cod fillets (2pcs)",
-            "gousto_uuid": "36ee321e-acbe-4fd6-919a-a01ba1670905",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/36ee321e-acbe-4fd6-919a-a01ba1670905.jpg"
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
         },
         {
             "label": "Sriracha hot chilli sauce (8ml)",
@@ -63,12 +55,18 @@
             "image": "/images/ingredients/34ad5b48-6f2b-402b-8699-1237fb821ae2.jpg"
         },
         {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "label": "Cod fillet x0",
+            "gousto_uuid": "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
             "allergens": [
-                "milk"
+                "fish"
             ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+            "image": "/images/ingredients/9e04ddd6-9258-4afb-9731-bce33a9f87bb.jpg"
+        },
+        {
+            "label": "Cider vinegar (30ml)",
+            "gousto_uuid": "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
+            "allergens": [],
+            "image": "/images/ingredients/6776a9e3-61d1-4d1a-9102-e9ed44cf94a3.jpg"
         },
         {
             "label": "Cider vinegar (15ml) x0",
@@ -77,10 +75,24 @@
             "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
         },
         {
-            "label": "Cider vinegar (30ml)",
-            "gousto_uuid": "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
+            "label": "Gem lettuce",
+            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
             "allergens": [],
-            "image": "/images/ingredients/6776a9e3-61d1-4d1a-9102-e9ed44cf94a3.jpg"
+            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
+        },
+        {
+            "label": "Chives (5g)",
+            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "allergens": [],
+            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
+        },
+        {
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Sweet potato x2",
@@ -178,7 +190,7 @@
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                "36ee321e-acbe-4fd6-919a-a01ba1670905",
+                "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
                 "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
@@ -208,6 +220,7 @@
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
                 "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
+                "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -238,6 +251,7 @@
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
                 "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
+                "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",

@@ -13,6 +13,22 @@
     "cuisine": "Fusion",
     "ingredients": [
         {
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
             "allergens": [
@@ -49,26 +65,10 @@
             "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
             "label": "Henderson's Relish (15ml)",
             "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
             "allergens": [],
             "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
-        },
-        {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
             "label": "Brioche style hot dog buns (2pcs)",
@@ -135,12 +135,12 @@
             "image": "/images/instructions/swedish-style-lean-meatball-sub-with-cranberry-mayo-and-gravy/step-2.jpg"
         },
         {
-            "instruction": "<p>Peel and finely dice your <strong>brown onion[s]</strong></p><p>Combine your <strong>lean</strong> <strong>pork mince </strong>(remove the paper if required!) and <strong>half </strong>the <strong>diced onion </strong>(you'll use the rest later!) in a bowl with a pinch of <strong>salt </strong>and <strong>pepper</strong></p><p>Give everything a good mix up until thoroughly combined (clean hands is the best way!)</p><p>Divide and shape into 4 meatballs per person \u2013 these are your <strong>lean</strong> <strong>pork meatballs</strong></p>",
+            "instruction": "<p>Peel and finely dice your <strong>brown onion[s]</strong></p><p>Combine your <strong>mince </strong>(remove the paper if required!) and <strong>half </strong>the <strong>diced onion </strong>(you'll use the rest later!) in a bowl with a pinch of <strong>salt </strong>and <strong>pepper</strong></p><p>Give everything a good mix up until thoroughly combined (clean hands is the best way!)</p><p>Divide and shape into 4 meatballs per person \u2013 these are your <strong>meatballs</strong></p>",
             "order": 3,
             "image": "/images/instructions/swedish-style-lean-meatball-sub-with-cranberry-mayo-and-gravy/step-3.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick, with a matching lid) over a high heat with a drizzle of <strong>vegetable oil</strong></p><p>Once hot, add the <strong>lean</strong> <strong>pork meatballs</strong> to the pan and cook for 2 min on each side or until browned</p><p>Once the meatballs have browned, transfer them to a plate and set aside, reserving the pan</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick, with a matching lid) over a high heat with a drizzle of <strong>vegetable oil</strong></p><p>Once hot, add the <strong>meatballs</strong> to the pan and cook for 2 min on each side or until browned</p><p>Once the meatballs have browned, transfer them to a plate and set aside, reserving the pan</p>",
             "order": 4,
             "image": "/images/instructions/swedish-style-lean-meatball-sub-with-cranberry-mayo-and-gravy/step-4.jpg"
         },
@@ -150,7 +150,7 @@
             "image": "/images/instructions/swedish-style-lean-meatball-sub-with-cranberry-mayo-and-gravy/step-5.jpg"
         },
         {
-            "instruction": "<p>Once the onion has softened, add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>flour </strong>to the pan and cook for 1 min</p><p>Gradually whisk in the<strong> stock </strong>and cook\u00a0for 2-3 min until slightly thickened</p><p>Once the sauce has thickened, return the <strong>browned meatballs</strong> to the pan and cook, covered, for 12-15 min further or until the meatballs are cooked through (no pink meat!) \u2013 these are your <strong>Swedish-style lean meatballs & gravy</strong></p>",
+            "instruction": "<p>Once the onion has softened, add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>flour </strong>to the pan and cook for 1 min</p><p>Gradually whisk in the<strong> stock </strong>and cook for 2-3 min until slightly thickened</p><p>Once the sauce has thickened, return the <strong>browned meatballs</strong> to the pan and cook, covered, for 12-15 min further or until the meatballs are cooked through (no pink meat!) \u2013 these are your <strong>Swedish-style meatballs & gravy</strong></p>",
             "order": 6,
             "image": "/images/instructions/swedish-style-lean-meatball-sub-with-cranberry-mayo-and-gravy/step-6.jpg"
         },
@@ -160,7 +160,7 @@
             "image": "/images/instructions/swedish-style-lean-meatball-sub-with-cranberry-mayo-and-gravy/step-7.jpg"
         },
         {
-            "instruction": "<p>To build your sub, spread the <strong>toasted hot dog bun </strong>with the <strong>cranberry mayo</strong> and top with some of the <strong>dill-pickled cucumber</strong>, the <strong>Swedish-style lean meatballs </strong>and a drizzle of <strong>gravy </strong>\u2013 this is your <strong>Swedish-style lean meatball sub</strong></p><p>Serve the <strong>chips</strong>, <strong>remaining dill-pickled cucumber </strong>and <strong>remaining gravy </strong>to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>To build your sub, spread the <strong>toasted hot dog bun </strong>with the <strong>cranberry mayo</strong> and top with some of the <strong>dill-pickled cucumber</strong>, the <strong>Swedish-style meatballs </strong>and a drizzle of <strong>gravy </strong>\u2013 this is your <strong>Swedish-style meatball sub</strong></p><p>Serve the <strong>chips</strong>, <strong>remaining dill-pickled cucumber </strong>and <strong>remaining gravy </strong>to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -180,7 +180,7 @@
             "carbs_sugars_mg": 4293,
             "fibre_mg": 1381,
             "protein_mg": 6719,
-            "salt_mg": 370,
+            "salt_mg": 371,
             "net_weight_mg": 100000
         },
         "per_portion": {
@@ -192,7 +192,7 @@
             "carbs_sugars_mg": 23313,
             "fibre_mg": 7502,
             "protein_mg": 36485,
-            "salt_mg": 2014,
+            "salt_mg": 2015,
             "net_weight_mg": 543000
         }
     },

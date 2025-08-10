@@ -61,10 +61,17 @@
             "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "White basmati rice (130g)",
@@ -167,7 +174,7 @@
             "image": "/images/instructions/curried-hake-with-sultana-rice-and-indian-style-carrot-slaw/step-6.jpg"
         },
         {
-            "instruction": "<p>While the fish is cooking, add the <strong>grated carrot</strong>, <strong>sliced spring onion</strong>,<strong> nigella seeds</strong>,<strong> remaining chopped mint </strong>and <strong>remaining chopped coriander </strong>to a large bowl</p><p>Add the juice of <strong>half</strong> your<strong> lemon wedges</strong>,<strong> </strong>2 tbsp <span class=\"text-purple\">[3 tbsp]</span> <span class=\"text-danger\">[4 tbsp]<strong> </span>olive oil </strong>and a generous pinch of <strong>salt </strong>and mix it all together \u2013 this is your <strong>Indian-style carrot slaw</strong></p>",
+            "instruction": "<p>While the fish is cooking, add the <strong>grated carrot</strong>, <strong>sliced spring onion</strong>,<strong> black sesame seeds</strong>,<strong> remaining chopped mint </strong>and <strong>remaining chopped coriander </strong>to a large bowl</p><p>Add the juice of <strong>half</strong> your<strong> lemon wedges</strong>,<strong> </strong>2 tbsp <span class=\"text-purple\">[3 tbsp]</span> <span class=\"text-danger\">[4 tbsp]<strong> </strong></span><strong>olive oil </strong>and a generous pinch of <strong>salt </strong>and mix it all together \u2013 this is your <strong>Indian-style carrot slaw</strong></p>",
             "order": 7,
             "image": "/images/instructions/curried-hake-with-sultana-rice-and-indian-style-carrot-slaw/step-7.jpg"
         },
@@ -177,38 +184,44 @@
         }
     ],
     "allergens": [
-        "fish"
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 111,
-            "energy_kj": 470,
-            "fat_mg": 1139,
-            "fat_saturates_mg": 165,
-            "carbs_mg": 18009,
-            "carbs_sugars_mg": 5538,
-            "fibre_mg": 1967,
-            "protein_mg": 6578,
-            "salt_mg": 532,
+            "energy_kcal": 112,
+            "energy_kj": 478,
+            "fat_mg": 1416,
+            "fat_saturates_mg": 203,
+            "carbs_mg": 17896,
+            "carbs_sugars_mg": 5526,
+            "fibre_mg": 1913,
+            "protein_mg": 6586,
+            "salt_mg": 530,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 456,
-            "energy_kj": 1930,
-            "fat_mg": 4678,
-            "fat_saturates_mg": 679,
-            "carbs_mg": 73948,
-            "carbs_sugars_mg": 22740,
-            "fibre_mg": 8077,
-            "protein_mg": 27011,
-            "salt_mg": 2186,
-            "net_weight_mg": 410600
+            "energy_kcal": 465,
+            "energy_kj": 1969,
+            "fat_mg": 5830,
+            "fat_saturates_mg": 838,
+            "carbs_mg": 73664,
+            "carbs_sugars_mg": 22747,
+            "fibre_mg": 7876,
+            "protein_mg": 27109,
+            "salt_mg": 2184,
+            "net_weight_mg": 411600
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
@@ -217,7 +230,6 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
@@ -227,6 +239,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
@@ -236,7 +249,6 @@
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
@@ -245,6 +257,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
@@ -255,7 +268,6 @@
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
@@ -266,6 +278,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
@@ -275,7 +288,6 @@
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
@@ -284,6 +296,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
@@ -295,7 +308,6 @@
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
