@@ -39,7 +39,7 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_time_minutes, rating
       </div>
       <div class="flex  flex-col  h-full  justify-between  p-4">
         <h2 class="font-medium  font-serif  mb-4  text-md  transition  group-hover:text-primary-600">${title}</h2>
-        <div class="flex  items-center  justify-between  overflow-hidden  space-x-8  text-sm  text-center  text-secondary-700  group-hover:text-secondary-950">
+        <div class="flex  items-center  justify-between  overflow-hidden  space-x-8  text-sm  text-center  group-hover:text-zinc-950">
           <div class="flex  items-center  space-x-2">
             <svg width="0.88em" height="1em" class="text-primary-600" data-icon="stopwatch">
               <symbol id="ai:local:stopwatch" viewBox="0 0 448 512">

@@ -9,8 +9,8 @@ const cuisines = await getCuisines();
 const recipes = await getRecipes();
 const featuredRecipes = await getRecipes({ limit: 8, randomise: true, rating: 4 });
 const meta = {
-  title: `${recipes.length.toLocaleString()} Delicious Gousto Recipes - Search by Cuisine & Prep Time`,
-  description: `Explore over 6,000 Gousto recipes by cuisine, prep time, or ingredients. Discover easy, delicious meals and find your next favourite recipe in seconds.`,
+  title: `${(Math.floor(recipes.length / 1000) * 1000).toLocaleString()}+ Delicious Gousto Recipes - Search by Cuisine & Prep Time`,
+  description: `Explore over ${(Math.floor(recipes.length / 1000) * 1000).toLocaleString()} Gousto recipes by cuisine, prep time, or ingredients. Discover easy, delicious meals and find your next favourite recipe in seconds.`,
 };
 const blogPosts = await getBlogPosts({ limit: 3 });
 ---
@@ -47,7 +47,7 @@ const blogPosts = await getBlogPosts({ limit: 3 });
               <Icon class="text-primary-600  size-4" name="magnifying-glass" />
             </div>
             <input
-              class="bg-white  border-2  border-primary-100  block  p-4  ps-12   rounded-lg  text-secondary-800  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
+              class="bg-white  border-2  border-primary-100  block  p-4  ps-12   rounded-lg  text-zinc-700  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
               id="q"
               minlength="3"
               name="q"
@@ -73,7 +73,7 @@ const blogPosts = await getBlogPosts({ limit: 3 });
     <div class="bg-secondary-50  border-b  border-secondary-100  py-8  sm:py-16">
       <Container>
         <div class="flex  items-baseline  justify-between  mb-8">
-          <h2 class="font-light  font-serif  text-2xl  lg:text-3xl">Latest blog posts</h2>
+          <h2 class="font-semibold  font-serif  mb-2  text-3xl">Latest blog posts</h2>
           <a
             class="flex  items-center  justify-end  text-zinc-600  hover:text-zinc-600  hover:underline"
             href="/blog/"

@@ -96,7 +96,7 @@ const filters = {
               <Icon class="text-primary-600  size-4" name="magnifying-glass" />
             </div>
             <input
-              class="bg-white  border-2  border-secondary-200  block  p-4  ps-12   rounded-lg  text-secondary-800  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
+              class="bg-white  border-2  border-secondary-200  block  p-4  ps-12   rounded-lg  text-zinc-700  w-full  focus:ring-2  focus:outline-none  focus:ring-tertiary-600"
               id="q"
               minlength={MIN_QUERY_LENGTH}
               name="q"
@@ -118,7 +118,7 @@ const filters = {
     <div class="gap-4  grid  lg:gap-8  lg:grid-cols-4  xl:grid-cols-5  print:grid-cols-1">
       <div class="col-span-1  hidden  py-4  lg:block  lg:py-8  print:col-span-1">
         <div class="md:sticky  md:top-[34px]">
-          <div class="space-y-8  text-secondary-800">
+          <div class="space-y-8">
             <div class="space-y-4">
               <div class="border-secondary-100  border-b  flex  items-center  justify-between  pb-2">
                 <h3 class="font-normal">Sort by</h3>
@@ -141,7 +141,7 @@ const filters = {
                       <a
                         class={`
                           flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
-                          ${sort === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                          ${sort === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-zinc-950'}
                         `}
                         href={updateQueryParams(Astro.url, [{ page: false, sort: (sort === value  ? false : value) }])}
                       >
@@ -184,7 +184,7 @@ const filters = {
                         <a
                           class={`
                             flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
-                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-zinc-950'}
                           `}
                           href={updateQueryParams(Astro.url, [{ calories: (selectedCalories === value ? false : value), page: false }])}
                         >
@@ -212,7 +212,7 @@ const filters = {
                         <a
                           class={`
                             flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
-                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                            ${selectedCuisine === value ? 'text-primary-600' : 'hover:bg-secondary-50  hover:text-zinc-950'}
                           `}
                           href={updateQueryParams(Astro.url, [{ cuisine: (selectedCuisine === value ? false : value), page: false }])}
                         >

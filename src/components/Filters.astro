@@ -5,7 +5,7 @@ const categories = await getCategories();
 const cuisines = await getCuisines();
 ---
 
-<div class="space-y-4  text-secondary-800">
+<div class="space-y-4">
   <div class="border-secondary-100  border-b  flex  items-center  justify-between  pb-2">
     <h3 class="font-normal">Filters</h3>
     <div class="flex  items-center  space-x-2">
@@ -29,7 +29,7 @@ const cuisines = await getCuisines();
             <a
               class={`
                 flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
-                ${selectedCategory === name ? 'cursor-text  text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                ${selectedCategory === name ? 'cursor-text  text-primary-600' : 'hover:bg-secondary-50  hover:text-zinc-950'}
               `}
               href={slug}
             >
@@ -57,7 +57,7 @@ const cuisines = await getCuisines();
             <a
               class={`
                 flex  items-center  justify-between  px-2  py-1  rounded-lg  transition
-                ${selectedCuisine === name ? 'cursor-text  text-primary-600' : 'hover:bg-secondary-50  hover:text-secondary-950'}
+                ${selectedCuisine === name ? 'cursor-text  text-primary-600' : 'hover:bg-secondary-50  hover:text-zinc-950'}
               `}
               href={slug}
             >
