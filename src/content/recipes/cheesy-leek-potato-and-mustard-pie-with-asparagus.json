@@ -13,10 +13,14 @@
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Asparagus spears (120g)",
-            "gousto_uuid": "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-            "allergens": [],
-            "image": "/images/ingredients/05dd714a-c4b0-4ad9-9786-a4e0f74e27fc.jpg"
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -31,42 +35,12 @@
             "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
             "label": "Puff pastry (160g)",
             "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
-        },
-        {
-            "label": "Vegetable stock mix (5.5g) x0",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
-            "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
-        },
-        {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
             "label": "Italian hard cheese (20g)",
@@ -77,18 +51,32 @@
             "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
         },
         {
-            "label": "Chinese rice wine (15ml)",
-            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
-            "allergens": [],
-            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
-        },
-        {
             "label": "Soft cheese (50g)",
             "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
             "allergens": [
                 "milk"
             ],
             "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g) x0",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
+            "label": "Chinese rice wine (15ml)",
+            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
+            "allergens": [],
+            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
             "label": "Chinese rice wine (30ml) x0",
@@ -101,6 +89,18 @@
             "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
             "allergens": [],
             "image": "/images/ingredients/645a774c-589a-4172-9f0b-dd51a3c7e739.jpg"
+        },
+        {
+            "label": "Asparagus spears (120g)",
+            "gousto_uuid": "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
+            "allergens": [],
+            "image": "/images/ingredients/05dd714a-c4b0-4ad9-9786-a4e0f74e27fc.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
             "label": "White potato x3",
@@ -186,7 +186,7 @@
             "carbs_sugars_mg": 14040,
             "fibre_mg": 10614,
             "protein_mg": 21583,
-            "salt_mg": 2423,
+            "salt_mg": 2424,
             "net_weight_mg": 554000
         }
     },

@@ -5,20 +5,21 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "8581",
+    "rating": {
+        "average": 5,
+        "count": 22
+    },
     "description": "For a simple, sophisticated risotto, you'll combine creamy arborio rice with cheddar and a squeeze of lemon juice. To serve, top with pan-fried courgette, buttery garlic jumbo prawns and lemon zest. Buon appetito!",
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "Arborio rice (160g)",
-            "gousto_uuid": "a749d8cc-add6-4cb1-99df-6ca05a9436fa",
-            "allergens": [],
-            "image": "/images/ingredients/a749d8cc-add6-4cb1-99df-6ca05a9436fa.jpg"
+            "label": "Jumbo king prawns (212g)",
+            "gousto_uuid": "511c8269-6cd0-43bc-9d91-f868b96d7738",
+            "allergens": [
+                "crustacean",
+                "mollusc"
+            ],
+            "image": "/images/ingredients/511c8269-6cd0-43bc-9d91-f868b96d7738.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -27,30 +28,16 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Courgette",
-            "gousto_uuid": "5aba18db-c907-44f5-a499-3f53c5ab676a",
-            "allergens": [],
-            "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
-        },
-        {
-            "label": "Lemon",
-            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
-            "allergens": [],
-            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
-        },
-        {
             "label": "Intense vegetable stock mix (5.5g)",
             "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
             "allergens": [],
             "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+            "label": "Parsley (5g)",
+            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+            "allergens": [],
+            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
             "label": "Jumbo king prawns (106g) x0",
@@ -62,25 +49,42 @@
             "image": "/images/ingredients/a86595ba-cf01-426c-87af-1eb3feb81719.jpg"
         },
         {
+            "label": "Lemon",
+            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
+            "allergens": [],
+            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
+        },
+        {
+            "label": "Arborio rice (160g)",
+            "gousto_uuid": "a749d8cc-add6-4cb1-99df-6ca05a9436fa",
+            "allergens": [],
+            "image": "/images/ingredients/a749d8cc-add6-4cb1-99df-6ca05a9436fa.jpg"
+        },
+        {
             "label": "Vegetable stock mix (5.5g) x0",
             "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
             "allergens": [],
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
-            "label": "Jumbo king prawns (212g)",
-            "gousto_uuid": "511c8269-6cd0-43bc-9d91-f868b96d7738",
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
             "allergens": [
-                "crustacean",
-                "mollusc"
+                "milk"
             ],
-            "image": "/images/ingredients/511c8269-6cd0-43bc-9d91-f868b96d7738.jpg"
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
-            "label": "Parsley (5g)",
-            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+            "label": "Courgette",
+            "gousto_uuid": "5aba18db-c907-44f5-a499-3f53c5ab676a",
             "allergens": [],
-            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+            "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [

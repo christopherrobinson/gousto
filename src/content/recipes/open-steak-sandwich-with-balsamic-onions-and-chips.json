@@ -9,11 +9,17 @@
     "gousto_id": "2431",
     "rating": {
         "average": 5,
-        "count": 14448
+        "count": 14479
     },
     "description": "You're one step away from a next-level sandwich. You'll top ciabatta with sliced rump steak and caramelised onion, before serving with chips and mustard mayo.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Rump pav\u00e9 steak (300g)",
+            "gousto_uuid": "07b2a349-41a9-4ac4-91c8-a83f91944194",
+            "allergens": [],
+            "image": "/images/ingredients/07b2a349-41a9-4ac4-91c8-a83f91944194.jpg"
+        },
         {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -24,10 +30,10 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Cherry tomatoes (250g) x0",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "label": "Rosemary (5g)",
+            "gousto_uuid": "a0cbff79-0da6-4e5a-a710-50a5dd4b3316",
             "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+            "image": "/images/ingredients/a0cbff79-0da6-4e5a-a710-50a5dd4b3316.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -39,22 +45,16 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
+            "label": "Cherry tomatoes (250g) x0",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+        },
+        {
             "label": "Rump pav\u00e9 steak (150g) x0",
             "gousto_uuid": "7261d1f3-fc6f-42b5-b562-11cae58bc11f",
             "allergens": [],
             "image": "/images/ingredients/7261d1f3-fc6f-42b5-b562-11cae58bc11f.jpg"
-        },
-        {
-            "label": "Rump pav\u00e9 steak (300g)",
-            "gousto_uuid": "07b2a349-41a9-4ac4-91c8-a83f91944194",
-            "allergens": [],
-            "image": "/images/ingredients/07b2a349-41a9-4ac4-91c8-a83f91944194.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (125g)",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
-            "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         },
         {
             "label": "Red onion x2",
@@ -71,12 +71,6 @@
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
         },
         {
-            "label": "Rosemary (5g)",
-            "gousto_uuid": "a0cbff79-0da6-4e5a-a710-50a5dd4b3316",
-            "allergens": [],
-            "image": "/images/ingredients/a0cbff79-0da6-4e5a-a710-50a5dd4b3316.jpg"
-        },
-        {
             "label": "Wholegrain mustard (21g)",
             "gousto_uuid": "4cad21de-c673-4385-82b7-78aaca9c8367",
             "allergens": [
@@ -89,6 +83,12 @@
             "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
             "allergens": [],
             "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (125g)",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         },
         {
             "label": "Balsamic vinegar (15ml) x2",
@@ -129,7 +129,7 @@
             "image": "/images/instructions/open-steak-sandwich-with-balsamic-onions-and-chips/step-3.jpg"
         },
         {
-            "instruction": "<p>Once the onions are caramelised, add your <strong>balsamic vinegar</strong> and 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp] </span><span class=\"text-danger\">[</span><span class=\"text-purple\">2 tbsp]</span> <strong>sugar</strong> to the pan and cook for 2-3 min further or until sticky</p><p>Once done, remove the pan from the heat, cover with a lid to keep warm, and set aside for later \u2013 these are your <strong>balsamic onions</strong></p>",
+            "instruction": "<p>Once the onions are caramelised, add your <strong>balsamic vinegar</strong> and 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp] </span><span class=\"text-danger\">[2 tbsp] </span><strong>sugar</strong> to the pan and cook for 2-3 min further or until sticky</p><p>Once done, remove the pan from the heat, cover with a lid to keep warm, and set aside for later \u2013 these are your <strong>balsamic onions</strong></p>",
             "order": 4,
             "image": "/images/instructions/open-steak-sandwich-with-balsamic-onions-and-chips/step-4.jpg"
         },
@@ -139,7 +139,7 @@
             "image": "/images/instructions/open-steak-sandwich-with-balsamic-onions-and-chips/step-5.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) over a high heat, once very hot, add the<strong> seasoned steak</strong> to the pan</p><p>For rare, cook for 2 min max on each side; for medium-rare, cook for 2-3 min on each side; for medium, cook for 3-4 min on each side then transfer the<strong> cooked steak </strong>to a clean chopping board, cover with a clean tea towel and leave to rest (save the pan for the next step!)</p><p><strong><span class=\"text-danger\">Alternatively, cook your steak on the BBQ! </span></strong></p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) over a high heat, once very hot, add the<strong> seasoned steak</strong> to the pan</p><p>For rare, cook for 2 min max on each side; for medium-rare, cook for 2-3 min on each side; for medium, cook for 3-4 min on each side</p><p>Transfer the<strong> cooked steak </strong>to a clean chopping board, cover with a clean tea towel and leave to rest (save the pan for the next step!)</p>",
             "order": 6,
             "image": "/images/instructions/open-steak-sandwich-with-balsamic-onions-and-chips/step-6.jpg"
         },

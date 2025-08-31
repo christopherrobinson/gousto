@@ -13,10 +13,34 @@
     "cuisine": "Mediterranean",
     "ingredients": [
         {
+            "label": "Sea bass fillet x0",
+            "gousto_uuid": "4dbc1454-24ec-496d-8b91-e1155ab320e5",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/4dbc1454-24ec-496d-8b91-e1155ab320e5.jpg"
+        },
+        {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Pots & Co - Little Pot of Chocolate (50g) x2",
+            "gousto_uuid": "67ec413b-d762-435d-be57-cdddadde1eae",
+            "allergens": [
+                "milk",
+                "nut",
+                "soya"
+            ],
+            "image": "/images/ingredients/67ec413b-d762-435d-be57-cdddadde1eae.jpg"
+        },
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
             "label": "Baby leaf salad (50g)",
@@ -31,46 +55,18 @@
             "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
-            "label": "Intense vegetable stock mix (5.5g)",
-            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
-            "allergens": [],
-            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
-        },
-        {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "Pots & Co - Little Pot of Chocolate (50g) x2",
-            "gousto_uuid": "67ec413b-d762-435d-be57-cdddadde1eae",
-            "allergens": [
-                "milk",
-                "nut",
-                "soya"
-            ],
-            "image": "/images/ingredients/67ec413b-d762-435d-be57-cdddadde1eae.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
             "label": "Arborio rice (160g)",
             "gousto_uuid": "a749d8cc-add6-4cb1-99df-6ca05a9436fa",
             "allergens": [],
             "image": "/images/ingredients/a749d8cc-add6-4cb1-99df-6ca05a9436fa.jpg"
+        },
+        {
+            "label": "Sea bass fillets (2pcs)",
+            "gousto_uuid": "62c690bf-b5f9-4702-bc13-683c3ffbc7c9",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/62c690bf-b5f9-4702-bc13-683c3ffbc7c9.jpg"
         },
         {
             "label": "Saffron (1pkt)",
@@ -85,20 +81,24 @@
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
-            "label": "Sea bass fillet x0",
-            "gousto_uuid": "4dbc1454-24ec-496d-8b91-e1155ab320e5",
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
             "allergens": [
-                "fish"
+                "milk"
             ],
-            "image": "/images/ingredients/4dbc1454-24ec-496d-8b91-e1155ab320e5.jpg"
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
-            "label": "Sea bass fillets (2pcs)",
-            "gousto_uuid": "62c690bf-b5f9-4702-bc13-683c3ffbc7c9",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/62c690bf-b5f9-4702-bc13-683c3ffbc7c9.jpg"
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "allergens": [],
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -158,27 +158,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 194,
-            "energy_kj": 814,
+            "energy_kcal": 193,
+            "energy_kj": 811,
             "fat_mg": 7948,
-            "fat_saturates_mg": 4059,
-            "carbs_mg": 21746,
-            "carbs_sugars_mg": 3408,
-            "fibre_mg": 895,
-            "protein_mg": 8735,
-            "salt_mg": 556,
+            "fat_saturates_mg": 4081,
+            "carbs_mg": 21182,
+            "carbs_sugars_mg": 3256,
+            "fibre_mg": 852,
+            "protein_mg": 8844,
+            "salt_mg": 549,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 716,
-            "energy_kj": 3005,
+            "energy_kcal": 713,
+            "energy_kj": 2992,
             "fat_mg": 29311,
-            "fat_saturates_mg": 14969,
-            "carbs_mg": 80192,
-            "carbs_sugars_mg": 12567,
-            "fibre_mg": 3304,
-            "protein_mg": 32213,
-            "salt_mg": 2051,
+            "fat_saturates_mg": 15049,
+            "carbs_mg": 78112,
+            "carbs_sugars_mg": 12007,
+            "fibre_mg": 3144,
+            "protein_mg": 32613,
+            "salt_mg": 2028,
             "net_weight_mg": 368750
         }
     },

@@ -16,22 +16,10 @@
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Asparagus spears (120g) x2",
-            "gousto_uuid": "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-            "allergens": [],
-            "image": "/images/ingredients/05dd714a-c4b0-4ad9-9786-a4e0f74e27fc.jpg"
-        },
-        {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Lemon",
-            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
-            "allergens": [],
-            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
             "label": "Intense vegetable stock mix (5.5g)",
@@ -40,10 +28,20 @@
             "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "label": "Flaked almonds (15g)",
+            "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
+        },
+        {
+            "label": "Lemon",
+            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
             "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
             "label": "Arborio rice (160g)",
@@ -52,18 +50,18 @@
             "image": "/images/ingredients/a749d8cc-add6-4cb1-99df-6ca05a9436fa.jpg"
         },
         {
-            "label": "Vegetable stock mix (5.5g) x0",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
-            "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
-        },
-        {
             "label": "Italian hard cheese (20g)",
             "gousto_uuid": "d5fc7e99-0340-4983-a486-e4f18ce5483b",
             "allergens": [
                 "milk"
             ],
             "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g) x0",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
             "label": "Chinese rice wine (15ml)",
@@ -78,14 +76,16 @@
             "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
-            "label": "Flaked almonds (15g)",
-            "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-            "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
-            ],
-            "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
+            "label": "Asparagus spears (120g) x2",
+            "gousto_uuid": "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
+            "allergens": [],
+            "image": "/images/ingredients/05dd714a-c4b0-4ad9-9786-a4e0f74e27fc.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -144,27 +144,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 133,
-            "energy_kj": 565,
+            "energy_kcal": 132,
+            "energy_kj": 561,
             "fat_mg": 2764,
-            "fat_saturates_mg": 863,
-            "carbs_mg": 22298,
-            "carbs_sugars_mg": 2385,
-            "fibre_mg": 1706,
-            "protein_mg": 4657,
-            "salt_mg": 466,
+            "fat_saturates_mg": 888,
+            "carbs_mg": 21649,
+            "carbs_sugars_mg": 2210,
+            "fibre_mg": 1656,
+            "protein_mg": 4781,
+            "salt_mg": 458,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 429,
-            "energy_kj": 1814,
+            "energy_kcal": 426,
+            "energy_kj": 1800,
             "fat_mg": 8866,
-            "fat_saturates_mg": 2771,
-            "carbs_mg": 71522,
-            "carbs_sugars_mg": 7650,
-            "fibre_mg": 5474,
-            "protein_mg": 14938,
-            "salt_mg": 1495,
+            "fat_saturates_mg": 2851,
+            "carbs_mg": 69442,
+            "carbs_sugars_mg": 7090,
+            "fibre_mg": 5314,
+            "protein_mg": 15338,
+            "salt_mg": 1471,
             "net_weight_mg": 320750
         }
     },

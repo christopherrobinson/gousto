@@ -13,26 +13,20 @@
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
             "label": "Panko breadcrumbs (20g)",
             "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
+        {
+            "label": "BBQ sauce (40g)",
+            "gousto_uuid": "2af82637-9ecc-464e-b659-5966276c7fc5",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/2af82637-9ecc-464e-b659-5966276c7fc5.jpg"
         },
         {
             "label": "Meat-free hot dog sausages (2pcs)",
@@ -44,12 +38,24 @@
             "image": "/images/ingredients/b07d6c58-2c91-4e07-b85b-4da7570148a5.jpg"
         },
         {
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
             "label": "Brioche style hot dog buns (2pcs)",
             "gousto_uuid": "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/33dd5938-19ea-40d1-baa1-967e7fbe3c37.jpg"
+        },
+        {
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "allergens": [],
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
         },
         {
             "label": "Macaroni (75g) x0",
@@ -60,28 +66,6 @@
             "image": "/images/ingredients/2e4785d7-4153-464c-be01-b0daa2e4789c.jpg"
         },
         {
-            "label": "Macaroni (150g)",
-            "gousto_uuid": "b2ceb838-a48e-4391-a3e8-809aa56dc847",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/b2ceb838-a48e-4391-a3e8-809aa56dc847.jpg"
-        },
-        {
-            "label": "BBQ sauce (40g)",
-            "gousto_uuid": "2af82637-9ecc-464e-b659-5966276c7fc5",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2af82637-9ecc-464e-b659-5966276c7fc5.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
             "label": "Soft cheese (50g)",
             "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
             "allergens": [
@@ -90,16 +74,24 @@
             "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+        },
+        {
             "label": "Gem lettuce",
             "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
             "allergens": [],
             "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
             "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
         },
         {
             "label": "Tomato",
@@ -112,6 +104,14 @@
             "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
             "allergens": [],
             "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Macaroni (150g)",
+            "gousto_uuid": "b2ceb838-a48e-4391-a3e8-809aa56dc847",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/b2ceb838-a48e-4391-a3e8-809aa56dc847.jpg"
         }
     ],
     "basics": [
@@ -172,10 +172,10 @@
             "energy_kcal": 213,
             "energy_kj": 896,
             "fat_mg": 6898,
-            "fat_saturates_mg": 3732,
+            "fat_saturates_mg": 3735,
             "carbs_mg": 29182,
             "carbs_sugars_mg": 4087,
-            "fibre_mg": 2159,
+            "fibre_mg": 2221,
             "protein_mg": 8642,
             "salt_mg": 645,
             "net_weight_mg": 100000
@@ -184,10 +184,10 @@
             "energy_kcal": 897,
             "energy_kj": 3769,
             "fat_mg": 29008,
-            "fat_saturates_mg": 15696,
+            "fat_saturates_mg": 15709,
             "carbs_mg": 122714,
             "carbs_sugars_mg": 17188,
-            "fibre_mg": 9080,
+            "fibre_mg": 9343,
             "protein_mg": 36342,
             "salt_mg": 2713,
             "net_weight_mg": 420500

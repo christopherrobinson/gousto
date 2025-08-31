@@ -13,16 +13,39 @@
     "gousto_id": "1053",
     "rating": {
         "average": 4.5,
-        "count": 3751
+        "count": 3752
     },
     "description": "Souvlaki is Greece's answer to the much loved grilled kebab. You'll coat tender pork loin steaks in a honey and dried oregano marinade before grilling on skewers. Serve the souvlaki with all the essential additions: warm flatbreads, tzatziki and a tomato & cucumber salad for freshness.",
     "cuisine": "Greek",
     "ingredients": [
         {
-            "label": "Green pepper",
-            "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+            "label": "Plain naan (2pcs)",
+            "gousto_uuid": "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/39a4b972-e3f4-4ef9-978e-da600ee3cc12.jpg"
+        },
+        {
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Soy sauce (15ml)",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
             "label": "Pork loin steak (150g) x0",
@@ -37,19 +60,16 @@
             "image": "/images/ingredients/17efa7a1-3994-45d2-9baf-3515ef275359.jpg"
         },
         {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "label": "Skewers x4",
+            "gousto_uuid": "551b135e-3ca3-4d63-b219-23c9a068523d",
             "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+            "image": "/images/ingredients/551b135e-3ca3-4d63-b219-23c9a068523d.jpg"
         },
         {
-            "label": "Soy sauce (15ml)",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
             "label": "Soy sauce (30ml) x0",
@@ -59,40 +79,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
-        },
-        {
-            "label": "Plain naan (2pcs)",
-            "gousto_uuid": "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/39a4b972-e3f4-4ef9-978e-da600ee3cc12.jpg"
-        },
-        {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-            "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
-        },
-        {
-            "label": "Skewers x4",
-            "gousto_uuid": "551b135e-3ca3-4d63-b219-23c9a068523d",
-            "allergens": [],
-            "image": "/images/ingredients/551b135e-3ca3-4d63-b219-23c9a068523d.jpg"
         },
         {
             "label": "Soy sauce (8ml) x0",
@@ -108,6 +94,20 @@
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+        },
+        {
+            "label": "Green pepper",
+            "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+            "allergens": [],
+            "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
+        },
+        {
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Honey (25g)",
@@ -177,7 +177,7 @@
             "carbs_sugars_mg": 3319,
             "fibre_mg": 961,
             "protein_mg": 7866,
-            "salt_mg": 440,
+            "salt_mg": 439,
             "net_weight_mg": 100000
         },
         "per_portion": {
@@ -189,7 +189,7 @@
             "carbs_sugars_mg": 17046,
             "fibre_mg": 4936,
             "protein_mg": 40395,
-            "salt_mg": 2260,
+            "salt_mg": 2257,
             "net_weight_mg": 513500
         }
     },

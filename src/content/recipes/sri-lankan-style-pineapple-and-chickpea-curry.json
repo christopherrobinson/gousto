@@ -13,6 +13,12 @@
     "cuisine": "Asian",
     "ingredients": [
         {
+            "label": "Curry powder (2tbsp) x0",
+            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+            "allergens": [],
+            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+        },
+        {
             "label": "Ground turmeric (0.5tsp)",
             "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
             "allergens": [],
@@ -25,16 +31,28 @@
             "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
         },
         {
-            "label": "Tomato paste (32g) x0",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "label": "Curry powder (1tbsp)",
+            "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
             "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+            "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
         },
         {
-            "label": "Curry powder (2tbsp) x0",
-            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+            "label": "Chickpeas (185g) x0",
+            "gousto_uuid": "a6fd860f-6dda-460b-b577-3ff6e6d883ac",
             "allergens": [],
-            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+            "image": "/images/ingredients/a6fd860f-6dda-460b-b577-3ff6e6d883ac.jpg"
+        },
+        {
+            "label": "Chickpeas (390g)",
+            "gousto_uuid": "4085c6d5-e8da-4560-9e9e-efebe980aa01",
+            "allergens": [],
+            "image": "/images/ingredients/4085c6d5-e8da-4560-9e9e-efebe980aa01.jpg"
+        },
+        {
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "allergens": [],
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
         },
         {
             "label": "Gluten free soy sauce (15ml)",
@@ -45,52 +63,20 @@
             "image": "/images/ingredients/91a7f9c1-a120-4618-8ac6-448ad4a3ce38.jpg"
         },
         {
-            "label": "Tomato paste (16g)",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
-            "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Solid creamed coconut (25g)",
-            "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
-            "allergens": [],
-            "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
-        },
-        {
             "label": "Cooked white long grain rice (280g)",
             "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
             "allergens": [],
             "image": "/images/ingredients/e604f6ba-a67f-4a10-ae71-6032c08a90a6.jpg"
         },
         {
-            "label": "Vegetable stock mix (5.5g)",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
-            "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
-        },
-        {
-            "label": "Curry powder (1tbsp)",
-            "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
-            "allergens": [],
-            "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
-        },
-        {
-            "label": "Chickpeas (390g)",
-            "gousto_uuid": "4085c6d5-e8da-4560-9e9e-efebe980aa01",
-            "allergens": [],
-            "image": "/images/ingredients/4085c6d5-e8da-4560-9e9e-efebe980aa01.jpg"
-        },
-        {
-            "label": "Chickpeas (185g) x0",
-            "gousto_uuid": "a6fd860f-6dda-460b-b577-3ff6e6d883ac",
-            "allergens": [],
-            "image": "/images/ingredients/a6fd860f-6dda-460b-b577-3ff6e6d883ac.jpg"
+            "label": "Flaked almonds (15g)",
+            "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
         },
         {
             "label": "Black mustard seeds (1tsp)",
@@ -106,16 +92,34 @@
             "image": "/images/ingredients/1b0d51bd-900f-48b6-a7e1-a69a70a5c67e.jpg"
         },
         {
+            "label": "Tomato paste (16g)",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
+            "label": "Tomato paste (32g) x0",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g)",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
             "label": "Fine green beans (160g)",
             "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
             "allergens": [],
             "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
         },
         {
-            "label": "Fine green beans (80g) x0",
-            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+            "label": "Solid creamed coconut (25g)",
+            "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
             "allergens": [],
-            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
+            "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
         },
         {
             "label": "Cardamom pod x2",
@@ -124,14 +128,10 @@
             "image": "/images/ingredients/7ef1d749-e8ca-43f9-85bc-45296edcc089.jpg"
         },
         {
-            "label": "Flaked almonds (15g)",
-            "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
-            "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
-            ],
-            "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
+            "label": "Fine green beans (80g) x0",
+            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+            "allergens": [],
+            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
         },
         {
             "label": "Pineapple slices (220g)",
@@ -157,7 +157,7 @@
             "image": "/images/instructions/sri-lankan-style-pineapple-and-chickpea-curry/step-2.jpg"
         },
         {
-            "instruction": "<p>Crush your <strong>cardamom pods</strong> open by squashing them with the side of a knife</p><p>Discard the <strong>outer green pod[s]</strong> and add the <strong>cardamom seeds </strong>to a <strong>pestle & mortar </strong>with your <strong>black mustard seeds </strong>and a pinch of <strong>salt </strong>and roughly bash until you end up with a coarse powder \u2013\u00a0this is your <strong>spice mix</strong></p><p>Once hot, add your <strong>ginger & garlic paste </strong>and <strong>chopped green beans </strong>with your <strong>ground turmeric</strong>, <strong>curry powder </strong>and <strong>spice mix </strong>and cook for 1 min or until fragrant</p>",
+            "instruction": "<p>Crush your <strong>cardamom pods</strong> open by squashing them with the side of a knife</p><p>Discard the <strong>outer green pod[s]</strong> and add the <strong>cardamom seeds </strong>to a <strong>pestle & mortar </strong>with your <strong>black mustard seeds </strong>and a pinch of <strong>salt </strong>and roughly bash until you end up with a coarse powder \u2013 this is your <strong>spice mix</strong></p><p>Once hot, add your <strong>ginger & garlic paste </strong>and <strong>chopped green beans </strong>with your <strong>ground turmeric</strong>, <strong>curry powder </strong>and <strong>spice mix </strong>and cook for 1 min or until fragrant</p>",
             "order": 3,
             "image": "/images/instructions/sri-lankan-style-pineapple-and-chickpea-curry/step-3.jpg"
         },
@@ -177,7 +177,7 @@
             "image": "/images/instructions/sri-lankan-style-pineapple-and-chickpea-curry/step-6.jpg"
         },
         {
-            "instruction": "<p>While the curry is cooking, squeeze your pouch[es] of<strong> cooked white long grain rice</strong> to separate the grains</p><p>Tear the top corner of the pouch[es] (just a little!) and <strong>microwave</strong> for 2 min or until piping hot</p><p>Tip: If you're cooking two pouches, pop them in together but increase the microwave cook time accordingly</p>",
+            "instruction": "<p>While the curry is cooking, squeeze your pouch[es] of<strong> cooked long grain rice</strong> to separate the grains</p><p>Tear the top corner of the pouch[es] (just a little!) and <strong>microwave</strong> for 2 min or until piping hot</p><p>Tip: If you're cooking two pouches, pop them in together but increase the microwave cook time accordingly</p>",
             "order": 7,
             "image": "/images/instructions/sri-lankan-style-pineapple-and-chickpea-curry/step-7.jpg"
         },

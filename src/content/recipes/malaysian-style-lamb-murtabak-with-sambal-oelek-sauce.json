@@ -7,27 +7,23 @@
     "gousto_id": "7420",
     "rating": {
         "average": 4.5,
-        "count": 376
+        "count": 377
     },
     "description": "Experience the flavours of Malaysia's hawker markets with our take on a street food classic. You'll pack your roti with curry-spiced lamb, bake until golden then serve with rice, cucumber salad and spicy sambal oelek sauce for dipping.",
     "ingredients": [
-        {
-            "label": "Curry powder (0.5tbsp)",
-            "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
-            "allergens": [],
-            "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
-        },
-        {
-            "label": "Lamb mince (250g)",
-            "gousto_uuid": "6b169ed1-5fb7-47f8-9265-437b39a47746",
-            "allergens": [],
-            "image": "/images/ingredients/6b169ed1-5fb7-47f8-9265-437b39a47746.jpg"
-        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Roti (4pcs)",
+            "gousto_uuid": "37145a20-bbdc-4b7c-bda4-d5ed1d55af46",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/37145a20-bbdc-4b7c-bda4-d5ed1d55af46.jpg"
         },
         {
             "label": "Dried chilli flakes (0.5tsp)",
@@ -36,16 +32,28 @@
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "label": "Curry powder (0.5tbsp)",
+            "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
             "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+            "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
+        },
+        {
+            "label": "Sambal oelek (20g)",
+            "gousto_uuid": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
+            "allergens": [],
+            "image": "/images/ingredients/8544cfa6-69b5-4789-a3a3-125f7c3459f5.jpg"
         },
         {
             "label": "Lamb mince (125g) x0",
             "gousto_uuid": "2397c77a-f7f2-4ad5-93a3-3e762aab14ed",
             "allergens": [],
             "image": "/images/ingredients/2397c77a-f7f2-4ad5-93a3-3e762aab14ed.jpg"
+        },
+        {
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "allergens": [],
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
         },
         {
             "label": "Soy sauce (15ml)",
@@ -57,6 +65,42 @@
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
+            "label": "White basmati rice (100g)",
+            "gousto_uuid": "17539a8a-b808-4c93-b53d-a21d91136575",
+            "allergens": [],
+            "image": "/images/ingredients/17539a8a-b808-4c93-b53d-a21d91136575.jpg"
+        },
+        {
+            "label": "White basmati rice (50g) x0",
+            "gousto_uuid": "10c033ea-4d86-4744-8d88-d51dea5d2e21",
+            "allergens": [],
+            "image": "/images/ingredients/10c033ea-4d86-4744-8d88-d51dea5d2e21.jpg"
+        },
+        {
+            "label": "Lamb mince (250g)",
+            "gousto_uuid": "6b169ed1-5fb7-47f8-9265-437b39a47746",
+            "allergens": [],
+            "image": "/images/ingredients/6b169ed1-5fb7-47f8-9265-437b39a47746.jpg"
+        },
+        {
+            "label": "Rice vinegar (30ml) x0",
+            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
+            "allergens": [],
+            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
+        },
+        {
+            "label": "Rice vinegar (15ml)",
+            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
+            "allergens": [],
+            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
+        },
+        {
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
             "label": "Soy sauce (30ml) x0",
             "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
@@ -66,62 +110,6 @@
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
-            "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Roti (4pcs)",
-            "gousto_uuid": "37145a20-bbdc-4b7c-bda4-d5ed1d55af46",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/37145a20-bbdc-4b7c-bda4-d5ed1d55af46.jpg"
-        },
-        {
-            "label": "White basmati rice (50g) x0",
-            "gousto_uuid": "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-            "allergens": [],
-            "image": "/images/ingredients/10c033ea-4d86-4744-8d88-d51dea5d2e21.jpg"
-        },
-        {
-            "label": "Sambal oelek (20g)",
-            "gousto_uuid": "8544cfa6-69b5-4789-a3a3-125f7c3459f5",
-            "allergens": [],
-            "image": "/images/ingredients/8544cfa6-69b5-4789-a3a3-125f7c3459f5.jpg"
-        },
-        {
-            "label": "Tamarind paste (15g)",
-            "gousto_uuid": "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
-            "allergens": [],
-            "image": "/images/ingredients/eec1fcf3-a00b-4321-bedd-d7a5c1754881.jpg"
-        },
-        {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-            "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
-        },
-        {
-            "label": "White basmati rice (100g)",
-            "gousto_uuid": "17539a8a-b808-4c93-b53d-a21d91136575",
-            "allergens": [],
-            "image": "/images/ingredients/17539a8a-b808-4c93-b53d-a21d91136575.jpg"
-        },
-        {
-            "label": "Rice vinegar (15ml)",
-            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-            "allergens": [],
-            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
-        },
-        {
-            "label": "Rice vinegar (30ml) x0",
-            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
-            "allergens": [],
-            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
-        },
-        {
             "label": "Soy sauce (8ml) x0",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
             "allergens": [
@@ -129,6 +117,18 @@
                 "soya"
             ],
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Tamarind paste (15g)",
+            "gousto_uuid": "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
+            "allergens": [],
+            "image": "/images/ingredients/eec1fcf3-a00b-4321-bedd-d7a5c1754881.jpg"
         }
     ],
     "basics": [

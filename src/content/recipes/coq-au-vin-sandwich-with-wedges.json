@@ -7,11 +7,43 @@
     "gousto_id": "6312",
     "rating": {
         "average": 4.5,
-        "count": 2314
+        "count": 2315
     },
     "description": "This French-style sandwich is one to watch. Load your crispy chicken breast into ciabatta before smothering it in a rich red wine and shallot gravy and garlicky aioli. Serve it with salt and pepper wedges and dig in.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
+            "label": "Red wine paste (10g)",
+            "gousto_uuid": "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+            "allergens": [
+                "sulphites"
+            ],
+            "image": "/images/ingredients/e71a0fb5-d23d-430a-a43b-0b699f965bd0.jpg"
+        },
+        {
+            "label": "Chicken breast portion x0",
+            "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+            "allergens": [],
+            "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
+        },
+        {
+            "label": "Cornflour (1tbsp)",
+            "gousto_uuid": "1dd3a011-a8dd-4804-b092-51da7f9c2f8d",
+            "allergens": [],
+            "image": "/images/ingredients/1dd3a011-a8dd-4804-b092-51da7f9c2f8d.jpg"
+        },
+        {
+            "label": "Cornflour (1tsp) x0",
+            "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+            "allergens": [],
+            "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
+        },
         {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -20,12 +52,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
-        },
-        {
-            "label": "Shallot x2",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -43,36 +69,12 @@
             "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
         },
         {
-            "label": "Chicken breast portion x0",
-            "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-            "allergens": [],
-            "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
-        },
-        {
-            "label": "Intense chicken stock mix (5.5g)",
-            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-            "allergens": [],
-            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-        },
-        {
-            "label": "Red wine paste (10g)",
-            "gousto_uuid": "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+            "label": "Ciabatta x2",
+            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
             "allergens": [
-                "sulphites"
+                "gluten"
             ],
-            "image": "/images/ingredients/e71a0fb5-d23d-430a-a43b-0b699f965bd0.jpg"
-        },
-        {
-            "label": "Cornflour (1tbsp)",
-            "gousto_uuid": "1dd3a011-a8dd-4804-b092-51da7f9c2f8d",
-            "allergens": [],
-            "image": "/images/ingredients/1dd3a011-a8dd-4804-b092-51da7f9c2f8d.jpg"
-        },
-        {
-            "label": "Cornflour (1tsp) x0",
-            "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-            "allergens": [],
-            "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
+            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
         },
         {
             "label": "Roasted garlic paste (15g)",
@@ -87,14 +89,6 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Ciabatta x2",
-            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
-        },
-        {
             "label": "Rocket (20g)",
             "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
             "allergens": [],
@@ -105,6 +99,12 @@
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+        },
+        {
+            "label": "Shallot x2",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "White potato x3",

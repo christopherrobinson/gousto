@@ -7,11 +7,19 @@
     "gousto_id": "7659",
     "rating": {
         "average": 4.5,
-        "count": 843
+        "count": 844
     },
     "description": "One pan, big flavours! You'll combine a bed of smoky paprika orzo with juicy cherry tomatoes, then top with fresh mussels steamed to perfection. A drizzle of garlic parsley butter and you're in spring flavour heaven.",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Orzo (75g) x0",
+            "gousto_uuid": "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/8ad44fed-6181-4b86-95b7-af6aeb5cc1b7.jpg"
+        },
         {
             "label": "Plain cooked mussels (250g) x0",
             "gousto_uuid": "d578a37a-1dc5-4cea-a213-e765154422e7",
@@ -21,28 +29,10 @@
             "image": "/images/ingredients/d578a37a-1dc5-4cea-a213-e765154422e7.jpg"
         },
         {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Ground smoked paprika (2tsp) x0",
-            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-            "allergens": [],
-            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
             "label": "Ground smoked paprika (1tsp)",
             "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
             "allergens": [],
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g) x0",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -51,44 +41,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Cherry tomatoes (125g)",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "label": "Ground smoked paprika (2tsp) x0",
+            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
-        },
-        {
-            "label": "Tomato paste (16g) x0",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "Vegetable stock mix (5.5g)",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
-            "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
-        },
-        {
-            "label": "Plain cooked mussels (500g)",
-            "gousto_uuid": "b23dc66e-dd83-44d2-b54b-3a2f9657223d",
-            "allergens": [
-                "mollusc"
-            ],
-            "image": "/images/ingredients/b23dc66e-dd83-44d2-b54b-3a2f9657223d.jpg"
-        },
-        {
-            "label": "Orzo (75g) x0",
-            "gousto_uuid": "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/8ad44fed-6181-4b86-95b7-af6aeb5cc1b7.jpg"
+            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
         },
         {
             "label": "Orzo (150g)",
@@ -99,10 +55,54 @@
             "image": "/images/ingredients/3ef06794-4313-4888-876e-9de6a56d6204.jpg"
         },
         {
+            "label": "Cherry tomatoes (250g) x0",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+        },
+        {
             "label": "Parsley (5g)",
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+        },
+        {
+            "label": "Plain cooked mussels (500g)",
+            "gousto_uuid": "b23dc66e-dd83-44d2-b54b-3a2f9657223d",
+            "allergens": [
+                "mollusc"
+            ],
+            "image": "/images/ingredients/b23dc66e-dd83-44d2-b54b-3a2f9657223d.jpg"
+        },
+        {
+            "label": "Tomato paste (16g) x0",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g)",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (125g)",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         }
     ],
     "basics": [

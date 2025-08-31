@@ -11,16 +11,26 @@
     "gousto_id": "967",
     "rating": {
         "average": 4.5,
-        "count": 8582
+        "count": 8607
     },
     "description": "Enjoy crispy homemade pizza with minimum effort and maximum cheese. When your pizza's nearly done, whip up a balsamic-dressed side salad with a handful of seeds for crunch.",
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Tomato paste (32g) x2",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+            "label": "Flame-baked pizza bases (2pcs)",
+            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
+        },
+        {
+            "label": "Mozzarella (125g)",
+            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
         },
         {
             "label": "Garlic clove",
@@ -29,16 +39,16 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
             "label": "Baby leaf salad (50g)",
             "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
             "allergens": [],
             "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
-        },
-        {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "Pine kernel & seed mix (30g)",
@@ -49,20 +59,6 @@
                 "sesame"
             ],
             "image": "/images/ingredients/d3e8b905-e330-4b72-a0d4-57a7eb0f5449.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Flame-baked pizza bases (2pcs)",
-            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
         },
         {
             "label": "Lighter cheese (30g)",
@@ -81,12 +77,16 @@
             "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
         },
         {
-            "label": "Mozzarella (125g)",
-            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+            "label": "Tomato paste (32g) x2",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "Balsamic vinegar (15ml)",
@@ -148,6 +148,7 @@
     "allergens": [
         "gluten",
         "milk",
+        "nut",
         "peanut",
         "sesame",
         "sulphites"

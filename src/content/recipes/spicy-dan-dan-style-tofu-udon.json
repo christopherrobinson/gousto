@@ -7,22 +7,30 @@
     "gousto_id": "6400",
     "rating": {
         "average": 4.5,
-        "count": 1791
+        "count": 1792
     },
     "description": "A Sichuan classic, these fiery dan dan noodles aren't for the faint of heart. You'll crisp up tofu in Chinese 5 spice and soy before adding udon noodles and coating the lot in a sticky-spicy dan dan sauce. Now that packs a punch.",
     "cuisine": "Chinese",
     "ingredients": [
         {
-            "label": "Five-spice mix (1tsp)",
-            "gousto_uuid": "8257b5b7-8205-4fce-b42e-701a27261689",
-            "allergens": [],
-            "image": "/images/ingredients/8257b5b7-8205-4fce-b42e-701a27261689.jpg"
-        },
-        {
             "label": "Dried chilli flakes (1tsp)",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Blanched peas (160g)",
+            "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
+            "allergens": [],
+            "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
+        },
+        {
+            "label": "Udon noodles (200g) x2",
+            "gousto_uuid": "8f4e2d07-f89d-4d74-b28b-e93fb7de8679",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/8f4e2d07-f89d-4d74-b28b-e93fb7de8679.jpg"
         },
         {
             "label": "Dried chilli flakes (0.5tsp) x0",
@@ -31,10 +39,22 @@
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "label": "Umami seasoning (1tbsp)",
+            "gousto_uuid": "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
             "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "image": "/images/ingredients/0848a8a2-2ad1-4124-acd3-4ac4c987d445.jpg"
+        },
+        {
+            "label": "Cornflour (1tsp)",
+            "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
+            "allergens": [],
+            "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
+        },
+        {
+            "label": "Five-spice mix (1tsp)",
+            "gousto_uuid": "8257b5b7-8205-4fce-b42e-701a27261689",
+            "allergens": [],
+            "image": "/images/ingredients/8257b5b7-8205-4fce-b42e-701a27261689.jpg"
         },
         {
             "label": "Soy sauce (15ml)",
@@ -46,21 +66,6 @@
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
-            "label": "Soy sauce (30ml) x0",
-            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Umami seasoning (1tbsp)",
-            "gousto_uuid": "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
-            "allergens": [],
-            "image": "/images/ingredients/0848a8a2-2ad1-4124-acd3-4ac4c987d445.jpg"
-        },
-        {
             "label": "Tahini (15g)",
             "gousto_uuid": "89dcbb54-8841-49af-8505-50964fb17a51",
             "allergens": [
@@ -69,12 +74,10 @@
             "image": "/images/ingredients/89dcbb54-8841-49af-8505-50964fb17a51.jpg"
         },
         {
-            "label": "Udon noodles (200g) x2",
-            "gousto_uuid": "8f4e2d07-f89d-4d74-b28b-e93fb7de8679",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/8f4e2d07-f89d-4d74-b28b-e93fb7de8679.jpg"
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "Hoisin sauce (40g)",
@@ -85,12 +88,6 @@
             "image": "/images/ingredients/74311c86-2d88-4c4b-9e0a-fd504da96054.jpg"
         },
         {
-            "label": "Cornflour (1tsp)",
-            "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-            "allergens": [],
-            "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
-        },
-        {
             "label": "Plain tofu (280g)",
             "gousto_uuid": "3d2328cc-da90-47e1-9553-4debba1d551c",
             "allergens": [
@@ -99,10 +96,10 @@
             "image": "/images/ingredients/3d2328cc-da90-47e1-9553-4debba1d551c.jpg"
         },
         {
-            "label": "Blanched peas (160g)",
-            "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
+            "label": "Rice vinegar (30ml) x0",
+            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
             "allergens": [],
-            "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
+            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
         },
         {
             "label": "Rice vinegar (15ml)",
@@ -111,10 +108,13 @@
             "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
         },
         {
-            "label": "Rice vinegar (30ml) x0",
-            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
-            "allergens": [],
-            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
+            "label": "Soy sauce (30ml) x0",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
             "label": "Soy sauce (8ml) x0",

@@ -13,12 +13,56 @@
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "Sliced pepperoni (30g)",
-            "gousto_uuid": "4bee20b7-9d2b-4ce3-b483-5965229b4048",
+            "label": "Chicken breast strips (250g)",
+            "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
+            "allergens": [],
+            "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
+        },
+        {
+            "label": "Flame-baked pizza bases (2pcs)",
+            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
             "allergens": [
-                "mustard"
+                "gluten"
             ],
-            "image": "/images/ingredients/4bee20b7-9d2b-4ce3-b483-5965229b4048.jpg"
+            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
+        },
+        {
+            "label": "Chicken breast strips (125g) x0",
+            "gousto_uuid": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
+            "allergens": [],
+            "image": "/images/ingredients/e2901605-6faf-4a5e-bf6c-bb137a5f32ac.jpg"
+        },
+        {
+            "label": "Bacon lardons (50g) x0",
+            "gousto_uuid": "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
+            "allergens": [],
+            "image": "/images/ingredients/efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296.jpg"
+        },
+        {
+            "label": "Bacon lardons (100g)",
+            "gousto_uuid": "ecbe9ede-af06-4753-b232-a5273ace435e",
+            "allergens": [],
+            "image": "/images/ingredients/ecbe9ede-af06-4753-b232-a5273ace435e.jpg"
+        },
+        {
+            "label": "Ground paprika (2tsp)",
+            "gousto_uuid": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
+            "allergens": [],
+            "image": "/images/ingredients/cb7a7f70-80cb-4648-840f-d350ad96d1ee.jpg"
+        },
+        {
+            "label": "Mozzarella (125g)",
+            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+        },
+        {
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
             "label": "Mayonnaise (25ml) x0",
@@ -30,24 +74,6 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Tomato paste (32g) x2",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Ground paprika (2tsp)",
-            "gousto_uuid": "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
-            "allergens": [],
-            "image": "/images/ingredients/cb7a7f70-80cb-4648-840f-d350ad96d1ee.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
             "label": "Mayonnaise (50ml)",
             "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
             "allergens": [
@@ -55,6 +81,12 @@
                 "mustard"
             ],
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
+        },
+        {
+            "label": "Ground paprika (1tsp) x0",
+            "gousto_uuid": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
+            "allergens": [],
+            "image": "/images/ingredients/70b7502c-e41a-45b7-ab66-d3edb68aa548.jpg"
         },
         {
             "label": "Panko breadcrumbs (60g) x0",
@@ -65,6 +97,12 @@
             "image": "/images/ingredients/260e9953-719b-430a-b7ef-f2c6e0aa56a5.jpg"
         },
         {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
             "label": "Panko breadcrumbs (30g)",
             "gousto_uuid": "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
             "allergens": [
@@ -73,56 +111,24 @@
             "image": "/images/ingredients/bd9a0571-27e5-48ee-a951-f2beeaa1099a.jpg"
         },
         {
-            "label": "Chicken breast strips (125g) x0",
-            "gousto_uuid": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
-            "allergens": [],
-            "image": "/images/ingredients/e2901605-6faf-4a5e-bf6c-bb137a5f32ac.jpg"
-        },
-        {
-            "label": "Bacon lardons (100g)",
-            "gousto_uuid": "ecbe9ede-af06-4753-b232-a5273ace435e",
-            "allergens": [],
-            "image": "/images/ingredients/ecbe9ede-af06-4753-b232-a5273ace435e.jpg"
-        },
-        {
-            "label": "Chicken breast strips (250g)",
-            "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
-            "allergens": [],
-            "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
-        },
-        {
-            "label": "Bacon lardons (50g) x0",
-            "gousto_uuid": "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
-            "allergens": [],
-            "image": "/images/ingredients/efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296.jpg"
-        },
-        {
             "label": "Red onion",
             "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
             "allergens": [],
             "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
         },
         {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "label": "Sliced pepperoni (30g)",
+            "gousto_uuid": "4bee20b7-9d2b-4ce3-b483-5965229b4048",
+            "allergens": [
+                "mustard"
+            ],
+            "image": "/images/ingredients/4bee20b7-9d2b-4ce3-b483-5965229b4048.jpg"
+        },
+        {
+            "label": "Tomato paste (32g) x2",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Flame-baked pizza bases (2pcs)",
-            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
-        },
-        {
-            "label": "Mozzarella (125g)",
-            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Chestnut mushrooms (80g)",
@@ -154,7 +160,7 @@
             "image": "/images/instructions/meaty-pizza-feast-with-chicken-dippers-and-wedges/step-1.jpg"
         },
         {
-            "instruction": "<p>Add 2 tbsp <span class=\"text-purple\">[3 tbsp] </span><span class=\"text-danger\">[4 tbsp] </span>of <strong>flour </strong>to a plate and a splash of <strong>milk </strong>to a shallow bowl</p><p>Add your <strong>panko breadcrumbs </strong>and <strong>half </strong>your <strong>ground paprika </strong>(you'll use the rest later!) to a separate plate with a small drizzle of <strong>olive oil </strong>and mix it all together</p><p>Season your <strong>chicken breast strips</strong> with a small pinch of <strong>salt</strong>, coat them in <strong>flour</strong>, tap off any excess, then add them to the <strong>milk </strong>and finally press them into the <strong>breadcrumbs </strong>firmly to coat evenly \u2013 these are your <strong>breaded chicken dippers</strong></p>",
+            "instruction": "<p>Add 1 1/2 tbsp <span class=\"text-purple\">[2 1/2 tbsp] </span><span class=\"text-danger\">[3 1/2 tbsp] </span>of <strong>flour </strong>to a plate and a splash of <strong>milk </strong>to a shallow bowl</p><p>Add your <strong>panko breadcrumbs </strong>and <strong>half </strong>your <strong>ground paprika </strong>(you'll use the rest later!) to a separate plate with a small drizzle of <strong>olive oil </strong>and mix it all together</p><p>Season your <strong>chicken breast strips</strong> with a small pinch of <strong>salt</strong>, coat them in <strong>flour</strong>, tap off any excess, then add them to the <strong>milk </strong>and finally press them into the <strong>breadcrumbs </strong>firmly to coat evenly \u2013 these are your <strong>breaded chicken dippers</strong></p>",
             "order": 2,
             "image": "/images/instructions/meaty-pizza-feast-with-chicken-dippers-and-wedges/step-2.jpg"
         },
@@ -164,7 +170,7 @@
             "image": "/images/instructions/meaty-pizza-feast-with-chicken-dippers-and-wedges/step-3.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>tomato paste</strong> to a bowl with a generous pinch of <strong>salt </strong>and <strong>pepper </strong>and 1 tsp<span class=\"text-purple\"> [1 1/2 tsp]</span><span class=\"text-danger\"> [2 tsp]</span> <strong>sugar</strong></p><p>Add 5 tbsp <span class=\"text-purple\">[7 1/2 tbsp]</span> <span class=\"text-danger\">[10 tbsp] </span><strong>cold water</strong> and stir it all together \u2013 this is your <strong>tomato sauce</strong></p><p>Drain your <strong>mozzarella</strong>, then pat and squeeze as much liquid out as you can with kitchen paper</p><p>Tear the <strong>drained mozzarella</strong> into rough, bite-sized pieces</p>",
+            "instruction": "<p>Add your <strong>tomato paste</strong> to a bowl with a pinch of <strong>salt </strong>and <strong>pepper </strong>and 1 tsp<span class=\"text-purple\"> [1 1/2 tsp]</span><span class=\"text-danger\"> [2 tsp]</span> <strong>sugar</strong></p><p>Add 5 tbsp <span class=\"text-purple\">[7 1/2 tbsp]</span> <span class=\"text-danger\">[10 tbsp] </span><strong>cold water</strong> and stir it all together \u2013 this is your <strong>tomato sauce</strong></p><p>Drain your <strong>mozzarella</strong>, then pat and squeeze as much liquid out as you can with kitchen paper</p><p>Tear the <strong>drained mozzarella</strong> into rough, bite-sized pieces</p>",
             "order": 4,
             "image": "/images/instructions/meaty-pizza-feast-with-chicken-dippers-and-wedges/step-4.jpg"
         },
@@ -230,7 +236,7 @@
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
+                "70b7502c-e41a-45b7-ab66-d3edb68aa548",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "d93301c4-2563-4b9d-b829-991800ca87b4",
                 "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
@@ -271,6 +277,7 @@
                 "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
+                "70b7502c-e41a-45b7-ab66-d3edb68aa548",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "d93301c4-2563-4b9d-b829-991800ca87b4",
@@ -312,6 +319,7 @@
                 "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
+                "70b7502c-e41a-45b7-ab66-d3edb68aa548",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "d93301c4-2563-4b9d-b829-991800ca87b4",

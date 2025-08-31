@@ -7,17 +7,11 @@
     "gousto_id": "4142",
     "rating": {
         "average": 4.5,
-        "count": 21132
+        "count": 21148
     },
     "description": "Savoury bacon lardons, fresh tomatoes and chilli flakes come together for this spicy Roman favourite. Serve it with tomato and mozzarella tortelloni and dig in. Delizioso.",
     "cuisine": "Italian",
     "ingredients": [
-        {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -31,10 +25,10 @@
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
-            "label": "Garlic clove x2",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "label": "Bacon lardons (50g) x0",
+            "gousto_uuid": "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
             "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+            "image": "/images/ingredients/efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296.jpg"
         },
         {
             "label": "Bacon lardons (100g)",
@@ -43,36 +37,16 @@
             "image": "/images/ingredients/ecbe9ede-af06-4753-b232-a5273ace435e.jpg"
         },
         {
-            "label": "Bacon lardons (50g) x0",
-            "gousto_uuid": "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
+            "label": "Garlic clove x2",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (125g)",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
-            "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
-        },
-        {
-            "label": "Tomato paste (16g) x0",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
             "label": "Dried oregano (1tsp)",
             "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
             "allergens": [],
             "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Grated Italian hard cheese (30g)",
-            "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
         },
         {
             "label": "Tomato & mozzarella tortelloni (250g)",
@@ -87,10 +61,36 @@
             "image": "/images/ingredients/6588ce64-f98b-440f-a656-6e9d2abb298c.jpg"
         },
         {
+            "label": "Grated Italian hard cheese (30g)",
+            "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
+        },
+        {
+            "label": "Tomato paste (16g) x0",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
             "label": "Chicken stock mix (5.5g)",
             "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (125g)",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         }
     ],
     "basics": [
@@ -175,7 +175,7 @@
     },
     "portion_sizes": {
         "1": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
@@ -203,7 +203,7 @@
             ]
         },
         "3": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
@@ -233,7 +233,7 @@
             ]
         },
         "5": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
