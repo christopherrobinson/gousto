@@ -13,7 +13,7 @@
     "gousto_id": "1062",
     "rating": {
         "average": 4.5,
-        "count": 1956
+        "count": 1958
     },
     "description": "Spice up your sea bass with some fiery flavour. You'll cook pak choi with egg noodles before tossing the lot in spicy Szechuan-style chilli and soy sauce. Top with crispy sea bass and spring onion to garnish. Easy.",
     "cuisine": "Chinese",
@@ -23,6 +23,14 @@
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Sea bass fillet x0",
+            "gousto_uuid": "4dbc1454-24ec-496d-8b91-e1155ab320e5",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/4dbc1454-24ec-496d-8b91-e1155ab320e5.jpg"
         },
         {
             "label": "Dried chilli flakes (0.5tsp)",
@@ -37,10 +45,13 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Spring onion x2",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "label": "Medium egg noodle nests (2pcs)",
+            "gousto_uuid": "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
         },
         {
             "label": "Soy sauce (15ml) x0",
@@ -52,23 +63,6 @@
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
-            "label": "Soy sauce (30ml)",
-            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Sea bass fillet x0",
-            "gousto_uuid": "4dbc1454-24ec-496d-8b91-e1155ab320e5",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/4dbc1454-24ec-496d-8b91-e1155ab320e5.jpg"
-        },
-        {
             "label": "Sea bass fillets (2pcs)",
             "gousto_uuid": "62c690bf-b5f9-4702-bc13-683c3ffbc7c9",
             "allergens": [
@@ -77,13 +71,19 @@
             "image": "/images/ingredients/62c690bf-b5f9-4702-bc13-683c3ffbc7c9.jpg"
         },
         {
-            "label": "Medium egg noodle nests (2pcs)",
-            "gousto_uuid": "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
+            "label": "Spring onion x2",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (30ml)",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
-                "egg",
-                "gluten"
+                "gluten",
+                "soya"
             ],
-            "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
             "label": "Pak choi (200g)",
@@ -156,27 +156,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 149,
+            "energy_kcal": 148,
             "energy_kj": 625,
             "fat_mg": 2471,
             "fat_saturates_mg": 576,
-            "carbs_mg": 21975,
-            "carbs_sugars_mg": 3910,
-            "fibre_mg": 1151,
+            "carbs_mg": 22074,
+            "carbs_sugars_mg": 3810,
+            "fibre_mg": 489,
             "protein_mg": 9868,
-            "salt_mg": 1005,
+            "salt_mg": 1025,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 450,
+            "energy_kcal": 449,
             "energy_kj": 1889,
             "fat_mg": 7463,
             "fat_saturates_mg": 1740,
-            "carbs_mg": 66365,
-            "carbs_sugars_mg": 11809,
-            "fibre_mg": 3478,
+            "carbs_mg": 66665,
+            "carbs_sugars_mg": 11509,
+            "fibre_mg": 1478,
             "protein_mg": 29804,
-            "salt_mg": 3037,
+            "salt_mg": 3097,
             "net_weight_mg": 302000
         }
     },

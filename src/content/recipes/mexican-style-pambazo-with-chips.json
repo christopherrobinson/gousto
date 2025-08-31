@@ -13,10 +13,13 @@
     "cuisine": "Mexican",
     "ingredients": [
         {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+            "label": "Brioche style buns (2pcs)",
+            "gousto_uuid": "3843fd0b-c75c-457f-99fb-378721464a4d",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
         },
         {
             "label": "Mayonnaise (25ml)",
@@ -37,6 +40,32 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
+            "label": "Dried ancho chilli",
+            "gousto_uuid": "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
+            "allergens": [],
+            "image": "/images/ingredients/f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf.jpg"
+        },
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+        },
+        {
+            "label": "Diced chorizo (50g) x0",
+            "gousto_uuid": "1733559d-1072-40f5-9eb8-c3d80ba7322f",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/1733559d-1072-40f5-9eb8-c3d80ba7322f.jpg"
+        },
+        {
             "label": "Diced chorizo (100g)",
             "gousto_uuid": "6e9adda2-505e-4f2f-a9c1-4d8ec79ce05b",
             "allergens": [
@@ -51,16 +80,10 @@
             "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
         },
         {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Feta (30g)",
@@ -71,39 +94,16 @@
             "image": "/images/ingredients/9b191c6b-e6ec-41bb-9195-40b2cd147d3b.jpg"
         },
         {
-            "label": "Dried ancho chilli",
-            "gousto_uuid": "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
-            "allergens": [],
-            "image": "/images/ingredients/f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf.jpg"
-        },
-        {
-            "label": "Brioche style buns (2pcs)",
-            "gousto_uuid": "3843fd0b-c75c-457f-99fb-378721464a4d",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Diced chorizo (50g) x0",
-            "gousto_uuid": "1733559d-1072-40f5-9eb8-c3d80ba7322f",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/1733559d-1072-40f5-9eb8-c3d80ba7322f.jpg"
-        },
-        {
             "label": "Gem lettuce",
             "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
             "allergens": [],
             "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
+        },
+        {
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "allergens": [],
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
         },
         {
             "label": "White potato x4",
@@ -172,7 +172,7 @@
             "energy_kcal": 161,
             "energy_kj": 674,
             "fat_mg": 7757,
-            "fat_saturates_mg": 2092,
+            "fat_saturates_mg": 2095,
             "carbs_mg": 17512,
             "carbs_sugars_mg": 3198,
             "fibre_mg": 2462,
@@ -184,7 +184,7 @@
             "energy_kcal": 733,
             "energy_kj": 3070,
             "fat_mg": 35298,
-            "fat_saturates_mg": 9519,
+            "fat_saturates_mg": 9533,
             "carbs_mg": 79681,
             "carbs_sugars_mg": 14553,
             "fibre_mg": 11206,

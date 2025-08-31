@@ -10,11 +10,17 @@
     "gousto_id": "2261",
     "rating": {
         "average": 4.5,
-        "count": 7982
+        "count": 7983
     },
     "description": "For a vegetarian twist on a fast food classic, you'll coat halloumi in breadcrumbs and our homemade southern fried seasoning. Serve with potato wedges, red cabbage slaw and chilli jam for dipping.",
     "cuisine": "American",
     "ingredients": [
+        {
+            "label": "Ground smoked paprika (1tsp)",
+            "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
+            "allergens": [],
+            "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+        },
         {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -23,24 +29,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
-        },
-        {
-            "label": "Ground smoked paprika (2tsp) x0",
-            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-            "allergens": [],
-            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
-            "label": "Ground smoked paprika (1tsp)",
-            "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
-            "allergens": [],
-            "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
-        },
-        {
-            "label": "Shredded red cabbage (150g)",
-            "gousto_uuid": "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
-            "allergens": [],
-            "image": "/images/ingredients/3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -52,36 +40,18 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
+            "label": "Ground smoked paprika (2tsp) x0",
+            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+            "allergens": [],
+            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+        },
+        {
             "label": "Panko breadcrumbs (60g) x0",
             "gousto_uuid": "260e9953-719b-430a-b7ef-f2c6e0aa56a5",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/260e9953-719b-430a-b7ef-f2c6e0aa56a5.jpg"
-        },
-        {
-            "label": "Panko breadcrumbs (30g)",
-            "gousto_uuid": "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/bd9a0571-27e5-48ee-a951-f2beeaa1099a.jpg"
-        },
-        {
-            "label": "Free range egg",
-            "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-            "allergens": [
-                "egg"
-            ],
-            "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
-        },
-        {
-            "label": "Halloumi (200g)",
-            "gousto_uuid": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/14341c5e-3c23-4fb0-b591-8ea2baa90e12.jpg"
         },
         {
             "label": "Red chilli relish (40g)",
@@ -96,16 +66,46 @@
             "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
         },
         {
-            "label": "Cider vinegar (15ml)",
-            "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-            "allergens": [],
-            "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
+            "label": "Panko breadcrumbs (30g)",
+            "gousto_uuid": "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/bd9a0571-27e5-48ee-a951-f2beeaa1099a.jpg"
+        },
+        {
+            "label": "Halloumi (200g)",
+            "gousto_uuid": "14341c5e-3c23-4fb0-b591-8ea2baa90e12",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/14341c5e-3c23-4fb0-b591-8ea2baa90e12.jpg"
+        },
+        {
+            "label": "Free range egg",
+            "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
+            "allergens": [
+                "egg"
+            ],
+            "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
         },
         {
             "label": "Carrot",
             "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
             "allergens": [],
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
+        },
+        {
+            "label": "Cider vinegar (15ml)",
+            "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
+            "allergens": [],
+            "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
+        },
+        {
+            "label": "Shredded red cabbage (150g)",
+            "gousto_uuid": "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
+            "allergens": [],
+            "image": "/images/ingredients/3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7.jpg"
         },
         {
             "label": "White potato x3",

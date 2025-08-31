@@ -12,11 +12,19 @@
     "gousto_id": "2922",
     "rating": {
         "average": 4,
-        "count": 17410
+        "count": 17411
     },
     "description": "Pack heaps of moreish umami goodness into protein-packed tofu with an easy sweet 'n' savoury glaze. For lean, low-carb satisfaction, serve it with ginger and garlic stir-fried greens. All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein..",
     "cuisine": "Asian",
     "ingredients": [
+        {
+            "label": "Blanched edamame beans (160g)",
+            "gousto_uuid": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/1d0b02a0-920b-44e2-b8c4-2fb993205dc1.jpg"
+        },
         {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -24,10 +32,34 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Spring greens (150g)",
-            "gousto_uuid": "af9d40c0-8242-41ee-8fb0-121ce473be36",
+            "label": "Fresh root ginger (15g)",
+            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
             "allergens": [],
-            "image": "/images/ingredients/af9d40c0-8242-41ee-8fb0-121ce473be36.jpg"
+            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
+        },
+        {
+            "label": "White miso paste (30g)",
+            "gousto_uuid": "2411a798-b42d-48a1-8ead-8a7571b94690",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/2411a798-b42d-48a1-8ead-8a7571b94690.jpg"
+        },
+        {
+            "label": "White miso paste (17g) x0",
+            "gousto_uuid": "77066e71-83ba-4375-b8c3-8576da80b529",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
+        },
+        {
+            "label": "Plain tofu (280g)",
+            "gousto_uuid": "3d2328cc-da90-47e1-9553-4debba1d551c",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/3d2328cc-da90-47e1-9553-4debba1d551c.jpg"
         },
         {
             "label": "Black sesame seeds (5g)",
@@ -43,54 +75,22 @@
             "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
+            "label": "Spring greens (150g)",
+            "gousto_uuid": "af9d40c0-8242-41ee-8fb0-121ce473be36",
+            "allergens": [],
+            "image": "/images/ingredients/af9d40c0-8242-41ee-8fb0-121ce473be36.jpg"
+        },
+        {
             "label": "Mirin (15ml)",
             "gousto_uuid": "d9327456-b80e-4ea2-9d4a-3137c5d1471c",
             "allergens": [],
             "image": "/images/ingredients/d9327456-b80e-4ea2-9d4a-3137c5d1471c.jpg"
         },
         {
-            "label": "White miso paste (30g)",
-            "gousto_uuid": "2411a798-b42d-48a1-8ead-8a7571b94690",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2411a798-b42d-48a1-8ead-8a7571b94690.jpg"
-        },
-        {
             "label": "Mirin (30ml) x0",
             "gousto_uuid": "7eb70cf4-458d-4be8-b513-972188692b59",
             "allergens": [],
             "image": "/images/ingredients/7eb70cf4-458d-4be8-b513-972188692b59.jpg"
-        },
-        {
-            "label": "White miso paste (17g) x0",
-            "gousto_uuid": "77066e71-83ba-4375-b8c3-8576da80b529",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
-        },
-        {
-            "label": "Fresh root ginger (15g)",
-            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
-            "allergens": [],
-            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
-        },
-        {
-            "label": "Plain tofu (280g)",
-            "gousto_uuid": "3d2328cc-da90-47e1-9553-4debba1d551c",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/3d2328cc-da90-47e1-9553-4debba1d551c.jpg"
-        },
-        {
-            "label": "Blanched edamame beans (160g)",
-            "gousto_uuid": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/1d0b02a0-920b-44e2-b8c4-2fb993205dc1.jpg"
         },
         {
             "label": "Soy sauce (8ml)",
@@ -165,27 +165,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 97,
+            "energy_kcal": 96,
             "energy_kj": 404,
             "fat_mg": 4681,
             "fat_saturates_mg": 649,
-            "carbs_mg": 4208,
-            "carbs_sugars_mg": 2379,
-            "fibre_mg": 2997,
+            "carbs_mg": 4278,
+            "carbs_sugars_mg": 2310,
+            "fibre_mg": 2536,
             "protein_mg": 7867,
-            "salt_mg": 491,
+            "salt_mg": 505,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 422,
+            "energy_kcal": 421,
             "energy_kj": 1758,
             "fat_mg": 20340,
             "fat_saturates_mg": 2822,
-            "carbs_mg": 18288,
-            "carbs_sugars_mg": 10341,
-            "fibre_mg": 13022,
+            "carbs_mg": 18588,
+            "carbs_sugars_mg": 10041,
+            "fibre_mg": 11022,
             "protein_mg": 34185,
-            "salt_mg": 2135,
+            "salt_mg": 2195,
             "net_weight_mg": 434500
         }
     },

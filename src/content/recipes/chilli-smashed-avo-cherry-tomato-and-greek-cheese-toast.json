@@ -7,7 +7,7 @@
     "gousto_id": "7498",
     "rating": {
         "average": 4.5,
-        "count": 928
+        "count": 930
     },
     "description": "Start your day right with breakfast that won't take up your whole morning. You'll load toasted ciabatta with chilli smashed avo, cherry tomatoes and Greek cheese before garnishing with seeds to finish. Banging.",
     "cuisine": "Australian",
@@ -25,22 +25,16 @@
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
-            "label": "Cherry tomatoes (250g) x0",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
-        },
-        {
             "label": "Smashed avocado (100g)",
             "gousto_uuid": "1a774aa3-6956-494d-9146-a1074dece385",
             "allergens": [],
             "image": "/images/ingredients/1a774aa3-6956-494d-9146-a1074dece385.jpg"
         },
         {
-            "label": "Cherry tomatoes (125g)",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "label": "Cherry tomatoes (250g) x0",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
             "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         },
         {
             "label": "Pine kernel & seed mix (30g)",
@@ -53,6 +47,14 @@
             "image": "/images/ingredients/d3e8b905-e330-4b72-a0d4-57a7eb0f5449.jpg"
         },
         {
+            "label": "Ciabatta x2",
+            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
             "label": "Greek salad cheese (100g)",
             "gousto_uuid": "c7319a82-2ddf-463d-82a1-36ae156f4433",
             "allergens": [
@@ -61,12 +63,10 @@
             "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
         },
         {
-            "label": "Ciabatta x2",
-            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+            "label": "Cherry tomatoes (125g)",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         }
     ],
     "basics": [
@@ -119,6 +119,7 @@
     "allergens": [
         "gluten",
         "milk",
+        "nut",
         "peanut",
         "sesame"
     ],

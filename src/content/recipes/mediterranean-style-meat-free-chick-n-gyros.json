@@ -7,19 +7,24 @@
     "gousto_id": "5029",
     "rating": {
         "average": 4.5,
-        "count": 5802
+        "count": 5804
     },
     "description": "Create a meat-free masterpiece with this plant-based take on gyros. Serve with a vibrant Greek salad, and add a squeeze of lemon for a citrusy finish.",
     "cuisine": "Mediterranean",
     "ingredients": [
         {
-            "label": "Mayonnaise (25ml) x0",
-            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "label": "Plain naan (2pcs)",
+            "gousto_uuid": "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
             "allergens": [
-                "egg",
-                "mustard"
+                "gluten"
             ],
-            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+            "image": "/images/ingredients/39a4b972-e3f4-4ef9-978e-da600ee3cc12.jpg"
+        },
+        {
+            "label": "Ground smoked paprika (1tsp) x0",
+            "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
+            "allergens": [],
+            "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
         },
         {
             "label": "Ground sumac (1tsp)",
@@ -28,16 +33,13 @@
             "image": "/images/ingredients/7ad36d38-e066-44b4-adbd-7096dc954ab1.jpg"
         },
         {
-            "label": "Ground smoked paprika (2tsp)",
-            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-            "allergens": [],
-            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
-            "label": "Ground smoked paprika (1tsp) x0",
-            "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
-            "allergens": [],
-            "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+            "label": "Mayonnaise (25ml) x0",
+            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
             "label": "Mayonnaise (50ml)",
@@ -49,10 +51,10 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
-            "label": "Lemon",
-            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
+            "label": "Ground smoked paprika (2tsp)",
+            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
-            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
+            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
         },
         {
             "label": "Meat-free chick'n (160g)",
@@ -61,26 +63,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/b6232430-ec44-4bfd-b5a2-2924eab13959.jpg"
-        },
-        {
-            "label": "Plain naan (2pcs)",
-            "gousto_uuid": "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/39a4b972-e3f4-4ef9-978e-da600ee3cc12.jpg"
-        },
-        {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-            "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
-        },
-        {
-            "label": "Gem lettuce",
-            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-            "allergens": [],
-            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
             "label": "Gem lettuces (2pcs) x0",
@@ -93,6 +75,24 @@
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+        },
+        {
+            "label": "Lemon",
+            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
+            "allergens": [],
+            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
+        },
+        {
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
+            "label": "Gem lettuce",
+            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
+            "allergens": [],
+            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
             "label": "Soy sauce (8ml)",
@@ -167,7 +167,7 @@
             "energy_kcal": 130,
             "energy_kj": 547,
             "fat_mg": 6028,
-            "fat_saturates_mg": 536,
+            "fat_saturates_mg": 539,
             "carbs_mg": 12117,
             "carbs_sugars_mg": 1345,
             "fibre_mg": 2369,
@@ -179,7 +179,7 @@
             "energy_kcal": 575,
             "energy_kj": 2408,
             "fat_mg": 26527,
-            "fat_saturates_mg": 2359,
+            "fat_saturates_mg": 2372,
             "carbs_mg": 53318,
             "carbs_sugars_mg": 5919,
             "fibre_mg": 10424,

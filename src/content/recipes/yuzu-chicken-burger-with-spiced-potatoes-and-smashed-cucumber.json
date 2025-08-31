@@ -7,11 +7,40 @@
     "gousto_id": "7827",
     "rating": {
         "average": 4.5,
-        "count": 1133
+        "count": 1134
     },
     "description": "Japanese flavours combine for a burger meal like no other. You'll whip up a creamy yuzu mayo to dollop all over your chicken burger, then tuck into smashed cucumber and shichimi togarashi spiced potatoes on the side.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Chicken breast strips (250g)",
+            "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
+            "allergens": [],
+            "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
+        },
+        {
+            "label": "Chicken breast strips (125g) x0",
+            "gousto_uuid": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
+            "allergens": [],
+            "image": "/images/ingredients/e2901605-6faf-4a5e-bf6c-bb137a5f32ac.jpg"
+        },
+        {
+            "label": "Brioche style buns (2pcs)",
+            "gousto_uuid": "3843fd0b-c75c-457f-99fb-378721464a4d",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
+        },
+        {
+            "label": "Yuzu dressing (20g)",
+            "gousto_uuid": "af5659d8-317a-4c7e-989d-43cf87243184",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/af5659d8-317a-4c7e-989d-43cf87243184.jpg"
+        },
         {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
@@ -31,45 +60,16 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
-            "label": "Yuzu dressing (20g)",
-            "gousto_uuid": "af5659d8-317a-4c7e-989d-43cf87243184",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/af5659d8-317a-4c7e-989d-43cf87243184.jpg"
-        },
-        {
-            "label": "Chicken breast strips (125g) x0",
-            "gousto_uuid": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
-            "allergens": [],
-            "image": "/images/ingredients/e2901605-6faf-4a5e-bf6c-bb137a5f32ac.jpg"
-        },
-        {
-            "label": "Chicken breast strips (250g)",
-            "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
-            "allergens": [],
-            "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
-            "label": "Brioche style buns (2pcs)",
-            "gousto_uuid": "3843fd0b-c75c-457f-99fb-378721464a4d",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
-        },
-        {
             "label": "Waxy potatoes (350g)",
             "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
             "allergens": [],
             "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
+        {
+            "label": "Shichimi togarashi (2g)",
+            "gousto_uuid": "5538b1f1-7fd1-4355-b5fb-afbdb25c5a47",
+            "allergens": [],
+            "image": "/images/ingredients/5538b1f1-7fd1-4355-b5fb-afbdb25c5a47.jpg"
         },
         {
             "label": "Cucumber (0.5pcs)",
@@ -78,16 +78,16 @@
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "allergens": [],
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
+        },
+        {
             "label": "Rocket (20g)",
             "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
             "allergens": [],
             "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
-        },
-        {
-            "label": "Shichimi togarashi (2g)",
-            "gousto_uuid": "5538b1f1-7fd1-4355-b5fb-afbdb25c5a47",
-            "allergens": [],
-            "image": "/images/ingredients/5538b1f1-7fd1-4355-b5fb-afbdb25c5a47.jpg"
         }
     ],
     "basics": [
@@ -109,7 +109,7 @@
             "image": "/images/instructions/yuzu-chicken-burger-with-spiced-potatoes-and-smashed-cucumber/step-2.jpg"
         },
         {
-            "instruction": "<p>Slice <strong>half</strong> your <strong>cucumber</strong> into 4 slices per person</p><p>Bash your <strong>remaining cucumber</strong> with a <strong>rolling pin</strong>, then chop it into large, bite-sized pieces and season with a pinch of <strong>salt</strong></p>",
+            "instruction": "<p>Slice <strong>half</strong> your <strong>cucumber</strong> into 4 slices per person</p><p>Bash the <strong>remaining cucumber</strong> with a <strong>rolling pin</strong>, then chop it into large, bite-sized pieces and season with a pinch of <strong>salt</strong></p>",
             "order": 3,
             "image": "/images/instructions/yuzu-chicken-burger-with-spiced-potatoes-and-smashed-cucumber/step-3.jpg"
         },
@@ -119,7 +119,7 @@
             "image": "/images/instructions/yuzu-chicken-burger-with-spiced-potatoes-and-smashed-cucumber/step-4.jpg"
         },
         {
-            "instruction": "<p>Slice your <strong>brioche bun[s]</strong> in half</p><p>Heat a large, wide-based pan (preferably non-stick) over a medium heat and add the <strong>brioche halves,</strong> cut-side down, and cook for 2-3 min or until toasted</p>",
+            "instruction": "<p>Slice your <strong>brioche bun[s]</strong> in half (if required!)</p><p>Heat a large, wide-based pan (preferably non-stick) over a medium heat and add the <strong>brioche halves,</strong> cut-side down, and cook for 2-3 min or until toasted</p>",
             "order": 5,
             "image": "/images/instructions/yuzu-chicken-burger-with-spiced-potatoes-and-smashed-cucumber/step-5.jpg"
         },
@@ -139,11 +139,8 @@
         }
     ],
     "allergens": [
-        "crustacean",
         "egg",
-        "fish",
         "gluten",
-        "mollusc",
         "mustard",
         "soya"
     ],

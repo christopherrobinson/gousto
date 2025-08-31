@@ -13,12 +13,19 @@
     "cuisine": "Thai",
     "ingredients": [
         {
-            "label": "Ketjap manis (20g)",
-            "gousto_uuid": "ee62cb04-0a94-47ac-8ff8-b785bda9411a",
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "allergens": [],
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
+        },
+        {
+            "label": "Medium egg noodle nests (2pcs)",
+            "gousto_uuid": "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
             "allergens": [
-                "soya"
+                "egg",
+                "gluten"
             ],
-            "image": "/images/ingredients/ee62cb04-0a94-47ac-8ff8-b785bda9411a.jpg"
+            "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
         },
         {
             "label": "Stir fry mix (160g)",
@@ -33,22 +40,18 @@
             "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "label": "Ketjap manis (20g)",
+            "gousto_uuid": "ee62cb04-0a94-47ac-8ff8-b785bda9411a",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/ee62cb04-0a94-47ac-8ff8-b785bda9411a.jpg"
         },
         {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "label": "Red Thai curry paste (40g)",
+            "gousto_uuid": "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
             "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Solid creamed coconut (25g)",
-            "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
-            "allergens": [],
-            "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
+            "image": "/images/ingredients/84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85.jpg"
         },
         {
             "label": "Red Thai curry paste (20g) x0",
@@ -57,19 +60,16 @@
             "image": "/images/ingredients/d46409ec-5df2-494f-94ef-03c520a73a08.jpg"
         },
         {
-            "label": "Medium egg noodle nests (2pcs)",
-            "gousto_uuid": "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
+            "label": "Solid creamed coconut (25g)",
+            "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
+            "allergens": [],
+            "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
         },
         {
-            "label": "Red Thai curry paste (40g)",
-            "gousto_uuid": "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
-            "image": "/images/ingredients/84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85.jpg"
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -144,7 +144,7 @@
             "carbs_sugars_mg": 13849,
             "fibre_mg": 6079,
             "protein_mg": 36865,
-            "salt_mg": 2900,
+            "salt_mg": 2901,
             "net_weight_mg": 360000
         }
     },

@@ -13,10 +13,20 @@
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Bacon lardons (100g)",
-            "gousto_uuid": "ecbe9ede-af06-4753-b232-a5273ace435e",
+            "label": "Pots & Co - chocolate ganache (45g) x2",
+            "gousto_uuid": "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
+            "allergens": [
+                "milk",
+                "nut",
+                "soya"
+            ],
+            "image": "/images/ingredients/8bd94efe-d174-40fe-9a4f-32af74b2c73e.jpg"
+        },
+        {
+            "label": "Rocket (50g)",
+            "gousto_uuid": "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
             "allergens": [],
-            "image": "/images/ingredients/ecbe9ede-af06-4753-b232-a5273ace435e.jpg"
+            "image": "/images/ingredients/aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276.jpg"
         },
         {
             "label": "Bacon lardons (50g) x0",
@@ -25,37 +35,10 @@
             "image": "/images/ingredients/efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296.jpg"
         },
         {
-            "label": "Free range egg",
-            "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-            "allergens": [
-                "egg"
-            ],
-            "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
-        },
-        {
-            "label": "Pots & Co - Little Pot of Chocolate (50g) x2",
-            "gousto_uuid": "67ec413b-d762-435d-be57-cdddadde1eae",
-            "allergens": [
-                "milk",
-                "nut",
-                "soya"
-            ],
-            "image": "/images/ingredients/67ec413b-d762-435d-be57-cdddadde1eae.jpg"
-        },
-        {
-            "label": "Quick cook spaghetti (160g)",
-            "gousto_uuid": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/20d7f9a4-2be1-4161-90a7-04f2b8af56a3.jpg"
-        },
-        {
-            "label": "Vegetable stock mix (5.5g)",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "label": "Bacon lardons (100g)",
+            "gousto_uuid": "ecbe9ede-af06-4753-b232-a5273ace435e",
             "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+            "image": "/images/ingredients/ecbe9ede-af06-4753-b232-a5273ace435e.jpg"
         },
         {
             "label": "Cr\u00e8me fra\u00eeche (80g)",
@@ -64,12 +47,6 @@
                 "milk"
             ],
             "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
-        },
-        {
-            "label": "Cracked black pepper (2.5g)",
-            "gousto_uuid": "716cbc79-cd4d-4df1-b549-e04c70f8b031",
-            "allergens": [],
-            "image": "/images/ingredients/716cbc79-cd4d-4df1-b549-e04c70f8b031.jpg"
         },
         {
             "label": "Grated Italian hard cheese (30g)",
@@ -86,16 +63,33 @@
             "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
         },
         {
+            "label": "Vegetable stock mix (5.5g)",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
+            "label": "Free range egg",
+            "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
+            "allergens": [
+                "egg"
+            ],
+            "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
+        },
+        {
+            "label": "Quick cook spaghetti (160g)",
+            "gousto_uuid": "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/20d7f9a4-2be1-4161-90a7-04f2b8af56a3.jpg"
+        },
+        {
             "label": "Tomato",
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
-            "label": "Rocket (50g)",
-            "gousto_uuid": "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
-            "allergens": [],
-            "image": "/images/ingredients/aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276.jpg"
         },
         {
             "label": "Balsamic vinegar (15ml)",
@@ -104,6 +98,12 @@
                 "sulphites"
             ],
             "image": "/images/ingredients/8357c090-d832-41bc-a458-b13600637e1b.jpg"
+        },
+        {
+            "label": "Cracked black pepper (2.5g)",
+            "gousto_uuid": "716cbc79-cd4d-4df1-b549-e04c70f8b031",
+            "allergens": [],
+            "image": "/images/ingredients/716cbc79-cd4d-4df1-b549-e04c70f8b031.jpg"
         }
     ],
     "basics": [
@@ -161,35 +161,35 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 226,
-            "energy_kj": 946,
-            "fat_mg": 11489,
-            "fat_saturates_mg": 6058,
-            "carbs_mg": 21558,
-            "carbs_sugars_mg": 4240,
-            "fibre_mg": 481,
-            "protein_mg": 8635,
-            "salt_mg": 776,
+            "energy_kcal": 224,
+            "energy_kj": 937,
+            "fat_mg": 11224,
+            "fat_saturates_mg": 5901,
+            "carbs_mg": 21538,
+            "carbs_sugars_mg": 4086,
+            "fibre_mg": 487,
+            "protein_mg": 8714,
+            "salt_mg": 783,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 801,
-            "energy_kj": 3352,
-            "fat_mg": 40673,
-            "fat_saturates_mg": 21447,
-            "carbs_mg": 76318,
-            "carbs_sugars_mg": 15012,
+            "energy_kcal": 782,
+            "energy_kj": 3273,
+            "fat_mg": 39173,
+            "fat_saturates_mg": 20597,
+            "carbs_mg": 75168,
+            "carbs_sugars_mg": 14262,
             "fibre_mg": 1703,
-            "protein_mg": 30569,
-            "salt_mg": 2750,
-            "net_weight_mg": 354000
+            "protein_mg": 30414,
+            "salt_mg": 2733,
+            "net_weight_mg": 349000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "67ec413b-d762-435d-be57-cdddadde1eae",
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
@@ -206,7 +206,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "67ec413b-d762-435d-be57-cdddadde1eae",
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
@@ -223,7 +223,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "67ec413b-d762-435d-be57-cdddadde1eae",
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "8357c090-d832-41bc-a458-b13600637e1b",
@@ -241,7 +241,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "67ec413b-d762-435d-be57-cdddadde1eae",
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
@@ -258,7 +258,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "67ec413b-d762-435d-be57-cdddadde1eae",
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "8357c090-d832-41bc-a458-b13600637e1b",

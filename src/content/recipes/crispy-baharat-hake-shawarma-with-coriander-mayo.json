@@ -13,13 +13,24 @@
     "cuisine": "Lebanese",
     "ingredients": [
         {
-            "label": "Mayonnaise (25ml)",
-            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "label": "Baharat (1tsp) x0",
+            "gousto_uuid": "bf417488-52a0-47f4-97c1-c5832627f1fd",
+            "allergens": [],
+            "image": "/images/ingredients/bf417488-52a0-47f4-97c1-c5832627f1fd.jpg"
+        },
+        {
+            "label": "Plain naan (2pcs)",
+            "gousto_uuid": "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
             "allergens": [
-                "egg",
-                "mustard"
+                "gluten"
             ],
-            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+            "image": "/images/ingredients/39a4b972-e3f4-4ef9-978e-da600ee3cc12.jpg"
+        },
+        {
+            "label": "Baharat (1tbsp)",
+            "gousto_uuid": "eb6b2ae7-625f-404a-b8b1-d134dcedc745",
+            "allergens": [],
+            "image": "/images/ingredients/eb6b2ae7-625f-404a-b8b1-d134dcedc745.jpg"
         },
         {
             "label": "Garlic clove",
@@ -28,10 +39,13 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+            "label": "Mayonnaise (25ml)",
+            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -43,28 +57,16 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
-            "label": "Baharat (1tsp) x0",
-            "gousto_uuid": "bf417488-52a0-47f4-97c1-c5832627f1fd",
-            "allergens": [],
-            "image": "/images/ingredients/bf417488-52a0-47f4-97c1-c5832627f1fd.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
             "label": "Cornflour (4tbsp)",
             "gousto_uuid": "f585c6d0-f7a2-45b2-982b-da6abee7c2a5",
             "allergens": [],
             "image": "/images/ingredients/f585c6d0-f7a2-45b2-982b-da6abee7c2a5.jpg"
         },
         {
-            "label": "Baharat (1tbsp)",
-            "gousto_uuid": "eb6b2ae7-625f-404a-b8b1-d134dcedc745",
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
             "allergens": [],
-            "image": "/images/ingredients/eb6b2ae7-625f-404a-b8b1-d134dcedc745.jpg"
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
         },
         {
             "label": "Hake fillets (2pcs)",
@@ -73,14 +75,6 @@
                 "fish"
             ],
             "image": "/images/ingredients/4f171c2d-c380-4257-a4f9-ff7d9ec50caf.jpg"
-        },
-        {
-            "label": "Plain naan (2pcs)",
-            "gousto_uuid": "39a4b972-e3f4-4ef9-978e-da600ee3cc12",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/39a4b972-e3f4-4ef9-978e-da600ee3cc12.jpg"
         },
         {
             "label": "Coriander (5g)",
@@ -95,16 +89,22 @@
             "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
             "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
         },
         {
             "label": "Tomato",
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "White potato x3",
@@ -171,7 +171,7 @@
             "energy_kcal": 128,
             "energy_kj": 543,
             "fat_mg": 3302,
-            "fat_saturates_mg": 318,
+            "fat_saturates_mg": 321,
             "carbs_mg": 18820,
             "carbs_sugars_mg": 1130,
             "fibre_mg": 1735,
@@ -183,7 +183,7 @@
             "energy_kcal": 639,
             "energy_kj": 2695,
             "fat_mg": 16364,
-            "fat_saturates_mg": 1578,
+            "fat_saturates_mg": 1592,
             "carbs_mg": 93258,
             "carbs_sugars_mg": 5602,
             "fibre_mg": 8601,

@@ -7,11 +7,17 @@
     "gousto_id": "3761",
     "rating": {
         "average": 4.5,
-        "count": 23219
+        "count": 23226
     },
     "description": "This decadent dinner is cooked in a flash. You'll pan-fry pork loin steak with leek, and serve it alongside crushed, buttery potatoes, peppery rocket and a creamy mustard and \u200bchive sauce.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
+            "allergens": [],
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
         {
             "label": "Pork loin steak (150g) x0",
             "gousto_uuid": "ab004d3d-d6a8-4cba-a3b5-dfc902478d68",
@@ -25,16 +31,12 @@
             "image": "/images/ingredients/17efa7a1-3994-45d2-9baf-3515ef275359.jpg"
         },
         {
-            "label": "Chives (5g)",
-            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-            "allergens": [],
-            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
-        },
-        {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "Chicken stock mix (5.5g)",
@@ -43,12 +45,10 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Soft cheese (50g)",
-            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
+            "label": "Chives (5g)",
+            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "allergens": [],
+            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
         },
         {
             "label": "Wholegrain mustard (21g)",
@@ -145,7 +145,7 @@
             "carbs_sugars_mg": 9375,
             "fibre_mg": 8271,
             "protein_mg": 35925,
-            "salt_mg": 1319,
+            "salt_mg": 1316,
             "net_weight_mg": 525750
         }
     },
@@ -177,7 +177,7 @@
             ]
         },
         "3": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
@@ -204,7 +204,7 @@
             ]
         },
         "5": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",

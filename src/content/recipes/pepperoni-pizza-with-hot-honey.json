@@ -7,31 +7,11 @@
     "gousto_id": "7301",
     "rating": {
         "average": 4.5,
-        "count": 5849
+        "count": 6093
     },
     "description": "Some like it hot, and some like it hot and sweet. You'll top crispy pizza base with tomato sauce, creamy mozzarella and sliced pepper. Finish with a drizzle of hot honey for the adults and dig in.",
     "cuisine": "American",
     "ingredients": [
-        {
-            "label": "Sliced pepperoni (30g)",
-            "gousto_uuid": "4bee20b7-9d2b-4ce3-b483-5965229b4048",
-            "allergens": [
-                "mustard"
-            ],
-            "image": "/images/ingredients/4bee20b7-9d2b-4ce3-b483-5965229b4048.jpg"
-        },
-        {
-            "label": "Tomato paste (32g) x2",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -39,10 +19,26 @@
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
+            "label": "Flame-baked pizza bases (2pcs)",
+            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
+        },
+        {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "Mozzarella (125g)",
+            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
         },
         {
             "label": "Garlic clove",
@@ -57,20 +53,24 @@
             "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
         },
         {
-            "label": "Flame-baked pizza bases (2pcs)",
-            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
-            "label": "Mozzarella (125g)",
-            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "label": "Sliced pepperoni (30g)",
+            "gousto_uuid": "4bee20b7-9d2b-4ce3-b483-5965229b4048",
             "allergens": [
-                "milk"
+                "mustard"
             ],
-            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+            "image": "/images/ingredients/4bee20b7-9d2b-4ce3-b483-5965229b4048.jpg"
+        },
+        {
+            "label": "Tomato paste (32g) x2",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Gem lettuce",
@@ -175,7 +175,7 @@
     },
     "portion_sizes": {
         "1": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -207,7 +207,7 @@
             ]
         },
         "3": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -239,7 +239,7 @@
             ]
         },
         "5": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",

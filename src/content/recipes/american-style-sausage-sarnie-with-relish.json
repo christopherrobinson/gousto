@@ -8,24 +8,24 @@
     "gousto_id": "2947",
     "rating": {
         "average": 4.5,
-        "count": 5013
+        "count": 5014
     },
     "description": "The inspiration for this epic sandwich comes from across the pond. You'll fill crusty ciabattas with peppery Cumberland sausages, cucumber relish and crispy onions. Relish-ious!",
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "Proper Porker sausages (4pcs)",
-            "gousto_uuid": "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/5fa3a669-8c36-48bd-9f29-e1ac2abff979.jpg"
-        },
-        {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Crispy onions (15g)",
+            "gousto_uuid": "61499436-65ce-4e9a-8e7b-72882f1121a8",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
         },
         {
             "label": "Dried chilli flakes (0.5tsp)",
@@ -42,18 +42,36 @@
             "image": "/images/ingredients/ce1a9d4c-e544-44be-8563-50edbe98e6af.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
-        },
-        {
-            "label": "Crispy onions (15g)",
-            "gousto_uuid": "61499436-65ce-4e9a-8e7b-72882f1121a8",
+            "label": "Ciabatta x2",
+            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
             "allergens": [
                 "gluten"
             ],
-            "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
+            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Cider vinegar (30ml)",
+            "gousto_uuid": "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
+            "allergens": [],
+            "image": "/images/ingredients/6776a9e3-61d1-4d1a-9102-e9ed44cf94a3.jpg"
+        },
+        {
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
+            "label": "Cider vinegar (15ml) x0",
+            "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
+            "allergens": [],
+            "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
+        },
+        {
+            "label": "Rocket (20g)",
+            "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+            "allergens": [],
+            "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
         },
         {
             "label": "Sweet pepper relish (20g)",
@@ -65,36 +83,10 @@
             "image": "/images/ingredients/e0c8aa4e-086f-4839-8cf6-c69895a6ab11.jpg"
         },
         {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
             "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
-        },
-        {
-            "label": "Ciabatta x2",
-            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
-        },
-        {
-            "label": "Cider vinegar (15ml) x0",
-            "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
-            "allergens": [],
-            "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
-        },
-        {
-            "label": "Cider vinegar (30ml)",
-            "gousto_uuid": "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
-            "allergens": [],
-            "image": "/images/ingredients/6776a9e3-61d1-4d1a-9102-e9ed44cf94a3.jpg"
-        },
-        {
-            "label": "Rocket (20g)",
-            "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
-            "allergens": [],
-            "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "White potato x3",
@@ -156,28 +148,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 167,
-            "energy_kj": 698,
-            "fat_mg": 9160,
-            "fat_saturates_mg": 3250,
-            "carbs_mg": 14028,
-            "carbs_sugars_mg": 1784,
-            "fibre_mg": 1137,
-            "protein_mg": 7283,
-            "salt_mg": 642,
+            "energy_kcal": 145,
+            "energy_kj": 608,
+            "fat_mg": 6266,
+            "fat_saturates_mg": 2222,
+            "carbs_mg": 16589,
+            "carbs_sugars_mg": 1874,
+            "fibre_mg": 1382,
+            "protein_mg": 5695,
+            "salt_mg": 517,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 996,
-            "energy_kj": 4166,
-            "fat_mg": 54599,
-            "fat_saturates_mg": 19375,
-            "carbs_mg": 83608,
-            "carbs_sugars_mg": 10633,
-            "fibre_mg": 6779,
-            "protein_mg": 43410,
-            "salt_mg": 3828,
-            "net_weight_mg": 596000
+            "energy_kcal": 699,
+            "energy_kj": 2932,
+            "fat_mg": 30203,
+            "fat_saturates_mg": 10711,
+            "carbs_mg": 79960,
+            "carbs_sugars_mg": 9037,
+            "fibre_mg": 6665,
+            "protein_mg": 27450,
+            "salt_mg": 2494,
+            "net_weight_mg": 482000
         }
     },
     "portion_sizes": {
@@ -185,7 +177,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "ce1a9d4c-e544-44be-8563-50edbe98e6af",
-                "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "61499436-65ce-4e9a-8e7b-72882f1121a8",
@@ -201,7 +192,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "ce1a9d4c-e544-44be-8563-50edbe98e6af",
-                "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
                 "61499436-65ce-4e9a-8e7b-72882f1121a8",
@@ -217,7 +207,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "ce1a9d4c-e544-44be-8563-50edbe98e6af",
-                "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
@@ -234,7 +223,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "ce1a9d4c-e544-44be-8563-50edbe98e6af",
-                "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
                 "61499436-65ce-4e9a-8e7b-72882f1121a8",
@@ -250,7 +238,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "ce1a9d4c-e544-44be-8563-50edbe98e6af",
-                "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",

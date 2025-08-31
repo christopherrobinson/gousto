@@ -9,11 +9,17 @@
     "gousto_id": "3082",
     "rating": {
         "average": 4.5,
-        "count": 10036
+        "count": 10039
     },
     "description": "This stroganoff-inspired supper is easy comfort food. You'll add smoky paprika and chilli to chicken and mushrooms, before tumbling spaghetti into the creamy sauce. Strogan-off the charts!",
     "cuisine": "Russian",
     "ingredients": [
+        {
+            "label": "Chicken breast strips (250g)",
+            "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
+            "allergens": [],
+            "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
+        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -21,10 +27,29 @@
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
-            "label": "Ground smoked paprika (2tsp) x0",
-            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
+        },
+        {
+            "label": "Chicken breast strips (125g) x0",
+            "gousto_uuid": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
             "allergens": [],
-            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+            "image": "/images/ingredients/e2901605-6faf-4a5e-bf6c-bb137a5f32ac.jpg"
+        },
+        {
+            "label": "Wholewheat spaghetti (190g)",
+            "gousto_uuid": "f573562e-5501-464a-99b4-af1aa35795e3",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/f573562e-5501-464a-99b4-af1aa35795e3.jpg"
         },
         {
             "label": "Ground smoked paprika (1tsp)",
@@ -45,47 +70,22 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Chicken breast strips (125g) x0",
-            "gousto_uuid": "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
+            "label": "White cup mushrooms (80g)",
+            "gousto_uuid": "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
             "allergens": [],
-            "image": "/images/ingredients/e2901605-6faf-4a5e-bf6c-bb137a5f32ac.jpg"
+            "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
         },
         {
-            "label": "Chicken breast strips (250g)",
-            "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
+            "label": "Ground smoked paprika (2tsp) x0",
+            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
-            "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
+            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "label": "Parsley (5g) x0",
+            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "Wholewheat spaghetti (190g)",
-            "gousto_uuid": "f573562e-5501-464a-99b4-af1aa35795e3",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/f573562e-5501-464a-99b4-af1aa35795e3.jpg"
-        },
-        {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
-        },
-        {
-            "label": "Chicken stock mix (5.5g)",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -96,10 +96,10 @@
             "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
-            "label": "White cup mushrooms (80g)",
-            "gousto_uuid": "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
+            "label": "Chicken stock mix (5.5g)",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
-            "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
             "label": "Parsley (10g)",
@@ -108,10 +108,10 @@
             "image": "/images/ingredients/2ad9f7c1-18f7-4974-b647-95059a432969.jpg"
         },
         {
-            "label": "Parsley (5g) x0",
-            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
-            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -179,7 +179,7 @@
             "carbs_sugars_mg": 1987,
             "fibre_mg": 2405,
             "protein_mg": 13132,
-            "salt_mg": 301,
+            "salt_mg": 302,
             "net_weight_mg": 100000
         },
         "per_portion": {
@@ -191,7 +191,7 @@
             "carbs_sugars_mg": 6757,
             "fibre_mg": 8180,
             "protein_mg": 44650,
-            "salt_mg": 1026,
+            "salt_mg": 1027,
             "net_weight_mg": 340000
         }
     },

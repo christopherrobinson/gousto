@@ -13,54 +13,10 @@
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "25ml vegan mayonnaise (25ml)",
-            "gousto_uuid": "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
-            "allergens": [
-                "mustard"
-            ],
-            "image": "/images/ingredients/f534e5d8-7fda-4f1f-865b-fbe2986780ae.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Vegan mayonnaise (50ml) x0",
-            "gousto_uuid": "524ef883-ad25-46dd-9fd2-2d680cacc646",
-            "allergens": [
-                "mustard"
-            ],
-            "image": "/images/ingredients/524ef883-ad25-46dd-9fd2-2d680cacc646.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
             "label": "Henderson's Relish (15ml) x2",
             "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
             "allergens": [],
             "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
-        },
-        {
-            "label": "Fable\u00ae meaty pulled mushrooms (180g)",
-            "gousto_uuid": "c525cfc9-563e-439e-a5ae-cacb203c6bc4",
-            "allergens": [
-                "gluten",
-                "soya",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/c525cfc9-563e-439e-a5ae-cacb203c6bc4.jpg"
         },
         {
             "label": "Fable\u00ae meaty pulled mushrooms (90g) x0",
@@ -73,10 +29,36 @@
             "image": "/images/ingredients/73d06f42-e2ff-4015-b1a5-e7d25431a6dd.jpg"
         },
         {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "label": "25ml vegan mayonnaise (25ml)",
+            "gousto_uuid": "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
+            "allergens": [
+                "mustard"
+            ],
+            "image": "/images/ingredients/f534e5d8-7fda-4f1f-865b-fbe2986780ae.jpg"
+        },
+        {
+            "label": "Vegan mayonnaise (50ml) x0",
+            "gousto_uuid": "524ef883-ad25-46dd-9fd2-2d680cacc646",
+            "allergens": [
+                "mustard"
+            ],
+            "image": "/images/ingredients/524ef883-ad25-46dd-9fd2-2d680cacc646.jpg"
+        },
+        {
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Fable\u00ae meaty pulled mushrooms (180g)",
+            "gousto_uuid": "c525cfc9-563e-439e-a5ae-cacb203c6bc4",
+            "allergens": [
+                "gluten",
+                "soya",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/c525cfc9-563e-439e-a5ae-cacb203c6bc4.jpg"
         },
         {
             "label": "Ciabatta x2",
@@ -85,6 +67,12 @@
                 "gluten"
             ],
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "allergens": [],
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
             "label": "Wholegrain mustard (21g)",
@@ -102,6 +90,18 @@
                 "soya"
             ],
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "allergens": [],
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
             "label": "White potato x3",
@@ -159,7 +159,6 @@
         }
     ],
     "allergens": [
-        "egg",
         "gluten",
         "mustard",
         "soya",
@@ -167,27 +166,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 136,
-            "energy_kj": 575,
-            "fat_mg": 5759,
-            "fat_saturates_mg": 3463,
-            "carbs_mg": 18534,
-            "carbs_sugars_mg": 2083,
-            "fibre_mg": 4726,
-            "protein_mg": 4421,
-            "salt_mg": 561,
+            "energy_kcal": 146,
+            "energy_kj": 616,
+            "fat_mg": 5433,
+            "fat_saturates_mg": 1943,
+            "carbs_mg": 15929,
+            "carbs_sugars_mg": 1504,
+            "fibre_mg": 4074,
+            "protein_mg": 4530,
+            "salt_mg": 565,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 681,
-            "energy_kj": 2865,
-            "fat_mg": 28654,
-            "fat_saturates_mg": 17229,
-            "carbs_mg": 92208,
-            "carbs_sugars_mg": 10363,
-            "fibre_mg": 23513,
-            "protein_mg": 21999,
-            "salt_mg": 2793,
+            "energy_kcal": 727,
+            "energy_kj": 3065,
+            "fat_mg": 27034,
+            "fat_saturates_mg": 9669,
+            "carbs_mg": 79248,
+            "carbs_sugars_mg": 7483,
+            "fibre_mg": 20273,
+            "protein_mg": 22539,
+            "salt_mg": 2812,
             "net_weight_mg": 497500
         }
     },

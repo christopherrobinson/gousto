@@ -13,24 +13,12 @@
     "cuisine": "Korean",
     "ingredients": [
         {
-            "label": "Dried chilli flakes (1tsp)",
-            "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
-            "allergens": [],
-            "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
-        },
-        {
             "label": "Gochujang paste (30g)",
             "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
             "allergens": [
                 "soya"
             ],
             "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
-        },
-        {
-            "label": "Dried chilli flakes (0.5tsp) x0",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-            "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
             "label": "Cornflour (1tsp)",
@@ -65,7 +53,7 @@
             "image": "/images/ingredients/c6911e1e-0963-4410-ad05-f028b84dc626.jpg"
         },
         {
-            "label": "Soy sauce (15ml) x0",
+            "label": "Soy sauce (15ml)",
             "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
             "allergens": [
                 "gluten",
@@ -112,13 +100,22 @@
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
-            "label": "Soy sauce (30ml)",
+            "label": "Soy sauce (30ml) x0",
             "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
                 "gluten",
                 "soya"
             ],
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Courgette",
@@ -136,7 +133,8 @@
     "basics": [
         "Salt",
         "Water",
-        "Vegetable oil"
+        "Vegetable oil",
+        "Sugar"
     ],
     "cooking_instructions": [
         {
@@ -160,7 +158,7 @@
             "image": "/images/instructions/korean-pork-jae-yuk-stir-fry/step-4.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>sliced onion</strong>, <strong>carrot rounds</strong>, <strong>courgette batons</strong> and <strong>chopped garlic </strong>to the reserved pan (keep it off the heat for now!)</p><p>Add your<strong> toasted sesame oil</strong>, <strong>gochujang paste</strong>, <strong>chilli flakes</strong> (can't handle the heat? Go easy!),<strong> soy sauce</strong>, a drizzle of<strong> vegetable oil </strong>and give everything a good mix up</p>",
+            "instruction": "<p>Add the <strong>sliced onion</strong>, <strong>carrot rounds</strong>, <strong>courgette batons</strong> and <strong>chopped garlic </strong>to the reserved pan (keep it off the heat for now!)</p><p>Add your<strong> toasted sesame oil</strong>, <strong>gochujang paste </strong>(can't handle the heat? Go easy!),<strong> soy sauce</strong></p><p>Add a drizzle of<strong> vegetable oil </strong>and a pinch of <strong>sugar</strong> give everything a good mix up</p>",
             "order": 5,
             "image": "/images/instructions/korean-pork-jae-yuk-stir-fry/step-5.jpg"
         },
@@ -191,28 +189,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 187,
-            "energy_kj": 787,
-            "fat_mg": 8896,
-            "fat_saturates_mg": 2969,
-            "carbs_mg": 18570,
-            "carbs_sugars_mg": 3377,
-            "fibre_mg": 1173,
-            "protein_mg": 8610,
-            "salt_mg": 816,
+            "energy_kcal": 189,
+            "energy_kj": 794,
+            "fat_mg": 9032,
+            "fat_saturates_mg": 3020,
+            "carbs_mg": 18684,
+            "carbs_sugars_mg": 3397,
+            "fibre_mg": 1133,
+            "protein_mg": 8563,
+            "salt_mg": 547,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 822,
-            "energy_kj": 3446,
-            "fat_mg": 38921,
-            "fat_saturates_mg": 12993,
-            "carbs_mg": 81247,
-            "carbs_sugars_mg": 14777,
-            "fibre_mg": 5134,
-            "protein_mg": 37669,
-            "salt_mg": 3572,
-            "net_weight_mg": 437500
+            "energy_kcal": 813,
+            "energy_kj": 3409,
+            "fat_mg": 38749,
+            "fat_saturates_mg": 12960,
+            "carbs_mg": 80156,
+            "carbs_sugars_mg": 14577,
+            "fibre_mg": 4862,
+            "protein_mg": 36739,
+            "salt_mg": 2348,
+            "net_weight_mg": 429000
         }
     },
     "portion_sizes": {
@@ -223,11 +221,10 @@
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
                 "ab004d3d-d6a8-4cba-a3b5-dfc902478d68",
-                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "c6911e1e-0963-4410-ad05-f028b84dc626",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69"
             ]
@@ -239,11 +236,10 @@
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
                 "17efa7a1-3994-45d2-9baf-3515ef275359",
-                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69"
             ]
@@ -255,13 +251,12 @@
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
                 "ab004d3d-d6a8-4cba-a3b5-dfc902478d68",
                 "17efa7a1-3994-45d2-9baf-3515ef275359",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
                 "c6911e1e-0963-4410-ad05-f028b84dc626",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69"
@@ -274,7 +269,6 @@
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
                 "17efa7a1-3994-45d2-9baf-3515ef275359",
@@ -290,12 +284,11 @@
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
                 "ab004d3d-d6a8-4cba-a3b5-dfc902478d68",
                 "17efa7a1-3994-45d2-9baf-3515ef275359",
-                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "5b608e35-d38b-42bd-a3cb-9553e0d8fa8c",
                 "c6911e1e-0963-4410-ad05-f028b84dc626",

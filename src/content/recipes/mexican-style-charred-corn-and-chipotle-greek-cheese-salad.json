@@ -13,6 +13,12 @@
     "cuisine": "Mexican",
     "ingredients": [
         {
+            "label": "Chipotle paste (20g)",
+            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "allergens": [],
+            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+        },
+        {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
             "allergens": [
@@ -20,12 +26,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g) x0",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -37,34 +37,22 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
-            "label": "Spring onion x2",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Green chilli",
-            "gousto_uuid": "2a6039c4-3425-4c91-a976-2ef070aa08ae",
-            "allergens": [],
-            "image": "/images/ingredients/2a6039c4-3425-4c91-a976-2ef070aa08ae.jpg"
-        },
-        {
-            "label": "Chipotle paste (40g) x0",
-            "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
-            "allergens": [],
-            "image": "/images/ingredients/6181d96e-d862-479f-9f24-626b4c531cc5.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (125g)",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
-            "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
-        },
-        {
             "label": "Black beans (185g)",
             "gousto_uuid": "ef3818a0-a021-4ae0-acff-b2ed91392a30",
             "allergens": [],
             "image": "/images/ingredients/ef3818a0-a021-4ae0-acff-b2ed91392a30.jpg"
+        },
+        {
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "allergens": [],
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (250g) x0",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         },
         {
             "label": "Sweetcorn cobettes (2pcs)",
@@ -81,10 +69,16 @@
             "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
         },
         {
-            "label": "Chipotle paste (20g)",
-            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "label": "Chipotle paste (40g) x0",
+            "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
             "allergens": [],
-            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+            "image": "/images/ingredients/6181d96e-d862-479f-9f24-626b4c531cc5.jpg"
+        },
+        {
+            "label": "Spring onion x2",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "Coriander (10g)",
@@ -111,16 +105,22 @@
             "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "label": "Green chilli",
+            "gousto_uuid": "2a6039c4-3425-4c91-a976-2ef070aa08ae",
             "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+            "image": "/images/ingredients/2a6039c4-3425-4c91-a976-2ef070aa08ae.jpg"
         },
         {
             "label": "Lime",
             "gousto_uuid": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
             "allergens": [],
             "image": "/images/ingredients/8cc1a219-f516-495d-9d3a-506bd62ae79f.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (125g)",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         }
     ],
     "basics": [
@@ -181,7 +181,7 @@
             "energy_kcal": 75,
             "energy_kj": 313,
             "fat_mg": 4801,
-            "fat_saturates_mg": 1952,
+            "fat_saturates_mg": 1955,
             "carbs_mg": 4737,
             "carbs_sugars_mg": 2298,
             "fibre_mg": 1618,
@@ -193,7 +193,7 @@
             "energy_kcal": 350,
             "energy_kj": 1459,
             "fat_mg": 22325,
-            "fat_saturates_mg": 9079,
+            "fat_saturates_mg": 9092,
             "carbs_mg": 22030,
             "carbs_sugars_mg": 10690,
             "fibre_mg": 7526,

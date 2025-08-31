@@ -9,9 +9,21 @@
         "average": 4.5,
         "count": 220
     },
-    "description": "This speedy stroganoff is ready in just 10 mins! You'll cook diced chicken thigh and chestnut mushrooms with smoked paprika, before coating in a deliciously creamy sauce with wilted spinach and serving with brown rice.",
+    "description": "This speedy stroganoff is ready in just 10 mins! You'll cook diced chicken thigh and chestnut mushrooms with smoked paprika, before coating in a deliciously creamy sauce with wilted spinach and serving with rice.",
     "cuisine": "Russian",
     "ingredients": [
+        {
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
+            "label": "Henderson's Relish (15ml)",
+            "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
+            "allergens": [],
+            "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
+        },
         {
             "label": "Dijon mustard (5.5g)",
             "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
@@ -23,16 +35,22 @@
             "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         },
         {
-            "label": "Ground smoked paprika (2tsp)",
-            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-            "allergens": [],
-            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
             "label": "Ground smoked paprika (1tsp) x0",
             "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
             "allergens": [],
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+        },
+        {
+            "label": "White cup mushrooms (80g)",
+            "gousto_uuid": "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
+            "allergens": [],
+            "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
+        },
+        {
+            "label": "Ground smoked paprika (2tsp)",
+            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+            "allergens": [],
+            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
         },
         {
             "label": "Soured cream (80g)",
@@ -43,34 +61,16 @@
             "image": "/images/ingredients/8a9689cf-21a1-4c84-9f3e-8b5aab66e957.jpg"
         },
         {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
-        },
-        {
-            "label": "Intense chicken stock mix (5.5g)",
-            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-            "allergens": [],
-            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-        },
-        {
-            "label": "Spinach (80g)",
-            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
-            "allergens": [],
-            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
-        },
-        {
-            "label": "Henderson's Relish (15ml)",
-            "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
-            "allergens": [],
-            "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
-        },
-        {
             "label": "Cooked brown long grain rice (280g)",
             "gousto_uuid": "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
             "allergens": [],
             "image": "/images/ingredients/1ce7caa3-bc52-4aad-b8cb-9c2930ad371e.jpg"
+        },
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+            "allergens": [],
+            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
         },
         {
             "label": "Chicken stock mix (5.5g) x0",
@@ -79,10 +79,10 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "White cup mushrooms (80g)",
-            "gousto_uuid": "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
+            "label": "Spinach (80g)",
+            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
-            "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
+            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         }
     ],
     "basics": [
@@ -117,7 +117,7 @@
             "image": "/images/instructions/chicken-and-mushroom-brown-rice-stroganoff/step-5.jpg"
         },
         {
-            "instruction": "<p>While the chicken is cooking, squeeze your pouch[es] of <strong>cooked brown long grain rice </strong>to separate the grains</p><p>Tear the top corner of the pouch[es] (just a little!) and put the pouch in the <strong>microwave</strong> for 2 min or until piping hot</p><p>Tip: If you're cooking two or more packets, pop them in together but increase the microwave cook time accordingly</p>",
+            "instruction": "<p>While the chicken is cooking, squeeze your pouch[es] of <strong>cooked long grain rice </strong>to separate the grains</p><p>Tear the top corner of the pouch[es] (just a little!) and put the pouch in the <strong>microwave</strong> for 2 min or until piping hot</p><p>Tip: If you're cooking two or more packets, pop them in together but increase the microwave cook time accordingly</p>",
             "order": 6,
             "image": "/images/instructions/chicken-and-mushroom-brown-rice-stroganoff/step-6.jpg"
         },
@@ -127,7 +127,7 @@
             "image": "/images/instructions/chicken-and-mushroom-brown-rice-stroganoff/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>chicken</strong> <strong>&</strong> <strong>mushroom stroganoff</strong> with the <strong>cooked brown rice</strong> to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>chicken</strong> <strong>&</strong> <strong>mushroom stroganoff</strong> with the <strong>cooked rice</strong> to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
