@@ -27,7 +27,10 @@ export default defineConfig({
     },
   },
   experimental: {
+    chromeDevtoolsWorkspace: true,
     contentIntellisense: true,
+    headingIdCompat: true,
+    staticImportMetaEnv: true,
   },
   i18n: {
     defaultLocale: 'en',
