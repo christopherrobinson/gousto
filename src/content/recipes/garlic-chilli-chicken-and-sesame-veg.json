@@ -7,11 +7,17 @@
     "gousto_id": "4062",
     "rating": {
         "average": 4.5,
-        "count": 8887
+        "count": 8888
     },
-    "description": "Whip up an easy, colourful stir-fry in no time. You'll sear succulent diced chicken, before tossing in carrot, pepper and sugar snap peas. For the final flourish, stir in a fragrant sesame chilli sauce and serve over long grain rice.",
+    "description": "Whip up an easy, colourful stir-fry in no time. You'll sear succulent diced chicken, before tossing in carrot, pepper and sweet pea pods. For the final flourish, stir in a fragrant sesame chilli sauce and serve over long grain rice.",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "Sweet pea pods (80g)",
+            "gousto_uuid": "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
+            "allergens": [],
+            "image": "/images/ingredients/0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd.jpg"
+        },
         {
             "label": "Dried chilli flakes (1tsp)",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -104,12 +110,6 @@
             "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
         },
         {
-            "label": "Sugar snap peas (80g)",
-            "gousto_uuid": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
-            "allergens": [],
-            "image": "/images/ingredients/2b08232e-e5bb-458e-8ecc-9ac866642ee7.jpg"
-        },
-        {
             "label": "Carrot",
             "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
             "allergens": [],
@@ -171,7 +171,7 @@
             "image": "/images/instructions/garlic-chilli-chicken-and-sesame-veg/step-3.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>diced</strong> <strong>chicken </strong>and <strong>half</strong> of your <strong>soy sauce </strong>(you'll use the rest later!)<strong> </strong>to a bowl<strong> </strong>and give everything a good mix up \u2013 this is your <strong>soy chicken</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil </strong>over a high heat</p><p>Once hot, add the <strong>carrot discs </strong>with the <strong>soy chicken </strong>to the pan and cook for an initial 5-6 min or until the chicken has browned all over</p>",
+            "instruction": "<p>Add your <strong>diced</strong> <strong>chicken </strong>and <strong>half</strong> your <strong>soy sauce </strong>(you'll use the rest later!)<strong> </strong>to a bowl<strong> </strong>and give everything a good mix up \u2013 this is your <strong>soy chicken</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil </strong>over a high heat</p><p>Once hot, add the <strong>carrot discs </strong>with the <strong>soy chicken </strong>to the pan and cook for an initial 5-6 min or until the chicken has browned all over</p>",
             "order": 4,
             "image": "/images/instructions/garlic-chilli-chicken-and-sesame-veg/step-4.jpg"
         },
@@ -186,7 +186,7 @@
             "image": "/images/instructions/garlic-chilli-chicken-and-sesame-veg/step-6.jpg"
         },
         {
-            "instruction": "<p>Once slightly softened, add your<strong> sugar snap peas </strong>and <strong>sesame chilli sauce </strong>and cook for a further 3 min or until your chicken is cooked through (no pink meat!) \u2013 this is your <strong>garlic chilli chicken & sesame veg</strong></p>",
+            "instruction": "<p>Once slightly softened, add your<strong> sweet pea pods </strong>and <strong>sesame chilli sauce </strong>and cook for a further 3 min or until the chicken is cooked through (no pink meat!) \u2013 this is your <strong>garlic chilli chicken & sesame veg</strong></p>",
             "order": 7,
             "image": "/images/instructions/garlic-chilli-chicken-and-sesame-veg/step-7.jpg"
         },
@@ -233,7 +233,7 @@
     },
     "portion_sizes": {
         "1": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c666ef27-3946-4630-8e30-da2fc8b60b2c",
@@ -243,7 +243,7 @@
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
@@ -261,7 +261,7 @@
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8",
@@ -269,7 +269,7 @@
             ]
         },
         "3": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c666ef27-3946-4630-8e30-da2fc8b60b2c",
@@ -280,12 +280,12 @@
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
-                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8",
+                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         },
@@ -300,7 +300,7 @@
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
                 "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8",
@@ -308,7 +308,7 @@
             ]
         },
         "5": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c666ef27-3946-4630-8e30-da2fc8b60b2c",
@@ -319,12 +319,12 @@
                 "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
-                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8",
+                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         }

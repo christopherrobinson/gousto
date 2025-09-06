@@ -19,6 +19,12 @@
     "cuisine": "Asian",
     "ingredients": [
         {
+            "label": "Sweet pea pods (80g)",
+            "gousto_uuid": "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
+            "allergens": [],
+            "image": "/images/ingredients/0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd.jpg"
+        },
+        {
             "label": "Chicken breast portion x0",
             "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
             "allergens": [],
@@ -74,12 +80,6 @@
             "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
             "allergens": [],
             "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
-        },
-        {
-            "label": "Sugar snap peas (80g)",
-            "gousto_uuid": "2b08232e-e5bb-458e-8ecc-9ac866642ee7",
-            "allergens": [],
-            "image": "/images/ingredients/2b08232e-e5bb-458e-8ecc-9ac866642ee7.jpg"
         },
         {
             "label": "Coriander (5g)",
@@ -147,7 +147,7 @@
             "image": "/images/instructions/thai-style-chicken-with-gingery-veg-and-brown-rice/step-2.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>chopped shallot</strong>, <strong>garlic</strong>,<strong> chilli</strong> (can't handle the heat? Go easy!) and <strong>coriander stalks</strong> to a<strong> pestle & mortar</strong></p><p>Tip: Don't have a pestle & mortar? Use a food processor!</p><p>Add a pinch of <strong>salt</strong> and grind to a paste \u2013 this is your<strong>\u00a0Thai-style paste</strong></p><p>Dissolve your <strong>creamed coconut</strong> in 150ml <span class=\"text-purple\">[200ml]</span> <span class=\"text-danger\">[250ml]</span> <strong>boiled water </strong>and add your <strong>soy sauce</strong> \u2013 this is your <strong>coconut stock</strong></p>",
+            "instruction": "<p>Add the <strong>chopped shallot</strong>, <strong>garlic</strong>,<strong> chilli</strong> (can't handle the heat? Go easy!) and <strong>coriander stalks</strong> to a<strong> pestle & mortar</strong></p><p>Tip: Don't have a pestle & mortar? Use a food processor!</p><p>Add a pinch of <strong>salt</strong> and grind to a paste \u2013 this is your<strong> Thai-style paste</strong></p><p>Dissolve your <strong>creamed coconut</strong> in 150ml <span class=\"text-purple\">[200ml]</span> <span class=\"text-danger\">[250ml]</span> <strong>boiled water </strong>and add your <strong>soy sauce</strong> \u2013 this is your <strong>coconut stock</strong></p>",
             "order": 3,
             "image": "/images/instructions/thai-style-chicken-with-gingery-veg-and-brown-rice/step-3.jpg"
         },
@@ -157,12 +157,12 @@
             "image": "/images/instructions/thai-style-chicken-with-gingery-veg-and-brown-rice/step-4.jpg"
         },
         {
-            "instruction": "<p>Once browned, add your <strong>Thai-style paste</strong>\u00a0to the chicken and cook for 2-3 min further or until fragrant</p><p>Once fragrant, add the <strong>coconut stock </strong>and cook for 10-12 min or until the chicken is cooked through (no pink meat!) and the sauce has thickened</p><p>Add the juice of <strong>half</strong> your <strong>lime[s]</strong> and\u00a0stir it all together \u2013 this is your <strong>Thai-style sauce</strong></p><p>Cut the <strong>remaining lime</strong> into 1 wedge per person</p>",
+            "instruction": "<p>Once browned, add your <strong>Thai-style paste</strong> to the chicken and cook for 2-3 min further or until fragrant</p><p>Once fragrant, add the <strong>coconut stock </strong>and cook for 10-12 min or until the chicken is cooked through (no pink meat!) and the sauce has thickened</p><p>Add the juice of <strong>half</strong> your <strong>lime[s]</strong> and stir it all together \u2013 this is your <strong>Thai-style sauce</strong></p><p>Cut the <strong>remaining lime</strong> into 1 wedge per person</p>",
             "order": 5,
             "image": "/images/instructions/thai-style-chicken-with-gingery-veg-and-brown-rice/step-5.jpg"
         },
         {
-            "instruction": "<p>Wash, then rip the leaves off your <strong>spring greens</strong>, discard the tough stalks, then layer the leaves over each other, roll them up and slice into thin strips</p><p>Deseed your <strong>pepper[s]</strong> (scrape the seeds and pith out with a teaspoon) and cut into thin strips</p><p>Slice your <strong>sugar snap peas</strong> in half lengthways</p><p>Peel (scrape the skin off with a teaspoon) and finely chop (or grate) your <strong>ginger</strong></p>",
+            "instruction": "<p>Wash, then rip the leaves off your <strong>spring greens</strong>, discard the tough stalks, then layer the leaves over each other, roll them up and slice into thin strips</p><p>Deseed your <strong>pepper[s]</strong> (scrape the seeds and pith out with a teaspoon) and cut into thin strips</p><p>Slice your <strong> sweet pea pods</strong> in half lengthways</p><p>Peel (scrape the skin off with a teaspoon) and finely chop (or grate) your <strong>ginger</strong></p>",
             "order": 6,
             "image": "/images/instructions/thai-style-chicken-with-gingery-veg-and-brown-rice/step-6.jpg"
         },
@@ -172,7 +172,7 @@
             "image": "/images/instructions/thai-style-chicken-with-gingery-veg-and-brown-rice/step-7.jpg"
         },
         {
-            "instruction": "<p>Slice the<strong> Thai-style chicken </strong>finely\u00a0and serve with the <strong>brown rice</strong> and<strong> gingery veg</strong>\u00a0to the side</p><p>Drizzle the <strong>Thai-style sauce</strong> all over</p><p>Garnish with the <strong>chopped coriander leaves\u00a0</strong>and\u00a0a<strong> lime wedge</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Slice the<strong> Thai-style chicken </strong>finely and serve with the <strong>brown rice</strong> and<strong> gingery veg</strong> to the side</p><p>Drizzle the <strong>Thai-style sauce</strong> all over</p><p>Garnish with the <strong>chopped coriander leaves </strong>and a<strong> lime wedge</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -222,7 +222,7 @@
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7"
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd"
             ]
         },
         "2": {
@@ -240,7 +240,7 @@
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7"
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd"
             ]
         },
         "3": {
@@ -258,10 +258,10 @@
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7"
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd"
             ]
         },
         "4": {
@@ -279,7 +279,7 @@
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7"
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd"
             ]
         },
         "5": {
@@ -297,10 +297,10 @@
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "2b08232e-e5bb-458e-8ecc-9ac866642ee7"
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd"
             ]
         }
     },

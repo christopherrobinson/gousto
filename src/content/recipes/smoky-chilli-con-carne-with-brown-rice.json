@@ -7,17 +7,11 @@
     "gousto_id": "7773",
     "rating": {
         "average": 4.5,
-        "count": 884
+        "count": 964
     },
     "description": "Spending hours on a chilli con carne stops today! In our speedy twist, you'll add chipotle paste for instant smoky flavour, and serve it up with rice in just 10 minutes. Simmer, ding, done!",
     "cuisine": "American",
     "ingredients": [
-        {
-            "label": "Red kidney beans (390g)",
-            "gousto_uuid": "28b87929-b871-4901-8b03-b6fe237d26c6",
-            "allergens": [],
-            "image": "/images/ingredients/28b87929-b871-4901-8b03-b6fe237d26c6.jpg"
-        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -59,6 +53,12 @@
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "Black beans (390g)",
+            "gousto_uuid": "cf0df93e-2f50-4f36-9c1a-1101c84ea9e1",
+            "allergens": [],
+            "image": "/images/ingredients/cf0df93e-2f50-4f36-9c1a-1101c84ea9e1.jpg"
         },
         {
             "label": "Intense vegetable stock mix (5.5g)",
@@ -137,12 +137,12 @@
             "image": "/images/instructions/smoky-chilli-con-carne-with-brown-rice/step-4.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, drain and rinse your <strong>red kidney beans</strong></p>",
+            "instruction": "<p>Meanwhile, drain and rinse your <strong>black beans</strong></p>",
             "order": 5,
             "image": "/images/instructions/smoky-chilli-con-carne-with-brown-rice/step-5.jpg"
         },
         {
-            "instruction": "<p>Add the<strong> drained red kidney beans </strong>to the pan and cook for 4 min further or until the beef is cooked through (no pink meat!) \u2013 this is your <strong>smoky</strong> <strong>chilli con carne</strong></p><p>Note: Please ensure you cook your beef thoroughly (until piping hot!) as cooking equipment varies</p>",
+            "instruction": "<p>Add the<strong> drained black beans </strong>to the pan and cook for 4 min further or until the beef is cooked through (no pink meat!) \u2013 this is your <strong>smoky</strong> <strong>chilli con carne</strong></p><p>Note: Please ensure you cook your beef thoroughly (until piping hot!) as cooking equipment varies</p>",
             "order": 6,
             "image": "/images/instructions/smoky-chilli-con-carne-with-brown-rice/step-6.jpg"
         },
@@ -161,35 +161,36 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 144,
-            "energy_kj": 605,
+            "energy_kcal": 141,
+            "energy_kj": 591,
             "fat_mg": 6393,
             "fat_saturates_mg": 2774,
-            "carbs_mg": 12524,
-            "carbs_sugars_mg": 1397,
-            "fibre_mg": 3032,
-            "protein_mg": 8273,
+            "carbs_mg": 12279,
+            "carbs_sugars_mg": 1264,
+            "fibre_mg": 2411,
+            "protein_mg": 7962,
             "salt_mg": 440,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 751,
-            "energy_kj": 3140,
+            "energy_kcal": 734,
+            "energy_kj": 3065,
             "fat_mg": 33136,
             "fat_saturates_mg": 14378,
-            "carbs_mg": 64906,
-            "carbs_sugars_mg": 7244,
-            "fibre_mg": 15716,
-            "protein_mg": 42877,
+            "carbs_mg": 63641,
+            "carbs_sugars_mg": 6554,
+            "fibre_mg": 12496,
+            "protein_mg": 41267,
             "salt_mg": 2283,
             "net_weight_mg": 518250
         }
     },
     "portion_sizes": {
         "1": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "918d5383-38a6-45c2-8c96-8f91a945e964",
+                "cf0df93e-2f50-4f36-9c1a-1101c84ea9e1",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
@@ -197,7 +198,6 @@
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "a5e93cfb-0ad1-48b3-b683-54f684f955f9",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
-                "28b87929-b871-4901-8b03-b6fe237d26c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
@@ -205,6 +205,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
+                "cf0df93e-2f50-4f36-9c1a-1101c84ea9e1",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
@@ -212,15 +213,15 @@
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "a5e93cfb-0ad1-48b3-b683-54f684f955f9",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
-                "9fba123b-025a-43b0-8a85-3397a62f044e",
-                "28b87929-b871-4901-8b03-b6fe237d26c6"
+                "9fba123b-025a-43b0-8a85-3397a62f044e"
             ]
         },
         "3": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "918d5383-38a6-45c2-8c96-8f91a945e964",
+                "cf0df93e-2f50-4f36-9c1a-1101c84ea9e1",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
@@ -229,7 +230,6 @@
                 "a5e93cfb-0ad1-48b3-b683-54f684f955f9",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
-                "28b87929-b871-4901-8b03-b6fe237d26c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
@@ -237,6 +237,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
+                "cf0df93e-2f50-4f36-9c1a-1101c84ea9e1",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
@@ -244,15 +245,15 @@
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "a5e93cfb-0ad1-48b3-b683-54f684f955f9",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-                "9fba123b-025a-43b0-8a85-3397a62f044e",
-                "28b87929-b871-4901-8b03-b6fe237d26c6"
+                "9fba123b-025a-43b0-8a85-3397a62f044e"
             ]
         },
         "5": {
-            "is_offered": true,
+            "is_offered": false,
             "ingredients_skus": [
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "918d5383-38a6-45c2-8c96-8f91a945e964",
+                "cf0df93e-2f50-4f36-9c1a-1101c84ea9e1",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "1ce7caa3-bc52-4aad-b8cb-9c2930ad371e",
@@ -262,7 +263,6 @@
                 "a5e93cfb-0ad1-48b3-b683-54f684f955f9",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
-                "28b87929-b871-4901-8b03-b6fe237d26c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         }

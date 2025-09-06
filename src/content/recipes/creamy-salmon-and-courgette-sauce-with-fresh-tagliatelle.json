@@ -13,6 +13,14 @@
     "cuisine": "Italian",
     "ingredients": [
         {
+            "label": "Cr\u00e8me fra\u00eeche (80g)",
+            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
+        },
+        {
             "label": "Fresh tagliatelle (250g)",
             "gousto_uuid": "ef4829ce-18aa-4c51-b94d-ba633721af25",
             "allergens": [
@@ -28,14 +36,6 @@
             "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
             "allergens": [],
             "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
-        },
-        {
-            "label": "Double cream (80ml)",
-            "gousto_uuid": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5.jpg"
         },
         {
             "label": "Salmon flakes (100g)",
@@ -89,7 +89,7 @@
             "image": "/images/instructions/creamy-salmon-and-courgette-sauce-with-fresh-tagliatelle/step-3.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, combine your <strong>double cream </strong>with your<strong> stock mix </strong>and 150ml<span class=\"text-danger\"> </span><span class=\"text-purple\">[200ml]</span><span class=\"text-danger\"> [250ml]</span><strong> boiled water </strong>\u2013 this is your <strong>creamy stock</strong></p>",
+            "instruction": "<p>Meanwhile, combine your<strong> vegetable stock mix </strong>and 150ml<span class=\"text-danger\"> </span><span class=\"text-purple\">[200ml]</span><span class=\"text-danger\"> [250ml]</span><strong> boiled water </strong>\u2013 this is your<strong> stock</strong></p>",
             "order": 4,
             "image": "/images/instructions/creamy-salmon-and-courgette-sauce-with-fresh-tagliatelle/step-4.jpg"
         },
@@ -99,12 +99,12 @@
             "image": "/images/instructions/creamy-salmon-and-courgette-sauce-with-fresh-tagliatelle/step-5.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>creamy stock </strong>to the pan with your<strong> salmon flakes </strong>and a pinch of <strong>salt </strong>and cook for 2-3 min or until the sauce has slightly thickened</p>",
+            "instruction": "<p>Add the<strong> stock </strong>to the pan with your<strong> salmon flakes </strong>and a pinch of <strong>salt </strong>and cook for 2-3 min or until the sauce has slightly thickened</p>",
             "order": 6,
             "image": "/images/instructions/creamy-salmon-and-courgette-sauce-with-fresh-tagliatelle/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>drained tagliatelle</strong> to the sauce and stir everything together \u2013 this is your <strong>creamy salmon & courgette sauce with fresh tagliatelle</strong></p><p>Tip: Add a splash of starchy pasta water if your sauce is looking a little dry!</p>",
+            "instruction": "<p>Add the <strong>drained tagliatelle </strong>and your<strong> cr\u00e8me fra\u00eeche</strong> to the sauce and stir everything together \u2013 this is your <strong>creamy salmon & courgette sauce with fresh tagliatelle</strong></p><p>Tip: Add a splash of starchy pasta water if your sauce is looking a little dry!</p>",
             "order": 7,
             "image": "/images/instructions/creamy-salmon-and-courgette-sauce-with-fresh-tagliatelle/step-7.jpg"
         },
@@ -123,26 +123,26 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 213,
-            "energy_kj": 894,
-            "fat_mg": 8940,
-            "fat_saturates_mg": 4339,
-            "carbs_mg": 25059,
-            "carbs_sugars_mg": 1779,
+            "energy_kcal": 182,
+            "energy_kj": 767,
+            "fat_mg": 5300,
+            "fat_saturates_mg": 2273,
+            "carbs_mg": 25215,
+            "carbs_sugars_mg": 1935,
             "fibre_mg": 1187,
-            "protein_mg": 8054,
+            "protein_mg": 8210,
             "salt_mg": 714,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 656,
-            "energy_kj": 2752,
-            "fat_mg": 27513,
-            "fat_saturates_mg": 13356,
-            "carbs_mg": 77120,
-            "carbs_sugars_mg": 5477,
+            "energy_kcal": 561,
+            "energy_kj": 2363,
+            "fat_mg": 16313,
+            "fat_saturates_mg": 6996,
+            "carbs_mg": 77600,
+            "carbs_sugars_mg": 5957,
             "fibre_mg": 3656,
-            "protein_mg": 24789,
+            "protein_mg": 25269,
             "salt_mg": 2199,
             "net_weight_mg": 307750
         }
@@ -152,7 +152,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "9d133c08-204d-4dfe-8232-93930522a871",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
@@ -163,7 +163,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "9d133c08-204d-4dfe-8232-93930522a871",
@@ -174,7 +174,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "9d133c08-204d-4dfe-8232-93930522a871",
@@ -186,7 +186,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "9d133c08-204d-4dfe-8232-93930522a871",
@@ -197,7 +197,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "9d133c08-204d-4dfe-8232-93930522a871",
