@@ -1,0 +1,68 @@
+---
+import ProductCard from '@/components/ProductCard.astro';
+
+const { features } = Astro.locals;
+const { products } = Astro.props;
+const { featuredProducts } = features;
+
+if (!featuredProducts || !products || !Array.isArray(products) || products.length === 0) {
+  return;
+}
+---
+
+<div class="bg-secondary-50  border-b  border-t  border-secondary-100  mb-8  -mt-[33px]  py-8  relative  md:py-16">
+  <Container class="space-y-4  lg:space-y-8">
+    <div class="flex  items-end  justify-between">
+      <div class="space-y-2">
+        <h2 class="font-semibold  font-serif  text-3xl">Featured products</h2>
+        <p>Sold by <span class="font-normal">Amazon</span>. Selected by us to help you prepare delicious meals.</p>
+      </div>
+      <div class={`flex  items-end  py-[3px]  space-x-4  text-lg  text-primary-600${(products.length <= 5) ? '  2xl:hidden' : ''}`}>
+        <div class="cursor-pointer  swiper-button-prev  transition  hover:text-primary-800"><Icon name="chevron-left" /></div>
+        <div class="cursor-pointer  swiper-button-next  transition  hover:text-primary-800"><Icon name="chevron-right" /></div>
+      </div>
+    </div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {products.map(async ({ data: { name, url }, id}) => (
+          <div class="!h-auto  swiper-slide">
+            <ProductCard
+              id={id}
+              name={name}
+              url={url}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </Container>
+</div>
+
+<script>
+  import Swiper from 'swiper';
+  import { Navigation } from 'swiper/modules';
+
+  import 'swiper/css';
+
+  const loadCarousel = async () => {
+    const swiper = new Swiper('.swiper', {
+      breakpoints: {
+         480: { slidesPerView: 2, },
+         768: { slidesPerView: 2, },
+        1024: { slidesPerView: 3, },
+        1280: { slidesPerView: 4, },
+        1536: { slidesPerView: 5, },
+      },
+      loop: true,
+      modules: [Navigation],
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 1,
+      spaceBetween: 32,
+    });
+  }
+
+  document.addEventListener('astro:page-load', loadCarousel);
+</script>
