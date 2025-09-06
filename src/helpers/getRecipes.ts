@@ -17,7 +17,7 @@ export const getRecipes = async (options: GetRecipesOptions = {}) => {
   if (!recipeCache) {
     const allRecipes = await getCollection('recipes');
     const validRecipes = allRecipes.filter(isValidRecipe);
-    const deduplicatedRecipes = deduplicateRecipesByTitle(validRecipes, true);
+    const deduplicatedRecipes = deduplicateRecipes(validRecipes, true);
 
     recipeCache = deduplicatedRecipes.sort((a, b) => parseInt(b.data.gousto_id, 10) - parseInt(a.data.gousto_id, 10));
   }
