@@ -5,21 +5,26 @@ export const getStaticPaths = async () => {
   const pages = await getCollection('pages');
 
   return pages.map((page) => ({
-    params: { slug: page.id },
-    props: { page },
+    params: {
+      page: page.id,
+    },
   }));
 }
 
-const { page } = Astro.props;
-const { data } = page;
+const { page } = Astro.params;
+const entry = await getEntry('pages', page);
+
+if (!entry) {
+  throw new Error(`Page not found: ${page}`);
+}
+
+const { data, rendered } = entry;
 const { meta, title } = data;
-const { Content } = await render(page);
 ---
 
 <Layout heading={title} meta={meta}>
   <Container>
-    <div class="max-w-none  prose  py-4  lg:py-8">
-      <Content />
+    <div class="max-w-none  prose  py-4  lg:py-8" set:html={rendered?.html}>
     </div>
   </Container>
 </Layout>
