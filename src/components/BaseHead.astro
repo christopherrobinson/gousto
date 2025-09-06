@@ -13,7 +13,7 @@ const metaTitle = stripHtml(title ?? '').result || site.name;
 ---
 
 <meta charset="utf-8">
-<title>{!metaTitle.includes(site.name) ? `${metaTitle} | ${site.name}` : metaTitle}</title>
+<title>{!metaTitle.includes(site.name) && (pathname !== '/') ? `${metaTitle} | ${site.name}` : metaTitle}</title>
 <link rel="apple-touch-icon" href={appleTouchIcon.src}>
 <link rel="canonical" href={canonicalUrl}>
 <link rel="icon" href="/favicon.ico" sizes="32x32">
