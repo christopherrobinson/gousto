@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import Unimport from 'unimport/unplugin';
 import { loadEnv } from 'vite';
-import { site } from './src/config';
+import { excludedFiles, site } from './src/config';
 import { remarkExternalLinks } from './src/helpers/remarkExternalLinks';
 import { remarkReadingTime } from './src/helpers/remarkReadingTime';
 
@@ -72,6 +72,13 @@ export default defineConfig({
   site: site.url,
   trailingSlash: 'always',
   vite: {
+    build: {
+      rollupOptions: {
+        external: [
+          ...excludedFiles.map((src) => new URL(src, import.meta.url).pathname),
+        ],
+      },
+    },
     plugins: [
       basicSsl(),
       tailwindcss(),
