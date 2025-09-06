@@ -9,8 +9,14 @@ export const excludedFiles = [
   'src/pages/api/update-recipes.ts',
 ];
 export const ignoredRecipeSuffixes = [
+  'and-dessert',
   'and-dough-balls',
+  'and-ready-to-heat-rice',
+  'and-side',
+  'and-sides',
   'with-dessert',
+  'with-dough-balls',
+  'with-ready-to-heat-rice',
   'with-side',
   'with-sides',
 ];
