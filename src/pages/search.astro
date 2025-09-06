@@ -1,8 +1,6 @@
 ---
 export const prerender = false;
 
-Astro.response.headers.set('Cache-Control', 'public, max-age=604800, s-maxage=604800');
-
 import Pagination from '@/components/Helpers/Pagination.astro';
 import RecipeCard from '@/components/RecipeCard.astro';
 import Layout from '@/layouts/Default.astro';
