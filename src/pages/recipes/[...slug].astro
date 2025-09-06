@@ -2,6 +2,7 @@
 import Allergens from '@/components/Allergens.astro';
 import Benefits from '@/components/Benefits.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import FeaturedProducts from '@/components/FeaturedProducts.astro';
 import Ingredients from '@/components/Ingredients.astro';
 import NutritionalInformation from '@/components/NutritionalInformation.astro';
 import RecipeStructuredData from '@/components/StructuredData/Recipe.astro';
@@ -26,6 +27,7 @@ const { allergens, basics, cooking_instructions, cuisine, description, image, nu
 const { per_portion } = nutritional_information;
 const ingredientsFor2 = data.ingredients.filter(ingredient => data.portion_sizes?.['2']?.ingredients_skus?.includes(ingredient.gousto_uuid));
 const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredients;
+const products = await getProducts({ limit: 6, recipe });
 ---
 
 <Layout
@@ -203,6 +205,7 @@ const ingredients = ingredientsFor2.length > 0 ? ingredientsFor2 : data.ingredie
       </div>
     </div>
   </Container>
+  <FeaturedProducts products={products} />
   <Container>
     <NutritionalInformation perPortion={per_portion} />
     <Allergens allergens={allergens} />

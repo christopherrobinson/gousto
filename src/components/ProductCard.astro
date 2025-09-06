@@ -1,0 +1,32 @@
+---
+const { id, name, url } = Astro.props as ProductCardProps;
+---
+
+<a
+  class="bg-white  border  border-secondary-100  flex  flex-col  group  h-full  overflow-hidden  rounded-lg  transition  hover:border-secondary-200  hover:shadow-sm"
+  href={url}
+  rel="noopener  noreferrer"
+  target="_blank"
+>
+  <div class="aspect-square  relative">
+    <div class="overflow-hidden">
+      <img
+        alt={name}
+        class="p-4  transition  w-full  group-hover:scale-110"
+        decoding="async"
+        height={288}
+        loading="lazy"
+        src={useRemoteImageUrl(`/images/products/${id.toUpperCase()}.jpg`, { h: 576, output: 'webp', w: 576 })}
+        width={288}
+      />
+    </div>
+  </div>
+  <div class="flex  flex-col  gap-4  h-full  justify-between  p-4">
+    <h2 class="font-medium  font-serif  transition  group-hover:text-primary-600">{name}</h2>
+    <div class="flex  items-center  justify-end  overflow-hidden  space-x-8  text-sm  text-center  group-hover:text-zinc-950">
+      <div class="flex  items-center  space-x-2">
+        <Icon class="text-primary-600" name="arrow-up-right-from-square" /> <span>View details</span>
+      </div>
+    </div>
+  </div>
+</a>
