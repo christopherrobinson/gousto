@@ -4,6 +4,10 @@ export const benefits = [
   'No commitments!',
   'Skip or cancel for free anytime',
 ];
+export const excludedFiles = [
+  'src/pages/api/update-ingredients.ts',
+  'src/pages/api/update-recipes.ts',
+];
 export const ignoredRecipeSuffixes = [
   'and-dough-balls',
   'with-dessert',
