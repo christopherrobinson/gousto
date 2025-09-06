@@ -15,15 +15,42 @@ export const getStaticPaths = async () => {
 const { post } = Astro.props;
 const { data } = post;
 const { date, meta, title } = data;
+const { remarkPluginFrontmatter } = await render(post);
+const { readingTime } = remarkPluginFrontmatter;
+const { minutes } = readingTime;
 const recipes = (data.recipes?.length > 0) ? await getRecipes({ recipes: data.recipes }) : [];
 const { Content } = await render(post);
 ---
 
 <Layout heading={title} meta={meta}>
   <Container>
-    <div class="max-w-none  prose  py-4  lg:py-8">
-      <p>Posted: <FormattedDate date={date} /></p>
-      <Content />
+    <div class="gap-4  grid  grid-cols-1  lg:gap-8  lg:grid-cols-12">
+      <div class="col-span-1  py-4  lg:col-span-2  lg:py-8">
+        <div class="lg:sticky  lg:top-[34px]">
+          <ul class="flex  flex-wrap  gap-2  justify-between  mt-auto  pt-1  text-sm  text-zinc-600">
+            <li class="flex  items-center">
+              <span class="flex  items-center  justify-center  h-4  mr-1  w-4">
+                <Icon class="text-primary-600  h-3" name="calendar-day" />
+              </span>
+              <FormattedDate date={date} />
+            </li>
+            <li class="flex  items-center">
+              <span class="flex  items-center  justify-center  h-4  mr-1  w-4">
+                <Icon class="text-primary-600  h-3" name="stopwatch" />
+              </span>
+              <span>{minutes} minute read</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-span-1  max-w-none  -mt-8  prose  py-4  lg:-mt-0  lg:col-span-10  lg:py-8">
+        {(new Date(new Date().setMonth(new Date().getMonth() - 3)) > date) && (
+          <div class="bg-amber-100  border  border-amber-200  p-3  rounded-md  text-amber-800  text-center  text-sm">
+            <strong class="text-amber-800">Note:</strong> This post is over 3 months old and may be outdated or superseded by additional information.
+          </div>
+        )}
+        <Content />
+      </div>
     </div>
   </Container>
   <FeaturedRecipes recipes={recipes} />
