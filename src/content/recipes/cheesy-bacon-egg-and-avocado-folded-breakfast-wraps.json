@@ -7,7 +7,7 @@
     "gousto_id": "7686",
     "rating": {
         "average": 4.5,
-        "count": 953
+        "count": 1006
     },
     "description": "Start your day right with an all-in-one breakfast wrap. You'll load tortillas with crispy bacon, scrambled egg, avo and cheese before toasting till crispy. Perfect.",
     "cuisine": "British",
@@ -17,12 +17,6 @@
             "gousto_uuid": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
             "allergens": [],
             "image": "/images/ingredients/8df922d2-0c1d-46f1-af84-5e6991b4ec6f.jpg"
-        },
-        {
-            "label": "Smashed avocado (100g)",
-            "gousto_uuid": "1a774aa3-6956-494d-9146-a1074dece385",
-            "allergens": [],
-            "image": "/images/ingredients/1a774aa3-6956-494d-9146-a1074dece385.jpg"
         },
         {
             "label": "Plain tortillas (4pcs)",
@@ -59,6 +53,12 @@
                 "milk"
             ],
             "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+        },
+        {
+            "label": "Avocado",
+            "gousto_uuid": "a95b0c60-4418-43e3-8878-5eaca136762d",
+            "allergens": [],
+            "image": "/images/ingredients/a95b0c60-4418-43e3-8878-5eaca136762d.jpg"
         }
     ],
     "basics": [
@@ -84,12 +84,12 @@
             "image": "/images/instructions/cheesy-bacon-egg-and-avocado-folded-breakfast-wraps/step-3.jpg"
         },
         {
-            "instruction": "<p>Grate your <strong>cheddar cheese</strong></p>",
+            "instruction": "<p>Cut your <strong>avocado[s]</strong> in half lengthways, around the stone</p><p>Remove the <strong>stone[s]</strong> using a spoon, then scoop out the <strong>avocado flesh</strong> and slice finely</p><p>Grate your <strong>cheddar cheese</strong></p>",
             "order": 4,
             "image": "/images/instructions/cheesy-bacon-egg-and-avocado-folded-breakfast-wraps/step-4.jpg"
         },
         {
-            "instruction": "<p>Cut one slit in each of your <strong>tortillas</strong> from the centre of the tortilla to the edge</p><p>Place some of the <strong>halved crispy bacon</strong> with a dollop of your <strong>red chilli relish</strong>, a spoonful of <strong>scrambled egg</strong>, some of the <strong>smashed avocado</strong> and a handful of <strong>grated cheese </strong>in each quarter of the tortillas</p>",
+            "instruction": "<p>Cut one slit in each of your <strong>tortillas</strong> from the centre of the tortilla to the edge</p><p>Place some of the <strong>halved crispy bacon</strong> with a dollop of your <strong>red chilli relish</strong>, a spoonful of <strong>scrambled egg</strong>, some of the <strong>sliced avocado</strong> and a handful of <strong>grated cheese </strong>in each quarter of the tortillas</p>",
             "order": 5,
             "image": "/images/instructions/cheesy-bacon-egg-and-avocado-folded-breakfast-wraps/step-5.jpg"
         },
@@ -115,61 +115,61 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 253,
-            "energy_kj": 1060,
-            "fat_mg": 12399,
-            "fat_saturates_mg": 4963,
-            "carbs_mg": 24381,
-            "carbs_sugars_mg": 4336,
-            "fibre_mg": 1823,
-            "protein_mg": 10108,
-            "salt_mg": 913,
+            "energy_kcal": 229,
+            "energy_kj": 960,
+            "fat_mg": 12072,
+            "fat_saturates_mg": 4559,
+            "carbs_mg": 21128,
+            "carbs_sugars_mg": 3759,
+            "fibre_mg": 1329,
+            "protein_mg": 8785,
+            "salt_mg": 695,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 803,
-            "energy_kj": 3361,
-            "fat_mg": 39307,
-            "fat_saturates_mg": 15734,
-            "carbs_mg": 77290,
-            "carbs_sugars_mg": 13746,
-            "fibre_mg": 5780,
-            "protein_mg": 32044,
-            "salt_mg": 2897,
-            "net_weight_mg": 317000
+            "energy_kcal": 842,
+            "energy_kj": 3524,
+            "fat_mg": 44307,
+            "fat_saturates_mg": 16734,
+            "carbs_mg": 77540,
+            "carbs_sugars_mg": 13796,
+            "fibre_mg": 4880,
+            "protein_mg": 32244,
+            "salt_mg": 2552,
+            "net_weight_mg": 367000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "d91960ef-48e8-4aea-b25f-23c4c93da7e9",
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
-                "1a774aa3-6956-494d-9146-a1074dece385",
                 "1d5d40b7-a408-47b1-b755-1a758a49417f"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "d91960ef-48e8-4aea-b25f-23c4c93da7e9",
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
-                "1a774aa3-6956-494d-9146-a1074dece385",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "d91960ef-48e8-4aea-b25f-23c4c93da7e9",
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
-                "1a774aa3-6956-494d-9146-a1074dece385",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
                 "1d5d40b7-a408-47b1-b755-1a758a49417f"
             ]
@@ -177,22 +177,22 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "d91960ef-48e8-4aea-b25f-23c4c93da7e9",
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
-                "1a774aa3-6956-494d-9146-a1074dece385",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "a95b0c60-4418-43e3-8878-5eaca136762d",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "d91960ef-48e8-4aea-b25f-23c4c93da7e9",
                 "c4cbe0ad-8ea0-40ea-a498-93980fbfff22",
-                "1a774aa3-6956-494d-9146-a1074dece385",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
                 "1d5d40b7-a408-47b1-b755-1a758a49417f"
             ]
