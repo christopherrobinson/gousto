@@ -13,19 +13,45 @@
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "160g untrimmed fine green beans",
-            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+            "label": "Tomato ketchup (30ml) x0",
+            "gousto_uuid": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
             "allergens": [],
-            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
+            "image": "/images/ingredients/b67ea736-aee3-4a42-8b2c-73fb7b4e8e30.jpg"
         },
         {
-            "label": "5.5g beef stock mix",
+            "label": "Tomato ketchup (15ml)",
+            "gousto_uuid": "43938034-cb9a-45cb-ad78-44234261fb46",
+            "allergens": [],
+            "image": "/images/ingredients/43938034-cb9a-45cb-ad78-44234261fb46.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+        },
+        {
+            "label": "Proper Porker sausages (4pcs)",
+            "gousto_uuid": "1e39a6d0-f5ea-4502-9c74-f90d7c280f7d",
+            "allergens": [
+                "sulphites"
+            ],
+            "image": "/images/ingredients/1e39a6d0-f5ea-4502-9c74-f90d7c280f7d.jpg"
+        },
+        {
+            "label": "Beef stock mix (5.5g)",
             "gousto_uuid": "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
             "allergens": [],
             "image": "/images/ingredients/e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3.jpg"
         },
         {
-            "label": "40g cheddar cheese",
+            "label": "Fine green beans (160g)",
+            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+            "allergens": [],
+            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g)",
             "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
             "allergens": [
                 "milk"
@@ -33,27 +59,7 @@
             "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
-            "label": "10ml tomato ketchup",
-            "gousto_uuid": "8d87bacc-b9df-4790-860b-70ed052e3e00",
-            "allergens": [],
-            "image": "/images/ingredients/8d87bacc-b9df-4790-860b-70ed052e3e00.jpg"
-        },
-        {
-            "label": "4 Proper Porker sausages",
-            "gousto_uuid": "5fa3a669-8c36-48bd-9f29-e1ac2abff979",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/5fa3a669-8c36-48bd-9f29-e1ac2abff979.jpg"
-        },
-        {
-            "label": "4 white potatoes",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
-            "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
-        },
-        {
-            "label": "21g wholegrain mustard",
+            "label": "Wholegrain mustard (21g)",
             "gousto_uuid": "4cad21de-c673-4385-82b7-78aaca9c8367",
             "allergens": [
                 "mustard"
@@ -61,25 +67,31 @@
             "image": "/images/ingredients/4cad21de-c673-4385-82b7-78aaca9c8367.jpg"
         },
         {
-            "label": "25g honey",
+            "label": "Fine green beans (80g) x0",
+            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+            "allergens": [],
+            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
+        },
+        {
+            "label": "White potato x4",
+            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+            "allergens": [],
+            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+        },
+        {
+            "label": "Honey (25g)",
             "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
             "allergens": [],
             "image": "/images/ingredients/79f3354b-1c07-4ead-a173-f97e8cddd843.jpg"
-        },
-        {
-            "label": "1 red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
         }
     ],
     "basics": [
         "Butter",
-        "Flour",
         "Olive oil",
         "Pepper",
         "Salt",
-        "Sugar"
+        "Sugar",
+        "Flour"
     ],
     "cooking_instructions": [
         {
@@ -129,28 +141,103 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 134,
-            "energy_kj": 565,
-            "fat_mg": 6820,
-            "fat_saturates_mg": 2814,
-            "carbs_mg": 12823,
-            "carbs_sugars_mg": 3874,
-            "fibre_mg": 1695,
-            "protein_mg": 5831,
-            "salt_mg": 538,
+            "energy_kcal": 133,
+            "energy_kj": 560,
+            "fat_mg": 6844,
+            "fat_saturates_mg": 2791,
+            "carbs_mg": 12869,
+            "carbs_sugars_mg": 3802,
+            "fibre_mg": 1726,
+            "protein_mg": 5841,
+            "salt_mg": 598,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 655,
-            "energy_kj": 2743,
-            "fat_mg": 33106,
-            "fat_saturates_mg": 13660,
-            "carbs_mg": 62246,
-            "carbs_sugars_mg": 18807,
-            "fibre_mg": 8230,
-            "protein_mg": 28306,
-            "salt_mg": 2614,
-            "net_weight_mg": 485400
+            "energy_kcal": 651,
+            "energy_kj": 2730,
+            "fat_mg": 33349,
+            "fat_saturates_mg": 13602,
+            "carbs_mg": 62709,
+            "carbs_sugars_mg": 18527,
+            "fibre_mg": 8412,
+            "protein_mg": 28462,
+            "salt_mg": 2916,
+            "net_weight_mg": 487250
+        }
+    },
+    "portion_sizes": {
+        "1": {
+            "is_offered": true,
+            "ingredients_skus": [
+                "1e39a6d0-f5ea-4502-9c74-f90d7c280f7d",
+                "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "43938034-cb9a-45cb-ad78-44234261fb46",
+                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
+            ]
+        },
+        "2": {
+            "is_offered": true,
+            "ingredients_skus": [
+                "1e39a6d0-f5ea-4502-9c74-f90d7c280f7d",
+                "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "43938034-cb9a-45cb-ad78-44234261fb46",
+                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
+            ]
+        },
+        "3": {
+            "is_offered": true,
+            "ingredients_skus": [
+                "1e39a6d0-f5ea-4502-9c74-f90d7c280f7d",
+                "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+                "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
+            ]
+        },
+        "4": {
+            "is_offered": true,
+            "ingredients_skus": [
+                "1e39a6d0-f5ea-4502-9c74-f90d7c280f7d",
+                "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
+            ]
+        },
+        "5": {
+            "is_offered": true,
+            "ingredients_skus": [
+                "1e39a6d0-f5ea-4502-9c74-f90d7c280f7d",
+                "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
+                "aed1561d-bae6-487b-a645-4125a6829119",
+                "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+                "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+                "79f3354b-1c07-4ead-a173-f97e8cddd843",
+                "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+                "43938034-cb9a-45cb-ad78-44234261fb46",
+                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+                "4cad21de-c673-4385-82b7-78aaca9c8367"
+            ]
         }
     },
     "prep_time_minutes": {

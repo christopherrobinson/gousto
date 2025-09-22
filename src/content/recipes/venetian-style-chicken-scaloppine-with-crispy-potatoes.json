@@ -11,7 +11,7 @@
     "gousto_id": "2223",
     "rating": {
         "average": 4.5,
-        "count": 36471
+        "count": 37130
     },
     "description": "For this twist on an Italian classic, you'll pan-fry thin pieces of chicken until crisp and beautifully golden. Serve with a lemon sauce, roast potatoes and green beans. Buon appetito!",
     "cuisine": "Italian",
@@ -21,14 +21,6 @@
             "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
             "allergens": [],
             "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
-        },
-        {
-            "label": "Cr\u00e8me fra\u00eeche (80g) x1",
-            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
         },
         {
             "label": "Lemon",
@@ -41,6 +33,14 @@
             "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
             "allergens": [],
             "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
+        },
+        {
+            "label": "Cornish clotted cream (40g)",
+            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
         },
         {
             "label": "Fine green beans (160g)",
@@ -99,7 +99,7 @@
             "image": "/images/instructions/venetian-style-chicken-scaloppine-with-crispy-potatoes/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the chicken is cooked, remove the pan from the heat and stir through your <strong>cr\u00e8me fra\u00eeche</strong></p><p>Squeeze in the juice of <strong>half</strong> your <strong>caramelised lemon </strong>and cook for 1-2 min or until thickened \u2013 this is your <strong>lemon sauce</strong></p><p>Cut the <strong>remaining caramelised lemon</strong> into 1 wedge per person</p>",
+            "instruction": "<p>Once the chicken is cooked, remove the pan from the heat and stir through your <strong>clotted cream</strong></p><p>Squeeze in the juice of <strong>half</strong> your <strong>caramelised lemon </strong>and cook for 1-2 min or until thickened \u2013 this is your <strong>lemon sauce</strong></p><p>Cut the <strong>remaining caramelised lemon</strong> into 1 wedge per person</p>",
             "order": 7,
             "image": "/images/instructions/venetian-style-chicken-scaloppine-with-crispy-potatoes/step-7.jpg"
         },
@@ -113,27 +113,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 76,
-            "energy_kj": 324,
-            "fat_mg": 1272,
-            "fat_saturates_mg": 691,
-            "carbs_mg": 9166,
-            "carbs_sugars_mg": 1141,
+            "energy_kcal": 92,
+            "energy_kj": 390,
+            "fat_mg": 3104,
+            "fat_saturates_mg": 1773,
+            "carbs_mg": 9098,
+            "carbs_sugars_mg": 1073,
             "fibre_mg": 1414,
-            "protein_mg": 7675,
-            "salt_mg": 54,
+            "protein_mg": 7621,
+            "salt_mg": 55,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 364,
-            "energy_kj": 1540,
-            "fat_mg": 6045,
-            "fat_saturates_mg": 3285,
-            "carbs_mg": 43540,
-            "carbs_sugars_mg": 5420,
+            "energy_kcal": 440,
+            "energy_kj": 1853,
+            "fat_mg": 14745,
+            "fat_saturates_mg": 8425,
+            "carbs_mg": 43220,
+            "carbs_sugars_mg": 5100,
             "fibre_mg": 6720,
-            "protein_mg": 36460,
-            "salt_mg": 258,
+            "protein_mg": 36200,
+            "salt_mg": 265,
             "net_weight_mg": 475000
         }
     },
@@ -141,8 +141,8 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -151,8 +151,8 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -161,9 +161,9 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
@@ -173,8 +173,8 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -183,9 +183,9 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",

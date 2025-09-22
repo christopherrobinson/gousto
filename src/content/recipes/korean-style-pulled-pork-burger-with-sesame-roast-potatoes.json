@@ -7,11 +7,25 @@
     "gousto_id": "4591",
     "rating": {
         "average": 4.5,
-        "count": 1929
+        "count": 1935
     },
-    "description": "This burger is bursting with Seoul-inspired flavour. You'll spice pork with gochujang (a Korean chilli paste) and cook until tender. Serve in a soft brioche bun, with sesame potatoes and a gingery spring onion mayo.",
+    "description": "Seoul food at home. Start by slow-cooking pork with gochujang until tender, then shred and load into brioche buns. Add sesame roast potatoes and a dollop of gingery mayo on the side.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "BBQ pulled pork (308g)",
+            "gousto_uuid": "eb1115a3-f429-4258-8477-08a9b363ffae",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/eb1115a3-f429-4258-8477-08a9b363ffae.jpg"
+        },
+        {
+            "label": "Rice vinegar (15ml)",
+            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
+            "allergens": [],
+            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
+        },
         {
             "label": "Gochujang paste (30g)",
             "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
@@ -82,14 +96,6 @@
             "image": "/images/ingredients/28488d86-b289-4b36-b789-a2cf79fd8513.jpg"
         },
         {
-            "label": "BBQ pulled pork (308g)",
-            "gousto_uuid": "eb1115a3-f429-4258-8477-08a9b363ffae",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/eb1115a3-f429-4258-8477-08a9b363ffae.jpg"
-        },
-        {
             "label": "Toasted sesame oil (20ml) x0",
             "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
             "allergens": [
@@ -129,25 +135,10 @@
             "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
         },
         {
-            "label": "Rice vinegar (15ml)",
-            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-            "allergens": [],
-            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
-        },
-        {
             "label": "Cucumber (0.5pcs)",
             "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
             "allergens": [],
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "White potato x3",
@@ -170,7 +161,7 @@
             "image": "/images/instructions/korean-style-pulled-pork-burger-with-sesame-roast-potatoes/step-1.jpg"
         },
         {
-            "instruction": "<p>Chop your <strong>potatoes</strong> (skins on) into bite-sized pieces and add to a baking tray (or two!)</p><p>Drizzle with your <strong>toasted</strong> <strong>sesame oil </strong>and a pinch of <strong>salt</strong>, give everything a good mix up, then put the tray[s] in the oven for 25-30 min or until the potatoes are crisp and cooked through</p><p>Once cooked, sprinkle over your <strong>black sesame seeds</strong> \u2013 these are your <strong>sesame roasted potatoes</strong></p>",
+            "instruction": "<p>Chop your <strong>potatoes</strong> (skins on) into bite-sized pieces and add to a baking tray (or two!)</p><p>Drizzle with your <strong>toasted</strong> <strong>sesame oil </strong>and give everything a good mix up, then put the tray[s] in the oven for 25-30 min or until the potatoes are crisp and cooked through</p><p>Once cooked, sprinkle over your <strong>black sesame seeds</strong> \u2013 these are your <strong>sesame roasted potatoes</strong></p>",
             "order": 2,
             "image": "/images/instructions/korean-style-pulled-pork-burger-with-sesame-roast-potatoes/step-2.jpg"
         },
@@ -180,7 +171,7 @@
             "image": "/images/instructions/korean-style-pulled-pork-burger-with-sesame-roast-potatoes/step-3.jpg"
         },
         {
-            "instruction": "<p>Top, tail and slice your <strong>radishes</strong></p><p>Add the <strong>sliced</strong> <strong>radishes</strong> and <strong>bashed cucumber</strong> to a large bowl with a drizzle of <strong>vegetable oil</strong>,<strong> </strong>your <strong>soy sauce</strong> and <strong>half</strong> your <strong>rice vinegar </strong>(you'll use the rest later!)</p><p>Give everything a good mix up \u2013 this is your <strong>quick-pickled salad</strong></p>",
+            "instruction": "<p>Top, tail and slice your <strong>radishes</strong></p><p>Add the <strong>sliced</strong> <strong>radishes</strong> and <strong>bashed cucumber</strong> to a large bowl with a drizzle of <strong>vegetable oil</strong> and <strong>half</strong> your <strong>rice vinegar </strong>(you'll use the rest later!)</p><p>Give everything a good mix up \u2013 this is your <strong>quick-pickled salad</strong></p>",
             "order": 4,
             "image": "/images/instructions/korean-style-pulled-pork-burger-with-sesame-roast-potatoes/step-4.jpg"
         },
@@ -217,28 +208,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 154,
-            "energy_kj": 647,
-            "fat_mg": 8147,
-            "fat_saturates_mg": 1491,
-            "carbs_mg": 13036,
-            "carbs_sugars_mg": 2835,
-            "fibre_mg": 1526,
-            "protein_mg": 7525,
-            "salt_mg": 606,
+            "energy_kcal": 155,
+            "energy_kj": 650,
+            "fat_mg": 8202,
+            "fat_saturates_mg": 1502,
+            "carbs_mg": 13084,
+            "carbs_sugars_mg": 2848,
+            "fibre_mg": 1536,
+            "protein_mg": 7519,
+            "salt_mg": 520,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 912,
-            "energy_kj": 3826,
+            "energy_kcal": 910,
+            "energy_kj": 3816,
             "fat_mg": 48149,
             "fat_saturates_mg": 8817,
-            "carbs_mg": 77048,
-            "carbs_sugars_mg": 16759,
+            "carbs_mg": 76808,
+            "carbs_sugars_mg": 16719,
             "fibre_mg": 9019,
-            "protein_mg": 44476,
-            "salt_mg": 3587,
-            "net_weight_mg": 591000
+            "protein_mg": 44140,
+            "salt_mg": 3055,
+            "net_weight_mg": 587000
         }
     },
     "portion_sizes": {
@@ -254,7 +245,6 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "29efe189-b584-424e-9f22-732933024097",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -272,7 +262,6 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "29efe189-b584-424e-9f22-732933024097",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -281,8 +270,8 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "28488d86-b289-4b36-b789-a2cf79fd8513",
                 "eb1115a3-f429-4258-8477-08a9b363ffae",
+                "28488d86-b289-4b36-b789-a2cf79fd8513",
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -292,7 +281,6 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "29efe189-b584-424e-9f22-732933024097",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -310,7 +298,6 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "29efe189-b584-424e-9f22-732933024097",
                 "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -319,8 +306,8 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "28488d86-b289-4b36-b789-a2cf79fd8513",
                 "eb1115a3-f429-4258-8477-08a9b363ffae",
+                "28488d86-b289-4b36-b789-a2cf79fd8513",
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -330,7 +317,6 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "29efe189-b584-424e-9f22-732933024097",
                 "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"

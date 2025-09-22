@@ -13,6 +13,28 @@
     "cuisine": "Italian",
     "ingredients": [
         {
+            "label": "Pots & Co - chocolate ganache (45g) x2",
+            "gousto_uuid": "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
+            "allergens": [
+                "milk",
+                "nut",
+                "soya"
+            ],
+            "image": "/images/ingredients/8bd94efe-d174-40fe-9a4f-32af74b2c73e.jpg"
+        },
+        {
+            "label": "Pork mince (125g) x0",
+            "gousto_uuid": "4c71d4d4-15b2-4f5f-a199-cf39d35bebf0",
+            "allergens": [],
+            "image": "/images/ingredients/4c71d4d4-15b2-4f5f-a199-cf39d35bebf0.jpg"
+        },
+        {
+            "label": "Pork mince (250g)",
+            "gousto_uuid": "31144d49-0b50-4fbd-b6f1-2ef2f80053d4",
+            "allergens": [],
+            "image": "/images/ingredients/31144d49-0b50-4fbd-b6f1-2ef2f80053d4.jpg"
+        },
+        {
             "label": "Red wine paste (10g)",
             "gousto_uuid": "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
             "allergens": [
@@ -51,26 +73,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Pots & Co - Little Pot of Chocolate (50g) x2",
-            "gousto_uuid": "67ec413b-d762-435d-be57-cdddadde1eae",
-            "allergens": [
-                "milk",
-                "nut",
-                "soya"
-            ],
-            "image": "/images/ingredients/67ec413b-d762-435d-be57-cdddadde1eae.jpg"
-        },
-        {
             "label": "Parsley (5g)",
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
-        },
-        {
-            "label": "Pork mince (125g) x0",
-            "gousto_uuid": "4c71d4d4-15b2-4f5f-a199-cf39d35bebf0",
-            "allergens": [],
-            "image": "/images/ingredients/4c71d4d4-15b2-4f5f-a199-cf39d35bebf0.jpg"
         },
         {
             "label": "Italian hard cheese (20g)",
@@ -91,12 +97,6 @@
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
             "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Pork mince (250g)",
-            "gousto_uuid": "31144d49-0b50-4fbd-b6f1-2ef2f80053d4",
-            "allergens": [],
-            "image": "/images/ingredients/31144d49-0b50-4fbd-b6f1-2ef2f80053d4.jpg"
         },
         {
             "label": "Beef stock mix (5.5g) x0",
@@ -177,36 +177,36 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 206,
-            "energy_kj": 867,
-            "fat_mg": 8804,
-            "fat_saturates_mg": 4018,
-            "carbs_mg": 22956,
-            "carbs_sugars_mg": 4003,
-            "fibre_mg": 1374,
-            "protein_mg": 9914,
-            "salt_mg": 530,
+            "energy_kcal": 193,
+            "energy_kj": 812,
+            "fat_mg": 7210,
+            "fat_saturates_mg": 3398,
+            "carbs_mg": 22941,
+            "carbs_sugars_mg": 3859,
+            "fibre_mg": 1376,
+            "protein_mg": 10228,
+            "salt_mg": 525,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 891,
-            "energy_kj": 3750,
-            "fat_mg": 38058,
-            "fat_saturates_mg": 17371,
-            "carbs_mg": 99231,
-            "carbs_sugars_mg": 17303,
-            "fibre_mg": 5942,
-            "protein_mg": 42857,
-            "salt_mg": 2292,
-            "net_weight_mg": 432250
+            "energy_kcal": 825,
+            "energy_kj": 3471,
+            "fat_mg": 30808,
+            "fat_saturates_mg": 14521,
+            "carbs_mg": 98019,
+            "carbs_sugars_mg": 16490,
+            "fibre_mg": 5880,
+            "protein_mg": 43702,
+            "salt_mg": 2244,
+            "net_weight_mg": 427250
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
-                "67ec413b-d762-435d-be57-cdddadde1eae",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
@@ -222,8 +222,8 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
-                "67ec413b-d762-435d-be57-cdddadde1eae",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -239,8 +239,8 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
-                "67ec413b-d762-435d-be57-cdddadde1eae",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
@@ -259,8 +259,8 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
-                "67ec413b-d762-435d-be57-cdddadde1eae",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -276,8 +276,8 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "8bd94efe-d174-40fe-9a4f-32af74b2c73e",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
-                "67ec413b-d762-435d-be57-cdddadde1eae",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
