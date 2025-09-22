@@ -17,7 +17,7 @@ const { basics, ingredients, portion_sizes } = Astro.props as IngredientsProps;
     </p>
   ) || ``}
   <div class="mb-4  print:grid  print:grid-cols-3  print:w-full">
-    {ingredients.map(({ allergens, label, image }) => (
+    {ingredients.sort((a, b) => a.label.localeCompare(b.label)).map(({ allergens, label, image }) => (
       <div class="flex  items-center  space-x-4">
         <div class="flex  flex-col  items-center">
           {image &&
@@ -52,5 +52,5 @@ const { basics, ingredients, portion_sizes } = Astro.props as IngredientsProps;
     ))}
   </div>
   <h2 class="font-medium  font-serif  mb-2  text-xl">You'll also need</h2>
-  <p>{basics.join(", ")} <span class="font-normal">(or dietary alternatives)</span></p>
+  <p>{basics.sort(([a], [b]) => a.localeCompare(b)).join(", ")} <span class="font-normal">(or dietary alternatives)</span></p>
 </div>
