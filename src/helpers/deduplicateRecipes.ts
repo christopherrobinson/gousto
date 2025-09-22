@@ -1,62 +1,87 @@
+const suffixLeads = ['and', 'with'] as const;
+const premiumRegex = /^\[(?:prem|premium)\s+(?:pro|prot\.?|protein(?:s)?)\]\s*/i;
+const bracketPrefixRegex = /^\([^)]+\)\s*/;
+
+type Lead = (typeof suffixLeads)[number];
+type NutritionalInfo = Record<string, unknown>;
+type RecipeLike = {
+  id?: string;
+  title?: string;
+  description?: string;
+  nutritional_information?: { per_hundred_grams?: NutritionalInfo };
+  data?: {
+    title?: string;
+    description?: string;
+    nutritional_information?: { per_hundred_grams?: NutritionalInfo };
+  };
+  gousto_id?: number;
+  updated_at?: string;
+};
+
+type Entry = {
+  recipe: RecipeLike;
+  strippedTitle: string;
+  hadSuffix: boolean;
+  hadBracketPrefix: boolean;
+  descKey?: string;
+  nutKey?: string;
+};
+
+type SuffixPattern = { slug: string; length: number; lead: Lead; object: string };
+
+/** Build slug-based suffix patterns once (no regex needed here). */
+const buildSuffixPatterns = (): SuffixPattern[] => {
+  const patterns: SuffixPattern[] = [];
+  for (const lead of suffixLeads) {
+    for (const object of ignoredRecipeSuffixes) {
+      const comboSlug = `-${lead}-${object}`; // e.g. "-with-dessert"
+      patterns.push({ slug: comboSlug, length: comboSlug.length, lead, object });
+    }
+  }
+  return patterns;
+};
+
+const suffixPatterns = buildSuffixPatterns();
+
+/** Nutrition helpers */
+const getPerHundred = (r: RecipeLike) =>
+  r?.data?.nutritional_information?.per_hundred_grams ??
+  r?.nutritional_information?.per_hundred_grams;
+
+const getNutrientSignature = (r: RecipeLike, decimals = 1): string | undefined => {
+  const info = getPerHundred(r);
+  if (!info || typeof info !== 'object') return undefined;
+
+  const ordered: Record<string, number> = {};
+  const factor = Math.pow(10, decimals);
+  for (const key of Object.keys(info).sort()) {
+    const val = (info as any)[key];
+    if (typeof val === 'number' && isFinite(val)) {
+      ordered[key] = Math.round(val * factor) / factor;
+    }
+  }
+  if (!Object.keys(ordered).length) return undefined;
+  return JSON.stringify(ordered);
+};
+
+/**
+ * Build a single trailing matcher for the *specific* object we matched in the slug.
+ * Example object "ready-to-heat-rice" -> matches "with ready to heat rice" at the *end*.
+ */
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const buildObjectTailRegex = (lead: Lead, objectSlug: string) => {
+  const tokens = objectSlug.split('-').filter(Boolean).map(escapeRe);
+  const objectPattern = tokens.join('[\\s\\-–—,&]+');
+  return new RegExp(String.raw`(?:[\s\-–—,]+${lead}\b[\s\-–—,&]+${objectPattern})$`, 'i');
+};
+
+// ---------- main ----------
 export const deduplicateRecipes = (
-  recipes: any[],
+  recipes: RecipeLike[],
   removeXL: boolean = false
-): any[] => {
-  const premiumRegex = /^\[(prem|premium)\s+(pro|prot|prot\.|protein|proteins)\]\s*/i;
-  const bracketPrefixRegex = /^\([^)]+\)\s*/;
-
-  type Entry = {
-    recipe: any;
-    strippedTitle: string;
-    hadSuffix: boolean;
-    hadBracketPrefix: boolean;
-    descKey?: string;
-    nutKey?: string;
-  };
-
-  const grouped = new Map<
-    string,
-    {
-      base?: Entry;
-      bracketed?: Entry;
-    }
-  >();
-
-  // description+nutrition → canonical group slug
+): RecipeLike[] => {
+  const grouped = new Map<string, { base?: Entry; bracketed?: Entry }>();
   const descNutToGroupSlug = new Map<string, string>();
-
-  const suffixPatterns = ignoredRecipeSuffixes.map(suffix => {
-    const sluggedSuffix = `-${createSlug(suffix)}`;
-    return { length: sluggedSuffix.length, slug: sluggedSuffix };
-  });
-
-  const getNutrientSignature = (recipe: any): string | undefined => {
-    const info =
-      recipe?.data?.nutritional_information?.per_hundred_grams ??
-      recipe?.nutritional_information?.per_hundred_grams;
-    if (!info || typeof info !== 'object') return undefined;
-
-    // Build a stable, ordered snapshot of numeric fields only.
-    const ordered: Record<string, number> = {};
-    for (const key of Object.keys(info).sort()) {
-      const val = (info as any)[key];
-      if (typeof val === 'number' && isFinite(val)) {
-        // Round to 1 decimal to smooth tiny scrape variances; tweak if needed.
-        ordered[key] = Math.round(val * 10) / 10;
-      }
-    }
-    if (!Object.keys(ordered).length) return undefined;
-
-    return JSON.stringify(ordered);
-  };
-
-  const score = (e: Entry) => {
-    // Prefer entries without ignored suffix and without bracket-prefix.
-    let s = 0;
-    if (!e.hadSuffix) s += 1;
-    if (!e.hadBracketPrefix) s += 1;
-    return s;
-  };
 
   for (const recipe of recipes) {
     const rawTitle: string | undefined = recipe?.data?.title ?? recipe?.title;
@@ -64,27 +89,37 @@ export const deduplicateRecipes = (
     if (!title) continue;
 
     const premiumStripped = title.replace(premiumRegex, '').trim();
-    if (removeXL && /\bXL\b/i.test(premiumStripped)) continue;
+    if (removeXL && /(^|\W)XL(\W|$)/i.test(premiumStripped)) continue;
 
     const hadBracketPrefix = bracketPrefixRegex.test(premiumStripped);
     const cleanTitle = premiumStripped.replace(bracketPrefixRegex, '').trim();
 
     let slug = createSlug(cleanTitle);
+    let displayTitle = cleanTitle;
     let hadSuffix = false;
+    let matched: SuffixPattern | undefined;
 
-    for (const { slug: suffix, length } of suffixPatterns) {
-      if (slug.endsWith(suffix)) {
-        slug = slug.slice(0, -length);
+    // Remove exactly one suffix from the slug (delete 'break' to strip stacked)
+    for (const pat of suffixPatterns) {
+      if (slug.endsWith(pat.slug)) {
+        slug = slug.slice(0, -pat.length);
         hadSuffix = true;
+        matched = pat;
         break;
       }
     }
 
-    const rawDescription: string | undefined = recipe?.data?.description ?? recipe?.description;
-    const descKey = rawDescription ? createSlug(rawDescription.trim()) : undefined;
-    const nutKey = getNutrientSignature(recipe);
+    // Precisely remove the matching trailing phrase from the *title*
+    if (matched) {
+      const tailRe = buildObjectTailRegex(matched.lead, matched.object);
+      displayTitle = displayTitle.replace(tailRe, '').trim();
+    }
 
-    // Only coalesce by description when we also have a nutrition signature.
+    const rawDescription: string | undefined =
+      recipe?.data?.description ?? recipe?.description;
+    const descKey = rawDescription ? createSlug(rawDescription.trim()) : undefined;
+    const nutKey = getNutrientSignature(recipe, 1);
+
     if (descKey && nutKey) {
       const composite = `${descKey}||nut:${nutKey}`;
       if (descNutToGroupSlug.has(composite)) {
@@ -95,11 +130,11 @@ export const deduplicateRecipes = (
     }
 
     if (!grouped.has(slug)) grouped.set(slug, {});
-    const entry = grouped.get(slug)!;
+    const bucket = grouped.get(slug)!;
 
     const current: Entry = {
       recipe,
-      strippedTitle: cleanTitle,
+      strippedTitle: displayTitle,
       hadSuffix,
       hadBracketPrefix,
       descKey,
@@ -107,27 +142,29 @@ export const deduplicateRecipes = (
     };
 
     if (hadBracketPrefix) {
-      if (!entry.bracketed || score(current) > score(entry.bracketed)) entry.bracketed = current;
+      if (!bucket.bracketed || deduplicateRecipesScore(current) > deduplicateRecipesScore(bucket.bracketed)) {
+        bucket.bracketed = current;
+      }
     } else {
-      if (!entry.base || score(current) > score(entry.base)) entry.base = current;
+      if (!bucket.base || deduplicateRecipesScore(current) > deduplicateRecipesScore(bucket.base)) {
+        bucket.base = current;
+      }
     }
   }
 
-  const deduplicated: any[] = [];
-
+  const deduped: RecipeLike[] = [];
   for (const [slug, { base, bracketed }] of grouped.entries()) {
     const chosen = base ?? bracketed;
     if (!chosen) continue;
 
-    const out = { ...chosen.recipe };
-
-    if (out.data && typeof out.data === 'object') {
-      out.data = { ...out.data, title: chosen.strippedTitle };
-    }
-
+    const out: RecipeLike = { ...chosen.recipe };
+    out.data = out.data && typeof out.data === 'object'
+      ? { ...out.data, title: chosen.strippedTitle }
+      : { title: chosen.strippedTitle };
     out.id = slug;
-    deduplicated.push(out);
+
+    deduped.push(out);
   }
 
-  return deduplicated;
+  return deduped;
 };

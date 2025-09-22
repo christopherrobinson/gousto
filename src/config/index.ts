@@ -9,16 +9,16 @@ export const excludedFiles = [
   'src/pages/api/update-recipes.ts',
 ];
 export const ignoredRecipeSuffixes = [
-  'and-dessert',
-  'and-dough-balls',
-  'and-ready-to-heat-rice',
-  'and-side',
-  'and-sides',
-  'with-dessert',
-  'with-dough-balls',
-  'with-ready-to-heat-rice',
-  'with-side',
-  'with-sides',
+  'a-side-of-peas',
+  'beans-side',
+  'broccoli-side',
+  'crispy-bacon',
+  'dessert',
+  'dough-balls',
+  'an-egg',
+  'ready-to-heat-rice',
+  'side',
+  'sides',
 ];
 export const inspirationRecipeCount = 8;
 export const mergedCategories = new Map([
@@ -38,7 +38,6 @@ export const navItems = [
   { href: '/recipes/', label: 'Recipes' },
 ];
 export const postsPerPage = 6;
-export const targetPortionCalories = 600;
 export const recipesPerPage = 12;
 export const site = {
   name: 'Gousto Recipe Search',
