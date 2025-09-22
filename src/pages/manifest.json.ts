@@ -1,4 +1,4 @@
-import type { APIRoute } from 'astro';
+import { type APIRoute } from 'astro';
 import favicon from '@/images/favicon.png';
 
 const faviconPngSizes = [144, 512];
