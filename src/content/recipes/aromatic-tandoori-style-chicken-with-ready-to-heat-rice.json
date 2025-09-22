@@ -5,6 +5,10 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "9033",
+    "rating": {
+        "average": 4.5,
+        "count": 11
+    },
     "description": "For a lighter twist on a tandoori takeaway, you'll coat chicken in a spiced yoghurt marinade before charring it under the grill to infuse it with Punjabi-inspired flavour. Delicious!",
     "cuisine": "Indian",
     "ingredients": [
@@ -13,6 +17,12 @@
             "gousto_uuid": "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
             "allergens": [],
             "image": "/images/ingredients/c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b.jpg"
+        },
+        {
+            "label": "Nigella seeds (1tsp)",
+            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
+            "allergens": [],
+            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
         },
         {
             "label": "Curry powder (2tbsp) x0",
@@ -73,19 +83,6 @@
             "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
             "allergens": [],
             "image": "/images/ingredients/e604f6ba-a67f-4a10-ae71-6032c08a90a6.jpg"
-        },
-        {
-            "label": "Black sesame seeds (5g)",
-            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Cucumber (0.5pcs)",
@@ -153,7 +150,7 @@
             "image": "/images/instructions/aromatic-tandoori-style-chicken-with-ready-to-heat-rice/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>cooked rice, chopped cucumber, sliced radish, </strong>your <strong>black sesame seeds </strong>and most of the <strong>chopped coriander </strong>and <strong>mint </strong>(save the rest for garnish!) to a large bowl</p><p>Squeeze the juice of the <strong>lime[s]</strong> into the bowl and season with <strong>salt</strong> and a drizzle of <strong>olive oil </strong>and give it a good mix up \u2013 this is your<strong> rice salad</strong></p>",
+            "instruction": "<p>Add the <strong>cooked rice, chopped cucumber, sliced radish, </strong>your <strong>nigella seeds </strong>and most of the <strong>chopped coriander </strong>and <strong>mint </strong>(save the rest for garnish!) to a large bowl</p><p>Squeeze the juice of the <strong>lime[s]</strong> into the bowl and season with <strong>salt</strong> and a drizzle of <strong>olive oil </strong>and give it a good mix up \u2013 this is your<strong> rice salad</strong></p>",
             "order": 7,
             "image": "/images/instructions/aromatic-tandoori-style-chicken-with-ready-to-heat-rice/step-7.jpg"
         },
@@ -163,46 +160,40 @@
         }
     ],
     "allergens": [
-        "celery",
         "egg",
-        "fish",
         "milk",
-        "mustard",
-        "nut",
-        "sesame",
-        "soya"
+        "mustard"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 113,
-            "energy_kj": 477,
-            "fat_mg": 3729,
-            "fat_saturates_mg": 514,
-            "carbs_mg": 12369,
-            "carbs_sugars_mg": 1225,
-            "fibre_mg": 781,
-            "protein_mg": 7630,
+            "energy_kcal": 111,
+            "energy_kj": 471,
+            "fat_mg": 3518,
+            "fat_saturates_mg": 485,
+            "carbs_mg": 12446,
+            "carbs_sugars_mg": 1226,
+            "fibre_mg": 821,
+            "protein_mg": 7626,
             "salt_mg": 167,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 602,
-            "energy_kj": 2531,
-            "fat_mg": 19757,
-            "fat_saturates_mg": 2726,
-            "carbs_mg": 65528,
-            "carbs_sugars_mg": 6491,
-            "fibre_mg": 4142,
-            "protein_mg": 40425,
-            "salt_mg": 887,
-            "net_weight_mg": 529750
+            "energy_kcal": 592,
+            "energy_kj": 2491,
+            "fat_mg": 18606,
+            "fat_saturates_mg": 2567,
+            "carbs_mg": 65812,
+            "carbs_sugars_mg": 6483,
+            "fibre_mg": 4343,
+            "protein_mg": 40327,
+            "salt_mg": 888,
+            "net_weight_mg": 528750
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
@@ -212,13 +203,13 @@
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "29efe189-b584-424e-9f22-732933024097"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
@@ -228,13 +219,13 @@
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "29efe189-b584-424e-9f22-732933024097"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                 "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
@@ -246,13 +237,13 @@
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "29efe189-b584-424e-9f22-732933024097"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
@@ -262,13 +253,13 @@
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "29efe189-b584-424e-9f22-732933024097"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "c10fb7f1-be1b-45d1-b2ac-07ba9d6fe33b",
                 "e2901605-6faf-4a5e-bf6c-bb137a5f32ac",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
@@ -281,6 +272,7 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "29efe189-b584-424e-9f22-732933024097"
             ]
         }

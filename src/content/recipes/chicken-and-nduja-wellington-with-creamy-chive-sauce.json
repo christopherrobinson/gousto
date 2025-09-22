@@ -7,13 +7,19 @@
     "gousto_id": "4587",
     "rating": {
         "average": 4.5,
-        "count": 4194
+        "count": 4221
     },
-    "description": "Give dinner some welly tonight. You'll stuff chicken breast with 'Nduja, before wrapping it in pastry and baking until golden and crisp. Serve with a side of creamy chive vegetables.",
+    "description": "The grandest of Wellingtons that's guaranteed to impress. You'll tuck spicy 'Nduja into chicken breast, wrap it in pastry and bake till golden, then serve with creamy chive vegetables. Dinner, dressed up.",
     "cuisine": "Fusion",
     "ingredients": [
         {
-            "label": "Nduja (40g)",
+            "label": "Chives (5g)",
+            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "allergens": [],
+            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
+        },
+        {
+            "label": "'Nduja (40g)",
             "gousto_uuid": "718f6599-8cba-4bcf-8744-e70a5ab19096",
             "allergens": [],
             "image": "/images/ingredients/718f6599-8cba-4bcf-8744-e70a5ab19096.jpg"
@@ -23,6 +29,14 @@
             "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
             "allergens": [],
             "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
+        },
+        {
+            "label": "Cr\u00e8me fra\u00eeche (80g)",
+            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
         },
         {
             "label": "Garlic clove",
@@ -37,14 +51,6 @@
                 "gluten"
             ],
             "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
-        },
-        {
-            "label": "Double cream (80ml)",
-            "gousto_uuid": "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5.jpg"
         },
         {
             "label": "Waxy potatoes (350g)",
@@ -69,12 +75,6 @@
             "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
             "allergens": [],
             "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
-        },
-        {
-            "label": "Chives (5g)",
-            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-            "allergens": [],
-            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
         },
         {
             "label": "Fine green beans (80g) x0",
@@ -102,7 +102,7 @@
             "image": "/images/instructions/chicken-and-nduja-wellington-with-creamy-chive-sauce/step-1.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, use a sharp knife to cut a deep pocket along the top of the <strong>chicken breast portion[s] </strong>(be careful not to cut all the way through!)</p><p>Fill the pocket with your<strong> 'Nduja </strong>(can't handle the heat? Go easy!), then season generously with <strong>salt</strong> and <strong>pepper</strong> \u2013 this is your '<strong>Nduja stuffed chicken breast</strong></p><p>Tip: Keep the heat medium to avoid the 'Nduja from smoking!</p>",
+            "instruction": "<p>Meanwhile, use a sharp knife to cut a deep pocket along the top of the <strong>chicken breast portion[s] </strong>(be careful not to cut all the way through!)</p><p>Fill the pocket with your<strong> 'Nduja </strong>(can't handle the heat? Go easy!), then season generously with <strong>salt</strong> and <strong>pepper</strong> \u2013 this is your '<strong>Nduja stuffed chicken breast</strong></p>",
             "order": 2,
             "image": "/images/instructions/chicken-and-nduja-wellington-with-creamy-chive-sauce/step-2.jpg"
         },
@@ -127,7 +127,7 @@
             "image": "/images/instructions/chicken-and-nduja-wellington-with-creamy-chive-sauce/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the<strong> trimmed green beans</strong>, <strong>double cream</strong>, <strong>chicken stock mix</strong> and <strong>chopped garlic</strong> to the dish and cook for 10 min further or until the potatoes are cooked through and the green beans are tender</p><p>Once done, sprinkle over most<strong> </strong>of the <strong>chopped chives</strong> (save the rest for garnish!) \u2013 this is your <strong>creamy chive roasted veg</strong></p>",
+            "instruction": "<p>Add the<strong> trimmed green beans</strong>, <strong>cr\u00e8me fra\u00eeche</strong>, <strong>chicken stock mix</strong> and <strong>chopped garlic</strong> to the dish and cook for 10 min further or until the potatoes are cooked through and the green beans are tender</p><p>Once done, sprinkle over most<strong> </strong>of the <strong>chopped chives</strong> (save the rest for garnish!) \u2013 this is your <strong>creamy chive roasted veg</strong></p>",
             "order": 7,
             "image": "/images/instructions/chicken-and-nduja-wellington-with-creamy-chive-sauce/step-7.jpg"
         },
@@ -142,26 +142,26 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 142,
-            "energy_kj": 596,
-            "fat_mg": 8123,
-            "fat_saturates_mg": 3984,
-            "carbs_mg": 10657,
-            "carbs_sugars_mg": 1603,
+            "energy_kcal": 127,
+            "energy_kj": 533,
+            "fat_mg": 6312,
+            "fat_saturates_mg": 2955,
+            "carbs_mg": 10735,
+            "carbs_sugars_mg": 1681,
             "fibre_mg": 1339,
-            "protein_mg": 7070,
+            "protein_mg": 7148,
             "salt_mg": 371,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 882,
-            "energy_kj": 3689,
-            "fat_mg": 50226,
-            "fat_saturates_mg": 24635,
-            "carbs_mg": 65890,
-            "carbs_sugars_mg": 9914,
+            "energy_kcal": 787,
+            "energy_kj": 3299,
+            "fat_mg": 39026,
+            "fat_saturates_mg": 18275,
+            "carbs_mg": 66370,
+            "carbs_sugars_mg": 10394,
             "fibre_mg": 8280,
-            "protein_mg": 43716,
+            "protein_mg": 44196,
             "salt_mg": 2299,
             "net_weight_mg": 618250
         }
@@ -174,7 +174,7 @@
                 "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
@@ -189,7 +189,7 @@
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
@@ -205,7 +205,7 @@
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -221,7 +221,7 @@
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
@@ -237,7 +237,7 @@
                 "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-                "8ffc86b2-0a8c-4bcf-8ac1-bd4f8a11dac5",
+                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
