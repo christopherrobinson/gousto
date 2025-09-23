@@ -8,9 +8,9 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
 <div class="relative  overflow-hidden  w-full">
   <div class="absolute  bg-[url('/images/hero.png')]  bg-[length:512px_768px]  bg-center  bg-repeat  inset-0  opacity-2">
   </div>
-  <Container class="relative  z-10">
-    <div class="gap-8  grid  items-center  justify-between  py-8  relative  md:grid-cols-2  md:py-16">
-      <div class="flex-1  space-y-6  text-center  md:space-y-8  md:text-left">
+  <Container>
+    <div class="items-center  justify-between  py-8  relative  lg:gap-8  lg:grid  lg:grid-cols-2  lg:py-16">
+      <div class="mb-8  space-y-6  text-center  md:space-y-8  md:text-left  lg:mb-0">
         <h1 class="font-semibold  font-serif  leading-11  text-4xl  md:text-4xl  lg:leading-16  lg:text-6xl">
           Discover <span class="font-bold  text-primary-600" data-recipe-count={recipeCount}>{(Math.floor(recipeCount / 1000) * 1000).toLocaleString()}</span><br>
           delicious recipes
@@ -22,13 +22,13 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
           <a class="bg-tertiary-600  block  px-4  py-3  rounded-lg  text-white  transition  hover:bg-tertiary-800  hover:underline" href="/recipes/">
             View all recipes
           </a>
-          <a class="group  text-sm  md:text-base" href="/inspiration/">
-            Not sure what to cook? <span class="font-medium  group-hover:text-primary-600  group-hover:underline">Try something new <span aria-hidden="true">→</span></span>
+          <a class="flex  gap-1  group  text-sm  md:text-base" href="/inspiration/">
+            Not sure what to cook? <span class="flex  font-medium  gap-1  items-center  group-hover:text-primary-600  group-hover:underline">Try something new <Icon class="text-primary-600" name="shuffle" /></span>
           </a>
         </div>
       </div>
-      <div class="gap-4  grid  grid-cols-3  md:gap-8">
-        <div class="md:pt-32">
+      <div class="gap-4  grid  grid-cols-3  md:grid-cols-4  lg:grid-cols-3  lg:gap-8">
+        <div class="lg:pt-32">
           <HeroRecipe
             id={featuredRecipes[0].id}
             image={featuredRecipes[0].data.image}
@@ -36,7 +36,7 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
             title={featuredRecipes[0].data.title}
           />
         </div>
-        <div class="flex  flex-col  md:pt-16  md:space-y-6">
+        <div class="flex  flex-col  lg:pt-16  lg:space-y-6">
           <HeroRecipe
             id={featuredRecipes[1].id}
             image={featuredRecipes[1].data.image}
@@ -44,14 +44,14 @@ const { featuredRecipes, recipeCount } = Astro.props as HeroProps;
             title={featuredRecipes[1].data.title}
           />
           <HeroRecipe
-            class="hidden  md:block"
+            class="hidden  lg:block"
             id={featuredRecipes[2].id}
             image={featuredRecipes[2].data.image}
             rating={featuredRecipes[2].data.rating}
             title={featuredRecipes[2].data.title}
           />
         </div>
-        <div class="flex  flex-col  md:space-y-6">
+        <div class="flex  md:col-span-2  md:gap-4  lg:col-span-1  lg:flex-col  lg:gap-0  lg:space-y-6">
           <HeroRecipe
             id={featuredRecipes[3].id}
             image={featuredRecipes[3].data.image}

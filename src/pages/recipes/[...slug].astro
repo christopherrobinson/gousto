@@ -69,12 +69,6 @@ const products = await getProducts({ limit: 6, recipe });
               <Icon class="text-primary-600" name="stopwatch" /> <span>{prep_time_minutes['2']} mins</span>
             </div>
           }
-          <!-- {per_portion?.energy_kcal < targetPortionCalories &&
-            <div class="flex  items-center  space-x-2">
-              <Icon class="text-primary-600" name="user" />
-              <span class="flex  items-center"><Icon class="size-2.5" name="chevron-left" /> {targetPortionCalories}kcal</span>
-            </div>
-          } -->
           {per_portion?.energy_kcal &&
             <div class="flex  items-center  space-x-2" title="Per serving">
               <Icon class="text-primary-600" name="user" />
@@ -126,7 +120,7 @@ const products = await getProducts({ limit: 6, recipe });
         </div>
       </div>
     </div>
-    <div class="border-b  border-secondary-100  gap-4  grid  grid-cols-1  mb-8  pb-8  md:gap-8  md:grid-cols-12  print:grid-cols-1  print:text-sm">
+    <div class="border-b  border-secondary-100  gap-4  grid  grid-cols-1  pb-8  md:gap-8  md:grid-cols-12  print:grid-cols-1  print:text-sm">
       <div class="col-span-1  md:col-span-5  lg:col-span-4  print:col-span-1">
         <div class="md:sticky  md:top-[34px]">
           <Ingredients basics={basics} ingredients={ingredients} portion_sizes={portion_sizes} />
@@ -143,17 +137,17 @@ const products = await getProducts({ limit: 6, recipe });
         <h2 class="font-semibold  font-serif  mb-2  text-3xl">Cooking instructions</h2>
         <p class="mb-8">
           Instructions for 2
-            {(isPortionOffered(portion_sizes, 3) || isPortionOffered(portion_sizes, 4)) && (
-              <span class="space-x-0.1">
-                {isPortionOffered(portion_sizes, 3) && (
-                  <span class="text-purple">[for 3]</span>
-                )}
-                {isPortionOffered(portion_sizes, 4) && (
-                  <span class="text-danger">[for 4]</span>
-                )}
-              </span>
-            )}
-            portion recipe.
+          {(isPortionOffered(portion_sizes, 3) || isPortionOffered(portion_sizes, 4)) && (
+            <span class="space-x-0.1">
+              {isPortionOffered(portion_sizes, 3) && (
+                <span class="text-purple">[for 3]</span>
+              )}
+              {isPortionOffered(portion_sizes, 4) && (
+                <span class="text-danger">[for 4]</span>
+              )}
+            </span>
+          )}
+          portion recipe.
         </p>
         <div class="print:gap-x-8">
           {cooking_instructions
@@ -207,8 +201,10 @@ const products = await getProducts({ limit: 6, recipe });
   </Container>
   <FeaturedProducts products={products} />
   <Container>
-    <NutritionalInformation perPortion={per_portion} />
-    <Allergens allergens={allergens} />
+    <div class="divide-secondary-100  divide-y">
+      <NutritionalInformation perPortion={per_portion} />
+      <Allergens allergens={allergens} />
+    </div>
   </Container>
   <Benefits />
 </Layout>

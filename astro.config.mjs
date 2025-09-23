@@ -103,7 +103,7 @@ export default defineConfig({
           { from: 'astro-capo',            imports: [ 'Head' ] },
           { from: 'astro-icon/components', imports: [ 'Icon' ] },
           { from: 'string-strip-html',     imports: [ 'stripHtml' ] },
-          { from: 'vitest',                imports: [ 'beforeEach', 'describe', 'expect', 'it', 'vi' ] },
+          { from: 'vitest',                imports: [ 'beforeEach', 'describe', 'expect', 'it', 'vi' ], condition: (filepath) => /\.test\.[jt]sx?$/.test(filepath) },
         ],
       }),
     ],

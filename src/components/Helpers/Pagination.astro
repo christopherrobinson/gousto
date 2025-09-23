@@ -5,7 +5,8 @@ const { baseUrl, currentPage, forceQueryString, total, totalPages } = Astro.prop
 const { searchParams } = Astro.url;
 const itemsPerPage = {
   '/blog/'   : postsPerPage,
-  '/recipes/': recipesPerPage
+  '/recipes/': recipesPerPage,
+  '/search/' : recipesPerPage,
 }[baseUrl] || 10;
 const pages = getPagination(currentPage, totalPages);
 const start = (currentPage - 1) * itemsPerPage + 1;

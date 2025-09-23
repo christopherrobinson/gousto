@@ -1,10 +1,18 @@
-export const renderRecipeCard = ({ cuisine, id, image, prep_time_minutes, rating, title }) => {
+export const renderRecipeCard = ({ cuisine, id, image, nutritional_information, prep_time_minutes, rating, title }) => {
   const imageSrc = createImageUrl(image, { h: 288, w: 288 });
 
   return `
     <a class="bg-white  border  border-secondary-100  flex  flex-col  group  h-full  overflow-hidden  rounded-lg  transition  hover:border-secondary-200  hover:shadow-sm" href="/recipes/${id}/">
-      <div class="aspect-square  bg-secondary-100  relative">
-        <div class="overflow-hidden">
+      <div class="aspect-square  bg-secondary-50  relative">
+        <div class="aspect-square  overflow-hidden  relative">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <svg width="1em" height="1em" class="animate-spin  size-6  text-secondary-400" data-icon="spinner-third">
+              <symbol id="ai:local:spinner-third" viewBox="0 0 512 512">
+                <path fill="currentColor" d="M457 372c11.5 6.6 26.3 2.7 31.8-9.3C503.7 330.2 512 294.1 512 256 512 122.7 410.1 13.2 280 1.1c-13.2-1.2-24 9.6-24 22.9s10.8 23.9 24 25.4C383.5 61.2 464 149.2 464 256c0 29.3-6.1 57.3-17 82.6-5.3 12.2-1.5 26.8 10 33.5z" />
+              </symbol>
+              <use href="#ai:local:spinner-third" />
+            </svg>
+          </div>
           <picture>
             <source
               srcset="
@@ -15,7 +23,7 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_time_minutes, rating
             />
             <img
               alt="${title}"
-              class="transition  w-full  group-hover:scale-110"
+              class="object-cover  relative  size-full  transition-transform  group-hover:scale-110"
               decoding="async"
               height="288"
               loading="lazy"
@@ -25,6 +33,17 @@ export const renderRecipeCard = ({ cuisine, id, image, prep_time_minutes, rating
             />
           </picture>
         </div>
+        ${nutritional_information?.per_portion?.energy_kcal ? (`
+          <div class="absolute  bg-white/90  flex  items-center  px-2  py-1.5  rounded-lg  space-x-2  start-2  text-sm  top-2">
+            <svg width="0.88em" height="1em" class="text-primary-600" data-icon="user">
+              <symbol id="ai:local:user" viewBox="0 0 448 512">
+                <path fill="currentColor" d="M304 128a80 80 0 1 0-160 0 80 80 0 1 0 160 0m-208 0a128 128 0 1 1 256 0 128 128 0 1 1-256 0M49.3 464h349.4c-8.9-63.3-63.3-112-129-112h-91.4c-65.7 0-120.1 48.7-129 112M0 482.3C0 383.8 79.8 304 178.3 304h91.4c98.5 0 178.3 79.8 178.3 178.3 0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3" />
+              </symbol>
+              <use href="#ai:local:user"></use>
+            </svg>
+            <span class="flex  items-center">${nutritional_information.per_portion.energy_kcal.toLocaleString()}kcal</span>
+          </div>
+        `) : ``}
         ${isValidRating(rating) ? (`
           <div class="absolute  bg-white/90  end-2  flex  items-center  px-2  py-1.5  rounded-lg  space-x-2  text-sm  top-2">
             <svg width="1.13em" height="1em" class="text-primary-600" data-icon="star">
