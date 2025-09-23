@@ -1,20 +1,12 @@
-import type { APIRoute } from 'astro';
+import { type APIRoute } from 'astro';
 
 export const prerender = false;
 
 export const GET: APIRoute = async () => {
   try {
-    const { data } = await supabaseClient.rpc('get_random_recipes', { limit_count: inspirationRecipeCount });
-    const response = data.map(({ cuisine, image, prep_time_minutes, rating, url, title }) => ({
-      cuisine: cuisine,
-      id: url,
-      image: image,
-      prep_time_minutes: prep_time_minutes,
-      rating: rating,
-      title: title,
-    }));
+    const recipes = await getRandomRecipes(inspirationRecipeCount);
 
-    return new Response(JSON.stringify(response), {
+    return new Response(JSON.stringify(recipes), {
       headers: {
         'Cache-Control': 'public, max-age=604800, s-maxage=604800',
         'Content-Type': 'application/json',
