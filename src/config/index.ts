@@ -36,6 +36,7 @@ export const navItems = [
   { href: '/', label: 'Home' },
   { href: '/about/', label: 'About' },
   { href: '/recipes/', label: 'Recipes' },
+  { href: '/blog/', label: 'Blog' },
 ];
 export const postsPerPage = 6;
 export const recipesPerPage = 12;
