@@ -12,11 +12,25 @@
     "gousto_id": "2001",
     "rating": {
         "average": 4.5,
-        "count": 38751
+        "count": 38754
     },
     "description": "Grab a pot and pan, because this creamy pasta is ready in no time. You'll pan fry chicken, then coat in a rich pesto sauce. Stir through spinach in for some leafy greens, and finish with Italian hard cheese to serve. Sizzle, stir, done!",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
+        },
         {
             "label": "Intense chicken stock mix (5.5g)",
             "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
@@ -32,12 +46,6 @@
             "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
         },
         {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
-        },
-        {
             "label": "Traditional Italian pesto (45g)",
             "gousto_uuid": "89dff518-1f85-45d5-819d-28ff8f724133",
             "allergens": [
@@ -46,12 +54,10 @@
             "image": "/images/ingredients/89dff518-1f85-45d5-819d-28ff8f724133.jpg"
         },
         {
-            "label": "Soft cheese (50g)",
-            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
+            "label": "Chicken stock mix (5.5g) x0",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "allergens": [],
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
             "label": "Roasted garlic paste (15g)",
@@ -60,10 +66,10 @@
             "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
         },
         {
-            "label": "Chicken stock mix (5.5g) x0",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "label": "Spinach (80g)",
+            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
             "label": "Quick cook spaghetti (160g)",
@@ -73,12 +79,6 @@
                 "gluten"
             ],
             "image": "/images/ingredients/20d7f9a4-2be1-4161-90a7-04f2b8af56a3.jpg"
-        },
-        {
-            "label": "Spinach (80g)",
-            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
-            "allergens": [],
-            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         }
     ],
     "basics": [
@@ -165,7 +165,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
@@ -177,7 +177,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
@@ -191,7 +191,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
@@ -204,7 +204,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",
@@ -218,7 +218,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "20d7f9a4-2be1-4161-90a7-04f2b8af56a3",

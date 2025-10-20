@@ -13,10 +13,12 @@
     "cuisine": "Fusion",
     "ingredients": [
         {
-            "label": "Shredded kale (80g)",
-            "gousto_uuid": "5f36bc3a-9e3d-4634-8a9a-6a6837e0a555",
-            "allergens": [],
-            "image": "/images/ingredients/5f36bc3a-9e3d-4634-8a9a-6a6837e0a555.jpg"
+            "label": "Basa fillets (2pcs) x2",
+            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
         },
         {
             "label": "Finely chopped tomatoes (390g) x0",
@@ -31,30 +33,10 @@
             "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
         },
         {
-            "label": "Quinoa (70g)",
-            "gousto_uuid": "a2954412-5c7c-4f8f-b5e1-44c4d974c000",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/a2954412-5c7c-4f8f-b5e1-44c4d974c000.jpg"
-        },
-        {
             "label": "Ground smoked paprika (1tsp) x0",
             "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
             "allergens": [],
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
-        },
-        {
-            "label": "Harissa paste (40g) x0",
-            "gousto_uuid": "34b46d42-6be9-46f2-84c5-af9a818731da",
-            "allergens": [],
-            "image": "/images/ingredients/34b46d42-6be9-46f2-84c5-af9a818731da.jpg"
-        },
-        {
-            "label": "Garlic clove x2",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
             "label": "Intense vegetable stock mix (5.5g)",
@@ -69,18 +51,24 @@
             "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
         },
         {
-            "label": "Green lentils (185g)",
-            "gousto_uuid": "4e3542f7-8923-423e-88b4-ad16be59da55",
+            "label": "Garlic clove x2",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/4e3542f7-8923-423e-88b4-ad16be59da55.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Basa fillets (2pcs) x2",
-            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "label": "Quinoa (70g)",
+            "gousto_uuid": "a2954412-5c7c-4f8f-b5e1-44c4d974c000",
             "allergens": [
-                "fish"
+                "gluten"
             ],
-            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
+            "image": "/images/ingredients/a2954412-5c7c-4f8f-b5e1-44c4d974c000.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g) x0",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
             "label": "Harissa paste (20g)",
@@ -89,10 +77,16 @@
             "image": "/images/ingredients/0aa32d89-57bc-4ff1-a0a8-b7998f7b0198.jpg"
         },
         {
-            "label": "Vegetable stock mix (5.5g) x0",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "label": "Harissa paste (40g) x0",
+            "gousto_uuid": "34b46d42-6be9-46f2-84c5-af9a818731da",
             "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+            "image": "/images/ingredients/34b46d42-6be9-46f2-84c5-af9a818731da.jpg"
+        },
+        {
+            "label": "Shredded kale (80g)",
+            "gousto_uuid": "5f36bc3a-9e3d-4634-8a9a-6a6837e0a555",
+            "allergens": [],
+            "image": "/images/ingredients/5f36bc3a-9e3d-4634-8a9a-6a6837e0a555.jpg"
         },
         {
             "label": "Hazelnuts (25g)",
@@ -103,6 +97,12 @@
                 "sesame"
             ],
             "image": "/images/ingredients/b42f0c06-1463-4db2-a016-914838751d27.jpg"
+        },
+        {
+            "label": "Green lentils (185g)",
+            "gousto_uuid": "4e3542f7-8923-423e-88b4-ad16be59da55",
+            "allergens": [],
+            "image": "/images/ingredients/4e3542f7-8923-423e-88b4-ad16be59da55.jpg"
         }
     ],
     "basics": [
@@ -130,7 +130,7 @@
             "image": "/images/instructions/saucy-harissa-xl-basa-with-nutty-grains-and-greens/step-3.jpg"
         },
         {
-            "instruction": "<p>Wipe out the reserved pan and return to a medium-high heat with a drizzle of<strong> olive oil</strong> and<strong> </strong>once hot, add the <strong>chopped garlic</strong> and your <strong>ground</strong> <strong>smoked paprika </strong>with a generous pinch of <strong>salt</strong> and <strong>sugar</strong> and cook for 30 secs or until fragrant</p><p>Cooking for 3 or more? Use 2 pans!</p><p>Once fragrant, add <strong>half</strong> your <strong>vegetable stock mix</strong> (you'll use the rest later!), your <strong>chopped tomatoes</strong>, 50ml<span class=\"text-purple\"> [70ml]</span><span class=\"text-danger\"> [90ml] </span><strong>cold water </strong>and a knob of <strong>butter</strong> and give everything a good mix up</p>",
+            "instruction": "<p>Wipe out the reserved pan and return to a medium-high heat with a drizzle of<strong> olive oil</strong> and<strong> </strong>once hot, add the <strong>chopped garlic</strong> and your <strong>ground</strong> <strong>smoked paprika </strong>with a generous pinch of <strong>salt</strong> and <strong>sugar</strong> and cook for 30 secs or until fragrant</p><p>(Doubled your protein? Use 2 pans!)</p><p>Once fragrant, add <strong>half</strong> your <strong>vegetable stock mix</strong> (you'll use the rest later!), your <strong>chopped tomatoes</strong>, 50ml<span class=\"text-purple\"> [70ml]</span><span class=\"text-danger\"> [90ml] </span><strong>cold water </strong>and a knob of <strong>butter</strong> and give everything a good mix up</p>",
             "order": 4,
             "image": "/images/instructions/saucy-harissa-xl-basa-with-nutty-grains-and-greens/step-4.jpg"
         },

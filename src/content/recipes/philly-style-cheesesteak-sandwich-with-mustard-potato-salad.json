@@ -9,17 +9,11 @@
     "gousto_id": "2355",
     "rating": {
         "average": 4.5,
-        "count": 8136
+        "count": 8147
     },
     "description": "This is Philly at its finest. You'll pile tender rump steak, caramelised onions and green peppers into a soft roll, then smother it all in gooey melted cheese. Serve with mustard potato salad and plenty of napkins.",
     "cuisine": "American",
     "ingredients": [
-        {
-            "label": "Rump pav\u00e9 steak (300g)",
-            "gousto_uuid": "07b2a349-41a9-4ac4-91c8-a83f91944194",
-            "allergens": [],
-            "image": "/images/ingredients/07b2a349-41a9-4ac4-91c8-a83f91944194.jpg"
-        },
         {
             "label": "Baguettes (2pcs)",
             "gousto_uuid": "6929176d-a49a-4df8-8537-8678b2421a1d",
@@ -29,13 +23,16 @@
             "image": "/images/ingredients/6929176d-a49a-4df8-8537-8678b2421a1d.jpg"
         },
         {
-            "label": "Mayonnaise (25ml)",
-            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-            "allergens": [
-                "egg",
-                "mustard"
-            ],
-            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+            "label": "Rump pav\u00e9 steak (300g)",
+            "gousto_uuid": "07b2a349-41a9-4ac4-91c8-a83f91944194",
+            "allergens": [],
+            "image": "/images/ingredients/07b2a349-41a9-4ac4-91c8-a83f91944194.jpg"
+        },
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -53,16 +50,13 @@
             "image": "/images/ingredients/7261d1f3-fc6f-42b5-b562-11cae58bc11f.jpg"
         },
         {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
-        },
-        {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "label": "Mayonnaise (25ml)",
+            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
             "label": "Cheddar cheese (40g)",
@@ -73,12 +67,30 @@
             "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
+            "allergens": [],
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
             "label": "Wholegrain mustard (21g)",
             "gousto_uuid": "4cad21de-c673-4385-82b7-78aaca9c8367",
             "allergens": [
                 "mustard"
             ],
             "image": "/images/ingredients/4cad21de-c673-4385-82b7-78aaca9c8367.jpg"
+        },
+        {
+            "label": "Green pepper",
+            "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+            "allergens": [],
+            "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
         },
         {
             "label": "Soy sauce (8ml)",
@@ -88,18 +100,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
-            "label": "Green pepper",
-            "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
-            "allergens": [],
-            "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -109,12 +109,12 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7 and boil a kettle</p><p>Take your<strong> steak</strong> out of the fridge, open the packet and let it adjust to room temperature</p><p>Chop your <strong>waxy potatoes</strong> in half, then add to a pot of plenty of <strong>boiled water</strong> with a pinch of <strong>salt</strong> and bring to the boil over a high heat</p><p>Once boiling, cook for 12-15 min or until fork-tender, then drain and rinse them under <strong>cold water</strong> until cooled slightly (save the pot for later!)</p>",
+            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7 and boil a kettle</p><p>Take your<strong> steak</strong> out of the fridge, open the packet and let it adjust to room temperature, chop your <strong>waxy potatoes</strong> in half, then add to a pot of plenty of <strong>boiled water</strong> with a pinch of <strong>salt</strong> and bring to the boil over a high heat</p><p>Once boiling, cook for 12-15 min or until fork-tender, then drain and rinse them under <strong>cold water</strong> until cooled slightly (save the pot for later!)</p>",
             "order": 1,
             "image": "/images/instructions/philly-style-cheesesteak-sandwich-with-mustard-potato-salad/step-1.jpg"
         },
         {
-            "instruction": "<p>Whilst the potatoes are cooking, heat a large, wide-based pan (preferably non-stick with a matching lid) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Pat your <strong>rump steak[s]</strong> dry with kitchen<strong> </strong>paper and season both sides with a pinch of <strong>salt</strong></p><p>Once very hot, add the <strong>seasoned</strong> <strong>steak </strong>to the pan</p><p>For rare, cook for 2 min max on each side; for medium-rare, cook for 2-3 min on each side; for medium, cook for 3-4 min on each side</p><p>Once the steak is cooked, transfer<strong> </strong>to a plate to rest and reserve the pan</p>",
+            "instruction": "<p>Whilst the potatoes are cooking, heat a large, wide-based pan (preferably non-stick with a matching lid) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Pat your <strong>rump steak[s]</strong> dry with kitchen<strong> </strong>paper and season both sides with a pinch of <strong>salt</strong>, once very hot, add the <strong>seasoned</strong> <strong>steak </strong>to the pan</p><p>For rare, cook for 2 min max on each side; for medium-rare, cook for 2-3 min on each side; for medium, cook for 3-4 min on each side, once the steak is cooked, transfer<strong> </strong>to a plate to rest and reserve the pan</p>",
             "order": 2,
             "image": "/images/instructions/philly-style-cheesesteak-sandwich-with-mustard-potato-salad/step-2.jpg"
         },
@@ -139,7 +139,7 @@
             "image": "/images/instructions/philly-style-cheesesteak-sandwich-with-mustard-potato-salad/step-6.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>baguette[s] </strong>to a baking tray and put the tray in the oven for 2-3 min or until warmed through and crusty</p><p>Slice the <strong>warmed baguette</strong> in half (without cutting all the way through), then open it out like a book and load in the <strong>steak filling</strong></p>",
+            "instruction": "<p>Add your <strong>baguette[s] </strong>to a baking tray (or two!) and put the tray[s] in the oven for 2-3 min or until warmed through and crusty</p><p>Slice the <strong>warmed baguette</strong> in half (without cutting all the way through), then open it out like a book and load in the <strong>steak filling</strong></p>",
             "order": 7,
             "image": "/images/instructions/philly-style-cheesesteak-sandwich-with-mustard-potato-salad/step-7.jpg"
         },

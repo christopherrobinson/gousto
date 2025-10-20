@@ -13,39 +13,24 @@
     "cuisine": "Thai",
     "ingredients": [
         {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
             "label": "Cornflour (1tsp)",
             "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
             "allergens": [],
             "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
         },
         {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Fish sauce (8ml)",
-            "gousto_uuid": "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+            "label": "Ketjap manis (20g)",
+            "gousto_uuid": "ee62cb04-0a94-47ac-8ff8-b785bda9411a",
             "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "peanut",
-                "sesame",
                 "soya"
             ],
-            "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
-        },
-        {
-            "label": "Soy sauce (15ml) x0",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+            "image": "/images/ingredients/ee62cb04-0a94-47ac-8ff8-b785bda9411a.jpg"
         },
         {
             "label": "Red pepper",
@@ -60,24 +45,25 @@
             "image": "/images/ingredients/fc5dd782-e0c3-46c3-a8df-0fa22d2ea86f.jpg"
         },
         {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Soy sauce (30ml)",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
             "label": "Spring onion x3",
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
             "allergens": [],
             "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Ketjap manis (20g)",
-            "gousto_uuid": "ee62cb04-0a94-47ac-8ff8-b785bda9411a",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/ee62cb04-0a94-47ac-8ff8-b785bda9411a.jpg"
         },
         {
             "label": "Free range egg",
@@ -88,13 +74,13 @@
             "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
         },
         {
-            "label": "Soy sauce (30ml)",
-            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "label": "Soy sauce (15ml) x0",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
             "allergens": [
                 "gluten",
                 "soya"
             ],
-            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
             "label": "Lime",
@@ -117,6 +103,20 @@
             "gousto_uuid": "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
             "allergens": [],
             "image": "/images/ingredients/eec1fcf3-a00b-4321-bedd-d7a5c1754881.jpg"
+        },
+        {
+            "label": "Fish sauce (8ml)",
+            "gousto_uuid": "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "peanut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
         }
     ],
     "basics": [
@@ -207,7 +207,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -225,7 +225,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -243,7 +243,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -262,7 +262,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -280,7 +280,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",

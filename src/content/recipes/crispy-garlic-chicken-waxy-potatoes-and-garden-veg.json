@@ -12,11 +12,29 @@
     "gousto_id": "1831",
     "rating": {
         "average": 4.5,
-        "count": 37881
+        "count": 37883
     },
     "description": "Skip the faff with this crispy garlic butter chicken, inspired by chicken kiev. You'll coat chicken breast in breadcrumbs before pan frying till golden and crispy. Drizzle with a rich garlic and herb butter and serve with garden veg to finish.",
     "cuisine": "French",
     "ingredients": [
+        {
+            "label": "Chicken breast portions (2pcs)",
+            "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
+            "allergens": [],
+            "image": "/images/ingredients/671ddc57-c639-4db7-ab54-7fdc7fa2ec93.jpg"
+        },
+        {
+            "label": "Chicken breast portion x0",
+            "gousto_uuid": "f274998b-4e68-45a7-a637-b353b961427a",
+            "allergens": [],
+            "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
+        },
+        {
+            "label": "Garden veg mix (160g)",
+            "gousto_uuid": "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
+            "allergens": [],
+            "image": "/images/ingredients/dfbba3b9-0817-4ba9-aaa6-fa6192db1a12.jpg"
+        },
         {
             "label": "Panko breadcrumbs (40g)",
             "gousto_uuid": "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
@@ -26,34 +44,10 @@
             "image": "/images/ingredients/4b7cd1b3-b19b-436c-9ae7-bfab46bce815.jpg"
         },
         {
-            "label": "British chicken breast portion x0",
-            "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-            "allergens": [],
-            "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
-        },
-        {
-            "label": "Garden veg mix (160g)",
-            "gousto_uuid": "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
-            "allergens": [],
-            "image": "/images/ingredients/dfbba3b9-0817-4ba9-aaa6-fa6192db1a12.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
             "label": "Parsley (5g)",
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
-        },
-        {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
         },
         {
             "label": "Lemon",
@@ -62,10 +56,10 @@
             "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
-            "label": "British chicken breast portions (2pcs)",
-            "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
             "allergens": [],
-            "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
         },
         {
             "label": "Cornish clotted cream (40g)",
@@ -76,7 +70,13 @@
             "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
         },
         {
-            "label": "British free range egg",
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Free range egg",
             "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
             "allergens": [
                 "egg"
@@ -168,7 +168,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "488d5751-dcff-4985-88c0-bf745ff54904",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+                "f274998b-4e68-45a7-a637-b353b961427a",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -182,7 +182,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "488d5751-dcff-4985-88c0-bf745ff54904",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -196,8 +196,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "488d5751-dcff-4985-88c0-bf745ff54904",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -211,7 +211,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "488d5751-dcff-4985-88c0-bf745ff54904",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -225,8 +225,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "488d5751-dcff-4985-88c0-bf745ff54904",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "dfbba3b9-0817-4ba9-aaa6-fa6192db1a12",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",

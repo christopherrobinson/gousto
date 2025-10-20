@@ -7,11 +7,25 @@
     "gousto_id": "3945",
     "rating": {
         "average": 4.5,
-        "count": 955
+        "count": 1178
     },
     "description": "This recipe is a really easy way to fill yourself with fibre thanks to an ingredient called bulgur. Mix it with roasted veg, pop it alongside a lovely bit of basa and a cooling scoop of tzatziki. Under 600 calories.",
     "cuisine": "Greek",
     "ingredients": [
+        {
+            "label": "Basa fillets (2pcs)",
+            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
+        },
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
         {
             "label": "Bulgur wheat (65g) x0",
             "gousto_uuid": "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
@@ -27,34 +41,18 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g)",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
-        },
-        {
             "label": "Parsley (5g)",
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "Lemon",
-            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
-            "allergens": [],
-            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Basa fillet x0",
@@ -65,12 +63,10 @@
             "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
         },
         {
-            "label": "Basa fillets (2pcs)",
-            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
+            "label": "Lemon",
+            "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
+            "allergens": [],
+            "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
             "label": "Vegetable stock mix (5.5g)",
@@ -85,26 +81,30 @@
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
-            "label": "Bulgur wheat (130g)",
-            "gousto_uuid": "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/6e605a3f-32b0-4c8a-9b3c-43dddd595d6f.jpg"
-        },
-        {
             "label": "Cherry tomatoes (125g) x0",
             "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
             "allergens": [],
             "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
         },
         {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "label": "Cherry tomatoes (250g)",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+        },
+        {
+            "label": "Bulgur wheat (130g)",
+            "gousto_uuid": "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
             "allergens": [
-                "milk"
+                "gluten"
             ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+            "image": "/images/ingredients/6e605a3f-32b0-4c8a-9b3c-43dddd595d6f.jpg"
         }
     ],
     "basics": [

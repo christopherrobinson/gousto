@@ -11,26 +11,32 @@
     "gousto_id": "2825",
     "rating": {
         "average": 4,
-        "count": 5783
+        "count": 5823
     },
     "description": "If you're willing to change that 'B' to an 'A' \u2013 our aubergine bacon is a next-level vegan hack. Pile the smoky veg in ciabatta bread with smashed avocado, lettuce, tomato and Dijon mayo, and grab a taste of this not-so-meaty treat. Under 600 calories.",
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
-        },
-        {
             "label": "Ground smoked paprika (1tsp) x0",
             "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
             "allergens": [],
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+        },
+        {
+            "label": "Vegan mayonnaise (50ml) x0",
+            "gousto_uuid": "524ef883-ad25-46dd-9fd2-2d680cacc646",
+            "allergens": [
+                "mustard"
+            ],
+            "image": "/images/ingredients/524ef883-ad25-46dd-9fd2-2d680cacc646.jpg"
+        },
+        {
+            "label": "Vegan mayonnaise (25ml)",
+            "gousto_uuid": "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
+            "allergens": [
+                "mustard"
+            ],
+            "image": "/images/ingredients/f534e5d8-7fda-4f1f-865b-fbe2986780ae.jpg"
         },
         {
             "label": "Smashed avocado (100g)",
@@ -39,18 +45,24 @@
             "image": "/images/ingredients/1a774aa3-6956-494d-9146-a1074dece385.jpg"
         },
         {
-            "label": "Vegan mayonnaise (50ml) x1",
-            "gousto_uuid": "524ef883-ad25-46dd-9fd2-2d680cacc646",
-            "allergens": [
-                "mustard"
-            ],
-            "image": "/images/ingredients/524ef883-ad25-46dd-9fd2-2d680cacc646.jpg"
-        },
-        {
             "label": "Ground smoked paprika (2tsp)",
             "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
             "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+        },
+        {
+            "label": "Ciabatta x2",
+            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Tomato",
+            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
+            "allergens": [],
+            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
         },
         {
             "label": "Soy sauce (15ml)",
@@ -60,6 +72,30 @@
                 "soya"
             ],
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Soy sauce (30ml) x0",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+        },
+        {
+            "label": "Gem lettuce",
+            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
+            "allergens": [],
+            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
             "label": "Gem lettuces (2pcs) x0",
@@ -74,48 +110,20 @@
             "image": "/images/ingredients/5cac128e-7775-463a-8ddd-87a2f1588003.jpg"
         },
         {
-            "label": "Ciabatta x2",
-            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
-        },
-        {
-            "label": "Gem lettuce",
-            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-            "allergens": [],
-            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
-        },
-        {
-            "label": "Soy sauce (30ml) x0",
-            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml) x0",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
-            "label": "Tomato",
-            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
-            "allergens": [],
-            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
             "label": "White potato x2",
             "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
             "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+        },
+        {
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         }
     ],
     "basics": [
@@ -208,7 +216,7 @@
                 "1a774aa3-6956-494d-9146-a1074dece385",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "524ef883-ad25-46dd-9fd2-2d680cacc646",
+                "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -223,7 +231,7 @@
                 "1a774aa3-6956-494d-9146-a1074dece385",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "524ef883-ad25-46dd-9fd2-2d680cacc646",
+                "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -272,6 +280,7 @@
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "524ef883-ad25-46dd-9fd2-2d680cacc646",
+                "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         }

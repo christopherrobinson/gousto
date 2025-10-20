@@ -9,7 +9,7 @@
         "average": 4,
         "count": 28
     },
-    "description": "This dish has classic Sunday lunch flavours, but it's as easy as a tray bake. Simply prepare sage and onion lean pork meatballs, roast with crispy potatoes and carrots and serve with spring greens and gravy.",
+    "description": "This dish has classic Sunday lunch flavours, but it's as easy as a tray bake. Simply prepare sage and onion lean pork meatballs, roast with crispy potatoes and carrots and serve with shredded kale and gravy.",
     "cuisine": "British",
     "ingredients": [
         {
@@ -21,16 +21,46 @@
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
         },
         {
+            "label": "Shredded kale (120g)",
+            "gousto_uuid": "11baaa51-960f-4f5b-82d4-20c6c6219445",
+            "allergens": [],
+            "image": "/images/ingredients/11baaa51-960f-4f5b-82d4-20c6c6219445.jpg"
+        },
+        {
+            "label": "Lean pork mince (<5% fat) (250g)",
+            "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
+            "allergens": [],
+            "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
+        },
+        {
             "label": "Lean pork mince (<5% fat) (125g) x0",
             "gousto_uuid": "8371ef5f-f73b-40c3-8e15-595f00820cf4",
             "allergens": [],
             "image": "/images/ingredients/8371ef5f-f73b-40c3-8e15-595f00820cf4.jpg"
         },
         {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
+            "label": "Chicken stock mix (5.5g)",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "allergens": [],
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
             "label": "Sage (5g)",
             "gousto_uuid": "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
             "allergens": [],
             "image": "/images/ingredients/d8ecbe1f-af46-434f-9c1c-37a62ee0b860.jpg"
+        },
+        {
+            "label": "Carrot",
+            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "allergens": [],
+            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
             "label": "Marmite (8g)",
@@ -42,46 +72,16 @@
             "image": "/images/ingredients/23935a7d-bed7-4bb2-863d-9e826b549e47.jpg"
         },
         {
-            "label": "Lean pork mince (<5% fat) (250g)",
-            "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
+            "label": "White potato x4",
+            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
-            "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
-        },
-        {
-            "label": "Chicken stock mix (5.5g)",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Carrot",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-            "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
-            "label": "Spring greens (150g)",
-            "gousto_uuid": "af9d40c0-8242-41ee-8fb0-121ce473be36",
-            "allergens": [],
-            "image": "/images/ingredients/af9d40c0-8242-41ee-8fb0-121ce473be36.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
         },
         {
             "label": "Apple x2",
             "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
             "allergens": [],
             "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
-        },
-        {
-            "label": "White potato x4",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
-            "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
         }
     ],
     "basics": [
@@ -124,12 +124,12 @@
             "image": "/images/instructions/sage-and-onion-lean-pork-meatballs-with-apple-sauce/step-6.jpg"
         },
         {
-            "instruction": "<p>While the gravy is thickening, heat a large, wide-based pan (preferably non-stick) with a knob of <strong>butter</strong> over a medium heat</p><p>Wash, then rip the leaves off your <strong>spring greens</strong> and discard the tough stalks</p><p>Layer the<strong> spring green leaves</strong> over each other, then roll them up and slice into thin strips</p><p>Once hot, add the <strong>sliced spring greens</strong> to the pan and cook for 3-4 min or until tender with a bite</p>",
+            "instruction": "<p>While the gravy is thickening, heat a large, wide-based pan (preferably non-stick) with a knob of <strong>butter</strong> over a medium heat</p><p>Wash your <strong>shredded</strong> <strong>kale</strong></p><p>Once hot, add the <strong>shredded kale</strong> to the pan and cook for 3-4 min or until tender with a bite</p>",
             "order": 7,
             "image": "/images/instructions/sage-and-onion-lean-pork-meatballs-with-apple-sauce/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the<strong> sage & onion mince meatballs</strong> with the <strong>crispy potatoes</strong>, <strong>roast</strong> <strong>carrots</strong>,<strong> spring greens</strong> and <strong>apple sauce</strong> to the side</p><p>Drizzle the <strong>gravy</strong> all over</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the<strong> sage & onion mince meatballs</strong> with the <strong>crispy potatoes</strong>, <strong>roast</strong> <strong>carrots</strong>,<strong> shredded kale</strong> and <strong>apple sauce</strong> to the side</p><p>Drizzle the <strong>gravy</strong> all over</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -139,28 +139,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 85,
-            "energy_kj": 358,
-            "fat_mg": 2164,
-            "fat_saturates_mg": 706,
-            "carbs_mg": 11323,
-            "carbs_sugars_mg": 3741,
-            "fibre_mg": 1757,
-            "protein_mg": 5610,
-            "salt_mg": 218,
+            "energy_kcal": 86,
+            "energy_kj": 364,
+            "fat_mg": 2249,
+            "fat_saturates_mg": 730,
+            "carbs_mg": 11357,
+            "carbs_sugars_mg": 3632,
+            "fibre_mg": 1689,
+            "protein_mg": 5710,
+            "salt_mg": 228,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 547,
-            "energy_kj": 2307,
-            "fat_mg": 13920,
-            "fat_saturates_mg": 4544,
-            "carbs_mg": 72837,
-            "carbs_sugars_mg": 24068,
-            "fibre_mg": 11304,
-            "protein_mg": 36089,
-            "salt_mg": 1407,
-            "net_weight_mg": 643250
+            "energy_kcal": 542,
+            "energy_kj": 2289,
+            "fat_mg": 14130,
+            "fat_saturates_mg": 4589,
+            "carbs_mg": 71352,
+            "carbs_sugars_mg": 22823,
+            "fibre_mg": 10614,
+            "protein_mg": 35879,
+            "salt_mg": 1436,
+            "net_weight_mg": 628250
         }
     },
     "portion_sizes": {
@@ -175,7 +175,7 @@
                 "8371ef5f-f73b-40c3-8e15-595f00820cf4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
-                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "11baaa51-960f-4f5b-82d4-20c6c6219445",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -190,7 +190,7 @@
                 "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
-                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "11baaa51-960f-4f5b-82d4-20c6c6219445",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -206,7 +206,7 @@
                 "8371ef5f-f73b-40c3-8e15-595f00820cf4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
-                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "11baaa51-960f-4f5b-82d4-20c6c6219445",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -221,7 +221,7 @@
                 "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
-                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "11baaa51-960f-4f5b-82d4-20c6c6219445",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -237,7 +237,7 @@
                 "8371ef5f-f73b-40c3-8e15-595f00820cf4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
-                "af9d40c0-8242-41ee-8fb0-121ce473be36",
+                "11baaa51-960f-4f5b-82d4-20c6c6219445",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         }

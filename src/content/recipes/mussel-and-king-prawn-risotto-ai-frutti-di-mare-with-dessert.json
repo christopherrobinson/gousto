@@ -9,18 +9,31 @@
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Plain cooked mussels (250g)",
-            "gousto_uuid": "d578a37a-1dc5-4cea-a213-e765154422e7",
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Raw peeled king prawns (85g)",
+            "gousto_uuid": "a3a2f2db-208c-49ba-905d-b51885be42b3",
             "allergens": [
+                "crustacean",
                 "mollusc"
             ],
-            "image": "/images/ingredients/d578a37a-1dc5-4cea-a213-e765154422e7.jpg"
+            "image": "/images/ingredients/a3a2f2db-208c-49ba-905d-b51885be42b3.jpg"
         },
         {
             "label": "Garlic clove x2",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Chinese rice wine (30ml) x0",
+            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "allergens": [],
+            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
             "label": "Gu Honeycomb Cheesecakes (2 x 86.5g) (2pcs)",
@@ -41,19 +54,24 @@
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Plain cooked mussels (250g)",
+            "gousto_uuid": "d578a37a-1dc5-4cea-a213-e765154422e7",
+            "allergens": [
+                "mollusc"
+            ],
+            "image": "/images/ingredients/d578a37a-1dc5-4cea-a213-e765154422e7.jpg"
+        },
+        {
             "label": "Arborio rice (160g)",
             "gousto_uuid": "a749d8cc-add6-4cb1-99df-6ca05a9436fa",
             "allergens": [],
             "image": "/images/ingredients/a749d8cc-add6-4cb1-99df-6ca05a9436fa.jpg"
-        },
-        {
-            "label": "Raw peeled king prawns (85g)",
-            "gousto_uuid": "a3a2f2db-208c-49ba-905d-b51885be42b3",
-            "allergens": [
-                "crustacean",
-                "mollusc"
-            ],
-            "image": "/images/ingredients/a3a2f2db-208c-49ba-905d-b51885be42b3.jpg"
         },
         {
             "label": "Grated Italian hard cheese (30g)",
@@ -64,40 +82,22 @@
             "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
         },
         {
-            "label": "Tomato paste (16g) x0",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
             "label": "Vegetable stock mix (5.5g)",
             "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
             "allergens": [],
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
+            "label": "Tomato paste (16g) x0",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
             "label": "Chinese rice wine (15ml)",
             "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
             "allergens": [],
             "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
-        },
-        {
-            "label": "Chinese rice wine (30ml) x0",
-            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
-            "allergens": [],
-            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
-        },
-        {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         }
     ],
     "basics": [
@@ -109,7 +109,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Boil a full kettle and heat a large, wide-based pan (preferably non-stick with a matching lid) with a drizzle of <strong>olive oil </strong>over a medium heat</p><p>Peel and finely slice your <strong>shallot[s]</strong></p><p>Once hot, add the <strong>chopped shallot</strong> and cook for 3-4 min or until beginning to soften</p><p>Tip: Cooking for 3 or more? Use 2 pans!</p>",
+            "instruction": "<p>Boil a full kettle and heat a large, wide-based pan (preferably non-stick with a matching lid) with a drizzle of <strong>olive oil </strong>over a medium heat</p><p>Peel and finely slice your <strong>shallot[s]</strong></p><p>Once hot, add the <strong>sliced shallot</strong> and cook for 3-4 min or until beginning to soften</p><p>Tip: Cooking for 3 or more? Use 2 pans!</p>",
             "order": 1,
             "image": "/images/instructions/mussel-and-king-prawn-risotto-ai-frutti-di-mare-with-dessert/step-1.jpg"
         },

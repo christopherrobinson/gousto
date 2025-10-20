@@ -17,22 +17,22 @@
     "cuisine": "Chinese",
     "ingredients": [
         {
+            "label": "Diced chicken breast (250g)",
+            "gousto_uuid": "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+            "allergens": [],
+            "image": "/images/ingredients/b4c65e32-f116-4b82-be3f-7ef7d67d0fde.jpg"
+        },
+        {
+            "label": "Diced chicken breast (125g) x0",
+            "gousto_uuid": "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+            "allergens": [],
+            "image": "/images/ingredients/66df65e7-80b2-4c81-911b-1e399bb9ab6b.jpg"
+        },
+        {
             "label": "Rice vinegar (15ml)",
             "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
             "allergens": [],
             "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
-        },
-        {
-            "label": "Dried chilli flakes (1tsp) x0",
-            "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
-            "allergens": [],
-            "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
-        },
-        {
-            "label": "Diced chicken breast (125g) x0",
-            "gousto_uuid": "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
-            "allergens": [],
-            "image": "/images/ingredients/c38b39cc-f4f9-42c8-a472-bb61f87e6996.jpg"
         },
         {
             "label": "Dried chilli flakes (0.5tsp)",
@@ -41,31 +41,16 @@
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
-            "label": "Soy sauce (15ml)",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
-        },
-        {
             "label": "Cooked white long grain rice (280g)",
             "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
             "allergens": [],
             "image": "/images/ingredients/e604f6ba-a67f-4a10-ae71-6032c08a90a6.jpg"
         },
         {
-            "label": "Diced chicken breast (250g)",
-            "gousto_uuid": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+            "label": "Dried chilli flakes (1tsp) x0",
+            "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
-            "image": "/images/ingredients/d5a5797a-7cef-4d50-970d-d3e08d19836b.jpg"
-        },
-        {
-            "label": "Red chilli relish (25g)",
-            "gousto_uuid": "58516075-8bdb-4567-9f1f-8135695ef8b4",
-            "allergens": [],
-            "image": "/images/ingredients/58516075-8bdb-4567-9f1f-8135695ef8b4.jpg"
+            "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
             "label": "Rice vinegar (30ml) x0",
@@ -80,12 +65,6 @@
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
-            "label": "Solid creamed coconut (25g)",
-            "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
-            "allergens": [],
-            "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
-        },
-        {
             "label": "Soy sauce (30ml) x0",
             "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
@@ -93,6 +72,21 @@
                 "soya"
             ],
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+        },
+        {
+            "label": "Red chilli relish (25g)",
+            "gousto_uuid": "58516075-8bdb-4567-9f1f-8135695ef8b4",
+            "allergens": [],
+            "image": "/images/ingredients/58516075-8bdb-4567-9f1f-8135695ef8b4.jpg"
+        },
+        {
+            "label": "Soy sauce (15ml)",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
             "label": "Soy sauce (8ml) x0",
@@ -112,6 +106,12 @@
                 "sesame"
             ],
             "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
+        },
+        {
+            "label": "Solid creamed coconut (25g)",
+            "gousto_uuid": "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
+            "allergens": [],
+            "image": "/images/ingredients/52ffb449-10c7-44e4-bd30-6c6f1c8ff66f.jpg"
         }
     ],
     "basics": [
@@ -126,7 +126,7 @@
             "image": "/images/instructions/chicken-satay-with-pickled-chilli-cucumber/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil half a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>diced chicken breast</strong> and cook for 10-12 min or until cooked through (no pink meat!)</p><p>(Doubled your protein? Use to 2 pans!)</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil half a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>diced chicken breast</strong> and cook for 10-12 min or until cooked through (no pink meat!)</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 2,
             "image": "/images/instructions/chicken-satay-with-pickled-chilli-cucumber/step-2.jpg"
         },
@@ -199,7 +199,7 @@
             "ingredients_skus": [
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
@@ -213,7 +213,7 @@
             "ingredients_skus": [
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
@@ -227,8 +227,8 @@
             "ingredients_skus": [
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
@@ -243,7 +243,7 @@
             "ingredients_skus": [
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
@@ -257,8 +257,8 @@
             "ingredients_skus": [
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "feae1edf-86b4-4be6-91f1-d1b3817d87b7",

@@ -5,14 +5,24 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "8697",
+    "rating": {
+        "average": 5,
+        "count": 29
+    },
     "description": "Whip up two nights of wonders in one go. For meal one, serve your stew with roast potatoes, basil & Italian cheese. For meal two, toss the leftovers with orzo, rocket and more cheese. Nutrition details online reflect the total per person for both meals. For a breakdown per meal, check the recipe cards.",
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Intense chicken stock mix (5.5g) x2",
-            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
             "allergens": [],
-            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Orzo (75g) x0",
@@ -21,6 +31,26 @@
                 "gluten"
             ],
             "image": "/images/ingredients/8ad44fed-6181-4b86-95b7-af6aeb5cc1b7.jpg"
+        },
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Intense chicken stock mix (5.5g) x2",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
+            "label": "Sun-dried tomato pesto (45g) x2",
+            "gousto_uuid": "d2602348-4864-49ce-9557-59b08971d076",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d2602348-4864-49ce-9557-59b08971d076.jpg"
         },
         {
             "label": "Garlic clove x4",
@@ -35,46 +65,12 @@
             "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
         },
         {
-            "label": "Orzo (150g)",
-            "gousto_uuid": "3ef06794-4313-4888-876e-9de6a56d6204",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/3ef06794-4313-4888-876e-9de6a56d6204.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g)",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
-        },
-        {
             "label": "Grated Italian hard cheese (30g) x2",
             "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
             "allergens": [
                 "milk"
             ],
             "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g) x2",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
-        },
-        {
-            "label": "Sun-dried tomato pesto (45g) x2",
-            "gousto_uuid": "d2602348-4864-49ce-9557-59b08971d076",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d2602348-4864-49ce-9557-59b08971d076.jpg"
         },
         {
             "label": "Soft cheese (50g) x2",
@@ -91,12 +87,6 @@
             "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
         },
         {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
             "label": "Rocket (20g)",
             "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
             "allergens": [],
@@ -107,6 +97,20 @@
             "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
             "allergens": [],
             "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (250g)",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+        },
+        {
+            "label": "Orzo (150g)",
+            "gousto_uuid": "3ef06794-4313-4888-876e-9de6a56d6204",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/3ef06794-4313-4888-876e-9de6a56d6204.jpg"
         },
         {
             "label": "White potato x3",
@@ -169,28 +173,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 147,
-            "energy_kj": 618,
-            "fat_mg": 5969,
-            "fat_saturates_mg": 2603,
-            "carbs_mg": 12634,
-            "carbs_sugars_mg": 1985,
-            "fibre_mg": 1300,
-            "protein_mg": 10887,
-            "salt_mg": 545,
+            "energy_kcal": 164,
+            "energy_kj": 687,
+            "fat_mg": 7799,
+            "fat_saturates_mg": 3272,
+            "carbs_mg": 15133,
+            "carbs_sugars_mg": 2387,
+            "fibre_mg": 1551,
+            "protein_mg": 8508,
+            "salt_mg": 590,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 1137,
-            "energy_kj": 4775,
-            "fat_mg": 46086,
-            "fat_saturates_mg": 20101,
-            "carbs_mg": 97540,
-            "carbs_sugars_mg": 15325,
+            "energy_kcal": 1062,
+            "energy_kj": 4450,
+            "fat_mg": 50461,
+            "fat_saturates_mg": 21176,
+            "carbs_mg": 97915,
+            "carbs_sugars_mg": 15450,
             "fibre_mg": 10040,
-            "protein_mg": 84052,
-            "salt_mg": 4213,
-            "net_weight_mg": 772000
+            "protein_mg": 55052,
+            "salt_mg": 3823,
+            "net_weight_mg": 647000
         }
     },
     "portion_sizes": {
@@ -199,7 +203,7 @@
             "ingredients_skus": [
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -217,7 +221,7 @@
             "ingredients_skus": [
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -236,7 +240,7 @@
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -256,7 +260,7 @@
             "ingredients_skus": [
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -275,7 +279,7 @@
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",

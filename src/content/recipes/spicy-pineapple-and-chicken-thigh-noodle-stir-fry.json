@@ -7,11 +7,32 @@
     "gousto_id": "4335",
     "rating": {
         "average": 4.5,
-        "count": 4526
+        "count": 4528
     },
     "description": "Nail this sweet and spicy stir-fry in moments. You'll fry up juicy chicken with red pepper, pineapple and a punchy sauce. Toss in your noodles, and sprinkle with black sesame seeds to serve. Sizzle, sprinkle, done!",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
+            "label": "Medium egg noodle nests (2pcs)",
+            "gousto_uuid": "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
+        },
+        {
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+        },
         {
             "label": "Sriracha hot chilli sauce (8ml)",
             "gousto_uuid": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
@@ -25,34 +46,13 @@
             "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
         },
         {
-            "label": "Medium egg noodle nests (2pcs)",
-            "gousto_uuid": "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
-        },
-        {
-            "label": "Soy sauce (15ml) x0",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "label": "Soy sauce (30ml)",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
                 "gluten",
                 "soya"
             ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
-        },
-        {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
             "label": "Black sesame seeds (5g)",
@@ -68,13 +68,13 @@
             "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
-            "label": "Soy sauce (30ml)",
-            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "label": "Soy sauce (15ml) x0",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
             "allergens": [
                 "gluten",
                 "soya"
             ],
-            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
             "label": "Pineapple slices (220g)",
@@ -95,7 +95,7 @@
             "image": "/images/instructions/spicy-pineapple-and-chicken-thigh-noodle-stir-fry/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a full kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>chicken</strong> and cook for an initial 5-6 min or until starting to brown</p><p>(Doubled your protein? Use to 2 pans!) </p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a full kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>chicken</strong> and cook for an initial 5-6 min or until starting to brown</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 2,
             "image": "/images/instructions/spicy-pineapple-and-chicken-thigh-noodle-stir-fry/step-2.jpg"
         },
@@ -170,7 +170,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "84e37401-e165-4189-bd3c-c422fee4cf08",
@@ -183,7 +183,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "84e37401-e165-4189-bd3c-c422fee4cf08",
@@ -196,7 +196,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "84e37401-e165-4189-bd3c-c422fee4cf08",
@@ -210,7 +210,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "84e37401-e165-4189-bd3c-c422fee4cf08",
@@ -223,7 +223,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "84e37401-e165-4189-bd3c-c422fee4cf08",

@@ -7,11 +7,31 @@
     "gousto_id": "5074",
     "rating": {
         "average": 4.5,
-        "count": 1699
+        "count": 1724
     },
     "description": "This pie is a hearty, wholesome hug in a dish. You'll pack creamy chicken, carrot and leek in golden puff pastry for a home-cooked sensation, packed with flavour.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Puff pastry (160g)",
+            "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
+        },
         {
             "label": "Intense chicken stock mix (5.5g)",
             "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
@@ -25,24 +45,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Puff pastry (160g)",
-            "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -77,12 +83,6 @@
             "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
             "allergens": [],
             "image": "/images/ingredients/645a774c-589a-4172-9f0b-dd51a3c7e739.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -141,27 +141,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 122,
-            "energy_kj": 511,
-            "fat_mg": 6140,
-            "fat_saturates_mg": 2796,
-            "carbs_mg": 9323,
-            "carbs_sugars_mg": 3034,
+            "energy_kcal": 134,
+            "energy_kj": 562,
+            "fat_mg": 7750,
+            "fat_saturates_mg": 3220,
+            "carbs_mg": 9399,
+            "carbs_sugars_mg": 3059,
             "fibre_mg": 1879,
-            "protein_mg": 7555,
-            "salt_mg": 473,
+            "protein_mg": 6968,
+            "salt_mg": 452,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 597,
-            "energy_kj": 2503,
-            "fat_mg": 30043,
-            "fat_saturates_mg": 13682,
-            "carbs_mg": 45613,
-            "carbs_sugars_mg": 14844,
+            "energy_kcal": 659,
+            "energy_kj": 2752,
+            "fat_mg": 37918,
+            "fat_saturates_mg": 15757,
+            "carbs_mg": 45988,
+            "carbs_sugars_mg": 14969,
             "fibre_mg": 9194,
-            "protein_mg": 36966,
-            "salt_mg": 2317,
+            "protein_mg": 34091,
+            "salt_mg": 2214,
             "net_weight_mg": 489250
         }
     },
@@ -172,7 +172,7 @@
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
@@ -186,7 +186,7 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
@@ -202,7 +202,7 @@
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
@@ -217,7 +217,7 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
@@ -233,7 +233,7 @@
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",

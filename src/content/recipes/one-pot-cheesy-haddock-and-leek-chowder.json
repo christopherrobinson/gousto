@@ -12,22 +12,24 @@
     "gousto_id": "1438",
     "rating": {
         "average": 5,
-        "count": 18516
+        "count": 18909
     },
     "description": "Enjoy a creamy, comforting chowder with sweet leeks, tender haddock and melty cheddar cheese. Serve in deep bowls with a sprinkle of chives and freshly ground black pepper.",
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Chives (5g)",
-            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-            "allergens": [],
-            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
-        },
-        {
             "label": "Intense vegetable stock mix (5.5g)",
             "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
             "allergens": [],
             "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
             "label": "Haddock bites (100g) x0",
@@ -36,14 +38,6 @@
                 "fish"
             ],
             "image": "/images/ingredients/b75f99ec-6ca3-4ace-bc6f-a5b689e5aab6.jpg"
-        },
-        {
-            "label": "Soft cheese (50g)",
-            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "Haddock bites (200g)",
@@ -60,12 +54,18 @@
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
             "allergens": [
                 "milk"
             ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
+        },
+        {
+            "label": "Chives (5g)",
+            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "allergens": [],
+            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
         },
         {
             "label": "Leek",
