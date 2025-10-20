@@ -7,11 +7,25 @@
     "gousto_id": "3937",
     "rating": {
         "average": 4.5,
-        "count": 3799
+        "count": 3888
     },
     "description": "These wraps are crispy, cheesy and so easy. You'll bake spiced basa goujons with a cheesy crumb, before stuffing them in warmed tortilla wraps with lettuce, tomato and sweet chilli mayo.",
     "cuisine": "American",
     "ingredients": [
+        {
+            "label": "Basa fillets (2pcs)",
+            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
+        },
+        {
+            "label": "Ground paprika (1tsp)",
+            "gousto_uuid": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
+            "allergens": [],
+            "image": "/images/ingredients/70b7502c-e41a-45b7-ab66-d3edb68aa548.jpg"
+        },
         {
             "label": "Panko breadcrumbs (20g) x0",
             "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
@@ -21,12 +35,13 @@
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
         },
         {
-            "label": "Panko breadcrumbs (40g)",
-            "gousto_uuid": "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
+            "label": "Mayonnaise (50ml)",
+            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
             "allergens": [
-                "gluten"
+                "egg",
+                "mustard"
             ],
-            "image": "/images/ingredients/4b7cd1b3-b19b-436c-9ae7-bfab46bce815.jpg"
+            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
             "label": "Ground paprika (2tsp) x0",
@@ -44,35 +59,6 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Mayonnaise (50ml)",
-            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
-            "allergens": [
-                "egg",
-                "mustard"
-            ],
-            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
-        },
-        {
-            "label": "Ground paprika (1tsp)",
-            "gousto_uuid": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
-            "allergens": [],
-            "image": "/images/ingredients/70b7502c-e41a-45b7-ab66-d3edb68aa548.jpg"
-        },
-        {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
-            "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
-        },
-        {
-            "label": "Basa fillet x0",
-            "gousto_uuid": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
-        },
-        {
             "label": "Plain tortillas (6pcs)",
             "gousto_uuid": "55692d26-3834-4b6f-94ce-0cd6332af610",
             "allergens": [
@@ -81,18 +67,12 @@
             "image": "/images/ingredients/55692d26-3834-4b6f-94ce-0cd6332af610.jpg"
         },
         {
-            "label": "Red chilli relish (25g)",
-            "gousto_uuid": "58516075-8bdb-4567-9f1f-8135695ef8b4",
-            "allergens": [],
-            "image": "/images/ingredients/58516075-8bdb-4567-9f1f-8135695ef8b4.jpg"
-        },
-        {
-            "label": "Basa fillets (2pcs)",
-            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "label": "Panko breadcrumbs (40g)",
+            "gousto_uuid": "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
             "allergens": [
-                "fish"
+                "gluten"
             ],
-            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
+            "image": "/images/ingredients/4b7cd1b3-b19b-436c-9ae7-bfab46bce815.jpg"
         },
         {
             "label": "Cheddar cheese (40g)",
@@ -103,16 +83,36 @@
             "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
+            "label": "Tomato x2",
+            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
+            "allergens": [],
+            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+        },
+        {
+            "label": "Basa fillet x0",
+            "gousto_uuid": "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
+        },
+        {
+            "label": "Red chilli relish (25g)",
+            "gousto_uuid": "58516075-8bdb-4567-9f1f-8135695ef8b4",
+            "allergens": [],
+            "image": "/images/ingredients/58516075-8bdb-4567-9f1f-8135695ef8b4.jpg"
+        },
+        {
             "label": "Gem lettuce",
             "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
             "allergens": [],
             "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
-            "label": "Tomato x2",
-            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
             "allergens": [],
-            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
         }
     ],
     "basics": [

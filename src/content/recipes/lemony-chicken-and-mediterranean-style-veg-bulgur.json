@@ -11,11 +11,29 @@
     "gousto_id": "2072",
     "rating": {
         "average": 4.5,
-        "count": 14367
+        "count": 14373
     },
     "description": "For a healthy and satisfying meal, this light dinner checks all the boxes! You'll fill up with fibre by mixing bulgur with roasted veg, and serve it with a lovely bit of chicken and tzatziki to the side!",
     "cuisine": "Greek",
     "ingredients": [
+        {
+            "label": "Chicken breast portions (2pcs)",
+            "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
+            "allergens": [],
+            "image": "/images/ingredients/671ddc57-c639-4db7-ab54-7fdc7fa2ec93.jpg"
+        },
+        {
+            "label": "Chicken breast portion x0",
+            "gousto_uuid": "f274998b-4e68-45a7-a637-b353b961427a",
+            "allergens": [],
+            "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
+        },
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
         {
             "label": "Bulgur wheat (65g) x0",
             "gousto_uuid": "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
@@ -25,28 +43,10 @@
             "image": "/images/ingredients/a5e865dc-cff2-45cc-8d3b-4f95023cb408.jpg"
         },
         {
-            "label": "Chicken breast portion x0",
-            "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-            "allergens": [],
-            "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
-        },
-        {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g)",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         },
         {
             "label": "Parsley (5g)",
@@ -55,10 +55,12 @@
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Lemon",
@@ -67,10 +69,10 @@
             "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
-            "label": "Chicken breast portions (2pcs)",
-            "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+            "label": "Cucumber (0.5pcs)",
+            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
             "allergens": [],
-            "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
+            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
             "label": "Chicken stock mix (5.5g)",
@@ -79,10 +81,22 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Cucumber (0.5pcs)",
-            "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
+            "label": "Cherry tomatoes (125g) x0",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
             "allergens": [],
-            "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (250g)",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
         },
         {
             "label": "Bulgur wheat (130g)",
@@ -91,20 +105,6 @@
                 "gluten"
             ],
             "image": "/images/ingredients/6e605a3f-32b0-4c8a-9b3c-43dddd595d6f.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (125g) x0",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
-            "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
-        },
-        {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         }
     ],
     "basics": [
@@ -160,27 +160,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 86,
-            "energy_kj": 368,
-            "fat_mg": 987,
-            "fat_saturates_mg": 281,
+            "energy_kcal": 88,
+            "energy_kj": 374,
+            "fat_mg": 1381,
+            "fat_saturates_mg": 394,
             "carbs_mg": 12286,
             "carbs_sugars_mg": 2459,
             "fibre_mg": 1492,
-            "protein_mg": 7994,
-            "salt_mg": 158,
+            "protein_mg": 7437,
+            "salt_mg": 150,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 468,
-            "energy_kj": 1989,
-            "fat_mg": 5324,
-            "fat_saturates_mg": 1518,
+            "energy_kcal": 476,
+            "energy_kj": 2017,
+            "fat_mg": 7449,
+            "fat_saturates_mg": 2130,
             "carbs_mg": 66254,
             "carbs_sugars_mg": 13263,
             "fibre_mg": 8047,
-            "protein_mg": 43109,
-            "salt_mg": 854,
+            "protein_mg": 40109,
+            "salt_mg": 811,
             "net_weight_mg": 539250
         }
     },
@@ -190,7 +190,7 @@
             "ingredients_skus": [
                 "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+                "f274998b-4e68-45a7-a637-b353b961427a",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
@@ -206,7 +206,7 @@
             "ingredients_skus": [
                 "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
@@ -224,8 +224,8 @@
                 "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
@@ -241,7 +241,7 @@
             "ingredients_skus": [
                 "6e605a3f-32b0-4c8a-9b3c-43dddd595d6f",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
@@ -259,8 +259,8 @@
                 "a5e865dc-cff2-45cc-8d3b-4f95023cb408",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",

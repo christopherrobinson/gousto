@@ -7,19 +7,24 @@
     "gousto_id": "5606",
     "rating": {
         "average": 4.5,
-        "count": 5041
+        "count": 5158
     },
-    "description": "This creamy gnocchi is easy peasy. You'll blitz peas, pine nuts and mint with soy cream before tossing through crispy pan-fried gnocchi. Stir in spinach, add a splash of lemon juice and serve with an easy salad to the side.",
+    "description": "This creamy gnocchi is easy peasy. You'll blitz peas, pine nuts and mint with dairy-free milk before tossing through crispy pan-fried gnocchi. Stir in spinach, add a splash of lemon juice and serve with an easy salad to the side.",
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Creamy single soy (200ml)",
-            "gousto_uuid": "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
+            "label": "Umami seasoning (1tbsp)",
+            "gousto_uuid": "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
+            "allergens": [],
+            "image": "/images/ingredients/0848a8a2-2ad1-4124-acd3-4ac4c987d445.jpg"
+        },
+        {
+            "label": "Gnocchi (350g)",
+            "gousto_uuid": "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
             "allergens": [
-                "nut",
-                "soya"
+                "gluten"
             ],
-            "image": "/images/ingredients/14bfd452-1ba8-41f4-b0b0-106a6669ed58.jpg"
+            "image": "/images/ingredients/2cada79f-be8e-41b5-8c11-3d6e9d3d6503.jpg"
         },
         {
             "label": "Pine nuts (15g)",
@@ -50,14 +55,6 @@
             "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
         },
         {
-            "label": "Gnocchi (350g)",
-            "gousto_uuid": "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2cada79f-be8e-41b5-8c11-3d6e9d3d6503.jpg"
-        },
-        {
             "label": "Vegetable stock mix (5.5g)",
             "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
             "allergens": [],
@@ -70,22 +67,23 @@
             "image": "/images/ingredients/5a446609-a9e0-420e-af4e-da2fa9f91f81.jpg"
         },
         {
-            "label": "Rocket (20g)",
-            "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
-            "allergens": [],
-            "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
-        },
-        {
             "label": "Spinach (80g)",
             "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
+        },
+        {
+            "label": "Rocket (20g)",
+            "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+            "allergens": [],
+            "image": "/images/ingredients/9d76a3b5-6f81-404f-b5a7-cb27d569ceee.jpg"
         }
     ],
     "basics": [
         "Pepper",
         "Salt",
-        "Olive oil"
+        "Olive oil",
+        "Milk"
     ],
     "cooking_instructions": [
         {
@@ -99,7 +97,7 @@
             "image": "/images/instructions/creamy-pea-and-spinach-gnocchi-with-pine-nuts/step-2.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, strip your <strong>mint</strong> from the stems, discard the stems</p><p>Add <strong>half</strong> your <strong>blanched peas</strong> and <strong>half</strong> your <strong>pine nuts</strong> (you'll use the rest later!) to a <strong>food processor </strong>with your <strong>creamy</strong> <strong>single soy </strong>and<strong> mint</strong></p><p>Blitz until smooth \u2013 this is your <strong>creamy pea & mint sauce</strong></p>",
+            "instruction": "<p>Meanwhile, strip your <strong>mint</strong> from the stems, discard the stems</p><p>Add your <strong>umami seasoning</strong>, <strong>half</strong> your <strong>blanched peas</strong> and <strong>half</strong> your <strong>pine nuts</strong> (you'll use the rest later!) to a <strong>food processor </strong>with 100ml <span class=\"text-purple\">[130ml] </span><span class=\"text-danger\">[170ml]</span> <strong>milk </strong>and<strong> mint</strong></p><p>Blitz until smooth \u2013 this is your <strong>creamy pea & mint sauce</strong></p>",
             "order": 3,
             "image": "/images/instructions/creamy-pea-and-spinach-gnocchi-with-pine-nuts/step-3.jpg"
         },
@@ -114,7 +112,7 @@
             "image": "/images/instructions/creamy-pea-and-spinach-gnocchi-with-pine-nuts/step-5.jpg"
         },
         {
-            "instruction": "<p>Once fragrant, add the <strong>creamy pea & mint sauce </strong>to the pan with your <strong>vegetable stock mix</strong> and give everything a good mix up</p>",
+            "instruction": "<p>Once fragrant, add the <strong>creamy pea & mint sauce </strong>to the pan with your <strong>vegetable stock mix</strong> and 100ml <span class=\"text-purple\">[130ml]</span> <span class=\"text-danger\">[170ml]</span> <strong>milk</strong>, then give everything a good mix up</p>",
             "order": 6,
             "image": "/images/instructions/creamy-pea-and-spinach-gnocchi-with-pine-nuts/step-6.jpg"
         },
@@ -132,33 +130,32 @@
         "gluten",
         "nut",
         "peanut",
-        "sesame",
-        "soya"
+        "sesame"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 122,
-            "energy_kj": 513,
-            "fat_mg": 5116,
-            "fat_saturates_mg": 580,
-            "carbs_mg": 15129,
-            "carbs_sugars_mg": 2014,
-            "fibre_mg": 1830,
-            "protein_mg": 4325,
-            "salt_mg": 469,
+            "energy_kcal": 114,
+            "energy_kj": 486,
+            "fat_mg": 1956,
+            "fat_saturates_mg": 209,
+            "carbs_mg": 18568,
+            "carbs_sugars_mg": 1981,
+            "fibre_mg": 2297,
+            "protein_mg": 6023,
+            "salt_mg": 573,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 582,
-            "energy_kj": 2442,
-            "fat_mg": 24317,
-            "fat_saturates_mg": 2759,
-            "carbs_mg": 71904,
-            "carbs_sugars_mg": 9574,
-            "fibre_mg": 8700,
-            "protein_mg": 20556,
-            "salt_mg": 2230,
-            "net_weight_mg": 475250
+            "energy_kcal": 442,
+            "energy_kj": 1870,
+            "fat_mg": 7526,
+            "fat_saturates_mg": 807,
+            "carbs_mg": 71443,
+            "carbs_sugars_mg": 7622,
+            "fibre_mg": 8840,
+            "protein_mg": 23176,
+            "salt_mg": 2207,
+            "net_weight_mg": 384750
         }
     },
     "portion_sizes": {
@@ -166,7 +163,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-                "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "5a446609-a9e0-420e-af4e-da2fa9f91f81",
@@ -174,6 +170,7 @@
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
@@ -181,7 +178,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-                "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "5a446609-a9e0-420e-af4e-da2fa9f91f81",
@@ -189,6 +185,7 @@
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
@@ -196,7 +193,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-                "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "5a446609-a9e0-420e-af4e-da2fa9f91f81",
@@ -204,6 +200,7 @@
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
@@ -211,7 +208,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-                "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "5a446609-a9e0-420e-af4e-da2fa9f91f81",
@@ -219,6 +215,7 @@
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
@@ -226,7 +223,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-                "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "5a446609-a9e0-420e-af4e-da2fa9f91f81",
@@ -234,6 +230,7 @@
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "0848a8a2-2ad1-4124-acd3-4ac4c987d445",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         }

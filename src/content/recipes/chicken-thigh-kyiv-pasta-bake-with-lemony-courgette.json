@@ -8,11 +8,17 @@
     "gousto_id": "3358",
     "rating": {
         "average": 4.5,
-        "count": 10442
+        "count": 10445
     },
     "description": "We've turned everyone's favourite chicken kyiv into a creamy pasta bake, topped with golden cheesy breadcrumbs, and flavoured with dollops of that famous, oozy, garlic and herb butter. Yum!",
     "cuisine": "Ukrainian",
     "ingredients": [
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
         {
             "label": "Panko breadcrumbs (20g)",
             "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
@@ -20,6 +26,14 @@
                 "gluten"
             ],
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
+        {
+            "label": "Farfalle (100g) x0",
+            "gousto_uuid": "1ff4910c-02aa-4140-a123-3e9fe37a2f2a",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/1ff4910c-02aa-4140-a123-3e9fe37a2f2a.jpg"
         },
         {
             "label": "Intense chicken stock mix (5.5g)",
@@ -40,6 +54,12 @@
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
+            "label": "Courgette",
+            "gousto_uuid": "5aba18db-c907-44f5-a499-3f53c5ab676a",
+            "allergens": [],
+            "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
+        },
+        {
             "label": "Lemon",
             "gousto_uuid": "f1332ef7-7474-4870-9221-18f33aa57c7d",
             "allergens": [],
@@ -52,12 +72,6 @@
                 "milk"
             ],
             "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -78,20 +92,6 @@
             "gousto_uuid": "2ad9f7c1-18f7-4974-b647-95059a432969",
             "allergens": [],
             "image": "/images/ingredients/2ad9f7c1-18f7-4974-b647-95059a432969.jpg"
-        },
-        {
-            "label": "Courgette",
-            "gousto_uuid": "5aba18db-c907-44f5-a499-3f53c5ab676a",
-            "allergens": [],
-            "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
-        },
-        {
-            "label": "Farfalle (100g) x0",
-            "gousto_uuid": "1ff4910c-02aa-4140-a123-3e9fe37a2f2a",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/1ff4910c-02aa-4140-a123-3e9fe37a2f2a.jpg"
         },
         {
             "label": "Farfalle (200g)",
@@ -158,27 +158,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 159,
-            "energy_kj": 674,
-            "fat_mg": 3911,
-            "fat_saturates_mg": 2021,
-            "carbs_mg": 21011,
-            "carbs_sugars_mg": 1569,
+            "energy_kcal": 174,
+            "energy_kj": 733,
+            "fat_mg": 5778,
+            "fat_saturates_mg": 2513,
+            "carbs_mg": 21099,
+            "carbs_sugars_mg": 1598,
             "fibre_mg": 1073,
-            "protein_mg": 11306,
-            "salt_mg": 423,
+            "protein_mg": 10625,
+            "salt_mg": 399,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 673,
-            "energy_kj": 2844,
-            "fat_mg": 16496,
-            "fat_saturates_mg": 8527,
-            "carbs_mg": 88614,
-            "carbs_sugars_mg": 6618,
+            "energy_kcal": 734,
+            "energy_kj": 3093,
+            "fat_mg": 24371,
+            "fat_saturates_mg": 10602,
+            "carbs_mg": 88989,
+            "carbs_sugars_mg": 6743,
             "fibre_mg": 4527,
-            "protein_mg": 47687,
-            "salt_mg": 1787,
+            "protein_mg": 44812,
+            "salt_mg": 1685,
             "net_weight_mg": 421750
         }
     },
@@ -188,7 +188,7 @@
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1ff4910c-02aa-4140-a123-3e9fe37a2f2a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -202,7 +202,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "de1bcc40-64bb-49c4-9138-be3f5f3c5c7f",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -218,7 +218,7 @@
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1ff4910c-02aa-4140-a123-3e9fe37a2f2a",
                 "de1bcc40-64bb-49c4-9138-be3f5f3c5c7f",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -234,7 +234,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "de1bcc40-64bb-49c4-9138-be3f5f3c5c7f",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -250,7 +250,7 @@
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "5aba18db-c907-44f5-a499-3f53c5ab676a",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "1ff4910c-02aa-4140-a123-3e9fe37a2f2a",
                 "de1bcc40-64bb-49c4-9138-be3f5f3c5c7f",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",

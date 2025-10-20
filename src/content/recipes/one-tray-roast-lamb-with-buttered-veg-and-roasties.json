@@ -7,33 +7,11 @@
     "gousto_id": "7179",
     "rating": {
         "average": 4.5,
-        "count": 2970
+        "count": 3074
     },
-    "description": "One tray, endless glory. You'll roast lamb in mustard and thyme next to golden potatoes and buttered veg. Serve with lashings of mint sauce and plenty of gravy. Minimal washing up, maximum applause.",
+    "description": "One tray, endless glory. You'll roast lamb in mustard and sage next to golden potatoes and buttered veg. Serve with lashings of mint sauce and plenty of gravy. Minimal washing up, maximum applause.",
     "cuisine": "British",
     "ingredients": [
-        {
-            "label": "Dijon mustard (5.5g)",
-            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
-            "allergens": [
-                "gluten",
-                "mustard",
-                "sulphites"
-            ],
-            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
-        },
-        {
-            "label": "Dried thyme (0.5tsp)",
-            "gousto_uuid": "faaba086-0ac5-437b-82b0-982322df861b",
-            "allergens": [],
-            "image": "/images/ingredients/faaba086-0ac5-437b-82b0-982322df861b.jpg"
-        },
-        {
-            "label": "Gravy base (14g)",
-            "gousto_uuid": "15f1965f-b9a5-4221-a016-31728c24e736",
-            "allergens": [],
-            "image": "/images/ingredients/15f1965f-b9a5-4221-a016-31728c24e736.jpg"
-        },
         {
             "label": "Lamb leg joint (300g)",
             "gousto_uuid": "29c43129-71ca-45c7-bedc-c7f243267a0d",
@@ -41,10 +19,22 @@
             "image": "/images/ingredients/29c43129-71ca-45c7-bedc-c7f243267a0d.jpg"
         },
         {
+            "label": "Dried sage (1tsp)",
+            "gousto_uuid": "18a15bb6-5718-4215-b7e3-7db5d654c58f",
+            "allergens": [],
+            "image": "/images/ingredients/18a15bb6-5718-4215-b7e3-7db5d654c58f.jpg"
+        },
+        {
             "label": "Mint sauce (20g)",
             "gousto_uuid": "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
             "allergens": [],
             "image": "/images/ingredients/f9e34f95-a6c1-4fe1-bba8-e56b571ed045.jpg"
+        },
+        {
+            "label": "Gravy base (14g)",
+            "gousto_uuid": "15f1965f-b9a5-4221-a016-31728c24e736",
+            "allergens": [],
+            "image": "/images/ingredients/15f1965f-b9a5-4221-a016-31728c24e736.jpg"
         },
         {
             "label": "Carrot x2",
@@ -63,6 +53,16 @@
             "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
             "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+        },
+        {
+            "label": "Dijon mustard (5.5g)",
+            "gousto_uuid": "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
+            "allergens": [
+                "gluten",
+                "mustard",
+                "sulphites"
+            ],
+            "image": "/images/ingredients/52e2a7bc-2d76-46c0-a4f4-6ee2a4090785.jpg"
         }
     ],
     "basics": [
@@ -90,7 +90,7 @@
             "image": "/images/instructions/one-tray-roast-lamb-with-buttered-veg-and-roasties/step-3.jpg"
         },
         {
-            "instruction": "<p>Remove the string from your <strong>lamb leg joint[s]</strong>, then pat dry with kitchen paper</p><p>Rub over your <strong>Dijon mustard</strong>, <strong>dried thyme</strong>, 1 tsp<span class=\"text-purple\"> [2 tsp]</span> <span class=\"text-danger\">[3 tsp]</span> <strong>sugar</strong> and a generous pinch of <strong>salt</strong> and <strong>pepper</strong> \u2013 this is your <strong>coated lamb</strong></p>",
+            "instruction": "<p>Remove the string from your <strong>lamb leg joint[s]</strong>, then pat dry with kitchen paper</p><p>Rub over your <strong>Dijon mustard</strong>, <strong>dried sage</strong>, 1 tsp<span class=\"text-purple\"> [2 tsp]</span> <span class=\"text-danger\">[3 tsp]</span> <strong>sugar</strong> and a generous pinch of <strong>salt</strong> and <strong>pepper</strong> \u2013 this is your <strong>coated lamb</strong></p>",
             "order": 4,
             "image": "/images/instructions/one-tray-roast-lamb-with-buttered-veg-and-roasties/step-4.jpg"
         },
@@ -100,7 +100,7 @@
             "image": "/images/instructions/one-tray-roast-lamb-with-buttered-veg-and-roasties/step-5.jpg"
         },
         {
-            "instruction": "<p>Once the lamb has had 25 min, remove it from the oven, transfer to a clean chopping board and leave to rest for 3 min \u2013 this is your <strong>thyme roast lamb</strong></p><p>Return the tray[s] to the oven for a final 3 min or until the potatoes are roasted and golden and the veg is tender</p>",
+            "instruction": "<p>Once the lamb has had 25 min, remove it from the oven, transfer to a clean chopping board and leave to rest for 3 min \u2013 this is your <strong>sage roast lamb</strong></p><p>Return the tray[s] to the oven for a final 3 min or until the potatoes are roasted and golden and the veg is tender</p>",
             "order": 6,
             "image": "/images/instructions/one-tray-roast-lamb-with-buttered-veg-and-roasties/step-6.jpg"
         },
@@ -121,28 +121,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 89,
-            "energy_kj": 378,
-            "fat_mg": 3381,
-            "fat_saturates_mg": 1370,
-            "carbs_mg": 9555,
-            "carbs_sugars_mg": 2969,
-            "fibre_mg": 2044,
-            "protein_mg": 5859,
+            "energy_kcal": 90,
+            "energy_kj": 379,
+            "fat_mg": 3388,
+            "fat_saturates_mg": 1374,
+            "carbs_mg": 9579,
+            "carbs_sugars_mg": 2968,
+            "fibre_mg": 2025,
+            "protein_mg": 5864,
             "salt_mg": 187,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 556,
-            "energy_kj": 2341,
-            "fat_mg": 20900,
-            "fat_saturates_mg": 8468,
-            "carbs_mg": 59059,
-            "carbs_sugars_mg": 18351,
-            "fibre_mg": 12633,
-            "protein_mg": 36214,
-            "salt_mg": 1159,
-            "net_weight_mg": 618050
+            "energy_kcal": 558,
+            "energy_kj": 2345,
+            "fat_mg": 20954,
+            "fat_saturates_mg": 8502,
+            "carbs_mg": 59232,
+            "carbs_sugars_mg": 18356,
+            "fibre_mg": 12522,
+            "protein_mg": 36263,
+            "salt_mg": 1158,
+            "net_weight_mg": 618350
         }
     },
     "portion_sizes": {
@@ -151,7 +151,7 @@
             "ingredients_skus": [
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "faaba086-0ac5-437b-82b0-982322df861b",
+                "18a15bb6-5718-4215-b7e3-7db5d654c58f",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "29c43129-71ca-45c7-bedc-c7f243267a0d",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
@@ -164,7 +164,7 @@
             "ingredients_skus": [
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "faaba086-0ac5-437b-82b0-982322df861b",
+                "18a15bb6-5718-4215-b7e3-7db5d654c58f",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "29c43129-71ca-45c7-bedc-c7f243267a0d",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
@@ -177,7 +177,7 @@
             "ingredients_skus": [
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "faaba086-0ac5-437b-82b0-982322df861b",
+                "18a15bb6-5718-4215-b7e3-7db5d654c58f",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "29c43129-71ca-45c7-bedc-c7f243267a0d",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
@@ -190,7 +190,7 @@
             "ingredients_skus": [
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "faaba086-0ac5-437b-82b0-982322df861b",
+                "18a15bb6-5718-4215-b7e3-7db5d654c58f",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "29c43129-71ca-45c7-bedc-c7f243267a0d",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
@@ -203,7 +203,7 @@
             "ingredients_skus": [
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
-                "faaba086-0ac5-437b-82b0-982322df861b",
+                "18a15bb6-5718-4215-b7e3-7db5d654c58f",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "29c43129-71ca-45c7-bedc-c7f243267a0d",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",

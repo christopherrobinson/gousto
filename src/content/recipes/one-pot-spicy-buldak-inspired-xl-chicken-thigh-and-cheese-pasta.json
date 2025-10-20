@@ -5,22 +5,30 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "13102",
+    "rating": {
+        "average": 4,
+        "count": 16
+    },
     "description": "Double up on your protein with an XL recipe. Try our take on the viral 'fire chicken' or Buldak noodles. In this version, you'll whip up spicy gochujang chicken, pasta and sweetcorn in one pot before loading it up with melty cheddar. Time to get fired up. High in protein. Protein contributes to a growth in muscle mass.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Diced chicken thigh (250g) x2",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
         {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
-        },
-        {
-            "label": "Gochujang paste (30g)",
-            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
         },
         {
             "label": "Sweetcorn (150g)",
@@ -29,10 +37,12 @@
             "image": "/images/ingredients/bd21d770-b3dd-4873-baca-a1ac52694e61.jpg"
         },
         {
-            "label": "Dried chilli flakes (0.5tsp)",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-            "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -41,10 +51,24 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Diced chicken thigh (250g) x2",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+            "label": "Dried chilli flakes (0.5tsp)",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Gochujang paste (30g)",
+            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -67,20 +91,6 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
             "label": "Soy sauce (8ml)",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
             "allergens": [
@@ -88,12 +98,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "Tortiglioni (200g)",
@@ -158,27 +162,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 170,
-            "energy_kj": 717,
-            "fat_mg": 4579,
-            "fat_saturates_mg": 2164,
-            "carbs_mg": 19168,
-            "carbs_sugars_mg": 3376,
+            "energy_kcal": 193,
+            "energy_kj": 812,
+            "fat_mg": 7584,
+            "fat_saturates_mg": 2956,
+            "carbs_mg": 19311,
+            "carbs_sugars_mg": 3424,
             "fibre_mg": 1529,
-            "protein_mg": 14210,
-            "salt_mg": 580,
+            "protein_mg": 13114,
+            "salt_mg": 540,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 892,
-            "energy_kj": 3763,
-            "fat_mg": 24010,
-            "fat_saturates_mg": 11347,
-            "carbs_mg": 100489,
-            "carbs_sugars_mg": 17703,
+            "energy_kcal": 1014,
+            "energy_kj": 4260,
+            "fat_mg": 39760,
+            "fat_saturates_mg": 15497,
+            "carbs_mg": 101239,
+            "carbs_sugars_mg": 17953,
             "fibre_mg": 8018,
-            "protein_mg": 74501,
-            "salt_mg": 3041,
+            "protein_mg": 68751,
+            "salt_mg": 2836,
             "net_weight_mg": 524250
         }
     },
@@ -189,7 +193,7 @@
                 "bd21d770-b3dd-4873-baca-a1ac52694e61",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
@@ -206,7 +210,7 @@
                 "bd21d770-b3dd-4873-baca-a1ac52694e61",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
@@ -223,7 +227,7 @@
                 "bd21d770-b3dd-4873-baca-a1ac52694e61",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",
@@ -241,7 +245,7 @@
                 "bd21d770-b3dd-4873-baca-a1ac52694e61",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2cd864ed-57c3-4ac7-97de-523bc86677bb",

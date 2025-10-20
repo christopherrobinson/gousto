@@ -7,20 +7,18 @@
     "gousto_id": "7560",
     "rating": {
         "average": 4.5,
-        "count": 890
+        "count": 1123
     },
-    "description": "One dish is all it takes to whip up this cheesy winner. You'll roast gnocchi, butternut squash and red onion till crispy before stirring through creamy goats' cheese, soft cheese and pecan nuts. Top it off with crispy sage leaves to finish.",
+    "description": "One dish is all it takes to whip up this cheesy winner. You'll roast gnocchi, butternut squash and red onion till crispy before stirring through creamy goats' cheese, soft cheese and pine nuts. Top it off with crispy sage leaves to finish.",
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Pecan nuts (25g)",
-            "gousto_uuid": "8c35e441-16ad-426a-b4e9-ee20000decd4",
+            "label": "Gnocchi (350g)",
+            "gousto_uuid": "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
             "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
+                "gluten"
             ],
-            "image": "/images/ingredients/8c35e441-16ad-426a-b4e9-ee20000decd4.jpg"
+            "image": "/images/ingredients/2cada79f-be8e-41b5-8c11-3d6e9d3d6503.jpg"
         },
         {
             "label": "Soft goats' cheese (75g)",
@@ -29,6 +27,36 @@
                 "milk"
             ],
             "image": "/images/ingredients/e47e2330-c327-48bf-acba-8c5ed9b30b4f.jpg"
+        },
+        {
+            "label": "Pine nuts (15g)",
+            "gousto_uuid": "62298806-78d9-4796-b5ac-fad29be70f99",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/62298806-78d9-4796-b5ac-fad29be70f99.jpg"
+        },
+        {
+            "label": "Roasted garlic paste (15g)",
+            "gousto_uuid": "485c12c9-8de2-436e-b1de-9d336ccbf713",
+            "allergens": [],
+            "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g)",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "Sage (5g)",
@@ -47,34 +75,6 @@
             "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
             "allergens": [],
             "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "Soft cheese (50g)",
-            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
-        },
-        {
-            "label": "Roasted garlic paste (15g)",
-            "gousto_uuid": "485c12c9-8de2-436e-b1de-9d336ccbf713",
-            "allergens": [],
-            "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
-        },
-        {
-            "label": "Gnocchi (350g)",
-            "gousto_uuid": "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2cada79f-be8e-41b5-8c11-3d6e9d3d6503.jpg"
-        },
-        {
-            "label": "Vegetable stock mix (5.5g)",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
-            "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         }
     ],
     "basics": [
@@ -109,7 +109,7 @@
             "image": "/images/instructions/oven-baked-butternut-squash-and-goats-cheese-gnocchi/step-5.jpg"
         },
         {
-            "instruction": "<p>After 30 min, remove the dish[es] from the oven and top with your <strong>goats' cheese</strong> and your <strong>pecan nuts</strong></p><p>Return the dish[es] to the oven for 3-4 min further or until the pecan nuts have toasted</p>",
+            "instruction": "<p>After 30 min, remove the dish[es] from the oven and top with your <strong>goats' cheese</strong> and your <strong>pine nuts</strong></p><p>Return the dish[es] to the oven for 3-4 min further or until the pine nuts have toasted</p>",
             "order": 6,
             "image": "/images/instructions/oven-baked-butternut-squash-and-goats-cheese-gnocchi/step-6.jpg"
         },
@@ -132,28 +132,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 154,
-            "energy_kj": 649,
-            "fat_mg": 6853,
-            "fat_saturates_mg": 2895,
-            "carbs_mg": 18446,
-            "carbs_sugars_mg": 2369,
-            "fibre_mg": 1299,
-            "protein_mg": 5281,
-            "salt_mg": 671,
+            "energy_kcal": 144,
+            "energy_kj": 607,
+            "fat_mg": 5568,
+            "fat_saturates_mg": 2817,
+            "carbs_mg": 18657,
+            "carbs_sugars_mg": 2319,
+            "fibre_mg": 1228,
+            "protein_mg": 5348,
+            "salt_mg": 684,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 596,
-            "energy_kj": 2501,
-            "fat_mg": 26404,
-            "fat_saturates_mg": 11154,
-            "carbs_mg": 71064,
-            "carbs_sugars_mg": 9129,
-            "fibre_mg": 5007,
-            "protein_mg": 20346,
+            "energy_kcal": 546,
+            "energy_kj": 2293,
+            "fat_mg": 21034,
+            "fat_saturates_mg": 10644,
+            "carbs_mg": 70479,
+            "carbs_sugars_mg": 8762,
+            "fibre_mg": 4640,
+            "protein_mg": 20204,
             "salt_mg": 2587,
-            "net_weight_mg": 385250
+            "net_weight_mg": 377750
         }
     },
     "portion_sizes": {
@@ -162,7 +162,7 @@
             "ingredients_skus": [
                 "88852431-ad79-4030-a171-252206c931f7",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-                "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "62298806-78d9-4796-b5ac-fad29be70f99",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
@@ -176,7 +176,7 @@
             "ingredients_skus": [
                 "88852431-ad79-4030-a171-252206c931f7",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-                "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "62298806-78d9-4796-b5ac-fad29be70f99",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
@@ -190,7 +190,7 @@
             "ingredients_skus": [
                 "88852431-ad79-4030-a171-252206c931f7",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-                "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "62298806-78d9-4796-b5ac-fad29be70f99",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
@@ -204,7 +204,7 @@
             "ingredients_skus": [
                 "88852431-ad79-4030-a171-252206c931f7",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-                "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "62298806-78d9-4796-b5ac-fad29be70f99",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",
@@ -218,7 +218,7 @@
             "ingredients_skus": [
                 "88852431-ad79-4030-a171-252206c931f7",
                 "2cada79f-be8e-41b5-8c11-3d6e9d3d6503",
-                "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "62298806-78d9-4796-b5ac-fad29be70f99",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
                 "d8ecbe1f-af46-434f-9c1c-37a62ee0b860",

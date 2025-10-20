@@ -7,17 +7,11 @@
     "gousto_id": "6330",
     "rating": {
         "average": 4.5,
-        "count": 3210
+        "count": 3332
     },
     "description": "This tangy tomato soup is a real treat for you Henderson's lovers. You'll blitz tomato, carrot, garlic and onion with a marmite stock before sprinkling over lashings of Henderson's relish. Serve with cheesy tomato pinwheels and dig in.",
     "cuisine": "British",
     "ingredients": [
-        {
-            "label": "Henderson's Relish (15ml)",
-            "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
-            "allergens": [],
-            "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
-        },
         {
             "label": "Finely chopped tomatoes (390g) x0",
             "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
@@ -31,12 +25,18 @@
             "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
         },
         {
-            "label": "Mozzarella (125g)",
-            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "allergens": [],
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Puff pastry (160g)",
+            "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
             "allergens": [
-                "milk"
+                "gluten"
             ],
-            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+            "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
         },
         {
             "label": "Dried thyme (0.5tsp)",
@@ -51,55 +51,6 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Puff pastry (160g)",
-            "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
-        },
-        {
-            "label": "Marmite (8g)",
-            "gousto_uuid": "23935a7d-bed7-4bb2-863d-9e826b549e47",
-            "allergens": [
-                "celery",
-                "gluten"
-            ],
-            "image": "/images/ingredients/23935a7d-bed7-4bb2-863d-9e826b549e47.jpg"
-        },
-        {
-            "label": "Italian hard cheese (20g)",
-            "gousto_uuid": "d5fc7e99-0340-4983-a486-e4f18ce5483b",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
-        },
-        {
-            "label": "Tomato paste (16g) x0",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Vegetable stock mix (5.5g)",
-            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
-            "allergens": [],
-            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
-        },
-        {
-            "label": "Carrot",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-            "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
             "label": "Tomato x2",
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
@@ -110,6 +61,55 @@
             "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
+            "label": "Italian hard cheese (20g)",
+            "gousto_uuid": "d5fc7e99-0340-4983-a486-e4f18ce5483b",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
+        },
+        {
+            "label": "Vegetable stock mix (5.5g)",
+            "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
+            "allergens": [],
+            "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
+            "label": "Mozzarella (125g)",
+            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+        },
+        {
+            "label": "Tomato paste (16g) x0",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
+            "label": "Henderson's Relish (15ml)",
+            "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
+            "allergens": [],
+            "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
+        },
+        {
+            "label": "Carrot",
+            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "allergens": [],
+            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
+        },
+        {
+            "label": "Marmite (8g)",
+            "gousto_uuid": "23935a7d-bed7-4bb2-863d-9e826b549e47",
+            "allergens": [
+                "celery",
+                "gluten"
+            ],
+            "image": "/images/ingredients/23935a7d-bed7-4bb2-863d-9e826b549e47.jpg"
         }
     ],
     "basics": [

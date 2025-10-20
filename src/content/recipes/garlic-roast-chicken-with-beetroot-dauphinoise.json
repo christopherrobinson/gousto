@@ -7,16 +7,30 @@
     "gousto_id": "8259",
     "rating": {
         "average": 4,
-        "count": 333
+        "count": 614
     },
     "description": "A fresh take on roast chicken and dauphinoise potatoes. You'll layer up sliced beetroot and potatoes, pour over a garlic cream and bake until bubbly and golden. Serve with a roast chicken breast and a fresh salad.",
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Chicken breast portion x0",
-            "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+            "label": "Cornish clotted cream (40g)",
+            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
+        },
+        {
+            "label": "Chicken breast portions (2pcs)",
+            "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
             "allergens": [],
-            "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
+            "image": "/images/ingredients/671ddc57-c639-4db7-ab54-7fdc7fa2ec93.jpg"
+        },
+        {
+            "label": "Chicken breast portion x0",
+            "gousto_uuid": "f274998b-4e68-45a7-a637-b353b961427a",
+            "allergens": [],
+            "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -25,22 +39,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Cooked beetroot (250g)",
-            "gousto_uuid": "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
-            "allergens": [],
-            "image": "/images/ingredients/60d3f8dc-98fb-4266-8a21-e29f4e72dd36.jpg"
-        },
-        {
             "label": "Baby leaf salad (50g)",
             "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
             "allergens": [],
             "image": "/images/ingredients/40c60e47-6a07-456c-b2fe-c551430de3fd.jpg"
-        },
-        {
-            "label": "Chicken breast portions (2pcs)",
-            "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
-            "allergens": [],
-            "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
         },
         {
             "label": "Italian hard cheese (20g)",
@@ -51,12 +53,10 @@
             "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
         },
         {
-            "label": "Cornish clotted cream (40g) x2",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
+            "label": "Cooked beetroot (250g)",
+            "gousto_uuid": "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
+            "allergens": [],
+            "image": "/images/ingredients/60d3f8dc-98fb-4266-8a21-e29f4e72dd36.jpg"
         },
         {
             "label": "White wine vinegar (15ml)",
@@ -85,7 +85,7 @@
             "image": "/images/instructions/garlic-roast-chicken-with-beetroot-dauphinoise/step-1.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, peel and finely chop (or grate) half your<strong> garlic</strong>, then peel and finely slice (don't chop!) the<strong> remaining garlic</strong></p><p>Combine your <strong>clotted cream</strong> with 50ml <span class=\"text-purple\">[75ml]</span> <span class=\"text-danger\">[100ml]</span> <strong>milk </strong>and add the <strong>chopped garlic</strong> and a very generous pinch of <strong>salt </strong>and<strong> pepper </strong>\u2013 this is your <strong>garlic cream</strong></p><p>Drain your <strong>beetroot</strong> in a colander over the sink, then slice the <strong>drained</strong> <strong>beetroot </strong>finely</p>",
+            "instruction": "<p>Meanwhile, peel and finely chop (or grate) <strong>half </strong>your<strong> garlic</strong></p><p>Peel and finely slice (don't chop!) your<strong> remaining garlic</strong></p><p>Combine your <strong>clotted cream</strong> with 50ml <span class=\"text-purple\">[75ml]</span> <span class=\"text-danger\">[100ml]</span> <strong>milk </strong>and add the <strong>chopped garlic</strong> and a very generous pinch of <strong>salt </strong>and<strong> pepper </strong>\u2013 this is your <strong>garlic cream</strong></p><p>Drain your <strong>beetroot</strong> in a colander over the sink, then slice the <strong>drained</strong> <strong>beetroot </strong>finely</p>",
             "order": 2,
             "image": "/images/instructions/garlic-roast-chicken-with-beetroot-dauphinoise/step-2.jpg"
         },
@@ -124,28 +124,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 129,
-            "energy_kj": 540,
-            "fat_mg": 6849,
-            "fat_saturates_mg": 4216,
-            "carbs_mg": 7729,
-            "carbs_sugars_mg": 3207,
-            "fibre_mg": 1350,
-            "protein_mg": 8938,
-            "salt_mg": 74,
+            "energy_kcal": 108,
+            "energy_kj": 457,
+            "fat_mg": 4650,
+            "fat_saturates_mg": 2667,
+            "carbs_mg": 7993,
+            "carbs_sugars_mg": 3255,
+            "fibre_mg": 1414,
+            "protein_mg": 8572,
+            "salt_mg": 66,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 566,
-            "energy_kj": 2370,
-            "fat_mg": 30036,
-            "fat_saturates_mg": 18491,
-            "carbs_mg": 33893,
-            "carbs_sugars_mg": 14066,
+            "energy_kcal": 456,
+            "energy_kj": 1915,
+            "fat_mg": 19461,
+            "fat_saturates_mg": 11164,
+            "carbs_mg": 33453,
+            "carbs_sugars_mg": 13626,
             "fibre_mg": 5921,
-            "protein_mg": 39194,
-            "salt_mg": 328,
-            "net_weight_mg": 438500
+            "protein_mg": 35874,
+            "salt_mg": 277,
+            "net_weight_mg": 418500
         }
     },
     "portion_sizes": {
@@ -155,7 +155,7 @@
                 "488d5751-dcff-4985-88c0-bf745ff54904",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+                "f274998b-4e68-45a7-a637-b353b961427a",
                 "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
@@ -168,7 +168,7 @@
                 "488d5751-dcff-4985-88c0-bf745ff54904",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
@@ -181,8 +181,8 @@
                 "488d5751-dcff-4985-88c0-bf745ff54904",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
@@ -195,7 +195,7 @@
                 "488d5751-dcff-4985-88c0-bf745ff54904",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
@@ -208,8 +208,8 @@
                 "488d5751-dcff-4985-88c0-bf745ff54904",
                 "d5fc7e99-0340-4983-a486-e4f18ce5483b",
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "60d3f8dc-98fb-4266-8a21-e29f4e72dd36",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",

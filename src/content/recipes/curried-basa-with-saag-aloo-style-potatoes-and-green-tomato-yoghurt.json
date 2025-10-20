@@ -7,22 +7,18 @@
     "gousto_id": "7369",
     "rating": {
         "average": 4.5,
-        "count": 1565
+        "count": 1622
     },
     "description": "Pack in the protein with this speedy Indian-style dinner. You'll coat basa in curry powder before pan-frying until golden brown. Pair with saag aloo-inspired potatoes with spinach and peas then serve with a dollop of creamy green tomato chutney yoghurt. High in protein. Protein contributes to a growth in muscle mass.",
     "cuisine": "Indian",
     "ingredients": [
         {
-            "label": "Curry powder (2tbsp) x0",
-            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
-            "allergens": [],
-            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
-        },
-        {
-            "label": "Blanched peas (160g)",
-            "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
-            "allergens": [],
-            "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
+            "label": "Basa fillets (2pcs)",
+            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
         },
         {
             "label": "Ground turmeric (0.5tsp)",
@@ -37,34 +33,24 @@
             "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
         },
         {
+            "label": "Curry powder (2tbsp) x0",
+            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+            "allergens": [],
+            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+        },
+        {
             "label": "Curry powder (1tbsp)",
             "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
             "allergens": [],
             "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
         },
         {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
-            "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Flaked almonds (15g)",
-            "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
             "allergens": [
-                "nut",
-                "peanut",
-                "sesame"
+                "milk"
             ],
-            "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
-        },
-        {
-            "label": "Green tomato chutney (20g)",
-            "gousto_uuid": "26a55263-c20c-459b-952b-7c8f07be5037",
-            "allergens": [
-                "mustard"
-            ],
-            "image": "/images/ingredients/26a55263-c20c-459b-952b-7c8f07be5037.jpg"
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Basa fillet x0",
@@ -73,6 +59,12 @@
                 "fish"
             ],
             "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
+        },
+        {
+            "label": "Blanched peas (160g)",
+            "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
+            "allergens": [],
+            "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
         },
         {
             "label": "Black mustard seeds (1tsp)",
@@ -88,12 +80,10 @@
             "image": "/images/ingredients/1b0d51bd-900f-48b6-a7e1-a69a70a5c67e.jpg"
         },
         {
-            "label": "Basa fillets (2pcs)",
-            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "allergens": [],
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
         },
         {
             "label": "Black sesame seeds (5g)",
@@ -115,12 +105,22 @@
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "label": "Green tomato chutney (20g)",
+            "gousto_uuid": "26a55263-c20c-459b-952b-7c8f07be5037",
             "allergens": [
-                "milk"
+                "mustard"
             ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+            "image": "/images/ingredients/26a55263-c20c-459b-952b-7c8f07be5037.jpg"
+        },
+        {
+            "label": "Flaked almonds (15g)",
+            "gousto_uuid": "d8804139-1bf9-4d73-a4e2-7524669a198c",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/d8804139-1bf9-4d73-a4e2-7524669a198c.jpg"
         },
         {
             "label": "White potato x3",

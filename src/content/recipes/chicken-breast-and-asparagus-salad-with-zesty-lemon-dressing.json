@@ -7,31 +7,22 @@
     "gousto_id": "5678",
     "rating": {
         "average": 4.5,
-        "count": 590
+        "count": 591
     },
     "description": "This speedy salad sings with the flavours of summer. Pan-fry juicy chicken breast and tender asparagus before tumbling it all together with waxy potatoes, rocket and tomatoes. Serve with a creamy lemon dressing.",
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Rocket (50g)",
-            "gousto_uuid": "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
+            "label": "Diced chicken breast (250g)",
+            "gousto_uuid": "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
             "allergens": [],
-            "image": "/images/ingredients/aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276.jpg"
+            "image": "/images/ingredients/b4c65e32-f116-4b82-be3f-7ef7d67d0fde.jpg"
         },
         {
             "label": "Diced chicken breast (125g) x0",
-            "gousto_uuid": "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+            "gousto_uuid": "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
             "allergens": [],
-            "image": "/images/ingredients/c38b39cc-f4f9-42c8-a472-bb61f87e6996.jpg"
-        },
-        {
-            "label": "Mayonnaise (25ml)",
-            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-            "allergens": [
-                "egg",
-                "mustard"
-            ],
-            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+            "image": "/images/ingredients/66df65e7-80b2-4c81-911b-1e399bb9ab6b.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -43,10 +34,19 @@
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
+            "label": "Mayonnaise (25ml)",
+            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
+        },
+        {
+            "label": "Tomato",
+            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
         },
         {
             "label": "Lemon",
@@ -55,10 +55,10 @@
             "image": "/images/ingredients/f1332ef7-7474-4870-9221-18f33aa57c7d.jpg"
         },
         {
-            "label": "Diced chicken breast (250g)",
-            "gousto_uuid": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
             "allergens": [],
-            "image": "/images/ingredients/d5a5797a-7cef-4d50-970d-d3e08d19836b.jpg"
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
         },
         {
             "label": "Wholegrain mustard (21g)",
@@ -69,16 +69,16 @@
             "image": "/images/ingredients/4cad21de-c673-4385-82b7-78aaca9c8367.jpg"
         },
         {
-            "label": "Tomato",
-            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
-            "allergens": [],
-            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
             "label": "Asparagus spears (120g)",
             "gousto_uuid": "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
             "allergens": [],
             "image": "/images/ingredients/05dd714a-c4b0-4ad9-9786-a4e0f74e27fc.jpg"
+        },
+        {
+            "label": "Rocket (50g)",
+            "gousto_uuid": "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
+            "allergens": [],
+            "image": "/images/ingredients/aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276.jpg"
         }
     ],
     "basics": [
@@ -93,7 +93,7 @@
             "image": "/images/instructions/chicken-breast-and-asparagus-salad-with-zesty-lemon-dressing/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>olive oil </strong>over a high heat</p><p>Once hot, add your <strong>diced chicken breast</strong> with a very generous pinch of <strong>salt</strong> and <strong>pepper</strong> and cook for an initial 4-5 min</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>olive oil </strong>over a high heat</p><p>Once hot, add your <strong>diced chicken breast</strong> with a very generous pinch of <strong>salt</strong> and <strong>pepper</strong> and cook for an initial 4-5 min</p><p>(Doubled your protein? Use 2 pans!) </p>",
             "order": 2,
             "image": "/images/instructions/chicken-breast-and-asparagus-salad-with-zesty-lemon-dressing/step-2.jpg"
         },
@@ -161,7 +161,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
@@ -174,7 +174,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
@@ -187,8 +187,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
@@ -201,7 +201,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "aa3f67ab-60c3-4cf2-87d5-05bc9a3e5276",
@@ -214,8 +214,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "05dd714a-c4b0-4ad9-9786-a4e0f74e27fc",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",

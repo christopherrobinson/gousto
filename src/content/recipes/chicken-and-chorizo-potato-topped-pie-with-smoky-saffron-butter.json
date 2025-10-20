@@ -7,16 +7,22 @@
     "gousto_id": "7302",
     "rating": {
         "average": 4.5,
-        "count": 3327
+        "count": 3439
     },
     "description": "This Spanish-style dinner is easy as pie. You'll simmer chicken and chorizo in a creamy paprika and red pepper sauce before topping with crushed potatoes. Bake till golden and serve with a smoky saffron butter for the adults.",
     "cuisine": "Fusion",
     "ingredients": [
         {
             "label": "Diced chicken breast (125g) x0",
-            "gousto_uuid": "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+            "gousto_uuid": "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
             "allergens": [],
-            "image": "/images/ingredients/c38b39cc-f4f9-42c8-a472-bb61f87e6996.jpg"
+            "image": "/images/ingredients/66df65e7-80b2-4c81-911b-1e399bb9ab6b.jpg"
+        },
+        {
+            "label": "Diced chicken breast (250g)",
+            "gousto_uuid": "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+            "allergens": [],
+            "image": "/images/ingredients/b4c65e32-f116-4b82-be3f-7ef7d67d0fde.jpg"
         },
         {
             "label": "Ground smoked paprika (1tsp) x0",
@@ -25,42 +31,10 @@
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
         },
         {
-            "label": "Garlic clove x3",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
             "label": "Ground smoked paprika (2tsp)",
             "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
             "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
-        {
-            "label": "Parsley (5g)",
-            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-            "allergens": [],
-            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
-        },
-        {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
-        },
-        {
-            "label": "Diced chorizo (50g) x0",
-            "gousto_uuid": "1733559d-1072-40f5-9eb8-c3d80ba7322f",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/1733559d-1072-40f5-9eb8-c3d80ba7322f.jpg"
         },
         {
             "label": "Diced chorizo (100g)",
@@ -71,16 +45,36 @@
             "image": "/images/ingredients/6e9adda2-505e-4f2f-a9c1-4d8ec79ce05b.jpg"
         },
         {
-            "label": "Diced chicken breast (250g)",
-            "gousto_uuid": "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+            "label": "Garlic clove x3",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/d5a5797a-7cef-4d50-970d-d3e08d19836b.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Chicken stock mix (5.5g)",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
             "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
+        {
+            "label": "Parsley (5g)",
+            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+            "allergens": [],
+            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
+            "label": "Diced chorizo (50g) x0",
+            "gousto_uuid": "1733559d-1072-40f5-9eb8-c3d80ba7322f",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/1733559d-1072-40f5-9eb8-c3d80ba7322f.jpg"
         },
         {
             "label": "Saffron (1pkt)",
@@ -89,10 +83,10 @@
             "image": "/images/ingredients/6f786d72-21cc-4eff-8e35-b3a648bf9005.jpg"
         },
         {
-            "label": "Fine green beans (160g)",
-            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+            "label": "Chicken stock mix (5.5g)",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
-            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
             "label": "Fine green beans (80g) x0",
@@ -101,10 +95,16 @@
             "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "label": "Fine green beans (160g)",
+            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
             "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
+        },
+        {
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         }
     ],
     "basics": [
@@ -162,27 +162,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 95,
-            "energy_kj": 400,
-            "fat_mg": 3599,
-            "fat_saturates_mg": 1088,
+            "energy_kcal": 96,
+            "energy_kj": 405,
+            "fat_mg": 3982,
+            "fat_saturates_mg": 1198,
             "carbs_mg": 7700,
             "carbs_sugars_mg": 2011,
             "fibre_mg": 1686,
-            "protein_mg": 8521,
-            "salt_mg": 462,
+            "protein_mg": 7980,
+            "salt_mg": 443,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 528,
-            "energy_kj": 2220,
-            "fat_mg": 19949,
-            "fat_saturates_mg": 6033,
+            "energy_kcal": 536,
+            "energy_kj": 2247,
+            "fat_mg": 22074,
+            "fat_saturates_mg": 6645,
             "carbs_mg": 42678,
             "carbs_sugars_mg": 11151,
             "fibre_mg": 9346,
-            "protein_mg": 47232,
-            "salt_mg": 2566,
+            "protein_mg": 44232,
+            "salt_mg": 2460,
             "net_weight_mg": 554250
         }
     },
@@ -192,7 +192,7 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "1733559d-1072-40f5-9eb8-c3d80ba7322f",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -208,7 +208,7 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "6e9adda2-505e-4f2f-a9c1-4d8ec79ce05b",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -224,8 +224,8 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "6e9adda2-505e-4f2f-a9c1-4d8ec79ce05b",
                 "1733559d-1072-40f5-9eb8-c3d80ba7322f",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
@@ -243,7 +243,7 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "6e9adda2-505e-4f2f-a9c1-4d8ec79ce05b",
                 "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -259,8 +259,8 @@
             "ingredients_skus": [
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d5a5797a-7cef-4d50-970d-d3e08d19836b",
-                "c38b39cc-f4f9-42c8-a472-bb61f87e6996",
+                "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "6e9adda2-505e-4f2f-a9c1-4d8ec79ce05b",
                 "1733559d-1072-40f5-9eb8-c3d80ba7322f",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",

@@ -7,11 +7,23 @@
     "gousto_id": "4384",
     "rating": {
         "average": 4.5,
-        "count": 11366
+        "count": 11544
     },
     "description": "Pasta bake on repeat? Give these fresh flavours a whirl. You'll pack this dish full of leek, spinach and juicy tomatoes before stirring through a creamy goats' cheese sauce. Top with crispy pine kernel & seeds for a crunchy finish.",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+            "allergens": [],
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
+        },
         {
             "label": "Soft goats' cheese (75g)",
             "gousto_uuid": "e47e2330-c327-48bf-acba-8c5ed9b30b4f",
@@ -27,28 +39,12 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Basil (5g) x0",
-            "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
-            "allergens": [],
-            "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
-        },
-        {
-            "label": "Intense vegetable stock mix (5.5g)",
-            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
-            "allergens": [],
-            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g) x0",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+            "label": "Tortiglioni (75g) x0",
+            "gousto_uuid": "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/8bd9259e-a6bc-4df5-a4a3-b630a19469b9.jpg"
         },
         {
             "label": "Pine kernel & seed mix (30g)",
@@ -61,26 +57,10 @@
             "image": "/images/ingredients/d3e8b905-e330-4b72-a0d4-57a7eb0f5449.jpg"
         },
         {
-            "label": "Tortiglioni (75g) x0",
-            "gousto_uuid": "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/8bd9259e-a6bc-4df5-a4a3-b630a19469b9.jpg"
-        },
-        {
-            "label": "Tortiglioni (150g)",
-            "gousto_uuid": "99d1eeed-7b6f-404a-9393-64101debcba7",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/99d1eeed-7b6f-404a-9393-64101debcba7.jpg"
-        },
-        {
-            "label": "Basil (10g)",
-            "gousto_uuid": "a59bfc93-dcf1-42ef-afb5-9ae6f01bc71f",
+            "label": "Basil (5g) x0",
+            "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
             "allergens": [],
-            "image": "/images/ingredients/a59bfc93-dcf1-42ef-afb5-9ae6f01bc71f.jpg"
+            "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
         },
         {
             "label": "Vegetable stock mix (5.5g) x0",
@@ -89,10 +69,10 @@
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
         },
         {
-            "label": "Leek",
-            "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
+            "label": "Basil (10g)",
+            "gousto_uuid": "a59bfc93-dcf1-42ef-afb5-9ae6f01bc71f",
             "allergens": [],
-            "image": "/images/ingredients/645a774c-589a-4172-9f0b-dd51a3c7e739.jpg"
+            "image": "/images/ingredients/a59bfc93-dcf1-42ef-afb5-9ae6f01bc71f.jpg"
         },
         {
             "label": "Spinach (80g)",
@@ -101,10 +81,30 @@
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
+            "label": "Leek",
+            "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
+            "allergens": [],
+            "image": "/images/ingredients/645a774c-589a-4172-9f0b-dd51a3c7e739.jpg"
+        },
+        {
             "label": "Cherry tomatoes (125g)",
             "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
             "allergens": [],
             "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (250g) x0",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+        },
+        {
+            "label": "Tortiglioni (150g)",
+            "gousto_uuid": "99d1eeed-7b6f-404a-9393-64101debcba7",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/99d1eeed-7b6f-404a-9393-64101debcba7.jpg"
         }
     ],
     "basics": [

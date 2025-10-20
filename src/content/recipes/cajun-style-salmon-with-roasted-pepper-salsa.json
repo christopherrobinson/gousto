@@ -5,14 +5,24 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "12955",
+    "rating": {
+        "average": 4.5,
+        "count": 7
+    },
     "description": "Dig into dinner, Cajun style. You'll spice salmon in a DIY seasoning mix of cumin, paprika and oregano before frying it until charred and crispy. Serve with a roasted pepper sauce, zingy salsa and brown rice.",
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "Rice vinegar (15ml)",
-            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
+            "label": "Tomato paste (32g) x0",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
-            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+        },
+        {
+            "label": "Ground cumin (1tsp)",
+            "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
+            "allergens": [],
+            "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
         },
         {
             "label": "Ground smoked paprika (1tsp)",
@@ -21,10 +31,19 @@
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
         },
         {
-            "label": "Dried chilli flakes (0.5tsp)",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
+            "label": "Dried oregano (1tsp)",
+            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
             "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
+        },
+        {
+            "label": "Mayonnaise (25ml)",
+            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
             "label": "Skin-on salmon fillets (2pcs)",
@@ -49,55 +68,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Mayonnaise (25ml)",
-            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-            "allergens": [
-                "egg",
-                "mustard"
-            ],
-            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
-        },
-        {
-            "label": "Ground cumin (1tsp)",
-            "gousto_uuid": "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
+            "label": "Dried chilli flakes (0.5tsp)",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
-            "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
-        },
-        {
-            "label": "Dried oregano (1tsp)",
-            "gousto_uuid": "1e996b7b-5628-4e4e-8815-567555b2ffa6",
-            "allergens": [],
-            "image": "/images/ingredients/1e996b7b-5628-4e4e-8815-567555b2ffa6.jpg"
-        },
-        {
-            "label": "Brown basmati rice (130g)",
-            "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
-            "allergens": [],
-            "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
-        },
-        {
-            "label": "Tomato paste (16g)",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Tomato paste (32g) x0",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Rice vinegar (30ml) x0",
-            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
-            "allergens": [],
-            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
-        },
-        {
-            "label": "Yellow pepper",
-            "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
-            "allergens": [],
-            "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
             "label": "Tomato",
@@ -106,16 +80,46 @@
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
         },
         {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Tomato paste (16g)",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
+            "label": "Rice vinegar (30ml) x0",
+            "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
+            "allergens": [],
+            "image": "/images/ingredients/feae1edf-86b4-4be6-91f1-d1b3817d87b7.jpg"
+        },
+        {
+            "label": "Rice vinegar (15ml)",
+            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
+            "allergens": [],
+            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
+        },
+        {
+            "label": "Yellow pepper",
+            "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+            "allergens": [],
+            "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+        },
+        {
             "label": "Coriander & mint (10g)",
             "gousto_uuid": "40769a3c-952b-492d-85af-b568ada4dd95",
             "allergens": [],
             "image": "/images/ingredients/40769a3c-952b-492d-85af-b568ada4dd95.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "label": "Brown basmati rice (130g)",
+            "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
             "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+            "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
         }
     ],
     "basics": [

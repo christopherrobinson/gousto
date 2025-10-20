@@ -13,22 +13,22 @@
     "cuisine": "Middle Eastern",
     "ingredients": [
         {
+            "label": "Skinless chicken thighs (320g)",
+            "gousto_uuid": "4e2300bd-68bc-456c-b80a-31ea282954e4",
+            "allergens": [],
+            "image": "/images/ingredients/4e2300bd-68bc-456c-b80a-31ea282954e4.jpg"
+        },
+        {
+            "label": "Skinless chicken thighs (160g) x0",
+            "gousto_uuid": "58f0ca29-597c-4db7-a490-f7542d1f3c72",
+            "allergens": [],
+            "image": "/images/ingredients/58f0ca29-597c-4db7-a490-f7542d1f3c72.jpg"
+        },
+        {
             "label": "Intense chicken stock mix (5.5g)",
             "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
             "allergens": [],
             "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-        },
-        {
-            "label": "Skinless chicken thighs (160g) x0",
-            "gousto_uuid": "3b3fb764-3581-4167-87c3-1a11ef3bf6d9",
-            "allergens": [],
-            "image": "/images/ingredients/3b3fb764-3581-4167-87c3-1a11ef3bf6d9.jpg"
-        },
-        {
-            "label": "Harissa paste (40g) x0",
-            "gousto_uuid": "34b46d42-6be9-46f2-84c5-af9a818731da",
-            "allergens": [],
-            "image": "/images/ingredients/34b46d42-6be9-46f2-84c5-af9a818731da.jpg"
         },
         {
             "label": "Garlic clove",
@@ -37,22 +37,30 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
+            "label": "Tomato x2",
+            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
+            "allergens": [],
+            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+        },
+        {
             "label": "Parsley (5g)",
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
         },
         {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "label": "Courgette",
+            "gousto_uuid": "5aba18db-c907-44f5-a499-3f53c5ab676a",
             "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+            "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
         },
         {
-            "label": "Skinless chicken thighs (320g)",
-            "gousto_uuid": "0384baf3-5475-4f1e-aeab-323c9efb8421",
-            "allergens": [],
-            "image": "/images/ingredients/0384baf3-5475-4f1e-aeab-323c9efb8421.jpg"
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Harissa paste (20g)",
@@ -67,6 +75,12 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
+            "label": "Harissa paste (40g) x0",
+            "gousto_uuid": "34b46d42-6be9-46f2-84c5-af9a818731da",
+            "allergens": [],
+            "image": "/images/ingredients/34b46d42-6be9-46f2-84c5-af9a818731da.jpg"
+        },
+        {
             "label": "Giant couscous (130g)",
             "gousto_uuid": "329a35aa-3ac3-4203-8d4a-d5fe960b54ca",
             "allergens": [
@@ -76,24 +90,10 @@
             "image": "/images/ingredients/329a35aa-3ac3-4203-8d4a-d5fe960b54ca.jpg"
         },
         {
-            "label": "Courgette",
-            "gousto_uuid": "5aba18db-c907-44f5-a499-3f53c5ab676a",
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
             "allergens": [],
-            "image": "/images/ingredients/5aba18db-c907-44f5-a499-3f53c5ab676a.jpg"
-        },
-        {
-            "label": "Tomato x2",
-            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
-            "allergens": [],
-            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
         },
         {
             "label": "Honey (25g)",
@@ -156,27 +156,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 116,
-            "energy_kj": 492,
-            "fat_mg": 2695,
-            "fat_saturates_mg": 734,
-            "carbs_mg": 14879,
-            "carbs_sugars_mg": 4283,
+            "energy_kcal": 136,
+            "energy_kj": 572,
+            "fat_mg": 5273,
+            "fat_saturates_mg": 1414,
+            "carbs_mg": 15085,
+            "carbs_sugars_mg": 4267,
             "fibre_mg": 1036,
-            "protein_mg": 8902,
-            "salt_mg": 330,
+            "protein_mg": 7969,
+            "salt_mg": 331,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 590,
-            "energy_kj": 2490,
-            "fat_mg": 13630,
-            "fat_saturates_mg": 3716,
-            "carbs_mg": 75253,
-            "carbs_sugars_mg": 21665,
+            "energy_kcal": 691,
+            "energy_kj": 2895,
+            "fat_mg": 26670,
+            "fat_saturates_mg": 7156,
+            "carbs_mg": 76293,
+            "carbs_sugars_mg": 21585,
             "fibre_mg": 5243,
-            "protein_mg": 45026,
-            "salt_mg": 1671,
+            "protein_mg": 40306,
+            "salt_mg": 1677,
             "net_weight_mg": 505750
         }
     },
@@ -193,7 +193,7 @@
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "3b3fb764-3581-4167-87c3-1a11ef3bf6d9",
+                "58f0ca29-597c-4db7-a490-f7542d1f3c72",
                 "5c14a222-aa12-4d98-a108-106ca1693363"
             ]
         },
@@ -209,7 +209,7 @@
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "0384baf3-5475-4f1e-aeab-323c9efb8421",
+                "4e2300bd-68bc-456c-b80a-31ea282954e4",
                 "5c14a222-aa12-4d98-a108-106ca1693363"
             ]
         },
@@ -226,8 +226,8 @@
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "0384baf3-5475-4f1e-aeab-323c9efb8421",
-                "3b3fb764-3581-4167-87c3-1a11ef3bf6d9",
+                "58f0ca29-597c-4db7-a490-f7542d1f3c72",
+                "4e2300bd-68bc-456c-b80a-31ea282954e4",
                 "5c14a222-aa12-4d98-a108-106ca1693363"
             ]
         },
@@ -243,7 +243,7 @@
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "0384baf3-5475-4f1e-aeab-323c9efb8421",
+                "4e2300bd-68bc-456c-b80a-31ea282954e4",
                 "5c14a222-aa12-4d98-a108-106ca1693363"
             ]
         },
@@ -260,8 +260,8 @@
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "0384baf3-5475-4f1e-aeab-323c9efb8421",
-                "3b3fb764-3581-4167-87c3-1a11ef3bf6d9",
+                "58f0ca29-597c-4db7-a490-f7542d1f3c72",
+                "4e2300bd-68bc-456c-b80a-31ea282954e4",
                 "5c14a222-aa12-4d98-a108-106ca1693363"
             ]
         }

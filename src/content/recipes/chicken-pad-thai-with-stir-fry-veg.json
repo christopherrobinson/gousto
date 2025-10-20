@@ -9,43 +9,16 @@
     "cuisine": "Thai",
     "ingredients": [
         {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
-        },
-        {
-            "label": "Dried chilli flakes (0.5tsp)",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-            "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
-        },
-        {
-            "label": "Cornflour (1tsp)",
-            "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-            "allergens": [],
-            "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
-        },
-        {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
-            "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Stir fry mix (160g)",
-            "gousto_uuid": "1713d935-5a76-4d59-83f9-e12ce7eeb378",
-            "allergens": [],
-            "image": "/images/ingredients/1713d935-5a76-4d59-83f9-e12ce7eeb378.jpg"
-        },
-        {
-            "label": "Soy sauce (15ml) x0",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
             "label": "Rice noodles (150g)",
@@ -54,10 +27,28 @@
             "image": "/images/ingredients/fc5dd782-e0c3-46c3-a8df-0fa22d2ea86f.jpg"
         },
         {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+            "label": "Cornflour (1tsp)",
+            "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
             "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+            "image": "/images/ingredients/c0fa06ef-52b1-4097-8bac-ec543c38468c.jpg"
+        },
+        {
+            "label": "Dried chilli flakes (0.5tsp)",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
+            "allergens": [],
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "Stir fry mix (160g)",
+            "gousto_uuid": "1713d935-5a76-4d59-83f9-e12ce7eeb378",
+            "allergens": [],
+            "image": "/images/ingredients/1713d935-5a76-4d59-83f9-e12ce7eeb378.jpg"
+        },
+        {
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "allergens": [],
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
         },
         {
             "label": "Ketjap manis (20g)",
@@ -74,6 +65,15 @@
                 "egg"
             ],
             "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
+        },
+        {
+            "label": "Soy sauce (15ml) x0",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
             "label": "Soy sauce (30ml)",
@@ -192,7 +192,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
@@ -209,7 +209,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
@@ -226,7 +226,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
@@ -244,7 +244,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "66613362-e511-4465-b1a4-9992a919b5d0",
@@ -261,7 +261,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "66613362-e511-4465-b1a4-9992a919b5d0",

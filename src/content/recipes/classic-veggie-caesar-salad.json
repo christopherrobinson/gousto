@@ -11,22 +11,19 @@
     "gousto_id": "1027",
     "rating": {
         "average": 4.5,
-        "count": 3308
+        "count": 3361
     },
     "description": "Dress this vibrant veggie salad with a punchy cheese, chive and grated garlic dressing to serve. Hail Caesar! Under 600 calories.",
     "cuisine": "American",
     "ingredients": [
         {
-            "label": "Chives (5g)",
-            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
-            "allergens": [],
-            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
-        },
-        {
-            "label": "Garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+            "label": "Mayonnaise (50ml) x0",
+            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
             "label": "Mayonnaise (25ml)",
@@ -38,19 +35,24 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Mayonnaise (50ml) x0",
-            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+            "label": "Ciabatta",
+            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
             "allergens": [
-                "egg",
-                "mustard"
+                "gluten"
             ],
-            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
+            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
         },
         {
-            "label": "Gem lettuces (2pcs) x0",
-            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "label": "Garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
-            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "Italian hard cheese (20g)",
@@ -61,20 +63,6 @@
             "image": "/images/ingredients/d5fc7e99-0340-4983-a486-e4f18ce5483b.jpg"
         },
         {
-            "label": "Ciabatta",
-            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
-        },
-        {
-            "label": "Fine green beans (160g)",
-            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
-            "allergens": [],
-            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
-        },
-        {
             "label": "Free range egg x2",
             "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
             "allergens": [
@@ -83,28 +71,40 @@
             "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
         },
         {
-            "label": "Gem lettuce",
-            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-            "allergens": [],
-            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
-        },
-        {
-            "label": "White wine vinegar (15ml)",
-            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
-            "allergens": [],
-            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
-        },
-        {
             "label": "Fine green beans (80g) x0",
             "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
             "allergens": [],
             "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "label": "Fine green beans (160g)",
+            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
             "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
+        },
+        {
+            "label": "Chives (5g)",
+            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "allergens": [],
+            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
+        },
+        {
+            "label": "Gem lettuce",
+            "gousto_uuid": "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
+            "allergens": [],
+            "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
+        },
+        {
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
+            "allergens": [],
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
+        },
+        {
+            "label": "White wine vinegar (15ml)",
+            "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
+            "allergens": [],
+            "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
         }
     ],
     "basics": [
@@ -169,7 +169,7 @@
             "carbs_sugars_mg": 1276,
             "fibre_mg": 1738,
             "protein_mg": 6182,
-            "salt_mg": 303,
+            "salt_mg": 280,
             "net_weight_mg": 100000
         },
         "per_portion": {
@@ -181,7 +181,7 @@
             "carbs_sugars_mg": 3452,
             "fibre_mg": 4703,
             "protein_mg": 16725,
-            "salt_mg": 822,
+            "salt_mg": 758,
             "net_weight_mg": 270500
         }
     },

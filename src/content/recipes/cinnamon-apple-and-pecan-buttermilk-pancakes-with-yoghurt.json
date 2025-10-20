@@ -5,9 +5,43 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "7712",
-    "description": "Here's a cr\u00eape you can't refuse. You'll load fluffy buttermilk pancakes with a warm cinnamon apple and sultana compote topped with yoghurt. Finish with a drizzle of maple syrup and a sprinkle of toasted pecans.",
+    "rating": {
+        "average": 4.5,
+        "count": 273
+    },
+    "description": "Here's a cr\u00eape you can't refuse. You'll load fluffy buttermilk pancakes with a warm cinnamon Royal Gala apple and sultana compote topped with yoghurt. Finish with a drizzle of maple syrup and a sprinkle of toasted pecans.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Royal gala apple",
+            "gousto_uuid": "655c4f78-85e7-4ed6-ad25-be27c402741e",
+            "allergens": [],
+            "image": "/images/ingredients/655c4f78-85e7-4ed6-ad25-be27c402741e.jpg"
+        },
+        {
+            "label": "Buttermilk pancakes (6pcs)",
+            "gousto_uuid": "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
+            "allergens": [
+                "egg",
+                "gluten",
+                "milk"
+            ],
+            "image": "/images/ingredients/4640d123-f647-4a6a-8262-b9f2ca04ba2d.jpg"
+        },
+        {
+            "label": "Ground cinnamon (0.5tsp)",
+            "gousto_uuid": "31a78f97-57a6-43dc-b14e-114b1bf67165",
+            "allergens": [],
+            "image": "/images/ingredients/31a78f97-57a6-43dc-b14e-114b1bf67165.jpg"
+        },
+        {
+            "label": "Natural yoghurt (80g) x2",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+        },
         {
             "label": "Sultanas (30g)",
             "gousto_uuid": "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
@@ -25,40 +59,10 @@
             "image": "/images/ingredients/8c35e441-16ad-426a-b4e9-ee20000decd4.jpg"
         },
         {
-            "label": "Buttermilk pancakes (6pcs)",
-            "gousto_uuid": "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
-            "allergens": [
-                "egg",
-                "gluten",
-                "milk"
-            ],
-            "image": "/images/ingredients/4640d123-f647-4a6a-8262-b9f2ca04ba2d.jpg"
-        },
-        {
-            "label": "Maple syrup (15g) x2",
-            "gousto_uuid": "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
+            "label": "Agave nectar (25g) x2",
+            "gousto_uuid": "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
             "allergens": [],
-            "image": "/images/ingredients/4c9e6ef0-9a83-4fe4-a792-0019ba935c0b.jpg"
-        },
-        {
-            "label": "Ground cinnamon (0.5tsp)",
-            "gousto_uuid": "31a78f97-57a6-43dc-b14e-114b1bf67165",
-            "allergens": [],
-            "image": "/images/ingredients/31a78f97-57a6-43dc-b14e-114b1bf67165.jpg"
-        },
-        {
-            "label": "Natural yoghurt (80g) x2",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
-        },
-        {
-            "label": "Apple",
-            "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
-            "allergens": [],
-            "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
+            "image": "/images/ingredients/eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80.jpg"
         }
     ],
     "basics": [
@@ -67,22 +71,22 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p><strong>Rise and shine! Before you begin\u2026</strong></p><p>Busy morning ahead? Some of this recipe can be prepped ahead (if you like!)</p><p>Make steps 2-6 the night before and finish the rest in the morning!</p><p>Let the dish cool completely (within 2 hours max), then cover and store in the fridge or an airtight container, ready to finish in the morning and enjoy within 24 hours</p><p>Skim through these steps and get all your equipment ready, then wash your fruit and veg</p>",
+            "instruction": "<p><strong>Rise and shine! Before you begin\u2026</strong></p><p>Busy morning ahead? Some of this recipe can be prepped ahead (if you like!) make steps 2-6 the night before and finish the rest in the morning!</p><p>Let the dish cool completely (within 2 hours max), then cover and store in the fridge or an airtight container, ready to finish in the morning and enjoy within 24 hours, skim through these steps and get all your equipment ready, then wash your fruit and veg</p>",
             "order": 1,
             "image": "/images/instructions/cinnamon-apple-and-pecan-buttermilk-pancakes-with-yoghurt/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Chop your <strong>pecan nuts</strong> roughly</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Chop your <strong>pecan</strong> roughly</p>",
             "order": 2,
             "image": "/images/instructions/cinnamon-apple-and-pecan-buttermilk-pancakes-with-yoghurt/step-2.jpg"
         },
         {
-            "instruction": "<p>Heat a small pot with a matching lid over a medium heat</p><p>Once hot, add the <strong>chopped</strong> <strong>pecans </strong>to the pan and cook for 2-3 min or until toasted and lightly golden</p><p>Tip: Watch them like a hawk to make sure they don't burn!</p><p>Once toasted, transfer to a plate and set aside \u2013 these are your <strong>toasted nuts</strong></p><p>Tip: Short on time? Prep ahead and store in an airtight container overnight</p>",
+            "instruction": "<p>Heat a small pot with a matching lid over a medium heat</p><p>Once hot, add the <strong>chopped</strong> <strong>pecans </strong>to the pan and cook for 2-3 min or until toasted and lightly golden</p><p>Tip: Watch them like a hawk to make sure they don't burn!</p><p>Once toasted, transfer to a plate and set aside \u2013 these are your <strong>toasted pecans</strong></p><p>Tip: Short on time? Prep ahead and store in an airtight container overnight</p>",
             "order": 3,
             "image": "/images/instructions/cinnamon-apple-and-pecan-buttermilk-pancakes-with-yoghurt/step-3.jpg"
         },
         {
-            "instruction": "<p>Chop your <strong>apple[s]</strong> into wedges (no need to peel!) and remove the core</p><p>Chop the wedges into small, bite-sized pieces</p>",
+            "instruction": "<p>Chop your <strong>seasonal</strong> <strong>apple[s]</strong> into wedges (no need to peel!) and remove the core</p><p>Chop the wedges into small, bite-sized pieces</p>",
             "order": 4,
             "image": "/images/instructions/cinnamon-apple-and-pecan-buttermilk-pancakes-with-yoghurt/step-4.jpg"
         },
@@ -102,7 +106,7 @@
             "image": "/images/instructions/cinnamon-apple-and-pecan-buttermilk-pancakes-with-yoghurt/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>warmed pancakes</strong> topped with your <strong>natural yoghurt</strong> and <strong>cinnamon apple & sultana compote</strong></p><p>Drizzle your <strong>maple syrup</strong> over the top and garnish with the <strong>toasted pecans</strong></p><p>Time to start your day!</p>",
+            "instruction": "<p>Serve the <strong>warmed pancakes</strong> topped with your <strong>natural yoghurt</strong> and <strong>cinnamon apple & sultana compote</strong></p><p>Drizzle your <strong>agave</strong> over the top and garnish with the <strong>toasted pecans</strong></p><p>Time to start your day!</p>",
             "order": 8
         }
     ],
@@ -116,88 +120,88 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 203,
-            "energy_kj": 851,
-            "fat_mg": 9503,
-            "fat_saturates_mg": 1766,
-            "carbs_mg": 24906,
-            "carbs_sugars_mg": 15941,
-            "fibre_mg": 991,
-            "protein_mg": 4719,
-            "salt_mg": 476,
+            "energy_kcal": 211,
+            "energy_kj": 882,
+            "fat_mg": 9313,
+            "fat_saturates_mg": 1753,
+            "carbs_mg": 27393,
+            "carbs_sugars_mg": 18831,
+            "fibre_mg": 1016,
+            "protein_mg": 4654,
+            "salt_mg": 460,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 637,
-            "energy_kj": 2668,
-            "fat_mg": 29769,
-            "fat_saturates_mg": 5535,
-            "carbs_mg": 78020,
-            "carbs_sugars_mg": 49937,
-            "fibre_mg": 3105,
-            "protein_mg": 14783,
-            "salt_mg": 1494,
-            "net_weight_mg": 313250
+            "energy_kcal": 677,
+            "energy_kj": 2831,
+            "fat_mg": 29874,
+            "fat_saturates_mg": 5623,
+            "carbs_mg": 87865,
+            "carbs_sugars_mg": 60402,
+            "fibre_mg": 3260,
+            "protein_mg": 14930,
+            "salt_mg": 1476,
+            "net_weight_mg": 320750
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "31a78f97-57a6-43dc-b14e-114b1bf67165",
-                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "31a78f97-57a6-43dc-b14e-114b1bf67165",
-                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "31a78f97-57a6-43dc-b14e-114b1bf67165",
-                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "31a78f97-57a6-43dc-b14e-114b1bf67165",
-                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "624ca93c-914e-4290-b00a-bd936adfebca",
+                "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "4640d123-f647-4a6a-8262-b9f2ca04ba2d",
                 "31a78f97-57a6-43dc-b14e-114b1bf67165",
-                "4c9e6ef0-9a83-4fe4-a792-0019ba935c0b",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "8c35e441-16ad-426a-b4e9-ee20000decd4",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d"
             ]
         }

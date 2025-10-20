@@ -5,7 +5,11 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "8844",
-    "description": "For this berry impressive dish, you'll pan-fry duck breast until crispy, then serve with thyme-roasted potatoes, carrots and green beans, all drizzled with a mixed berry and red wine jus.",
+    "rating": {
+        "average": 4.5,
+        "count": 338
+    },
+    "description": "For this berry impressive dish, you'll pan-fry duck breast until crispy, then serve with thyme-roasted potatoes, Chantenay carrots and green beans, all drizzled with a mixed berry and red wine jus.",
     "cuisine": "British",
     "ingredients": [
         {
@@ -13,6 +17,12 @@
             "gousto_uuid": "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
             "allergens": [],
             "image": "/images/ingredients/9d681c73-1e03-4fe0-ad8e-b2814f3bbab4.jpg"
+        },
+        {
+            "label": "Mixed berry compote (40g)",
+            "gousto_uuid": "74c2bcd7-6350-4785-84de-94fd47990127",
+            "allergens": [],
+            "image": "/images/ingredients/74c2bcd7-6350-4785-84de-94fd47990127.jpg"
         },
         {
             "label": "Red wine paste (10g)",
@@ -23,16 +33,22 @@
             "image": "/images/ingredients/e71a0fb5-d23d-430a-a43b-0b699f965bd0.jpg"
         },
         {
-            "label": "Mixed berry compote (40g)",
-            "gousto_uuid": "74c2bcd7-6350-4785-84de-94fd47990127",
-            "allergens": [],
-            "image": "/images/ingredients/74c2bcd7-6350-4785-84de-94fd47990127.jpg"
-        },
-        {
             "label": "Dried thyme (0.5tsp)",
             "gousto_uuid": "faaba086-0ac5-437b-82b0-982322df861b",
             "allergens": [],
             "image": "/images/ingredients/faaba086-0ac5-437b-82b0-982322df861b.jpg"
+        },
+        {
+            "label": "Chantenay carrots (160g)",
+            "gousto_uuid": "7d18b8b2-e035-48fd-9da8-368c333f351e",
+            "allergens": [],
+            "image": "/images/ingredients/7d18b8b2-e035-48fd-9da8-368c333f351e.jpg"
+        },
+        {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "Chicken stock mix (5.5g)",
@@ -41,22 +57,10 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Carrot x2",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-            "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
             "label": "Fine green beans (80g)",
             "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
             "allergens": [],
             "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
-        },
-        {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "White potato x3",
@@ -79,7 +83,7 @@
             "image": "/images/instructions/duck-breast-with-berry-and-red-wine-jus-and-thyme-roast-potatoes/step-1.jpg"
         },
         {
-            "instruction": "<p>Top, tail, peel and chop your <strong>carrot[s] </strong>roughly and add to the tray[s] </p><p>Give everything a good mix up and put the tray[s] in the oven for an initial 15 min or until golden and crisp</p>",
+            "instruction": "<p>Top, tail, peel and chop your <strong>Chantenay carrots </strong>roughly and add to the tray[s]</p><p>Give everything a good mix up and put the tray[s] in the oven for an initial 15 min or until golden and crisp</p>",
             "order": 2,
             "image": "/images/instructions/duck-breast-with-berry-and-red-wine-jus-and-thyme-roast-potatoes/step-2.jpg"
         },
@@ -109,7 +113,7 @@
             "image": "/images/instructions/duck-breast-with-berry-and-red-wine-jus-and-thyme-roast-potatoes/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>sliced duck </strong>with the <strong>thyme roast potatoes</strong>,<strong> carrots</strong> and <strong>buttery green beans</strong> to the side</p><p>Spoon over the <strong>berry & red wine jus</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>sliced duck </strong>with the <strong>thyme roast potatoes</strong>, <strong>Chantenay carrots</strong> and <strong>buttery green beans</strong> to the side</p><p>Spoon over the <strong>berry & red wine jus</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -118,35 +122,35 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 110,
-            "energy_kj": 461,
-            "fat_mg": 5281,
-            "fat_saturates_mg": 1414,
-            "carbs_mg": 10440,
-            "carbs_sugars_mg": 3458,
-            "fibre_mg": 2068,
-            "protein_mg": 5886,
-            "salt_mg": 335,
+            "energy_kcal": 112,
+            "energy_kj": 470,
+            "fat_mg": 5495,
+            "fat_saturates_mg": 1467,
+            "carbs_mg": 10246,
+            "carbs_sugars_mg": 3022,
+            "fibre_mg": 1727,
+            "protein_mg": 6138,
+            "salt_mg": 344,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 513,
-            "energy_kj": 2152,
-            "fat_mg": 24614,
-            "fat_saturates_mg": 6594,
-            "carbs_mg": 48656,
-            "carbs_sugars_mg": 16118,
-            "fibre_mg": 9642,
-            "protein_mg": 27434,
-            "salt_mg": 1564,
-            "net_weight_mg": 466050
+            "energy_kcal": 504,
+            "energy_kj": 2109,
+            "fat_mg": 24622,
+            "fat_saturates_mg": 6576,
+            "carbs_mg": 45910,
+            "carbs_sugars_mg": 13542,
+            "fibre_mg": 7740,
+            "protein_mg": 27504,
+            "salt_mg": 1544,
+            "net_weight_mg": 448050
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "faaba086-0ac5-437b-82b0-982322df861b",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
@@ -160,7 +164,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "faaba086-0ac5-437b-82b0-982322df861b",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
@@ -174,7 +178,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "faaba086-0ac5-437b-82b0-982322df861b",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
@@ -188,7 +192,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "faaba086-0ac5-437b-82b0-982322df861b",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
@@ -202,7 +206,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "4cd305c4-d372-4d9f-8110-dae88209ce57",
+                "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "faaba086-0ac5-437b-82b0-982322df861b",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",

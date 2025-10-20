@@ -15,30 +15,10 @@
     "cuisine": "French",
     "ingredients": [
         {
-            "label": "Intense chicken stock mix (5.5g)",
-            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "label": "Royal gala apple (130pcs)",
+            "gousto_uuid": "655c4f78-85e7-4ed6-ad25-be27c402741e",
             "allergens": [],
-            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-        },
-        {
-            "label": "Garlic clove x2",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
-        },
-        {
-            "label": "Ciabatta x2",
-            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+            "image": "/images/ingredients/655c4f78-85e7-4ed6-ad25-be27c402741e.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -49,16 +29,24 @@
             "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
+            "label": "Ciabatta x2",
+            "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
             "label": "Chicken stock mix (5.5g) x0",
             "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Chinese rice wine (15ml)",
-            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
-            "allergens": [],
-            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
         },
         {
             "label": "Chives (5g)",
@@ -67,10 +55,22 @@
             "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
         },
         {
-            "label": "Chinese rice wine (30ml) x0",
-            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "label": "Chinese rice wine (15ml)",
+            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
             "allergens": [],
-            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
+            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
+        },
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+            "allergens": [],
+            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+        },
+        {
+            "label": "Garlic clove x2",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
             "label": "Wholegrain mustard (21g)",
@@ -79,6 +79,12 @@
                 "mustard"
             ],
             "image": "/images/ingredients/4cad21de-c673-4385-82b7-78aaca9c8367.jpg"
+        },
+        {
+            "label": "Chinese rice wine (30ml) x0",
+            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "allergens": [],
+            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
             "label": "Fine green beans (80g)",
@@ -91,12 +97,6 @@
             "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "Apple",
-            "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
-            "allergens": [],
-            "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
         }
     ],
     "basics": [
@@ -154,28 +154,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 118,
-            "energy_kj": 498,
-            "fat_mg": 3154,
-            "fat_saturates_mg": 1308,
-            "carbs_mg": 12917,
-            "carbs_sugars_mg": 3077,
-            "fibre_mg": 1385,
-            "protein_mg": 9295,
-            "salt_mg": 639,
+            "energy_kcal": 120,
+            "energy_kj": 505,
+            "fat_mg": 3187,
+            "fat_saturates_mg": 1335,
+            "carbs_mg": 13193,
+            "carbs_sugars_mg": 3292,
+            "fibre_mg": 1420,
+            "protein_mg": 9366,
+            "salt_mg": 643,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 482,
-            "energy_kj": 2029,
-            "fat_mg": 12831,
-            "fat_saturates_mg": 5321,
-            "carbs_mg": 52543,
-            "carbs_sugars_mg": 12519,
-            "fibre_mg": 5636,
-            "protein_mg": 37811,
+            "energy_kcal": 486,
+            "energy_kj": 2045,
+            "fat_mg": 12886,
+            "fat_saturates_mg": 5399,
+            "carbs_mg": 53333,
+            "carbs_sugars_mg": 13309,
+            "fibre_mg": 5741,
+            "protein_mg": 37864,
             "salt_mg": 2602,
-            "net_weight_mg": 406750
+            "net_weight_mg": 404250
         }
     },
     "portion_sizes": {
@@ -183,7 +183,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "3484b3bc-d97e-4b98-b132-7ead51932d79",
-                "624ca93c-914e-4290-b00a-bd936adfebca",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
@@ -191,6 +190,7 @@
                 "c666ef27-3946-4630-8e30-da2fc8b60b2c",
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -199,7 +199,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "3484b3bc-d97e-4b98-b132-7ead51932d79",
-                "624ca93c-914e-4290-b00a-bd936adfebca",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
@@ -207,6 +206,7 @@
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -215,7 +215,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "3484b3bc-d97e-4b98-b132-7ead51932d79",
-                "624ca93c-914e-4290-b00a-bd936adfebca",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
@@ -224,6 +223,7 @@
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -232,7 +232,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "f2217fd7-f969-4d05-82fd-136b9eb966e3",
-                "624ca93c-914e-4290-b00a-bd936adfebca",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
@@ -240,6 +239,7 @@
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -248,7 +248,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "f2217fd7-f969-4d05-82fd-136b9eb966e3",
-                "624ca93c-914e-4290-b00a-bd936adfebca",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "be9c9106-c5ee-4e5e-b3df-37115df94a56",
@@ -257,6 +256,7 @@
                 "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+                "655c4f78-85e7-4ed6-ad25-be27c402741e",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]

@@ -5,20 +5,24 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "12952",
+    "rating": {
+        "average": 4.5,
+        "count": 38
+    },
     "description": "Double up on your protein with an XL recipe. Peri peri meets pasta in this ultimate combo. You'll sizzle chicken thigh, pepper and onion with peri peri spice and tomato paste before stirring through your orzo. Top it with grated cheddar and dig in. High in protein. Protein contributes to a growth in muscle mass.",
     "cuisine": "Fusion",
     "ingredients": [
         {
-            "label": "Intense chicken stock mix (5.5g)",
-            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "label": "Diced chicken thigh (250g) x2",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
             "allergens": [],
-            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
         },
         {
-            "label": "Peri peri spice mix (1tbsp)",
-            "gousto_uuid": "8d669e3c-0d68-412d-a98e-ac3b52589ec4",
+            "label": "Tomato paste (32g)",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
-            "image": "/images/ingredients/8d669e3c-0d68-412d-a98e-ac3b52589ec4.jpg"
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Orzo (75g) x0",
@@ -29,30 +33,24 @@
             "image": "/images/ingredients/8ad44fed-6181-4b86-95b7-af6aeb5cc1b7.jpg"
         },
         {
-            "label": "Orzo (150g)",
-            "gousto_uuid": "3ef06794-4313-4888-876e-9de6a56d6204",
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
             "allergens": [
-                "gluten"
+                "milk"
             ],
-            "image": "/images/ingredients/3ef06794-4313-4888-876e-9de6a56d6204.jpg"
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "label": "Peri peri spice mix (1tbsp)",
+            "gousto_uuid": "8d669e3c-0d68-412d-a98e-ac3b52589ec4",
             "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
-        {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g) x2",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
+            "image": "/images/ingredients/8d669e3c-0d68-412d-a98e-ac3b52589ec4.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -75,18 +73,24 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Tomato paste (32g)",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
             "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+        },
+        {
+            "label": "Orzo (150g)",
+            "gousto_uuid": "3ef06794-4313-4888-876e-9de6a56d6204",
             "allergens": [
-                "milk"
+                "gluten"
             ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+            "image": "/images/ingredients/3ef06794-4313-4888-876e-9de6a56d6204.jpg"
         }
     ],
     "basics": [
@@ -141,27 +145,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 148,
-            "energy_kj": 624,
-            "fat_mg": 4384,
-            "fat_saturates_mg": 2212,
-            "carbs_mg": 12727,
-            "carbs_sugars_mg": 2177,
+            "energy_kcal": 172,
+            "energy_kj": 724,
+            "fat_mg": 7533,
+            "fat_saturates_mg": 3042,
+            "carbs_mg": 12877,
+            "carbs_sugars_mg": 2227,
             "fibre_mg": 1268,
-            "protein_mg": 14327,
-            "salt_mg": 440,
+            "protein_mg": 13178,
+            "salt_mg": 399,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 742,
-            "energy_kj": 3125,
-            "fat_mg": 21934,
-            "fat_saturates_mg": 11070,
-            "carbs_mg": 63668,
-            "carbs_sugars_mg": 10894,
+            "energy_kcal": 865,
+            "energy_kj": 3623,
+            "fat_mg": 37684,
+            "fat_saturates_mg": 15220,
+            "carbs_mg": 64418,
+            "carbs_sugars_mg": 11144,
             "fibre_mg": 6345,
-            "protein_mg": 71675,
-            "salt_mg": 2202,
+            "protein_mg": 65925,
+            "salt_mg": 1997,
             "net_weight_mg": 500250
         }
     },
@@ -171,7 +175,7 @@
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
                 "8d669e3c-0d68-412d-a98e-ac3b52589ec4",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
@@ -184,7 +188,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
                 "8d669e3c-0d68-412d-a98e-ac3b52589ec4",
@@ -199,7 +203,7 @@
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
                 "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
@@ -215,7 +219,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
                 "8d669e3c-0d68-412d-a98e-ac3b52589ec4",
@@ -230,7 +234,6 @@
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
                 "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",

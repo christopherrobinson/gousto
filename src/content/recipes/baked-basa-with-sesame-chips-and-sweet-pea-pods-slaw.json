@@ -7,22 +7,18 @@
     "gousto_id": "964",
     "rating": {
         "average": 4.5,
-        "count": 2016
+        "count": 2079
     },
     "description": "Fish and chips have gone on holiday, and returned with an Asian twist! This dish serves up a lime zest and panko breadcrumb baked basa, a fresh sweet pea pods slaw, sesame chips, miso mayo and a wedge of lime. Under 600 calories.",
     "cuisine": "Asian",
     "ingredients": [
         {
-            "label": "Sweet pea pods (80g)",
-            "gousto_uuid": "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
-            "allergens": [],
-            "image": "/images/ingredients/0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd.jpg"
-        },
-        {
-            "label": "Red chilli",
-            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
-            "allergens": [],
-            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
+            "label": "Basa fillets (2pcs)",
+            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
         },
         {
             "label": "Panko breadcrumbs (20g)",
@@ -31,6 +27,21 @@
                 "gluten"
             ],
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Mayonnaise (50ml) x0",
+            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+            "allergens": [
+                "egg",
+                "mustard"
+            ],
+            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
         },
         {
             "label": "Mayonnaise (25ml)",
@@ -42,13 +53,17 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Mayonnaise (50ml) x0",
-            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+            "label": "Toasted sesame seeds (5g)",
+            "gousto_uuid": "c4363e48-068d-4650-b2c3-afba8d801197",
             "allergens": [
-                "egg",
-                "mustard"
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
             ],
-            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
+            "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
         },
         {
             "label": "Parsley (5g)",
@@ -65,20 +80,6 @@
             "image": "/images/ingredients/4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec.jpg"
         },
         {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Basa fillets (2pcs)",
-            "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/d6bb4d30-38c2-4ba7-855c-ff639be62605.jpg"
-        },
-        {
             "label": "White miso paste (17g)",
             "gousto_uuid": "77066e71-83ba-4375-b8c3-8576da80b529",
             "allergens": [
@@ -93,23 +94,22 @@
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
-            "label": "Toasted sesame seeds (5g)",
-            "gousto_uuid": "c4363e48-068d-4650-b2c3-afba8d801197",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
-        },
-        {
             "label": "Lime",
             "gousto_uuid": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
             "allergens": [],
             "image": "/images/ingredients/8cc1a219-f516-495d-9d3a-506bd62ae79f.jpg"
+        },
+        {
+            "label": "Red chilli",
+            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
+            "allergens": [],
+            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
+        },
+        {
+            "label": "White potato x3",
+            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+            "allergens": [],
+            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
         },
         {
             "label": "Apple",
@@ -118,10 +118,10 @@
             "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
         },
         {
-            "label": "White potato x3",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+            "label": "Sweet pea pods (80g)",
+            "gousto_uuid": "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
             "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+            "image": "/images/ingredients/0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd.jpg"
         }
     ],
     "basics": [

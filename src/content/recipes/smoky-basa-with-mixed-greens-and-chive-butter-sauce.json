@@ -9,16 +9,24 @@
     "gousto_id": "3182",
     "rating": {
         "average": 4.5,
-        "count": 8114
+        "count": 8118
     },
     "description": "Cook up a wholesome, balanced supper with flavourful smoked basa, potatoes and mixed greens. For incredible flavour, you'll spoon over a rich chive butter sauce made with Cornish clotted cream to serve.",
     "cuisine": "British",
     "ingredients": [
         {
-            "label": "Chives (5g)",
-            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "label": "Cornish clotted cream (40g)",
+            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
+        },
+        {
+            "label": "Tenderstem broccoli (80g)",
+            "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
             "allergens": [],
-            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
+            "image": "/images/ingredients/f99089af-84d8-4c24-b144-079ed2f2726b.jpg"
         },
         {
             "label": "Smoked basa fillet x0",
@@ -43,24 +51,16 @@
             "image": "/images/ingredients/6081d5f4-0961-4dee-b1e9-2e3bda8415bd.jpg"
         },
         {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
-        {
-            "label": "Tenderstem broccoli (80g)",
-            "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
-            "allergens": [],
-            "image": "/images/ingredients/f99089af-84d8-4c24-b144-079ed2f2726b.jpg"
-        },
-        {
             "label": "Fine green beans (80g)",
             "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
             "allergens": [],
             "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
+        },
+        {
+            "label": "Chives (5g)",
+            "gousto_uuid": "be9c9106-c5ee-4e5e-b3df-37115df94a56",
+            "allergens": [],
+            "image": "/images/ingredients/be9c9106-c5ee-4e5e-b3df-37115df94a56.jpg"
         }
     ],
     "basics": [
@@ -124,7 +124,7 @@
             "carbs_sugars_mg": 1187,
             "fibre_mg": 1582,
             "protein_mg": 6166,
-            "salt_mg": 359,
+            "salt_mg": 350,
             "net_weight_mg": 100000
         },
         "per_portion": {
@@ -136,7 +136,7 @@
             "carbs_sugars_mg": 4484,
             "fibre_mg": 5973,
             "protein_mg": 23278,
-            "salt_mg": 1357,
+            "salt_mg": 1325,
             "net_weight_mg": 377500
         }
     },

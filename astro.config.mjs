@@ -51,6 +51,9 @@ export default defineConfig({
 
         return true;
       },
+      namespaces: {
+        video: false,
+      },
     }),
     (await import('astro-compress')).default({
       CSS: true,
