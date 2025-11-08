@@ -7,11 +7,17 @@
     "gousto_id": "6341",
     "rating": {
         "average": 4.5,
-        "count": 6766
+        "count": 6834
     },
     "description": "Fire up your taste buds with a chipotle and green chilli sauce. Serve with halloumi, creamy avocado and crusty ciabatta and you're onto a winner.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Chipotle paste (40g) x0",
+            "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
+            "allergens": [],
+            "image": "/images/ingredients/6181d96e-d862-479f-9f24-626b4c531cc5.jpg"
+        },
         {
             "label": "Finely chopped tomatoes (390g) x0",
             "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
@@ -31,12 +37,6 @@
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
         },
         {
-            "label": "Dried ancho chilli",
-            "gousto_uuid": "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
-            "allergens": [],
-            "image": "/images/ingredients/f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf.jpg"
-        },
-        {
             "label": "Ground smoked paprika (2tsp)",
             "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
@@ -49,6 +49,12 @@
                 "gluten"
             ],
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Chipotle paste (20g)",
+            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "allergens": [],
+            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
         },
         {
             "label": "Garlic clove",
@@ -96,7 +102,7 @@
             "image": "/images/instructions/spicy-halloumi-rancheros-with-avocado-and-ciabatta/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil half a kettle</p><p>Chop your <strong>halloumi</strong> into small cubes and finely chop your <strong>dried</strong> <strong>ancho chilli[es]</strong> then cover in <strong>boiled</strong> <strong>water</strong> until softened</p><p>Heat a large, wide-based pan (preferably non-stick) with a small drizzle of <strong>vegetable oil </strong>over a medium-high heat</p><p>Once hot, add the <strong>chopped halloumi</strong></p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil half a kettle</p><p>Chop your <strong>halloumi</strong> into small cubes </p><p>Heat a large, wide-based pan (preferably non-stick) with a small drizzle of <strong>vegetable oil </strong>over a medium-high heat</p><p>Once hot, add the <strong>chopped halloumi</strong></p>",
             "order": 2,
             "image": "/images/instructions/spicy-halloumi-rancheros-with-avocado-and-ciabatta/step-2.jpg"
         },
@@ -111,12 +117,12 @@
             "image": "/images/instructions/spicy-halloumi-rancheros-with-avocado-and-ciabatta/step-4.jpg"
         },
         {
-            "instruction": "<p>Slice your <strong>green chilli[es] </strong>finely</p><p>Peel and finely slice (don't chop!) your <strong>garlic</strong></p><p>Drain the<strong> ancho chilli[es]</strong></p>",
+            "instruction": "<p>Slice your <strong>green chilli[es] </strong>finely</p><p>Peel and finely slice (don't chop!) your <strong>garlic</strong></p>",
             "order": 5,
             "image": "/images/instructions/spicy-halloumi-rancheros-with-avocado-and-ciabatta/step-5.jpg"
         },
         {
-            "instruction": "<p>Once the halloumi is browned, add the <strong>drained</strong> <strong>ancho chilli[es]</strong>, <strong>half</strong> the <strong>sliced chilli </strong>(can't handle the heat? Go easy!) with the <strong>sliced garlic </strong>and <strong>ground smoked paprika</strong></p><p>Stir it all together and add your <strong>chopped tomatoes</strong> with 100ml <span class=\"text-purple\">[130ml]</span> <span class=\"text-danger\">[170ml]</span> <strong>boiled water</strong></p><p>Bring to the boil over a high heat and cook for 1-2 min or until thickened \u2013 this is your <strong>spicy halloumi rancheros</strong></p>",
+            "instruction": "<p>Once the halloumi is browned, add your <strong>chipotle paste</strong>,, <strong>half</strong> the <strong>sliced chilli </strong>(can't handle the heat? Go easy!) with the <strong>sliced garlic </strong>and <strong>ground smoked paprika</strong></p><p>Stir it all together and add your <strong>chopped tomatoes</strong> with 100ml <span class=\"text-purple\">[130ml]</span> <span class=\"text-danger\">[170ml]</span> <strong>boiled water</strong></p><p>Bring to the boil over a high heat and cook for 1-2 min or until thickened \u2013 this is your <strong>spicy halloumi rancheros</strong></p>",
             "order": 6,
             "image": "/images/instructions/spicy-halloumi-rancheros-with-avocado-and-ciabatta/step-6.jpg"
         },
@@ -136,28 +142,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 175,
-            "energy_kj": 729,
-            "fat_mg": 10531,
-            "fat_saturates_mg": 5033,
-            "carbs_mg": 12210,
-            "carbs_sugars_mg": 2016,
-            "fibre_mg": 2028,
-            "protein_mg": 7922,
-            "salt_mg": 709,
+            "energy_kcal": 171,
+            "energy_kj": 714,
+            "fat_mg": 10346,
+            "fat_saturates_mg": 4967,
+            "carbs_mg": 12006,
+            "carbs_sugars_mg": 1831,
+            "fibre_mg": 1723,
+            "protein_mg": 7744,
+            "salt_mg": 734,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 703,
-            "energy_kj": 2927,
-            "fat_mg": 42232,
-            "fat_saturates_mg": 20185,
-            "carbs_mg": 48966,
-            "carbs_sugars_mg": 8086,
-            "fibre_mg": 8136,
-            "protein_mg": 31768,
-            "salt_mg": 2844,
-            "net_weight_mg": 401000
+            "energy_kcal": 696,
+            "energy_kj": 2901,
+            "fat_mg": 42007,
+            "fat_saturates_mg": 20170,
+            "carbs_mg": 48746,
+            "carbs_sugars_mg": 7436,
+            "fibre_mg": 6996,
+            "protein_mg": 31443,
+            "salt_mg": 2982,
+            "net_weight_mg": 406000
         }
     },
     "portion_sizes": {
@@ -165,8 +171,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2a6039c4-3425-4c91-a976-2ef070aa08ae",
@@ -179,8 +185,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2a6039c4-3425-4c91-a976-2ef070aa08ae",
@@ -193,8 +199,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2a6039c4-3425-4c91-a976-2ef070aa08ae",
@@ -207,8 +213,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "2a6039c4-3425-4c91-a976-2ef070aa08ae",
@@ -221,8 +227,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "a95b0c60-4418-43e3-8878-5eaca136762d",
+                "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
-                "f91e4e6b-7b67-4bbf-8924-d7ac929c5ddf",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",

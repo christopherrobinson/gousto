@@ -7,22 +7,31 @@
     "gousto_id": "3993",
     "rating": {
         "average": 4.5,
-        "count": 3498
+        "count": 3499
     },
     "description": "Savoury-sweet miso butter is the saucy secret to this umami-rich supper. You'll add it to silky noodles, juicy chicken thighs and colourful vegetables, and serve. Mmm-miso! All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
     "cuisine": "Japanese",
     "ingredients": [
         {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+        },
+        {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "White cup mushrooms (80g)",
-            "gousto_uuid": "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
-            "allergens": [],
-            "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
         },
         {
             "label": "Fresh root ginger (15g)",
@@ -40,6 +49,14 @@
             "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
         },
         {
+            "label": "White miso paste (17g)",
+            "gousto_uuid": "77066e71-83ba-4375-b8c3-8576da80b529",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
+        },
+        {
             "label": "Soy sauce (15ml)",
             "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
             "allergens": [
@@ -49,30 +66,10 @@
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "label": "White cup mushrooms (80g)",
+            "gousto_uuid": "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
             "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
-        {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "c666ef27-3946-4630-8e30-da2fc8b60b2c",
-            "allergens": [],
-            "image": "/images/ingredients/c666ef27-3946-4630-8e30-da2fc8b60b2c.jpg"
-        },
-        {
-            "label": "White miso paste (17g)",
-            "gousto_uuid": "77066e71-83ba-4375-b8c3-8576da80b529",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
-        },
-        {
-            "label": "Mangetout (80g)",
-            "gousto_uuid": "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
-            "allergens": [],
-            "image": "/images/ingredients/b54cc858-8ac5-4bcc-b0b3-17f88960a94e.jpg"
+            "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
         },
         {
             "label": "Soy sauce (30ml) x0",
@@ -84,19 +81,22 @@
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
-            "label": "Soy sauce (8ml) x0",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
             "label": "Lime",
             "gousto_uuid": "8cc1a219-f516-495d-9d3a-506bd62ae79f",
             "allergens": [],
             "image": "/images/ingredients/8cc1a219-f516-495d-9d3a-506bd62ae79f.jpg"
+        },
+        {
+            "label": "Sweet pea pods (80g)",
+            "gousto_uuid": "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
+            "allergens": [],
+            "image": "/images/ingredients/0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd.jpg"
         }
     ],
     "basics": [
@@ -126,7 +126,7 @@
             "image": "/images/instructions/miso-butter-chicken-thigh-and-vegetable-noodles/step-4.jpg"
         },
         {
-            "instruction": "<p>Once the chicken is almost cooked, add the<strong> pepper strips</strong>, <strong>sliced mushrooms</strong> and <strong>mangetout</strong> to the pan and cook for 3-4 min or until slightly softened but still crunchy</p>",
+            "instruction": "<p>Once the chicken is almost cooked, add the<strong> pepper strips</strong>, <strong>sliced mushrooms</strong> and <strong>sweet pea pods </strong>to the pan and cook for 3-4 min or until slightly softened but still crunchy</p>",
             "order": 5,
             "image": "/images/instructions/miso-butter-chicken-thigh-and-vegetable-noodles/step-5.jpg"
         },
@@ -152,27 +152,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 105,
-            "energy_kj": 441,
-            "fat_mg": 1371,
-            "fat_saturates_mg": 356,
-            "carbs_mg": 14021,
-            "carbs_sugars_mg": 1434,
-            "fibre_mg": 1022,
-            "protein_mg": 9207,
-            "salt_mg": 646,
+            "energy_kcal": 120,
+            "energy_kj": 502,
+            "fat_mg": 3273,
+            "fat_saturates_mg": 857,
+            "carbs_mg": 14189,
+            "carbs_sugars_mg": 1493,
+            "fibre_mg": 945,
+            "protein_mg": 8493,
+            "salt_mg": 622,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 435,
-            "energy_kj": 1827,
-            "fat_mg": 5676,
-            "fat_saturates_mg": 1476,
-            "carbs_mg": 58050,
-            "carbs_sugars_mg": 5938,
-            "fibre_mg": 4234,
-            "protein_mg": 38117,
-            "salt_mg": 2675,
+            "energy_kcal": 498,
+            "energy_kj": 2080,
+            "fat_mg": 13551,
+            "fat_saturates_mg": 3551,
+            "carbs_mg": 58745,
+            "carbs_sugars_mg": 6183,
+            "fibre_mg": 3914,
+            "protein_mg": 35162,
+            "salt_mg": 2576,
             "net_weight_mg": 414000
         }
     },
@@ -180,14 +180,14 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
                 "77066e71-83ba-4375-b8c3-8576da80b529"
             ]
@@ -195,14 +195,14 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
                 "77066e71-83ba-4375-b8c3-8576da80b529"
             ]
@@ -210,15 +210,15 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
                 "77066e71-83ba-4375-b8c3-8576da80b529"
             ]
@@ -226,14 +226,14 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
                 "77066e71-83ba-4375-b8c3-8576da80b529"
             ]
@@ -241,15 +241,15 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "c666ef27-3946-4630-8e30-da2fc8b60b2c",
+                "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
-                "b54cc858-8ac5-4bcc-b0b3-17f88960a94e",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca",
                 "77066e71-83ba-4375-b8c3-8576da80b529"
             ]

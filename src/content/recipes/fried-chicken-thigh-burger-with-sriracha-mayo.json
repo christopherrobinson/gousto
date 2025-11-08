@@ -12,16 +12,37 @@
     "gousto_id": "1655",
     "rating": {
         "average": 4.5,
-        "count": 13033
+        "count": 13034
     },
     "description": "For a fantastic fried chicken burger, you'll coat chicken thighs in cayenne, soy sauce and cornflour before frying until oh-so-crisp. Pack your chicken into fluffy brioche with lettuce and tomato, top with spicy sriracha mayo and serve with homemade oven chips. What a burger!",
     "cuisine": "American",
     "ingredients": [
         {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
             "label": "Sriracha hot chilli sauce (8ml) x2",
             "gousto_uuid": "34ad5b48-6f2b-402b-8699-1237fb821ae2",
             "allergens": [],
             "image": "/images/ingredients/34ad5b48-6f2b-402b-8699-1237fb821ae2.jpg"
+        },
+        {
+            "label": "Skinless chicken thighs (320g)",
+            "gousto_uuid": "4e2300bd-68bc-456c-b80a-31ea282954e4",
+            "allergens": [],
+            "image": "/images/ingredients/4e2300bd-68bc-456c-b80a-31ea282954e4.jpg"
+        },
+        {
+            "label": "Skinless chicken thighs (160g) x0",
+            "gousto_uuid": "58f0ca29-597c-4db7-a490-f7542d1f3c72",
+            "allergens": [],
+            "image": "/images/ingredients/58f0ca29-597c-4db7-a490-f7542d1f3c72.jpg"
         },
         {
             "label": "Cayenne pepper (0.5tsp)",
@@ -37,18 +58,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
-        },
-        {
-            "label": "Skinless chicken thighs (320g)",
-            "gousto_uuid": "4e2300bd-68bc-456c-b80a-31ea282954e4",
-            "allergens": [],
-            "image": "/images/ingredients/4e2300bd-68bc-456c-b80a-31ea282954e4.jpg"
-        },
-        {
-            "label": "Skinless chicken thighs (160g) x0",
-            "gousto_uuid": "58f0ca29-597c-4db7-a490-f7542d1f3c72",
-            "allergens": [],
-            "image": "/images/ingredients/58f0ca29-597c-4db7-a490-f7542d1f3c72.jpg"
         },
         {
             "label": "Cornflour (4tbsp)",
@@ -79,15 +88,6 @@
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Gem lettuce",
@@ -121,7 +121,7 @@
             "image": "/images/instructions/fried-chicken-thigh-burger-with-sriracha-mayo/step-1.jpg"
         },
         {
-            "instruction": "<p>While the chips are cooking, cut your <strong>chicken thighs</strong> into strips</p><p>Add the <strong>chicken strips</strong> to a bowl with your <strong>cayenne pepper</strong> (can't handle the heat? Go easy!) and <strong>soy sauce</strong> then mix well until evenly coated</p><p>Add your<strong> cornflour</strong> and give everything a good mix up until the chicken is fully coated in the cornflour mixture \u2013 these are your<strong> coated chicken strips</strong></p>",
+            "instruction": "<p>While the chips are cooking, cut your <strong>chicken</strong> into strips</p><p>Add the <strong>chicken strips</strong> to a bowl with your <strong>cayenne pepper</strong> (can't handle the heat? Go easy!) and <strong>soy sauce</strong> then mix well until evenly coated</p><p>Add your<strong> cornflour</strong> and give everything a good mix up until the chicken is fully coated in the cornflour mixture \u2013 these are your<strong> coated chicken strips</strong></p>",
             "order": 2,
             "image": "/images/instructions/fried-chicken-thigh-burger-with-sriracha-mayo/step-2.jpg"
         },
@@ -163,27 +163,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 167,
-            "energy_kj": 698,
-            "fat_mg": 8783,
-            "fat_saturates_mg": 1501,
-            "carbs_mg": 15191,
-            "carbs_sugars_mg": 1768,
+            "energy_kcal": 155,
+            "energy_kj": 651,
+            "fat_mg": 7257,
+            "fat_saturates_mg": 1098,
+            "carbs_mg": 15039,
+            "carbs_sugars_mg": 1798,
             "fibre_mg": 1414,
-            "protein_mg": 7018,
-            "salt_mg": 345,
+            "protein_mg": 7567,
+            "salt_mg": 332,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 878,
-            "energy_kj": 3662,
-            "fat_mg": 46049,
-            "fat_saturates_mg": 7870,
-            "carbs_mg": 79643,
-            "carbs_sugars_mg": 9270,
+            "energy_kcal": 815,
+            "energy_kj": 3415,
+            "fat_mg": 38049,
+            "fat_saturates_mg": 5758,
+            "carbs_mg": 78843,
+            "carbs_sugars_mg": 9430,
             "fibre_mg": 7415,
-            "protein_mg": 36793,
-            "salt_mg": 1809,
+            "protein_mg": 39673,
+            "salt_mg": 1742,
             "net_weight_mg": 524250
         }
     },
