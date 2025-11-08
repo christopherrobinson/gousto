@@ -9,7 +9,7 @@
         "average": 4.5,
         "count": 434
     },
-    "description": "Brunch just got better. Start your day strong with a one-tray Christmas brunch. You'll load warmed brioche with crispy bacon, egg, spinach and cranberry ketchup and serve with crispy sage potatoes.",
+    "description": "Brunch just got a festive upgrade. Pile warm brioche with crispy bacon, egg and spinach, before drizzling with tangy cranberry ketchup. Serve up alongside golden sage potatoes.",
     "cuisine": "British",
     "ingredients": [
         {
@@ -25,22 +25,25 @@
             "image": "/images/ingredients/b67ea736-aee3-4a42-8b2c-73fb7b4e8e30.jpg"
         },
         {
+            "label": "Smoked streaky bacon (90g)",
+            "gousto_uuid": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
+            "allergens": [],
+            "image": "/images/ingredients/8df922d2-0c1d-46f1-af84-5e6991b4ec6f.jpg"
+        },
+        {
             "label": "Dried sage (1tbsp) x1",
             "gousto_uuid": "6593d035-ada9-4b43-95e3-a82a7362fda1",
             "allergens": [],
             "image": "/images/ingredients/6593d035-ada9-4b43-95e3-a82a7362fda1.jpg"
         },
         {
-            "label": "Spinach (80g)",
-            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
-            "allergens": [],
-            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
-        },
-        {
-            "label": "Smoked streaky bacon (90g)",
-            "gousto_uuid": "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
-            "allergens": [],
-            "image": "/images/ingredients/8df922d2-0c1d-46f1-af84-5e6991b4ec6f.jpg"
+            "label": "Brioche style buns (2pcs)",
+            "gousto_uuid": "3843fd0b-c75c-457f-99fb-378721464a4d",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3843fd0b-c75c-457f-99fb-378721464a4d.jpg"
         },
         {
             "label": "Smoked streaky bacon (45g) x0",
@@ -49,16 +52,13 @@
             "image": "/images/ingredients/1d5d40b7-a408-47b1-b755-1a758a49417f.jpg"
         },
         {
-            "label": "Brioche style buns (2pcs)",
-            "gousto_uuid": "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/1e22a6fb-f22f-4ae1-b46a-862aa5680e69.jpg"
+            "label": "Cranberry sauce (40g)",
+            "gousto_uuid": "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
+            "allergens": [],
+            "image": "/images/ingredients/bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28.jpg"
         },
         {
-            "label": "British free range egg x2",
+            "label": "Free range egg x2",
             "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
             "allergens": [
                 "egg"
@@ -66,10 +66,10 @@
             "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
         },
         {
-            "label": "Cranberry sauce (40g)",
-            "gousto_uuid": "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
+            "label": "Spinach (80g)",
+            "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
-            "image": "/images/ingredients/bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28.jpg"
+            "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
             "label": "White potato x3",
@@ -126,42 +126,43 @@
     ],
     "allergens": [
         "egg",
-        "gluten"
+        "gluten",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 151,
-            "energy_kj": 633,
-            "fat_mg": 4907,
-            "fat_saturates_mg": 1443,
-            "carbs_mg": 20999,
-            "carbs_sugars_mg": 4848,
-            "fibre_mg": 1332,
-            "protein_mg": 6274,
-            "salt_mg": 624,
+            "energy_kcal": 147,
+            "energy_kj": 618,
+            "fat_mg": 5051,
+            "fat_saturates_mg": 1403,
+            "carbs_mg": 19078,
+            "carbs_sugars_mg": 5086,
+            "fibre_mg": 1694,
+            "protein_mg": 6386,
+            "salt_mg": 612,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 609,
-            "energy_kj": 2553,
-            "fat_mg": 19770,
-            "fat_saturates_mg": 5815,
-            "carbs_mg": 84598,
-            "carbs_sugars_mg": 19532,
-            "fibre_mg": 5369,
-            "protein_mg": 25278,
-            "salt_mg": 2517,
-            "net_weight_mg": 402850
+            "energy_kcal": 579,
+            "energy_kj": 2434,
+            "fat_mg": 19896,
+            "fat_saturates_mg": 5527,
+            "carbs_mg": 75139,
+            "carbs_sugars_mg": 20032,
+            "fibre_mg": 6674,
+            "protein_mg": 25152,
+            "salt_mg": 2413,
+            "net_weight_mg": 393850
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-                "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
+                "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
                 "6593d035-ada9-4b43-95e3-a82a7362fda1",
+                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "1d5d40b7-a408-47b1-b755-1a758a49417f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "43938034-cb9a-45cb-ad78-44234261fb46",
@@ -171,10 +172,10 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-                "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
+                "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
                 "6593d035-ada9-4b43-95e3-a82a7362fda1",
+                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
@@ -184,10 +185,10 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-                "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
+                "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
                 "6593d035-ada9-4b43-95e3-a82a7362fda1",
+                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
                 "1d5d40b7-a408-47b1-b755-1a758a49417f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
@@ -199,10 +200,10 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-                "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
+                "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
                 "6593d035-ada9-4b43-95e3-a82a7362fda1",
+                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
@@ -212,10 +213,10 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-                "1e22a6fb-f22f-4ae1-b46a-862aa5680e69",
+                "3843fd0b-c75c-457f-99fb-378721464a4d",
                 "bd3ce290-cb52-4df3-a8a2-3f7c9f7a7c28",
                 "6593d035-ada9-4b43-95e3-a82a7362fda1",
+                "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "8df922d2-0c1d-46f1-af84-5e6991b4ec6f",
                 "1d5d40b7-a408-47b1-b755-1a758a49417f",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",

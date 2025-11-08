@@ -16,6 +16,15 @@
     "cuisine": "Fusion",
     "ingredients": [
         {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
             "label": "Finely chopped tomatoes (390g) x0",
             "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
             "allergens": [],
@@ -48,12 +57,6 @@
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
         },
         {
-            "label": "Mature cheddar style block (40g)",
-            "gousto_uuid": "f95b80a9-29e5-4964-9898-542a533879da",
-            "allergens": [],
-            "image": "/images/ingredients/f95b80a9-29e5-4964-9898-542a533879da.jpg"
-        },
-        {
             "label": "Garlic clove x3",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
@@ -66,6 +69,12 @@
                 "gluten"
             ],
             "image": "/images/ingredients/8bd9259e-a6bc-4df5-a4a3-b630a19469b9.jpg"
+        },
+        {
+            "label": "Cheese flavour slices (2pcs)",
+            "gousto_uuid": "1f74aee9-2816-4331-91eb-477996ae9d7c",
+            "allergens": [],
+            "image": "/images/ingredients/1f74aee9-2816-4331-91eb-477996ae9d7c.jpg"
         },
         {
             "label": "Basil (5g) x2",
@@ -84,15 +93,6 @@
             "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
             "allergens": [],
             "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Aubergine x2",
@@ -135,7 +135,7 @@
             "image": "/images/instructions/aubergine-ragu-tortiglioni-with-cheezy-garlic-bread/step-1.jpg"
         },
         {
-            "instruction": "<p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Chop your<strong> basil</strong> finely</p><p>Grate your<strong> cheddar flavour block[s]</strong> finely</p><p>Add <strong>half</strong> of the <strong>chopped basil</strong>, <strong>half </strong>the <strong>grated cheeze</strong> (save the rest for garnish!) and <strong>half</strong> of the <strong>chopped garlic</strong> (save the rest for later!) to a bowl with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>olive oil</strong> \u2013 this is your <strong>cheezy garlic mixture</strong></p>",
+            "instruction": "<p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Chop your<strong> basil</strong> finely</p><p>Tear your <strong>cheese flavour slice </strong>into bite-sized pieces </p><p>Add <strong>half</strong> of the <strong>chopped basil</strong>, <strong>half </strong>the <strong>torn cheeze</strong> (save the rest for garnish!) and <strong>half</strong> of the <strong>chopped garlic</strong> (save the rest for later!) to a bowl with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>olive oil</strong> \u2013 this is your <strong>cheezy garlic mixture</strong></p>",
             "order": 2,
             "image": "/images/instructions/aubergine-ragu-tortiglioni-with-cheezy-garlic-bread/step-2.jpg"
         },
@@ -165,7 +165,7 @@
             "image": "/images/instructions/aubergine-ragu-tortiglioni-with-cheezy-garlic-bread/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>aubergine rag\u00f9 pasta </strong>in bowls with the<strong> cheezy garlic bread </strong>to the side</p><p>Sprinkle over the <strong>reserved chopped basil</strong> and top with the <strong>reserved</strong> <strong>grated cheeze</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>aubergine rag\u00f9 pasta </strong>in bowls with the<strong> cheezy garlic bread </strong>to the side</p><p>Sprinkle over the <strong>reserved chopped basil</strong> and top with the <strong>reserved</strong> <strong>torned cheeze</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -177,26 +177,26 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 92,
-            "energy_kj": 390,
-            "fat_mg": 1314,
-            "fat_saturates_mg": 701,
-            "carbs_mg": 17749,
-            "carbs_sugars_mg": 2775,
-            "fibre_mg": 2165,
-            "protein_mg": 3086,
-            "salt_mg": 352,
+            "energy_kj": 391,
+            "fat_mg": 1427,
+            "fat_saturates_mg": 818,
+            "carbs_mg": 17592,
+            "carbs_sugars_mg": 2764,
+            "fibre_mg": 2044,
+            "protein_mg": 3072,
+            "salt_mg": 374,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 518,
-            "energy_kj": 2197,
-            "fat_mg": 7396,
-            "fat_saturates_mg": 3946,
-            "carbs_mg": 99883,
-            "carbs_sugars_mg": 15618,
-            "fibre_mg": 12185,
-            "protein_mg": 17369,
-            "salt_mg": 1984,
+            "energy_kcal": 520,
+            "energy_kj": 2203,
+            "fat_mg": 8036,
+            "fat_saturates_mg": 4606,
+            "carbs_mg": 99003,
+            "carbs_sugars_mg": 15558,
+            "fibre_mg": 11505,
+            "protein_mg": 17289,
+            "salt_mg": 2110,
             "net_weight_mg": 562750
         }
     },
@@ -208,11 +208,11 @@
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
+                "1f74aee9-2816-4331-91eb-477996ae9d7c",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
-                "f95b80a9-29e5-4964-9898-542a533879da",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "8bd9259e-a6bc-4df5-a4a3-b630a19469b9",
@@ -226,11 +226,11 @@
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
+                "1f74aee9-2816-4331-91eb-477996ae9d7c",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-                "f95b80a9-29e5-4964-9898-542a533879da",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "99d1eeed-7b6f-404a-9393-64101debcba7",
@@ -244,11 +244,11 @@
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
+                "1f74aee9-2816-4331-91eb-477996ae9d7c",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-                "f95b80a9-29e5-4964-9898-542a533879da",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "99d1eeed-7b6f-404a-9393-64101debcba7",
@@ -263,11 +263,11 @@
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
+                "1f74aee9-2816-4331-91eb-477996ae9d7c",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-                "f95b80a9-29e5-4964-9898-542a533879da",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "99d1eeed-7b6f-404a-9393-64101debcba7",
@@ -281,12 +281,12 @@
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "8357c090-d832-41bc-a458-b13600637e1b",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
+                "1f74aee9-2816-4331-91eb-477996ae9d7c",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-                "f95b80a9-29e5-4964-9898-542a533879da",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "99d1eeed-7b6f-404a-9393-64101debcba7",

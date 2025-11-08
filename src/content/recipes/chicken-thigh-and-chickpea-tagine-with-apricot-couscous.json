@@ -19,6 +19,36 @@
             "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
         },
         {
+            "label": "Finely chopped tomatoes (390g) x0",
+            "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+            "allergens": [],
+            "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
+        },
+        {
+            "label": "Finely chopped tomatoes (200g)",
+            "gousto_uuid": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
+            "allergens": [],
+            "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
+        },
+        {
+            "label": "Ras el hanout (1tbsp)",
+            "gousto_uuid": "631dc7d6-b411-48bf-b6a8-eafc30e89fb0",
+            "allergens": [],
+            "image": "/images/ingredients/631dc7d6-b411-48bf-b6a8-eafc30e89fb0.jpg"
+        },
+        {
+            "label": "Chickpeas (185g)",
+            "gousto_uuid": "a6fd860f-6dda-460b-b577-3ff6e6d883ac",
+            "allergens": [],
+            "image": "/images/ingredients/a6fd860f-6dda-460b-b577-3ff6e6d883ac.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
             "label": "Couscous (60g) x0",
             "gousto_uuid": "907e81d3-c5d7-4d8f-ad15-91baf7501fa2",
             "allergens": [
@@ -27,10 +57,12 @@
             "image": "/images/ingredients/907e81d3-c5d7-4d8f-ad15-91baf7501fa2.jpg"
         },
         {
-            "label": "Chickpeas (185g)",
-            "gousto_uuid": "a6fd860f-6dda-460b-b577-3ff6e6d883ac",
-            "allergens": [],
-            "image": "/images/ingredients/a6fd860f-6dda-460b-b577-3ff6e6d883ac.jpg"
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Couscous (120g)",
@@ -41,28 +73,16 @@
             "image": "/images/ingredients/5b2212b7-304e-4614-b73b-c080c5d1ac0e.jpg"
         },
         {
-            "label": "Finely chopped tomatoes (390g) x0",
-            "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
             "allergens": [],
-            "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
         },
         {
             "label": "Chicken stock mix (5.5g)",
             "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Ras el hanout (1tbsp)",
-            "gousto_uuid": "631dc7d6-b411-48bf-b6a8-eafc30e89fb0",
-            "allergens": [],
-            "image": "/images/ingredients/631dc7d6-b411-48bf-b6a8-eafc30e89fb0.jpg"
-        },
-        {
-            "label": "Finely chopped tomatoes (200g)",
-            "gousto_uuid": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
-            "allergens": [],
-            "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
         },
         {
             "label": "Carrot x2",
@@ -77,26 +97,6 @@
                 "sulphites"
             ],
             "image": "/images/ingredients/cead32b1-6d9a-4f02-95c1-5ff3f1757377.jpg"
-        },
-        {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
-            "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         }
     ],
     "basics": [
@@ -153,27 +153,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 101,
-            "energy_kj": 429,
-            "fat_mg": 1650,
-            "fat_saturates_mg": 420,
-            "carbs_mg": 13561,
-            "carbs_sugars_mg": 4886,
+            "energy_kcal": 112,
+            "energy_kj": 474,
+            "fat_mg": 3076,
+            "fat_saturates_mg": 796,
+            "carbs_mg": 13629,
+            "carbs_sugars_mg": 4909,
             "fibre_mg": 2446,
-            "protein_mg": 7850,
-            "salt_mg": 279,
+            "protein_mg": 7330,
+            "salt_mg": 261,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 561,
-            "energy_kj": 2372,
-            "fat_mg": 9116,
-            "fat_saturates_mg": 2323,
-            "carbs_mg": 74895,
-            "carbs_sugars_mg": 26985,
+            "energy_kcal": 622,
+            "energy_kj": 2621,
+            "fat_mg": 16991,
+            "fat_saturates_mg": 4398,
+            "carbs_mg": 75270,
+            "carbs_sugars_mg": 27110,
             "fibre_mg": 13510,
-            "protein_mg": 43357,
-            "salt_mg": 1545,
+            "protein_mg": 40482,
+            "salt_mg": 1443,
             "net_weight_mg": 552250
         }
     },

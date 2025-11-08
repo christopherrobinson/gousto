@@ -13,6 +13,12 @@
     "cuisine": "Mexican",
     "ingredients": [
         {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
             "label": "Finely chopped tomatoes (390g) x0",
             "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
             "allergens": [],
@@ -23,12 +29,6 @@
             "gousto_uuid": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
             "allergens": [],
             "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
-        },
-        {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "White long grain rice (65g) x0",
@@ -129,7 +129,8 @@
         "Vegetable oil",
         "Sugar",
         "Water",
-        "Salt"
+        "Salt",
+        "Pepper"
     ],
     "cooking_instructions": [
         {
@@ -148,7 +149,7 @@
             "image": "/images/instructions/bacon-frijoles-charros-with-soured-cream-and-rice/step-3.jpg"
         },
         {
-            "instruction": "<p>Once crisp, transfer the bacon<strong> </strong>to a piece of kitchen paper</p><p>Reduce the heat to low and add a small knob of<strong> butter </strong>with the <strong>chopped garlic</strong>, <strong>southern fried seasoning</strong>, <strong>chipotle</strong> <strong>paste </strong>(can't handle the heat? Go easy!) and <strong>drained beans</strong></p><p>Add 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>with a grind of<strong> pepper </strong>and cook for 2 min or until fragrant</p>",
+            "instruction": "<p>Once crisp, transfer the <strong>bacon </strong>to a piece of kitchen paper</p><p>Reduce the heat to low and add a small knob of<strong> butter </strong>with the <strong>chopped garlic</strong>, <strong>southern fried seasoning</strong>, <strong>chipotle</strong> <strong>paste </strong>(can't handle the heat? Go easy!) and <strong>drained beans</strong></p><p>Add 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>with a grind of<strong> pepper </strong>and cook for 2 min or until fragrant</p>",
             "order": 4,
             "image": "/images/instructions/bacon-frijoles-charros-with-soured-cream-and-rice/step-4.jpg"
         },
@@ -163,7 +164,7 @@
             "image": "/images/instructions/bacon-frijoles-charros-with-soured-cream-and-rice/step-6.jpg"
         },
         {
-            "instruction": "<p>While the beans are cooking, chop your <strong>tomato[es] </strong>finely</p><p>Chop your <strong>coriander</strong> finely, including the stalks (save some leaves for garnish!)</p><p>Add the <strong>chopped tomato</strong> and <strong>coriander</strong> to the lime pickle with a little drizzle of <strong>olive oil</strong> and a pinch of <strong>salt</strong> and <strong>pepper </strong>\u2013 this is your <strong>lime salsa</strong></p><p>Chop your <strong>remaining lime</strong> into 1 wedge per person</p>",
+            "instruction": "<p>While the beans are cooking, chop your <strong>tomato[es] </strong>finely</p><p>Chop your <strong>coriander</strong> finely, including the stalks (save some leaves for garnish!)</p><p>Add the <strong>chopped tomato</strong> and <strong>coriander</strong> to the lime pickle with a little drizzle of <strong>olive oil</strong> and a pinch of <strong>salt</strong> and <strong>pepper </strong>\u2013 this is your <strong>lime salsa</strong></p><p>Chop the <strong>remaining lime</strong> into 1 wedge per person</p>",
             "order": 7,
             "image": "/images/instructions/bacon-frijoles-charros-with-soured-cream-and-rice/step-7.jpg"
         },
@@ -178,26 +179,26 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 114,
-            "energy_kj": 482,
-            "fat_mg": 3894,
-            "fat_saturates_mg": 1830,
-            "carbs_mg": 15157,
-            "carbs_sugars_mg": 2128,
+            "energy_kj": 481,
+            "fat_mg": 3899,
+            "fat_saturates_mg": 1831,
+            "carbs_mg": 15106,
+            "carbs_sugars_mg": 2075,
             "fibre_mg": 1698,
-            "protein_mg": 4293,
+            "protein_mg": 4303,
             "salt_mg": 500,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 615,
-            "energy_kj": 2581,
-            "fat_mg": 20845,
-            "fat_saturates_mg": 9799,
-            "carbs_mg": 81132,
-            "carbs_sugars_mg": 11395,
+            "energy_kcal": 614,
+            "energy_kj": 2578,
+            "fat_mg": 20870,
+            "fat_saturates_mg": 9804,
+            "carbs_mg": 80857,
+            "carbs_sugars_mg": 11110,
             "fibre_mg": 9092,
-            "protein_mg": 22981,
-            "salt_mg": 2680,
+            "protein_mg": 23036,
+            "salt_mg": 2679,
             "net_weight_mg": 535250
         }
     },

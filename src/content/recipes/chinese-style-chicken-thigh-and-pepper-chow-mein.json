@@ -7,11 +7,17 @@
     "gousto_id": "4083",
     "rating": {
         "average": 4.5,
-        "count": 8622
+        "count": 8726
     },
     "description": "Time for a cheeky Chinese fakeaway. You'll fry succulent chicken thigh with spring onions, pepper and sesame-coated egg noodles. Round it out with an umami-packed soy and hoisin sauce and serve up.",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "Spring onion x2",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
         {
             "label": "Diced chicken thigh (250g)",
             "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
@@ -33,12 +39,6 @@
             "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
         },
         {
-            "label": "Spring onion x2",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
             "label": "Garlic clove x2",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
@@ -49,6 +49,12 @@
             "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
             "allergens": [],
             "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
+        },
+        {
+            "label": "Chinese rice wine (30ml) x0",
+            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "allergens": [],
+            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
             "label": "Toasted sesame oil (10ml)",
@@ -74,10 +80,10 @@
             "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
         },
         {
-            "label": "Mirin (30ml) x1",
-            "gousto_uuid": "7eb70cf4-458d-4be8-b513-972188692b59",
+            "label": "Chinese rice wine (15ml)",
+            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
             "allergens": [],
-            "image": "/images/ingredients/7eb70cf4-458d-4be8-b513-972188692b59.jpg"
+            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
         },
         {
             "label": "Soy sauce (15ml)",
@@ -139,7 +145,7 @@
             "image": "/images/instructions/chinese-style-chicken-thigh-and-pepper-chow-mein/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the chicken is cooked through, reduce the heat to low and add your <strong>soy sauce</strong>, <strong>mirin</strong>, <strong>hoisin sauce</strong>, <strong>sesame noodles </strong>and a splash of <strong>water </strong>to the pan</p><p>Cook for 1-2 min further or until the noodles are coated in the sauce \u2013 this is your <strong>Chinese-style chicken & pepper chow mein</strong></p>",
+            "instruction": "<p>Once the chicken is cooked through, reduce the heat to low and add your\u00a0<strong>soy sauce</strong>, <strong>Chinese rice wine</strong>, <strong>hoisin sauce</strong>, <strong>sesame noodles </strong>and a splash of <strong>water </strong>to the pan</p><p>Cook for 1-2 min further or until the noodles are coated in the sauce \u2013 this is your <strong>Chinese-style chicken & pepper chow mein</strong></p>",
             "order": 7,
             "image": "/images/instructions/chinese-style-chicken-thigh-and-pepper-chow-mein/step-7.jpg"
         },
@@ -161,27 +167,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 179,
-            "energy_kj": 749,
-            "fat_mg": 5691,
-            "fat_saturates_mg": 1354,
-            "carbs_mg": 20912,
-            "carbs_sugars_mg": 3675,
+            "energy_kcal": 174,
+            "energy_kj": 729,
+            "fat_mg": 5707,
+            "fat_saturates_mg": 1357,
+            "carbs_mg": 19631,
+            "carbs_sugars_mg": 2573,
             "fibre_mg": 923,
-            "protein_mg": 10674,
-            "salt_mg": 640,
+            "protein_mg": 10726,
+            "salt_mg": 639,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 557,
-            "energy_kj": 2331,
-            "fat_mg": 17701,
-            "fat_saturates_mg": 4211,
-            "carbs_mg": 65038,
-            "carbs_sugars_mg": 11432,
+            "energy_kcal": 542,
+            "energy_kj": 2269,
+            "fat_mg": 17751,
+            "fat_saturates_mg": 4221,
+            "carbs_mg": 61053,
+            "carbs_sugars_mg": 8005,
             "fibre_mg": 2871,
-            "protein_mg": 33197,
-            "salt_mg": 1993,
+            "protein_mg": 33359,
+            "salt_mg": 1990,
             "net_weight_mg": 311000
         }
     },
@@ -189,12 +195,12 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "3484b3bc-d97e-4b98-b132-7ead51932d79",
                 "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-                "7eb70cf4-458d-4be8-b513-972188692b59",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
@@ -204,12 +210,12 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "3484b3bc-d97e-4b98-b132-7ead51932d79",
                 "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-                "7eb70cf4-458d-4be8-b513-972188692b59",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
@@ -219,12 +225,12 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "3484b3bc-d97e-4b98-b132-7ead51932d79",
                 "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-                "7eb70cf4-458d-4be8-b513-972188692b59",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
@@ -234,12 +240,12 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "f2217fd7-f969-4d05-82fd-136b9eb966e3",
                 "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-                "7eb70cf4-458d-4be8-b513-972188692b59",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
@@ -249,12 +255,12 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "f2217fd7-f969-4d05-82fd-136b9eb966e3",
                 "8a036593-6a6b-4f8f-82dd-82280ff1029e",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
-                "7eb70cf4-458d-4be8-b513-972188692b59",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",

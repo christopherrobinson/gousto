@@ -7,11 +7,26 @@
     "gousto_id": "6600",
     "rating": {
         "average": 4.5,
-        "count": 74
+        "count": 78
     },
     "description": "Wake up your tastebuds with this sticky chilli sensation. You'll smother crispy cod in a sweet and spicy sauce, then add a side of salt and pepper chips to serve. Winner!",
     "cuisine": "Chinese",
     "ingredients": [
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
         {
             "label": "Cod fillets (2pcs)",
             "gousto_uuid": "36ee321e-acbe-4fd6-919a-a01ba1670905",
@@ -25,12 +40,6 @@
             "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
             "allergens": [],
             "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
-        },
-        {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "Cornflour (4tbsp)",
@@ -84,15 +93,6 @@
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
-            "label": "Soy sauce (8ml) x0",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
             "label": "Soy sauce (30ml) x0",
             "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
@@ -133,12 +133,12 @@
             "image": "/images/instructions/sticky-cod-with-salt-and-pepper-chips/step-1.jpg"
         },
         {
-            "instruction": "<p>While the chips are cooking, cut your <strong>cod fillet[s] </strong>into large, bite-sized pieces</p><p>Heat a large, wide-based pan (preferably non-stick) with a very large drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Add the<strong> cod pieces </strong>to a bowl with your <strong>cornflour</strong> and give it a good mix up until coated all over</p>",
+            "instruction": "<p>While the chips are cooking, cut your <strong>fish fillet[s] </strong>into large, bite-sized pieces</p><p>Heat a large, wide-based pan (preferably non-stick) with a very large drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Add the<strong> fish pieces </strong>to a bowl with your <strong>cornflour</strong> and give it a good mix up until coated all over</p>",
             "order": 2,
             "image": "/images/instructions/sticky-cod-with-salt-and-pepper-chips/step-2.jpg"
         },
         {
-            "instruction": "<p>Once the pan is very hot, add the <strong>coated cod pieces</strong> and cook for 4-5 min on each side until golden and crispy and the fish is cooked through \u2013 this is your <strong>crispy cod</strong></p><p>Tip: Your fish is cooked when it turns opaque and flakes easily</p><p>Once crispy, transfer to a plate and set aside, reserving the pan</p>",
+            "instruction": "<p>Once the pan is very hot, add the <strong>coated fish pieces</strong> and cook for 4-5 min on each side until golden and crispy and the fish is cooked through \u2013 this is your <strong>crispy fish </strong></p><p>Tip: Your fish is cooked when it turns opaque and flakes easily</p><p>Once crispy, transfer to a plate and set aside, reserving the pan</p>",
             "order": 3,
             "image": "/images/instructions/sticky-cod-with-salt-and-pepper-chips/step-3.jpg"
         },
@@ -153,7 +153,7 @@
             "image": "/images/instructions/sticky-cod-with-salt-and-pepper-chips/step-5.jpg"
         },
         {
-            "instruction": "<p>Add the<strong> sticky chilli sauce </strong>to the pan and cook for 3 min or until the sauce begins to thicken and the pepper has softened</p><p>Once thickened, add the<strong> crispy cod </strong>to the pan and cook for 1 min further until the fish is coated in the sauce \u2013 this is your <strong>sticky cod</strong></p>",
+            "instruction": "<p>Add the<strong> sticky chilli sauce </strong>to the pan and cook for 3 min or until the sauce begins to thicken and the pepper has softened</p><p>Once thickened, add the<strong> crispy fish </strong>to the pan and cook for 1 min further until the fish is coated in the sauce \u2013 this is your <strong>sticky fish </strong></p>",
             "order": 6,
             "image": "/images/instructions/sticky-cod-with-salt-and-pepper-chips/step-6.jpg"
         },
@@ -163,7 +163,7 @@
             "image": "/images/instructions/sticky-cod-with-salt-and-pepper-chips/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the<strong> sticky cod </strong>with the <strong>salt & pepper chips </strong>to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the<strong> sticky fish </strong>with the <strong>salt & pepper chips </strong>to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -176,25 +176,25 @@
         "per_hundred_grams": {
             "energy_kcal": 89,
             "energy_kj": 379,
-            "fat_mg": 288,
-            "fat_saturates_mg": 67,
-            "carbs_mg": 16612,
-            "carbs_sugars_mg": 4526,
+            "fat_mg": 293,
+            "fat_saturates_mg": 69,
+            "carbs_mg": 16553,
+            "carbs_sugars_mg": 4464,
             "fibre_mg": 1425,
-            "protein_mg": 5541,
-            "salt_mg": 326,
+            "protein_mg": 5553,
+            "salt_mg": 325,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 415,
-            "energy_kj": 1759,
-            "fat_mg": 1337,
-            "fat_saturates_mg": 315,
-            "carbs_mg": 77001,
-            "carbs_sugars_mg": 20979,
+            "energy_kcal": 414,
+            "energy_kj": 1757,
+            "fat_mg": 1362,
+            "fat_saturates_mg": 320,
+            "carbs_mg": 76726,
+            "carbs_sugars_mg": 20694,
             "fibre_mg": 6609,
-            "protein_mg": 25686,
-            "salt_mg": 1512,
+            "protein_mg": 25741,
+            "salt_mg": 1511,
             "net_weight_mg": 463500
         }
     },
