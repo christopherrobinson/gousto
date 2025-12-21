@@ -4,14 +4,24 @@
     "categories": [
         "All Gousto Recipes"
     ],
-    "gousto_id": "3951",
-    "rating": {
-        "average": 4.5,
-        "count": 3716
-    },
+    "gousto_id": "9881",
     "description": "This comforting, plant-based pie is a perfect match for cooler evenings. You'll cook root vegetables and sage in a decadent creamy sauce, before adding spinach, black pepper and a flaky pastry lid on top.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Intense vegetable stock mix (5.5g)",
+            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "allergens": [],
+            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
+        },
+        {
+            "label": "Puff pastry (160g)",
+            "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
+        },
         {
             "label": "Creamy single soy (200ml)",
             "gousto_uuid": "14bfd452-1ba8-41f4-b0b0-106a6669ed58",
@@ -34,24 +44,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Intense vegetable stock mix (5.5g)",
-            "gousto_uuid": "9fba123b-025a-43b0-8a85-3397a62f044e",
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
-            "image": "/images/ingredients/9fba123b-025a-43b0-8a85-3397a62f044e.jpg"
-        },
-        {
-            "label": "Puff pastry (160g)",
-            "gousto_uuid": "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d.jpg"
-        },
-        {
-            "label": "Butternut squash cubes (160g)",
-            "gousto_uuid": "88852431-ad79-4030-a171-252206c931f7",
-            "allergens": [],
-            "image": "/images/ingredients/88852431-ad79-4030-a171-252206c931f7.jpg"
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
             "label": "Vegetable stock mix (5.5g) x0",
@@ -66,10 +62,10 @@
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
-            "label": "Spring greens (150g)",
-            "gousto_uuid": "af9d40c0-8242-41ee-8fb0-121ce473be36",
+            "label": "Butternut squash cubes (160g)",
+            "gousto_uuid": "88852431-ad79-4030-a171-252206c931f7",
             "allergens": [],
-            "image": "/images/ingredients/af9d40c0-8242-41ee-8fb0-121ce473be36.jpg"
+            "image": "/images/ingredients/88852431-ad79-4030-a171-252206c931f7.jpg"
         },
         {
             "label": "Spinach (80g)",
@@ -78,16 +74,16 @@
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "label": "Spring greens (150g)",
+            "gousto_uuid": "af9d40c0-8242-41ee-8fb0-121ce473be36",
             "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "image": "/images/ingredients/af9d40c0-8242-41ee-8fb0-121ce473be36.jpg"
         },
         {
-            "label": "White potato x2",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+            "label": "Sweet potato",
+            "gousto_uuid": "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
             "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+            "image": "/images/ingredients/ce0c4ad4-1d62-4c44-be99-31a7da1f064d.jpg"
         }
     ],
     "basics": [
@@ -115,7 +111,7 @@
             "image": "/images/instructions/plant-based-winter-squash-and-sage-pastry-pie/step-3.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>chopped potatoes</strong>, <strong>carrot</strong> <strong>batons</strong> and <strong>butternut squash cubes</strong> to the pan with your <strong>dried sage</strong> and cook for 3-4 min, or until the veg begins to lightly colour</p><p>Wash your<strong> spinach</strong> and pat it dry with kitchen paper</p>",
+            "instruction": "<p>Add the <strong>chopped potato[es]</strong>, <strong>carrot</strong> <strong>batons</strong> and <strong>butternut squash cubes</strong> to the pan with your <strong>dried sage</strong> and cook for 3-4 min, or until the veg begins to lightly colour</p><p>Wash your<strong> spinach</strong> and pat it dry with kitchen paper</p>",
             "order": 4,
             "image": "/images/instructions/plant-based-winter-squash-and-sage-pastry-pie/step-4.jpg"
         },
@@ -146,27 +142,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 115,
-            "energy_kj": 481,
-            "fat_mg": 6472,
-            "fat_saturates_mg": 1871,
-            "carbs_mg": 12119,
-            "carbs_sugars_mg": 2940,
-            "fibre_mg": 1887,
-            "protein_mg": 2545,
-            "salt_mg": 331,
+            "energy_kcal": 116,
+            "energy_kj": 485,
+            "fat_mg": 6507,
+            "fat_saturates_mg": 1883,
+            "carbs_mg": 12416,
+            "carbs_sugars_mg": 3777,
+            "fibre_mg": 1957,
+            "protein_mg": 2423,
+            "salt_mg": 349,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 661,
-            "energy_kj": 2761,
-            "fat_mg": 37111,
-            "fat_saturates_mg": 10728,
-            "carbs_mg": 69490,
-            "carbs_sugars_mg": 16861,
-            "fibre_mg": 10823,
-            "protein_mg": 14594,
-            "salt_mg": 1903,
+            "energy_kcal": 666,
+            "energy_kj": 2784,
+            "fat_mg": 37311,
+            "fat_saturates_mg": 10798,
+            "carbs_mg": 71190,
+            "carbs_sugars_mg": 21661,
+            "fibre_mg": 11223,
+            "protein_mg": 13894,
+            "salt_mg": 2001,
             "net_weight_mg": 573350
         }
     },
@@ -183,8 +179,8 @@
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "166bfad3-d300-465d-b61c-fef4d2965904",
-                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
+                "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
+                "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
         "2": {
@@ -200,7 +196,7 @@
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
+                "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         },
         "3": {
@@ -216,8 +212,8 @@
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "166bfad3-d300-465d-b61c-fef4d2965904",
-                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
+                "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
+                "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
         "4": {
@@ -233,7 +229,7 @@
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
+                "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         },
         "5": {
@@ -249,8 +245,8 @@
                 "bfb1ff1f-6d91-49c6-b413-b7ea8a9fdd4d",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "af9d40c0-8242-41ee-8fb0-121ce473be36",
-                "166bfad3-d300-465d-b61c-fef4d2965904",
-                "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
+                "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
+                "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         }
     },

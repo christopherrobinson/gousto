@@ -10,7 +10,7 @@
     "gousto_id": "1623",
     "rating": {
         "average": 4.5,
-        "count": 6527
+        "count": 6529
     },
     "description": "A speedy rice one-pot that's full of flavour. You'll combine tasty ginger pork rice with crunchy peanuts, zingy mint and coriander. Drizzle with moreish satay sauce and serve with pickled cucumber and radish salad. Simple satays-faction!",
     "cuisine": "Asian",
@@ -49,6 +49,12 @@
             "image": "/images/ingredients/31144d49-0b50-4fbd-b6f1-2ef2f80053d4.jpg"
         },
         {
+            "label": "Fresh root ginger (15g)",
+            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
+            "allergens": [],
+            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
+        },
+        {
             "label": "Pork mince (125g) x0",
             "gousto_uuid": "4c71d4d4-15b2-4f5f-a199-cf39d35bebf0",
             "allergens": [],
@@ -59,12 +65,6 @@
             "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
             "allergens": [],
             "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
-        },
-        {
-            "label": "Ginger paste (15g)",
-            "gousto_uuid": "88966efb-30c6-425b-9a90-0e6087c8b326",
-            "allergens": [],
-            "image": "/images/ingredients/88966efb-30c6-425b-9a90-0e6087c8b326.jpg"
         },
         {
             "label": "Cucumber (0.5pcs)",
@@ -160,7 +160,7 @@
             "image": "/images/instructions/satay-pork-rice-with-pickled-cucumber-salad/step-1.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, boil a little water in a kettle</p>",
+            "instruction": "<p>Meanwhile, boil half a kettle</p><p>Peel (scrape the skin off with a teaspoon) and finely chop (or grate) your <strong>ginger</strong></p>",
             "order": 2,
             "image": "/images/instructions/satay-pork-rice-with-pickled-cucumber-salad/step-2.jpg"
         },
@@ -170,7 +170,7 @@
             "image": "/images/instructions/satay-pork-rice-with-pickled-cucumber-salad/step-3.jpg"
         },
         {
-            "instruction": "<p>Once the mince has browned, add your<strong> ginger paste</strong> and cook for 1-2 min or until fragrant</p><p>Once fragrant, add your<strong> chicken stock mix </strong>to the pan</p><p>Add your <strong>basmati rice</strong> with 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to the pan and bring to the boil</p><p>Cover with a lid, reduce the heat to low and cook for 10-12 min or until the water is absorbed, the rice is cooked and the mince is cooked through (no pink meat!)</p>",
+            "instruction": "<p>Once the mince has browned, add your<strong> chopped</strong> <strong>ginger</strong> and cook for 1-2 min or until fragrant</p><p>Once fragrant, add your<strong> chicken stock mix </strong>to the pan</p><p>Add your <strong>basmati rice</strong> with 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to the pan and bring to the boil</p><p>Cover with a lid, reduce the heat to low and cook for 10-12 min or until the water is absorbed, the rice is cooked and the mince is cooked through (no pink meat!)</p>",
             "order": 4,
             "image": "/images/instructions/satay-pork-rice-with-pickled-cucumber-salad/step-4.jpg"
         },
@@ -203,27 +203,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 145,
-            "energy_kj": 611,
-            "fat_mg": 6018,
-            "fat_saturates_mg": 1430,
-            "carbs_mg": 13494,
-            "carbs_sugars_mg": 2380,
-            "fibre_mg": 909,
-            "protein_mg": 8567,
-            "salt_mg": 576,
+            "energy_kcal": 144,
+            "energy_kj": 604,
+            "fat_mg": 5922,
+            "fat_saturates_mg": 1425,
+            "carbs_mg": 13318,
+            "carbs_sugars_mg": 2255,
+            "fibre_mg": 920,
+            "protein_mg": 8579,
+            "salt_mg": 541,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 671,
-            "energy_kj": 2816,
-            "fat_mg": 27730,
-            "fat_saturates_mg": 6593,
-            "carbs_mg": 62175,
-            "carbs_sugars_mg": 10968,
-            "fibre_mg": 4191,
-            "protein_mg": 39474,
-            "salt_mg": 2658,
+            "energy_kcal": 664,
+            "energy_kj": 2786,
+            "fat_mg": 27287,
+            "fat_saturates_mg": 6566,
+            "carbs_mg": 61365,
+            "carbs_sugars_mg": 10391,
+            "fibre_mg": 4243,
+            "protein_mg": 39531,
+            "salt_mg": 2497,
             "net_weight_mg": 460750
         }
     },
@@ -234,7 +234,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "4c71d4d4-15b2-4f5f-a199-cf39d35bebf0",
                 "29efe189-b584-424e-9f22-732933024097",
@@ -253,7 +253,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "31144d49-0b50-4fbd-b6f1-2ef2f80053d4",
                 "29efe189-b584-424e-9f22-732933024097",
@@ -272,7 +272,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "4c71d4d4-15b2-4f5f-a199-cf39d35bebf0",
                 "31144d49-0b50-4fbd-b6f1-2ef2f80053d4",
@@ -294,7 +294,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "31144d49-0b50-4fbd-b6f1-2ef2f80053d4",
                 "29efe189-b584-424e-9f22-732933024097",
@@ -313,7 +313,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "4c71d4d4-15b2-4f5f-a199-cf39d35bebf0",
                 "31144d49-0b50-4fbd-b6f1-2ef2f80053d4",

@@ -7,11 +7,17 @@
     "gousto_id": "8532",
     "rating": {
         "average": 4.5,
-        "count": 41
+        "count": 42
     },
     "description": "We're taking the sandwich on tour. Tortas are simply Mexican sandwiches, filled with a selection of meats and vegetables. Here you'll pack ciabatta rolls with delicious spicy chilli shredded chicken and serve with smoky paprika fries and a zesty salad. Finish your meal with a Gu key lime pie.",
     "cuisine": "Mexican",
     "ingredients": [
+        {
+            "label": "Chipotle paste (40g) x0",
+            "gousto_uuid": "6181d96e-d862-479f-9f24-626b4c531cc5",
+            "allergens": [],
+            "image": "/images/ingredients/6181d96e-d862-479f-9f24-626b4c531cc5.jpg"
+        },
         {
             "label": "Chicken breast portions (2pcs)",
             "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
@@ -25,10 +31,16 @@
             "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
         },
         {
-            "label": "Chipotle paste (20g)",
-            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "label": "Ground coriander (2tsp) x0",
+            "gousto_uuid": "fabcebd0-0595-4c07-9a82-e4093d86be85",
             "allergens": [],
-            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+            "image": "/images/ingredients/fabcebd0-0595-4c07-9a82-e4093d86be85.jpg"
+        },
+        {
+            "label": "Ground smoked paprika (1tsp) x0",
+            "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
+            "allergens": [],
+            "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -46,6 +58,12 @@
             "image": "/images/ingredients/c4b4c017-5074-443f-8b2e-fc3c7cfe110f.jpg"
         },
         {
+            "label": "Ground smoked paprika (2tsp)",
+            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
+            "allergens": [],
+            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+        },
+        {
             "label": "Mayonnaise (25ml)",
             "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
             "allergens": [
@@ -55,18 +73,18 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Ground smoked paprika (1tsp) x0",
-            "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
-            "allergens": [],
-            "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
-        },
-        {
             "label": "Ciabatta x2",
             "gousto_uuid": "2405df8e-87cf-4188-bdb1-990b63ddf75b",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/2405df8e-87cf-4188-bdb1-990b63ddf75b.jpg"
+        },
+        {
+            "label": "Chipotle paste (20g)",
+            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "allergens": [],
+            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
         },
         {
             "label": "Gu Peruvian Key Lime Pies (2 x 78g) (2pcs)",
@@ -80,16 +98,16 @@
             "image": "/images/ingredients/6742dfe6-3ea9-47d9-b639-d692937eb6c4.jpg"
         },
         {
-            "label": "Ground smoked paprika (2tsp)",
-            "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-            "allergens": [],
-            "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
             "label": "Tomato",
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
+        },
+        {
+            "label": "Cider vinegar (15ml)",
+            "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
+            "allergens": [],
+            "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
         },
         {
             "label": "Gem lettuce",
@@ -98,10 +116,10 @@
             "image": "/images/ingredients/3ba7a62d-1b34-4cc9-b863-4af220efe88c.jpg"
         },
         {
-            "label": "Cider vinegar (15ml)",
-            "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
+            "label": "Gem lettuces (2pcs) x0",
+            "gousto_uuid": "9f543174-2841-4ecb-8a99-a6cad9006665",
             "allergens": [],
-            "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
+            "image": "/images/ingredients/9f543174-2841-4ecb-8a99-a6cad9006665.jpg"
         },
         {
             "label": "White potato x3",
@@ -166,27 +184,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 150,
-            "energy_kj": 631,
-            "fat_mg": 5379,
-            "fat_saturates_mg": 1952,
+            "energy_kcal": 151,
+            "energy_kj": 636,
+            "fat_mg": 5761,
+            "fat_saturates_mg": 2063,
             "carbs_mg": 17911,
             "carbs_sugars_mg": 4134,
             "fibre_mg": 1424,
-            "protein_mg": 7870,
-            "salt_mg": 213,
+            "protein_mg": 7331,
+            "salt_mg": 206,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 836,
-            "energy_kj": 3514,
-            "fat_mg": 29923,
-            "fat_saturates_mg": 10863,
+            "energy_kcal": 843,
+            "energy_kj": 3541,
+            "fat_mg": 32048,
+            "fat_saturates_mg": 11476,
             "carbs_mg": 99632,
             "carbs_sugars_mg": 22996,
             "fibre_mg": 7926,
-            "protein_mg": 43782,
-            "salt_mg": 1188,
+            "protein_mg": 40782,
+            "salt_mg": 1146,
             "net_weight_mg": 556250
         }
     },
@@ -232,7 +250,7 @@
                 "4795ad08-e3d0-4275-b2df-8b27c88772cf",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
+                "9f543174-2841-4ecb-8a99-a6cad9006665",
                 "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
@@ -245,11 +263,11 @@
             "ingredients_skus": [
                 "6742dfe6-3ea9-47d9-b639-d692937eb6c4",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
-                "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+                "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
-                "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-                "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
+                "9f543174-2841-4ecb-8a99-a6cad9006665",
+                "fabcebd0-0595-4c07-9a82-e4093d86be85",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
@@ -262,11 +280,12 @@
                 "6742dfe6-3ea9-47d9-b639-d692937eb6c4",
                 "f274998b-4e68-45a7-a637-b353b961427a",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
-                "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+                "6181d96e-d862-479f-9f24-626b4c531cc5",
                 "2405df8e-87cf-4188-bdb1-990b63ddf75b",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
-                "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
+                "9f543174-2841-4ecb-8a99-a6cad9006665",
+                "fabcebd0-0595-4c07-9a82-e4093d86be85",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",

@@ -7,11 +7,40 @@
     "gousto_id": "6261",
     "rating": {
         "average": 5,
-        "count": 8127
+        "count": 8384
     },
     "description": "All your foodie dreams are about come true. You'll crisp up sticky chicken before loading into fluffy bao buns and topping with spicy mayo. Add hand-cut chips and sesame slaw on the side.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Tomato ketchup (30ml) x0",
+            "gousto_uuid": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+            "allergens": [],
+            "image": "/images/ingredients/b67ea736-aee3-4a42-8b2c-73fb7b4e8e30.jpg"
+        },
+        {
+            "label": "Gochujang paste (30g)",
+            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
+        },
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
         {
             "label": "Carrot & cabbage slaw mix (160g)",
             "gousto_uuid": "4366001c-0c31-41c9-b051-f5ddb2e73677",
@@ -35,18 +64,6 @@
             "gousto_uuid": "43938034-cb9a-45cb-ad78-44234261fb46",
             "allergens": [],
             "image": "/images/ingredients/43938034-cb9a-45cb-ad78-44234261fb46.jpg"
-        },
-        {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
-        },
-        {
-            "label": "Tomato ketchup (30ml) x0",
-            "gousto_uuid": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
-            "allergens": [],
-            "image": "/images/ingredients/b67ea736-aee3-4a42-8b2c-73fb7b4e8e30.jpg"
         },
         {
             "label": "Mayonnaise (50ml) x0",
@@ -102,14 +119,6 @@
             "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
         },
         {
-            "label": "Gochujang paste (30g)",
-            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
-        },
-        {
             "label": "Rice vinegar (30ml) x0",
             "gousto_uuid": "feae1edf-86b4-4be6-91f1-d1b3817d87b7",
             "allergens": [],
@@ -120,15 +129,6 @@
             "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
             "allergens": [],
             "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "White potato x3",
@@ -162,7 +162,7 @@
             "image": "/images/instructions/korean-style-fried-chicken-bao-buns/step-2.jpg"
         },
         {
-            "instruction": "<p>Chop your <strong>chicken breast portion[s] </strong>into large, bite-sized pieces</p><p>Add the <strong>chopped chicken</strong> to a bowl with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>flour </strong>and your<strong> soy sauce </strong>and mix it all together</p><p>Add your <strong>cornflour</strong> and give everything a good mix up until all the chicken is coated</p>",
+            "instruction": "<p>Chop your <strong>chicken </strong>into large, bite-sized pieces</p><p>Add the <strong>chopped chicken</strong> to a bowl with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>flour </strong>and your<strong> soy sauce </strong>and mix it all together</p><p>Add your <strong>cornflour</strong> and give everything a good mix up until all the chicken is coated</p>",
             "order": 3,
             "image": "/images/instructions/korean-style-fried-chicken-bao-buns/step-3.jpg"
         },
@@ -204,26 +204,26 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 152,
-            "energy_kj": 644,
-            "fat_mg": 3645,
-            "fat_saturates_mg": 430,
-            "carbs_mg": 23221,
-            "carbs_sugars_mg": 4823,
+            "energy_kj": 643,
+            "fat_mg": 3650,
+            "fat_saturates_mg": 431,
+            "carbs_mg": 23170,
+            "carbs_sugars_mg": 4771,
             "fibre_mg": 1926,
-            "protein_mg": 7381,
+            "protein_mg": 7391,
             "salt_mg": 365,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 833,
-            "energy_kj": 3516,
-            "fat_mg": 19887,
-            "fat_saturates_mg": 2348,
-            "carbs_mg": 126672,
-            "carbs_sugars_mg": 26311,
+            "energy_kj": 3513,
+            "fat_mg": 19912,
+            "fat_saturates_mg": 2353,
+            "carbs_mg": 126397,
+            "carbs_sugars_mg": 26026,
             "fibre_mg": 10510,
-            "protein_mg": 40266,
-            "salt_mg": 1993,
+            "protein_mg": 40321,
+            "salt_mg": 1992,
             "net_weight_mg": 545500
         }
     },

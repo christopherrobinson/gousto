@@ -7,16 +7,25 @@
     "gousto_id": "5685",
     "rating": {
         "average": 4.5,
-        "count": 2201
+        "count": 2208
     },
     "description": "This easy Vietnamese-style noodle soup is full of fragrant flavours. You'll pan-fry chicken breast in a medley of soy, ginger and garlic before adding a rich pho stock. Toss in egg noodles and spinach with a drizzle of sesame oil to serve.",
     "cuisine": "Chinese",
     "ingredients": [
         {
-            "label": "Diced chicken breast (250g)",
-            "gousto_uuid": "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+            "label": "Dried chilli flakes (0.5tsp)",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
-            "image": "/images/ingredients/b4c65e32-f116-4b82-be3f-7ef7d67d0fde.jpg"
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Diced chicken breast (125g) x0",
@@ -25,18 +34,10 @@
             "image": "/images/ingredients/66df65e7-80b2-4c81-911b-1e399bb9ab6b.jpg"
         },
         {
-            "label": "Pho broth paste (25g)",
-            "gousto_uuid": "6c4fa23a-6e5e-4b54-8e30-6005d19cab97",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/6c4fa23a-6e5e-4b54-8e30-6005d19cab97.jpg"
-        },
-        {
-            "label": "Dried chilli flakes (0.5tsp)",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
+            "label": "Diced chicken breast (250g)",
+            "gousto_uuid": "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
             "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+            "image": "/images/ingredients/b4c65e32-f116-4b82-be3f-7ef7d67d0fde.jpg"
         },
         {
             "label": "Toasted sesame oil (20ml) x0",
@@ -53,19 +54,18 @@
             "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
         },
         {
-            "label": "Fine egg noodle nest x0",
-            "gousto_uuid": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/814b025e-917f-4a7f-9cff-6c5b97ba50cb.jpg"
-        },
-        {
             "label": "Dried chilli flakes (1tsp) x0",
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
+        },
+        {
+            "label": "Pho broth paste (25g)",
+            "gousto_uuid": "6c4fa23a-6e5e-4b54-8e30-6005d19cab97",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/6c4fa23a-6e5e-4b54-8e30-6005d19cab97.jpg"
         },
         {
             "label": "Toasted sesame oil (10ml)",
@@ -82,6 +82,15 @@
             "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
         },
         {
+            "label": "Fine egg noodle nest x0",
+            "gousto_uuid": "814b025e-917f-4a7f-9cff-6c5b97ba50cb",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/814b025e-917f-4a7f-9cff-6c5b97ba50cb.jpg"
+        },
+        {
             "label": "Fine egg noodle nests (2pcs)",
             "gousto_uuid": "c183d798-492c-4b03-8729-21e57f828e89",
             "allergens": [
@@ -95,15 +104,6 @@
             "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
             "allergens": [],
             "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Spinach (80g)",
@@ -143,7 +143,7 @@
             "image": "/images/instructions/brothy-fragrant-chicken-breast-and-spinach-noodle-soup/step-5.jpg"
         },
         {
-            "instruction": "<p>Once fragrant, add the<strong> stock</strong> to the pan with the chicken and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to medium-high and cook for a final 3 min or until the chicken is cooked through (no pink meat!)</p><p>Add the <strong>spinach</strong> to the pan and mix everything together until the spinach has slightly wilted \u2013 this is your <strong>fragrant chicken breast & spinach broth</strong></p>",
+            "instruction": "<p>Once fragrant, add the<strong> stock</strong> to the pan with the chicken and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to medium-high and cook for a final 3 min or until the chicken is cooked through (no pink meat!)</p><p>Add the <strong>spinach</strong> to the pan and mix everything together until the spinach has slightly wilted \u2013 this is your <strong>fragrant chicken & spinach broth</strong></p>",
             "order": 6,
             "image": "/images/instructions/brothy-fragrant-chicken-breast-and-spinach-noodle-soup/step-6.jpg"
         },
@@ -170,27 +170,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 177,
-            "energy_kj": 746,
-            "fat_mg": 3330,
-            "fat_saturates_mg": 604,
+            "energy_kcal": 180,
+            "energy_kj": 756,
+            "fat_mg": 4149,
+            "fat_saturates_mg": 840,
             "carbs_mg": 21450,
             "carbs_sugars_mg": 1088,
             "fibre_mg": 608,
-            "protein_mg": 15647,
-            "salt_mg": 1149,
+            "protein_mg": 14491,
+            "salt_mg": 1132,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 461,
-            "energy_kj": 1936,
-            "fat_mg": 8643,
-            "fat_saturates_mg": 1569,
+            "energy_kcal": 468,
+            "energy_kj": 1964,
+            "fat_mg": 10768,
+            "fat_saturates_mg": 2182,
             "carbs_mg": 55663,
             "carbs_sugars_mg": 2825,
             "fibre_mg": 1580,
-            "protein_mg": 40606,
-            "salt_mg": 2982,
+            "protein_mg": 37606,
+            "salt_mg": 2940,
             "net_weight_mg": 259500
         }
     },

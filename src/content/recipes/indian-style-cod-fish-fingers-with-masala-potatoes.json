@@ -5,6 +5,10 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "6651",
+    "rating": {
+        "average": 5,
+        "count": 7
+    },
     "description": "Shake up a childhood classic with this adventurous twist. You'll coat cod in curry powder and breadcrumbs, bake them until crisp and golden, and serve with masala potatoes, peas and sweet mango mayo to the side.",
     "cuisine": "Indian",
     "ingredients": [
@@ -95,6 +99,12 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
+            "label": "Nigella seeds (1tsp)",
+            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
+            "allergens": [],
+            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
+        },
+        {
             "label": "Brown onion",
             "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
@@ -121,19 +131,6 @@
                 "egg"
             ],
             "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
-        },
-        {
-            "label": "Black sesame seeds (5g)",
-            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "White potato x3",
@@ -170,7 +167,7 @@
             "image": "/images/instructions/indian-style-cod-fish-fingers-with-masala-potatoes/step-4.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a large knob of <strong>butter</strong> over a medium heat</p><p>Once hot, add the<strong> sliced onion</strong> with a generous pinch of <strong>salt</strong> and cook for 3-4 min or until starting to soften</p><p>Once softened, add the <strong>sliced garlic</strong>, <strong>drained potatoes</strong>,<strong> ground turmeric</strong>, <strong>garam masala</strong> and <strong>black sesame seeds</strong> and cook for 7-8 min or until crisp and golden \u2013 these are your <strong>masala potatoes</strong></p><p>Reboil half a kettle</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a large knob of <strong>butter</strong> over a medium heat</p><p>Once hot, add the<strong> sliced onion</strong> with a generous pinch of <strong>salt</strong> and cook for 3-4 min or until starting to soften</p><p>Once softened, add the <strong>sliced garlic</strong>, <strong>drained potatoes</strong>,<strong> ground turmeric</strong>, <strong>garam masala</strong> and <strong>nigella seeds</strong> and cook for 7-8 min or until crisp and golden \u2013 these are your <strong>masala potatoes</strong></p><p>Reboil half a kettle</p>",
             "order": 5,
             "image": "/images/instructions/indian-style-cod-fish-fingers-with-masala-potatoes/step-5.jpg"
         },
@@ -190,46 +187,42 @@
         }
     ],
     "allergens": [
-        "celery",
         "egg",
         "fish",
         "gluten",
         "mustard",
-        "nut",
-        "sesame",
-        "soya"
+        "nut"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 116,
-            "energy_kj": 492,
-            "fat_mg": 3560,
-            "fat_saturates_mg": 455,
-            "carbs_mg": 14292,
-            "carbs_sugars_mg": 3382,
-            "fibre_mg": 2162,
-            "protein_mg": 7594,
-            "salt_mg": 244,
+            "energy_kcal": 115,
+            "energy_kj": 485,
+            "fat_mg": 3319,
+            "fat_saturates_mg": 422,
+            "carbs_mg": 14384,
+            "carbs_sugars_mg": 3388,
+            "fibre_mg": 2210,
+            "protein_mg": 7589,
+            "salt_mg": 245,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 543,
-            "energy_kj": 2286,
-            "fat_mg": 16529,
-            "fat_saturates_mg": 2114,
-            "carbs_mg": 66354,
-            "carbs_sugars_mg": 15702,
-            "fibre_mg": 10038,
-            "protein_mg": 35256,
-            "salt_mg": 1135,
-            "net_weight_mg": 464250
+            "energy_kcal": 534,
+            "energy_kj": 2247,
+            "fat_mg": 15378,
+            "fat_saturates_mg": 1955,
+            "carbs_mg": 66638,
+            "carbs_sugars_mg": 15695,
+            "fibre_mg": 10240,
+            "protein_mg": 35158,
+            "salt_mg": 1136,
+            "net_weight_mg": 463250
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
@@ -240,6 +233,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -247,7 +241,6 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
@@ -258,6 +251,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -265,7 +259,6 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
@@ -278,6 +271,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -286,7 +280,6 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
@@ -297,6 +290,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -304,7 +298,6 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "9e04ddd6-9258-4afb-9731-bce33a9f87bb",
@@ -318,6 +311,7 @@
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"

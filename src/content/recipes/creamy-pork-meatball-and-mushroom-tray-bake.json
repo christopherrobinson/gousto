@@ -8,11 +8,17 @@
     "gousto_id": "3035",
     "rating": {
         "average": 4.5,
-        "count": 7300
+        "count": 7301
     },
     "description": "Impress the table with a crowd-pleasing meal, filled with juicy spiced meatballs and roasted veg. To save washing up, you'll cook everything on the same tray, and serve with a creamy mushroom sauce.",
     "cuisine": "Russian",
     "ingredients": [
+        {
+            "label": "Yellow pepper",
+            "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
+            "allergens": [],
+            "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
+        },
         {
             "label": "Parsnip",
             "gousto_uuid": "a88cc6da-250c-4442-a388-e2b7d1868822",
@@ -114,12 +120,6 @@
             "image": "/images/ingredients/f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca.jpg"
         },
         {
-            "label": "Yellow pepper",
-            "gousto_uuid": "4d56f6a8-e1a5-4cf1-b273-088b02206556",
-            "allergens": [],
-            "image": "/images/ingredients/4d56f6a8-e1a5-4cf1-b273-088b02206556.jpg"
-        },
-        {
             "label": "Red onion",
             "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
             "allergens": [],
@@ -140,7 +140,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7, then cut your <strong>potato[es] </strong>(skins on) into small, bite-sized pieces</p><p>Peel and finely dice <strong>half</strong> your <strong>red onion[s] </strong>and cut the <strong>remaining onion</strong> into wedges</p><p>Cut your <strong>pepper[s] </strong>into bite-sized pieces</p><p>Top, tail, peel and chop your <strong>parsnip[s]</strong> into quarters lengthways, then into batons</p>",
+            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7</p><p>Cut your <strong>potato[es] </strong>(skins on) into small, bite-sized pieces</p><p>Peel and finely dice <strong>half</strong> your <strong>red onion[s] </strong>and cut the <strong>remaining onion</strong> into wedges</p><p>Cut your <strong>pepper[s] </strong>into bite-sized pieces</p><p>Top, tail, peel and chop your <strong>parsnip[s]</strong> into quarters lengthways, then into batons</p>",
             "order": 1,
             "image": "/images/instructions/creamy-pork-meatball-and-mushroom-tray-bake/step-1.jpg"
         },
@@ -150,12 +150,12 @@
             "image": "/images/instructions/creamy-pork-meatball-and-mushroom-tray-bake/step-2.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>chopped potato</strong>, <strong>pepper</strong> and<strong> parsnip</strong> to a large baking tray (or two!) with the<strong> onion wedges </strong>and the <strong>remaining ground smoked paprika</strong></p><p>Add a generous drizzle of <strong>olive oil </strong>and a very generous pinch of <strong>salt</strong> and<strong> pepper</strong></p><p>Give everything a good mix up and boil half a kettle</p><p>(Doubled your protein? Do this in batches!)</p>",
+            "instruction": "<p>Add the <strong>chopped potato</strong>, <strong>pepper</strong> and<strong> parsnip</strong> to a large baking tray (or two!) with the<strong> onion wedges </strong>and the <strong>remaining ground smoked paprika</strong></p><p>Add a generous drizzle of <strong>olive oil </strong>and a very generous pinch of <strong>salt</strong> and<strong> pepper</strong></p><p>Give everything a good mix up and boil half a kettle</p>",
             "order": 3,
             "image": "/images/instructions/creamy-pork-meatball-and-mushroom-tray-bake/step-3.jpg"
         },
         {
-            "instruction": "<p>Put the tray[s] in the oven for an initial 10 min or until starting to soften</p><p>After 10 min, add the <strong>meatballs</strong> to the baking tray[s], then return the tray[s] to the oven for 20-25 min further or until the meatballs are browned and cooked through (no pink meat!)</p>",
+            "instruction": "<p>Put the tray[s] in the oven for an initial 10 min or until starting to soften</p><p>After 10 min, add the <strong>meatballs</strong> to the baking tray[s], then return the tray[s] to the oven for 20-25 min further or until the meatballs are browned and cooked through (no pink meat!)</p><p>(Doubled your protein? Do this in batches!)</p>",
             "order": 4,
             "image": "/images/instructions/creamy-pork-meatball-and-mushroom-tray-bake/step-4.jpg"
         },
@@ -198,7 +198,7 @@
         },
         "per_portion": {
             "energy_kcal": 510,
-            "energy_kj": 2144,
+            "energy_kj": 2143,
             "fat_mg": 20651,
             "fat_saturates_mg": 8846,
             "carbs_mg": 49741,

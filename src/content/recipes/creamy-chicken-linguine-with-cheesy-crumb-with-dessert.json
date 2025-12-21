@@ -7,11 +7,17 @@
     "gousto_id": "8642",
     "rating": {
         "average": 4.5,
-        "count": 50
+        "count": 51
     },
     "description": "This indulgent pasta ticks all the boxes. You'll coat pasta with a creamy leek sauce, studded with juicy chicken, before serving with a cheesy crumble and fresh basil. Finish your meal with a Gu cheesecake",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Chicken breast portions (2pcs)",
+            "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
+            "allergens": [],
+            "image": "/images/ingredients/671ddc57-c639-4db7-ab54-7fdc7fa2ec93.jpg"
+        },
         {
             "label": "Chicken breast portion x0",
             "gousto_uuid": "f274998b-4e68-45a7-a637-b353b961427a",
@@ -19,10 +25,55 @@
             "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
         },
         {
-            "label": "Chicken breast portions (2pcs)",
-            "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
+            "label": "Panko breadcrumbs (20g)",
+            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
+        {
+            "label": "Linguine (190g)",
+            "gousto_uuid": "5e4d2fda-8e04-497b-b428-61c8075d7016",
+            "allergens": [
+                "egg",
+                "gluten"
+            ],
+            "image": "/images/ingredients/5e4d2fda-8e04-497b-b428-61c8075d7016.jpg"
+        },
+        {
+            "label": "Cr\u00e8me fra\u00eeche (80g)",
+            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
+        },
+        {
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
             "allergens": [],
-            "image": "/images/ingredients/671ddc57-c639-4db7-ab54-7fdc7fa2ec93.jpg"
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g)",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+        },
+        {
+            "label": "Garlic clove x2",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Chinese rice wine (30ml) x0",
+            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "allergens": [],
+            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
             "label": "Gu Honeycomb Cheesecakes (2 x 86.5g) (2pcs)",
@@ -37,23 +88,6 @@
             "image": "/images/ingredients/af97a1db-09c1-449d-b215-517777228847.jpg"
         },
         {
-            "label": "Linguine (190g)",
-            "gousto_uuid": "5e4d2fda-8e04-497b-b428-61c8075d7016",
-            "allergens": [
-                "egg",
-                "gluten"
-            ],
-            "image": "/images/ingredients/5e4d2fda-8e04-497b-b428-61c8075d7016.jpg"
-        },
-        {
-            "label": "Panko breadcrumbs (20g)",
-            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
-        },
-        {
             "label": "Linguine (100g) x0",
             "gousto_uuid": "2a364fbe-38e6-44bf-b6d2-c9ab779759c7",
             "allergens": [
@@ -63,50 +97,22 @@
             "image": "/images/ingredients/2a364fbe-38e6-44bf-b6d2-c9ab779759c7.jpg"
         },
         {
-            "label": "Chicken stock mix (5.5g) x2",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
             "label": "Basil (5g)",
             "gousto_uuid": "7019b8e0-50a7-46f9-8cef-550c4359cf71",
             "allergens": [],
             "image": "/images/ingredients/7019b8e0-50a7-46f9-8cef-550c4359cf71.jpg"
         },
         {
+            "label": "Chicken stock mix (5.5g) x0",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "allergens": [],
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
             "label": "Chinese rice wine (15ml)",
             "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
             "allergens": [],
             "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
-        },
-        {
-            "label": "Cr\u00e8me fra\u00eeche (80g)",
-            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
-        },
-        {
-            "label": "Garlic clove x2",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Cheddar cheese (40g)",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
-            "label": "Chinese rice wine (30ml) x0",
-            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
-            "allergens": [],
-            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
             "label": "Leek",
@@ -171,27 +177,27 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 196,
-            "energy_kj": 824,
-            "fat_mg": 7022,
-            "fat_saturates_mg": 4108,
-            "carbs_mg": 22754,
-            "carbs_sugars_mg": 6925,
-            "fibre_mg": 1426,
-            "protein_mg": 10167,
-            "salt_mg": 399,
+            "energy_kj": 825,
+            "fat_mg": 7444,
+            "fat_saturates_mg": 4241,
+            "carbs_mg": 22413,
+            "carbs_sugars_mg": 6937,
+            "fibre_mg": 1427,
+            "protein_mg": 9633,
+            "salt_mg": 395,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 1075,
-            "energy_kj": 4520,
-            "fat_mg": 38482,
-            "fat_saturates_mg": 22512,
-            "carbs_mg": 124693,
-            "carbs_sugars_mg": 37949,
-            "fibre_mg": 7817,
-            "protein_mg": 55716,
-            "salt_mg": 2188,
-            "net_weight_mg": 548000
+            "energy_kcal": 1072,
+            "energy_kj": 4502,
+            "fat_mg": 40593,
+            "fat_saturates_mg": 23127,
+            "carbs_mg": 122207,
+            "carbs_sugars_mg": 37825,
+            "fibre_mg": 7786,
+            "protein_mg": 52529,
+            "salt_mg": 2154,
+            "net_weight_mg": 545250
         }
     },
     "portion_sizes": {
@@ -219,9 +225,9 @@
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
-                "dec1c16e-4785-40e7-b689-69721141bad6",
                 "d343996b-36eb-4918-9340-ca527fb4296c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
                 "5e4d2fda-8e04-497b-b428-61c8075d7016",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71"
@@ -239,6 +245,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "d343996b-36eb-4918-9340-ca527fb4296c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
                 "5e4d2fda-8e04-497b-b428-61c8075d7016",
                 "2a364fbe-38e6-44bf-b6d2-c9ab779759c7",
@@ -253,9 +260,9 @@
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
-                "dec1c16e-4785-40e7-b689-69721141bad6",
                 "d343996b-36eb-4918-9340-ca527fb4296c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
                 "5e4d2fda-8e04-497b-b428-61c8075d7016",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71"
@@ -273,6 +280,7 @@
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "d343996b-36eb-4918-9340-ca527fb4296c",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
                 "5e4d2fda-8e04-497b-b428-61c8075d7016",
                 "2a364fbe-38e6-44bf-b6d2-c9ab779759c7",

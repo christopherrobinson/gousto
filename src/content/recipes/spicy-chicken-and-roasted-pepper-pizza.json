@@ -10,11 +10,25 @@
     "gousto_id": "2180",
     "rating": {
         "average": 4.5,
-        "count": 6324
+        "count": 6487
     },
     "description": "Tuck into flame-baked pizza bases topped with tomato sauce, mozzarella, tender pulled chicken breast and sweet roasted red pepper. Sprinkle with chilli flakes, and presto! Easy homemade pizza.",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Flame-baked pizza bases (2pcs)",
+            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
+        },
+        {
+            "label": "Dried chilli flakes (0.5tsp) x0",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
+            "allergens": [],
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
         {
             "label": "Chicken breast strips (125g) x0",
             "gousto_uuid": "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
@@ -28,18 +42,10 @@
             "image": "/images/ingredients/1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a.jpg"
         },
         {
-            "label": "Dried chilli flakes (0.5tsp) x0",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
+            "label": "Tomato paste (32g) x2",
+            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
-        },
-        {
-            "label": "Flame-baked pizza bases (2pcs)",
-            "gousto_uuid": "cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/cf47c4bc-28d2-48f8-beb2-1de1e1cb1e05.jpg"
+            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Dried chilli flakes (1tsp)",
@@ -48,22 +54,10 @@
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
-        {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Tomato paste (32g) x2",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-            "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
             "label": "Mozzarella (125g)",
@@ -72,6 +66,12 @@
                 "milk"
             ],
             "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+        },
+        {
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
             "label": "Rocket (20g)",
@@ -89,12 +89,12 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 200\u00b0C/ 180\u00b0C (fan)/ gas 6 and take your <strong>chicken</strong> out of the fridge, open the packet and let it air</p><p>Deseed your<strong> pepper[s]</strong> (scrape the seeds and pith out with a teaspoon) and slice into thin strips</p><p>Put a large baking tray (or two) in the oven to heat up (this will stop the <strong>pizza bottoms</strong> from going soggy!)</p>",
+            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7 and take your <strong>chicken</strong> out of the fridge, open the packet and let it air</p><p>Deseed your<strong> pepper[s]</strong> (scrape the seeds and pith out with a teaspoon) and slice into thin strips</p><p>Put a large baking tray (or two) in the oven to heat up (this will stop the <strong>pizza bottoms</strong> from going soggy!)</p>",
             "order": 1,
             "image": "/images/instructions/spicy-chicken-and-roasted-pepper-pizza/step-1.jpg"
         },
         {
-            "instruction": "<p>Add the<strong> pepper strips</strong> and <strong>chicken breast strips </strong>to a baking tray with a generous drizzle of <strong>olive oil</strong> and a pinch of <strong>salt</strong> and <strong>pepper</strong></p><p>Put the tray in the oven for 15-18 min or until the pepper has softened and the chicken is cooked through (no pink meat!)</p>",
+            "instruction": "<p>Add the<strong> pepper strips</strong> and <strong>chicken </strong>to a baking tray with a generous drizzle of <strong>olive oil</strong> and a pinch of <strong>salt</strong> and <strong>pepper</strong></p><p>Put the tray in the oven for 16-18 min or until the pepper has softened and the chicken is cooked through (no pink meat!)</p>",
             "order": 2,
             "image": "/images/instructions/spicy-chicken-and-roasted-pepper-pizza/step-2.jpg"
         },
@@ -134,27 +134,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 167,
-            "energy_kj": 707,
-            "fat_mg": 4354,
-            "fat_saturates_mg": 1766,
-            "carbs_mg": 21082,
-            "carbs_sugars_mg": 2849,
-            "fibre_mg": 1515,
-            "protein_mg": 12161,
-            "salt_mg": 468,
+            "energy_kcal": 158,
+            "energy_kj": 664,
+            "fat_mg": 4825,
+            "fat_saturates_mg": 2101,
+            "carbs_mg": 16924,
+            "carbs_sugars_mg": 2050,
+            "fibre_mg": 1548,
+            "protein_mg": 11330,
+            "salt_mg": 369,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 756,
-            "energy_kj": 3192,
-            "fat_mg": 19640,
-            "fat_saturates_mg": 7967,
-            "carbs_mg": 95081,
-            "carbs_sugars_mg": 12849,
-            "fibre_mg": 6834,
-            "protein_mg": 54850,
-            "salt_mg": 2115,
+            "energy_kcal": 713,
+            "energy_kj": 2996,
+            "fat_mg": 21765,
+            "fat_saturates_mg": 9480,
+            "carbs_mg": 76331,
+            "carbs_sugars_mg": 9249,
+            "fibre_mg": 6984,
+            "protein_mg": 51100,
+            "salt_mg": 1668,
             "net_weight_mg": 451000
         }
     },

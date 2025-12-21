@@ -7,11 +7,17 @@
     "gousto_id": "4439",
     "rating": {
         "average": 4.5,
-        "count": 1896
+        "count": 1981
     },
     "description": "Make our Indian twist on a bistro classic. You'll toss salad leaves in a zingy dressing with roasted sweet potato and red onion, before topping with pulled chicken and a warm spicy coriander chutney.",
     "cuisine": "Indian",
     "ingredients": [
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
         {
             "label": "Red chilli",
             "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
@@ -59,19 +65,6 @@
             "gousto_uuid": "5caf8124-d067-4539-bbb1-fcfdf5facc21",
             "allergens": [],
             "image": "/images/ingredients/5caf8124-d067-4539-bbb1-fcfdf5facc21.jpg"
-        },
-        {
-            "label": "Black sesame seeds (5g)",
-            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Lime",
@@ -126,7 +119,7 @@
             "image": "/images/instructions/indian-style-chicken-thigh-salad-with-spicy-green-chutney/step-5.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, combine the juice of the <strong>remaining lime</strong> with 2 tbsp <span class=\"text-purple\">[3 tbsp]</span> <span class=\"text-danger\">[4 tbsp]</span> <strong>olive oil</strong> in a bowl, then season with a pinch of<strong> salt</strong> and <strong>pepper</strong> \u2013 this is your <strong>zingy</strong> <strong>dressing</strong></p><p>Wash your <strong>salad</strong>, then pat it dry with kitchen paper</p>",
+            "instruction": "<p>Meanwhile, combine the juice of the <strong>remaining lime</strong> with 2 tbsp <span class=\"text-purple\">[3 tbsp]</span> <span class=\"text-danger\">[4 tbsp]</span> <strong>olive oil</strong> in a bowl, then season with a pinch of<strong> salt</strong> and <strong>pepper</strong> \u2013 this is your <strong>zingy</strong> <strong>dressing</strong></p><p>Wash your <strong>salad</strong>, then pat it dry with kitchen paper</p><p>Trim, then slice your<strong> spring onion[s]</strong></p>",
             "order": 6,
             "image": "/images/instructions/indian-style-chicken-thigh-salad-with-spicy-green-chutney/step-6.jpg"
         },
@@ -136,42 +129,35 @@
             "image": "/images/instructions/indian-style-chicken-thigh-salad-with-spicy-green-chutney/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>zingy salad</strong> topped with the <strong>pulled chicken</strong> and garnish with the <strong>reserved</strong> <strong>coriander leaves </strong>\u2013 this is your <strong>Indian-style chicken salad with spicy green chutney</strong></p><p>Sprinkle your <strong>black sesame seeds</strong> over the top</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>zingy salad</strong> topped with the <strong>pulled chicken</strong> and garnish with the <strong>reserved</strong> <strong>coriander leaves </strong>\u2013 this is your <strong>Indian-style chicken salad with spicy green chutney</strong></p><p>Sprinkle your <strong>sliced</strong> <strong>spring onion</strong> over the top</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
-    "allergens": [
-        "celery",
-        "fish",
-        "mustard",
-        "nut",
-        "sesame",
-        "soya"
-    ],
+    "allergens": [],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 93,
-            "energy_kj": 392,
-            "fat_mg": 3287,
-            "fat_saturates_mg": 871,
-            "carbs_mg": 9606,
-            "carbs_sugars_mg": 2959,
-            "fibre_mg": 1344,
-            "protein_mg": 6873,
+            "energy_kcal": 90,
+            "energy_kj": 379,
+            "fat_mg": 3032,
+            "fat_saturates_mg": 834,
+            "carbs_mg": 9474,
+            "carbs_sugars_mg": 2970,
+            "fibre_mg": 1304,
+            "protein_mg": 6772,
             "salt_mg": 93,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 473,
-            "energy_kj": 1992,
-            "fat_mg": 16700,
-            "fat_saturates_mg": 4428,
-            "carbs_mg": 48803,
-            "carbs_sugars_mg": 15033,
-            "fibre_mg": 6832,
-            "protein_mg": 34915,
+            "energy_kcal": 460,
+            "energy_kj": 1937,
+            "fat_mg": 15483,
+            "fat_saturates_mg": 4259,
+            "carbs_mg": 48367,
+            "carbs_sugars_mg": 15166,
+            "fibre_mg": 6658,
+            "protein_mg": 34572,
             "salt_mg": 477,
-            "net_weight_mg": 508000
+            "net_weight_mg": 510500
         }
     },
     "portion_sizes": {
@@ -179,7 +165,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "44417cd2-bdb0-48e2-b6a3-b75bdd8ba6b7",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -187,6 +172,7 @@
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "58f0ca29-597c-4db7-a490-f7542d1f3c72",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         },
@@ -194,7 +180,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "5caf8124-d067-4539-bbb1-fcfdf5facc21",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -202,6 +187,7 @@
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "4e2300bd-68bc-456c-b80a-31ea282954e4",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         },
@@ -209,7 +195,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "5caf8124-d067-4539-bbb1-fcfdf5facc21",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -218,6 +203,7 @@
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "58f0ca29-597c-4db7-a490-f7542d1f3c72",
                 "4e2300bd-68bc-456c-b80a-31ea282954e4",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         },
@@ -225,7 +211,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "5caf8124-d067-4539-bbb1-fcfdf5facc21",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -233,6 +218,7 @@
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "4e2300bd-68bc-456c-b80a-31ea282954e4",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         },
@@ -240,7 +226,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "5caf8124-d067-4539-bbb1-fcfdf5facc21",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -249,6 +234,7 @@
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "58f0ca29-597c-4db7-a490-f7542d1f3c72",
                 "4e2300bd-68bc-456c-b80a-31ea282954e4",
+                "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d"
             ]
         }

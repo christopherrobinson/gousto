@@ -7,16 +7,31 @@
     "gousto_id": "6033",
     "rating": {
         "average": 4.5,
-        "count": 10026
+        "count": 10029
     },
     "description": "What could beat a classic bolognese? One that's served with fresh tagliatelle and ready in just 10 minutes, of course. Top this family fave off with a generous sprinkling of Italian cheese, and get ready to shout 'bel-lis-simo!'.",
     "cuisine": "Italian",
     "ingredients": [
         {
-            "label": "Tomato paste (32g) x0",
-            "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Finely chopped tomatoes (390g) x0",
+            "gousto_uuid": "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
             "allergens": [],
-            "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
+            "image": "/images/ingredients/b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6.jpg"
+        },
+        {
+            "label": "Finely chopped tomatoes (200g)",
+            "gousto_uuid": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
+            "allergens": [],
+            "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
         },
         {
             "label": "Dried oregano (1tsp)",
@@ -48,18 +63,6 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Dried basil (1tsp)",
-            "gousto_uuid": "8f225055-491a-4b53-9a69-ac7e4810d725",
-            "allergens": [],
-            "image": "/images/ingredients/8f225055-491a-4b53-9a69-ac7e4810d725.jpg"
-        },
-        {
-            "label": "Tomato",
-            "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
-            "allergens": [],
-            "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
             "label": "Beef mince (125g) x0",
             "gousto_uuid": "918d5383-38a6-45c2-8c96-8f91a945e964",
             "allergens": [],
@@ -80,19 +83,22 @@
             "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
         },
         {
-            "label": "Tomato paste (16g)",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "label": "Soy sauce (15ml)",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
             "allergens": [
                 "gluten",
                 "soya"
             ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+        },
+        {
+            "label": "Soy sauce (30ml) x0",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         }
     ],
     "basics": [
@@ -100,7 +106,8 @@
         "Olive oil",
         "Pepper",
         "Salt",
-        "Water"
+        "Water",
+        "Sugar"
     ],
     "cooking_instructions": [
         {
@@ -109,32 +116,32 @@
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>olive oil</strong> over a high heat</p><p>Once hot, add your <strong>mince </strong>to the pan with a pinch of <strong>salt </strong>and cook for 1-2 min or until starting to brown, breaking it up with a wooden spoon as you go</p><p>(Doubled your protein? Use to 2 pans!)</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>olive oil</strong> over a high heat</p><p>Once hot, add your <strong>mince </strong>to the pan with a generous pinch of <strong>salt </strong>and cook for 2-3 min or until starting to brown, breaking it up with a wooden spoon as you go</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 2,
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-2.jpg"
         },
         {
-            "instruction": "<p>While the mince is browning, peel and slice (don't chop!) your <strong>garlic</strong></p><p>Dice your <strong>tomato[es]<span class=\"text-danger\"> </span></strong>roughly</p><p>Once starting to brown, add the <strong>sliced garlic </strong>and <strong>diced tomato </strong>to the mince and cook for 2-3 min further</p>",
+            "instruction": "<p>While the mince is browning, peel and finely chop (or grate) your <strong>garlic</strong></p><p>Once starting to brown, add the <strong>chopped garlic </strong>to the pan and cook for 2-3 min further or until fragrant</p>",
             "order": 3,
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-3.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, add your <strong>fresh tagliatelle</strong> to a pot of <strong>boiled water</strong> and bring to the boil over a high heat</p><p>Cook the tagliatelle for 3-4 min or until cooked with a slight bite</p><p>Once done, drain the <strong>tagliatelle</strong>, reserving 150ml <span class=\"text-purple\">[225ml] </span><span class=\"text-danger\">[300ml] </span>of the<strong> starchy pasta water</strong></p>",
+            "instruction": "<p>Meanwhile, add your <strong>fresh tagliatelle</strong> to a pot of <strong>boiled water</strong> and bring to the boil over a high heat</p><p>Cook the tagliatelle for 3-4 min or until cooked with a slight bite</p><p>Once done, drain the tagliatelle, reserving 250ml <span class=\"text-purple\">[375ml] </span><span class=\"text-danger\">[500ml] </span>of the<strong> starchy pasta water</strong></p>",
             "order": 4,
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-4.jpg"
         },
         {
-            "instruction": "<p>While the pasta is cooking, add your <strong>dried basil </strong>and <strong>dried oregano </strong>to the mince with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span><strong> flour </strong>and give everything a good mix up</p>",
+            "instruction": "<p>While the pasta is cooking, add your <strong>dried oregano </strong>to the pan with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span><span class=\"text-danger\"> [2 tsp]</span><strong> flour </strong>and give everything a good mix up</p>",
             "order": 5,
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-5.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>tomato paste</strong>,<strong> beef stock mix</strong>,<strong> soy sauce </strong>and 75ml <span class=\"text-purple\">[115ml] </span><span class=\"text-danger\">[150ml] </span>of the <strong>starchy pasta water </strong>and cook for 4-5 min or until thickened and the mince is cooked through (no pink meat!) \u2013 this is your <strong>bolognese rag\u00f9</strong></p>",
+            "instruction": "<p>Add your <strong>chopped</strong> <strong>tomatoes</strong>,<strong> beef stock mix</strong>,<strong> soy sauce</strong>, 1 tsp<span class=\"text-purple\"> [1 1/2 tsp]</span><span class=\"text-danger\"> [2 tsp]</span> <strong>sugar</strong>, a generous grind of <strong>pepper </strong>and 125ml <span class=\"text-purple\">[190ml] </span><span class=\"text-danger\">[250ml]</span> of the <strong>starchy pasta water </strong>to the pan</p><p>Give everything a good mix up and cook for 3-4 min or until thickened and the mince is cooked through (no pink meat!) \u2013 this is your <strong>bolognese rag\u00f9</strong></p>",
             "order": 6,
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>drained tagliatelle </strong>to the bolognese rag\u00f9<strong> </strong>and give everything a gentle mix up</p><p>Tip: Add a splash more starchy pasta water if your sauce is looking a little dry</p>",
+            "instruction": "<p>Add the <strong>drained tagliatelle </strong>to the bolognese rag\u00f9<strong> </strong>and gently stir it all together</p><p>Tip: Add a splash more starchy pasta water if your sauce is looking a little dry</p>",
             "order": 7,
             "image": "/images/instructions/bolognese-ragu-sauce-with-fresh-tagliatelle/step-7.jpg"
         },
@@ -152,28 +159,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 219,
-            "energy_kj": 922,
-            "fat_mg": 7940,
-            "fat_saturates_mg": 3660,
-            "carbs_mg": 23704,
-            "carbs_sugars_mg": 1297,
-            "fibre_mg": 1387,
-            "protein_mg": 13086,
-            "salt_mg": 459,
+            "energy_kcal": 192,
+            "energy_kj": 809,
+            "fat_mg": 6903,
+            "fat_saturates_mg": 3179,
+            "carbs_mg": 20934,
+            "carbs_sugars_mg": 1512,
+            "fibre_mg": 1100,
+            "protein_mg": 11581,
+            "salt_mg": 581,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 724,
-            "energy_kj": 3041,
-            "fat_mg": 26185,
-            "fat_saturates_mg": 12072,
-            "carbs_mg": 78167,
-            "carbs_sugars_mg": 4279,
-            "fibre_mg": 4575,
-            "protein_mg": 43153,
-            "salt_mg": 1516,
-            "net_weight_mg": 329750
+            "energy_kcal": 730,
+            "energy_kj": 3070,
+            "fat_mg": 26183,
+            "fat_saturates_mg": 12057,
+            "carbs_mg": 79393,
+            "carbs_sugars_mg": 5738,
+            "fibre_mg": 4172,
+            "protein_mg": 43921,
+            "salt_mg": 2205,
+            "net_weight_mg": 379250
         }
     },
     "portion_sizes": {
@@ -182,14 +189,12 @@
             "ingredients_skus": [
                 "918d5383-38a6-45c2-8c96-8f91a945e964",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-                "8f225055-491a-4b53-9a69-ac7e4810d725",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "5c14a222-aa12-4d98-a108-106ca1693363",
-                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
+                "3c07d126-f655-437c-aa1d-c38dbbae0398"
             ]
         },
         "2": {
@@ -197,30 +202,27 @@
             "ingredients_skus": [
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-                "8f225055-491a-4b53-9a69-ac7e4810d725",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "5c14a222-aa12-4d98-a108-106ca1693363",
-                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "918d5383-38a6-45c2-8c96-8f91a945e964",
+                "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-                "8f225055-491a-4b53-9a69-ac7e4810d725",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+                "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "5c14a222-aa12-4d98-a108-106ca1693363",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042"
             ]
         },
         "4": {
@@ -228,31 +230,28 @@
             "ingredients_skus": [
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-                "8f225055-491a-4b53-9a69-ac7e4810d725",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+                "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "5c14a222-aa12-4d98-a108-106ca1693363",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "918d5383-38a6-45c2-8c96-8f91a945e964",
+                "a7f888da-1e74-4180-9550-f7c69dcc5872",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-                "8f225055-491a-4b53-9a69-ac7e4810d725",
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
+                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
+                "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "ef4829ce-18aa-4c51-b94d-ba633721af25",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "5c14a222-aa12-4d98-a108-106ca1693363",
-                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800"
             ]
         }
     },
