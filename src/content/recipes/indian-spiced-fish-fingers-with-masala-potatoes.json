@@ -9,7 +9,7 @@
     "gousto_id": "1117",
     "rating": {
         "average": 4.5,
-        "count": 8554
+        "count": 8626
     },
     "description": "Shake up a childhood classic with this adventurous twist. You'll coat fish in curry powder and breadcrumbs, bake them until crisp and golden, and serve with masala potatoes, peas and sweet mango mayo to the side.",
     "cuisine": "Indian",
@@ -93,6 +93,12 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
+            "label": "Nigella seeds (1tsp)",
+            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
+            "allergens": [],
+            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
+        },
+        {
             "label": "Brown onion",
             "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
@@ -129,19 +135,6 @@
             "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
         },
         {
-            "label": "Black sesame seeds (5g)",
-            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
-        },
-        {
             "label": "White potato x3",
             "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
@@ -176,7 +169,7 @@
             "image": "/images/instructions/indian-spiced-fish-fingers-with-masala-potatoes/step-4.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a large knob of <strong>butter</strong> over a medium heat</p><p>Once hot, add the<strong> sliced onion[s]</strong> with a generous pinch of <strong>salt</strong> and cook for 3-4 min or until starting to soften</p><p>Once softened, add the <strong>sliced garlic</strong>, <strong>drained potatoes</strong>,<strong> </strong>your <strong>ground turmeric</strong>, <strong>garam masala</strong> and <strong>black sesame seeds</strong> and cook for 7-8 min or until crisp and golden \u2013 these are your <strong>masala potatoes</strong></p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a large knob of <strong>butter</strong> over a medium heat</p><p>Once hot, add the<strong> sliced onion[s]</strong> with a generous pinch of <strong>salt</strong> and cook for 3-4 min or until starting to soften</p><p>Once softened, add the <strong>sliced garlic</strong>, <strong>drained potatoes</strong>,<strong> </strong>your <strong>ground turmeric</strong>, <strong>garam masala</strong> and <strong>nigella seeds</strong> and cook for 7-8 min or until crisp and golden \u2013 these are your <strong>masala potatoes</strong></p>",
             "order": 5,
             "image": "/images/instructions/indian-spiced-fish-fingers-with-masala-potatoes/step-5.jpg"
         },
@@ -196,39 +189,36 @@
         }
     ],
     "allergens": [
-        "celery",
         "egg",
         "fish",
         "gluten",
         "mustard",
-        "nut",
-        "sesame",
-        "soya"
+        "nut"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 120,
-            "energy_kj": 508,
-            "fat_mg": 3757,
-            "fat_saturates_mg": 532,
-            "carbs_mg": 14607,
-            "carbs_sugars_mg": 3456,
-            "fibre_mg": 2209,
-            "protein_mg": 7640,
-            "salt_mg": 200,
+            "energy_kcal": 118,
+            "energy_kj": 501,
+            "fat_mg": 3511,
+            "fat_saturates_mg": 498,
+            "carbs_mg": 14702,
+            "carbs_sugars_mg": 3462,
+            "fibre_mg": 2259,
+            "protein_mg": 7635,
+            "salt_mg": 201,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 548,
-            "energy_kj": 2312,
-            "fat_mg": 17069,
-            "fat_saturates_mg": 2418,
-            "carbs_mg": 66354,
-            "carbs_sugars_mg": 15702,
-            "fibre_mg": 10038,
-            "protein_mg": 34706,
-            "salt_mg": 912,
-            "net_weight_mg": 454250
+            "energy_kcal": 539,
+            "energy_kj": 2272,
+            "fat_mg": 15918,
+            "fat_saturates_mg": 2259,
+            "carbs_mg": 66638,
+            "carbs_sugars_mg": 15695,
+            "fibre_mg": 10240,
+            "protein_mg": 34608,
+            "salt_mg": 913,
+            "net_weight_mg": 453250
         }
     },
     "portion_sizes": {
@@ -236,7 +226,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -246,6 +235,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -254,7 +244,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
@@ -264,6 +253,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -273,17 +263,17 @@
             "ingredients_skus": [
                 "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-                "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
+                "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "fb6a565a-b912-4033-b8dc-62e6f7c62925",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -293,7 +283,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
@@ -303,6 +292,7 @@
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -312,7 +302,6 @@
             "ingredients_skus": [
                 "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
-                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -324,6 +313,7 @@
                 "43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b",
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "0af67d61-fa68-4172-bec1-09d635e3fc71",
                 "4b7cd1b3-b19b-436c-9ae7-bfab46bce815",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"

@@ -7,7 +7,7 @@
     "gousto_id": "4829",
     "rating": {
         "average": 4.5,
-        "count": 11995
+        "count": 12312
     },
     "description": "Butter up your crispy basa with a mouthwatering honey, lime and sesame sauce. Serve with sticky pepper and sweet potato wedges, and garnish with a sprinkle of coriander and spring onion. Under 600 calories.",
     "cuisine": "Asian",
@@ -17,6 +17,15 @@
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
             "allergens": [],
             "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Basa fillets (2pcs)",
@@ -58,18 +67,28 @@
             "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
         },
         {
-            "label": "White miso paste (30g) x1",
-            "gousto_uuid": "2411a798-b42d-48a1-8ead-8a7571b94690",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2411a798-b42d-48a1-8ead-8a7571b94690.jpg"
-        },
-        {
             "label": "Coriander (5g)",
             "gousto_uuid": "b7839655-6d73-40c2-a235-30ea290a9c56",
             "allergens": [],
             "image": "/images/ingredients/b7839655-6d73-40c2-a235-30ea290a9c56.jpg"
+        },
+        {
+            "label": "Soy sauce (15ml)",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+        },
+        {
+            "label": "Soy sauce (30ml) x0",
+            "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
             "label": "Red pepper",
@@ -99,7 +118,8 @@
     "basics": [
         "Salt",
         "Vegetable oil",
-        "Butter"
+        "Butter",
+        "Water"
     ],
     "cooking_instructions": [
         {
@@ -108,7 +128,7 @@
             "image": "/images/instructions/sesame-honey-and-lime-basa-with-sweet-potato-wedges/step-1.jpg"
         },
         {
-            "instruction": "<p>Give everything a good mix up and put the tray[s] in the oven for an initial 20 min</p><p>Add 20g <span class=\"text-purple\">[30g]</span> <span class=\"text-danger\">[40g]</span> <strong>butter</strong> to a bowl and <strong>microwave</strong> for 10 secs or until melted (alternatively, melt the butter in a small pot over a medium heat)</p><p>Add your <strong>toasted sesame seeds</strong>, <strong>honey </strong>and<strong> half</strong> your<strong> miso </strong>(save the rest for later!)<strong> </strong>to the bowl and mix everything together \u2013 this is your <strong>sesame butter mix</strong></p>",
+            "instruction": "<p>Give everything a good mix up and put the tray[s] in the oven for an initial 20 min</p><p>Add 20g <span class=\"text-purple\">[30g]</span> <span class=\"text-danger\">[40g]</span> <strong>butter</strong> to a bowl and <strong>microwave</strong> for 10 secs or until melted (alternatively, melt the butter in a small pot over a medium heat)</p><p>Add your <strong>toasted sesame seeds</strong>, <strong>honey </strong>and<strong> half</strong> your<strong> soy sauce </strong>(save the rest for later!)<strong> </strong>to the bowl and mix everything together \u2013 this is your <strong>sesame butter mix</strong></p>",
             "order": 2,
             "image": "/images/instructions/sesame-honey-and-lime-basa-with-sweet-potato-wedges/step-2.jpg"
         },
@@ -123,28 +143,29 @@
             "image": "/images/instructions/sesame-honey-and-lime-basa-with-sweet-potato-wedges/step-4.jpg"
         },
         {
-            "instruction": "<p>While everything's in the oven, add the<strong> remaining miso </strong>to a plate with your<strong> fish fillet[s]</strong></p><p>Turn the <strong>fish </strong>several times until the miso fully covers the fish</p><p>Sprinkle your <strong>cornflour </strong>all over and rub it into both sides of the fish until fully coated \u2013 this is your <strong>coated fish</strong></p><p>Tip: Coat the fish in the cornflour one side at a time to avoid stickiness!</p>",
+            "instruction": "<p>While everything's in the oven, add the<strong> remaining soy sauce </strong>to a plate with your<strong> fish fillet[s]</strong></p><p>Turn the <strong>fish </strong>several times until the soy sauce fully covers the fish</p><p>Sprinkle your <strong>cornflour </strong>all over and rub it into both sides of the fish until fully coated \u2013 this is your <strong>coated fish</strong></p><p>Tip: Coat the fish in the cornflour one side at a time to avoid stickiness!</p>",
             "order": 5,
             "image": "/images/instructions/sesame-honey-and-lime-basa-with-sweet-potato-wedges/step-5.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add the <strong>coated fish </strong>with a pinch of <strong>salt</strong> and cook for 3-4 min on each side or until golden, crisped and cooked through \u2013 this is your <strong>crispy miso fish</strong></p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add the <strong>coated fish </strong>with a pinch of <strong>salt</strong> and cook for 3-4 min on each side or until golden, crisped and cooked through \u2013 this is your <strong>crispy soy fish</strong></p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p>",
             "order": 6,
             "image": "/images/instructions/sesame-honey-and-lime-basa-with-sweet-potato-wedges/step-6.jpg"
         },
         {
-            "instruction": "<p>Once cooked, transfer the <strong>crispy miso fish</strong> to a plate and return the pan to a medium heat</p><p>Add the<strong> sesame butter mix </strong>to the pan and cook for 1-2 min or until it starts to thicken</p><p>Once thickened, remove the pan from the heat and add the juice of <strong>half</strong> the <strong>lime[s]</strong> \u2013 this is your <strong>sesame, honey & lime sauce</strong></p><p>Tip: Not a fan of lime? Just add a little!</p>",
+            "instruction": "<p>Once cooked, transfer the <strong>crispy soy fish</strong> to a plate and return the pan to a medium heat</p><p>Add the<strong> sesame butter mix </strong>to the pan and cook for 1-2 min or until it starts to thicken</p><p>Once thickened, remove the pan from the heat and add the juice of <strong>half</strong> the <strong>lime[s]</strong> \u2013 this is your <strong>sesame, honey & lime sauce</strong></p><p>Tip: Not a fan of lime? Just add a little!</p>",
             "order": 7,
             "image": "/images/instructions/sesame-honey-and-lime-basa-with-sweet-potato-wedges/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>crispy miso fish </strong>with the <strong>sticky wedges & roasted pepper</strong> to the side</p><p>Drizzle over the <strong>sesame, honey & lime sauce</strong></p><p>Garnish with the <strong>chopped coriander</strong>, <strong>sliced spring onion</strong> and a <strong>lime wedge</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>crispy soy fish </strong>with the <strong>sticky wedges & roasted pepper</strong> to the side</p><p>Drizzle over the <strong>sesame, honey & lime sauce</strong></p><p>Garnish with the <strong>chopped coriander</strong>, <strong>sliced spring onion</strong> and a <strong>lime wedge</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
     "allergens": [
         "celery",
         "fish",
+        "gluten",
         "mustard",
         "nut",
         "sesame",
@@ -152,27 +173,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 86,
-            "energy_kj": 368,
-            "fat_mg": 855,
-            "fat_saturates_mg": 209,
-            "carbs_mg": 15399,
-            "carbs_sugars_mg": 5121,
-            "fibre_mg": 1516,
-            "protein_mg": 4940,
-            "salt_mg": 196,
+            "energy_kcal": 85,
+            "energy_kj": 363,
+            "fat_mg": 732,
+            "fat_saturates_mg": 194,
+            "carbs_mg": 15326,
+            "carbs_sugars_mg": 5005,
+            "fibre_mg": 1448,
+            "protein_mg": 5016,
+            "salt_mg": 309,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 411,
-            "energy_kj": 1745,
-            "fat_mg": 4057,
-            "fat_saturates_mg": 992,
-            "carbs_mg": 72992,
-            "carbs_sugars_mg": 24276,
-            "fibre_mg": 7188,
-            "protein_mg": 23420,
-            "salt_mg": 932,
+            "energy_kcal": 405,
+            "energy_kj": 1721,
+            "fat_mg": 3472,
+            "fat_saturates_mg": 924,
+            "carbs_mg": 72647,
+            "carbs_sugars_mg": 23728,
+            "fibre_mg": 6866,
+            "protein_mg": 23780,
+            "salt_mg": 1465,
             "net_weight_mg": 474000
         }
     },
@@ -188,10 +209,10 @@
                 "79f3354b-1c07-4ead-a173-f97e8cddd843",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c4363e48-068d-4650-b2c3-afba8d801197",
-                "2411a798-b42d-48a1-8ead-8a7571b94690"
+                "c4363e48-068d-4650-b2c3-afba8d801197"
             ]
         },
         "2": {
@@ -205,10 +226,10 @@
                 "79f3354b-1c07-4ead-a173-f97e8cddd843",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c4363e48-068d-4650-b2c3-afba8d801197",
-                "2411a798-b42d-48a1-8ead-8a7571b94690"
+                "c4363e48-068d-4650-b2c3-afba8d801197"
             ]
         },
         "3": {
@@ -222,10 +243,11 @@
                 "79f3354b-1c07-4ead-a173-f97e8cddd843",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c4363e48-068d-4650-b2c3-afba8d801197",
-                "2411a798-b42d-48a1-8ead-8a7571b94690"
+                "c4363e48-068d-4650-b2c3-afba8d801197"
             ]
         },
         "4": {
@@ -239,10 +261,10 @@
                 "79f3354b-1c07-4ead-a173-f97e8cddd843",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c4363e48-068d-4650-b2c3-afba8d801197",
-                "2411a798-b42d-48a1-8ead-8a7571b94690"
+                "c4363e48-068d-4650-b2c3-afba8d801197"
             ]
         },
         "5": {
@@ -256,10 +278,11 @@
                 "79f3354b-1c07-4ead-a173-f97e8cddd843",
                 "8cc1a219-f516-495d-9d3a-506bd62ae79f",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c4363e48-068d-4650-b2c3-afba8d801197",
-                "2411a798-b42d-48a1-8ead-8a7571b94690"
+                "c4363e48-068d-4650-b2c3-afba8d801197"
             ]
         }
     },

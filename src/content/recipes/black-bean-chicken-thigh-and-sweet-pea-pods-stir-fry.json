@@ -7,22 +7,37 @@
     "gousto_id": "4181",
     "rating": {
         "average": 4.5,
-        "count": 4886
+        "count": 5010
     },
     "description": "Sizzle up a classic stir-fry in a flash. Pan-fry chicken thighs in soy sauce until caramelised, before adding pepper and sweet pea pods for crunch. Throw your black bean-chilli sauce in, and serve with rice. Under 600 calories.",
     "cuisine": "Chinese",
     "ingredients": [
         {
-            "label": "Diced chicken thigh (250g)",
-            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "label": "Dried chilli flakes (0.5tsp)",
+            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
-            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
+            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
         },
         {
             "label": "Spring onion",
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
             "allergens": [],
             "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Diced chicken thigh (250g)",
+            "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
+            "allergens": [],
+            "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
         },
         {
             "label": "Dried chilli flakes (1tsp) x0",
@@ -55,12 +70,6 @@
             "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
-            "label": "Dried chilli flakes (0.5tsp)",
-            "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
-            "allergens": [],
-            "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
-        },
-        {
             "label": "Chinese rice wine (30ml) x0",
             "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
             "allergens": [],
@@ -87,22 +96,13 @@
             "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
         },
         {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
             "label": "Red pepper",
             "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
             "allergens": [],
             "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
-            "label": "Sweet pea pods (80g)",
+            "label": "Sweet pea pods (80g) x2",
             "gousto_uuid": "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
             "allergens": [],
             "image": "/images/ingredients/0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd.jpg"
@@ -120,7 +120,7 @@
             "image": "/images/instructions/black-bean-chicken-thigh-and-sweet-pea-pods-stir-fry/step-1.jpg"
         },
         {
-            "instruction": "<p>While the rice is cooking, heat a large, wide-based pan (preferably non-stick) with a drizzle of<strong> vegetable oil</strong> over medium-high heat</p><p>Once hot, add the <strong>diced chicken thigh</strong> with your <strong>soy sauce</strong> and cook for an initial 8-9 min, turning once, until golden</p><p>(Doubled your protein? Use to 2 pans!)</p>",
+            "instruction": "<p>While the rice is cooking, heat a large, wide-based pan (preferably non-stick) with a drizzle of<strong> vegetable oil</strong> over medium-high heat</p><p>Once hot, add your <strong>chicken</strong> with your <strong>soy sauce</strong> and cook for an initial 8-9 min, turning once, until golden</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 2,
             "image": "/images/instructions/black-bean-chicken-thigh-and-sweet-pea-pods-stir-fry/step-2.jpg"
         },
@@ -145,7 +145,7 @@
             "image": "/images/instructions/black-bean-chicken-thigh-and-sweet-pea-pods-stir-fry/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the<strong> black bean stock</strong> and <strong>sweet pea pods </strong>to the pan and cook, covered, for 3-4 min or until the sauce has begun to thicken and the sweet pea pods has slightly softened \u2013 this is your <strong>black bean chicken & sweet pea pods stir-fry</strong></p><p>Meanwhile, trim, then slice your<strong> spring onion[s]</strong> finely</p>",
+            "instruction": "<p>Add the<strong> black bean stock</strong> and <strong>sweet pea pods </strong>to the pan and cook, covered, for 3-4 min or until the sauce has begun to thicken, the sweet pea pods has slightly softened and the chicken is cooked through (no pink meat!) \u2013 this is your <strong>black bean chicken & sweet pea pods stir-fry</strong></p><p>Meanwhile, trim, then slice your<strong> spring onion[s]</strong> finely</p>",
             "order": 7,
             "image": "/images/instructions/black-bean-chicken-thigh-and-sweet-pea-pods-stir-fry/step-7.jpg"
         },
@@ -160,28 +160,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 134,
-            "energy_kj": 568,
-            "fat_mg": 1463,
-            "fat_saturates_mg": 387,
-            "carbs_mg": 19615,
-            "carbs_sugars_mg": 2286,
-            "fibre_mg": 1070,
-            "protein_mg": 10166,
-            "salt_mg": 752,
+            "energy_kcal": 139,
+            "energy_kj": 588,
+            "fat_mg": 3376,
+            "fat_saturates_mg": 885,
+            "carbs_mg": 18128,
+            "carbs_sugars_mg": 2391,
+            "fibre_mg": 1114,
+            "protein_mg": 8736,
+            "salt_mg": 648,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 465,
-            "energy_kj": 1969,
-            "fat_mg": 5071,
-            "fat_saturates_mg": 1343,
-            "carbs_mg": 67967,
-            "carbs_sugars_mg": 7922,
-            "fibre_mg": 3709,
-            "protein_mg": 35228,
-            "salt_mg": 2608,
-            "net_weight_mg": 346500
+            "energy_kcal": 539,
+            "energy_kj": 2273,
+            "fat_mg": 13051,
+            "fat_saturates_mg": 3423,
+            "carbs_mg": 70067,
+            "carbs_sugars_mg": 9242,
+            "fibre_mg": 4309,
+            "protein_mg": 33768,
+            "salt_mg": 2508,
+            "net_weight_mg": 386500
         }
     },
     "portion_sizes": {

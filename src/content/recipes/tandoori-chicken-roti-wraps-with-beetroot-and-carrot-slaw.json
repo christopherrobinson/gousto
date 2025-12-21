@@ -19,6 +19,12 @@
             "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
         },
         {
+            "label": "Cider vinegar (30ml)",
+            "gousto_uuid": "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
+            "allergens": [],
+            "image": "/images/ingredients/6776a9e3-61d1-4d1a-9102-e9ed44cf94a3.jpg"
+        },
+        {
             "label": "Roti (4pcs)",
             "gousto_uuid": "37145a20-bbdc-4b7c-bda4-d5ed1d55af46",
             "allergens": [
@@ -27,22 +33,36 @@
             "image": "/images/ingredients/37145a20-bbdc-4b7c-bda4-d5ed1d55af46.jpg"
         },
         {
-            "label": "Curry powder (2tbsp) x0",
-            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
-            "allergens": [],
-            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
-        },
-        {
             "label": "Curry powder (0.5tbsp) x0",
             "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
             "allergens": [],
             "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
         },
         {
+            "label": "Curry powder (2tbsp) x0",
+            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+            "allergens": [],
+            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+        },
+        {
+            "label": "Curry powder (1tbsp)",
+            "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
+            "allergens": [],
+            "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
+        },
+        {
             "label": "Shallot",
             "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
             "allergens": [],
             "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
             "label": "Mango chutney (20g)",
@@ -53,34 +73,10 @@
             "image": "/images/ingredients/43a5a4d4-63c2-4ab2-ac0d-1e1918f4249b.jpg"
         },
         {
-            "label": "Cider vinegar (30ml)",
-            "gousto_uuid": "6776a9e3-61d1-4d1a-9102-e9ed44cf94a3",
-            "allergens": [],
-            "image": "/images/ingredients/6776a9e3-61d1-4d1a-9102-e9ed44cf94a3.jpg"
-        },
-        {
-            "label": "Curry powder (1tbsp)",
-            "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
-            "allergens": [],
-            "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
-        },
-        {
-            "label": "Carrot",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-            "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
             "label": "Ginger paste (15g)",
             "gousto_uuid": "88966efb-30c6-425b-9a90-0e6087c8b326",
             "allergens": [],
             "image": "/images/ingredients/88966efb-30c6-425b-9a90-0e6087c8b326.jpg"
-        },
-        {
-            "label": "Mint (5g)",
-            "gousto_uuid": "5a446609-a9e0-420e-af4e-da2fa9f91f81",
-            "allergens": [],
-            "image": "/images/ingredients/5a446609-a9e0-420e-af4e-da2fa9f91f81.jpg"
         },
         {
             "label": "Cider vinegar (15ml) x0",
@@ -95,12 +91,16 @@
             "image": "/images/ingredients/274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d.jpg"
         },
         {
-            "label": "Natural yoghurt (80g)",
-            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+            "label": "Carrot",
+            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "allergens": [],
+            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
+        },
+        {
+            "label": "Mint (5g)",
+            "gousto_uuid": "5a446609-a9e0-420e-af4e-da2fa9f91f81",
+            "allergens": [],
+            "image": "/images/ingredients/5a446609-a9e0-420e-af4e-da2fa9f91f81.jpg"
         },
         {
             "label": "Cooked beetroot (250g)",
@@ -133,7 +133,7 @@
             "image": "/images/instructions/tandoori-chicken-roti-wraps-with-beetroot-and-carrot-slaw/step-3.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>marinated chicken </strong>to a <strong>baking paper</strong>-lined baking tray and put the tray under the grill for 10-12 min or until the chicken is cooked through (no pink meat!) and starting to char \u2013 this is your <strong>tandoori chicken</strong></p><p>(Doubled your protein? Do this in batches!)</p>",
+            "instruction": "<p>Add the <strong>marinated chicken </strong>to a <strong>tin foil</strong>-lined baking tray and put the tray under the grill for 10-12 min or until the chicken is cooked through (no pink meat!) and starting to char \u2013 this is your <strong>tandoori chicken</strong></p><p>(Doubled your protein? Do this in batches!)</p>",
             "order": 4,
             "image": "/images/instructions/tandoori-chicken-roti-wraps-with-beetroot-and-carrot-slaw/step-4.jpg"
         },
@@ -164,27 +164,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 129,
-            "energy_kj": 544,
-            "fat_mg": 2646,
-            "fat_saturates_mg": 516,
-            "carbs_mg": 17636,
-            "carbs_sugars_mg": 7071,
+            "energy_kcal": 140,
+            "energy_kj": 591,
+            "fat_mg": 4151,
+            "fat_saturates_mg": 913,
+            "carbs_mg": 17707,
+            "carbs_sugars_mg": 7095,
             "fibre_mg": 2201,
-            "protein_mg": 7670,
-            "salt_mg": 295,
+            "protein_mg": 7121,
+            "salt_mg": 275,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 675,
-            "energy_kj": 2847,
-            "fat_mg": 13846,
-            "fat_saturates_mg": 2704,
-            "carbs_mg": 92282,
-            "carbs_sugars_mg": 37000,
+            "energy_kcal": 736,
+            "energy_kj": 3096,
+            "fat_mg": 21721,
+            "fat_saturates_mg": 4779,
+            "carbs_mg": 92657,
+            "carbs_sugars_mg": 37125,
             "fibre_mg": 11519,
-            "protein_mg": 40136,
-            "salt_mg": 1545,
+            "protein_mg": 37261,
+            "salt_mg": 1442,
             "net_weight_mg": 523250
         }
     },

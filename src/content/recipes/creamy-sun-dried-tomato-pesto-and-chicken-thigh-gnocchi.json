@@ -24,10 +24,12 @@
             "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
         },
         {
-            "label": "Cherry tomatoes (125g)",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
-            "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+            "label": "Cr\u00e8me fra\u00eeche (80g)",
+            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
         },
         {
             "label": "Gnocchi (350g)",
@@ -38,26 +40,6 @@
             "image": "/images/ingredients/2cada79f-be8e-41b5-8c11-3d6e9d3d6503.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
-        },
-        {
-            "label": "Chicken stock mix (5.5g)",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Cr\u00e8me fra\u00eeche (80g)",
-            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
-        },
-        {
             "label": "Sun-dried tomato pesto (45g)",
             "gousto_uuid": "d2602348-4864-49ce-9557-59b08971d076",
             "allergens": [
@@ -66,22 +48,40 @@
             "image": "/images/ingredients/d2602348-4864-49ce-9557-59b08971d076.jpg"
         },
         {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
             "label": "Roasted garlic paste (15g)",
             "gousto_uuid": "485c12c9-8de2-436e-b1de-9d336ccbf713",
             "allergens": [],
             "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
         },
         {
-            "label": "Cherry tomatoes (250g) x0",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "label": "Chicken stock mix (5.5g)",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
             "label": "Spinach (80g)",
             "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (125g)",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (250g) x0",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         }
     ],
     "basics": [
@@ -96,7 +96,7 @@
             "image": "/images/instructions/creamy-sun-dried-tomato-pesto-and-chicken-thigh-gnocchi/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add the<strong> diced chicken thigh</strong> and cook for an initial 5-6 min or until lightly browned</p><p>(Doubled your protein? Use to 2 pans!)</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your<strong> diced chicken</strong> and cook for an initial 5-6 min or until lightly browned</p><p>(Doubled your protein? Use to 2 pans!)</p>",
             "order": 2,
             "image": "/images/instructions/creamy-sun-dried-tomato-pesto-and-chicken-thigh-gnocchi/step-2.jpg"
         },
@@ -136,27 +136,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 125,
-            "energy_kj": 528,
-            "fat_mg": 4351,
-            "fat_saturates_mg": 1781,
-            "carbs_mg": 13332,
-            "carbs_sugars_mg": 1317,
+            "energy_kcal": 138,
+            "energy_kj": 579,
+            "fat_mg": 5974,
+            "fat_saturates_mg": 2209,
+            "carbs_mg": 13410,
+            "carbs_sugars_mg": 1343,
             "fibre_mg": 893,
-            "protein_mg": 8438,
-            "salt_mg": 550,
+            "protein_mg": 7846,
+            "salt_mg": 529,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 610,
-            "energy_kj": 2564,
-            "fat_mg": 21115,
-            "fat_saturates_mg": 8647,
-            "carbs_mg": 64698,
-            "carbs_sugars_mg": 6395,
+            "energy_kcal": 671,
+            "energy_kj": 2812,
+            "fat_mg": 28990,
+            "fat_saturates_mg": 10722,
+            "carbs_mg": 65073,
+            "carbs_sugars_mg": 6520,
             "fibre_mg": 4335,
-            "protein_mg": 40950,
-            "salt_mg": 2673,
+            "protein_mg": 38075,
+            "salt_mg": 2570,
             "net_weight_mg": 485250
         }
     },

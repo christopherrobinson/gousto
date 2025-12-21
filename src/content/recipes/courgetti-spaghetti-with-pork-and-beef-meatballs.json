@@ -13,6 +13,14 @@
     "cuisine": "Italian",
     "ingredients": [
         {
+            "label": "Spaghetti (100g)",
+            "gousto_uuid": "ce8f61de-be48-4aed-a279-d7a17a46e297",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/ce8f61de-be48-4aed-a279-d7a17a46e297.jpg"
+        },
+        {
             "label": "Panko breadcrumbs (20g)",
             "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
             "allergens": [
@@ -21,10 +29,16 @@
             "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
         },
         {
-            "label": "Pork & beef mince (125g) x0",
-            "gousto_uuid": "03a39e3e-e699-42e6-8da5-af4a2ee055f8",
+            "label": "Finely chopped tomatoes (200g) x2",
+            "gousto_uuid": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
             "allergens": [],
-            "image": "/images/ingredients/03a39e3e-e699-42e6-8da5-af4a2ee055f8.jpg"
+            "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
+        },
+        {
+            "label": "Pork & beef mince (250g)",
+            "gousto_uuid": "8a056e15-000e-4781-aa71-c8f322495281",
+            "allergens": [],
+            "image": "/images/ingredients/8a056e15-000e-4781-aa71-c8f322495281.jpg"
         },
         {
             "label": "Spaghetti (50g) x0",
@@ -35,50 +49,10 @@
             "image": "/images/ingredients/804ea8fd-7150-4108-b11f-a6b15fc08c73.jpg"
         },
         {
-            "label": "Finely chopped tomatoes (200g) x2",
-            "gousto_uuid": "f217148a-bb67-4f4e-a820-02a5122c2d3a",
-            "allergens": [],
-            "image": "/images/ingredients/f217148a-bb67-4f4e-a820-02a5122c2d3a.jpg"
-        },
-        {
-            "label": "Spaghetti (100g)",
-            "gousto_uuid": "ce8f61de-be48-4aed-a279-d7a17a46e297",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/ce8f61de-be48-4aed-a279-d7a17a46e297.jpg"
-        },
-        {
             "label": "Intense beef stock mix (5.5g)",
             "gousto_uuid": "ec455cb7-01fc-4470-9db4-e94afca273e4",
             "allergens": [],
             "image": "/images/ingredients/ec455cb7-01fc-4470-9db4-e94afca273e4.jpg"
-        },
-        {
-            "label": "Garlic clove x2",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Pork & beef mince (250g)",
-            "gousto_uuid": "8a056e15-000e-4781-aa71-c8f322495281",
-            "allergens": [],
-            "image": "/images/ingredients/8a056e15-000e-4781-aa71-c8f322495281.jpg"
-        },
-        {
-            "label": "Grated Italian hard cheese (30g)",
-            "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
-        },
-        {
-            "label": "Beef stock mix (5.5g) x0",
-            "gousto_uuid": "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
-            "allergens": [],
-            "image": "/images/ingredients/e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3.jpg"
         },
         {
             "label": "Cheddar cheese (40g)",
@@ -89,10 +63,16 @@
             "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
-            "label": "Carrot",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "label": "Beef stock mix (5.5g) x0",
+            "gousto_uuid": "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
             "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
+            "image": "/images/ingredients/e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3.jpg"
+        },
+        {
+            "label": "Garlic clove x2",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
             "label": "Courgette",
@@ -107,12 +87,24 @@
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
-            "label": "Balsamic vinegar (15ml)",
-            "gousto_uuid": "8357c090-d832-41bc-a458-b13600637e1b",
+            "label": "Pork & beef mince (125g) x0",
+            "gousto_uuid": "03a39e3e-e699-42e6-8da5-af4a2ee055f8",
+            "allergens": [],
+            "image": "/images/ingredients/03a39e3e-e699-42e6-8da5-af4a2ee055f8.jpg"
+        },
+        {
+            "label": "Grated Italian hard cheese (30g)",
+            "gousto_uuid": "661b8104-1fd3-4f4f-99a8-6655f336a24b",
             "allergens": [
-                "sulphites"
+                "milk"
             ],
-            "image": "/images/ingredients/8357c090-d832-41bc-a458-b13600637e1b.jpg"
+            "image": "/images/ingredients/661b8104-1fd3-4f4f-99a8-6655f336a24b.jpg"
+        },
+        {
+            "label": "Carrot",
+            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "allergens": [],
+            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
             "label": "Spaghetti (190g) x0",
@@ -122,6 +114,14 @@
                 "gluten"
             ],
             "image": "/images/ingredients/8deb2d63-8771-4bd0-8a9b-55cf5d96a2bc.jpg"
+        },
+        {
+            "label": "Balsamic vinegar (15ml)",
+            "gousto_uuid": "8357c090-d832-41bc-a458-b13600637e1b",
+            "allergens": [
+                "sulphites"
+            ],
+            "image": "/images/ingredients/8357c090-d832-41bc-a458-b13600637e1b.jpg"
         }
     ],
     "basics": [

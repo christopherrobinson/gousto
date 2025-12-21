@@ -13,11 +13,31 @@
     "gousto_id": "1098",
     "rating": {
         "average": 4.5,
-        "count": 65040
+        "count": 65044
     },
     "description": "This fragrant curry is inspired by Southern Thai cuisine. You'll make a punchy panang-style sauce with chicken, peanut butter, coconut and red curry paste, then serve with rice and crispy onions.",
     "cuisine": "Thai",
     "ingredients": [
+        {
+            "label": "Solid creamed coconut (50g)",
+            "gousto_uuid": "82127448-599d-47c3-a700-5dbe007ecd94",
+            "allergens": [],
+            "image": "/images/ingredients/82127448-599d-47c3-a700-5dbe007ecd94.jpg"
+        },
+        {
+            "label": "Fish sauce (8ml)",
+            "gousto_uuid": "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "peanut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
+        },
         {
             "label": "Chicken breast strips (125g) x0",
             "gousto_uuid": "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
@@ -29,12 +49,6 @@
             "gousto_uuid": "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
             "allergens": [],
             "image": "/images/ingredients/1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a.jpg"
-        },
-        {
-            "label": "Green pepper",
-            "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
-            "allergens": [],
-            "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
         },
         {
             "label": "Ground turmeric (0.5tsp) x0",
@@ -55,6 +69,12 @@
             "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
         },
         {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
             "label": "White basmati rice (130g)",
             "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
             "allergens": [],
@@ -69,22 +89,22 @@
             "image": "/images/ingredients/61499436-65ce-4e9a-8e7b-72882f1121a8.jpg"
         },
         {
-            "label": "Red Thai curry paste (40g) x0",
-            "gousto_uuid": "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
-            "allergens": [],
-            "image": "/images/ingredients/84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85.jpg"
-        },
-        {
             "label": "Red Thai curry paste (20g)",
             "gousto_uuid": "d46409ec-5df2-494f-94ef-03c520a73a08",
             "allergens": [],
             "image": "/images/ingredients/d46409ec-5df2-494f-94ef-03c520a73a08.jpg"
         },
         {
-            "label": "Solid creamed coconut (50g)",
-            "gousto_uuid": "82127448-599d-47c3-a700-5dbe007ecd94",
+            "label": "Red Thai curry paste (40g) x0",
+            "gousto_uuid": "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
             "allergens": [],
-            "image": "/images/ingredients/82127448-599d-47c3-a700-5dbe007ecd94.jpg"
+            "image": "/images/ingredients/84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85.jpg"
+        },
+        {
+            "label": "Green pepper",
+            "gousto_uuid": "7900a9b4-1033-4594-9a9f-ba1dbdbdf52d",
+            "allergens": [],
+            "image": "/images/ingredients/7900a9b4-1033-4594-9a9f-ba1dbdbdf52d.jpg"
         },
         {
             "label": "Cardamom pod x3",
@@ -101,26 +121,6 @@
                 "sesame"
             ],
             "image": "/images/ingredients/80a2fb1b-cd5f-47ea-a9a0-508ccfea2629.jpg"
-        },
-        {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "Fish sauce (8ml)",
-            "gousto_uuid": "f88228e9-eee1-48e1-bfdf-9bae025dd142",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "peanut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
         },
         {
             "label": "Solid creamed coconut (25g) x0",
@@ -162,12 +162,12 @@
             "image": "/images/instructions/southern-thai-style-chicken-panang-curry/step-5.jpg"
         },
         {
-            "instruction": "<p>Cut the <strong>chicken breast strips</strong> into small bite-sized pieces</p><p>Once the pepper and onion have softened, increase the heat to high, then add the <strong>chopped chicken</strong> and your <strong>red Thai curry paste</strong> to the pan and cook for 3-4 min or until fragrant</p><p>(Doubled your protein? Use to 2 pans!)</p>",
+            "instruction": "<p>Cut your <strong>chicken </strong>into small bite-sized pieces</p><p>Once the pepper and onion have softened, increase the heat to high, then add the <strong>chopped chicken</strong> and your <strong>red Thai curry paste</strong> to the pan and cook for 3-4 min or until fragrant</p><p>(Doubled your protein? Use to 2 pans!)</p>",
             "order": 6,
             "image": "/images/instructions/southern-thai-style-chicken-panang-curry/step-6.jpg"
         },
         {
-            "instruction": "<p>Once fragrant, add the <strong>peanut stock</strong> and cook for 7-8 min further or until the chicken is cooked through (no pink meat!) and the sauce has thickened</p><p>Season with a pinch of <strong>salt</strong> \u2013 this is your<strong> Southern Thai-style</strong> <strong>chicken panang curry</strong></p><p>Tip: If the curry is looking a little dry, add a splash of water to loosen the sauce</p><p>Fluff the<strong> basmati rice</strong> with a fork and season with a pinch of <strong>salt</strong></p>",
+            "instruction": "<p>Once fragrant, add the <strong>peanut stock</strong> and cook, covered, for 8 min further or until the chicken is cooked through (no pink meat!) and the sauce has thickened</p><p>Season with a pinch of <strong>salt</strong> \u2013 this is your<strong> Southern Thai-style</strong> <strong>chicken panang curry</strong></p><p>Tip: If the curry is looking a little dry, add a splash of water to loosen the sauce</p><p>Fluff the<strong> basmati rice</strong> with a fork and season with a pinch of <strong>salt</strong></p>",
             "order": 7,
             "image": "/images/instructions/southern-thai-style-chicken-panang-curry/step-7.jpg"
         },
@@ -188,27 +188,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 197,
-            "energy_kj": 832,
-            "fat_mg": 8490,
-            "fat_saturates_mg": 5240,
+            "energy_kcal": 199,
+            "energy_kj": 840,
+            "fat_mg": 9083,
+            "fat_saturates_mg": 5411,
             "carbs_mg": 16938,
             "carbs_sugars_mg": 2396,
             "fibre_mg": 2338,
-            "protein_mg": 11978,
-            "salt_mg": 505,
+            "protein_mg": 11142,
+            "salt_mg": 493,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 710,
-            "energy_kj": 2987,
-            "fat_mg": 30448,
-            "fat_saturates_mg": 18792,
+            "energy_kcal": 717,
+            "energy_kj": 3014,
+            "fat_mg": 32573,
+            "fat_saturates_mg": 19404,
             "carbs_mg": 60742,
             "carbs_sugars_mg": 8595,
             "fibre_mg": 8386,
-            "protein_mg": 42956,
-            "salt_mg": 1812,
+            "protein_mg": 39956,
+            "salt_mg": 1770,
             "net_weight_mg": 358600
         }
     },

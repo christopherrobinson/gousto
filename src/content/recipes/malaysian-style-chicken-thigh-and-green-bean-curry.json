@@ -7,22 +7,19 @@
     "gousto_id": "5389",
     "rating": {
         "average": 4.5,
-        "count": 3096
+        "count": 3098
     },
     "description": "Make your mouth water with this Malaysian-style chicken curry. You'll sizzle chicken and green beans in red curry paste and ladles of creamy coconut stock. Stir through fork-tender potatoes and serve over white rice for a comforting curry night.",
     "cuisine": "South Asian",
     "ingredients": [
         {
-            "label": "Fine green beans (160g)",
-            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
-            "allergens": [],
-            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
-        },
-        {
-            "label": "Fine green beans (80g) x0",
-            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
-            "allergens": [],
-            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Diced chicken thigh (250g)",
@@ -37,34 +34,16 @@
             "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
         },
         {
-            "label": "Cooked white long grain rice (280g)",
-            "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
-            "allergens": [],
-            "image": "/images/ingredients/e604f6ba-a67f-4a10-ae71-6032c08a90a6.jpg"
-        },
-        {
-            "label": "Chicken stock mix (5.5g)",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
             "label": "Garlic clove",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Ginger & garlic paste (15g)",
-            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "label": "Cooked white long grain rice (280g)",
+            "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
             "allergens": [],
-            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
-        },
-        {
-            "label": "Red Thai curry paste (40g)",
-            "gousto_uuid": "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
-            "allergens": [],
-            "image": "/images/ingredients/84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85.jpg"
+            "image": "/images/ingredients/e604f6ba-a67f-4a10-ae71-6032c08a90a6.jpg"
         },
         {
             "label": "Red Thai curry paste (20g) x0",
@@ -73,19 +52,40 @@
             "image": "/images/ingredients/d46409ec-5df2-494f-94ef-03c520a73a08.jpg"
         },
         {
+            "label": "Ginger & garlic paste (15g)",
+            "gousto_uuid": "66613362-e511-4465-b1a4-9992a919b5d0",
+            "allergens": [],
+            "image": "/images/ingredients/66613362-e511-4465-b1a4-9992a919b5d0.jpg"
+        },
+        {
+            "label": "Chicken stock mix (5.5g)",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "allergens": [],
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
+            "label": "Red Thai curry paste (40g)",
+            "gousto_uuid": "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
+            "allergens": [],
+            "image": "/images/ingredients/84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85.jpg"
+        },
+        {
+            "label": "Fine green beans (80g) x0",
+            "gousto_uuid": "846b56c4-4dad-4edb-a09d-9e2bbd5b3a73",
+            "allergens": [],
+            "image": "/images/ingredients/846b56c4-4dad-4edb-a09d-9e2bbd5b3a73.jpg"
+        },
+        {
+            "label": "Fine green beans (160g)",
+            "gousto_uuid": "ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06",
+            "allergens": [],
+            "image": "/images/ingredients/ab46b9da-8d7b-4c4b-a8d4-cd09ff944f06.jpg"
+        },
+        {
             "label": "White potato",
             "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
             "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
-        },
-        {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "Solid creamed coconut (25g)",
@@ -146,27 +146,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 141,
-            "energy_kj": 595,
-            "fat_mg": 4385,
-            "fat_saturates_mg": 2240,
-            "carbs_mg": 17254,
-            "carbs_sugars_mg": 1425,
+            "energy_kcal": 155,
+            "energy_kj": 651,
+            "fat_mg": 6147,
+            "fat_saturates_mg": 2704,
+            "carbs_mg": 17338,
+            "carbs_sugars_mg": 1453,
             "fibre_mg": 1790,
-            "protein_mg": 8222,
-            "salt_mg": 558,
+            "protein_mg": 7579,
+            "salt_mg": 535,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 632,
-            "energy_kj": 2663,
-            "fat_mg": 19597,
-            "fat_saturates_mg": 10013,
-            "carbs_mg": 77112,
-            "carbs_sugars_mg": 6369,
+            "energy_kcal": 693,
+            "energy_kj": 2911,
+            "fat_mg": 27472,
+            "fat_saturates_mg": 12088,
+            "carbs_mg": 77487,
+            "carbs_sugars_mg": 6494,
             "fibre_mg": 8000,
-            "protein_mg": 36746,
-            "salt_mg": 2496,
+            "protein_mg": 33871,
+            "salt_mg": 2394,
             "net_weight_mg": 446900
         }
     },

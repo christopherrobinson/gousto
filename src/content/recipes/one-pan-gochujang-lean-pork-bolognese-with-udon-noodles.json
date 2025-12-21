@@ -5,9 +5,33 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "8054",
+    "rating": {
+        "average": 4.5,
+        "count": 54
+    },
     "description": "Give this dinnertime classic a Korean twist. You'll simmer lean pork mince with mushrooms and carrot before spiking with gochujang for a kick of Korean spice. Toss through udon noodles and serve up with grated cheddar.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Lean pork mince (<5% fat) (125g) x0",
+            "gousto_uuid": "8371ef5f-f73b-40c3-8e15-595f00820cf4",
+            "allergens": [],
+            "image": "/images/ingredients/8371ef5f-f73b-40c3-8e15-595f00820cf4.jpg"
+        },
+        {
+            "label": "Lean pork mince (<5% fat) (250g)",
+            "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
+            "allergens": [],
+            "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
+        },
+        {
+            "label": "Gochujang paste (30g)",
+            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
+        },
         {
             "label": "Soy sauce (8ml)",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
@@ -22,18 +46,6 @@
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
             "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Lean pork mince (<5% fat) (250g)",
-            "gousto_uuid": "78e9fb95-bc0f-4abb-ba8c-1f3d94395925",
-            "allergens": [],
-            "image": "/images/ingredients/78e9fb95-bc0f-4abb-ba8c-1f3d94395925.jpg"
-        },
-        {
-            "label": "Lean pork mince (<5% fat) (125g) x0",
-            "gousto_uuid": "8371ef5f-f73b-40c3-8e15-595f00820cf4",
-            "allergens": [],
-            "image": "/images/ingredients/8371ef5f-f73b-40c3-8e15-595f00820cf4.jpg"
         },
         {
             "label": "Cheddar cheese (40g)",
@@ -62,14 +74,6 @@
                 "gluten"
             ],
             "image": "/images/ingredients/8f4e2d07-f89d-4d74-b28b-e93fb7de8679.jpg"
-        },
-        {
-            "label": "Gochujang paste (30g)",
-            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
         },
         {
             "label": "Tomato paste (16g) x0",
@@ -103,7 +107,7 @@
             "image": "/images/instructions/one-pan-gochujang-lean-pork-bolognese-with-udon-noodles/step-1.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>One hot, add the <strong>diced onion</strong>, <strong>diced carrot</strong> and <strong>sliced mushrooms</strong> with a pinch of <strong>salt </strong>and <strong>pepper</strong> and cook for 6-7 min or until beginning to soften</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add the <strong>diced onion</strong>, <strong>diced carrot</strong> and <strong>sliced mushrooms</strong> with a pinch of <strong>salt </strong>and <strong>pepper</strong> and cook for 6-7 min or until beginning to soften</p>",
             "order": 2,
             "image": "/images/instructions/one-pan-gochujang-lean-pork-bolognese-with-udon-noodles/step-2.jpg"
         },
@@ -144,27 +148,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 123,
-            "energy_kj": 516,
-            "fat_mg": 3871,
-            "fat_saturates_mg": 1783,
-            "carbs_mg": 14338,
+            "energy_kcal": 112,
+            "energy_kj": 472,
+            "fat_mg": 2609,
+            "fat_saturates_mg": 1298,
+            "carbs_mg": 14314,
             "carbs_sugars_mg": 2896,
-            "fibre_mg": 1023,
-            "protein_mg": 7737,
-            "salt_mg": 533,
+            "fibre_mg": 993,
+            "protein_mg": 7956,
+            "salt_mg": 531,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 634,
-            "energy_kj": 2658,
-            "fat_mg": 19939,
-            "fat_saturates_mg": 9187,
-            "carbs_mg": 73845,
+            "energy_kcal": 580,
+            "energy_kj": 2433,
+            "fat_mg": 13439,
+            "fat_saturates_mg": 6687,
+            "carbs_mg": 73720,
             "carbs_sugars_mg": 14918,
-            "fibre_mg": 5269,
-            "protein_mg": 39849,
-            "salt_mg": 2750,
+            "fibre_mg": 5119,
+            "protein_mg": 40974,
+            "salt_mg": 2738,
             "net_weight_mg": 515000
         }
     },

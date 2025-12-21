@@ -7,11 +7,19 @@
     "gousto_id": "8456",
     "rating": {
         "average": 4.5,
-        "count": 46
+        "count": 91
     },
-    "description": "Double your main protein. Inspired by the korean favourite Gochujang Bokkeumbap. You'll jazz up your basmati rice with an umami, spice packed gochujang sauce and top with a succulent chicken breasts. High in protein. Protein contributes to a growth in muscle mass.",
+    "description": "Double your main protein. Inspired by the korean favourite Gochujang Bokkeumbap. You'll jazz up your long grain rice with an umami, spice packed gochujang sauce and top with a succulent chicken breasts. High in protein. Protein contributes to a growth in muscle mass.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Gochujang paste (30g)",
+            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
+            "allergens": [
+                "soya"
+            ],
+            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
+        },
         {
             "label": "Spring onion",
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
@@ -60,10 +68,10 @@
             "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
         },
         {
-            "label": "White basmati rice (65g) x0",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
+            "label": "White long grain rice (65g) x0",
+            "gousto_uuid": "3f8dd8e4-5658-4df8-9433-41aa47c6ff03",
             "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
+            "image": "/images/ingredients/3f8dd8e4-5658-4df8-9433-41aa47c6ff03.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -92,18 +100,10 @@
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
-            "label": "White basmati rice (130g)",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
+            "label": "White long grain rice (130g)",
+            "gousto_uuid": "49bc207f-e86c-4423-a7c1-86dc4718abc8",
             "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
-        },
-        {
-            "label": "Gochujang paste (30g)",
-            "gousto_uuid": "2cd864ed-57c3-4ac7-97de-523bc86677bb",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/2cd864ed-57c3-4ac7-97de-523bc86677bb.jpg"
+            "image": "/images/ingredients/49bc207f-e86c-4423-a7c1-86dc4718abc8.jpg"
         },
         {
             "label": "Ginger paste (15g)",
@@ -158,12 +158,12 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Before you start cooking, take your <strong>chicken</strong> out of the fridge, open the packet and let it air</p><p>Add your <strong>chicken breast portions</strong> to a clean chopping board, cover with <strong>cling film</strong> and bash with a <strong>rolling pin</strong> until flattened to approx. 1cm thickness then heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>(Doubled your protein? Use 2 pans!)</p>",
+            "instruction": "<p>Before you start cooking, take your <strong>chicken</strong> out of the fridge, open the packet and let it air</p><p>Add your <strong>chicken breast portions</strong> to a clean chopping board, cover with <strong>cling film</strong> and bash with a <strong>rolling pin</strong> until flattened to approx. 1cm thickness then heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 1,
             "image": "/images/instructions/gochujang-double-chicken-fried-rice/step-1.jpg"
         },
         {
-            "instruction": "<p>Once hot, add the <strong>flattened chicken</strong> with a pinch of <strong>salt</strong> and cook for 5-6 min on each side or until golden and cooked through (no pink meat!), then transfer to a clean plate to rest (save the pan!)</p><p>Add your <strong>basmati rice</strong> and 300ml <span class=\"text-purple\">[390ml]</span><span class=\"text-danger\"> [600ml] </span><strong>cold water </strong>to a pot with a lid and bring to the boil over a high heat, once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving</p>",
+            "instruction": "<p>Once hot, add the <strong>flattened chicken</strong> with a pinch of <strong>salt</strong> and cook for 5-6 min on each side or until golden and cooked through (no pink meat!), then transfer to a clean plate to rest (save the pan!)</p><p>Add your <strong>white long grain rice</strong> and 225ml <span class=\"text-purple\">[300ml]</span><span class=\"text-danger\"> [450ml] </span><strong>cold water </strong>to a pot with a lid and bring to the boil over a high heat, once boiling, reduce the heat to very low and cook, covered, for 12-15 min or until all the water has absorbed and the rice is cooked</p><p>Once cooked, remove from the heat and keep covered until serving</p>",
             "order": 2,
             "image": "/images/instructions/gochujang-double-chicken-fried-rice/step-2.jpg"
         },
@@ -193,7 +193,7 @@
             "image": "/images/instructions/gochujang-double-chicken-fried-rice/step-7.jpg"
         },
         {
-            "instruction": "<p>Slice the<strong> cooked XL chicken</strong></p><p>Serve the <strong>gochujang fried rice </strong>and top with the <strong>sliced XL chicken</strong></p><p>Garnish with your <strong>black</strong> <strong>sesame seeds </strong>and <strong>sliced spring onion</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Slice the<strong> cooked double chicken</strong></p><p>Serve the <strong>gochujang fried rice </strong>and top with the <strong>sliced double chicken</strong></p><p>Garnish with your <strong>black</strong> <strong>sesame seeds </strong>and <strong>sliced spring onion</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -209,27 +209,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 142,
-            "energy_kj": 599,
-            "fat_mg": 3213,
-            "fat_saturates_mg": 625,
-            "carbs_mg": 14120,
+            "energy_kcal": 145,
+            "energy_kj": 612,
+            "fat_mg": 3160,
+            "fat_saturates_mg": 665,
+            "carbs_mg": 15817,
             "carbs_sugars_mg": 2708,
-            "fibre_mg": 696,
-            "protein_mg": 13347,
-            "salt_mg": 530,
+            "fibre_mg": 643,
+            "protein_mg": 13056,
+            "salt_mg": 526,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 699,
-            "energy_kj": 2948,
-            "fat_mg": 15796,
-            "fat_saturates_mg": 3074,
-            "carbs_mg": 69404,
+            "energy_kcal": 713,
+            "energy_kj": 3008,
+            "fat_mg": 15536,
+            "fat_saturates_mg": 3269,
+            "carbs_mg": 77744,
             "carbs_sugars_mg": 13313,
-            "fibre_mg": 3423,
-            "protein_mg": 65603,
-            "salt_mg": 2606,
+            "fibre_mg": 3163,
+            "protein_mg": 64173,
+            "salt_mg": 2590,
             "net_weight_mg": 491500
         }
     },
@@ -248,7 +248,7 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03"
             ]
         },
         "2": {
@@ -265,7 +265,7 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "49bc207f-e86c-4423-a7c1-86dc4718abc8"
             ]
         },
         "3": {
@@ -283,8 +283,8 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "68941ea3-449d-4ce5-8fd5-f83ef98b1d69",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "49bc207f-e86c-4423-a7c1-86dc4718abc8",
+                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03"
             ]
         },
         "4": {
@@ -301,7 +301,7 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "49bc207f-e86c-4423-a7c1-86dc4718abc8"
             ]
         },
         "5": {
@@ -319,8 +319,8 @@
                 "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "49bc207f-e86c-4423-a7c1-86dc4718abc8",
+                "3f8dd8e4-5658-4df8-9433-41aa47c6ff03"
             ]
         }
     },
