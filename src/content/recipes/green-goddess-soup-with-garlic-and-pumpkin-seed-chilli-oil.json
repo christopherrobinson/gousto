@@ -5,9 +5,19 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "9270",
+    "rating": {
+        "average": 4.5,
+        "count": 385
+    },
     "description": "For this well-balanced bowl, you'll blend leeks, sweet peas, spinach and onion with garlic and ginger for warmth. Then, swirl in miso and creamy coconut yogurt for depth. Finish with a drizzle of garlicky pumpkin seed chilli oil for a gentle kick. 3 or more of your 5/day.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Leek",
+            "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
+            "allergens": [],
+            "image": "/images/ingredients/645a774c-589a-4172-9f0b-dd51a3c7e739.jpg"
+        },
         {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -47,7 +57,7 @@
             "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
-            "label": "Pumpkin seeds (15g) x2",
+            "label": "Pumpkin seeds (15g) x0",
             "gousto_uuid": "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
             "allergens": [
                 "nut",
@@ -55,6 +65,16 @@
                 "sesame"
             ],
             "image": "/images/ingredients/8d49d7fe-1c65-4022-aae9-32fe3bb6df3a.jpg"
+        },
+        {
+            "label": "Pumpkin seeds (30g)",
+            "gousto_uuid": "98b9f72c-1fbb-407a-876d-1505460b6ab4",
+            "allergens": [
+                "nut",
+                "peanut",
+                "sesame"
+            ],
+            "image": "/images/ingredients/98b9f72c-1fbb-407a-876d-1505460b6ab4.jpg"
         },
         {
             "label": "Brown onion",
@@ -95,12 +115,6 @@
             "gousto_uuid": "d240500f-9c26-4286-88bc-6be3e774e96b",
             "allergens": [],
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
-        },
-        {
-            "label": "Leek",
-            "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
-            "allergens": [],
-            "image": "/images/ingredients/645a774c-589a-4172-9f0b-dd51a3c7e739.jpg"
         },
         {
             "label": "Spinach (120g)",
@@ -171,28 +185,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 96,
-            "energy_kj": 411,
-            "fat_mg": 2717,
-            "fat_saturates_mg": 888,
-            "carbs_mg": 13991,
-            "carbs_sugars_mg": 3017,
-            "fibre_mg": 2813,
-            "protein_mg": 4058,
-            "salt_mg": 498,
+            "energy_kcal": 106,
+            "energy_kj": 457,
+            "fat_mg": 3084,
+            "fat_saturates_mg": 1011,
+            "carbs_mg": 15434,
+            "carbs_sugars_mg": 2902,
+            "fibre_mg": 2815,
+            "protein_mg": 4431,
+            "salt_mg": 570,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 528,
-            "energy_kj": 2263,
-            "fat_mg": 14937,
-            "fat_saturates_mg": 4883,
-            "carbs_mg": 76916,
-            "carbs_sugars_mg": 16586,
-            "fibre_mg": 15468,
-            "protein_mg": 22311,
-            "salt_mg": 2742,
-            "net_weight_mg": 549750
+            "energy_kcal": 512,
+            "energy_kj": 2194,
+            "fat_mg": 14797,
+            "fat_saturates_mg": 4855,
+            "carbs_mg": 74046,
+            "carbs_sugars_mg": 13926,
+            "fibre_mg": 13508,
+            "protein_mg": 21261,
+            "salt_mg": 2736,
+            "net_weight_mg": 479750
         }
     },
     "portion_sizes": {
@@ -225,7 +239,7 @@
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
-                "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
+                "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
                 "2411a798-b42d-48a1-8ead-8a7571b94690",
@@ -243,9 +257,9 @@
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
-                "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
-                "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
+                "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
                 "77066e71-83ba-4375-b8c3-8576da80b529",
                 "2411a798-b42d-48a1-8ead-8a7571b94690",
@@ -263,7 +277,7 @@
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
-                "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
+                "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
                 "2411a798-b42d-48a1-8ead-8a7571b94690",
@@ -281,9 +295,9 @@
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "645a774c-589a-4172-9f0b-dd51a3c7e739",
-                "8d49d7fe-1c65-4022-aae9-32fe3bb6df3a",
-                "d240500f-9c26-4286-88bc-6be3e774e96b",
+                "98b9f72c-1fbb-407a-876d-1505460b6ab4",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
+                "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
                 "77066e71-83ba-4375-b8c3-8576da80b529",
                 "2411a798-b42d-48a1-8ead-8a7571b94690",

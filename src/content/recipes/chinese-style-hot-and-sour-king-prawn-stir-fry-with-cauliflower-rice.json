@@ -9,6 +9,24 @@
     "cuisine": "Chinese",
     "ingredients": [
         {
+            "label": "White basmati rice (130g) x0",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (32g) x0",
+            "gousto_uuid": "30f763ae-dcfa-4e6a-afc5-929d5747b953",
+            "allergens": [],
+            "image": "/images/ingredients/30f763ae-dcfa-4e6a-afc5-929d5747b953.jpg"
+        },
+        {
+            "label": "White basmati rice (65g)",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
+        {
             "label": "Dried chilli flakes (0.5tsp) x0",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
@@ -42,12 +60,6 @@
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
-            "label": "White basmati rice (65g)",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
-        },
-        {
             "label": "Cornflour (1tsp)",
             "gousto_uuid": "c0fa06ef-52b1-4097-8bac-ec543c38468c",
             "allergens": [],
@@ -75,12 +87,6 @@
             "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
-            "label": "White basmati rice (32g) x0",
-            "gousto_uuid": "45feb642-fde6-40ab-ade9-3a0846f43cb5",
-            "allergens": [],
-            "image": "/images/ingredients/45feb642-fde6-40ab-ade9-3a0846f43cb5.jpg"
-        },
-        {
             "label": "Raw peeled king prawns (171g)",
             "gousto_uuid": "48c7b19a-f68a-4b5d-91ca-cab712024589",
             "allergens": [
@@ -88,12 +94,6 @@
                 "mollusc"
             ],
             "image": "/images/ingredients/48c7b19a-f68a-4b5d-91ca-cab712024589.jpg"
-        },
-        {
-            "label": "White basmati rice (130g) x0",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
         },
         {
             "label": "Rice vinegar (30ml)",
@@ -139,7 +139,7 @@
             "image": "/images/instructions/chinese-style-hot-and-sour-king-prawn-stir-fry-with-cauliflower-rice/step-1.jpg"
         },
         {
-            "instruction": "<p>Whilst the rice is cooking, top, tail, peel and finely slice your <strong>carrot[s]</strong> into matchsticks</p><p>Chop your <strong>white cup mushrooms</strong> into quarters</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add the <strong>carrot matchsticks</strong> and <strong>quartered mushrooms</strong> with a pinch of <strong>salt</strong> and cook for 4-5 min or until beginning to soften</p>",
+            "instruction": "<p>Whilst the rice is cooking, top, tail, peel and finely slice your <strong>carrot[s]</strong> into matchsticks</p><p>Chop your <strong>baby button mushrooms</strong> into quarters</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add the <strong>carrot matchsticks</strong> and <strong>quartered mushrooms</strong> with a pinch of <strong>salt</strong> and cook for 4-5 min or until beginning to soften</p>",
             "order": 2,
             "image": "/images/instructions/chinese-style-hot-and-sour-king-prawn-stir-fry-with-cauliflower-rice/step-2.jpg"
         },
@@ -209,6 +209,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "8fb1ac95-4011-4926-855f-864123a9c9ae",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
@@ -220,8 +221,7 @@
                 "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
-                "34ad5b48-6f2b-402b-8699-1237fb821ae2",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "34ad5b48-6f2b-402b-8699-1237fb821ae2"
             ]
         },
         "2": {
@@ -239,12 +239,13 @@
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "34ad5b48-6f2b-402b-8699-1237fb821ae2",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "8fb1ac95-4011-4926-855f-864123a9c9ae",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
@@ -258,8 +259,7 @@
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "34ad5b48-6f2b-402b-8699-1237fb821ae2",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
@@ -277,12 +277,13 @@
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "34ad5b48-6f2b-402b-8699-1237fb821ae2",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "8fb1ac95-4011-4926-855f-864123a9c9ae",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
@@ -296,8 +297,7 @@
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "34ad5b48-6f2b-402b-8699-1237fb821ae2",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         }
     },

@@ -13,11 +13,17 @@
     "gousto_id": "998",
     "rating": {
         "average": 4.5,
-        "count": 4376
+        "count": 4379
     },
     "description": "Sometimes you just need a classic roast, and this nifty option gives you those familiar flavours in a fraction of the time. You'll cook chicken in rich gravy and serve alongside tray-baked roast butternut, carrot, Tenderstem and potatoes.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
+            "allergens": [],
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
         {
             "label": "Chicken breast portions (2pcs)",
             "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
@@ -29,6 +35,20 @@
             "gousto_uuid": "f274998b-4e68-45a7-a637-b353b961427a",
             "allergens": [],
             "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
+        },
+        {
+            "label": "Panko breadcrumbs (20g) x0",
+            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
+        {
+            "label": "Tenderstem broccoli (80g)",
+            "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
+            "allergens": [],
+            "image": "/images/ingredients/f99089af-84d8-4c24-b144-079ed2f2726b.jpg"
         },
         {
             "label": "Panko breadcrumbs (40g)",
@@ -45,48 +65,10 @@
             "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
         },
         {
-            "label": "Shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-            "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
-        },
-        {
-            "label": "Panko breadcrumbs (20g) x0",
-            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
-        },
-        {
-            "label": "Chicken stock mix (5.5g) x0",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Butternut squash cubes (160g)",
-            "gousto_uuid": "88852431-ad79-4030-a171-252206c931f7",
-            "allergens": [],
-            "image": "/images/ingredients/88852431-ad79-4030-a171-252206c931f7.jpg"
-        },
-        {
             "label": "Dried sage (1tsp)",
             "gousto_uuid": "18a15bb6-5718-4215-b7e3-7db5d654c58f",
             "allergens": [],
             "image": "/images/ingredients/18a15bb6-5718-4215-b7e3-7db5d654c58f.jpg"
-        },
-        {
-            "label": "Carrot x2",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-            "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
         },
         {
             "label": "Garlic clove x4",
@@ -95,16 +77,34 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
+            "label": "Shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+        },
+        {
             "label": "Henderson's Relish (15ml)",
             "gousto_uuid": "65f1b281-6a5d-45cf-abc1-2b1b842cd0f1",
             "allergens": [],
             "image": "/images/ingredients/65f1b281-6a5d-45cf-abc1-2b1b842cd0f1.jpg"
         },
         {
-            "label": "Tenderstem broccoli (80g)",
-            "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
+            "label": "Chicken stock mix (5.5g) x0",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
-            "image": "/images/ingredients/f99089af-84d8-4c24-b144-079ed2f2726b.jpg"
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
+            "label": "Carrot x2",
+            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "allergens": [],
+            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
+        },
+        {
+            "label": "Butternut squash cubes (160g)",
+            "gousto_uuid": "88852431-ad79-4030-a171-252206c931f7",
+            "allergens": [],
+            "image": "/images/ingredients/88852431-ad79-4030-a171-252206c931f7.jpg"
         }
     ],
     "basics": [
@@ -117,27 +117,27 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Before you start cooking, take your <strong>chicken </strong>out of the fridge, open the packet and let it air</p><p>Preheat the oven to 200\u00b0C/ 180\u00b0C (fan)/ gas 6</p><p>Top, tail, peel and slice your <strong>carrot[s] </strong>into small bite-sized pieces</p><p>Dice your<strong> waxy</strong> <strong>potatoes</strong> (skins on), then crush 3/4 of your <strong>garlic cloves</strong> with the side of your knife (keeping the skins on)</p>",
+            "instruction": "<p>Before you start cooking, take your <strong>chicken </strong>out of the fridge, open the packet and let it air</p><p>Preheat the oven to 200\u00b0C/ 180\u00b0C (fan)/ gas 6</p><p>Top, tail, peel and slice your <strong>carrot[s] </strong>into small bite-sized pieces</p><p>Dice your<strong> waxy</strong> <strong>potatoes</strong> (skins on), then crush 3/4 of your <strong>garlic </strong>with the side of your knife (keeping the skins on)</p>",
             "order": 1,
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-1.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>chopped carrot</strong>,<strong> butternut squash cubes</strong>, <strong>potato</strong> and <strong>crushed garlic </strong>to a baking tray (or two!) with a generous drizzle of<strong> vegetable oil</strong> and a generous pinch of <strong>salt</strong> and <strong>pepper</strong></p><p>Put the baking tray[s] in the oven for 25-30 min or until the <strong>vegetables</strong> are tender and browned</p><p>Boil a kettle</p>",
+            "instruction": "<p>Add the <strong>chopped carrot</strong>,<strong> butternut squash cubes</strong>, <strong>diced potatoes</strong> and <strong>crushed garlic </strong>to a baking tray (or two!) with a generous drizzle of<strong> vegetable oil</strong> and a generous pinch of <strong>salt</strong> and <strong>pepper</strong></p><p>Put the baking tray[s] in the oven for 25-30 min or until the <strong>vegetables</strong> are tender and browned</p><p>Boil a kettle</p>",
             "order": 2,
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-2.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, peel and finely chop your <strong>shallot[s]</strong></p><p>Peel and finely chop (or grate) your <strong>remaining</strong> <strong>garlic</strong></p><p>Heat a large, wide-based pan with a large knob of <strong>butter</strong> over a medium heat</p><p>Once melted, add the <strong>chopped shallot</strong> and <strong>garlic</strong> and cook for 2-3 min or until the <strong>shallot</strong> has softened, then add your <strong>dried sage</strong> and cook for a further 30 sec \u2013 this is your <strong>sage & onion butter</strong></p>",
+            "instruction": "<p>Meanwhile, peel and finely chop your <strong>shallot[s]</strong></p><p>Peel and finely chop (or grate) the <strong>remaining</strong> <strong>garlic</strong></p><p>Heat a large, wide-based pan with a large knob of <strong>butter</strong> over a medium heat</p><p>Once melted, add the <strong>chopped shallot</strong> and <strong>garlic</strong> and cook for 2-3 min or until the <strong>shallot</strong> has softened, then add your <strong>dried sage</strong> and cook for a further 30 sec \u2013 this is your <strong>sage & onion butter</strong></p>",
             "order": 3,
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-3.jpg"
         },
         {
-            "instruction": "<p>Dissolve <strong>half </strong>your <strong>chicken stock mix</strong> (save the rest for later!) in 150ml<span class=\"text-purple\"> [220ml]</span> <span class=\"text-danger\">[300ml]</span><strong> boiled water</strong></p><p>Combine the <strong>chicken stock, panko breadcrumbs</strong> and the <strong>sage & onion butter</strong> in a bowl and set aside to cool and absorb the liquid</p><p>Meanwhile, place your hand flat onto your <strong>chicken breast portion[s]</strong></p><p>Slice in half as if you were cutting a burger bun, so you are left with two thinner pieces</p>",
+            "instruction": "<p>Dissolve <strong>half </strong>your <strong>chicken stock mix</strong> (save the rest for later!) in 150ml<span class=\"text-purple\"> [220ml]</span> <span class=\"text-danger\">[300ml]</span><strong> boiled water</strong></p><p>Combine the <strong>chicken stock, panko breadcrumbs</strong> and the <strong>sage & onion butter</strong> in a bowl and set aside to cool and absorb the liquid</p><p>Meanwhile, place your hand flat onto your <strong>chicken</strong></p><p>Slice in half as if you were cutting a burger bun, so you are left with two thinner pieces</p>",
             "order": 4,
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-4.jpg"
         },
         {
-            "instruction": "<p>Return the pan to a medium-high heat with a generous drizzle of <strong>vegetable oil</strong></p><p>Once hot, add the <strong>chicken breast portion[s] </strong>with a pinch of <strong>salt</strong> and <strong>pepper</strong> and cook for 3 min on each side or until browned on both sides</p><p>Add your<strong> Tenderstem broccoli</strong> to the baking tray with the <strong>vegetables</strong> for the last 10-12 min of cooking time</p>",
+            "instruction": "<p>Return the pan to a medium-high heat with a generous drizzle of <strong>vegetable oil</strong></p><p>Once hot, add the <strong>chicken </strong>with a pinch of <strong>salt</strong> and <strong>pepper</strong> and cook for 3 min on each side or until browned on both sides</p><p>Add your<strong> Tenderstem broccoli</strong> to the baking tray with the <strong>vegetables</strong> for the last 10-12 min of cooking time</p>",
             "order": 5,
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-5.jpg"
         },
@@ -147,7 +147,7 @@
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-6.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, dissolve your <strong>remaining</strong> <strong>chicken stock mix</strong> in 250ml <span class=\"text-purple\">[325ml]</span> <span class=\"text-danger\">[425ml]</span> <strong>boiled water</strong></p><p>Add 1 tbsp<span class=\"text-danger\"> </span><span class=\"text-purple\">[1 1/2 tbsp] </span><span class=\"text-danger\">[2 tbsp]</span> <strong>flour</strong> to the pan and stir for 30 secs</p><p>Stir in the <strong>chicken stock</strong> and<strong> Henderson's Relish</strong> and cook, covered, for 10-12 min or until the chicken is cooked through (no pink meat!) and the gravy has thickened</p><p>Once cooked, remove the <strong>chicken</strong> and slice finely</p>",
+            "instruction": "<p>Meanwhile, dissolve the <strong>remaining</strong> <strong>chicken stock mix</strong> in 250ml <span class=\"text-purple\">[325ml]</span> <span class=\"text-danger\">[425ml]</span> <strong>boiled water</strong></p><p>Add 1 tbsp<span class=\"text-danger\"> </span><span class=\"text-purple\">[1 1/2 tbsp] </span><span class=\"text-danger\">[2 tbsp]</span> <strong>flour</strong> to the pan and stir for 30 secs</p><p>Stir in the <strong>chicken stock</strong> and<strong> Henderson's Relish</strong> and cook, covered, for 10-12 min or until the chicken is cooked through (no pink meat!) and the gravy has thickened</p><p>Once cooked, remove the <strong>chicken</strong> and slice finely</p>",
             "order": 7,
             "image": "/images/instructions/pan-fried-chicken-roast-veg-stuffing-and-gravy/step-7.jpg"
         },
@@ -161,27 +161,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 74,
-            "energy_kj": 316,
-            "fat_mg": 528,
-            "fat_saturates_mg": 134,
+            "energy_kcal": 75,
+            "energy_kj": 321,
+            "fat_mg": 900,
+            "fat_saturates_mg": 241,
             "carbs_mg": 10741,
             "carbs_sugars_mg": 2785,
             "fibre_mg": 1755,
-            "protein_mg": 7167,
-            "salt_mg": 266,
+            "protein_mg": 6641,
+            "salt_mg": 261,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 426,
-            "energy_kj": 1808,
-            "fat_mg": 3017,
-            "fat_saturates_mg": 765,
+            "energy_kcal": 433,
+            "energy_kj": 1836,
+            "fat_mg": 5142,
+            "fat_saturates_mg": 1378,
             "carbs_mg": 61320,
             "carbs_sugars_mg": 15902,
             "fibre_mg": 10022,
-            "protein_mg": 40915,
-            "salt_mg": 1519,
+            "protein_mg": 37915,
+            "salt_mg": 1494,
             "net_weight_mg": 570850
         }
     },

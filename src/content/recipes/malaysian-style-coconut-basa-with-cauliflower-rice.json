@@ -9,6 +9,36 @@
     "cuisine": "Asian",
     "ingredients": [
         {
+            "label": "Ground turmeric (0.5tsp) x0",
+            "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
+            "allergens": [],
+            "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
+        },
+        {
+            "label": "Ground turmeric (1tsp)",
+            "gousto_uuid": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
+            "allergens": [],
+            "image": "/images/ingredients/44c1fcff-fadf-4b69-9d80-3d0b0baa38a2.jpg"
+        },
+        {
+            "label": "White basmati rice (130g) x0",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (32g) x0",
+            "gousto_uuid": "30f763ae-dcfa-4e6a-afc5-929d5747b953",
+            "allergens": [],
+            "image": "/images/ingredients/30f763ae-dcfa-4e6a-afc5-929d5747b953.jpg"
+        },
+        {
+            "label": "White basmati rice (65g)",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
+        {
             "label": "Soy sauce (8ml) x0",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
             "allergens": [
@@ -38,46 +68,16 @@
             "image": "/images/ingredients/c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33.jpg"
         },
         {
-            "label": "Ground turmeric (0.5tsp) x0",
-            "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
-            "allergens": [],
-            "image": "/images/ingredients/abb2d5af-131e-4e82-9546-705ab185cc37.jpg"
-        },
-        {
-            "label": "Ground turmeric (1tsp)",
-            "gousto_uuid": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
-            "allergens": [],
-            "image": "/images/ingredients/44c1fcff-fadf-4b69-9d80-3d0b0baa38a2.jpg"
-        },
-        {
-            "label": "White basmati rice (65g)",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
-        },
-        {
             "label": "Fresh lemongrass stalk",
             "gousto_uuid": "2476df32-b40f-4b37-8362-18bf91f454dd",
             "allergens": [],
             "image": "/images/ingredients/2476df32-b40f-4b37-8362-18bf91f454dd.jpg"
         },
         {
-            "label": "White basmati rice (32g) x0",
-            "gousto_uuid": "45feb642-fde6-40ab-ade9-3a0846f43cb5",
-            "allergens": [],
-            "image": "/images/ingredients/45feb642-fde6-40ab-ade9-3a0846f43cb5.jpg"
-        },
-        {
             "label": "Shallot",
             "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
             "allergens": [],
             "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
-        },
-        {
-            "label": "White basmati rice (130g) x0",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
         },
         {
             "label": "Ginger & garlic paste (15g)",
@@ -205,8 +205,8 @@
             "energy_kcal": 113,
             "energy_kj": 476,
             "fat_mg": 4545,
-            "fat_saturates_mg": 2534,
-            "carbs_mg": 9883,
+            "fat_saturates_mg": 2538,
+            "carbs_mg": 9944,
             "carbs_sugars_mg": 2546,
             "fibre_mg": 1405,
             "protein_mg": 7573,
@@ -215,13 +215,13 @@
         },
         "per_portion": {
             "energy_kcal": 420,
-            "energy_kj": 1769,
-            "fat_mg": 16887,
-            "fat_saturates_mg": 9415,
-            "carbs_mg": 36718,
+            "energy_kj": 1770,
+            "fat_mg": 16886,
+            "fat_saturates_mg": 9429,
+            "carbs_mg": 36945,
             "carbs_sugars_mg": 9460,
             "fibre_mg": 5223,
-            "protein_mg": 28136,
+            "protein_mg": 28135,
             "salt_mg": 1650,
             "net_weight_mg": 371500
         }
@@ -230,6 +230,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -242,8 +243,7 @@
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "eec1fcf3-a00b-4321-bedd-d7a5c1754881"
             ]
         },
         "2": {
@@ -262,12 +262,13 @@
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -282,8 +283,7 @@
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
@@ -302,12 +302,13 @@
                 "52ffb449-10c7-44e4-bd30-6c6f1c8ff66f",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -322,8 +323,7 @@
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         }
     },

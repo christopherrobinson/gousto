@@ -14,11 +14,23 @@
     "gousto_id": "1002",
     "rating": {
         "average": 4.5,
-        "count": 2956
+        "count": 2958
     },
     "description": "Teriyaki is a Japanese glaze made from soy sauce, sugar, mirin (a type of sweet Japanese rice wine) and garlic. You'll smother juicy chunks of aubergine in the glaze and serve alongside crispy kale seaweed, zingy radish slaw and fluffy rice, creating the ultimate rice bowl! Under 600 calories.",
     "cuisine": "Asian",
     "ingredients": [
+        {
+            "label": "White basmati rice (100g)",
+            "gousto_uuid": "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
+            "allergens": [],
+            "image": "/images/ingredients/7f229ae1-a194-4f7f-8dd0-79bb6494cab2.jpg"
+        },
+        {
+            "label": "White basmati rice (50g) x0",
+            "gousto_uuid": "c73a42e9-151b-4657-a860-1d5532d04bb7",
+            "allergens": [],
+            "image": "/images/ingredients/c73a42e9-151b-4657-a860-1d5532d04bb7.jpg"
+        },
         {
             "label": "Spring onion",
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
@@ -60,12 +72,6 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "White basmati rice (50g) x0",
-            "gousto_uuid": "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-            "allergens": [],
-            "image": "/images/ingredients/10c033ea-4d86-4744-8d88-d51dea5d2e21.jpg"
-        },
-        {
             "label": "Toasted sesame seeds (5g)",
             "gousto_uuid": "c4363e48-068d-4650-b2c3-afba8d801197",
             "allergens": [
@@ -77,12 +83,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/c4363e48-068d-4650-b2c3-afba8d801197.jpg"
-        },
-        {
-            "label": "White basmati rice (100g)",
-            "gousto_uuid": "17539a8a-b808-4c93-b53d-a21d91136575",
-            "allergens": [],
-            "image": "/images/ingredients/17539a8a-b808-4c93-b53d-a21d91136575.jpg"
         },
         {
             "label": "Rice vinegar (30ml) x0",
@@ -201,7 +201,7 @@
             "energy_kj": 352,
             "fat_mg": 2474,
             "fat_saturates_mg": 260,
-            "carbs_mg": 12288,
+            "carbs_mg": 12332,
             "carbs_sugars_mg": 4053,
             "fibre_mg": 1788,
             "protein_mg": 2442,
@@ -213,7 +213,7 @@
             "energy_kj": 1729,
             "fat_mg": 12151,
             "fat_saturates_mg": 1281,
-            "carbs_mg": 60338,
+            "carbs_mg": 60553,
             "carbs_sugars_mg": 19901,
             "fibre_mg": 8781,
             "protein_mg": 11995,
@@ -225,6 +225,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -235,8 +236,7 @@
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
-                "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21"
+                "f534e5d8-7fda-4f1f-865b-fbe2986780ae"
             ]
         },
         "2": {
@@ -253,12 +253,13 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
-                "17539a8a-b808-4c93-b53d-a21d91136575"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -271,8 +272,7 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "524ef883-ad25-46dd-9fd2-2d680cacc646",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         },
         "4": {
@@ -289,12 +289,13 @@
                 "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "524ef883-ad25-46dd-9fd2-2d680cacc646",
-                "17539a8a-b808-4c93-b53d-a21d91136575"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "eeb593a0-6ae3-43cb-b5d4-e4f7a60eaa80",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -308,8 +309,7 @@
                 "c4363e48-068d-4650-b2c3-afba8d801197",
                 "524ef883-ad25-46dd-9fd2-2d680cacc646",
                 "f534e5d8-7fda-4f1f-865b-fbe2986780ae",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         }
     },

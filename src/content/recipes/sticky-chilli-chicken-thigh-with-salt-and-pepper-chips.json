@@ -12,28 +12,37 @@
     "gousto_id": "2507",
     "rating": {
         "average": 4.5,
-        "count": 50847
+        "count": 50859
     },
     "description": "Wake up your tastebuds with this sticky chilli sensation. You'll smother crispy chicken in a sweet and spicy sauce, then add a side of salt and pepper chips to serve. Winner!",
     "cuisine": "Chinese",
     "ingredients": [
         {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Red chilli",
+            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
+            "allergens": [],
+            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
+        },
+        {
             "label": "Diced chicken thigh (250g)",
             "gousto_uuid": "8a036593-6a6b-4f8f-82dd-82280ff1029e",
             "allergens": [],
             "image": "/images/ingredients/8a036593-6a6b-4f8f-82dd-82280ff1029e.jpg"
-        },
-        {
-            "label": "Five-spice mix (1tsp)",
-            "gousto_uuid": "8257b5b7-8205-4fce-b42e-701a27261689",
-            "allergens": [],
-            "image": "/images/ingredients/8257b5b7-8205-4fce-b42e-701a27261689.jpg"
-        },
-        {
-            "label": "Fresh root ginger (15g)",
-            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
-            "allergens": [],
-            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
             "label": "Cornflour (4tbsp)",
@@ -42,22 +51,10 @@
             "image": "/images/ingredients/f585c6d0-f7a2-45b2-982b-da6abee7c2a5.jpg"
         },
         {
-            "label": "Chinese rice wine (15ml)",
-            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
+            "label": "Five-spice mix (1tsp)",
+            "gousto_uuid": "8257b5b7-8205-4fce-b42e-701a27261689",
             "allergens": [],
-            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
-        },
-        {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
-        },
-        {
-            "label": "Honey (25g)",
-            "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
-            "allergens": [],
-            "image": "/images/ingredients/79f3354b-1c07-4ead-a173-f97e8cddd843.jpg"
+            "image": "/images/ingredients/8257b5b7-8205-4fce-b42e-701a27261689.jpg"
         },
         {
             "label": "Garlic clove x2",
@@ -66,10 +63,16 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "label": "Fresh root ginger (15g)",
+            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
             "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
+        },
+        {
+            "label": "Chinese rice wine (30ml) x0",
+            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "allergens": [],
+            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
         },
         {
             "label": "Coriander (5g)",
@@ -84,16 +87,10 @@
             "image": "/images/ingredients/58516075-8bdb-4567-9f1f-8135695ef8b4.jpg"
         },
         {
-            "label": "Chinese rice wine (30ml) x0",
-            "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
+            "label": "Chinese rice wine (15ml)",
+            "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
             "allergens": [],
-            "image": "/images/ingredients/f2217fd7-f969-4d05-82fd-136b9eb966e3.jpg"
-        },
-        {
-            "label": "White potato x4",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
-            "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+            "image": "/images/ingredients/3484b3bc-d97e-4b98-b132-7ead51932d79.jpg"
         },
         {
             "label": "Soy sauce (15ml)",
@@ -105,19 +102,22 @@
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         },
         {
-            "label": "Red chilli",
-            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
             "allergens": [],
-            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
-            "label": "Soy sauce (8ml) x0",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+            "label": "White potato x4",
+            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
+            "allergens": [],
+            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+        },
+        {
+            "label": "Honey (25g)",
+            "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
+            "allergens": [],
+            "image": "/images/ingredients/79f3354b-1c07-4ead-a173-f97e8cddd843.jpg"
         }
     ],
     "basics": [
@@ -133,7 +133,7 @@
             "image": "/images/instructions/sticky-chilli-chicken-thigh-with-salt-and-pepper-chips/step-1.jpg"
         },
         {
-            "instruction": "<p>While the chips are cooking, add your <strong>diced</strong> <strong>chicken thigh</strong> to a bowl with your <strong>cornflour</strong> and give it a good mix up until all the chicken is coated</p><p>Heat a large, wide-based pan (preferably non-stick) with a very large drizzle of <strong>vegetable oil</strong> over a high heat</p>",
+            "instruction": "<p>While the chips are cooking, add your <strong>diced</strong> <strong>chicken </strong>to a bowl with your <strong>cornflour</strong> and give it a good mix up until all the chicken is coated</p><p>Heat a large, wide-based pan (preferably non-stick) with a very large drizzle of <strong>vegetable oil</strong> over a high heat</p>",
             "order": 2,
             "image": "/images/instructions/sticky-chilli-chicken-thigh-with-salt-and-pepper-chips/step-2.jpg"
         },
@@ -173,27 +173,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 97,
-            "energy_kj": 413,
-            "fat_mg": 870,
-            "fat_saturates_mg": 236,
-            "carbs_mg": 16014,
-            "carbs_sugars_mg": 4366,
+            "energy_kcal": 110,
+            "energy_kj": 464,
+            "fat_mg": 2513,
+            "fat_saturates_mg": 669,
+            "carbs_mg": 16035,
+            "carbs_sugars_mg": 4332,
             "fibre_mg": 1388,
-            "protein_mg": 6780,
-            "salt_mg": 321,
+            "protein_mg": 6193,
+            "salt_mg": 300,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 469,
-            "energy_kj": 1989,
-            "fat_mg": 4189,
-            "fat_saturates_mg": 1139,
-            "carbs_mg": 77031,
-            "carbs_sugars_mg": 21001,
+            "energy_kcal": 530,
+            "energy_kj": 2235,
+            "fat_mg": 12089,
+            "fat_saturates_mg": 3219,
+            "carbs_mg": 77131,
+            "carbs_sugars_mg": 20841,
             "fibre_mg": 6679,
-            "protein_mg": 32613,
-            "salt_mg": 1547,
+            "protein_mg": 29793,
+            "salt_mg": 1446,
             "net_weight_mg": 481000
         }
     },

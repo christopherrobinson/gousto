@@ -7,17 +7,11 @@
     "gousto_id": "3699",
     "rating": {
         "average": 4.5,
-        "count": 4018
+        "count": 4019
     },
     "description": "This light, refreshing dish is inspired by delicate Japanese flavours. You'll grill miso-marinated haddock bites until charred, before serving with cooked rice and a crunchy cucumber and edamame salad.",
     "cuisine": "Japanese",
     "ingredients": [
-        {
-            "label": "15ml rice vinegar",
-            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-            "allergens": [],
-            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
-        },
         {
             "label": "160g blanched edamame beans",
             "gousto_uuid": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
@@ -27,10 +21,12 @@
             "image": "/images/ingredients/1d0b02a0-920b-44e2-b8c4-2fb993205dc1.jpg"
         },
         {
-            "label": "130g white long grain rice",
-            "gousto_uuid": "49bc207f-e86c-4423-a7c1-86dc4718abc8",
-            "allergens": [],
-            "image": "/images/ingredients/49bc207f-e86c-4423-a7c1-86dc4718abc8.jpg"
+            "label": "200g haddock bites",
+            "gousto_uuid": "87633123-034b-415f-8107-af23c882cc90",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/87633123-034b-415f-8107-af23c882cc90.jpg"
         },
         {
             "label": "1/2 tsp dried chilli flakes",
@@ -59,13 +55,16 @@
             "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
         },
         {
-            "label": "15ml soy sauce",
-            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
+            "label": "130g white long grain rice",
+            "gousto_uuid": "49bc207f-e86c-4423-a7c1-86dc4718abc8",
+            "allergens": [],
+            "image": "/images/ingredients/49bc207f-e86c-4423-a7c1-86dc4718abc8.jpg"
+        },
+        {
+            "label": "1 shallot",
+            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "allergens": [],
+            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
         },
         {
             "label": "17g white miso paste",
@@ -76,24 +75,25 @@
             "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
         },
         {
-            "label": "200g haddock bites",
-            "gousto_uuid": "87633123-034b-415f-8107-af23c882cc90",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/87633123-034b-415f-8107-af23c882cc90.jpg"
-        },
-        {
             "label": "1/2 cucumber",
             "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
             "allergens": [],
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
         },
         {
-            "label": "1 shallot",
-            "gousto_uuid": "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
+            "label": "15ml rice vinegar",
+            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
             "allergens": [],
-            "image": "/images/ingredients/3139eeba-c3a1-477c-87e6-50ba5c3d21e0.jpg"
+            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
+        },
+        {
+            "label": "15ml soy sauce",
+            "gousto_uuid": "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
         }
     ],
     "basics": [

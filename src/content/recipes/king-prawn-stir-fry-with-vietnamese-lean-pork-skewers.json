@@ -13,6 +13,18 @@
     "cuisine": "Vietnamese",
     "ingredients": [
         {
+            "label": "White basmati rice (100g)",
+            "gousto_uuid": "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
+            "allergens": [],
+            "image": "/images/ingredients/7f229ae1-a194-4f7f-8dd0-79bb6494cab2.jpg"
+        },
+        {
+            "label": "White basmati rice (50g) x0",
+            "gousto_uuid": "c73a42e9-151b-4657-a860-1d5532d04bb7",
+            "allergens": [],
+            "image": "/images/ingredients/c73a42e9-151b-4657-a860-1d5532d04bb7.jpg"
+        },
+        {
             "label": "Lean pork mince (<5% fat) (125g) x0",
             "gousto_uuid": "8371ef5f-f73b-40c3-8e15-595f00820cf4",
             "allergens": [],
@@ -61,12 +73,6 @@
             "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
-            "label": "White basmati rice (50g) x0",
-            "gousto_uuid": "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-            "allergens": [],
-            "image": "/images/ingredients/10c033ea-4d86-4744-8d88-d51dea5d2e21.jpg"
-        },
-        {
             "label": "Raw peeled king prawns (171g)",
             "gousto_uuid": "48c7b19a-f68a-4b5d-91ca-cab712024589",
             "allergens": [
@@ -74,12 +80,6 @@
                 "mollusc"
             ],
             "image": "/images/ingredients/48c7b19a-f68a-4b5d-91ca-cab712024589.jpg"
-        },
-        {
-            "label": "White basmati rice (100g)",
-            "gousto_uuid": "17539a8a-b808-4c93-b53d-a21d91136575",
-            "allergens": [],
-            "image": "/images/ingredients/17539a8a-b808-4c93-b53d-a21d91136575.jpg"
         },
         {
             "label": "Red Thai curry paste (20g)",
@@ -209,7 +209,7 @@
             "energy_kj": 397,
             "fat_mg": 1473,
             "fat_saturates_mg": 377,
-            "carbs_mg": 10815,
+            "carbs_mg": 10857,
             "carbs_sugars_mg": 3054,
             "fibre_mg": 1198,
             "protein_mg": 8987,
@@ -221,7 +221,7 @@
             "energy_kj": 2057,
             "fat_mg": 7624,
             "fat_saturates_mg": 1956,
-            "carbs_mg": 55972,
+            "carbs_mg": 56187,
             "carbs_sugars_mg": 15805,
             "fibre_mg": 6202,
             "protein_mg": 46509,
@@ -233,6 +233,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
@@ -245,7 +246,6 @@
                 "551b135e-3ca3-4d63-b219-23c9a068523d",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         },
@@ -264,13 +264,14 @@
                 "551b135e-3ca3-4d63-b219-23c9a068523d",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
@@ -283,11 +284,10 @@
                 "d46409ec-5df2-494f-94ef-03c520a73a08",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "551b135e-3ca3-4d63-b219-23c9a068523d",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         },
@@ -306,13 +306,14 @@
                 "551b135e-3ca3-4d63-b219-23c9a068523d",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
@@ -325,11 +326,10 @@
                 "84cc9e51-a2e2-4fd7-9fc4-42006c6c5c85",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
                 "551b135e-3ca3-4d63-b219-23c9a068523d",
-                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "0e2ffb8a-1ec8-4845-b75b-92e6710ff3fd",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
         }

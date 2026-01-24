@@ -7,23 +7,51 @@
     "gousto_id": "4927",
     "rating": {
         "average": 4,
-        "count": 861
+        "count": 862
     },
     "description": "Shake up patatas bravas with our Japanese twist. First you'll season potatoes with spicy Japanese 'togarashi'. Bake them until crispy, then top with spicy, umami-packed prawns, sesame seeds and spring onion to serve.",
     "cuisine": "Japanese",
     "ingredients": [
         {
-            "label": "8ml sriracha hot chilli sauce",
-            "gousto_uuid": "8ab4090b-1e9f-4761-abdb-c3911390a80a",
+            "label": "160g blanched edamame beans",
+            "gousto_uuid": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
             "allergens": [
-                "fish",
-                "gluten",
-                "mustard",
-                "peanut",
-                "sesame",
                 "soya"
             ],
-            "image": "/images/ingredients/8ab4090b-1e9f-4761-abdb-c3911390a80a.jpg"
+            "image": "/images/ingredients/1d0b02a0-920b-44e2-b8c4-2fb993205dc1.jpg"
+        },
+        {
+            "label": "1 spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "1 garlic clove",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "15g fresh root ginger",
+            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
+            "allergens": [],
+            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
+        },
+        {
+            "label": "2g shichimi togarashi",
+            "gousto_uuid": "5538b1f1-7fd1-4355-b5fb-afbdb25c5a47",
+            "allergens": [],
+            "image": "/images/ingredients/5538b1f1-7fd1-4355-b5fb-afbdb25c5a47.jpg"
+        },
+        {
+            "label": "171g raw peeled king prawns",
+            "gousto_uuid": "48c7b19a-f68a-4b5d-91ca-cab712024589",
+            "allergens": [
+                "crustacean",
+                "mollusc"
+            ],
+            "image": "/images/ingredients/48c7b19a-f68a-4b5d-91ca-cab712024589.jpg"
         },
         {
             "label": "17g white miso paste",
@@ -40,41 +68,6 @@
             "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
         },
         {
-            "label": "171g raw peeled king prawns",
-            "gousto_uuid": "48c7b19a-f68a-4b5d-91ca-cab712024589",
-            "allergens": [
-                "crustacean",
-                "mollusc"
-            ],
-            "image": "/images/ingredients/48c7b19a-f68a-4b5d-91ca-cab712024589.jpg"
-        },
-        {
-            "label": "15g fresh root ginger",
-            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
-            "allergens": [],
-            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
-        },
-        {
-            "label": "160g blanched edamame beans",
-            "gousto_uuid": "1d0b02a0-920b-44e2-b8c4-2fb993205dc1",
-            "allergens": [
-                "soya"
-            ],
-            "image": "/images/ingredients/1d0b02a0-920b-44e2-b8c4-2fb993205dc1.jpg"
-        },
-        {
-            "label": "2g shichimi togarashi",
-            "gousto_uuid": "5538b1f1-7fd1-4355-b5fb-afbdb25c5a47",
-            "allergens": [],
-            "image": "/images/ingredients/5538b1f1-7fd1-4355-b5fb-afbdb25c5a47.jpg"
-        },
-        {
-            "label": "4 white potatoes",
-            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
-            "allergens": [],
-            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
-        },
-        {
             "label": "5g black sesame seeds",
             "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
             "allergens": [
@@ -88,16 +81,23 @@
             "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
-            "label": "1 spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "label": "4 white potatoes",
+            "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
         },
         {
-            "label": "1 garlic clove",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+            "label": "8ml sriracha hot chilli sauce",
+            "gousto_uuid": "8ab4090b-1e9f-4761-abdb-c3911390a80a",
+            "allergens": [
+                "fish",
+                "gluten",
+                "mustard",
+                "peanut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/8ab4090b-1e9f-4761-abdb-c3911390a80a.jpg"
         }
     ],
     "basics": [

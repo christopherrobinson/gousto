@@ -59,10 +59,16 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
+            "label": "Brown long grain rice (130g)",
+            "gousto_uuid": "39e0c941-6dad-405a-9987-2b662c32bcd8",
             "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
+            "image": "/images/ingredients/39e0c941-6dad-405a-9987-2b662c32bcd8.jpg"
+        },
+        {
+            "label": "Brown long grain rice (65g) x0",
+            "gousto_uuid": "a82cde06-2866-4881-8a56-f9b1c5383901",
+            "allergens": [],
+            "image": "/images/ingredients/a82cde06-2866-4881-8a56-f9b1c5383901.jpg"
         },
         {
             "label": "Natural yoghurt (80g)",
@@ -77,6 +83,19 @@
             "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
             "allergens": [],
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Shredded red cabbage (150g)",
@@ -95,12 +114,6 @@
             "gousto_uuid": "40769a3c-952b-492d-85af-b568ada4dd95",
             "allergens": [],
             "image": "/images/ingredients/40769a3c-952b-492d-85af-b568ada4dd95.jpg"
-        },
-        {
-            "label": "Brown basmati rice (130g)",
-            "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
-            "allergens": [],
-            "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
         }
     ],
     "basics": [
@@ -142,7 +155,7 @@
             "image": "/images/instructions/aromatic-tandoori-meat-free-chick-n-with-brown-rice-salad/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>cooled rice</strong>, <strong>nigella seeds</strong>,<strong> sliced</strong> <strong>cucumber</strong>, <strong>shredded red cabbage </strong>and most of the <strong>chopped coriander </strong>and <strong>mint </strong>(save the rest for garnish!) to a large bowl</p><p>Squeeze the juice of the <strong>lime[s]</strong> into the bowl with a drizzle of <strong>olive oil </strong>and give everything a good mix up \u2013 this is your<strong> rice salad</strong></p>",
+            "instruction": "<p>Add the <strong>cooled rice</strong>, <strong>black sesame seeds</strong>,<strong> sliced</strong> <strong>cucumber</strong>, <strong>shredded red cabbage </strong>and most of the <strong>chopped coriander </strong>and <strong>mint </strong>(save the rest for garnish!) to a large bowl</p><p>Squeeze the juice of the <strong>lime[s]</strong> into the bowl with a drizzle of <strong>olive oil </strong>and give everything a good mix up \u2013 this is your<strong> rice salad</strong></p>",
             "order": 7,
             "image": "/images/instructions/aromatic-tandoori-meat-free-chick-n-with-brown-rice-salad/step-7.jpg"
         },
@@ -152,42 +165,47 @@
         }
     ],
     "allergens": [
+        "celery",
         "egg",
+        "fish",
         "milk",
         "mustard",
+        "nut",
+        "sesame",
         "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 121,
-            "energy_kj": 509,
-            "fat_mg": 3874,
-            "fat_saturates_mg": 554,
-            "carbs_mg": 14764,
-            "carbs_sugars_mg": 1944,
-            "fibre_mg": 2719,
-            "protein_mg": 6264,
-            "salt_mg": 442,
+            "energy_kcal": 123,
+            "energy_kj": 520,
+            "fat_mg": 3953,
+            "fat_saturates_mg": 549,
+            "carbs_mg": 14801,
+            "carbs_sugars_mg": 1957,
+            "fibre_mg": 2557,
+            "protein_mg": 6194,
+            "salt_mg": 435,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 511,
-            "energy_kj": 2147,
-            "fat_mg": 16321,
-            "fat_saturates_mg": 2337,
-            "carbs_mg": 62197,
-            "carbs_sugars_mg": 8193,
-            "fibre_mg": 11456,
-            "protein_mg": 26391,
-            "salt_mg": 1862,
-            "net_weight_mg": 421250
+            "energy_kcal": 523,
+            "energy_kj": 2199,
+            "fat_mg": 16692,
+            "fat_saturates_mg": 2321,
+            "carbs_mg": 62498,
+            "carbs_sugars_mg": 8266,
+            "fibre_mg": 10799,
+            "protein_mg": 26158,
+            "salt_mg": 1841,
+            "net_weight_mg": 422250
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -196,14 +214,14 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
@@ -212,14 +230,15 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
+                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -229,14 +248,14 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
@@ -245,14 +264,15 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
+                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -263,7 +283,6 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7"
             ]
         }

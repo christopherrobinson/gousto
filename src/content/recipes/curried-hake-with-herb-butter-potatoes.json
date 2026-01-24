@@ -13,6 +13,12 @@
     "cuisine": "Indian",
     "ingredients": [
         {
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
+            "allergens": [],
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
+        {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
@@ -57,18 +63,6 @@
             "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
-        },
-        {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
-        },
-        {
             "label": "Baby leaf salad (50g)",
             "gousto_uuid": "40c60e47-6a07-456c-b2fe-c551430de3fd",
             "allergens": [],
@@ -91,6 +85,19 @@
             "gousto_uuid": "b2311aae-125d-4995-b0fb-ce577dd2f983",
             "allergens": [],
             "image": "/images/ingredients/b2311aae-125d-4995-b0fb-ce577dd2f983.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Coriander & mint (10g)",
@@ -129,7 +136,7 @@
             "image": "/images/instructions/curried-hake-with-herb-butter-potatoes/step-4.jpg"
         },
         {
-            "instruction": "<p>Combine your <strong>cider vinegar </strong>and<strong> chopped ginger </strong>in a bowl with the <strong>sliced cucumber</strong>, <strong>sliced shallot</strong> and your <strong>nigella seeds</strong></p><p>Season with a pinch of <strong>salt</strong> and <strong>sugar</strong> \u2013 this is your <strong>quick-pickled cucumber salad</strong></p>",
+            "instruction": "<p>Combine your <strong>cider vinegar </strong>and<strong> chopped ginger </strong>in a bowl with the <strong>sliced cucumber</strong>, <strong>sliced shallot</strong> and your <strong>black sesame seeds</strong></p><p>Season with a pinch of <strong>salt</strong> and <strong>sugar</strong> \u2013 this is your <strong>quick-pickled cucumber salad</strong></p>",
             "order": 5,
             "image": "/images/instructions/curried-hake-with-herb-butter-potatoes/step-5.jpg"
         },
@@ -149,32 +156,37 @@
         }
     ],
     "allergens": [
-        "fish"
+        "celery",
+        "fish",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 61,
-            "energy_kj": 258,
-            "fat_mg": 854,
-            "fat_saturates_mg": 149,
-            "carbs_mg": 8073,
-            "carbs_sugars_mg": 1162,
-            "fibre_mg": 1460,
-            "protein_mg": 5713,
-            "salt_mg": 179,
+            "energy_kcal": 63,
+            "energy_kj": 267,
+            "fat_mg": 1125,
+            "fat_saturates_mg": 187,
+            "carbs_mg": 7986,
+            "carbs_sugars_mg": 1161,
+            "fibre_mg": 1409,
+            "protein_mg": 5723,
+            "salt_mg": 183,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 257,
-            "energy_kj": 1090,
-            "fat_mg": 3599,
-            "fat_saturates_mg": 631,
-            "carbs_mg": 34008,
-            "carbs_sugars_mg": 4899,
-            "fibre_mg": 6151,
-            "protein_mg": 24068,
-            "salt_mg": 758,
-            "net_weight_mg": 421250
+            "energy_kcal": 267,
+            "energy_kj": 1130,
+            "fat_mg": 4751,
+            "fat_saturates_mg": 790,
+            "carbs_mg": 33724,
+            "carbs_sugars_mg": 4906,
+            "fibre_mg": 5950,
+            "protein_mg": 24166,
+            "salt_mg": 774,
+            "net_weight_mg": 422250
         }
     },
     "portion_sizes": {
@@ -182,6 +194,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -189,7 +202,6 @@
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]
@@ -198,6 +210,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -205,7 +218,6 @@
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]
@@ -214,6 +226,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -222,7 +235,6 @@
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]
@@ -231,6 +243,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -238,7 +251,6 @@
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]
@@ -247,6 +259,7 @@
             "is_offered": true,
             "ingredients_skus": [
                 "40c60e47-6a07-456c-b2fe-c551430de3fd",
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
@@ -255,7 +268,6 @@
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "04d00729-52ec-4664-abf3-7deeca96c6d8"
             ]

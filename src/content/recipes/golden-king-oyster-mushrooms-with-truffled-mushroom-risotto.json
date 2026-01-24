@@ -7,11 +7,20 @@
     "gousto_id": "8782",
     "rating": {
         "average": 4.5,
-        "count": 111
+        "count": 112
     },
     "description": "Mushroom maestro? You'll love this risotto simmered with chestnut mushrooms and topped with pan-fried king oyster mushrooms. Finish with a drizzle of truffle oil for a dish that puts the fun in fungi.",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
         {
             "label": "Cornish clotted cream (40g)",
             "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
@@ -134,7 +143,7 @@
             "image": "/images/instructions/golden-king-oyster-mushrooms-with-truffled-mushroom-risotto/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the rice is cooked, add your <strong>vegetable stock mix </strong>with <strong>half </strong>your <strong>grated Italian hard cheese </strong>(save some for garnish!)<strong> </strong>and your <strong>clotted cream </strong>and stir it all together</p><p>Season with a generous pinch of <strong>salt </strong>cook for 1-2 min or until thickened \u2013 this is your<strong> mushroom risotto</strong></p>",
+            "instruction": "<p>Once the rice is cooked, add your <strong>vegetable stock mix </strong>with <strong>half </strong>your <strong>grated Italian hard cheese </strong>(save some for garnish!)<strong> </strong>and your <strong>clotted cream </strong>and stir it all together</p><p>Season with a pinch of <strong>salt </strong>cook for 1-2 min or until thickened \u2013 this is your<strong> mushroom risotto</strong></p>",
             "order": 7,
             "image": "/images/instructions/golden-king-oyster-mushrooms-with-truffled-mushroom-risotto/step-7.jpg"
         },
@@ -144,32 +153,34 @@
         }
     ],
     "allergens": [
-        "milk"
+        "gluten",
+        "milk",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 173,
-            "energy_kj": 730,
-            "fat_mg": 7310,
-            "fat_saturates_mg": 3911,
-            "carbs_mg": 21838,
-            "carbs_sugars_mg": 1317,
-            "fibre_mg": 1121,
-            "protein_mg": 4531,
-            "salt_mg": 555,
+            "energy_kcal": 172,
+            "energy_kj": 724,
+            "fat_mg": 7215,
+            "fat_saturates_mg": 3860,
+            "carbs_mg": 21633,
+            "carbs_sugars_mg": 1313,
+            "fibre_mg": 1106,
+            "protein_mg": 4581,
+            "salt_mg": 720,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 530,
-            "energy_kj": 2230,
+            "energy_kcal": 532,
+            "energy_kj": 2240,
             "fat_mg": 22315,
             "fat_saturates_mg": 11940,
-            "carbs_mg": 66663,
-            "carbs_sugars_mg": 4023,
+            "carbs_mg": 66903,
+            "carbs_sugars_mg": 4063,
             "fibre_mg": 3422,
-            "protein_mg": 13833,
-            "salt_mg": 1696,
-            "net_weight_mg": 305250
+            "protein_mg": 14169,
+            "salt_mg": 2228,
+            "net_weight_mg": 309250
         }
     },
     "portion_sizes": {
@@ -185,6 +196,7 @@
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "1e1af851-55bf-4a4d-8eeb-d0b1362ed793",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
@@ -202,6 +214,7 @@
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "1e1af851-55bf-4a4d-8eeb-d0b1362ed793",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70"
             ]
         },
@@ -218,6 +231,7 @@
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "1e1af851-55bf-4a4d-8eeb-d0b1362ed793",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
@@ -235,6 +249,7 @@
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "1e1af851-55bf-4a4d-8eeb-d0b1362ed793",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70"
             ]
         },
@@ -251,6 +266,7 @@
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
                 "1e1af851-55bf-4a4d-8eeb-d0b1362ed793",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
+                "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904"
             ]

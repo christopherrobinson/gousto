@@ -9,6 +9,17 @@
     "cuisine": "Indian",
     "ingredients": [
         {
+            "label": "Brioche style hot dog buns",
+            "gousto_uuid": "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
+            "allergens": [
+                "egg",
+                "gluten",
+                "milk",
+                "soya"
+            ],
+            "image": "/images/ingredients/eac7d6c1-f7d6-44dc-9034-bf944e8747e7.jpg"
+        },
+        {
             "label": "Soy sauce (8ml)",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
             "allergens": [
@@ -70,14 +81,6 @@
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Brioche style hot dog buns (2pcs)",
-            "gousto_uuid": "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/33dd5938-19ea-40d1-baa1-967e7fbe3c37.jpg"
         },
         {
             "label": "Red wine vinegar (30ml) x0",
@@ -189,8 +192,10 @@
     ],
     "allergens": [
         "celery",
+        "egg",
         "fish",
         "gluten",
+        "milk",
         "mustard",
         "nut",
         "sesame",
@@ -199,27 +204,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 124,
-            "energy_kj": 526,
-            "fat_mg": 2640,
-            "fat_saturates_mg": 934,
-            "carbs_mg": 13542,
-            "carbs_sugars_mg": 1998,
-            "fibre_mg": 1505,
-            "protein_mg": 11703,
-            "salt_mg": 458,
+            "energy_kcal": 126,
+            "energy_kj": 535,
+            "fat_mg": 3216,
+            "fat_saturates_mg": 1243,
+            "carbs_mg": 13167,
+            "carbs_sugars_mg": 1904,
+            "fibre_mg": 1451,
+            "protein_mg": 11716,
+            "salt_mg": 444,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 746,
-            "energy_kj": 3142,
-            "fat_mg": 15761,
-            "fat_saturates_mg": 5581,
-            "carbs_mg": 80838,
-            "carbs_sugars_mg": 11928,
-            "fibre_mg": 8985,
-            "protein_mg": 69857,
-            "salt_mg": 2734,
+            "energy_kcal": 757,
+            "energy_kj": 3194,
+            "fat_mg": 19201,
+            "fat_saturates_mg": 7421,
+            "carbs_mg": 78598,
+            "carbs_sugars_mg": 11368,
+            "fibre_mg": 8665,
+            "protein_mg": 69937,
+            "salt_mg": 2654,
             "net_weight_mg": 596900
         }
     },
@@ -227,9 +232,9 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1b0d51bd-900f-48b6-a7e1-a69a70a5c67e",
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -246,9 +251,9 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1b0d51bd-900f-48b6-a7e1-a69a70a5c67e",
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -265,11 +270,11 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1b0d51bd-900f-48b6-a7e1-a69a70a5c67e",
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
-                "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+                "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
@@ -285,9 +290,9 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1b0d51bd-900f-48b6-a7e1-a69a70a5c67e",
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -304,9 +309,9 @@
         "5": {
             "is_offered": false,
             "ingredients_skus": [
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "1b0d51bd-900f-48b6-a7e1-a69a70a5c67e",
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",

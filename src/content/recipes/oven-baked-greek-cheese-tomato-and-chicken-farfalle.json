@@ -7,11 +7,19 @@
     "gousto_id": "4109",
     "rating": {
         "average": 4.5,
-        "count": 8058
+        "count": 8059
     },
     "description": "Creamy, one pot and effortlessly delicious \u2013 what more could you want? You'll bake chicken breast with pasta, cherry tomatoes and Greek cheese for a quick and easy dinner that lets the oven do all the hard work.",
     "cuisine": "Fusion",
     "ingredients": [
+        {
+            "label": "Greek salad cheese (100g)",
+            "gousto_uuid": "c7319a82-2ddf-463d-82a1-36ae156f4433",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
+        },
         {
             "label": "Chicken breast strips (125g) x0",
             "gousto_uuid": "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
@@ -25,66 +33,10 @@
             "image": "/images/ingredients/1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a.jpg"
         },
         {
-            "label": "Cherry tomatoes (125g) x0",
-            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
-            "allergens": [],
-            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
-        },
-        {
-            "label": "Intense chicken stock mix (5.5g)",
-            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-            "allergens": [],
-            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-        },
-        {
-            "label": "Greek salad cheese (100g)",
-            "gousto_uuid": "c7319a82-2ddf-463d-82a1-36ae156f4433",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
-        },
-        {
-            "label": "Dried basil (1tsp)",
-            "gousto_uuid": "8f225055-491a-4b53-9a69-ac7e4810d725",
-            "allergens": [],
-            "image": "/images/ingredients/8f225055-491a-4b53-9a69-ac7e4810d725.jpg"
-        },
-        {
-            "label": "Chicken stock mix (5.5g) x0",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Balsamic sun-dried tomato paste (30g)",
-            "gousto_uuid": "c6e9cd4a-b156-4852-9b2e-fcfceea5eaee",
-            "allergens": [],
-            "image": "/images/ingredients/c6e9cd4a-b156-4852-9b2e-fcfceea5eaee.jpg"
-        },
-        {
-            "label": "Garlic clove x2",
-            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-            "allergens": [],
-            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
-        },
-        {
-            "label": "Tomato paste (16g) x0",
-            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-            "allergens": [],
-            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
             "label": "Tomato paste (32g)",
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
             "image": "/images/ingredients/03f6a5e1-8c58-4df1-9037-a536d4ebd1c6.jpg"
-        },
-        {
-            "label": "Cherry tomatoes (250g)",
-            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
-            "allergens": [],
-            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         },
         {
             "label": "Farfalle (100g) x0",
@@ -95,12 +47,60 @@
             "image": "/images/ingredients/1ff4910c-02aa-4140-a123-3e9fe37a2f2a.jpg"
         },
         {
+            "label": "Intense chicken stock mix (5.5g)",
+            "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
+            "allergens": [],
+            "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
+        },
+        {
+            "label": "Garlic clove x2",
+            "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+            "allergens": [],
+            "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Dried basil (1tsp)",
+            "gousto_uuid": "8f225055-491a-4b53-9a69-ac7e4810d725",
+            "allergens": [],
+            "image": "/images/ingredients/8f225055-491a-4b53-9a69-ac7e4810d725.jpg"
+        },
+        {
+            "label": "Balsamic sun-dried tomato paste (30g)",
+            "gousto_uuid": "c6e9cd4a-b156-4852-9b2e-fcfceea5eaee",
+            "allergens": [],
+            "image": "/images/ingredients/c6e9cd4a-b156-4852-9b2e-fcfceea5eaee.jpg"
+        },
+        {
+            "label": "Tomato paste (16g) x0",
+            "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+            "allergens": [],
+            "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
+        },
+        {
+            "label": "Chicken stock mix (5.5g) x0",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "allergens": [],
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
             "label": "Farfalle (200g)",
             "gousto_uuid": "de1bcc40-64bb-49c4-9138-be3f5f3c5c7f",
             "allergens": [
                 "gluten"
             ],
             "image": "/images/ingredients/de1bcc40-64bb-49c4-9138-be3f5f3c5c7f.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (125g) x0",
+            "gousto_uuid": "b3374bc8-0097-449f-9ac6-b53299104e11",
+            "allergens": [],
+            "image": "/images/ingredients/b3374bc8-0097-449f-9ac6-b53299104e11.jpg"
+        },
+        {
+            "label": "Cherry tomatoes (250g)",
+            "gousto_uuid": "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+            "allergens": [],
+            "image": "/images/ingredients/f56ddebd-04ab-40ec-8bb5-d87c08a236db.jpg"
         }
     ],
     "basics": [

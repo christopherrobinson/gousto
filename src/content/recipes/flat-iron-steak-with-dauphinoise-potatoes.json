@@ -5,17 +5,13 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "13173",
-    "description": "For a luxurious night in you'll, serve this flat iron steak alongside our easy peasy twist on classic dauphinoise. Add a drizzle of red wine sauce and serve with pan\u00e2che.",
+    "rating": {
+        "average": 4.5,
+        "count": 18
+    },
+    "description": "For a luxurious night in you'll, serve this flat iron steak alongside our easy peasy twist on classic dauphinoise. Add a drizzle of redcurrant sauce and serve with pan\u00e2che.",
     "cuisine": "French",
     "ingredients": [
-        {
-            "label": "Red wine paste (10g)",
-            "gousto_uuid": "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/e71a0fb5-d23d-430a-a43b-0b699f965bd0.jpg"
-        },
         {
             "label": "Cornish clotted cream (40g)",
             "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
@@ -79,6 +75,12 @@
             "gousto_uuid": "8413c9fa-ae40-4ddb-abd6-03057fc3afd5",
             "allergens": [],
             "image": "/images/ingredients/8413c9fa-ae40-4ddb-abd6-03057fc3afd5.jpg"
+        },
+        {
+            "label": "Redcurrant jelly (25g)",
+            "gousto_uuid": "b1065347-a957-4dfc-bb86-fefb84b07bb9",
+            "allergens": [],
+            "image": "/images/ingredients/b1065347-a957-4dfc-bb86-fefb84b07bb9.jpg"
         }
     ],
     "basics": [
@@ -102,7 +104,7 @@
             "image": "/images/instructions/flat-iron-steak-with-dauphinoise-potatoes/step-2.jpg"
         },
         {
-            "instruction": "<p>Peel and finely slice (don't chop!) your <strong>garlic</strong></p><p>Dissolve your <strong>beef stock mix</strong> and your <strong>red wine paste</strong> in 150ml <span class=\"text-purple\">[195ml]</span> <span class=\"text-danger\">[250ml]</span> <strong>boiled water </strong>and set it aside for later \u2013 this is your<strong> red wine stock</strong></p><p>Warm 80ml <span class=\"text-purple\">[120ml]</span> <span class=\"text-danger\">[160ml] </span><strong>milk</strong> in the <strong>microwave </strong>and stir through your <strong>clotted cream</strong> \u2013 this is your <strong>clotted cream mixture</strong></p>",
+            "instruction": "<p>Peel and finely slice (don't chop!) your <strong>garlic</strong></p><p>Dissolve your <strong>beef stock mix</strong> and your <strong>redcurrant jelly</strong> in 150ml <span class=\"text-purple\">[195ml]</span> <span class=\"text-danger\">[250ml]</span> <strong>boiled water </strong>and set it aside for later \u2013 this is your<strong> redcurrant stock</strong></p><p>Warm 80ml <span class=\"text-purple\">[120ml]</span> <span class=\"text-danger\">[160ml] </span><strong>milk</strong> in the <strong>microwave </strong>and stir through your <strong>clotted cream</strong> \u2013 this is your <strong>clotted cream mixture</strong></p>",
             "order": 3,
             "image": "/images/instructions/flat-iron-steak-with-dauphinoise-potatoes/step-3.jpg"
         },
@@ -122,43 +124,42 @@
             "image": "/images/instructions/flat-iron-steak-with-dauphinoise-potatoes/step-6.jpg"
         },
         {
-            "instruction": "<p>While the steak is resting, return the pan to a medium-high heat with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>flour</strong> and cook for 30 secs until you're left with a sandy-paste</p><p>Add the <strong>red wine stock</strong> and cook for 2-3 min or until the sauce has reduced to a gravy-like consistency</p><p>Add a knob of <strong>butter</strong> and give everything a good mix up \u2013 this is your <strong>red wine sauce</strong></p><p>Tip: Butter helps to thicken the sauce and give it a great shine!</p>",
+            "instruction": "<p>While the steak is resting, return the pan to a medium-high heat with 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>flour</strong> and cook for 30 secs until you're left with a sandy-paste</p><p>Add the <strong>redcurrant stock</strong> and cook for 2-3 min or until the sauce has reduced to a gravy-like consistency</p><p>Add a knob of <strong>butter</strong> and give everything a good mix up \u2013 this is your <strong>redcurrant sauce</strong></p><p>Tip: Butter helps to thicken the sauce and give it a great shine!</p>",
             "order": 7,
             "image": "/images/instructions/flat-iron-steak-with-dauphinoise-potatoes/step-7.jpg"
         },
         {
-            "instruction": "<p>Served the <strong>sliced flat iron steak</strong> with the <strong>dauphinoise potatoes</strong> and <strong>garlicky green beans</strong> to the side</p><p>Pour the <strong>red wine sauce</strong> all over</p><p>Enjoy!</p>",
+            "instruction": "<p>Served the <strong>sliced flat iron steak</strong> with the <strong>dauphinoise potatoes</strong> and <strong>garlicky green beans</strong> to the side</p><p>Pour the <strong>redcurrant sauce</strong> all over</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
     "allergens": [
-        "milk",
-        "sulphites"
+        "milk"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 115,
-            "energy_kj": 486,
-            "fat_mg": 4940,
-            "fat_saturates_mg": 2716,
-            "carbs_mg": 9304,
-            "carbs_sugars_mg": 1461,
-            "fibre_mg": 1460,
-            "protein_mg": 9054,
-            "salt_mg": 254,
+            "energy_kcal": 117,
+            "energy_kj": 496,
+            "fat_mg": 4872,
+            "fat_saturates_mg": 2679,
+            "carbs_mg": 10153,
+            "carbs_sugars_mg": 2690,
+            "fibre_mg": 1435,
+            "protein_mg": 8932,
+            "salt_mg": 135,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 619,
-            "energy_kj": 2606,
+            "energy_kcal": 640,
+            "energy_kj": 2695,
             "fat_mg": 26470,
             "fat_saturates_mg": 14556,
-            "carbs_mg": 49849,
-            "carbs_sugars_mg": 7829,
-            "fibre_mg": 7822,
-            "protein_mg": 48511,
-            "salt_mg": 1363,
-            "net_weight_mg": 535750
+            "carbs_mg": 55161,
+            "carbs_sugars_mg": 14617,
+            "fibre_mg": 7797,
+            "protein_mg": 48528,
+            "salt_mg": 738,
+            "net_weight_mg": 543250
         }
     },
     "portion_sizes": {
@@ -172,7 +173,7 @@
                 "c47f9296-30f4-40a9-a8d5-6adbf7c44fd8",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -186,7 +187,7 @@
                 "62211e82-d166-41be-b6e6-bb27d2ed8839",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -202,7 +203,7 @@
                 "62211e82-d166-41be-b6e6-bb27d2ed8839",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -216,7 +217,7 @@
                 "62211e82-d166-41be-b6e6-bb27d2ed8839",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
@@ -232,7 +233,7 @@
                 "62211e82-d166-41be-b6e6-bb27d2ed8839",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
-                "e71a0fb5-d23d-430a-a43b-0b699f965bd0",
+                "b1065347-a957-4dfc-bb86-fefb84b07bb9",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         }
