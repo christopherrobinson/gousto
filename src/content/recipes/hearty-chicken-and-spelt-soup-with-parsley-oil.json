@@ -13,6 +13,15 @@
     "cuisine": "British",
     "ingredients": [
         {
+            "label": "Soy sauce (8ml)",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
             "label": "Chicken breast strips (125g) x0",
             "gousto_uuid": "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
             "allergens": [],
@@ -23,14 +32,6 @@
             "gousto_uuid": "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
             "allergens": [],
             "image": "/images/ingredients/1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a.jpg"
-        },
-        {
-            "label": "Spelt (120g)",
-            "gousto_uuid": "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/4e162fe5-2f0f-45e4-b11c-24ae22ba249b.jpg"
         },
         {
             "label": "Ciabatta",
@@ -47,32 +48,6 @@
             "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
         },
         {
-            "label": "Chicken stock mix (5.5g) x0",
-            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
-            "allergens": [],
-            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
-        },
-        {
-            "label": "Spelt (60g)",
-            "gousto_uuid": "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/1ecfe595-88d2-4d85-a8bb-41b13568cdf8.jpg"
-        },
-        {
-            "label": "Carrot",
-            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
-            "allergens": [],
-            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
-            "label": "Parsley (5g)",
-            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-            "allergens": [],
-            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
-        },
-        {
             "label": "Garlic clove x3",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
@@ -85,13 +60,28 @@
             "image": "/images/ingredients/16feae70-8b2a-4dc8-8747-8d91481e87d3.jpg"
         },
         {
-            "label": "Soy sauce (8ml)",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+            "label": "Parsley (5g)",
+            "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+            "allergens": [],
+            "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
+        },
+        {
+            "label": "Brown onion",
+            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
+            "allergens": [],
+            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+        },
+        {
+            "label": "Chicken stock mix (5.5g) x0",
+            "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
+            "allergens": [],
+            "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
+        },
+        {
+            "label": "Carrot",
+            "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
+            "allergens": [],
+            "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
         },
         {
             "label": "Spinach (80g)",
@@ -100,10 +90,12 @@
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
-            "label": "Brown onion",
-            "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-            "allergens": [],
-            "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
+            "label": "Spelt (120g)",
+            "gousto_uuid": "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/4e162fe5-2f0f-45e4-b11c-24ae22ba249b.jpg"
         }
     ],
     "basics": [
@@ -130,12 +122,12 @@
             "image": "/images/instructions/hearty-chicken-and-spelt-soup-with-parsley-oil/step-3.jpg"
         },
         {
-            "instruction": "<p>Meanwhile, add your <strong>chicken breast strips </strong>to a <strong>baking paper</strong>-lined tray with a drizzle of <strong>vegetable oil </strong>and a pinch of <strong>salt</strong> and <strong>pepper</strong></p><p>Put the tray in the oven for 15-18 min or until cooked through (no pink meat!)</p>",
+            "instruction": "<p>Meanwhile, add your <strong>chicken </strong>to a <strong>baking paper</strong>-lined tray with a drizzle of <strong>vegetable oil </strong>and a pinch of <strong>salt</strong> and <strong>pepper</strong></p><p>Put the tray in the oven for 16-20 min or until cooked through (no pink meat!)</p>",
             "order": 4,
             "image": "/images/instructions/hearty-chicken-and-spelt-soup-with-parsley-oil/step-4.jpg"
         },
         {
-            "instruction": "<p>Combine the <strong>remaining garlic</strong> and <strong>half </strong>the <strong>chopped parsley </strong>with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>olive oil</strong> \u2013 this is your <strong>parsley oil</strong></p><p>Slice your <strong>ciabatta[s]</strong> into 3 slices per person</p><p>Add the <strong>sliced ciabatta</strong> to a separate baking tray (or two!) with a drizzle of <strong>olive oil</strong></p><p>Put the tray[s] in the oven for 5-6 min or until the ciabatta is starting to brown \u2013 these are your <strong>ciabatta toasts</strong></p>",
+            "instruction": "<p>Combine the <strong>remaining garlic</strong> and <strong>half </strong>the <strong>chopped parsley </strong>(you'll use the rest later!) with 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>olive oil</strong> \u2013 this is your <strong>parsley oil</strong></p><p>Slice your <strong>ciabatta[s]</strong> into 3 slices per person</p><p>Add the <strong>sliced ciabatta</strong> to a separate baking tray (or two!) with a drizzle of <strong>olive oil</strong></p><p>Put the tray[s] in the oven for 5-6 min or until the ciabatta is starting to brown \u2013 these are your <strong>ciabatta toasts</strong></p>",
             "order": 5,
             "image": "/images/instructions/hearty-chicken-and-spelt-soup-with-parsley-oil/step-5.jpg"
         },
@@ -145,7 +137,7 @@
             "image": "/images/instructions/hearty-chicken-and-spelt-soup-with-parsley-oil/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the spelt is tender, add the <strong>shredded chicken</strong>, <strong>spinach</strong> and <strong>remaining chopped parsley </strong>to the pot and cook for 2-3 min further or until the spinach has wilted \u2013 this is your <strong>hearty chicken & spelt soup</strong></p>",
+            "instruction": "<p>Once the spelt is tender, add the <strong>shredded chicken</strong>, <strong>spinach</strong> and <strong>remaining chopped parsley </strong>to the pot and cook for 2-3 min further or until the spinach has wilted \u2013 this is your <strong>hearty chicken & spelt soup</strong></p><p>Once cooked, discard the<strong> bay leaf[ves]</strong></p>",
             "order": 7,
             "image": "/images/instructions/hearty-chicken-and-spelt-soup-with-parsley-oil/step-7.jpg"
         },
@@ -160,28 +152,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 146,
-            "energy_kj": 618,
-            "fat_mg": 1218,
-            "fat_saturates_mg": 241,
-            "carbs_mg": 23000,
-            "carbs_sugars_mg": 3210,
-            "fibre_mg": 3550,
-            "protein_mg": 12449,
-            "salt_mg": 553,
+            "energy_kcal": 133,
+            "energy_kj": 561,
+            "fat_mg": 1693,
+            "fat_saturates_mg": 393,
+            "carbs_mg": 19153,
+            "carbs_sugars_mg": 2921,
+            "fibre_mg": 2974,
+            "protein_mg": 11471,
+            "salt_mg": 584,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 591,
-            "energy_kj": 2489,
-            "fat_mg": 4906,
-            "fat_saturates_mg": 973,
-            "carbs_mg": 92634,
-            "carbs_sugars_mg": 12929,
-            "fibre_mg": 14299,
-            "protein_mg": 50141,
-            "salt_mg": 2229,
-            "net_weight_mg": 402750
+            "energy_kcal": 497,
+            "energy_kj": 2092,
+            "fat_mg": 6311,
+            "fat_saturates_mg": 1465,
+            "carbs_mg": 71394,
+            "carbs_sugars_mg": 10889,
+            "fibre_mg": 11089,
+            "protein_mg": 42761,
+            "salt_mg": 2180,
+            "net_weight_mg": 372750
         }
     },
     "portion_sizes": {
@@ -197,7 +189,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
+                "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
                 "d240500f-9c26-4286-88bc-6be3e774e96b"
             ]
         },
@@ -214,7 +206,6 @@
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
                 "d240500f-9c26-4286-88bc-6be3e774e96b"
             ]
         },
@@ -233,7 +224,6 @@
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
                 "d240500f-9c26-4286-88bc-6be3e774e96b"
             ]
         },
@@ -250,7 +240,6 @@
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
                 "d240500f-9c26-4286-88bc-6be3e774e96b"
             ]
         },
@@ -269,7 +258,6 @@
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
                 "d240500f-9c26-4286-88bc-6be3e774e96b"
             ]
         }

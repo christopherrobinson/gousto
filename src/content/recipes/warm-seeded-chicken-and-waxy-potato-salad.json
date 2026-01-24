@@ -7,11 +7,17 @@
     "gousto_id": "3352",
     "rating": {
         "average": 4.5,
-        "count": 8357
+        "count": 8358
     },
     "description": "This new twist on schnitzel might just super-seed the original. You'll bread chicken with a selection of seeds for extra toasty crunch, and whip up a creamy salad with roasted onion, apple and waxy potatoes to serve.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "Waxy potatoes (350g)",
+            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
+            "allergens": [],
+            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
+        },
         {
             "label": "Chicken breast portions (2pcs)",
             "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
@@ -29,6 +35,20 @@
             "gousto_uuid": "70b7502c-e41a-45b7-ab66-d3edb68aa548",
             "allergens": [],
             "image": "/images/ingredients/70b7502c-e41a-45b7-ab66-d3edb68aa548.jpg"
+        },
+        {
+            "label": "Panko breadcrumbs (20g)",
+            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
+        },
+        {
+            "label": "Seasonal salad (50g)",
+            "gousto_uuid": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
+            "allergens": [],
+            "image": "/images/ingredients/036b603f-e51f-4971-bdc8-d72ec87ece3b.jpg"
         },
         {
             "label": "Mayonnaise (50ml)",
@@ -55,20 +75,6 @@
             "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
-            "label": "Panko breadcrumbs (20g)",
-            "gousto_uuid": "0af67d61-fa68-4172-bec1-09d635e3fc71",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/0af67d61-fa68-4172-bec1-09d635e3fc71.jpg"
-        },
-        {
-            "label": "Seasonal salad (50g)",
-            "gousto_uuid": "036b603f-e51f-4971-bdc8-d72ec87ece3b",
-            "allergens": [],
-            "image": "/images/ingredients/036b603f-e51f-4971-bdc8-d72ec87ece3b.jpg"
-        },
-        {
             "label": "Toasted sesame seeds (5g)",
             "gousto_uuid": "c4363e48-068d-4650-b2c3-afba8d801197",
             "allergens": [
@@ -92,22 +98,12 @@
             "image": "/images/ingredients/8d49d7fe-1c65-4022-aae9-32fe3bb6df3a.jpg"
         },
         {
-            "label": "Red onion",
-            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-            "allergens": [],
-            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "Waxy potatoes (350g)",
-            "gousto_uuid": "04d00729-52ec-4664-abf3-7deeca96c6d8",
-            "allergens": [],
-            "image": "/images/ingredients/04d00729-52ec-4664-abf3-7deeca96c6d8.jpg"
-        },
-        {
-            "label": "Apple",
-            "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
-            "allergens": [],
-            "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
+            "label": "Free range egg",
+            "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
+            "allergens": [
+                "egg"
+            ],
+            "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
         },
         {
             "label": "Black sesame seeds (5g)",
@@ -123,18 +119,22 @@
             "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
-            "label": "Free range egg",
-            "gousto_uuid": "fb6a565a-b912-4033-b8dc-62e6f7c62925",
-            "allergens": [
-                "egg"
-            ],
-            "image": "/images/ingredients/fb6a565a-b912-4033-b8dc-62e6f7c62925.jpg"
-        },
-        {
             "label": "White wine vinegar (15ml)",
             "gousto_uuid": "ef566c78-5df6-49d9-8356-68789149176f",
             "allergens": [],
             "image": "/images/ingredients/ef566c78-5df6-49d9-8356-68789149176f.jpg"
+        },
+        {
+            "label": "Red onion",
+            "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
+            "allergens": [],
+            "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
+        },
+        {
+            "label": "Apple",
+            "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
+            "allergens": [],
+            "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
         }
     ],
     "basics": [

@@ -7,11 +7,17 @@
     "gousto_id": "5635",
     "rating": {
         "average": 4.5,
-        "count": 914
+        "count": 915
     },
     "description": "Treat yourself to feel-good food with crunchy, colourful veg and juicy oven baked chicken. Dress it up Jakarta-style with a sweet umami peanut sauce, for a nutty bowlful that's healthy to boot. Under 600 calories.",
     "cuisine": "Indonesian",
     "ingredients": [
+        {
+            "label": "Radishes (125g)",
+            "gousto_uuid": "29efe189-b584-424e-9f22-732933024097",
+            "allergens": [],
+            "image": "/images/ingredients/29efe189-b584-424e-9f22-732933024097.jpg"
+        },
         {
             "label": "Chicken breast portions (2pcs)",
             "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
@@ -25,22 +31,16 @@
             "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
         },
         {
-            "label": "Radishes (125g)",
-            "gousto_uuid": "29efe189-b584-424e-9f22-732933024097",
-            "allergens": [],
-            "image": "/images/ingredients/29efe189-b584-424e-9f22-732933024097.jpg"
-        },
-        {
             "label": "Garlic clove x2",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Brown basmati rice (80g)",
-            "gousto_uuid": "ae10af8d-a917-4552-8f97-d35a1c8b6c95",
+            "label": "Brown long grain rice (50g) x0",
+            "gousto_uuid": "fd0c1b1a-ba8b-421c-9458-d3b1850435d4",
             "allergens": [],
-            "image": "/images/ingredients/ae10af8d-a917-4552-8f97-d35a1c8b6c95.jpg"
+            "image": "/images/ingredients/fd0c1b1a-ba8b-421c-9458-d3b1850435d4.jpg"
         },
         {
             "label": "Gluten free soy sauce (15ml)",
@@ -89,6 +89,12 @@
             "gousto_uuid": "79f3354b-1c07-4ead-a173-f97e8cddd843",
             "allergens": [],
             "image": "/images/ingredients/79f3354b-1c07-4ead-a173-f97e8cddd843.jpg"
+        },
+        {
+            "label": "Brown long grain rice (100g)",
+            "gousto_uuid": "e8f12d3f-6bec-44dc-a121-bbb71866ee23",
+            "allergens": [],
+            "image": "/images/ingredients/e8f12d3f-6bec-44dc-a121-bbb71866ee23.jpg"
         }
     ],
     "basics": [
@@ -148,35 +154,35 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 119,
-            "energy_kj": 503,
-            "fat_mg": 3271,
-            "fat_saturates_mg": 575,
-            "carbs_mg": 12965,
-            "carbs_sugars_mg": 3942,
-            "fibre_mg": 1721,
-            "protein_mg": 9740,
-            "salt_mg": 378,
+            "energy_kcal": 126,
+            "energy_kj": 531,
+            "fat_mg": 3106,
+            "fat_saturates_mg": 541,
+            "carbs_mg": 14660,
+            "carbs_sugars_mg": 3871,
+            "fibre_mg": 1683,
+            "protein_mg": 9638,
+            "salt_mg": 366,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 466,
-            "energy_kj": 1960,
-            "fat_mg": 12726,
-            "fat_saturates_mg": 2240,
-            "carbs_mg": 50434,
-            "carbs_sugars_mg": 15338,
-            "fibre_mg": 6698,
-            "protein_mg": 37892,
-            "salt_mg": 1474,
-            "net_weight_mg": 389000
+            "energy_kcal": 503,
+            "energy_kj": 2119,
+            "fat_mg": 12396,
+            "fat_saturates_mg": 2162,
+            "carbs_mg": 58494,
+            "carbs_sugars_mg": 15448,
+            "fibre_mg": 6718,
+            "protein_mg": 38458,
+            "salt_mg": 1462,
+            "net_weight_mg": 399000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "ae10af8d-a917-4552-8f97-d35a1c8b6c95",
+                "fd0c1b1a-ba8b-421c-9458-d3b1850435d4",
                 "f274998b-4e68-45a7-a637-b353b961427a",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "91a7f9c1-a120-4618-8ac6-448ad4a3ce38",
@@ -191,7 +197,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "ae10af8d-a917-4552-8f97-d35a1c8b6c95",
+                "e8f12d3f-6bec-44dc-a121-bbb71866ee23",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "91a7f9c1-a120-4618-8ac6-448ad4a3ce38",
@@ -206,7 +212,8 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "ae10af8d-a917-4552-8f97-d35a1c8b6c95",
+                "e8f12d3f-6bec-44dc-a121-bbb71866ee23",
+                "fd0c1b1a-ba8b-421c-9458-d3b1850435d4",
                 "f274998b-4e68-45a7-a637-b353b961427a",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -222,7 +229,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "ae10af8d-a917-4552-8f97-d35a1c8b6c95",
+                "e8f12d3f-6bec-44dc-a121-bbb71866ee23",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "91a7f9c1-a120-4618-8ac6-448ad4a3ce38",
@@ -237,7 +244,8 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "ae10af8d-a917-4552-8f97-d35a1c8b6c95",
+                "e8f12d3f-6bec-44dc-a121-bbb71866ee23",
+                "fd0c1b1a-ba8b-421c-9458-d3b1850435d4",
                 "f274998b-4e68-45a7-a637-b353b961427a",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",

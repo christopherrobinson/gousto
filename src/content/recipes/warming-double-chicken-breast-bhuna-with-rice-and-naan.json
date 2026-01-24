@@ -9,6 +9,18 @@
     "cuisine": "Indian",
     "ingredients": [
         {
+            "label": "White basmati rice (100g)",
+            "gousto_uuid": "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
+            "allergens": [],
+            "image": "/images/ingredients/7f229ae1-a194-4f7f-8dd0-79bb6494cab2.jpg"
+        },
+        {
+            "label": "White basmati rice (50g) x0",
+            "gousto_uuid": "c73a42e9-151b-4657-a860-1d5532d04bb7",
+            "allergens": [],
+            "image": "/images/ingredients/c73a42e9-151b-4657-a860-1d5532d04bb7.jpg"
+        },
+        {
             "label": "Chicken breast strips (250g) x2",
             "gousto_uuid": "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
             "allergens": [],
@@ -63,12 +75,6 @@
             "image": "/images/ingredients/609342b6-6462-4c52-908f-dc4b600a8546.jpg"
         },
         {
-            "label": "White basmati rice (50g) x0",
-            "gousto_uuid": "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-            "allergens": [],
-            "image": "/images/ingredients/10c033ea-4d86-4744-8d88-d51dea5d2e21.jpg"
-        },
-        {
             "label": "Mini garlic & coriander naans (2pcs)",
             "gousto_uuid": "bac68053-5d66-42d7-8860-506df48b41ca",
             "allergens": [
@@ -81,12 +87,6 @@
             "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "White basmati rice (100g)",
-            "gousto_uuid": "17539a8a-b808-4c93-b53d-a21d91136575",
-            "allergens": [],
-            "image": "/images/ingredients/17539a8a-b808-4c93-b53d-a21d91136575.jpg"
         },
         {
             "label": "Tomato paste (16g)",
@@ -168,7 +168,7 @@
             "energy_kj": 590,
             "fat_mg": 2654,
             "fat_saturates_mg": 552,
-            "carbs_mg": 15177,
+            "carbs_mg": 15222,
             "carbs_sugars_mg": 1584,
             "fibre_mg": 1169,
             "protein_mg": 13920,
@@ -180,7 +180,7 @@
             "energy_kj": 2784,
             "fat_mg": 12510,
             "fat_saturates_mg": 2605,
-            "carbs_mg": 71522,
+            "carbs_mg": 71737,
             "carbs_sugars_mg": 7466,
             "fibre_mg": 5509,
             "protein_mg": 65599,
@@ -192,6 +192,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
@@ -201,8 +202,7 @@
                 "609342b6-6462-4c52-908f-dc4b600a8546",
                 "70b7502c-e41a-45b7-ab66-d3edb68aa548",
                 "bac68053-5d66-42d7-8860-506df48b41ca",
-                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21"
+                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
             ]
         },
         "2": {
@@ -218,12 +218,13 @@
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "bac68053-5d66-42d7-8860-506df48b41ca",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "17539a8a-b808-4c93-b53d-a21d91136575"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
@@ -235,8 +236,7 @@
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "bac68053-5d66-42d7-8860-506df48b41ca",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         },
         "4": {
@@ -252,15 +252,16 @@
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "bac68053-5d66-42d7-8860-506df48b41ca",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "17539a8a-b808-4c93-b53d-a21d91136575"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         },
         "5": {
             "is_offered": false,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-                "b3374bc8-0097-449f-9ac6-b53299104e11",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
+                "b3374bc8-0097-449f-9ac6-b53299104e11",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "bee08644-b9b2-4177-9131-2d43516f6731",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -270,8 +271,7 @@
                 "bac68053-5d66-42d7-8860-506df48b41ca",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21"
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2"
             ]
         }
     },

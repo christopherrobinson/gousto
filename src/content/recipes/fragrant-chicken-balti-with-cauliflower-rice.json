@@ -9,6 +9,24 @@
     "cuisine": "Indian",
     "ingredients": [
         {
+            "label": "White basmati rice (130g) x0",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (32g) x0",
+            "gousto_uuid": "30f763ae-dcfa-4e6a-afc5-929d5747b953",
+            "allergens": [],
+            "image": "/images/ingredients/30f763ae-dcfa-4e6a-afc5-929d5747b953.jpg"
+        },
+        {
+            "label": "White basmati rice (65g)",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
+        {
             "label": "Chicken breast strips (125g) x0",
             "gousto_uuid": "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
             "allergens": [],
@@ -57,12 +75,6 @@
             "image": "/images/ingredients/c4a76caa-8a7d-473f-ab94-89ad816ff8d8.jpg"
         },
         {
-            "label": "White basmati rice (65g)",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
-        },
-        {
             "label": "Garam masala (1tsp)",
             "gousto_uuid": "3518d21a-ac56-46f1-915a-76c1a91f79df",
             "allergens": [],
@@ -99,22 +111,10 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "White basmati rice (32g) x0",
-            "gousto_uuid": "45feb642-fde6-40ab-ade9-3a0846f43cb5",
-            "allergens": [],
-            "image": "/images/ingredients/45feb642-fde6-40ab-ade9-3a0846f43cb5.jpg"
-        },
-        {
             "label": "Brown onion",
             "gousto_uuid": "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
             "allergens": [],
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
-        },
-        {
-            "label": "White basmati rice (130g) x0",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
         },
         {
             "label": "Ginger paste (15g)",
@@ -171,12 +171,12 @@
             "image": "/images/instructions/fragrant-chicken-balti-with-cauliflower-rice/step-3.jpg"
         },
         {
-            "instruction": "<p>Whilst the rice is cooking, boil half a kettle</p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Cut your <strong>green chilli[es]</strong> in half lengthways, deseed (scrape the seeds out with a teaspoon) and chop finely</p><p>Crush your <strong>cardamom pod[s]</strong> open by squashing it with the side of a knife</p>",
+            "instruction": "<p>Whilst the rice is cooking, boil half a kettle</p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Cut your <strong>green chilli[es]</strong> in half lengthways, deseed (scrape the seeds out with a teaspoon) and chop finely</p><p>Crush your <strong>cardamom pod[s]</strong> open by squashing them with the side of a knife</p>",
             "order": 4,
             "image": "/images/instructions/fragrant-chicken-balti-with-cauliflower-rice/step-4.jpg"
         },
         {
-            "instruction": "<p>Chop your <strong>chicken breast strips</strong> into bite-sized pieces</p>",
+            "instruction": "<p>Chop your <strong>chicken </strong>into bite-sized pieces</p>",
             "order": 5,
             "image": "/images/instructions/fragrant-chicken-balti-with-cauliflower-rice/step-5.jpg"
         },
@@ -226,6 +226,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
@@ -239,8 +240,7 @@
                 "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
                 "c4a76caa-8a7d-473f-ab94-89ad816ff8d8",
                 "70b7502c-e41a-45b7-ab66-d3edb68aa548",
-                "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "031b8111-a382-4fe8-a4e0-3f1ecd98b846"
             ]
         },
         "2": {
@@ -260,17 +260,18 @@
                 "70b7502c-e41a-45b7-ab66-d3edb68aa548",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
-                "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
+                "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -282,8 +283,7 @@
                 "70b7502c-e41a-45b7-ab66-d3edb68aa548",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
@@ -303,20 +303,21 @@
                 "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "7ef1d749-e8ca-43f9-85bc-45296edcc089",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
-                "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
+                "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
+                "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "88966efb-30c6-425b-9a90-0e6087c8b326",
@@ -326,8 +327,7 @@
                 "cb7a7f70-80cb-4648-840f-d350ad96d1ee",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         }
     },

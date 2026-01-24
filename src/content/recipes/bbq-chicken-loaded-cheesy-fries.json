@@ -9,16 +9,30 @@
     "gousto_id": "3078",
     "rating": {
         "average": 4.5,
-        "count": 9958
+        "count": 9960
     },
     "description": "For a taste of the USA, dive into our smoky barbecue-inspired loaded fries. Create an irresistible meal with pulled barbecue chicken-topped cheesy chips, tomatoes and soured cream.",
     "cuisine": "American",
     "ingredients": [
         {
+            "label": "BBQ sauce (40g)",
+            "gousto_uuid": "2af82637-9ecc-464e-b659-5966276c7fc5",
+            "allergens": [
+                "gluten"
+            ],
+            "image": "/images/ingredients/2af82637-9ecc-464e-b659-5966276c7fc5.jpg"
+        },
+        {
             "label": "Chicken breast portions (2pcs)",
-            "gousto_uuid": "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+            "gousto_uuid": "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
             "allergens": [],
-            "image": "/images/ingredients/1eef05cd-1b5c-45ca-8a9c-f3bb72d70947.jpg"
+            "image": "/images/ingredients/671ddc57-c639-4db7-ab54-7fdc7fa2ec93.jpg"
+        },
+        {
+            "label": "Chicken breast portion x0",
+            "gousto_uuid": "f274998b-4e68-45a7-a637-b353b961427a",
+            "allergens": [],
+            "image": "/images/ingredients/f274998b-4e68-45a7-a637-b353b961427a.jpg"
         },
         {
             "label": "Ground smoked paprika (1tsp)",
@@ -35,16 +49,18 @@
             "image": "/images/ingredients/8a9689cf-21a1-4c84-9f3e-8b5aab66e957.jpg"
         },
         {
-            "label": "Chicken breast portion x0",
-            "gousto_uuid": "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-            "allergens": [],
-            "image": "/images/ingredients/0a81a733-2a2f-4ab8-8697-8a3a502c65db.jpg"
-        },
-        {
             "label": "Ground smoked paprika (2tsp) x0",
             "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
             "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
+        },
+        {
+            "label": "Cheddar cheese (40g) x2",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
             "label": "Tomato x2",
@@ -57,22 +73,6 @@
             "gousto_uuid": "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
             "allergens": [],
             "image": "/images/ingredients/4e949ce8-d92c-43fa-8c0d-110d903d6e60.jpg"
-        },
-        {
-            "label": "BBQ sauce (40g)",
-            "gousto_uuid": "2af82637-9ecc-464e-b659-5966276c7fc5",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/2af82637-9ecc-464e-b659-5966276c7fc5.jpg"
-        },
-        {
-            "label": "Cheddar cheese (40g) x2",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
         },
         {
             "label": "White potato x4",
@@ -133,27 +133,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 110,
-            "energy_kj": 463,
-            "fat_mg": 4470,
-            "fat_saturates_mg": 2823,
+            "energy_kcal": 111,
+            "energy_kj": 468,
+            "fat_mg": 4852,
+            "fat_saturates_mg": 2933,
             "carbs_mg": 9920,
             "carbs_sugars_mg": 2482,
             "fibre_mg": 1141,
-            "protein_mg": 8260,
-            "salt_mg": 223,
+            "protein_mg": 7721,
+            "salt_mg": 215,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 613,
-            "energy_kj": 2578,
-            "fat_mg": 24854,
-            "fat_saturates_mg": 15696,
+            "energy_kcal": 621,
+            "energy_kj": 2606,
+            "fat_mg": 26979,
+            "fat_saturates_mg": 16309,
             "carbs_mg": 55160,
             "carbs_sugars_mg": 13803,
             "fibre_mg": 6349,
-            "protein_mg": 45931,
-            "salt_mg": 1240,
+            "protein_mg": 42931,
+            "salt_mg": 1198,
             "net_weight_mg": 556000
         }
     },
@@ -163,7 +163,7 @@
             "ingredients_skus": [
                 "2af82637-9ecc-464e-b659-5966276c7fc5",
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
+                "f274998b-4e68-45a7-a637-b353b961427a",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
@@ -176,7 +176,7 @@
             "ingredients_skus": [
                 "2af82637-9ecc-464e-b659-5966276c7fc5",
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
@@ -189,8 +189,8 @@
             "ingredients_skus": [
                 "2af82637-9ecc-464e-b659-5966276c7fc5",
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
@@ -203,7 +203,7 @@
             "ingredients_skus": [
                 "2af82637-9ecc-464e-b659-5966276c7fc5",
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
@@ -216,8 +216,8 @@
             "ingredients_skus": [
                 "2af82637-9ecc-464e-b659-5966276c7fc5",
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "0a81a733-2a2f-4ab8-8697-8a3a502c65db",
-                "1eef05cd-1b5c-45ca-8a9c-f3bb72d70947",
+                "f274998b-4e68-45a7-a637-b353b961427a",
+                "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",

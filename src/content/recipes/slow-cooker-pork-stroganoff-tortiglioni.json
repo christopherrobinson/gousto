@@ -7,9 +7,9 @@
     "gousto_id": "7916",
     "rating": {
         "average": 4.5,
-        "count": 656
+        "count": 1011
     },
-    "description": "Who knew pasta could get even easier? You'll slow-cook pork and onion in a paprika-infused stock before tossing in pasta. Stir through clotted cream and serve up hot.",
+    "description": "Who knew pasta could get even easier? You'll slow-cook pork and onion in a paprika-infused stock before tossing in pasta. Stir through soured cream and serve up hot.",
     "cuisine": "Fusion",
     "ingredients": [
         {
@@ -34,14 +34,6 @@
             "image": "/images/ingredients/09420291-cfc6-4b44-b28f-948eec9a650d.jpg"
         },
         {
-            "label": "Cornish clotted cream (40g) x2",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
-        {
             "label": "Tomato paste (32g)",
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
             "allergens": [],
@@ -52,6 +44,14 @@
             "gousto_uuid": "9bbbe335-1516-4488-957c-814e34eae5b1",
             "allergens": [],
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
+        },
+        {
+            "label": "Soured cream (80g)",
+            "gousto_uuid": "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/8a9689cf-21a1-4c84-9f3e-8b5aab66e957.jpg"
         },
         {
             "label": "Intense beef stock mix (5.5g)",
@@ -187,12 +187,12 @@
             "image": "/images/instructions/slow-cooker-pork-stroganoff-tortiglioni/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the pork stroganoff is done, stir through the <strong>cooked pasta </strong>and most of your <strong>clotted cream</strong> (save some for garnish!) \u2013 this is your<strong> slow cooker pork stroganoff tortiglioni</strong></p>",
+            "instruction": "<p>Once the pork stroganoff is done, stir through the <strong>cooked pasta </strong>and most of your <strong>soured cream</strong> (save some for garnish!) \u2013 this is your<strong> slow cooker pork stroganoff tortiglioni</strong></p>",
             "order": 7,
             "image": "/images/instructions/slow-cooker-pork-stroganoff-tortiglioni/step-7.jpg"
         },
         {
-            "instruction": "<p>To serve, dollop the<strong> reserved clotted cream </strong>over the <strong>slow cooker pork stroganoff tortiglioni </strong>and sprinkle over the <strong>remaining ground smoked paprika</strong></p><p>Season with a grind of<strong> pepper</strong></p><p>Dig in!</p>",
+            "instruction": "<p>To serve, dollop the<strong> reserved soured cream </strong>over the <strong>slow cooker pork stroganoff tortiglioni </strong>and sprinkle over the <strong>remaining ground smoked paprika</strong></p><p>Season with a grind of<strong> pepper</strong></p><p>Dig in!</p>",
             "order": 8
         }
     ],
@@ -205,27 +205,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 216,
-            "energy_kj": 909,
-            "fat_mg": 10230,
-            "fat_saturates_mg": 5316,
-            "carbs_mg": 21837,
-            "carbs_sugars_mg": 2124,
+            "energy_kcal": 177,
+            "energy_kj": 748,
+            "fat_mg": 5763,
+            "fat_saturates_mg": 2677,
+            "carbs_mg": 22001,
+            "carbs_sugars_mg": 2289,
             "fibre_mg": 1756,
-            "protein_mg": 10569,
-            "salt_mg": 687,
+            "protein_mg": 10702,
+            "salt_mg": 683,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 844,
-            "energy_kj": 3543,
-            "fat_mg": 39848,
-            "fat_saturates_mg": 20708,
-            "carbs_mg": 85056,
-            "carbs_sugars_mg": 8276,
+            "energy_kcal": 691,
+            "energy_kj": 2915,
+            "fat_mg": 22448,
+            "fat_saturates_mg": 10428,
+            "carbs_mg": 85696,
+            "carbs_sugars_mg": 8916,
             "fibre_mg": 6842,
-            "protein_mg": 41168,
-            "salt_mg": 2678,
+            "protein_mg": 41688,
+            "salt_mg": 2664,
             "net_weight_mg": 389500
         }
     },
@@ -233,7 +233,6 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
@@ -241,6 +240,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "248e9920-213f-426d-90d4-611a29171065",
@@ -250,7 +250,6 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "54990670-a5bc-4c6e-83e4-642490b3f368",
@@ -258,6 +257,7 @@
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "248e9920-213f-426d-90d4-611a29171065",
@@ -267,7 +267,6 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
@@ -277,10 +276,11 @@
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "248e9920-213f-426d-90d4-611a29171065",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]
@@ -288,7 +288,6 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "54990670-a5bc-4c6e-83e4-642490b3f368",
@@ -296,6 +295,7 @@
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "c9bfadf4-a66f-4282-891a-a024f8a937fd",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "248e9920-213f-426d-90d4-611a29171065",
@@ -305,7 +305,6 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "52e2a7bc-2d76-46c0-a4f4-6ee2a4090785",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
@@ -315,10 +314,11 @@
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "c9bfadf4-a66f-4282-891a-a024f8a937fd",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+                "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "248e9920-213f-426d-90d4-611a29171065",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]

@@ -27,6 +27,21 @@
             "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
         },
         {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
+        {
+            "label": "Red chilli",
+            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
+            "allergens": [],
+            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
+        },
+        {
             "label": "Basa fillets (2pcs)",
             "gousto_uuid": "d6bb4d30-38c2-4ba7-855c-ff639be62605",
             "allergens": [
@@ -57,6 +72,12 @@
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
+        },
+        {
+            "label": "Fresh lemongrass stalk",
+            "gousto_uuid": "2476df32-b40f-4b37-8362-18bf91f454dd",
+            "allergens": [],
+            "image": "/images/ingredients/2476df32-b40f-4b37-8362-18bf91f454dd.jpg"
         },
         {
             "label": "White long grain rice (130g)",
@@ -100,15 +121,6 @@
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
-            "label": "Soy sauce (8ml) x0",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
             "label": "Soy sauce (30ml) x0",
             "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
@@ -116,18 +128,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
-        },
-        {
-            "label": "Dried lime leaf x2",
-            "gousto_uuid": "9b8fd616-cb80-451a-b1c7-f1933ed4c488",
-            "allergens": [],
-            "image": "/images/ingredients/9b8fd616-cb80-451a-b1c7-f1933ed4c488.jpg"
-        },
-        {
-            "label": "Red chilli",
-            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
-            "allergens": [],
-            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
         }
     ],
     "basics": [
@@ -149,12 +149,12 @@
             "image": "/images/instructions/thai-style-pad-cha-basa-with-greens-and-fragrant-rice/step-2.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>peeled garlic</strong> to a <strong>pestle & mortar</strong> with the <strong>coriander & Thai basil stalks</strong> (the leaves will be used later!), <strong>chopped chilli</strong> (can't handle the heat? Go easy!) and a pinch of <strong>salt</strong> and grind to form a rough paste \u2013 this is your<strong> chilli paste</strong></p><p>Tip: Don't have a pestle & mortar? Pulse in a food processor!</p>",
+            "instruction": "<p>Add the <strong>peeled garlic</strong> to a <strong>pestle & mortar</strong> with the <strong>coriander & Thai basil stalks</strong> (the leaves will be used later!), <strong>chopped chilli</strong> (can't handle the heat? Go easy!) and a pinch of <strong>salt</strong> and grind to form a rough paste \u2013 this is your<strong> chilli paste</strong></p><p>Tip: Don't have a pestle & mortar? Pulse in a food processor!</p><p>Bash your <strong>lemongrass</strong> with a rolling pin</p>",
             "order": 3,
             "image": "/images/instructions/thai-style-pad-cha-basa-with-greens-and-fragrant-rice/step-3.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>white long grain rice </strong>and <strong>dried lime leaf[ves]</strong> to a pot with a lid with 225ml <span class=\"text-purple\">[300ml]</span> <span class=\"text-danger\">[450ml]</span> <strong>cold water</strong> and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 12-15 min or until all the water has absorbed and the rice is cooked</p><p>Once done, remove from the heat and set aside (lid on) to steam until serving</p>",
+            "instruction": "<p>Add your <strong>white long grain rice </strong>and <strong>lemongrass</strong> to a pot with a lid with 225ml <span class=\"text-purple\">[300ml]</span> <span class=\"text-danger\">[450ml]</span> <strong>cold water</strong> and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 12-15 min or until all the water has absorbed and the rice is cooked</p><p>Once done, remove from the heat and set aside (lid on) to steam until serving</p>",
             "order": 4,
             "image": "/images/instructions/thai-style-pad-cha-basa-with-greens-and-fragrant-rice/step-4.jpg"
         },
@@ -169,12 +169,12 @@
             "image": "/images/instructions/thai-style-pad-cha-basa-with-greens-and-fragrant-rice/step-6.jpg"
         },
         {
-            "instruction": "<p>Once fragrant, reduce the heat to medium-high and add your <strong>basa fillet[s]</strong> to the pan with your <strong>fish sauce</strong>, <strong>soy sauce</strong> and 70ml <span class=\"text-purple\">[80ml]</span><span class=\"text-danger\"> [90ml] </span><strong>boiled water</strong></p><p>Add 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>and cook, covered, for 5 min or until the fish is cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p><p>Once cooked through, add your <strong>Thai basil leaves </strong>\u2013 this is your <strong>Thai-style pad cha basa</strong></p><p>(Doubled your protein? Use 2 pans!)</p>",
+            "instruction": "<p>Once fragrant, reduce the heat to medium-high and add your <strong>fish fillet[s]</strong> to the pan with your <strong>fish sauce</strong>, <strong>soy sauce</strong> and 70ml <span class=\"text-purple\">[80ml]</span><span class=\"text-danger\"> [90ml] </span><strong>boiled water</strong></p><p>Add 1 tsp <span class=\"text-purple\">[1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>and cook, covered, for 5 min or until the fish is cooked through</p><p>Tip: Your fish is cooked once it turns opaque and flakes easily</p><p>Once cooked through, add your <strong>Thai basil leaves </strong>\u2013 this is your <strong>Thai-style pad cha fish</strong></p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 7,
             "image": "/images/instructions/thai-style-pad-cha-basa-with-greens-and-fragrant-rice/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>Thai-style pad cha basa</strong> over the <strong>fragrant</strong> <strong>rice </strong>with the<strong> greens </strong>to the side</p><p>Pour any <strong>remaining sauce</strong> from the pan over the basa</p><p>Garnish with the <strong>coriander leaves</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Discard the <strong>lemongrass</strong> from the cooked rice</p><p>Serve the <strong>Thai-style pad cha fish </strong>over the <strong>fragrant</strong> <strong>rice </strong>with the<strong> greens </strong>to the side</p><p>Pour any <strong>remaining sauce</strong> from the pan over the fish</p><p>Garnish with the <strong>coriander leaves</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -190,28 +190,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 120,
-            "energy_kj": 512,
-            "fat_mg": 960,
+            "energy_kcal": 121,
+            "energy_kj": 513,
+            "fat_mg": 958,
             "fat_saturates_mg": 274,
-            "carbs_mg": 18757,
-            "carbs_sugars_mg": 825,
-            "fibre_mg": 1362,
-            "protein_mg": 9173,
-            "salt_mg": 734,
+            "carbs_mg": 18852,
+            "carbs_sugars_mg": 815,
+            "fibre_mg": 1345,
+            "protein_mg": 9131,
+            "salt_mg": 731,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 389,
-            "energy_kj": 1648,
-            "fat_mg": 3089,
-            "fat_saturates_mg": 884,
-            "carbs_mg": 60306,
-            "carbs_sugars_mg": 2655,
-            "fibre_mg": 4382,
-            "protein_mg": 29493,
-            "salt_mg": 2361,
-            "net_weight_mg": 321500
+            "energy_kcal": 392,
+            "energy_kj": 1661,
+            "fat_mg": 3102,
+            "fat_saturates_mg": 887,
+            "carbs_mg": 60988,
+            "carbs_sugars_mg": 2638,
+            "fibre_mg": 4354,
+            "protein_mg": 29540,
+            "salt_mg": 2367,
+            "net_weight_mg": 323500
         }
     },
     "portion_sizes": {
@@ -222,8 +222,8 @@
                 "6a48c3e4-5fb2-4dd0-96d8-0d4966699f12",
                 "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
                 "b7839655-6d73-40c2-a235-30ea290a9c56",
-                "9b8fd616-cb80-451a-b1c7-f1933ed4c488",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+                "2476df32-b40f-4b37-8362-18bf91f454dd",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
@@ -238,8 +238,8 @@
                 "6a48c3e4-5fb2-4dd0-96d8-0d4966699f12",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "b7839655-6d73-40c2-a235-30ea290a9c56",
-                "9b8fd616-cb80-451a-b1c7-f1933ed4c488",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+                "2476df32-b40f-4b37-8362-18bf91f454dd",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
@@ -256,8 +256,8 @@
                 "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "b7839655-6d73-40c2-a235-30ea290a9c56",
-                "9b8fd616-cb80-451a-b1c7-f1933ed4c488",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+                "2476df32-b40f-4b37-8362-18bf91f454dd",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
@@ -274,8 +274,8 @@
                 "6a48c3e4-5fb2-4dd0-96d8-0d4966699f12",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "b7839655-6d73-40c2-a235-30ea290a9c56",
-                "9b8fd616-cb80-451a-b1c7-f1933ed4c488",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+                "2476df32-b40f-4b37-8362-18bf91f454dd",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
@@ -292,8 +292,8 @@
                 "4b7ede73-1ca8-4063-9e47-0ae8e9ffa0ec",
                 "d6bb4d30-38c2-4ba7-855c-ff639be62605",
                 "b7839655-6d73-40c2-a235-30ea290a9c56",
-                "9b8fd616-cb80-451a-b1c7-f1933ed4c488",
                 "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+                "2476df32-b40f-4b37-8362-18bf91f454dd",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",

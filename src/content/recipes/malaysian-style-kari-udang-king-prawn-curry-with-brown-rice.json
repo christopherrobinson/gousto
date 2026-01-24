@@ -5,15 +5,13 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "12045",
+    "rating": {
+        "average": 4.5,
+        "count": 5
+    },
     "description": "Discover the flavours of Malaysia with this punchy king prawn curry. Spiced with turmeric and garam masala and packed with juicy king prawns and sweet potato, this one's a kari you won't forget. Under 600 calories.",
     "cuisine": "South Asian",
     "ingredients": [
-        {
-            "label": "Red chilli",
-            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
-            "allergens": [],
-            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
-        },
         {
             "label": "Ground turmeric (0.5tsp) x0",
             "gousto_uuid": "abb2d5af-131e-4e82-9546-705ab185cc37",
@@ -25,6 +23,12 @@
             "gousto_uuid": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
             "allergens": [],
             "image": "/images/ingredients/44c1fcff-fadf-4b69-9d80-3d0b0baa38a2.jpg"
+        },
+        {
+            "label": "Red chilli",
+            "gousto_uuid": "60c142d2-164a-42e1-8d3e-aca1b3635e15",
+            "allergens": [],
+            "image": "/images/ingredients/60c142d2-164a-42e1-8d3e-aca1b3635e15.jpg"
         },
         {
             "label": "Garam masala (1tsp)",
@@ -52,6 +56,12 @@
                 "mollusc"
             ],
             "image": "/images/ingredients/a3a2f2db-208c-49ba-905d-b51885be42b3.jpg"
+        },
+        {
+            "label": "Brown long grain rice (130g)",
+            "gousto_uuid": "39e0c941-6dad-405a-9987-2b662c32bcd8",
+            "allergens": [],
+            "image": "/images/ingredients/39e0c941-6dad-405a-9987-2b662c32bcd8.jpg"
         },
         {
             "label": "Tomato",
@@ -97,12 +107,6 @@
             "gousto_uuid": "eec1fcf3-a00b-4321-bedd-d7a5c1754881",
             "allergens": [],
             "image": "/images/ingredients/eec1fcf3-a00b-4321-bedd-d7a5c1754881.jpg"
-        },
-        {
-            "label": "Brown basmati rice (130g)",
-            "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
-            "allergens": [],
-            "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
         },
         {
             "label": "Solid creamed coconut (25g)",
@@ -163,27 +167,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 138,
-            "energy_kj": 583,
-            "fat_mg": 3282,
-            "fat_saturates_mg": 2374,
-            "carbs_mg": 22640,
-            "carbs_sugars_mg": 4307,
-            "fibre_mg": 2406,
-            "protein_mg": 5378,
-            "salt_mg": 655,
+            "energy_kcal": 139,
+            "energy_kj": 587,
+            "fat_mg": 3077,
+            "fat_saturates_mg": 2332,
+            "carbs_mg": 22854,
+            "carbs_sugars_mg": 4324,
+            "fibre_mg": 2286,
+            "protein_mg": 5291,
+            "salt_mg": 650,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 526,
-            "energy_kj": 2217,
-            "fat_mg": 12466,
-            "fat_saturates_mg": 9017,
-            "carbs_mg": 85978,
-            "carbs_sugars_mg": 16357,
-            "fibre_mg": 9139,
-            "protein_mg": 20426,
-            "salt_mg": 2489,
+            "energy_kcal": 529,
+            "energy_kj": 2230,
+            "fat_mg": 11685,
+            "fat_saturates_mg": 8856,
+            "carbs_mg": 86790,
+            "carbs_sugars_mg": 16422,
+            "fibre_mg": 8684,
+            "protein_mg": 20094,
+            "salt_mg": 2469,
             "net_weight_mg": 379750
         }
     },
@@ -191,7 +195,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -209,7 +213,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -227,7 +231,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -247,7 +251,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
@@ -265,7 +269,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+                "39e0c941-6dad-405a-9987-2b662c32bcd8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",

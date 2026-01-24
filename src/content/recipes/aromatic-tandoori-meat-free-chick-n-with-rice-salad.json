@@ -7,11 +7,23 @@
     "gousto_id": "4257",
     "rating": {
         "average": 4.5,
-        "count": 747
+        "count": 748
     },
     "description": "For a lighter twist on a tandoori takeaway, you'll coat meat-free chick'n in a spiced yoghurt marinade before browning in the pan to infuse it with Punjabi-inspired flavour. Delicious!",
     "cuisine": "Indian",
     "ingredients": [
+        {
+            "label": "White basmati rice (130g)",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (65g) x0",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
         {
             "label": "Meat-free chick'n (160g)",
             "gousto_uuid": "b6232430-ec44-4bfd-b5a2-2924eab13959",
@@ -28,12 +40,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
-        },
-        {
-            "label": "White basmati rice (65g) x0",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
         },
         {
             "label": "Mayonnaise (25ml)",
@@ -69,12 +75,6 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
-        },
-        {
             "label": "Natural yoghurt (80g)",
             "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
             "allergens": [
@@ -83,16 +83,23 @@
             "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
-            "label": "White basmati rice (130g)",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
-        },
-        {
             "label": "Cucumber (0.5pcs)",
             "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
             "allergens": [],
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         },
         {
             "label": "Shredded red cabbage (150g)",
@@ -152,7 +159,7 @@
             "image": "/images/instructions/aromatic-tandoori-meat-free-chick-n-with-rice-salad/step-6.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>cooled rice</strong>, <strong>nigella seeds</strong>,<strong> sliced</strong> <strong>cucumber</strong>, <strong>shredded red cabbage </strong>and most of the <strong>chopped coriander </strong>and <strong>mint </strong>(save the rest for garnish!) to a large bowl</p><p>Squeeze the juice of the <strong>lime[s]</strong> into the bowl with a drizzle of <strong>olive oil </strong>and give everything a good mix up \u2013 this is your<strong> rice salad</strong></p>",
+            "instruction": "<p>Add the <strong>cooled rice</strong>, <strong>black sesame seeds</strong>,<strong> sliced</strong> <strong>cucumber</strong>, <strong>shredded red cabbage </strong>and most of the <strong>chopped coriander </strong>and <strong>mint </strong>(save the rest for garnish!) to a large bowl</p><p>Squeeze the juice of the <strong>lime[s]</strong> into the bowl with a drizzle of <strong>olive oil </strong>and give everything a good mix up \u2013 this is your<strong> rice salad</strong></p>",
             "order": 7,
             "image": "/images/instructions/aromatic-tandoori-meat-free-chick-n-with-rice-salad/step-7.jpg"
         },
@@ -162,41 +169,46 @@
         }
     ],
     "allergens": [
+        "celery",
         "egg",
+        "fish",
         "milk",
         "mustard",
+        "nut",
+        "sesame",
         "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 121,
-            "energy_kj": 511,
-            "fat_mg": 3673,
-            "fat_saturates_mg": 466,
-            "carbs_mg": 14173,
-            "carbs_sugars_mg": 1883,
-            "fibre_mg": 2380,
-            "protein_mg": 6371,
-            "salt_mg": 441,
+            "energy_kcal": 123,
+            "energy_kj": 519,
+            "fat_mg": 3937,
+            "fat_saturates_mg": 503,
+            "carbs_mg": 14072,
+            "carbs_sugars_mg": 1880,
+            "fibre_mg": 2326,
+            "protein_mg": 6379,
+            "salt_mg": 439,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 513,
-            "energy_kj": 2156,
-            "fat_mg": 15476,
-            "fat_saturates_mg": 1967,
-            "carbs_mg": 59707,
-            "carbs_sugars_mg": 7933,
-            "fibre_mg": 10026,
-            "protein_mg": 26840,
-            "salt_mg": 1859,
-            "net_weight_mg": 421250
+            "energy_kcal": 523,
+            "energy_kj": 2195,
+            "fat_mg": 16627,
+            "fat_saturates_mg": 2126,
+            "carbs_mg": 59423,
+            "carbs_sugars_mg": 7941,
+            "fibre_mg": 9824,
+            "protein_mg": 26938,
+            "salt_mg": 1857,
+            "net_weight_mg": 422250
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -205,14 +217,14 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
@@ -221,14 +233,14 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -238,15 +250,15 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
@@ -255,14 +267,14 @@
                 "70f967b5-e78a-44a4-9450-a52705125b45",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -273,10 +285,9 @@
                 "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "b6232430-ec44-4bfd-b5a2-2924eab13959",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         }
     },

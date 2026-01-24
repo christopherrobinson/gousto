@@ -12,11 +12,17 @@
     "gousto_id": "1432",
     "rating": {
         "average": 5,
-        "count": 789
+        "count": 790
     },
     "description": "This showstopping duck breast takes centre stage with its crispy skin and tender meat. Let it shine on creamy potato and parsnip gratin, with braised red cabbage cooked with sultanas for a hint of sweetness.",
     "cuisine": "French",
     "ingredients": [
+        {
+            "label": "Parsnip",
+            "gousto_uuid": "a88cc6da-250c-4442-a388-e2b7d1868822",
+            "allergens": [],
+            "image": "/images/ingredients/a88cc6da-250c-4442-a388-e2b7d1868822.jpg"
+        },
         {
             "label": "Soy sauce (8ml)",
             "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
@@ -27,24 +33,18 @@
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
-            "label": "Parsnip",
-            "gousto_uuid": "a88cc6da-250c-4442-a388-e2b7d1868822",
-            "allergens": [],
-            "image": "/images/ingredients/a88cc6da-250c-4442-a388-e2b7d1868822.jpg"
-        },
-        {
             "label": "Duck breast portions (2pcs)",
             "gousto_uuid": "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
             "allergens": [],
             "image": "/images/ingredients/9d681c73-1e03-4fe0-ad8e-b2814f3bbab4.jpg"
         },
         {
-            "label": "Cr\u00e8me fra\u00eeche (80g)",
-            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
+            "label": "Soured cream (80g)",
+            "gousto_uuid": "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
             "allergens": [
                 "milk"
             ],
-            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
+            "image": "/images/ingredients/8a9689cf-21a1-4c84-9f3e-8b5aab66e957.jpg"
         },
         {
             "label": "Intense chicken stock mix (5.5g)",
@@ -57,14 +57,6 @@
             "gousto_uuid": "8257b5b7-8205-4fce-b42e-701a27261689",
             "allergens": [],
             "image": "/images/ingredients/8257b5b7-8205-4fce-b42e-701a27261689.jpg"
-        },
-        {
-            "label": "Red wine vinegar (30ml)",
-            "gousto_uuid": "c9bfadf4-a66f-4282-891a-a024f8a937fd",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/c9bfadf4-a66f-4282-891a-a024f8a937fd.jpg"
         },
         {
             "label": "Grated Italian hard cheese (30g)",
@@ -99,7 +91,7 @@
             "image": "/images/ingredients/3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7.jpg"
         },
         {
-            "label": "Red wine vinegar (15ml) x0",
+            "label": "Red wine vinegar (15ml) x2",
             "gousto_uuid": "3982abce-0437-40bc-950c-bc4990c45d9a",
             "allergens": [
                 "sulphites"
@@ -134,7 +126,7 @@
             "image": "/images/instructions/duck-breast-braised-red-cabbage-potato-and-parsnip-gratin/step-1.jpg"
         },
         {
-            "instruction": "<p>Stir the <strong>chicken stock</strong> gradually into the <strong>roux</strong> and cook for 1-2 min</p><p>Add your <strong>cr\u00e8me fra\u00eeche</strong> and stir until combined, then season with a pinch of <strong>pepper</strong></p>",
+            "instruction": "<p>Stir the <strong>chicken stock</strong> gradually into the <strong>roux</strong> and cook for 1-2 min</p><p>Add your <strong>soured cream </strong>and stir until combined, then season with a pinch of <strong>pepper</strong></p>",
             "order": 2,
             "image": "/images/instructions/duck-breast-braised-red-cabbage-potato-and-parsnip-gratin/step-2.jpg"
         },
@@ -205,7 +197,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
                 "8257b5b7-8205-4fce-b42e-701a27261689",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -213,6 +204,7 @@
                 "a88cc6da-250c-4442-a388-e2b7d1868822",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -221,15 +213,15 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
                 "8257b5b7-8205-4fce-b42e-701a27261689",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "0bf6cb32-c4d0-4201-8304-8133bfe8164a",
                 "a88cc6da-250c-4442-a388-e2b7d1868822",
-                "c9bfadf4-a66f-4282-891a-a024f8a937fd",
+                "3982abce-0437-40bc-950c-bc4990c45d9a",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -239,7 +231,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
                 "8257b5b7-8205-4fce-b42e-701a27261689",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -247,8 +238,8 @@
                 "0bf6cb32-c4d0-4201-8304-8133bfe8164a",
                 "a88cc6da-250c-4442-a388-e2b7d1868822",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
-                "c9bfadf4-a66f-4282-891a-a024f8a937fd",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -257,15 +248,15 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
                 "8257b5b7-8205-4fce-b42e-701a27261689",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "9366f231-1a90-466f-b292-1a237e15ddaf",
                 "a88cc6da-250c-4442-a388-e2b7d1868822",
-                "c9bfadf4-a66f-4282-891a-a024f8a937fd",
+                "3982abce-0437-40bc-950c-bc4990c45d9a",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
@@ -275,7 +266,6 @@
             "is_offered": true,
             "ingredients_skus": [
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "9d681c73-1e03-4fe0-ad8e-b2814f3bbab4",
                 "8257b5b7-8205-4fce-b42e-701a27261689",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
@@ -283,8 +273,8 @@
                 "9366f231-1a90-466f-b292-1a237e15ddaf",
                 "a88cc6da-250c-4442-a388-e2b7d1868822",
                 "3982abce-0437-40bc-950c-bc4990c45d9a",
-                "c9bfadf4-a66f-4282-891a-a024f8a937fd",
                 "3a2e73b7-2545-4e5c-824a-3a6a7f2ce2c7",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"

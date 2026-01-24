@@ -7,11 +7,26 @@
     "gousto_id": "5073",
     "rating": {
         "average": 4.5,
-        "count": 12106
+        "count": 12111
     },
     "description": "Here's a classic stir-fry when you need some fast flavour. You'll infuse noodles with the sweet and savoury flavours of Chinese rice wine, honey and soy, then finish with a touch of spring onion.",
     "cuisine": "Asian",
     "ingredients": [
+        {
+            "label": "Spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "allergens": [],
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+        },
+        {
+            "label": "Soy sauce (8ml) x0",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
+        },
         {
             "label": "Toasted sesame oil (20ml) x0",
             "gousto_uuid": "1f3e2a0b-2299-41b1-b7fc-292eb09e1de6",
@@ -25,12 +40,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/1f3e2a0b-2299-41b1-b7fc-292eb09e1de6.jpg"
-        },
-        {
-            "label": "Spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
-            "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
             "label": "Pork mince (250g)",
@@ -118,15 +127,6 @@
             "image": "/images/ingredients/b03e9a68-9ad1-4cc3-bde3-5823be6468c2.jpg"
         },
         {
-            "label": "Soy sauce (8ml) x0",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
-        },
-        {
             "label": "Soy sauce (30ml) x0",
             "gousto_uuid": "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
             "allergens": [
@@ -156,7 +156,7 @@
             "image": "/images/instructions/sesame-pork-and-mushroom-udon-noodle-stir-fry/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick with a matching lid) with a generous drizzle of <strong>vegetable oil </strong>over a high heat</p><p>Once hot, add your<strong> pork mince </strong>(remove the paper if required!) with a pinch of <strong>salt</strong> and<strong> </strong>cook for 3-4 min or until beginning to brown, breaking it up with a wooden spoon as you go</p><p>(Doubled your protein? Use 2 pans!)</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick with a matching lid) with a generous drizzle of <strong>vegetable oil </strong>over a high heat</p><p>Once hot, add your<strong> mince </strong>(remove the paper if required!) with a pinch of <strong>salt</strong> and<strong> </strong>cook for 3-4 min or until beginning to brown, breaking it up with a wooden spoon as you go</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 2,
             "image": "/images/instructions/sesame-pork-and-mushroom-udon-noodle-stir-fry/step-2.jpg"
         },
@@ -203,26 +203,26 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 130,
-            "energy_kj": 547,
-            "fat_mg": 3905,
-            "fat_saturates_mg": 1147,
-            "carbs_mg": 16060,
-            "carbs_sugars_mg": 3560,
+            "energy_kj": 546,
+            "fat_mg": 3910,
+            "fat_saturates_mg": 1149,
+            "carbs_mg": 16001,
+            "carbs_sugars_mg": 3498,
             "fibre_mg": 157,
-            "protein_mg": 6963,
+            "protein_mg": 6975,
             "salt_mg": 503,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 606,
-            "energy_kj": 2544,
-            "fat_mg": 18161,
-            "fat_saturates_mg": 5338,
-            "carbs_mg": 74680,
-            "carbs_sugars_mg": 16555,
+            "energy_kj": 2541,
+            "fat_mg": 18186,
+            "fat_saturates_mg": 5343,
+            "carbs_mg": 74405,
+            "carbs_sugars_mg": 16270,
             "fibre_mg": 731,
-            "protein_mg": 32380,
-            "salt_mg": 2342,
+            "protein_mg": 32435,
+            "salt_mg": 2340,
             "net_weight_mg": 465000
         }
     },

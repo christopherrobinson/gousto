@@ -7,9 +7,9 @@
     "gousto_id": "8708",
     "rating": {
         "average": 4,
-        "count": 25
+        "count": 28
     },
-    "description": "This Neapolitan-style calzone is the stuff of dreams. You'll pack your DIY pizza dough with fennel, chilli, garlic sausage and plenty of cheddar cheese before baking till golden. Perfetto. Finish your meal with a G\u00fc zillionaire cheesecake.",
+    "description": "This Neapolitan-style calzone is the stuff of dreams. You'll pack your DIY pizza dough with fennel, chilli, garlic sausage and plenty of mozzarella before baking till golden. Perfetto. Finish your meal with a G\u00fc zillionaire cheesecake.",
     "cuisine": "Italian",
     "ingredients": [
         {
@@ -57,14 +57,6 @@
             "image": "/images/ingredients/1a127de8-5cb9-4663-b6df-459c43a62e8e.jpg"
         },
         {
-            "label": "Cheddar cheese (40g) x2",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
             "label": "Garlic clove x2",
             "gousto_uuid": "0cdeefe0-26b8-42f2-bced-9e677f809a26",
             "allergens": [],
@@ -85,6 +77,14 @@
             "image": "/images/ingredients/14b6619e-48e9-4256-9e96-650cf7de7ad3.jpg"
         },
         {
+            "label": "Mozzarella (125g)",
+            "gousto_uuid": "d93301c4-2563-4b9d-b829-991800ca87b4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/d93301c4-2563-4b9d-b829-991800ca87b4.jpg"
+        },
+        {
             "label": "Rocket (20g)",
             "gousto_uuid": "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
             "allergens": [],
@@ -101,7 +101,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00baC/ 200\u00baC (fan)/ gas 7</p><p>Put a large baking tray (or two) in the oven to heat up (this will stop the pizza bottom[s] from going soggy!)</p><p>Add your <strong>dried yeast</strong> to a large bowl with 100ml<span class=\"text-purple\"> [150ml]</span><span class=\"text-danger\"> [200ml] </span><strong>warm water </strong>and 1 tsp <span class=\"text-purple\">[1 1/2 tsp] </span><span class=\"text-danger\">[2 tsp]<strong> </strong></span><strong>sugar</strong>, give it a good mix up and set aside for 5-10 min for the yeast to develop</p><p>While the yeast is developing, grate your <strong>cheddar cheese</strong></p>",
+            "instruction": "<p>Preheat the oven to 220\u00baC/ 200\u00baC (fan)/ gas 7</p><p>Put a large baking tray (or two) in the oven to heat up (this will stop the pizza bottom[s] from going soggy!)</p><p>Add your <strong>dried yeast</strong> to a large bowl with 100ml<span class=\"text-purple\"> [150ml]</span><span class=\"text-danger\"> [200ml] </span><strong>warm water </strong>and 1 tsp <span class=\"text-purple\">[1 1/2 tsp] </span><span class=\"text-danger\">[2 tsp]<strong> </strong></span><strong>sugar</strong>, give it a good mix up and set aside for 5-10 min for the yeast to develop</p><p>While the yeast is developing, drain your <strong>mozzarella</strong>, then pat and squeeze as much liquid out as you can with kitchen paper </p><p>Tear the <strong>drained mozzarella</strong> into rough, bite-sized pieces</p>",
             "order": 1,
             "image": "/images/instructions/neapolitan-style-spicy-fennel-sausage-diy-calzone-with-dessert/step-1.jpg"
         },
@@ -121,7 +121,7 @@
             "image": "/images/instructions/neapolitan-style-spicy-fennel-sausage-diy-calzone-with-dessert/step-4.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>tomato paste </strong>to a bowl with a pinch of <strong>salt</strong> and <strong>pepper</strong>, 1 tsp<span class=\"text-purple\"> [1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>and<strong> </strong>85ml <span class=\"text-purple\">[125ml]</span> <span class=\"text-danger\">[170ml] </span><strong>cold water</strong> and stir it all together \u2013 this is your <strong>tomato sauce</strong></p><p>Divide <strong>half</strong> the<strong> tomato sauce </strong>(you'll use the rest for topping!)<strong> </strong>between<strong> </strong>one side of each calzone base[s], leaving a border of dough clear around the edge</p><p>Top the tomato sauce with the <strong>grated cheese</strong> and <strong>spicy fennel sausage</strong></p>",
+            "instruction": "<p>Add your <strong>tomato paste </strong>to a bowl with a pinch of <strong>salt</strong> and <strong>pepper</strong>, 1 tsp<span class=\"text-purple\"> [1 1/2 tsp]</span> <span class=\"text-danger\">[2 tsp]</span> <strong>sugar </strong>and<strong> </strong>85ml <span class=\"text-purple\">[125ml]</span> <span class=\"text-danger\">[170ml] </span><strong>cold water</strong> and stir it all together \u2013 this is your <strong>tomato sauce</strong></p><p>Divide <strong>half</strong> the<strong> tomato sauce </strong>(you'll use the rest for topping!)<strong> </strong>between<strong> </strong>one side of each calzone base[s], leaving a border of dough clear around the edge</p><p>Top the tomato sauce with the <strong>torn mozzarella</strong> and <strong>spicy fennel sausage</strong></p>",
             "order": 5,
             "image": "/images/instructions/neapolitan-style-spicy-fennel-sausage-diy-calzone-with-dessert/step-5.jpg"
         },
@@ -150,28 +150,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 312,
-            "energy_kj": 1308,
-            "fat_mg": 13914,
-            "fat_saturates_mg": 7115,
-            "carbs_mg": 37381,
-            "carbs_sugars_mg": 9598,
-            "fibre_mg": 2054,
-            "protein_mg": 11289,
-            "salt_mg": 821,
+            "energy_kcal": 288,
+            "energy_kj": 1210,
+            "fat_mg": 12217,
+            "fat_saturates_mg": 6205,
+            "carbs_mg": 35419,
+            "carbs_sugars_mg": 9221,
+            "fibre_mg": 1941,
+            "protein_mg": 10917,
+            "salt_mg": 691,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 1200,
-            "energy_kj": 5032,
-            "fat_mg": 53501,
-            "fat_saturates_mg": 27358,
-            "carbs_mg": 143732,
-            "carbs_sugars_mg": 36907,
+            "energy_kcal": 1174,
+            "energy_kj": 4925,
+            "fat_mg": 49726,
+            "fat_saturates_mg": 25258,
+            "carbs_mg": 144157,
+            "carbs_sugars_mg": 37532,
             "fibre_mg": 7900,
-            "protein_mg": 43408,
-            "salt_mg": 3159,
-            "net_weight_mg": 384500
+            "protein_mg": 44433,
+            "salt_mg": 2814,
+            "net_weight_mg": 407000
         }
     },
     "portion_sizes": {
@@ -179,11 +179,11 @@
             "is_offered": true,
             "ingredients_skus": [
                 "474e14c4-ac65-439c-af3c-c18bfb65713a",
-                "aed1561d-bae6-487b-a645-4125a6829119",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "593fed37-5b94-41af-8c40-e119b0007075",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "d93301c4-2563-4b9d-b829-991800ca87b4",
                 "9fc89ec3-0083-4ac2-a1fa-50386b5c4b48",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "14b6619e-48e9-4256-9e96-650cf7de7ad3",
@@ -194,11 +194,11 @@
             "is_offered": true,
             "ingredients_skus": [
                 "474e14c4-ac65-439c-af3c-c18bfb65713a",
-                "aed1561d-bae6-487b-a645-4125a6829119",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "593fed37-5b94-41af-8c40-e119b0007075",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "d93301c4-2563-4b9d-b829-991800ca87b4",
                 "9fc89ec3-0083-4ac2-a1fa-50386b5c4b48",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "14b6619e-48e9-4256-9e96-650cf7de7ad3",
@@ -209,11 +209,11 @@
             "is_offered": true,
             "ingredients_skus": [
                 "474e14c4-ac65-439c-af3c-c18bfb65713a",
-                "aed1561d-bae6-487b-a645-4125a6829119",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "593fed37-5b94-41af-8c40-e119b0007075",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "d93301c4-2563-4b9d-b829-991800ca87b4",
                 "9fc89ec3-0083-4ac2-a1fa-50386b5c4b48",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "14b6619e-48e9-4256-9e96-650cf7de7ad3",
@@ -224,11 +224,11 @@
             "is_offered": true,
             "ingredients_skus": [
                 "474e14c4-ac65-439c-af3c-c18bfb65713a",
-                "aed1561d-bae6-487b-a645-4125a6829119",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "593fed37-5b94-41af-8c40-e119b0007075",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "d93301c4-2563-4b9d-b829-991800ca87b4",
                 "9fc89ec3-0083-4ac2-a1fa-50386b5c4b48",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "14b6619e-48e9-4256-9e96-650cf7de7ad3",
@@ -239,11 +239,11 @@
             "is_offered": true,
             "ingredients_skus": [
                 "474e14c4-ac65-439c-af3c-c18bfb65713a",
-                "aed1561d-bae6-487b-a645-4125a6829119",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "593fed37-5b94-41af-8c40-e119b0007075",
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
+                "d93301c4-2563-4b9d-b829-991800ca87b4",
                 "9fc89ec3-0083-4ac2-a1fa-50386b5c4b48",
                 "9d76a3b5-6f81-404f-b5a7-cb27d569ceee",
                 "14b6619e-48e9-4256-9e96-650cf7de7ad3",

@@ -7,11 +7,23 @@
     "gousto_id": "4071",
     "rating": {
         "average": 4.5,
-        "count": 3190
+        "count": 3191
     },
     "description": "Ready for the ultimate breakfast-dinner mash-up? You'll fry bacon lardons with mushrooms, tomato and curry spices, then toss in rice and peas. Top it all off with a perfectly boiled egg, and you've got yourself a brinner winner.",
     "cuisine": "British",
     "ingredients": [
+        {
+            "label": "White basmati rice (100g)",
+            "gousto_uuid": "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
+            "allergens": [],
+            "image": "/images/ingredients/7f229ae1-a194-4f7f-8dd0-79bb6494cab2.jpg"
+        },
+        {
+            "label": "White basmati rice (50g) x0",
+            "gousto_uuid": "c73a42e9-151b-4657-a860-1d5532d04bb7",
+            "allergens": [],
+            "image": "/images/ingredients/c73a42e9-151b-4657-a860-1d5532d04bb7.jpg"
+        },
         {
             "label": "Tomato ketchup (30ml)",
             "gousto_uuid": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
@@ -73,12 +85,6 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
-            "label": "White basmati rice (50g) x0",
-            "gousto_uuid": "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-            "allergens": [],
-            "image": "/images/ingredients/10c033ea-4d86-4744-8d88-d51dea5d2e21.jpg"
-        },
-        {
             "label": "Tomato",
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
@@ -95,12 +101,6 @@
             "gousto_uuid": "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
             "allergens": [],
             "image": "/images/ingredients/7482eb88-9b17-4e54-8dd1-191c5e8f08db.jpg"
-        },
-        {
-            "label": "White basmati rice (100g)",
-            "gousto_uuid": "17539a8a-b808-4c93-b53d-a21d91136575",
-            "allergens": [],
-            "image": "/images/ingredients/17539a8a-b808-4c93-b53d-a21d91136575.jpg"
         },
         {
             "label": "Bacon lardons (50g) x0",
@@ -186,7 +186,7 @@
             "energy_kj": 516,
             "fat_mg": 3946,
             "fat_saturates_mg": 1157,
-            "carbs_mg": 14780,
+            "carbs_mg": 14833,
             "carbs_sugars_mg": 3525,
             "fibre_mg": 2242,
             "protein_mg": 6789,
@@ -198,7 +198,7 @@
             "energy_kj": 2084,
             "fat_mg": 15929,
             "fat_saturates_mg": 4672,
-            "carbs_mg": 59660,
+            "carbs_mg": 59875,
             "carbs_sugars_mg": 14232,
             "fibre_mg": 9053,
             "protein_mg": 27405,
@@ -210,6 +210,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
@@ -222,7 +223,6 @@
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "43938034-cb9a-45cb-ad78-44234261fb46",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]
         },
@@ -241,13 +241,14 @@
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
@@ -262,8 +263,7 @@
                 "43938034-cb9a-45cb-ad78-44234261fb46",
                 "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]
         },
@@ -282,13 +282,14 @@
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "c73a42e9-151b-4657-a860-1d5532d04bb7",
                 "ecbe9ede-af06-4753-b232-a5273ace435e",
                 "efbc4ea1-06f0-48cd-b4b4-5cdb92e0f296",
                 "7482eb88-9b17-4e54-8dd1-191c5e8f08db",
@@ -302,10 +303,9 @@
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "43938034-cb9a-45cb-ad78-44234261fb46",
                 "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "10c033ea-4d86-4744-8d88-d51dea5d2e21",
-                "17539a8a-b808-4c93-b53d-a21d91136575",
+                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+                "7f229ae1-a194-4f7f-8dd0-79bb6494cab2",
                 "f4ca3ba6-3d6e-4ee9-a3df-27dc5dd338ca"
             ]
         }

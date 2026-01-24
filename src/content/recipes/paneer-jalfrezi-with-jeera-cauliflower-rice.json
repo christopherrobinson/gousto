@@ -9,6 +9,24 @@
     "cuisine": "Indian",
     "ingredients": [
         {
+            "label": "White basmati rice (130g) x0",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (32g) x0",
+            "gousto_uuid": "30f763ae-dcfa-4e6a-afc5-929d5747b953",
+            "allergens": [],
+            "image": "/images/ingredients/30f763ae-dcfa-4e6a-afc5-929d5747b953.jpg"
+        },
+        {
+            "label": "White basmati rice (65g)",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
+        {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
@@ -37,12 +55,6 @@
             "gousto_uuid": "e005cb1e-5d67-45e3-8728-187e9bc0812c",
             "allergens": [],
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
-        },
-        {
-            "label": "White basmati rice (65g)",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
         },
         {
             "label": "Curry powder (0.5tbsp) x0",
@@ -79,18 +91,6 @@
             "gousto_uuid": "5c14a222-aa12-4d98-a108-106ca1693363",
             "allergens": [],
             "image": "/images/ingredients/5c14a222-aa12-4d98-a108-106ca1693363.jpg"
-        },
-        {
-            "label": "White basmati rice (32g) x0",
-            "gousto_uuid": "45feb642-fde6-40ab-ade9-3a0846f43cb5",
-            "allergens": [],
-            "image": "/images/ingredients/45feb642-fde6-40ab-ade9-3a0846f43cb5.jpg"
-        },
-        {
-            "label": "White basmati rice (130g) x0",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
         },
         {
             "label": "Paneer (200g)",
@@ -206,6 +206,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
@@ -217,8 +218,7 @@
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
-                "166bfad3-d300-465d-b61c-fef4d2965904",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "166bfad3-d300-465d-b61c-fef4d2965904"
             ]
         },
         "2": {
@@ -236,16 +236,17 @@
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
-                "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+                "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -256,8 +257,7 @@
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
@@ -275,16 +275,17 @@
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "30f763ae-dcfa-4e6a-afc5-929d5747b953",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
-                "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
+                "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
@@ -295,8 +296,7 @@
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "45feb642-fde6-40ab-ade9-3a0846f43cb5"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         }
     },

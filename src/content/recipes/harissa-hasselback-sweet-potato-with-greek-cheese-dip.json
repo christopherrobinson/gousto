@@ -13,6 +13,26 @@
     "cuisine": "Middle Eastern",
     "ingredients": [
         {
+            "label": "Greek salad cheese (100g)",
+            "gousto_uuid": "c7319a82-2ddf-463d-82a1-36ae156f4433",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
+        },
+        {
+            "label": "White basmati rice (130g)",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (65g) x0",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
+        {
             "label": "Cumin seeds (1tsp)",
             "gousto_uuid": "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
             "allergens": [],
@@ -25,32 +45,12 @@
             "image": "/images/ingredients/7ad36d38-e066-44b4-adbd-7096dc954ab1.jpg"
         },
         {
-            "label": "White basmati rice (65g) x0",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
-        },
-        {
             "label": "Natural yoghurt (80g)",
             "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
             "allergens": [
                 "milk"
             ],
             "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
-        },
-        {
-            "label": "White basmati rice (130g)",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
-        },
-        {
-            "label": "Greek salad cheese (100g)",
-            "gousto_uuid": "c7319a82-2ddf-463d-82a1-36ae156f4433",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/c7319a82-2ddf-463d-82a1-36ae156f4433.jpg"
         },
         {
             "label": "Harissa paste (20g) x0",
@@ -133,12 +133,12 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7</p><p>Cut narrow slices (about 1cm apart) into your <strong>sweet potato[es]</strong>, making sure not to cut all the way down to the base \u2013 this is your<strong> hasselback sweet potato</strong></p><p>Transfer the <strong>hasselback sweet potato[es] </strong>to a <strong>tin foil</strong>-lined baking tray with a drizzle of <strong>olive oil </strong>and a pinch of<strong> salt </strong>and give everything a good mix up</p>",
+            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7</p><p>Cut narrow slices (about 1cm apart) into your <strong>potato[es]</strong>, making sure not to cut all the way down to the base \u2013 this is your<strong> hasselback potato</strong></p><p>Transfer the <strong>hasselback potato[es] </strong>to a <strong>tin foil</strong>-lined baking tray with a drizzle of <strong>olive oil </strong>and a pinch of<strong> salt </strong>and give everything a good mix up</p>",
             "order": 1,
             "image": "/images/instructions/harissa-hasselback-sweet-potato-with-greek-cheese-dip/step-1.jpg"
         },
         {
-            "instruction": "<p>Cover the tray tightly with <strong>tin foil </strong>and put in the oven for an initial 45 min</p><p>After 45 min, remove the tray from the oven, remove the tin foil and drizzle over your <strong>honey</strong> and <strong>harissa paste </strong>(can't handle the heat? Go easy!)</p><p>Return the tray to the oven, uncovered, for 10 min further or until the potato is soft and caramelised \u2013 this is your <strong>harissa & honey hasselback sweet potato</strong></p>",
+            "instruction": "<p>Cover the tray tightly with <strong>tin foil </strong>and put in the oven for an initial 45 min</p><p>After 45 min, remove the tray from the oven, remove the tin foil and drizzle over your <strong>honey</strong> and <strong>harissa paste </strong>(can't handle the heat? Go easy!)</p><p>Return the tray to the oven, uncovered, for 10 min further or until the potato is soft and caramelised \u2013 this is your <strong>harissa & honey hasselback potato</strong></p>",
             "order": 2,
             "image": "/images/instructions/harissa-hasselback-sweet-potato-with-greek-cheese-dip/step-2.jpg"
         },
@@ -168,7 +168,7 @@
             "image": "/images/instructions/harissa-hasselback-sweet-potato-with-greek-cheese-dip/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>harissa & honey hasselback sweet potato </strong>with the <strong>herby Greek cheese dip</strong> and <strong>caramelised onion rice </strong>to the side</p><p>Sprinkle over the<strong> hazelnut crumble</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>harissa & honey hasselback potato </strong>with the <strong>herby Greek cheese dip</strong> and <strong>caramelised onion rice </strong>to the side</p><p>Sprinkle over the<strong> hazelnut crumble</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -185,26 +185,26 @@
     "nutritional_information": {
         "per_hundred_grams": {
             "energy_kcal": 150,
-            "energy_kj": 633,
+            "energy_kj": 632,
             "fat_mg": 4917,
-            "fat_saturates_mg": 1962,
-            "carbs_mg": 21883,
-            "carbs_sugars_mg": 5611,
+            "fat_saturates_mg": 1766,
+            "carbs_mg": 21864,
+            "carbs_sugars_mg": 5591,
             "fibre_mg": 1955,
-            "protein_mg": 4636,
-            "salt_mg": 371,
+            "protein_mg": 4538,
+            "salt_mg": 352,
             "net_weight_mg": 100000
         },
         "per_portion": {
             "energy_kcal": 766,
-            "energy_kj": 3233,
+            "energy_kj": 3231,
             "fat_mg": 25105,
-            "fat_saturates_mg": 10018,
-            "carbs_mg": 111717,
-            "carbs_sugars_mg": 28645,
+            "fat_saturates_mg": 9018,
+            "carbs_mg": 111617,
+            "carbs_sugars_mg": 28545,
             "fibre_mg": 9982,
-            "protein_mg": 23671,
-            "salt_mg": 1899,
+            "protein_mg": 23171,
+            "salt_mg": 1799,
             "net_weight_mg": 510500
         }
     },
@@ -224,7 +224,7 @@
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "2": {
@@ -242,7 +242,7 @@
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "3": {
@@ -262,8 +262,8 @@
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
@@ -281,7 +281,7 @@
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
@@ -301,8 +301,8 @@
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "e329fbb2-795e-457b-838e-4734e2691d32",
                 "ce0c4ad4-1d62-4c44-be99-31a7da1f064d",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         }
     },

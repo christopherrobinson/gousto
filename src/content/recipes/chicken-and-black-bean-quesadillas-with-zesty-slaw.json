@@ -10,22 +10,25 @@
     "gousto_id": "1686",
     "rating": {
         "average": 4.5,
-        "count": 11487
+        "count": 11488
     },
     "description": "Quesadillas made easy! You'll stuff tortilla wraps with smoky, spiced pulled chicken, cheddar and homemade refried beans. Fold them up, bake 'til crisp and serve with zesty slaw.",
     "cuisine": "Mexican",
     "ingredients": [
         {
-            "label": "20g chipotle paste",
-            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
+            "label": "1 spring onion",
+            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
             "allergens": [],
-            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
         },
         {
-            "label": "400g canned black beans",
-            "gousto_uuid": "980a91ac-b8d9-4001-b445-baf408e05217",
-            "allergens": [],
-            "image": "/images/ingredients/980a91ac-b8d9-4001-b445-baf408e05217.jpg"
+            "label": "8ml soy sauce",
+            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
+            "allergens": [
+                "gluten",
+                "soya"
+            ],
+            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "2 British chicken breast portions",
@@ -42,10 +45,24 @@
             "image": "/images/ingredients/55692d26-3834-4b6f-94ce-0cd6332af610.jpg"
         },
         {
-            "label": "1 spring onion",
-            "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
+            "label": "20g chipotle paste",
+            "gousto_uuid": "4795ad08-e3d0-4275-b2df-8b27c88772cf",
             "allergens": [],
-            "image": "/images/ingredients/f0273bb0-bb2b-46e5-8ce4-7e09f413c97b.jpg"
+            "image": "/images/ingredients/4795ad08-e3d0-4275-b2df-8b27c88772cf.jpg"
+        },
+        {
+            "label": "80g cheddar cheese",
+            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
+        },
+        {
+            "label": "400g canned black beans",
+            "gousto_uuid": "980a91ac-b8d9-4001-b445-baf408e05217",
+            "allergens": [],
+            "image": "/images/ingredients/980a91ac-b8d9-4001-b445-baf408e05217.jpg"
         },
         {
             "label": "1/2 tsp cayenne pepper",
@@ -60,35 +77,10 @@
             "image": "/images/ingredients/6c1fa007-a531-42bd-a635-77ee9ea6ca7e.jpg"
         },
         {
-            "label": "80g cheddar cheese",
-            "gousto_uuid": "aed1561d-bae6-487b-a645-4125a6829119",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/aed1561d-bae6-487b-a645-4125a6829119.jpg"
-        },
-        {
-            "label": "30ml mayonnaise",
-            "gousto_uuid": "34869527-4715-40aa-93c3-2a616d203aa9",
-            "allergens": [
-                "egg"
-            ],
-            "image": "/images/ingredients/34869527-4715-40aa-93c3-2a616d203aa9.jpg"
-        },
-        {
             "label": "1 carrot",
             "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
             "allergens": [],
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
-        },
-        {
-            "label": "8ml soy sauce",
-            "gousto_uuid": "3c07d126-f655-437c-aa1d-c38dbbae0398",
-            "allergens": [
-                "gluten",
-                "soya"
-            ],
-            "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
             "label": "1 lime",
@@ -101,6 +93,14 @@
             "gousto_uuid": "624ca93c-914e-4290-b00a-bd936adfebca",
             "allergens": [],
             "image": "/images/ingredients/624ca93c-914e-4290-b00a-bd936adfebca.jpg"
+        },
+        {
+            "label": "30ml mayonnaise",
+            "gousto_uuid": "34869527-4715-40aa-93c3-2a616d203aa9",
+            "allergens": [
+                "egg"
+            ],
+            "image": "/images/ingredients/34869527-4715-40aa-93c3-2a616d203aa9.jpg"
         }
     ],
     "basics": [

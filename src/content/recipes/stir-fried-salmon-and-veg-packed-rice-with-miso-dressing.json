@@ -7,22 +7,24 @@
     "gousto_id": "4797",
     "rating": {
         "average": 4,
-        "count": 2182
+        "count": 2183
     },
     "description": "Get ready to wok with this speedy Japanese style stir-fry. Crisp up fresh green veg with garlic and chilli before tossing in brown rice and salmon flakes. Drizzle with your umami-packed miso dressing and dig in.",
     "cuisine": "Fusion",
     "ingredients": [
         {
-            "label": "15ml rice vinegar",
-            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
-            "allergens": [],
-            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
-        },
-        {
             "label": "1/2 tsp dried chilli flakes",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
+        },
+        {
+            "label": "100g salmon flakes",
+            "gousto_uuid": "9d133c08-204d-4dfe-8232-93930522a871",
+            "allergens": [
+                "fish"
+            ],
+            "image": "/images/ingredients/9d133c08-204d-4dfe-8232-93930522a871.jpg"
         },
         {
             "label": "1 garlic clove",
@@ -45,18 +47,10 @@
             "image": "/images/ingredients/68941ea3-449d-4ce5-8fd5-f83ef98b1d69.jpg"
         },
         {
-            "label": "100g salmon flakes",
-            "gousto_uuid": "9d133c08-204d-4dfe-8232-93930522a871",
-            "allergens": [
-                "fish"
-            ],
-            "image": "/images/ingredients/9d133c08-204d-4dfe-8232-93930522a871.jpg"
-        },
-        {
-            "label": "130g brown rice",
-            "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
+            "label": "15g pumpkin seeds",
+            "gousto_uuid": "d64156bb-3a9e-48c8-8531-af0db943c61b",
             "allergens": [],
-            "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
+            "image": "/images/ingredients/d64156bb-3a9e-48c8-8531-af0db943c61b.jpg"
         },
         {
             "label": "17g white miso paste",
@@ -65,6 +59,12 @@
                 "soya"
             ],
             "image": "/images/ingredients/77066e71-83ba-4375-b8c3-8576da80b529.jpg"
+        },
+        {
+            "label": "15ml rice vinegar",
+            "gousto_uuid": "d6d25e38-aefd-4e18-972b-fe0eb9378ca8",
+            "allergens": [],
+            "image": "/images/ingredients/d6d25e38-aefd-4e18-972b-fe0eb9378ca8.jpg"
         },
         {
             "label": "80g mangetout",
@@ -85,10 +85,10 @@
             "image": "/images/ingredients/d240500f-9c26-4286-88bc-6be3e774e96b.jpg"
         },
         {
-            "label": "15g pumpkin seeds",
-            "gousto_uuid": "d64156bb-3a9e-48c8-8531-af0db943c61b",
+            "label": "130g brown rice",
+            "gousto_uuid": "262b0a00-3db9-4b0b-a41a-423388b3e9cc",
             "allergens": [],
-            "image": "/images/ingredients/d64156bb-3a9e-48c8-8531-af0db943c61b.jpg"
+            "image": "/images/ingredients/262b0a00-3db9-4b0b-a41a-423388b3e9cc.jpg"
         }
     ],
     "basics": [

@@ -7,11 +7,23 @@
     "gousto_id": "6345",
     "rating": {
         "average": 4.5,
-        "count": 654
+        "count": 655
     },
     "description": "For a quick tandoori-style dish, you'll char marinated hake under the grill to infuse it with smoky flavour. Serve with cooling mint raita, and a tomato and cucumber salad known as 'kachumber'. All Health Hub recipes meet one of these criteria: <600 calories, 3 of your 5/day, or a source of protein.",
     "cuisine": "Indian",
     "ingredients": [
+        {
+            "label": "White basmati rice (130g)",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (65g) x0",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
         {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -33,12 +45,6 @@
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
-            "label": "White basmati rice (65g) x0",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
-        },
-        {
             "label": "Curry powder (0.5tbsp) x0",
             "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
             "allergens": [],
@@ -55,12 +61,6 @@
             "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
             "allergens": [],
             "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
-        },
-        {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
         },
         {
             "label": "Tomato x2",
@@ -83,12 +83,6 @@
             "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
-            "label": "White basmati rice (130g)",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
-        },
-        {
             "label": "Mint sauce (20g)",
             "gousto_uuid": "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
             "allergens": [],
@@ -99,6 +93,19 @@
             "gousto_uuid": "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
             "allergens": [],
             "image": "/images/ingredients/4b3f1d8a-1881-4597-ac85-6ed81114c8c5.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         }
     ],
     "basics": [
@@ -108,7 +115,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Add your <strong>basmati rice</strong>, <strong>nigella seeds</strong>, a pinch of<strong> salt</strong>\u00a0and 300ml<span class=\"text-purple\"> [390ml] </span><span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked \u2013 this is your <strong>nigella rice</strong></p><p>Once cooked, remove the rice from the heat and keep covered until serving</p>",
+            "instruction": "<p>Add your <strong>basmati rice</strong>, <strong>black sesame seeds</strong>, a pinch of<strong> salt</strong> and 300ml<span class=\"text-purple\"> [390ml] </span><span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked \u2013 this is your <strong>black sesame rice</strong></p><p>Once cooked, remove the rice from the heat and keep covered until serving</p>",
             "order": 1,
             "image": "/images/instructions/tandoori-hake-with-mint-raita-and-kachumber-salad/step-1.jpg"
         },
@@ -143,74 +150,80 @@
             "image": "/images/instructions/tandoori-hake-with-mint-raita-and-kachumber-salad/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>tandoori hake</strong> over the\u00a0<strong>nigella</strong> <strong>rice</strong> with the <strong>kachumber salad</strong> and <strong>mint raita</strong> to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>tandoori hake</strong> over the <strong>black sesame</strong> <strong>rice</strong> with the <strong>kachumber salad</strong> and <strong>mint raita</strong> to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
     "allergens": [
+        "celery",
         "fish",
-        "milk"
+        "milk",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 103,
-            "energy_kj": 439,
-            "fat_mg": 1455,
-            "fat_saturates_mg": 310,
-            "carbs_mg": 15052,
-            "carbs_sugars_mg": 2873,
-            "fibre_mg": 1115,
-            "protein_mg": 7019,
-            "salt_mg": 226,
+            "energy_kcal": 105,
+            "energy_kj": 448,
+            "fat_mg": 1734,
+            "fat_saturates_mg": 348,
+            "carbs_mg": 14945,
+            "carbs_sugars_mg": 2868,
+            "fibre_mg": 1063,
+            "protein_mg": 7026,
+            "salt_mg": 225,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 422,
-            "energy_kj": 1786,
-            "fat_mg": 5912,
-            "fat_saturates_mg": 1260,
-            "carbs_mg": 61149,
-            "carbs_sugars_mg": 11674,
-            "fibre_mg": 4531,
-            "protein_mg": 28518,
-            "salt_mg": 922,
-            "net_weight_mg": 406250
+            "energy_kcal": 431,
+            "energy_kj": 1825,
+            "fat_mg": 7063,
+            "fat_saturates_mg": 1419,
+            "carbs_mg": 60865,
+            "carbs_sugars_mg": 11682,
+            "fibre_mg": 4330,
+            "protein_mg": 28616,
+            "salt_mg": 920,
+            "net_weight_mg": 407250
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
@@ -218,31 +231,31 @@
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
@@ -250,11 +263,10 @@
                 "4f171c2d-c380-4257-a4f9-ff7d9ec50caf",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         }
     },

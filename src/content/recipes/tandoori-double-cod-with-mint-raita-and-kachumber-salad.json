@@ -9,16 +9,22 @@
     "cuisine": "Indian",
     "ingredients": [
         {
+            "label": "White basmati rice (130g)",
+            "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
+            "allergens": [],
+            "image": "/images/ingredients/5f77383b-0530-4885-991e-ef41d67bc870.jpg"
+        },
+        {
+            "label": "White basmati rice (65g) x0",
+            "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
+            "allergens": [],
+            "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
+        },
+        {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
             "allergens": [],
             "image": "/images/ingredients/ef6fff07-cda1-491c-bffe-d6f2614bf17a.jpg"
-        },
-        {
-            "label": "Cumin seeds (1tsp)",
-            "gousto_uuid": "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
-            "allergens": [],
-            "image": "/images/ingredients/77f8b116-f219-4bf0-904e-2a97f4aa7ff7.jpg"
         },
         {
             "label": "Cod fillets (2pcs) x2",
@@ -35,22 +41,28 @@
             "image": "/images/ingredients/e005cb1e-5d67-45e3-8728-187e9bc0812c.jpg"
         },
         {
-            "label": "White basmati rice (65g) x0",
-            "gousto_uuid": "1b567531-3d45-4705-97a5-e2056fa33b9f",
-            "allergens": [],
-            "image": "/images/ingredients/1b567531-3d45-4705-97a5-e2056fa33b9f.jpg"
-        },
-        {
             "label": "Curry powder (0.5tbsp) x0",
             "gousto_uuid": "69412a18-8367-4116-b7bc-d00e7a06f1d9",
             "allergens": [],
             "image": "/images/ingredients/69412a18-8367-4116-b7bc-d00e7a06f1d9.jpg"
         },
         {
+            "label": "Curry powder (2tbsp) x0",
+            "gousto_uuid": "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
+            "allergens": [],
+            "image": "/images/ingredients/8d639d28-8052-4fc3-a7c1-f9ba842da1eb.jpg"
+        },
+        {
             "label": "Curry powder (1tbsp)",
             "gousto_uuid": "72ff27f8-415a-40af-b537-92f32743fdfb",
             "allergens": [],
             "image": "/images/ingredients/72ff27f8-415a-40af-b537-92f32743fdfb.jpg"
+        },
+        {
+            "label": "Nigella seeds (1tsp)",
+            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
+            "allergens": [],
+            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
         },
         {
             "label": "Tomato x2",
@@ -73,12 +85,6 @@
             "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
         },
         {
-            "label": "White basmati rice (130g)",
-            "gousto_uuid": "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-            "allergens": [],
-            "image": "/images/ingredients/c5e03db6-ecd9-49da-afc3-957be2cad1fd.jpg"
-        },
-        {
             "label": "Mint sauce (20g)",
             "gousto_uuid": "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
             "allergens": [],
@@ -98,7 +104,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat your grill to a high heat</p><p>Add your <strong>basmati rice</strong>, <strong>cumin seeds</strong>, a pinch of<strong> salt</strong> and 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked \u2013 this is your <strong>cumin rice</strong></p>",
+            "instruction": "<p>Preheat your grill to a high heat</p><p>Add your <strong>basmati rice</strong>, <strong>nigella seeds</strong>, a pinch of<strong> salt</strong> and 300ml <span class=\"text-purple\">[390ml]</span> <span class=\"text-danger\">[600ml]</span> <strong>cold water</strong> to a pot with a lid and bring to the boil over a high heat</p><p>Once boiling, reduce the heat to very low and cook, covered, for 10-12 min or until all the water has absorbed and the rice is cooked \u2013 this is your <strong>nigella rice</strong></p><p>Once cooked, remove the rice from the heat and keep covered until serving</p>",
             "order": 1,
             "image": "/images/instructions/tandoori-double-cod-with-mint-raita-and-kachumber-salad/step-1.jpg"
         },
@@ -133,7 +139,7 @@
             "image": "/images/instructions/tandoori-double-cod-with-mint-raita-and-kachumber-salad/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>tandoori fish </strong>over the <strong>cumin</strong> <strong>rice</strong> with the <strong>kachumber salad</strong> and <strong>mint raita</strong> to the side</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>tandoori fish </strong>over the <strong>nigella</strong> <strong>rice</strong> with the <strong>kachumber salad</strong> and <strong>mint raita</strong> to the side</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -145,25 +151,25 @@
         "per_hundred_grams": {
             "energy_kcal": 94,
             "energy_kj": 397,
-            "fat_mg": 1002,
-            "fat_saturates_mg": 250,
-            "carbs_mg": 11485,
-            "carbs_sugars_mg": 2129,
-            "fibre_mg": 724,
-            "protein_mg": 9299,
-            "salt_mg": 215,
+            "fat_mg": 956,
+            "fat_saturates_mg": 249,
+            "carbs_mg": 11524,
+            "carbs_sugars_mg": 2123,
+            "fibre_mg": 765,
+            "protein_mg": 9314,
+            "salt_mg": 214,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 496,
-            "energy_kj": 2093,
-            "fat_mg": 5276,
-            "fat_saturates_mg": 1320,
-            "carbs_mg": 60442,
-            "carbs_sugars_mg": 11209,
-            "fibre_mg": 3814,
-            "protein_mg": 48940,
-            "salt_mg": 1133,
+            "energy_kcal": 495,
+            "energy_kj": 2090,
+            "fat_mg": 5032,
+            "fat_saturates_mg": 1312,
+            "carbs_mg": 60649,
+            "carbs_sugars_mg": 11174,
+            "fibre_mg": 4031,
+            "protein_mg": 49018,
+            "salt_mg": 1128,
             "net_weight_mg": 526250
         }
     },
@@ -173,14 +179,14 @@
             "ingredients_skus": [
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "2": {
@@ -188,14 +194,14 @@
             "ingredients_skus": [
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "3": {
@@ -203,16 +209,16 @@
             "ingredients_skus": [
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
                 "72ff27f8-415a-40af-b537-92f32743fdfb",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
         "4": {
@@ -220,30 +226,30 @@
             "ingredients_skus": [
                 "36ee321e-acbe-4fd6-919a-a01ba1670905",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
-                "72ff27f8-415a-40af-b537-92f32743fdfb",
+                "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd"
+                "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         },
         "5": {
             "is_offered": false,
             "ingredients_skus": [
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
-                "77f8b116-f219-4bf0-904e-2a97f4aa7ff7",
                 "69412a18-8367-4116-b7bc-d00e7a06f1d9",
-                "72ff27f8-415a-40af-b537-92f32743fdfb",
+                "8d639d28-8052-4fc3-a7c1-f9ba842da1eb",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "c5e03db6-ecd9-49da-afc3-957be2cad1fd",
-                "1b567531-3d45-4705-97a5-e2056fa33b9f"
+                "5f77383b-0530-4885-991e-ef41d67bc870",
+                "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         }
     },
