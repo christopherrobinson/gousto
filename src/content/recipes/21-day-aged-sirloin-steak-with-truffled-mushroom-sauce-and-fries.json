@@ -9,20 +9,12 @@
     ],
     "gousto_id": "2645",
     "rating": {
-        "average": 5,
-        "count": 535
+        "average": 4.5,
+        "count": 550
     },
     "description": "Saddle up for a steakhouse classic. You'll sear the steak until perfectly tender, then top with a creamy mushroom sauce infused with luxurious truffle oil. Golden fries on the side make this an unbeatable treat.",
     "cuisine": "French",
     "ingredients": [
-        {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
         {
             "label": "Tenderstem broccoli (80g) x0",
             "gousto_uuid": "f99089af-84d8-4c24-b144-079ed2f2726b",
@@ -46,6 +38,14 @@
             "gousto_uuid": "2bc52963-20d0-455c-9de6-90f6f9b84a70",
             "allergens": [],
             "image": "/images/ingredients/2bc52963-20d0-455c-9de6-90f6f9b84a70.jpg"
+        },
+        {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "Gravy base (14g)",
@@ -80,7 +80,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7 and boil a full kettle</p><p>Add a very generous drizzle of <strong>vegetable oil</strong> to a baking tray (or two!) and put the tray[s] in the oven for 5-6 min or until the oil is very hot</p><p>Meanwhile, chop your <strong>potatoes</strong> (skins on) into fries, then pat the <strong>fries</strong> dry with<strong> kitchen paper</strong></p><p>Tip: This helps the fries get extra crispy!</p>",
+            "instruction": "<p>Before you start cooking, take your steak out of the fridge, open the packet and let it adjust to room temperature, then preheat the oven to 220\u00b0C/ 200\u00b0C (fan)/ gas 7 and boil a full kettle</p><p>Add a very generous drizzle of <strong>vegetable oil</strong> to a baking tray (or two!) and put the tray[s] in the oven for 5-6 min or until the oil is very hot</p><p>Meanwhile, chop your <strong>potatoes</strong> (skins on) into fries, then pat the <strong>fries</strong> dry with<strong> kitchen paper</strong></p>",
             "order": 1,
             "image": "/images/instructions/21-day-aged-sirloin-steak-with-truffled-mushroom-sauce-and-fries/step-1.jpg"
         },
@@ -110,7 +110,7 @@
             "image": "/images/instructions/21-day-aged-sirloin-steak-with-truffled-mushroom-sauce-and-fries/step-6.jpg"
         },
         {
-            "instruction": "<p>Once hot, add the <strong>chopped mushrooms </strong>and cook for 3-4 min or until golden</p><p>Once golden, add the <strong>gravy stock </strong>and <strong>clotted cream</strong> and cook for 1-2 min further or until thickened slightly</p><p>Once thickened, add your <strong>truffle oil</strong> and give everything a good mix up \u2013 this is your <strong>truffled mushroom sauce</strong></p><p>Slice the rested steak finely on a clean board</p>",
+            "instruction": "<p>Once hot, add the <strong>chopped mushrooms </strong>and cook for 3-4 min or until golden</p><p>Once golden, add the <strong>gravy stock </strong>and <strong>soft cheese</strong> and cook for 1-2 min further or until thickened slightly</p><p>Once thickened, add your <strong>truffle oil</strong> and give everything a good mix up \u2013 this is your <strong>truffled mushroom sauce</strong></p><p>Slice the <strong>rested steak</strong> finely on a clean board</p>",
             "order": 7,
             "image": "/images/instructions/21-day-aged-sirloin-steak-with-truffled-mushroom-sauce-and-fries/step-7.jpg"
         },
@@ -124,39 +124,39 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 139,
-            "energy_kj": 584,
-            "fat_mg": 7995,
-            "fat_saturates_mg": 3633,
-            "carbs_mg": 8066,
-            "carbs_sugars_mg": 817,
-            "fibre_mg": 1298,
-            "protein_mg": 9370,
-            "salt_mg": 181,
+            "energy_kcal": 128,
+            "energy_kj": 539,
+            "fat_mg": 6763,
+            "fat_saturates_mg": 2891,
+            "carbs_mg": 8049,
+            "carbs_sugars_mg": 865,
+            "fibre_mg": 1287,
+            "protein_mg": 9430,
+            "salt_mg": 200,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 770,
-            "energy_kj": 3219,
-            "fat_mg": 44054,
-            "fat_saturates_mg": 20018,
-            "carbs_mg": 44444,
-            "carbs_sugars_mg": 4502,
+            "energy_kcal": 716,
+            "energy_kj": 2997,
+            "fat_mg": 37604,
+            "fat_saturates_mg": 16078,
+            "carbs_mg": 44754,
+            "carbs_sugars_mg": 4812,
             "fibre_mg": 7157,
-            "protein_mg": 51631,
-            "salt_mg": 998,
-            "net_weight_mg": 551000
+            "protein_mg": 52436,
+            "salt_mg": 1114,
+            "net_weight_mg": 556000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "f99089af-84d8-4c24-b144-079ed2f2726b",
                 "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "8192d130-6a31-4835-8991-2e842bfe327a",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -164,11 +164,11 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "e25cae09-5a50-43e2-9b35-6553bc027b23",
                 "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "fbc937b7-2ea7-453d-a046-7f8523decc14",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -176,13 +176,13 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "f99089af-84d8-4c24-b144-079ed2f2726b",
                 "e25cae09-5a50-43e2-9b35-6553bc027b23",
                 "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "fbc937b7-2ea7-453d-a046-7f8523decc14",
                 "8192d130-6a31-4835-8991-2e842bfe327a",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -190,11 +190,11 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "e25cae09-5a50-43e2-9b35-6553bc027b23",
                 "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "fbc937b7-2ea7-453d-a046-7f8523decc14",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -202,13 +202,13 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "f99089af-84d8-4c24-b144-079ed2f2726b",
                 "e25cae09-5a50-43e2-9b35-6553bc027b23",
                 "b03e9a68-9ad1-4cc3-bde3-5823be6468c2",
                 "15f1965f-b9a5-4221-a016-31728c24e736",
                 "fbc937b7-2ea7-453d-a046-7f8523decc14",
                 "8192d130-6a31-4835-8991-2e842bfe327a",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]

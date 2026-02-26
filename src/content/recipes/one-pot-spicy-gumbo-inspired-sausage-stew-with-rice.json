@@ -7,11 +7,25 @@
     "gousto_id": "7397",
     "rating": {
         "average": 4.5,
-        "count": 912
+        "count": 913
     },
-    "description": "New Orleans-style gumbo is an American favourite for a reason. You'll sizzle sausage, pepper and onion with southern fried seasoning before adding stock and simmering till rich. Serve up with rice and dig in.",
+    "description": "New Orleans-style gumbo is an American favourite for a reason. You'll sizzle sausage, pepper and onion with southern fried seasoning before adding stock and simmering till rich. Serve up with rice and dig in. Under 600 calories.",
     "cuisine": "American",
     "ingredients": [
+        {
+            "label": "Jolly Hog pork sausagemeat (150g)",
+            "gousto_uuid": "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
+            "allergens": [
+                "sulphites"
+            ],
+            "image": "/images/ingredients/a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8.jpg"
+        },
+        {
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+        },
         {
             "label": "Tomato paste (32g) x0",
             "gousto_uuid": "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
@@ -55,14 +69,6 @@
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
-            "label": "Sausage meat (150g) x2",
-            "gousto_uuid": "14b6619e-48e9-4256-9e96-650cf7de7ad3",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/14b6619e-48e9-4256-9e96-650cf7de7ad3.jpg"
-        },
-        {
             "label": "Cooked white long grain rice (280g)",
             "gousto_uuid": "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
             "allergens": [],
@@ -73,12 +79,6 @@
             "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
             "allergens": [],
             "image": "/images/ingredients/0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b.jpg"
-        },
-        {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         }
     ],
     "basics": [
@@ -87,7 +87,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Heat a pot (with a matching lid) over a medium-high heat with a drizzle of <strong>vegetable oil</strong></p><p>Once hot, add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span><span class=\"text-danger\"> </span><span class=\"text-purple\">[2 tbsp]</span> <strong>flour</strong></p><p>Cook for 5-6 min or until the flour mixture has browned</p>",
+            "instruction": "<p>Heat a pot (with a matching lid) over a medium-high heat with a drizzle of <strong>vegetable oil</strong></p><p>Once hot, add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span><span class=\"text-danger\"> [2 tbsp]</span> <strong>flour</strong></p><p>Cook for 5-6 min or until the flour mixture has browned</p>",
             "order": 1,
             "image": "/images/instructions/one-pot-spicy-gumbo-inspired-sausage-stew-with-rice/step-1.jpg"
         },
@@ -131,41 +131,41 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 173,
-            "energy_kj": 724,
-            "fat_mg": 8328,
-            "fat_saturates_mg": 2756,
-            "carbs_mg": 17309,
-            "carbs_sugars_mg": 2213,
-            "fibre_mg": 1568,
-            "protein_mg": 7120,
-            "salt_mg": 673,
+            "energy_kcal": 147,
+            "energy_kj": 619,
+            "fat_mg": 5124,
+            "fat_saturates_mg": 1649,
+            "carbs_mg": 19979,
+            "carbs_sugars_mg": 2150,
+            "fibre_mg": 2147,
+            "protein_mg": 5455,
+            "salt_mg": 600,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 729,
-            "energy_kj": 3050,
-            "fat_mg": 35044,
-            "fat_saturates_mg": 11598,
-            "carbs_mg": 72828,
-            "carbs_sugars_mg": 9312,
-            "fibre_mg": 6599,
-            "protein_mg": 29961,
-            "salt_mg": 2835,
-            "net_weight_mg": 420750
+            "energy_kcal": 510,
+            "energy_kj": 2143,
+            "fat_mg": 17719,
+            "fat_saturates_mg": 5703,
+            "carbs_mg": 69078,
+            "carbs_sugars_mg": 7437,
+            "fibre_mg": 7424,
+            "protein_mg": 18861,
+            "salt_mg": 2077,
+            "net_weight_mg": 345750
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "89dd15ea-dd4a-4539-84df-a420302b824c",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
             ]
@@ -173,13 +173,13 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "89dd15ea-dd4a-4539-84df-a420302b824c",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
             ]
@@ -187,6 +187,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
@@ -194,7 +195,6 @@
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "89dd15ea-dd4a-4539-84df-a420302b824c",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
@@ -202,13 +202,13 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "89dd15ea-dd4a-4539-84df-a420302b824c",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
@@ -216,6 +216,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "e6c07e0b-ad3c-4db8-8f1c-020fef39bfb3",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
@@ -223,7 +224,6 @@
                 "ec455cb7-01fc-4470-9db4-e94afca273e4",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "89dd15ea-dd4a-4539-84df-a420302b824c",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"

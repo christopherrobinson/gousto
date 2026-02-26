@@ -10,7 +10,7 @@
     "gousto_id": "1808",
     "rating": {
         "average": 4.5,
-        "count": 82975
+        "count": 82985
     },
     "description": "For this open-faced tikka sandwich, you'll marinate chicken in spices, before pan-frying until golden. Serve with warmed naan, carrot and cucumber salad, and cooling mint yoghurt.",
     "cuisine": "Indian",
@@ -58,12 +58,6 @@
             "image": "/images/ingredients/cb7a7f70-80cb-4648-840f-d350ad96d1ee.jpg"
         },
         {
-            "label": "Nigella seeds (1tsp)",
-            "gousto_uuid": "07ba6283-9b57-44e5-81e0-b30d982088d4",
-            "allergens": [],
-            "image": "/images/ingredients/07ba6283-9b57-44e5-81e0-b30d982088d4.jpg"
-        },
-        {
             "label": "Natural yoghurt (80g)",
             "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
             "allergens": [
@@ -108,6 +102,19 @@
             "gousto_uuid": "4cd305c4-d372-4d9f-8110-dae88209ce57",
             "allergens": [],
             "image": "/images/ingredients/4cd305c4-d372-4d9f-8110-dae88209ce57.jpg"
+        },
+        {
+            "label": "Black sesame seeds (5g)",
+            "gousto_uuid": "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/9d0e1ad4-50bc-4219-82d4-7d568ef8070a.jpg"
         }
     ],
     "basics": [
@@ -132,17 +139,17 @@
             "image": "/images/instructions/chicken-tikka-naan-with-indian-style-salad-and-yoghurt/step-3.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil </strong>over a high heat</p><p>Meanwhile, add your <strong>diced</strong> <strong>chicken breast </strong>to the tikka<strong> </strong>marinade<strong> </strong>and give everything a good mix up until fully coated</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil </strong>over a high heat</p><p>Meanwhile, add your <strong>diced</strong> <strong>chicken </strong>to the tikka<strong> </strong>marinade<strong> </strong>and give everything a good mix up until fully coated</p>",
             "order": 4,
             "image": "/images/instructions/chicken-tikka-naan-with-indian-style-salad-and-yoghurt/step-4.jpg"
         },
         {
-            "instruction": "<p>Once hot, add the <strong>marinated chicken</strong> to the pan and cook for 10 min, stirring occasionally until golden and cooked through (no pink meat!) \u2013 this is your <strong>chicken tikka</strong></p><p>Note: Equipment and pan sizes vary. Make sure you cook food thoroughly (even if it takes you a little longer than 10 min)</p><p>Add your <strong>naan[s]</strong> to a <strong>toaster</strong> for 1-2 min or until warmed through</p><p>(Doubled your protein? Use 2 pans!)</p>",
+            "instruction": "<p>Once hot, add the <strong>marinated chicken</strong> to the pan and cook for 10-12 min, stirring occasionally until golden and cooked through (no pink meat!) \u2013 this is your <strong>chicken tikka</strong></p><p>(Doubled your protein? Use 2 pans!)</p><p>Note: Equipment and pan sizes vary. Make sure you cook food thoroughly (even if it takes you a little longer than 10 min)</p><p>Add your <strong>naan[s]</strong> to a <strong>toaster</strong> for 1-2 min or until warmed through</p>",
             "order": 5,
             "image": "/images/instructions/chicken-tikka-naan-with-indian-style-salad-and-yoghurt/step-5.jpg"
         },
         {
-            "instruction": "<p>Whilst the chicken is cooking, cut your<strong> cucumber</strong> into quarters lengthways, then dice roughly</p><p>Top, tail and grate your <strong>carrot[s]</strong></p><p>Add the <strong>diced cucumber</strong> and <strong>grated carrot</strong> to a bowl with your <strong>nigella seeds</strong>, a pinch of <strong>salt</strong>, a squeeze of <strong>lemon juice</strong> and a drizzle of <strong>olive oil</strong></p><p>Give everything a good mix up \u2013 this is your <strong>Indian-style salad</strong></p>",
+            "instruction": "<p>Whilst the chicken is cooking, cut your<strong> cucumber</strong> into quarters lengthways, then dice roughly</p><p>Top, tail and grate your <strong>carrot[s]</strong></p><p>Add the <strong>diced cucumber</strong> and <strong>grated carrot</strong> to a bowl with your <strong>black sesame seeds</strong>, a pinch of <strong>salt</strong>, a squeeze of <strong>lemon juice</strong> and a drizzle of <strong>olive oil</strong></p><p>Give everything a good mix up \u2013 this is your <strong>Indian-style salad</strong></p>",
             "order": 6,
             "image": "/images/instructions/chicken-tikka-naan-with-indian-style-salad-and-yoghurt/step-6.jpg"
         },
@@ -157,39 +164,46 @@
         }
     ],
     "allergens": [
+        "celery",
+        "fish",
         "gluten",
-        "milk"
+        "milk",
+        "mustard",
+        "nut",
+        "sesame",
+        "soya"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 103,
-            "energy_kj": 438,
-            "fat_mg": 1700,
-            "fat_saturates_mg": 381,
-            "carbs_mg": 13030,
-            "carbs_sugars_mg": 2947,
-            "fibre_mg": 1382,
-            "protein_mg": 8942,
-            "salt_mg": 278,
+            "energy_kcal": 107,
+            "energy_kj": 451,
+            "fat_mg": 2390,
+            "fat_saturates_mg": 547,
+            "carbs_mg": 12990,
+            "carbs_sugars_mg": 2942,
+            "fibre_mg": 1337,
+            "protein_mg": 8308,
+            "salt_mg": 268,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 489,
-            "energy_kj": 2067,
-            "fat_mg": 8019,
-            "fat_saturates_mg": 1800,
-            "carbs_mg": 61438,
-            "carbs_sugars_mg": 13896,
-            "fibre_mg": 6520,
-            "protein_mg": 42162,
-            "salt_mg": 1311,
-            "net_weight_mg": 471500
+            "energy_kcal": 506,
+            "energy_kj": 2135,
+            "fat_mg": 11295,
+            "fat_saturates_mg": 2585,
+            "carbs_mg": 61381,
+            "carbs_sugars_mg": 13904,
+            "fibre_mg": 6319,
+            "protein_mg": 39259,
+            "salt_mg": 1267,
+            "net_weight_mg": 472500
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
@@ -200,13 +214,13 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
@@ -217,13 +231,13 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
@@ -235,13 +249,13 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
@@ -252,13 +266,13 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "9d0e1ad4-50bc-4219-82d4-7d568ef8070a",
                 "4cd305c4-d372-4d9f-8110-dae88209ce57",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
@@ -270,7 +284,6 @@
                 "f1332ef7-7474-4870-9221-18f33aa57c7d",
                 "f9e34f95-a6c1-4fe1-bba8-e56b571ed045",
                 "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
-                "07ba6283-9b57-44e5-81e0-b30d982088d4",
                 "39a4b972-e3f4-4ef9-978e-da600ee3cc12"
             ]
         }

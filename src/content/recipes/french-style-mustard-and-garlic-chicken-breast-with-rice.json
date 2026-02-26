@@ -13,14 +13,6 @@
     "cuisine": "French",
     "ingredients": [
         {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
-        {
             "label": "Diced chicken breast (125g) x0",
             "gousto_uuid": "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
             "allergens": [],
@@ -63,6 +55,14 @@
             "image": "/images/ingredients/485c12c9-8de2-436e-b1de-9d336ccbf713.jpg"
         },
         {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
+        },
+        {
             "label": "Chicken stock mix (5.5g) x0",
             "gousto_uuid": "dec1c16e-4785-40e7-b689-69721141bad6",
             "allergens": [],
@@ -102,7 +102,7 @@
             "image": "/images/instructions/french-style-mustard-and-garlic-chicken-breast-with-rice/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>diced chicken breast </strong>with a pinch of<strong> salt</strong> and cook for 4-5 min or until starting to brown</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>diced chicken </strong>with a pinch of<strong> salt</strong> and cook for 4-5 min or until starting to brown</p>",
             "order": 2,
             "image": "/images/instructions/french-style-mustard-and-garlic-chicken-breast-with-rice/step-2.jpg"
         },
@@ -142,35 +142,34 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 155,
-            "energy_kj": 653,
-            "fat_mg": 5143,
-            "fat_saturates_mg": 2201,
-            "carbs_mg": 16550,
-            "carbs_sugars_mg": 624,
-            "fibre_mg": 1480,
-            "protein_mg": 10289,
-            "salt_mg": 500,
+            "energy_kcal": 142,
+            "energy_kj": 598,
+            "fat_mg": 4032,
+            "fat_saturates_mg": 1367,
+            "carbs_mg": 16425,
+            "carbs_sugars_mg": 692,
+            "fibre_mg": 1462,
+            "protein_mg": 9632,
+            "salt_mg": 512,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 633,
-            "energy_kj": 2664,
-            "fat_mg": 20953,
-            "fat_saturates_mg": 8967,
-            "carbs_mg": 67427,
-            "carbs_sugars_mg": 2545,
+            "energy_kcal": 587,
+            "energy_kj": 2468,
+            "fat_mg": 16628,
+            "fat_saturates_mg": 5639,
+            "carbs_mg": 67737,
+            "carbs_sugars_mg": 2855,
             "fibre_mg": 6032,
-            "protein_mg": 41919,
-            "salt_mg": 2039,
-            "net_weight_mg": 407400
+            "protein_mg": 39724,
+            "salt_mg": 2113,
+            "net_weight_mg": 412400
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
@@ -178,6 +177,7 @@
                 "faaba086-0ac5-437b-82b0-982322df861b",
                 "4e3542f7-8923-423e-88b4-ad16be59da55",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -185,7 +185,6 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
@@ -193,6 +192,7 @@
                 "4e3542f7-8923-423e-88b4-ad16be59da55",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -200,7 +200,6 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
@@ -210,6 +209,7 @@
                 "4e3542f7-8923-423e-88b4-ad16be59da55",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -217,7 +217,6 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
@@ -225,6 +224,7 @@
                 "4e3542f7-8923-423e-88b4-ad16be59da55",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]
@@ -232,7 +232,6 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
                 "e604f6ba-a67f-4a10-ae71-6032c08a90a6",
                 "c0fa06ef-52b1-4097-8bac-ec543c38468c",
@@ -242,6 +241,7 @@
                 "4e3542f7-8923-423e-88b4-ad16be59da55",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "485c12c9-8de2-436e-b1de-9d336ccbf713",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "d240500f-9c26-4286-88bc-6be3e774e96b",
                 "4cad21de-c673-4385-82b7-78aaca9c8367"
             ]

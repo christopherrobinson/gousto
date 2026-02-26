@@ -17,9 +17,9 @@
     "gousto_id": "874",
     "rating": {
         "average": 4.5,
-        "count": 79388
+        "count": 80410
     },
-    "description": "Butter chicken or 'murgh makhani' is a curry house favourite. To make your own, you'll simmer chicken breast in a mild tomato sauce swirled with clotted cream. Serve with coriander rice to the side. Add both naan and salted caramel chocolate pot to save 20% on your side and dessert.",
+    "description": "Butter chicken or 'murgh makhani' is a curry house favourite. To make your own, you'll simmer chicken breast in a mild tomato sauce swirled with natural yoghurt. Serve with coriander rice to the side. Add both naan and salted caramel chocolate pot to save 20% on your side and dessert.",
     "cuisine": "Indian",
     "ingredients": [
         {
@@ -33,14 +33,6 @@
             "gousto_uuid": "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
             "allergens": [],
             "image": "/images/ingredients/44c1fcff-fadf-4b69-9d80-3d0b0baa38a2.jpg"
-        },
-        {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
         },
         {
             "label": "Chicken breast strips (125g) x0",
@@ -121,6 +113,14 @@
             "image": "/images/ingredients/49bc207f-e86c-4423-a7c1-86dc4718abc8.jpg"
         },
         {
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+        },
+        {
             "label": "Tomato paste (16g) x0",
             "gousto_uuid": "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
             "allergens": [],
@@ -177,7 +177,7 @@
             "image": "/images/instructions/butter-chicken-with-coriander-rice/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the chicken is cooked, remove the pan from the heat and stir in your <strong>clotted cream </strong>\u2013 this is your<strong> butter chicken</strong></p>",
+            "instruction": "<p>Once the chicken is cooked, remove the pan from the heat and stir in your <strong>natural yoghurt </strong>\u2013 this is your<strong> butter chicken</strong></p>",
             "order": 7,
             "image": "/images/instructions/butter-chicken-with-coriander-rice/step-7.jpg"
         },
@@ -191,35 +191,34 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 192,
-            "energy_kj": 811,
-            "fat_mg": 6044,
-            "fat_saturates_mg": 3153,
-            "carbs_mg": 23005,
-            "carbs_sugars_mg": 1924,
-            "fibre_mg": 1649,
-            "protein_mg": 11845,
-            "salt_mg": 254,
+            "energy_kcal": 153,
+            "energy_kj": 648,
+            "fat_mg": 1980,
+            "fat_saturates_mg": 657,
+            "carbs_mg": 22391,
+            "carbs_sugars_mg": 2658,
+            "fibre_mg": 1544,
+            "protein_mg": 11714,
+            "salt_mg": 260,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 565,
-            "energy_kj": 2377,
-            "fat_mg": 17695,
-            "fat_saturates_mg": 9233,
-            "carbs_mg": 67348,
-            "carbs_sugars_mg": 5635,
+            "energy_kcal": 479,
+            "energy_kj": 2027,
+            "fat_mg": 6195,
+            "fat_saturates_mg": 2057,
+            "carbs_mg": 70028,
+            "carbs_sugars_mg": 8315,
             "fibre_mg": 4829,
-            "protein_mg": 34678,
-            "salt_mg": 745,
-            "net_weight_mg": 292750
+            "protein_mg": 36638,
+            "salt_mg": 816,
+            "net_weight_mg": 312750
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -229,6 +228,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "3f8dd8e4-5658-4df8-9433-41aa47c6ff03"
             ]
@@ -236,7 +236,6 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -246,6 +245,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8"
             ]
@@ -253,7 +253,6 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
@@ -264,6 +263,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "c4b4c017-5074-443f-8b2e-fc3c7cfe110f",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8",
@@ -273,7 +273,6 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -283,6 +282,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "fabcebd0-0595-4c07-9a82-e4093d86be85",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8"
             ]
@@ -290,7 +290,6 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
@@ -301,6 +300,7 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "fabcebd0-0595-4c07-9a82-e4093d86be85",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "49bc207f-e86c-4423-a7c1-86dc4718abc8",

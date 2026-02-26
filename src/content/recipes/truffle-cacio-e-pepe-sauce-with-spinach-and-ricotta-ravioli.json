@@ -7,19 +7,11 @@
     "gousto_id": "4147",
     "rating": {
         "average": 4.5,
-        "count": 14401
+        "count": 15330
     },
     "description": "Pronounced 'cah-choh e pe-pe', we've given this speedy 'cheese and pepper' sauce an easy, indulgent upgrade. You'll add white cup mushrooms, melt in Italian cheese, and finish with truffle oil, before serving over spinach & ricotta ravioli.",
     "cuisine": "Italian",
     "ingredients": [
-        {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
         {
             "label": "Spinach & ricotta ravioli (250g)",
             "gousto_uuid": "102ebb47-cb8b-4428-894a-9880e3c234cc",
@@ -51,6 +43,14 @@
             "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
             "allergens": [],
             "image": "/images/ingredients/166bfad3-d300-465d-b61c-fef4d2965904.jpg"
+        },
+        {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "White cup mushrooms (160g)",
@@ -99,7 +99,7 @@
             "image": "/images/instructions/truffle-cacio-e-pepe-sauce-with-spinach-and-ricotta-ravioli/step-4.jpg"
         },
         {
-            "instruction": "<p>Add the <strong>vegetable stock mix </strong>and <strong>clotted cream </strong>to the mushrooms and cook for 1 min or until the cream has melted</p>",
+            "instruction": "<p>Add your <strong>vegetable stock mix </strong>and <strong>soft cheese </strong>to the mushrooms and cook for 1 min or until the cheese has melted</p>",
             "order": 5,
             "image": "/images/instructions/truffle-cacio-e-pepe-sauce-with-spinach-and-ricotta-ravioli/step-5.jpg"
         },
@@ -127,37 +127,37 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 236,
-            "energy_kj": 988,
-            "fat_mg": 14606,
-            "fat_saturates_mg": 7172,
-            "carbs_mg": 17853,
-            "carbs_sugars_mg": 2388,
-            "fibre_mg": 1260,
-            "protein_mg": 8268,
-            "salt_mg": 1114,
+            "energy_kcal": 211,
+            "energy_kj": 887,
+            "fat_mg": 11926,
+            "fat_saturates_mg": 5568,
+            "carbs_mg": 17635,
+            "carbs_sugars_mg": 2460,
+            "fibre_mg": 1236,
+            "protein_mg": 8414,
+            "salt_mg": 1136,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 622,
-            "energy_kj": 2601,
-            "fat_mg": 38414,
-            "fat_saturates_mg": 18864,
-            "carbs_mg": 46954,
-            "carbs_sugars_mg": 6283,
+            "energy_kcal": 567,
+            "energy_kj": 2378,
+            "fat_mg": 31964,
+            "fat_saturates_mg": 14924,
+            "carbs_mg": 47264,
+            "carbs_sugars_mg": 6593,
             "fibre_mg": 3315,
-            "protein_mg": 21745,
-            "salt_mg": 2930,
-            "net_weight_mg": 263000
+            "protein_mg": 22550,
+            "salt_mg": 3046,
+            "net_weight_mg": 268000
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "102ebb47-cb8b-4428-894a-9880e3c234cc",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
@@ -167,9 +167,9 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "102ebb47-cb8b-4428-894a-9880e3c234cc",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
@@ -179,9 +179,9 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "102ebb47-cb8b-4428-894a-9880e3c234cc",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
@@ -192,9 +192,9 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "102ebb47-cb8b-4428-894a-9880e3c234cc",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
@@ -204,9 +204,9 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "716cbc79-cd4d-4df1-b549-e04c70f8b031",
                 "661b8104-1fd3-4f4f-99a8-6655f336a24b",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "102ebb47-cb8b-4428-894a-9880e3c234cc",
                 "2bc52963-20d0-455c-9de6-90f6f9b84a70",
                 "166bfad3-d300-465d-b61c-fef4d2965904",

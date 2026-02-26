@@ -13,6 +13,12 @@
     "cuisine": "Fusion",
     "ingredients": [
         {
+            "label": "Gem lettuce",
+            "gousto_uuid": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
+            "allergens": [],
+            "image": "/images/ingredients/28a5242e-1332-4a23-aa12-f75e4fd694fd.jpg"
+        },
+        {
             "label": "Spring onion x2",
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
             "allergens": [],
@@ -117,12 +123,6 @@
             "image": "/images/ingredients/d516304e-cb6e-42a9-8d0a-0e0d9477a800.jpg"
         },
         {
-            "label": "Gem lettuce",
-            "gousto_uuid": "28a5242e-1332-4a23-aa12-f75e4fd694fd",
-            "allergens": [],
-            "image": "/images/ingredients/28a5242e-1332-4a23-aa12-f75e4fd694fd.jpg"
-        },
-        {
             "label": "Hoisin sauce (20g) x0",
             "gousto_uuid": "83d66e6b-f373-4cc1-99fc-2551ac75749f",
             "allergens": [
@@ -132,11 +132,12 @@
         }
     ],
     "basics": [
-        "Vegetable oil"
+        "Vegetable oil",
+        "Water"
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably\u00a0non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add your <strong>Fable pulled mushrooms </strong>and cook for 5-6 min or until browned</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a medium-high heat</p><p>Once hot, add your <strong>Fable pulled mushrooms </strong>and cook for 5-6 min or until browned</p>",
             "order": 1,
             "image": "/images/instructions/shredded-hoisin-fable-mushroom-wraps/step-1.jpg"
         },
@@ -146,7 +147,7 @@
             "image": "/images/instructions/shredded-hoisin-fable-mushroom-wraps/step-2.jpg"
         },
         {
-            "instruction": "<p>Slice your\u00a0<strong>cucumber</strong>\u00a0into discs</p><p>Slice each individual <strong>cucumber disc </strong>into matchsticks</p>",
+            "instruction": "<p>Slice your <strong>cucumber</strong> into discs</p><p>Slice each individual <strong>cucumber disc </strong>into matchsticks</p>",
             "order": 3,
             "image": "/images/instructions/shredded-hoisin-fable-mushroom-wraps/step-3.jpg"
         },
@@ -166,12 +167,12 @@
             "image": "/images/instructions/shredded-hoisin-fable-mushroom-wraps/step-6.jpg"
         },
         {
-            "instruction": "<p>Return the <strong>pulled mushrooms</strong> to the pan with your <strong>hoisin sauce</strong>,<strong> soy sauce</strong> and a splash of <strong>cold water</strong> and cook for 2 min or until warmed through \u2013 these are your <strong>shredded\u00a0hoisin mushrooms</strong></p>",
+            "instruction": "<p>Return the <strong>pulled mushrooms</strong> to the pan with your <strong>hoisin sauce</strong>,<strong> soy sauce</strong> and a splash of <strong>cold water</strong> and cook for 2 min or until warmed through \u2013 these are your <strong>shredded hoisin mushrooms</strong></p>",
             "order": 7,
             "image": "/images/instructions/shredded-hoisin-fable-mushroom-wraps/step-7.jpg"
         },
         {
-            "instruction": "<p>Assemble the wraps\u00a0by dividing\u00a0your<strong> mayo</strong>, <strong>shredded lettuce</strong>, <strong>spring onion strips</strong>,\u00a0<strong>cucumber matchsticks</strong>\u00a0and <strong>shredded</strong> <strong>hoisin mushrooms</strong>\u00a0between the\u00a0<strong>warmed tortillas</strong></p><p>Garnish with your<strong>\u00a0toasted sesame seeds</strong></p><p>Enjoy!</p>",
+            "instruction": "<p>Assemble the wraps by dividing your<strong> mayo</strong>, <strong>shredded lettuce</strong>, <strong>spring onion strips</strong>, <strong>cucumber matchsticks</strong> and <strong>shredded</strong> <strong>hoisin mushrooms</strong> between the <strong>warmed tortillas</strong></p><p>Garnish with your<strong> toasted sesame seeds</strong></p><p>Enjoy!</p>",
             "order": 8
         }
     ],
@@ -187,27 +188,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 201,
-            "energy_kj": 845,
-            "fat_mg": 8786,
-            "fat_saturates_mg": 3409,
-            "carbs_mg": 18873,
-            "carbs_sugars_mg": 3505,
+            "energy_kcal": 200,
+            "energy_kj": 844,
+            "fat_mg": 8799,
+            "fat_saturates_mg": 3412,
+            "carbs_mg": 18725,
+            "carbs_sugars_mg": 3352,
             "fibre_mg": 4572,
-            "protein_mg": 5913,
-            "salt_mg": 816,
+            "protein_mg": 5942,
+            "salt_mg": 815,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 747,
-            "energy_kj": 3141,
-            "fat_mg": 32641,
-            "fat_saturates_mg": 12667,
-            "carbs_mg": 70114,
-            "carbs_sugars_mg": 13023,
+            "energy_kcal": 746,
+            "energy_kj": 3136,
+            "fat_mg": 32691,
+            "fat_saturates_mg": 12677,
+            "carbs_mg": 69564,
+            "carbs_sugars_mg": 12453,
             "fibre_mg": 16987,
-            "protein_mg": 21967,
-            "salt_mg": 3033,
+            "protein_mg": 22077,
+            "salt_mg": 3030,
             "net_weight_mg": 371500
         }
     },
@@ -243,8 +244,8 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "73d06f42-e2ff-4015-b1a5-e7d25431a6dd",
                 "c525cfc9-563e-439e-a5ae-cacb203c6bc4",
+                "73d06f42-e2ff-4015-b1a5-e7d25431a6dd",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "28a5242e-1332-4a23-aa12-f75e4fd694fd",
                 "74311c86-2d88-4c4b-9e0a-fd504da96054",
@@ -273,8 +274,8 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "73d06f42-e2ff-4015-b1a5-e7d25431a6dd",
                 "c525cfc9-563e-439e-a5ae-cacb203c6bc4",
+                "73d06f42-e2ff-4015-b1a5-e7d25431a6dd",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "28a5242e-1332-4a23-aa12-f75e4fd694fd",
                 "74311c86-2d88-4c4b-9e0a-fd504da96054",

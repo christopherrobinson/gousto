@@ -13,7 +13,7 @@
     "gousto_id": "2106",
     "rating": {
         "average": 4.5,
-        "count": 101588
+        "count": 101673
     },
     "description": "This mild chicken curry packs in flavours, no punches needed. Mild isn't a byword for boring, because its creamy sauce pairs perfectly with turmeric and sultana rice for a family-pleasing treat.",
     "cuisine": "Indian",
@@ -41,14 +41,6 @@
             "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
             "allergens": [],
             "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
-        },
-        {
-            "label": "Cornish clotted cream (40g) x2",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
         },
         {
             "label": "Chicken breast strips (125g) x0",
@@ -105,6 +97,14 @@
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
+            "label": "Natural yoghurt (80g)",
+            "gousto_uuid": "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/b2f5851d-f36f-44d1-a2bb-43891c8aea21.jpg"
+        },
+        {
             "label": "Vegetable stock mix (5.5g) x0",
             "gousto_uuid": "166bfad3-d300-465d-b61c-fef4d2965904",
             "allergens": [],
@@ -152,7 +152,7 @@
             "image": "/images/instructions/mild-chicken-curry/step-3.jpg"
         },
         {
-            "instruction": "<p>While the onion is cooking, cut your <strong>chicken breast strips </strong>into bite-sized pieces</p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Chop your<strong> tomato[es] </strong>roughly</p>",
+            "instruction": "<p>While the onion is cooking, cut your <strong>chicken </strong>into bite-sized pieces</p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Chop your<strong> tomato[es] </strong>roughly</p>",
             "order": 4,
             "image": "/images/instructions/mild-chicken-curry/step-4.jpg"
         },
@@ -167,12 +167,12 @@
             "image": "/images/instructions/mild-chicken-curry/step-6.jpg"
         },
         {
-            "instruction": "<p>Once done, remove the pan from the heat and stir through your <strong>clotted cream </strong>\u2013 this is your <strong>mild chicken curry</strong></p>",
+            "instruction": "<p>Once done, remove the pan from the heat and stir through your <strong>natural yoghurt </strong>\u2013 this is your <strong>mild chicken curry</strong></p>",
             "order": 7,
             "image": "/images/instructions/mild-chicken-curry/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>mild chicken curry</strong> over the <strong>sultana rice </strong>and enjoy!</p><p><strong><span class=\"text-danger\">Loved this recipe? Keep an eye out for it on the Everyday Favourites section of our menu.</span></strong></p>",
+            "instruction": "<p>Serve the <strong>mild chicken curry</strong> over the <strong>sultana rice </strong>and enjoy!</p>",
             "order": 8
         }
     ],
@@ -181,27 +181,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 176,
-            "energy_kj": 739,
-            "fat_mg": 7578,
-            "fat_saturates_mg": 4133,
-            "carbs_mg": 17577,
-            "carbs_sugars_mg": 4898,
+            "energy_kcal": 127,
+            "energy_kj": 537,
+            "fat_mg": 1697,
+            "fat_saturates_mg": 460,
+            "carbs_mg": 18122,
+            "carbs_sugars_mg": 5443,
             "fibre_mg": 1439,
-            "protein_mg": 8875,
-            "salt_mg": 423,
+            "protein_mg": 9274,
+            "salt_mg": 438,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 726,
-            "energy_kj": 3044,
-            "fat_mg": 31185,
-            "fat_saturates_mg": 17009,
-            "carbs_mg": 72333,
-            "carbs_sugars_mg": 20158,
+            "energy_kcal": 523,
+            "energy_kj": 2212,
+            "fat_mg": 6985,
+            "fat_saturates_mg": 1893,
+            "carbs_mg": 74573,
+            "carbs_sugars_mg": 22398,
             "fibre_mg": 5923,
-            "protein_mg": 36524,
-            "salt_mg": 1743,
+            "protein_mg": 38164,
+            "salt_mg": 1805,
             "net_weight_mg": 411500
         }
     },
@@ -209,13 +209,13 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
                 "3518d21a-ac56-46f1-915a-76c1a91f79df",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "abb2d5af-131e-4e82-9546-705ab185cc37",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
@@ -226,7 +226,6 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "bee08644-b9b2-4177-9131-2d43516f6731",
@@ -234,6 +233,7 @@
                 "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
@@ -243,19 +243,19 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-                "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
+                "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
                 "bee08644-b9b2-4177-9131-2d43516f6731",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
                 "5f77383b-0530-4885-991e-ef41d67bc870",
                 "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
@@ -264,7 +264,6 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
                 "bee08644-b9b2-4177-9131-2d43516f6731",
@@ -272,6 +271,7 @@
                 "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
@@ -281,19 +281,19 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
-                "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
                 "1e4bb09c-0d0a-4f06-a6ea-5222a3b1a43a",
+                "07f7ab2f-3887-4c32-abac-e35c6a74f96a",
                 "bee08644-b9b2-4177-9131-2d43516f6731",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "44c1fcff-fadf-4b69-9d80-3d0b0baa38a2",
                 "9fba123b-025a-43b0-8a85-3397a62f044e",
+                "b2f5851d-f36f-44d1-a2bb-43891c8aea21",
                 "274dea3a-0316-4b3f-ac8a-7fbf2d03ad9d",
                 "5c14a222-aa12-4d98-a108-106ca1693363",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "166bfad3-d300-465d-b61c-fef4d2965904",
                 "5f77383b-0530-4885-991e-ef41d67bc870",
                 "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"

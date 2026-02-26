@@ -7,11 +7,22 @@
     "gousto_id": "7358",
     "rating": {
         "average": 4.5,
-        "count": 3697
+        "count": 3840
     },
     "description": "Get the family round the table in a flash with juicy hot dog. Serve with chips and shredded lettuce before loading your buns with pickles and ketchup. Add some extra spice with a dollop of mustard ketchup or leave as is for the kids.",
     "cuisine": "American",
     "ingredients": [
+        {
+            "label": "Brioche style hot dog buns (2pcs)",
+            "gousto_uuid": "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
+            "allergens": [
+                "egg",
+                "gluten",
+                "milk",
+                "soya"
+            ],
+            "image": "/images/ingredients/eac7d6c1-f7d6-44dc-9034-bf944e8747e7.jpg"
+        },
         {
             "label": "Pork sausage (200g)",
             "gousto_uuid": "2f1704d2-d8ce-4db3-be2f-c0ed814d7d62",
@@ -21,13 +32,7 @@
             "image": "/images/ingredients/2f1704d2-d8ce-4db3-be2f-c0ed814d7d62.jpg"
         },
         {
-            "label": "Tomato ketchup (30ml)",
-            "gousto_uuid": "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
-            "allergens": [],
-            "image": "/images/ingredients/b67ea736-aee3-4a42-8b2c-73fb7b4e8e30.jpg"
-        },
-        {
-            "label": "Tomato ketchup (15ml) x0",
+            "label": "Tomato ketchup (15ml) x2",
             "gousto_uuid": "43938034-cb9a-45cb-ad78-44234261fb46",
             "allergens": [],
             "image": "/images/ingredients/43938034-cb9a-45cb-ad78-44234261fb46.jpg"
@@ -39,14 +44,6 @@
                 "mustard"
             ],
             "image": "/images/ingredients/95d08b9d-d606-46dc-84c2-5b906d1f0bff.jpg"
-        },
-        {
-            "label": "Brioche style hot dog buns (2pcs)",
-            "gousto_uuid": "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/33dd5938-19ea-40d1-baa1-967e7fbe3c37.jpg"
         },
         {
             "label": "Shallot",
@@ -102,7 +99,7 @@
     ],
     "cooking_instructions": [
         {
-            "instruction": "<p>Preheat the oven to 220\u00baC/ 200\u00baC (fan)/ gas 7 and boil a little water in a kettle</p><p>Cut your <strong>potatoes</strong> (skins on) into chips</p><p>Add the <strong>chips</strong> to one side of a <strong>baking paper</strong>-lined baking tray (or two!) with a drizzle of <strong>vegetable oil</strong> and a small pinch of<strong> salt</strong> and <strong>pepper</strong></p>",
+            "instruction": "<p>Preheat the oven to 220\u00baC/ 200\u00baC (fan)/ gas 7 and boil a little water in a kettle</p><p>Cut your <strong>potatoes</strong> (skins on) into chips</p><p>Add the <strong>chips</strong> to one side of a <strong>baking paper</strong>-lined baking tray (or two!) with a small drizzle of <strong>vegetable oil</strong> and a small pinch of<strong> salt</strong> and <strong>pepper</strong></p>",
             "order": 1,
             "image": "/images/instructions/classic-hot-dog-with-mustard-ketchup-and-pickles/step-1.jpg"
         },
@@ -142,33 +139,36 @@
         }
     ],
     "allergens": [
+        "egg",
         "gluten",
+        "milk",
         "mustard",
+        "soya",
         "sulphites"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 138,
-            "energy_kj": 578,
-            "fat_mg": 5609,
-            "fat_saturates_mg": 1973,
-            "carbs_mg": 17173,
-            "carbs_sugars_mg": 3400,
-            "fibre_mg": 1325,
-            "protein_mg": 4662,
-            "salt_mg": 510,
+            "energy_kcal": 140,
+            "energy_kj": 589,
+            "fat_mg": 6294,
+            "fat_saturates_mg": 2340,
+            "carbs_mg": 16727,
+            "carbs_sugars_mg": 3288,
+            "fibre_mg": 1262,
+            "protein_mg": 4678,
+            "salt_mg": 494,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 694,
-            "energy_kj": 2908,
-            "fat_mg": 28190,
-            "fat_saturates_mg": 9919,
-            "carbs_mg": 86295,
-            "carbs_sugars_mg": 17085,
-            "fibre_mg": 6663,
-            "protein_mg": 23430,
-            "salt_mg": 2564,
+            "energy_kcal": 705,
+            "energy_kj": 2960,
+            "fat_mg": 31630,
+            "fat_saturates_mg": 11759,
+            "carbs_mg": 84055,
+            "carbs_sugars_mg": 16525,
+            "fibre_mg": 6343,
+            "protein_mg": 23510,
+            "salt_mg": 2484,
             "net_weight_mg": 502500
         }
     },
@@ -176,7 +176,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
@@ -190,21 +190,21 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
                 "95d08b9d-d606-46dc-84c2-5b906d1f0bff",
                 "2f1704d2-d8ce-4db3-be2f-c0ed814d7d62",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+                "43938034-cb9a-45cb-ad78-44234261fb46",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "9f543174-2841-4ecb-8a99-a6cad9006665",
@@ -213,28 +213,27 @@
                 "2f1704d2-d8ce-4db3-be2f-c0ed814d7d62",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "43938034-cb9a-45cb-ad78-44234261fb46",
-                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "9f543174-2841-4ecb-8a99-a6cad9006665",
                 "95d08b9d-d606-46dc-84c2-5b906d1f0bff",
                 "2f1704d2-d8ce-4db3-be2f-c0ed814d7d62",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
-                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
+                "43938034-cb9a-45cb-ad78-44234261fb46",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         },
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "33dd5938-19ea-40d1-baa1-967e7fbe3c37",
+                "eac7d6c1-f7d6-44dc-9034-bf944e8747e7",
                 "b2311aae-125d-4995-b0fb-ce577dd2f983",
                 "4b3f1d8a-1881-4597-ac85-6ed81114c8c5",
                 "3ba7a62d-1b34-4cc9-b863-4af220efe88c",
@@ -244,7 +243,6 @@
                 "2f1704d2-d8ce-4db3-be2f-c0ed814d7d62",
                 "3139eeba-c3a1-477c-87e6-50ba5c3d21e0",
                 "43938034-cb9a-45cb-ad78-44234261fb46",
-                "b67ea736-aee3-4a42-8b2c-73fb7b4e8e30",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
         }

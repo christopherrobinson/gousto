@@ -13,6 +13,12 @@
     "cuisine": "Chinese",
     "ingredients": [
         {
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+        },
+        {
             "label": "Spring onion x2",
             "gousto_uuid": "f0273bb0-bb2b-46e5-8ce4-7e09f413c97b",
             "allergens": [],
@@ -51,6 +57,12 @@
             "image": "/images/ingredients/0cdeefe0-26b8-42f2-bced-9e677f809a26.jpg"
         },
         {
+            "label": "Fresh root ginger (15g)",
+            "gousto_uuid": "43c515bb-1548-41df-b08e-f10fa8369172",
+            "allergens": [],
+            "image": "/images/ingredients/43c515bb-1548-41df-b08e-f10fa8369172.jpg"
+        },
+        {
             "label": "Chinese rice wine (30ml) x0",
             "gousto_uuid": "f2217fd7-f969-4d05-82fd-136b9eb966e3",
             "allergens": [],
@@ -80,12 +92,6 @@
             "image": "/images/ingredients/5dd62fed-f4df-4a87-9790-1378c49ca2c0.jpg"
         },
         {
-            "label": "Ginger paste (15g)",
-            "gousto_uuid": "88966efb-30c6-425b-9a90-0e6087c8b326",
-            "allergens": [],
-            "image": "/images/ingredients/88966efb-30c6-425b-9a90-0e6087c8b326.jpg"
-        },
-        {
             "label": "Chinese rice wine (15ml)",
             "gousto_uuid": "3484b3bc-d97e-4b98-b132-7ead51932d79",
             "allergens": [],
@@ -99,12 +105,6 @@
                 "soya"
             ],
             "image": "/images/ingredients/ae187fa5-d5e2-407e-b1c9-6f31473b4042.jpg"
-        },
-        {
-            "label": "Red pepper",
-            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
-            "allergens": [],
-            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
         },
         {
             "label": "Hoisin sauce (20g)",
@@ -126,7 +126,7 @@
             "image": "/images/instructions/chinese-style-chicken-breast-and-pepper-chow-mein/step-1.jpg"
         },
         {
-            "instruction": "<p>Boil a kettle</p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p>",
+            "instruction": "<p>Boil a kettle</p><p>Peel and finely chop (or grate) your <strong>garlic</strong></p><p>Peel (scrape the skin off with a teaspoon) and finely chop (or grate) your <strong>ginger</strong></p>",
             "order": 2,
             "image": "/images/instructions/chinese-style-chicken-breast-and-pepper-chow-mein/step-2.jpg"
         },
@@ -141,7 +141,7 @@
             "image": "/images/instructions/chinese-style-chicken-breast-and-pepper-chow-mein/step-4.jpg"
         },
         {
-            "instruction": "<p>Once the chicken has browned, add the <strong>chopped garlic</strong>,<strong> ginger paste</strong>, <strong>spring onion batons </strong>and <strong>sliced</strong> <strong>pepper</strong> to the pan and cook for 4-5 min or until beginning to soften and the chicken is cooked through (no pink meat!)</p>",
+            "instruction": "<p>Once the chicken has browned, add the <strong>chopped garlic</strong>,<strong> chopped ginger</strong>, <strong>spring onion batons </strong>and <strong>sliced</strong> <strong>pepper</strong> to the pan and cook for 4-5 min or until beginning to soften and the chicken is cooked through (no pink meat!)</p>",
             "order": 5,
             "image": "/images/instructions/chinese-style-chicken-breast-and-pepper-chow-mein/step-5.jpg"
         },
@@ -173,27 +173,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 158,
-            "energy_kj": 664,
-            "fat_mg": 3318,
-            "fat_saturates_mg": 694,
-            "carbs_mg": 19771,
-            "carbs_sugars_mg": 2719,
-            "fibre_mg": 906,
-            "protein_mg": 11914,
-            "salt_mg": 678,
+            "energy_kcal": 155,
+            "energy_kj": 654,
+            "fat_mg": 3175,
+            "fat_saturates_mg": 686,
+            "carbs_mg": 19510,
+            "carbs_sugars_mg": 2533,
+            "fibre_mg": 923,
+            "protein_mg": 11932,
+            "salt_mg": 627,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 492,
-            "energy_kj": 2066,
-            "fat_mg": 10319,
-            "fat_saturates_mg": 2160,
-            "carbs_mg": 61488,
-            "carbs_sugars_mg": 8457,
-            "fibre_mg": 2819,
-            "protein_mg": 37053,
-            "salt_mg": 2111,
+            "energy_kcal": 485,
+            "energy_kj": 2035,
+            "fat_mg": 9876,
+            "fat_saturates_mg": 2134,
+            "carbs_mg": 60678,
+            "carbs_sugars_mg": 7880,
+            "fibre_mg": 2871,
+            "protein_mg": 37109,
+            "salt_mg": 1950,
             "net_weight_mg": 311000
         }
     },
@@ -203,8 +203,8 @@
             "ingredients_skus": [
                 "3484b3bc-d97e-4b98-b132-7ead51932d79",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
@@ -218,8 +218,8 @@
             "ingredients_skus": [
                 "3484b3bc-d97e-4b98-b132-7ead51932d79",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
@@ -234,8 +234,8 @@
                 "3484b3bc-d97e-4b98-b132-7ead51932d79",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
@@ -249,8 +249,8 @@
             "ingredients_skus": [
                 "f2217fd7-f969-4d05-82fd-136b9eb966e3",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
@@ -265,8 +265,8 @@
                 "f2217fd7-f969-4d05-82fd-136b9eb966e3",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
+                "43c515bb-1548-41df-b08e-f10fa8369172",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
-                "88966efb-30c6-425b-9a90-0e6087c8b326",
                 "83d66e6b-f373-4cc1-99fc-2551ac75749f",
                 "5dd62fed-f4df-4a87-9790-1378c49ca2c0",
                 "031b8111-a382-4fe8-a4e0-3f1ecd98b846",

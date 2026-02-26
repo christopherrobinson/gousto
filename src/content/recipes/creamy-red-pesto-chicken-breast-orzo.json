@@ -10,11 +10,17 @@
     "gousto_id": "2391",
     "rating": {
         "average": 4.5,
-        "count": 7473
+        "count": 7675
     },
-    "description": "Swap your go-to pasta for orzo with this speedy dinner. You'll pan-fry sweet sweet pointed pepper with juicy chicken before stirring through cr\u00e8me fra\u00eeche and red pesto. Finish with plenty of grated cheddar and dig in.",
+    "description": "Swap your go-to pasta for orzo with this speedy dinner. You'll pan-fry pepper with juicy chicken before stirring through soured cream and red pesto. Finish with plenty of grated cheddar and dig in.",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Red pepper",
+            "gousto_uuid": "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+            "allergens": [],
+            "image": "/images/ingredients/031b8111-a382-4fe8-a4e0-3f1ecd98b846.jpg"
+        },
         {
             "label": "Diced chicken breast (125g) x0",
             "gousto_uuid": "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
@@ -42,12 +48,12 @@
             "image": "/images/ingredients/8ad44fed-6181-4b86-95b7-af6aeb5cc1b7.jpg"
         },
         {
-            "label": "Cr\u00e8me fra\u00eeche (80g)",
-            "gousto_uuid": "d343996b-36eb-4918-9340-ca527fb4296c",
+            "label": "Soured cream (80g)",
+            "gousto_uuid": "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
             "allergens": [
                 "milk"
             ],
-            "image": "/images/ingredients/d343996b-36eb-4918-9340-ca527fb4296c.jpg"
+            "image": "/images/ingredients/8a9689cf-21a1-4c84-9f3e-8b5aab66e957.jpg"
         },
         {
             "label": "Intense chicken stock mix (5.5g)",
@@ -84,12 +90,6 @@
             "image": "/images/ingredients/dec1c16e-4785-40e7-b689-69721141bad6.jpg"
         },
         {
-            "label": "Sweet pointed pepper",
-            "gousto_uuid": "708afc04-2b39-44c6-9ff0-04c089351013",
-            "allergens": [],
-            "image": "/images/ingredients/708afc04-2b39-44c6-9ff0-04c089351013.jpg"
-        },
-        {
             "label": "Orzo (150g)",
             "gousto_uuid": "3ef06794-4313-4888-876e-9de6a56d6204",
             "allergens": [
@@ -111,12 +111,12 @@
             "image": "/images/instructions/creamy-red-pesto-chicken-breast-orzo/step-1.jpg"
         },
         {
-            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Take your <strong>chicken</strong> out of the fridge, open the packet and let it air, then boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick with a matching lid), with a drizzle of <strong>olive oil </strong>over a high heat</p><p>Meanwhile, deseed your <strong>sweet pointed pepper[s]</strong> (scrape the seeds and pith out with a teaspoon) and slice into rings, discarding the stalks</p>",
+            "instruction": "<p><strong>Now, let's get started!</strong></p><p>Take your <strong>chicken</strong> out of the fridge, open the packet and let it air, then boil a kettle</p><p>Heat a large, wide-based pan (preferably non-stick with a matching lid), with a drizzle of <strong>olive oil </strong>over a high heat</p><p>Meanwhile, deseed your <strong>pepper[s]</strong> (scrape the seeds and pith out with a teaspoon) and slice into thin strips</p>",
             "order": 2,
             "image": "/images/instructions/creamy-red-pesto-chicken-breast-orzo/step-2.jpg"
         },
         {
-            "instruction": "<p>Once hot, add your <strong>diced chicken breast</strong> and <strong>sliced pepper</strong> to the pan with a pinch of <strong>salt</strong> and cook for 3-4 min or until the chicken has browned slightly</p><p>Dissolve your<strong> chicken stock mix</strong> in 150ml <span class=\"text-purple\">[200ml]</span> <span class=\"text-danger\">[250ml]</span> <strong>boiled water</strong> and set aside</p><p>(Doubled your protein? Use 2 pans!)</p>",
+            "instruction": "<p>Once hot, add your <strong>diced chicken </strong>and <strong>sliced pepper</strong> to the pan with a pinch of <strong>salt</strong> and cook for 3-4 min or until the chicken has browned slightly</p><p>Dissolve your<strong> chicken stock mix</strong> in 150ml <span class=\"text-purple\">[200ml]</span> <span class=\"text-danger\">[250ml]</span> <strong>boiled water</strong> and set aside</p><p>(Doubled your protein? Use 2 pans!)</p>",
             "order": 3,
             "image": "/images/instructions/creamy-red-pesto-chicken-breast-orzo/step-3.jpg"
         },
@@ -136,7 +136,7 @@
             "image": "/images/instructions/creamy-red-pesto-chicken-breast-orzo/step-6.jpg"
         },
         {
-            "instruction": "<p>Once the chicken is cooked through, remove the pan from the heat and add the <strong>drained</strong> <strong>orzo </strong>and your <strong>cr\u00e8me fra\u00eeche</strong> to the pan and give everything a good mix up \u2013 this is your <strong>creamy red pesto chicken orzo</strong></p>",
+            "instruction": "<p>Once the chicken is cooked through, remove the pan from the heat and add the <strong>drained</strong> <strong>orzo </strong>and your <strong>soured cream</strong> to the pan and give everything a good mix up \u2013 this is your <strong>creamy red pesto chicken orzo</strong></p>",
             "order": 7,
             "image": "/images/instructions/creamy-red-pesto-chicken-breast-orzo/step-7.jpg"
         },
@@ -151,28 +151,28 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 196,
-            "energy_kj": 823,
-            "fat_mg": 8008,
-            "fat_saturates_mg": 3877,
-            "carbs_mg": 17315,
-            "carbs_sugars_mg": 2499,
-            "fibre_mg": 1172,
-            "protein_mg": 13432,
-            "salt_mg": 593,
+            "energy_kcal": 187,
+            "energy_kj": 788,
+            "fat_mg": 7629,
+            "fat_saturates_mg": 3684,
+            "carbs_mg": 16683,
+            "carbs_sugars_mg": 2582,
+            "fibre_mg": 1305,
+            "protein_mg": 12819,
+            "salt_mg": 564,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 674,
-            "energy_kj": 2827,
-            "fat_mg": 27488,
-            "fat_saturates_mg": 13309,
-            "carbs_mg": 59434,
-            "carbs_sugars_mg": 8581,
-            "fibre_mg": 4024,
-            "protein_mg": 46106,
+            "energy_kcal": 678,
+            "energy_kj": 2843,
+            "fat_mg": 27523,
+            "fat_saturates_mg": 13293,
+            "carbs_mg": 60186,
+            "carbs_sugars_mg": 9316,
+            "fibre_mg": 4709,
+            "protein_mg": 46246,
             "salt_mg": 2038,
-            "net_weight_mg": 343250
+            "net_weight_mg": 360750
         }
     },
     "portion_sizes": {
@@ -181,11 +181,11 @@
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
+                "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d2602348-4864-49ce-9557-59b08971d076",
-                "708afc04-2b39-44c6-9ff0-04c089351013",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
             ]
         },
@@ -193,12 +193,12 @@
             "is_offered": true,
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
+                "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d2602348-4864-49ce-9557-59b08971d076",
-                "708afc04-2b39-44c6-9ff0-04c089351013",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
             ]
         },
@@ -207,14 +207,14 @@
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
                 "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
+                "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d2602348-4864-49ce-9557-59b08971d076",
-                "708afc04-2b39-44c6-9ff0-04c089351013",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
         },
@@ -222,12 +222,12 @@
             "is_offered": true,
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
+                "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d2602348-4864-49ce-9557-59b08971d076",
-                "708afc04-2b39-44c6-9ff0-04c089351013",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
         },
@@ -236,14 +236,14 @@
             "ingredients_skus": [
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
-                "d343996b-36eb-4918-9340-ca527fb4296c",
                 "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "3ef06794-4313-4888-876e-9de6a56d6204",
                 "8ad44fed-6181-4b86-95b7-af6aeb5cc1b7",
+                "031b8111-a382-4fe8-a4e0-3f1ecd98b846",
+                "8a9689cf-21a1-4c84-9f3e-8b5aab66e957",
                 "d2602348-4864-49ce-9557-59b08971d076",
-                "708afc04-2b39-44c6-9ff0-04c089351013",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
