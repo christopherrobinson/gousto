@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Guide to Cooking with Halloumi: 5 Must-Try Gousto Recipes"
 date: 2025-06-17
-cover: ./images/the-ultimate-guide-to-cooking-with-halloumi.jpg
+cover: ./images/10-min-halloumi-pittas-with-couscous-salad.jpg
 meta:
   description: "Your complete guide to cooking halloumi perfectly every time. Discover top tips, serving suggestions, and 5 must-try Gousto recipes, from burgers to tacos."
 recipes:
@@ -18,14 +18,14 @@ But what truly sets it apart is its high melting point, a quality that makes it 
 
 Whether you're a seasoned halloumi lover or a curious newcomer, this guide will help you master the art of cooking it, featuring five must-try Gousto recipes that showcase its incredible versatility.
 
-### Our Top Tips for Perfect Halloumi Every Time
+### Top Tips for Perfect Halloumi Every Time
 
 Unlock the best flavour and texture from your cheese with these simple tips.
 
-*   **Pat It Dry:** Before you start, always pat your halloumi slices dry with a paper towel. This removes excess brine and is crucial for achieving that perfect golden-brown crust.
-*   **Slice it Right:** Aim for slices about 1cm (or half an inch) thick. If it's too thin, it might overcook or fall apart; too thick, and the inside won't get beautifully warm and soft.
-*   **Go for Dry Heat:** You don't need oil! A hot, dry non-stick pan or a preheated grill is your best friend. The cheese will release its own fat as it cooks, creating a naturally non-stick surface.
-*   **Don't Overcrowd the Pan:** Cook in batches if you need to. Giving the slices space ensures they fry or grill rather than steam, which is the key to getting that signature squeaky-yet-soft texture.
+* **Pat It Dry:** Before you start, always pat your halloumi slices dry with a paper towel. This removes excess brine and is crucial for achieving that perfect golden-brown crust.
+* **Slice it Right:** Aim for slices about 1cm (or half an inch) thick. If it's too thin, it might overcook or fall apart; too thick, and the inside won't get beautifully warm and soft.
+* **Go for Dry Heat:** You don't need oil! A hot, dry non-stick pan or a preheated grill is your best friend. The cheese will release its own fat as it cooks, creating a naturally non-stick surface.
+* **Don't Overcrowd the Pan:** Cook in batches if you need to. Giving the slices space ensures they fry or grill rather than steam, which is the key to getting that signature squeaky-yet-soft texture.
 
 ### 1. For a Speedy Lunch: 10-Minute Halloumi Pittas with Couscous Salad
 
@@ -60,8 +60,8 @@ Get ready for the ultimate indulgence. Crispy, spicy, and incredibly moreish, th
 ### What Goes Well with Halloumi?
 
 Halloumi's salty flavour profile makes it a perfect canvas for a variety of accompaniments. Try it with:
-*   A squeeze of **lemon** to cut through the richness.
-*   Fresh **mint** for a cooling contrast.
-*   Sweet flavours like **watermelon**, a drizzle of **honey**, or a kick of **sweet chilli sauce**.
+* A squeeze of **lemon** to cut through the richness.
+* Fresh **mint** for a cooling contrast.
+* Sweet flavours like **watermelon**, a drizzle of **honey**, or a kick of **sweet chilli sauce**.
 
-From speedy salads to indulgent weekend treats, halloumi proves it can do it all. We hope this guide has inspired you to get creative in the kitchen. Grab your favourite Gousto recipe and get ready to fall in love with this wonderfully versatile cheese!
+From speedy salads to indulgent weekend treats, halloumi proves it can do it all. Hopefully this guide has inspired you to get creative in the kitchen. Grab your favourite Gousto recipe and get ready to fall in love with this wonderfully versatile cheese!

@@ -1,7 +1,7 @@
 ---
-title: "A Culinary Passport: Exploring the Best World Flavours with Gousto"
+title: "A Culinary Passport: Exploring the Best World Flavours"
 date: 2025-06-10
-cover: ./images/a-culinary-passport-exploring-the-best-world-flavours.jpg
+cover: ./images/thai-green-chicken-curry-with-rice-and-lime-slaw.jpg
 meta:
   description: "Embark on a culinary journey with our guide to the best international Gousto recipes. Discover authentic flavours from Thailand, India, Mexico, and beyond."
 recipes:
@@ -13,9 +13,9 @@ recipes:
   - "moroccan-style-lamb-and-sweet-potato-tagine"
 ---
 
-Bored of the same old meals? It's time to break free from your routine and embark on a culinary adventure. With Gousto, your kitchen can become a gateway to the world's most exciting cuisines. From the fragrant street food of Bangkok to the rustic kitchens of Tuscany, exploring international recipes is a thrilling way to discover new tastes, learn new skills, and make every meal an event.
+Bored of the same old meals? It's time to break free from your routine and embark on a culinary adventure. With these Gousto recipes, your kitchen can become a gateway to the world's most exciting cuisines. From the fragrant street food of Bangkok to the rustic kitchens of Tuscany, exploring international recipes is a thrilling way to discover new tastes, learn new skills, and make every meal an event.
 
-This guide will walk you through some of the most popular and flavourful cuisines available on gousto.wiki, complete with must-try recipe suggestions to get you started.
+This guide will walk you through some of the most popular and flavourful cuisines available, complete with must-try recipe suggestions to get you started.
 
 ### 🇹🇭 Thai Cuisine: A Symphony of Sweet, Sour, and Spicy
 
@@ -77,4 +77,4 @@ This hearty and aromatic stew is a true taste of Morocco. Tender lamb and sweet 
 
 → [**View all Moroccan recipes**](/recipes/cuisine/moroccan/)
 
-Ready to start your culinary journey? Use the cuisine filters on gousto.wiki to explore these and many other world cuisines. Your next favourite dish is just a click away.
+Ready to start your culinary journey? Use the cuisine filters to explore these and many other world cuisines. Your next favourite dish is just a click away.
