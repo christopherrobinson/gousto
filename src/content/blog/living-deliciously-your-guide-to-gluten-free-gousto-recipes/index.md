@@ -1,7 +1,7 @@
 ---
 title: "Living Deliciously: Your Ultimate Guide to Amazing Gluten-Free Gousto Recipes"
 date: 2025-07-01
-cover: ./images/living-deliciously-your-guide-to-gluten-free-gousto-recipes.jpg
+cover: ./images/courgette-pea-and-goats-cheese-gluten-free-linguine.jpg
 meta:
   description: "Explore a world of flavour without compromise with our ultimate guide to the best gluten-free Gousto recipes. Perfect for those with coeliac disease or anyone choosing a gluten-free lifestyle, we offer tips, inspiration, and delicious meal ideas."
 recipes:
@@ -12,9 +12,9 @@ recipes:
   - "rump-steak-with-quinoa-and-chimichurri-yoghurt"
 ---
 
-Whether you're navigating a coeliac diagnosis, managing a gluten sensitivity, or simply choosing to reduce gluten in your diet, finding exciting, flavour-packed meals can often feel like a daunting task. The gluten-free world has come a long way, but the fear of missing out on your favourite dishes is real. But a dietary need should never be a barrier to culinary joy. That's why we've curated a fantastic range of gluten-free recipes that are anything but boring.
+Whether you're navigating a coeliac diagnosis, managing a gluten sensitivity, or simply choosing to reduce gluten in your diet, finding exciting, flavour-packed meals can often feel like a daunting task. The gluten-free world has come a long way, but the fear of missing out on your favourite dishes is real. But a dietary need should never be a barrier to culinary joy. That's why Gousto have curated a fantastic range of gluten-free recipes that are anything but boring.
 
-This guide is your companion to unlocking just how delicious and effortless gluten-free cooking can be. We'll walk you through some of our most-loved gluten-free dishes that deliver all the comfort and flavour you crave, and we'll share some tips for keeping your kitchen a safe and happy gluten-free zone.
+This guide is your companion to unlocking just how delicious and effortless gluten-free cooking can be. It will walk you through some of the most-loved gluten-free dishes that deliver all the comfort and flavour you crave, and share some tips for keeping your kitchen a safe and happy gluten-free zone.
 
 ### First things first: What is Gluten?
 
@@ -25,17 +25,18 @@ Understanding what to avoid is key, but the most exciting part is discovering th
 ### Top Tips for a Gluten-Free Kitchen
 
 To ensure your meals are safely gluten-free, especially if you have coeliac disease, preventing cross-contamination is crucial. Here are a few simple tips:
-*   **Separate Utensils:** Use dedicated chopping boards, toasters, and utensils for gluten-free food preparation.
-*   **Read Labels Carefully:** Always check ingredient lists on packaged goods, as gluten can hide in unexpected places like sauces and seasonings.
-*   **Smart Storage:** Store gluten-free flours and products in sealed containers and on higher shelves in your pantry to avoid contamination from gluten-containing products above.
+
+* **Separate Utensils:** Use dedicated chopping boards, toasters, and utensils for gluten-free food preparation.
+* **Read Labels Carefully:** Always check ingredient lists on packaged goods, as gluten can hide in unexpected places like sauces and seasonings.
+* **Smart Storage:** Store gluten-free flours and products in sealed containers and on higher shelves in your pantry to avoid contamination from gluten-containing products above.
 
 Now, let's get to the delicious part!
 
 ---
 
-## Our Top 5 Gluten-Free Recipes to Try Tonight
+## Top 5 Gluten-Free Recipes to Try Tonight
 
-We've handpicked five of our most popular gluten-free recipes that are guaranteed to impress.
+Here are five of the most popular gluten-free Gousto recipes that are guaranteed to impress.
 
 ### 🐐 For a Taste of Freshness: [Courgette, Pea & Goats' Cheese Gluten Free Linguine](/recipes/courgette-pea-and-goats-cheese-gluten-free-linguine/)
 

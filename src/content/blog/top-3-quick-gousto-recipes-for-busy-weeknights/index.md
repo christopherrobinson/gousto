@@ -1,7 +1,7 @@
 ---
 title: "Top 3 Quick Gousto Recipes for Busy Weeknights"
 date: 2025-06-24
-cover: ./images/top-3-quick-gousto-recipes-for-busy-weeknights.jpg
+cover: ./images/warm-lemony-lean-beef-tabbouleh.jpg
 meta:
   description: "Reclaim your weeknights with these 3 delicious Gousto recipes, all ready in under 30 minutes. Fast, flavourful, and easy to follow with gousto.wiki."
 recipes:
@@ -12,15 +12,15 @@ recipes:
 
 The clock is ticking, your stomach is rumbling, and the last thing you want is a complicated, time-consuming meal. We've all been there. But a busy weeknight doesn't have to mean a compromise on flavour or quality. With Gousto's incredible range of speedy recipes, you can have a delicious, home-cooked dinner on the table in under 30 minutes.
 
-Here are three of our absolute favourite quick recipes, perfect for reclaiming your weeknights.
+Here are three of the absolute favourite quick recipes, perfect for reclaiming your weeknights.
 
 ### Quick Tips for Speedy Cooking
 
 Before we dive in, here are a few tricks to make your cooking even faster:
 
-*   **Read Ahead:** Briefly scan the recipe before you start. Knowing what's coming next saves precious minutes.
-*   **Prep Your Veggies:** Chop all your vegetables before you start cooking. A little organisation goes a long way.
-*   **Get Your Water Boiling:** If the recipe needs boiled water (for pasta, couscous, etc.), put the kettle on right at the start.
+* **Read Ahead:** Briefly scan the recipe before you start. Knowing what's coming next saves precious minutes.
+* **Prep Your Veggies:** Chop all your vegetables before you start cooking. A little organisation goes a long way.
+* **Get Your Water Boiling:** If the recipe needs boiled water (for pasta, couscous, etc.), put the kettle on right at the start.
 
 ---
 

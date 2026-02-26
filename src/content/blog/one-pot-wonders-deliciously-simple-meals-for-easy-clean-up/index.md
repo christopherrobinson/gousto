@@ -1,7 +1,7 @@
 ---
 title: "One-Pot Wonders: Deliciously Simple Meals for Easy Clean-Up"
 date: 2025-06-03
-cover: ./images/one-pot-wonders-deliciously-simple-meals-for-easy-clean-up.jpg
+cover: ./images/10-min-one-pot-chorizo-and-tomato-rice.jpg
 meta:
   description: "Discover the magic of one-pot cooking with Gousto! Enjoy delicious, flavour-packed meals with minimal washing up. Perfect for busy weeknights."
 recipes:
@@ -11,18 +11,18 @@ recipes:
   - "one-pot-mexican-style-beef-rice-and-beans"
 ---
 
-In the hustle and bustle of daily life, finding time to cook a delicious meal can be a challenge. But what if we told you that you could create incredible, flavour-packed dishes with minimal effort and, even better, minimal washing up? Enter the world of **one-pot wonders**!
+In the hustle and bustle of daily life, finding time to cook a delicious meal can be a challenge. But what if you could create incredible, flavour-packed dishes with minimal effort and, even better, minimal washing up? Enter the world of **one-pot wonders**!
 
-One-pot recipes are a game-changer for busy weeknights, lazy weekends, or whenever you just don't feel like tackling a mountain of dishes. Everything cooks together in a single pan, pot, or tray, allowing flavours to meld beautifully and making clean-up a breeze. At gousto.wiki, we've got a fantastic selection of these culinary heroes, and we're here to share some of our favourites.
+One-pot recipes are a game-changer for busy weeknights, lazy weekends, or whenever you just don't feel like tackling a mountain of dishes. Everything cooks together in a single pan, pot, or tray, allowing flavours to meld beautifully and making clean-up a breeze. On gousto.wiki, there's a fantastic selection of these culinary heroes, and this guide will share some of the favourites.
 
 ### Why Choose One-Pot Meals?
 
-*   **Effortless Cooking:** Less chopping, less stirring, less fuss. Just combine ingredients and let the magic happen.
-*   **Maximum Flavour:** Cooking ingredients together allows their flavours to infuse, creating deeper, richer tastes.
-*   **Minimal Clean-Up:** The biggest win! Say goodbye to stacks of pots, pans, and baking trays.
-*   **Nutrient-Packed:** Often, one-pot meals are designed to be complete, balanced dishes with protein, carbs, and plenty of vegetables.
+* **Effortless Cooking:** Less chopping, less stirring, less fuss. Just combine ingredients and let the magic happen.
+* **Maximum Flavour:** Cooking ingredients together allows their flavours to infuse, creating deeper, richer tastes.
+* **Minimal Clean-Up:** The biggest win! Say goodbye to stacks of pots, pans, and baking trays.
+* **Nutrient-Packed:** Often, one-pot meals are designed to be complete, balanced dishes with protein, carbs, and plenty of vegetables.
 
-### Our Top One-Pot Gousto Recipes
+### Top One-Pot Gousto Recipes
 
 Here are four fantastic one-pot recipes from Gousto that will simplify your cooking and delight your taste buds:
 
@@ -60,9 +60,9 @@ Bring the fiesta to your kitchen with this flavour-packed Mexican-inspired dish.
 
 ### Tips for One-Pot Success
 
-*   **Choose the Right Pot:** A large, heavy-bottomed pot, Dutch oven, or deep skillet is ideal for most one-pot meals.
-*   **Layering Matters:** Follow the recipe's layering instructions carefully, especially for dishes with pasta or rice, to ensure even cooking.
-*   **Don't Peek Too Much:** Resist the urge to lift the lid constantly, as this releases steam and can affect cooking times.
+* **Choose the Right Pot:** A large, heavy-bottomed pot, Dutch oven, or deep skillet is ideal for most one-pot meals.
+* **Layering Matters:** Follow the recipe's layering instructions carefully, especially for dishes with pasta or rice, to ensure even cooking.
+* **Don't Peek Too Much:** Resist the urge to lift the lid constantly, as this releases steam and can affect cooking times.
 
 ---
 
