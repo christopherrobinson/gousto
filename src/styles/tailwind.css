@@ -11,6 +11,10 @@
 @config '../../tailwind.config.mjs';
 
 @layer base {
+  :root {
+    --tw-duration: 300ms;
+  }
+
   .text-danger {
     color: #ff0032;
   }
