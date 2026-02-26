@@ -7,11 +7,19 @@
     "gousto_id": "7495",
     "rating": {
         "average": 4.5,
-        "count": 664
+        "count": 694
     },
     "description": "This Sicilian-style one pot is packed with traditional flavours. You'll simmer aubergine, sausage, chilli and fennel in a hearty tomato sauce with pasta before topping with fresh basil. Delizioso.",
     "cuisine": "Italian",
     "ingredients": [
+        {
+            "label": "Jolly Hog pork sausagemeat (150g)",
+            "gousto_uuid": "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
+            "allergens": [
+                "sulphites"
+            ],
+            "image": "/images/ingredients/a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8.jpg"
+        },
         {
             "label": "Dried chilli flakes (0.5tsp)",
             "gousto_uuid": "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -47,14 +55,6 @@
             "gousto_uuid": "625623ea-dc96-4c22-91a5-f4ffcad92b39",
             "allergens": [],
             "image": "/images/ingredients/625623ea-dc96-4c22-91a5-f4ffcad92b39.jpg"
-        },
-        {
-            "label": "Sausage meat (150g)",
-            "gousto_uuid": "14b6619e-48e9-4256-9e96-650cf7de7ad3",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/14b6619e-48e9-4256-9e96-650cf7de7ad3.jpg"
         },
         {
             "label": "Basil (5g)",
@@ -148,27 +148,27 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 122,
-            "energy_kj": 518,
-            "fat_mg": 3574,
-            "fat_saturates_mg": 1202,
-            "carbs_mg": 18591,
-            "carbs_sugars_mg": 2892,
-            "fibre_mg": 1858,
-            "protein_mg": 5292,
-            "salt_mg": 394,
+            "energy_kcal": 117,
+            "energy_kj": 494,
+            "fat_mg": 3107,
+            "fat_saturates_mg": 1130,
+            "carbs_mg": 18456,
+            "carbs_sugars_mg": 2741,
+            "fibre_mg": 2099,
+            "protein_mg": 5217,
+            "salt_mg": 409,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 611,
-            "energy_kj": 2579,
-            "fat_mg": 17793,
-            "fat_saturates_mg": 5985,
-            "carbs_mg": 92541,
-            "carbs_sugars_mg": 14396,
-            "fibre_mg": 9249,
-            "protein_mg": 26344,
-            "salt_mg": 1964,
+            "energy_kcal": 583,
+            "energy_kj": 2462,
+            "fat_mg": 15468,
+            "fat_saturates_mg": 5625,
+            "carbs_mg": 91866,
+            "carbs_sugars_mg": 13646,
+            "fibre_mg": 10449,
+            "protein_mg": 25969,
+            "salt_mg": 2039,
             "net_weight_mg": 497750
         }
     },
@@ -176,6 +176,7 @@
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -183,7 +184,6 @@
                 "1a127de8-5cb9-4663-b6df-459c43a62e8e",
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "708afc04-2b39-44c6-9ff0-04c089351013",
                 "248e9920-213f-426d-90d4-611a29171065"
             ]
@@ -191,6 +191,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "ef6fff07-cda1-491c-bffe-d6f2614bf17a",
@@ -198,7 +199,6 @@
                 "f217148a-bb67-4f4e-a820-02a5122c2d3a",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "708afc04-2b39-44c6-9ff0-04c089351013",
                 "248e9920-213f-426d-90d4-611a29171065"
             ]
@@ -206,6 +206,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -214,7 +215,6 @@
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "708afc04-2b39-44c6-9ff0-04c089351013",
                 "248e9920-213f-426d-90d4-611a29171065"
             ]
@@ -222,6 +222,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "e005cb1e-5d67-45e3-8728-187e9bc0812c",
@@ -229,7 +230,6 @@
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "708afc04-2b39-44c6-9ff0-04c089351013",
                 "248e9920-213f-426d-90d4-611a29171065"
             ]
@@ -237,6 +237,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "5cac128e-7775-463a-8ddd-87a2f1588003",
                 "7019b8e0-50a7-46f9-8cef-550c4359cf71",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -246,7 +247,6 @@
                 "b8bf2636-16a7-4c9f-845b-d0a7a4aa09d6",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "4e949ce8-d92c-43fa-8c0d-110d903d6e60",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "708afc04-2b39-44c6-9ff0-04c089351013",
                 "248e9920-213f-426d-90d4-611a29171065"
             ]

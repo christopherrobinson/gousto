@@ -13,6 +13,14 @@
     "cuisine": "British",
     "ingredients": [
         {
+            "label": "Jolly Hog pork sausagemeat (150g)",
+            "gousto_uuid": "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
+            "allergens": [
+                "sulphites"
+            ],
+            "image": "/images/ingredients/a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8.jpg"
+        },
+        {
             "label": "Leek",
             "gousto_uuid": "645a774c-589a-4172-9f0b-dd51a3c7e739",
             "allergens": [],
@@ -75,14 +83,6 @@
             "gousto_uuid": "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
             "allergens": [],
             "image": "/images/ingredients/ffcdbf19-2791-4eb1-90fc-5db9d6db6533.jpg"
-        },
-        {
-            "label": "Sausage meat (150g)",
-            "gousto_uuid": "14b6619e-48e9-4256-9e96-650cf7de7ad3",
-            "allergens": [
-                "sulphites"
-            ],
-            "image": "/images/ingredients/14b6619e-48e9-4256-9e96-650cf7de7ad3.jpg"
         },
         {
             "label": "Soft cheese (50g)",
@@ -189,34 +189,35 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 112,
-            "energy_kj": 472,
-            "fat_mg": 4497,
-            "fat_saturates_mg": 2102,
-            "carbs_mg": 10571,
-            "carbs_sugars_mg": 2697,
-            "fibre_mg": 1566,
-            "protein_mg": 7942,
-            "salt_mg": 406,
+            "energy_kcal": 119,
+            "energy_kj": 498,
+            "fat_mg": 4932,
+            "fat_saturates_mg": 2364,
+            "carbs_mg": 11168,
+            "carbs_sugars_mg": 2462,
+            "fibre_mg": 1618,
+            "protein_mg": 8117,
+            "salt_mg": 455,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 806,
-            "energy_kj": 3383,
-            "fat_mg": 32212,
-            "fat_saturates_mg": 15056,
-            "carbs_mg": 75710,
-            "carbs_sugars_mg": 19319,
-            "fibre_mg": 11220,
-            "protein_mg": 56878,
-            "salt_mg": 2911,
-            "net_weight_mg": 716150
+            "energy_kcal": 769,
+            "energy_kj": 3224,
+            "fat_mg": 31872,
+            "fat_saturates_mg": 15280,
+            "carbs_mg": 72165,
+            "carbs_sugars_mg": 15909,
+            "fibre_mg": 10460,
+            "protein_mg": 52453,
+            "salt_mg": 2944,
+            "net_weight_mg": 646150
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "f274998b-4e68-45a7-a637-b353b961427a",
@@ -229,7 +230,6 @@
                 "0bf6cb32-c4d0-4201-8304-8133bfe8164a",
                 "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -237,6 +237,7 @@
         "2": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
@@ -249,7 +250,6 @@
                 "0bf6cb32-c4d0-4201-8304-8133bfe8164a",
                 "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -257,6 +257,7 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "f274998b-4e68-45a7-a637-b353b961427a",
@@ -270,7 +271,6 @@
                 "0bf6cb32-c4d0-4201-8304-8133bfe8164a",
                 "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -278,6 +278,7 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "671ddc57-c639-4db7-ab54-7fdc7fa2ec93",
@@ -290,7 +291,6 @@
                 "9366f231-1a90-466f-b292-1a237e15ddaf",
                 "260e9953-719b-430a-b7ef-f2c6e0aa56a5",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]
@@ -298,6 +298,7 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
+                "a2b7ef1f-c0d9-447d-afb9-a917c7eff3b8",
                 "7d18b8b2-e035-48fd-9da8-368c333f351e",
                 "aed1561d-bae6-487b-a645-4125a6829119",
                 "f274998b-4e68-45a7-a637-b353b961427a",
@@ -312,7 +313,6 @@
                 "bd9a0571-27e5-48ee-a951-f2beeaa1099a",
                 "260e9953-719b-430a-b7ef-f2c6e0aa56a5",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
-                "14b6619e-48e9-4256-9e96-650cf7de7ad3",
                 "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "8413c9fa-ae40-4ddb-abd6-03057fc3afd5"
             ]

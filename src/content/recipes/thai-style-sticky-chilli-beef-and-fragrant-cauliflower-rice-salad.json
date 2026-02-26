@@ -8,6 +8,26 @@
     "description": "This carb smart recipe replaces half the white rice for cauliflower rice. Add a kick to dinner with this sticky stir-fry. You'll cook beef with ginger and chilli before serving it on a bed of Thai-style rice salad, packed with carrot and cabbage slaw. Sprinkle over coriander and mint for a refreshing finish.",
     "ingredients": [
         {
+            "label": "Cauliflower rice (160g)",
+            "gousto_uuid": "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
+            "allergens": [],
+            "image": "/images/ingredients/c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33.jpg"
+        },
+        {
+            "label": "Fish sauce (8ml)",
+            "gousto_uuid": "f88228e9-eee1-48e1-bfdf-9bae025dd142",
+            "allergens": [
+                "celery",
+                "fish",
+                "mustard",
+                "nut",
+                "peanut",
+                "sesame",
+                "soya"
+            ],
+            "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
+        },
+        {
             "label": "White basmati rice (130g) x0",
             "gousto_uuid": "5f77383b-0530-4885-991e-ef41d67bc870",
             "allergens": [],
@@ -24,20 +44,6 @@
             "gousto_uuid": "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0",
             "allergens": [],
             "image": "/images/ingredients/ff803e84-0a7f-4519-ada0-9f78dd6e5ce0.jpg"
-        },
-        {
-            "label": "Fish sauce (8ml)",
-            "gousto_uuid": "f88228e9-eee1-48e1-bfdf-9bae025dd142",
-            "allergens": [
-                "celery",
-                "fish",
-                "mustard",
-                "nut",
-                "peanut",
-                "sesame",
-                "soya"
-            ],
-            "image": "/images/ingredients/f88228e9-eee1-48e1-bfdf-9bae025dd142.jpg"
         },
         {
             "label": "Soy sauce (8ml) x0",
@@ -59,12 +65,6 @@
             "gousto_uuid": "076a3314-6216-4cc6-bd92-188d2c9404e8",
             "allergens": [],
             "image": "/images/ingredients/076a3314-6216-4cc6-bd92-188d2c9404e8.jpg"
-        },
-        {
-            "label": "Cauliflower rice (160g)",
-            "gousto_uuid": "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
-            "allergens": [],
-            "image": "/images/ingredients/c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33.jpg"
         },
         {
             "label": "Garlic clove",
@@ -158,7 +158,7 @@
             "image": "/images/instructions/thai-style-sticky-chilli-beef-and-fragrant-cauliflower-rice-salad/step-3.jpg"
         },
         {
-            "instruction": "<p>Once the mince has browned, add the <strong>chopped garlic</strong>, <strong>chopped ginger</strong>, <strong>chopped chilli </strong>(can't handle the heat? Go easy!) and <strong>half</strong> your <strong>soy sauce </strong>(you'll use the rest later!) to the pan</p><p>Cook for a further 2 min or until fragrant, then add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>cold water</strong> with your <strong>red chilli relish</strong> and a generous pinch of <strong>salt</strong></p><p>Cook for 2 min or until the mince is sticky and cooked through (no pink meat!) \u2013 this is your <strong>Thai-style sticky chilli mince</strong></p>",
+            "instruction": "<p>Once the mince has browned, add the <strong>chopped garlic</strong>, <strong>chopped ginger</strong>, <strong>finely</strong> <strong>chopped chilli </strong>(can't handle the heat? Go easy!) and <strong>half</strong> your <strong>soy sauce </strong>(you'll use the rest later!) to the pan</p><p>Cook for a further 2 min or until fragrant, then add 1 tbsp <span class=\"text-purple\">[1 1/2 tbsp]</span> <span class=\"text-danger\">[2 tbsp]</span> <strong>cold water</strong> with your <strong>red chilli relish</strong> and a pinch of <strong>salt</strong></p><p>Cook for 2 min or until the mince is sticky and cooked through (no pink meat!) \u2013 this is your <strong>Thai-style sticky chilli mince</strong></p>",
             "order": 4,
             "image": "/images/instructions/thai-style-sticky-chilli-beef-and-fragrant-cauliflower-rice-salad/step-4.jpg"
         },
@@ -259,8 +259,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "30f763ae-dcfa-4e6a-afc5-929d5747b953",
-                "918d5383-38a6-45c2-8c96-8f91a945e964",
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
+                "918d5383-38a6-45c2-8c96-8f91a945e964",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "61499436-65ce-4e9a-8e7b-72882f1121a8",
@@ -271,8 +271,8 @@
                 "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
-                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                "ae187fa5-d5e2-407e-b1c9-6f31473b4042",
                 "ff803e84-0a7f-4519-ada0-9f78dd6e5ce0"
             ]
         },
@@ -298,8 +298,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "30f763ae-dcfa-4e6a-afc5-929d5747b953",
-                "918d5383-38a6-45c2-8c96-8f91a945e964",
                 "a7f888da-1e74-4180-9550-f7c69dcc5872",
+                "918d5383-38a6-45c2-8c96-8f91a945e964",
                 "c11b2ba9-dcfd-4c90-b65c-f5f6fb594d33",
                 "40769a3c-952b-492d-85af-b568ada4dd95",
                 "61499436-65ce-4e9a-8e7b-72882f1121a8",
@@ -310,8 +310,8 @@
                 "076a3314-6216-4cc6-bd92-188d2c9404e8",
                 "60c142d2-164a-42e1-8d3e-aca1b3635e15",
                 "58516075-8bdb-4567-9f1f-8135695ef8b4",
-                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
+                "d516304e-cb6e-42a9-8d0a-0e0d9477a800",
                 "5f77383b-0530-4885-991e-ef41d67bc870"
             ]
         }

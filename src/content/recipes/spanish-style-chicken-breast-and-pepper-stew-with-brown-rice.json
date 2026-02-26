@@ -5,7 +5,11 @@
         "All Gousto Recipes"
     ],
     "gousto_id": "12803",
-    "description": "Full of flavour and easy to prepare, this Spanish chicken & pepper stew is a sure-fire winner. Smoked paprika gives the chicken a beautiful colour and flavour. Drizzle over a garlic mayo, serve with white rice and you've got a sizzling Spanish hit on your hands!",
+    "rating": {
+        "average": 5,
+        "count": 4
+    },
+    "description": "Full of flavour and easy to prepare, this Spanish chicken & pepper stew is a sure-fire winner. Smoked paprika gives the chicken a beautiful colour and flavour. Drizzle over a garlic mayo, serve with rice and you've got a sizzling Spanish hit on your hands!",
     "cuisine": "Spanish",
     "ingredients": [
         {
@@ -39,13 +43,12 @@
             "image": "/images/ingredients/9bbbe335-1516-4488-957c-814e34eae5b1.jpg"
         },
         {
-            "label": "Mayonnaise (50ml) x0",
-            "gousto_uuid": "70f967b5-e78a-44a4-9450-a52705125b45",
+            "label": "Vegan mayonnaise (50ml) x1",
+            "gousto_uuid": "524ef883-ad25-46dd-9fd2-2d680cacc646",
             "allergens": [
-                "egg",
                 "mustard"
             ],
-            "image": "/images/ingredients/70f967b5-e78a-44a4-9450-a52705125b45.jpg"
+            "image": "/images/ingredients/524ef883-ad25-46dd-9fd2-2d680cacc646.jpg"
         },
         {
             "label": "Dried oregano (1tsp)",
@@ -58,15 +61,6 @@
             "gousto_uuid": "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
             "allergens": [],
             "image": "/images/ingredients/da7745b9-7d7f-49bf-8b42-9b95d8dde2c7.jpg"
-        },
-        {
-            "label": "Mayonnaise (25ml)",
-            "gousto_uuid": "cc724d5b-17de-402f-bc33-8e8008f365fa",
-            "allergens": [
-                "egg",
-                "mustard"
-            ],
-            "image": "/images/ingredients/cc724d5b-17de-402f-bc33-8e8008f365fa.jpg"
         },
         {
             "label": "Black olives (40g)",
@@ -144,7 +138,7 @@
             "image": "/images/instructions/spanish-style-chicken-breast-and-pepper-stew-with-brown-rice/step-1.jpg"
         },
         {
-            "instruction": "<p>Add your <strong>chicken breast portion[s]</strong> to a baking tray (use <strong>tin foil</strong> to avoid mess!) with a drizzle of <strong>vegetable oil </strong>and a pinch of<strong> salt</strong></p><p>Sprinkle over your <strong>ground smoked paprika</strong> and give everything a good mix up, then put the tray in the oven for 18-20 min or until cooked through (no pink meat!)</p>",
+            "instruction": "<p>Add your <strong>chicken</strong> to a baking tray (use <strong>tin foil</strong> to avoid mess!) with a drizzle of <strong>vegetable oil </strong>and a pinch of<strong> salt</strong></p><p>Sprinkle over your <strong>ground smoked paprika</strong> and give everything a good mix up, then put the tray in the oven for 18-20 min or until cooked through (no pink meat!)</p>",
             "order": 2,
             "image": "/images/instructions/spanish-style-chicken-breast-and-pepper-stew-with-brown-rice/step-2.jpg"
         },
@@ -169,42 +163,41 @@
             "image": "/images/instructions/spanish-style-chicken-breast-and-pepper-stew-with-brown-rice/step-6.jpg"
         },
         {
-            "instruction": "<p>Once cooked, remove the chicken from the oven and transfer it to a clean board and shred apart using two forks \u2013 this technique is known as 'pulling'</p><p>Add the <strong>pulled chicken </strong>and<strong> dried oregano</strong> to the pan and cook for a final 2-3 min or until the chicken is warmed through</p><p>Season generously with <strong>black pepper</strong> \u2013 this is your <strong>Spanish-style chicken breast & pepper stew</strong></p>",
+            "instruction": "<p>Once cooked, remove the chicken from the oven and transfer it to a clean board and shred apart using two forks \u2013 this technique is known as 'pulling'</p><p>Add the <strong>pulled chicken </strong>and<strong> dried oregano</strong> to the pan and cook for a final 2-3 min or until the chicken is warmed through</p><p>Season generously with <strong>black pepper</strong> \u2013 this is your <strong>Spanish-style chicken & pepper stew</strong></p>",
             "order": 7,
             "image": "/images/instructions/spanish-style-chicken-breast-and-pepper-stew-with-brown-rice/step-7.jpg"
         },
         {
-            "instruction": "<p>Serve the <strong>Spanish-style chicken breast & pepper stew</strong> over the<strong> cooked rice</strong></p><p>Drizzle the <strong>garlic aioli</strong> all over</p><p>Enjoy!</p>",
+            "instruction": "<p>Serve the <strong>Spanish-style chicken & pepper stew</strong> over the<strong> cooked rice</strong></p><p>Drizzle the <strong>garlic aioli</strong> all over</p><p>Enjoy!</p>",
             "order": 8
         }
     ],
     "allergens": [
-        "egg",
         "mustard"
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 128,
-            "energy_kj": 539,
-            "fat_mg": 4311,
-            "fat_saturates_mg": 604,
-            "carbs_mg": 14028,
+            "energy_kcal": 124,
+            "energy_kj": 523,
+            "fat_mg": 3797,
+            "fat_saturates_mg": 567,
+            "carbs_mg": 14140,
             "carbs_sugars_mg": 2209,
-            "fibre_mg": 1472,
-            "protein_mg": 8203,
-            "salt_mg": 410,
+            "fibre_mg": 1458,
+            "protein_mg": 8191,
+            "salt_mg": 414,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 563,
-            "energy_kj": 2365,
-            "fat_mg": 18893,
-            "fat_saturates_mg": 2649,
-            "carbs_mg": 61482,
+            "energy_kcal": 545,
+            "energy_kj": 2294,
+            "fat_mg": 16643,
+            "fat_saturates_mg": 2486,
+            "carbs_mg": 61969,
             "carbs_sugars_mg": 9683,
-            "fibre_mg": 6453,
-            "protein_mg": 35951,
-            "salt_mg": 1798,
+            "fibre_mg": 6391,
+            "protein_mg": 35901,
+            "salt_mg": 1818,
             "net_weight_mg": 438250
         }
     },
@@ -220,8 +213,8 @@
                 "1e996b7b-5628-4e4e-8815-567555b2ffa6",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
-                "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+                "524ef883-ad25-46dd-9fd2-2d680cacc646",
                 "ef566c78-5df6-49d9-8356-68789149176f",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
@@ -237,8 +230,8 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "cc724d5b-17de-402f-bc33-8e8008f365fa",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+                "524ef883-ad25-46dd-9fd2-2d680cacc646",
                 "ef566c78-5df6-49d9-8356-68789149176f",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
@@ -247,8 +240,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "f67d256a-866c-4110-b863-e47f32ea89f7",
-                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "39e0c941-6dad-405a-9987-2b662c32bcd8",
+                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
                 "f274998b-4e68-45a7-a637-b353b961427a",
@@ -258,8 +251,8 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "70f967b5-e78a-44a4-9450-a52705125b45",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+                "524ef883-ad25-46dd-9fd2-2d680cacc646",
                 "ef566c78-5df6-49d9-8356-68789149176f",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
@@ -275,8 +268,8 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "70f967b5-e78a-44a4-9450-a52705125b45",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+                "524ef883-ad25-46dd-9fd2-2d680cacc646",
                 "ef566c78-5df6-49d9-8356-68789149176f",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]
@@ -285,8 +278,8 @@
             "is_offered": true,
             "ingredients_skus": [
                 "f67d256a-866c-4110-b863-e47f32ea89f7",
-                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "39e0c941-6dad-405a-9987-2b662c32bcd8",
+                "a82cde06-2866-4881-8a56-f9b1c5383901",
                 "f56ddebd-04ab-40ec-8bb5-d87c08a236db",
                 "b3374bc8-0097-449f-9ac6-b53299104e11",
                 "f274998b-4e68-45a7-a637-b353b961427a",
@@ -296,10 +289,9 @@
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
-                "70f967b5-e78a-44a4-9450-a52705125b45",
-                "cc724d5b-17de-402f-bc33-8e8008f365fa",
-                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
+                "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6",
+                "524ef883-ad25-46dd-9fd2-2d680cacc646",
                 "ef566c78-5df6-49d9-8356-68789149176f",
                 "4d56f6a8-e1a5-4cf1-b273-088b02206556"
             ]

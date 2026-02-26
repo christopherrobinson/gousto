@@ -22,14 +22,6 @@
             "image": "/images/ingredients/3c07d126-f655-437c-aa1d-c38dbbae0398.jpg"
         },
         {
-            "label": "Cornish clotted cream (40g)",
-            "gousto_uuid": "488d5751-dcff-4985-88c0-bf745ff54904",
-            "allergens": [
-                "milk"
-            ],
-            "image": "/images/ingredients/488d5751-dcff-4985-88c0-bf745ff54904.jpg"
-        },
-        {
             "label": "Diced chicken breast (125g) x0",
             "gousto_uuid": "66df65e7-80b2-4c81-911b-1e399bb9ab6b",
             "allergens": [],
@@ -90,18 +82,18 @@
             "image": "/images/ingredients/79dc3eeb-991b-4673-913e-fbdc339f1fcf.jpg"
         },
         {
-            "label": "Spelt (60g) x0",
-            "gousto_uuid": "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
-            "allergens": [
-                "gluten"
-            ],
-            "image": "/images/ingredients/1ecfe595-88d2-4d85-a8bb-41b13568cdf8.jpg"
-        },
-        {
             "label": "Harissa paste (20g) x0",
             "gousto_uuid": "0aa32d89-57bc-4ff1-a0a8-b7998f7b0198",
             "allergens": [],
             "image": "/images/ingredients/0aa32d89-57bc-4ff1-a0a8-b7998f7b0198.jpg"
+        },
+        {
+            "label": "Soft cheese (50g)",
+            "gousto_uuid": "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
+            "allergens": [
+                "milk"
+            ],
+            "image": "/images/ingredients/ce4e14ae-e7fc-4452-86a3-fe439fe26df4.jpg"
         },
         {
             "label": "Tomato paste (16g) x0",
@@ -148,7 +140,7 @@
             "image": "/images/instructions/creamy-harissa-chicken-breast-with-cannellini-beans-and-spelt/step-2.jpg"
         },
         {
-            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>diced chicken breast </strong>with your <strong>ground smoked paprika </strong>and <strong>diced onion</strong> and cook for 3-4 min or until the chicken is starting to brown</p>",
+            "instruction": "<p>Heat a large, wide-based pan (preferably non-stick) with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p>Once hot, add your <strong>diced chicken </strong>with your <strong>ground smoked paprika </strong>and <strong>diced onion</strong> and cook for 3-4 min or until the chicken is starting to brown</p>",
             "order": 3,
             "image": "/images/instructions/creamy-harissa-chicken-breast-with-cannellini-beans-and-spelt/step-3.jpg"
         },
@@ -163,7 +155,7 @@
             "image": "/images/instructions/creamy-harissa-chicken-breast-with-cannellini-beans-and-spelt/step-5.jpg"
         },
         {
-            "instruction": "<p>Once thickened, add your <strong>clotted cream</strong>, <strong>chicken stock mix </strong>and <strong>harissa paste </strong>(can't handle the heat? Go easy!)<strong> </strong>to the pan and stir it all together \u2013 this is your <strong>creamy harissa chicken & cannellini beans</strong></p>",
+            "instruction": "<p>Once thickened, add your <strong>soft cheese</strong>, <strong>chicken stock mix </strong>and <strong>harissa paste </strong>(can't handle the heat? Go easy!)<strong> </strong>to the pan and stir it all together \u2013 this is your <strong>creamy harissa chicken & cannellini beans</strong></p>",
             "order": 6,
             "image": "/images/instructions/creamy-harissa-chicken-breast-with-cannellini-beans-and-spelt/step-6.jpg"
         },
@@ -184,35 +176,34 @@
     ],
     "nutritional_information": {
         "per_hundred_grams": {
-            "energy_kcal": 164,
-            "energy_kj": 688,
-            "fat_mg": 5706,
-            "fat_saturates_mg": 2642,
-            "carbs_mg": 16627,
-            "carbs_sugars_mg": 3344,
-            "fibre_mg": 3811,
-            "protein_mg": 12040,
-            "salt_mg": 615,
+            "energy_kcal": 147,
+            "energy_kj": 617,
+            "fat_mg": 3847,
+            "fat_saturates_mg": 1518,
+            "carbs_mg": 16483,
+            "carbs_sugars_mg": 3384,
+            "fibre_mg": 3758,
+            "protein_mg": 12096,
+            "salt_mg": 639,
             "net_weight_mg": 100000
         },
         "per_portion": {
-            "energy_kcal": 588,
-            "energy_kj": 2459,
-            "fat_mg": 20386,
-            "fat_saturates_mg": 9439,
-            "carbs_mg": 59401,
-            "carbs_sugars_mg": 11950,
+            "energy_kcal": 534,
+            "energy_kj": 2237,
+            "fat_mg": 13936,
+            "fat_saturates_mg": 5499,
+            "carbs_mg": 59711,
+            "carbs_sugars_mg": 12260,
             "fibre_mg": 13615,
-            "protein_mg": 43016,
-            "salt_mg": 2199,
-            "net_weight_mg": 357250
+            "protein_mg": 43821,
+            "salt_mg": 2315,
+            "net_weight_mg": 362250
         }
     },
     "portion_sizes": {
         "1": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1916617b-68a4-48fa-a4f6-b042df2cbc55",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -221,15 +212,15 @@
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
                 "0aa32d89-57bc-4ff1-a0a8-b7998f7b0198",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
+                "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b"
             ]
         },
         "2": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1916617b-68a4-48fa-a4f6-b042df2cbc55",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
@@ -238,6 +229,7 @@
                 "34b46d42-6be9-46f2-84c5-af9a818731da",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
@@ -246,7 +238,6 @@
         "3": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1916617b-68a4-48fa-a4f6-b042df2cbc55",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -254,13 +245,13 @@
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "9bbbe335-1516-4488-957c-814e34eae5b1",
-                "34b46d42-6be9-46f2-84c5-af9a818731da",
                 "0aa32d89-57bc-4ff1-a0a8-b7998f7b0198",
+                "34b46d42-6be9-46f2-84c5-af9a818731da",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
@@ -268,7 +259,6 @@
         "4": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1916617b-68a4-48fa-a4f6-b042df2cbc55",
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
@@ -277,6 +267,7 @@
                 "34b46d42-6be9-46f2-84c5-af9a818731da",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
@@ -285,7 +276,6 @@
         "5": {
             "is_offered": true,
             "ingredients_skus": [
-                "488d5751-dcff-4985-88c0-bf745ff54904",
                 "79dc3eeb-991b-4673-913e-fbdc339f1fcf",
                 "1916617b-68a4-48fa-a4f6-b042df2cbc55",
                 "dec1c16e-4785-40e7-b689-69721141bad6",
@@ -293,13 +283,13 @@
                 "b4c65e32-f116-4b82-be3f-7ef7d67d0fde",
                 "0cdeefe0-26b8-42f2-bced-9e677f809a26",
                 "da7745b9-7d7f-49bf-8b42-9b95d8dde2c7",
-                "34b46d42-6be9-46f2-84c5-af9a818731da",
                 "0aa32d89-57bc-4ff1-a0a8-b7998f7b0198",
+                "34b46d42-6be9-46f2-84c5-af9a818731da",
                 "625623ea-dc96-4c22-91a5-f4ffcad92b39",
                 "ffcdbf19-2791-4eb1-90fc-5db9d6db6533",
+                "ce4e14ae-e7fc-4452-86a3-fe439fe26df4",
                 "3c07d126-f655-437c-aa1d-c38dbbae0398",
                 "4e162fe5-2f0f-45e4-b11c-24ae22ba249b",
-                "1ecfe595-88d2-4d85-a8bb-41b13568cdf8",
                 "0ccd25ca-a1b2-49b3-a1d8-22b5b2d72f4b",
                 "03f6a5e1-8c58-4df1-9037-a536d4ebd1c6"
             ]
