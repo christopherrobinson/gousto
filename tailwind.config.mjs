@@ -57,9 +57,6 @@ module.exports = {
         sans: ['Geist', ...fontFamily.sans],
         serif: ['Noto Serif', ...fontFamily.serif],
       },
-      transitionDuration: {
-        DEFAULT: '300ms',
-      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
